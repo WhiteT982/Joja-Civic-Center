@@ -1,0 +1,14 @@
+{
+  "Name": "Joja Civic Center",
+  "Author": "blue704",
+  "Version": "1.0.0",
+  "Description": "A Joja Civic Center styled after the Community Center.",
+  "UniqueID": "blue704.Joja_CC",
+  "UpdateKeys": [],
+  "Dependencies": [
+		{"UniqueID": "FlashShifter.StardewValleyExpandedCP", "IsRequired": false}
+    ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+  }
