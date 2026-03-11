@@ -1,0 +1,56 @@
+{
+    "Changes": [
+        //Load JojaCC and Location
+    {
+      "Action": "Load",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/z_JojaCC.tmx",
+      "Priority": "Low"
+    },
+    {
+      "LogName": "Add JojaCC Map To Locations",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "JojaCC": {
+          "DisplayName": "{{i18n:blue704.Joja_JojaCC}}",
+          "DefaultArrivalTile": {
+            "X": 32,
+            "Y": 23
+          },
+          "MusicDefault": "jaunty",
+          "CreateOnLoad": {
+            "MapPath": "Maps/JojaCC"
+          }
+        }
+      }
+    },
+    {
+      "LogName": "Custom Locations Events Blank",
+      "Action": "Load",
+      "Target": "Data/Events/JojaCC",
+      "FromFile": "assets/blank.json"
+    },
+    //Town Map Edit
+    {
+      "When": {
+        "HasFlag": "jojaMember"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/Town",
+      "FromFile": "assets/z_TownJojaCC.tmx",
+      "FromArea": {
+        "X": 34,
+        "Y": 26,
+        "Width": 12,
+        "Height": 10
+      },
+      "ToArea": {
+        "X": 34,
+        "Y": 26,
+        "Width": 12,
+        "Height": 10
+      }
+    }
+]
+}

@@ -3,4 +3,7 @@
   "Changes": [
     {
       "Action": "Include",
-      "FromFile": 
+      "FromFile": "Data/mappatches.json"
+    }
+  ]
+}
