@@ -13,7 +13,7 @@
       "Target": "Data/Locations",
       "Entries": {
         "JojaCC": {
-          "DisplayName": "{{i18n:blue704.Joja_JojaCC}}",
+          "DisplayName": "{{i18n:blue704.JojaCC_JojaCC}}",
           "DefaultArrivalTile": {
             "X": 32,
             "Y": 23
@@ -40,17 +40,28 @@
       "Target": "Maps/Town",
       "FromFile": "assets/z_TownJojaCC.tmx",
       "FromArea": {
-        "X": 34,
+        "X": 33,
         "Y": 26,
-        "Width": 12,
+        "Width": 13,
         "Height": 10
       },
       "ToArea": {
-        "X": 34,
+        "X": 33,
         "Y": 26,
-        "Width": 12,
+        "Width": 13,
         "Height": 10
       }
+    },
+      {
+            "Action": "EditMap",
+            "Target": "Maps/Town",
+            "MapTiles": [
+                {
+                    "Position": { "X": 33, "Y": 31 },
+                    "Layer": "Paths",
+                    "Remove": true
+                }
+            ]
+        }
+      ]
     }
-]
-}
