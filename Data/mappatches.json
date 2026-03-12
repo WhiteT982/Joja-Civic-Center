@@ -4,7 +4,7 @@
     {
       "Action": "Load",
       "Target": "Maps/JojaCC",
-      "FromFile": "assets/z_JojaCC.tmx",
+      "FromFile": "assets/Maps/z_JojaCC.tmx",
       "Priority": "Low"
     },
     {
@@ -38,7 +38,7 @@
       },
       "Action": "EditMap",
       "Target": "Maps/Town",
-      "FromFile": "assets/z_TownJojaCC.tmx",
+      "FromFile": "assets/Maps/z_TownJojaCC.tmx",
       "FromArea": {
         "X": 33,
         "Y": 26,
