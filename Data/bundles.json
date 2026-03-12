@@ -1,0 +1,474 @@
+{
+    "Changes": [
+        {
+            "LogName": "Joja CC Bundles Main",
+			"Action": "EditData",
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
+                //Foraging Bundles
+            "blue704.JojaCC_ForagingBundleBook": {
+					"Location": "JojaCC",
+					"BundleName": "{{i18n: blue704.JojaCC_ForagingBundleBook}}",
+					"BundleDescription": "{{i18n: blue704.JojaCC_ForagingBundleAllReward}}",
+					"ShopPosition": "13, 22",
+					"ShopType": "CCBundle",
+					"ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
+					"ShopTextureSource": { "X": 48, "Y": 0, "Width": 16, "Height": 16 },
+					"ShopDrawDimensions": "64, 64",
+					"ShopDrawOffset": "0, 64",
+					"ShopAnimation": "0",
+                    "InstantShopRemoval": true,
+					"ShopCompletedAnimation": "0",
+					"JunimoNoteTexture": "UnlockableBundles/UI/MagicBookJunimoNote_Green",
+					"IsBook": true,
+					"BundleReward": {
+						"(O)TreasureTotem": 10
+					}
+				},
+				"blue704.JojaCC_ForagingBundle01": {
+					"Location": "JojaCC",
+					"BundleName": "{{i18n: blue704.JojaCC_ForagingBundle01}}",
+                    "ShopPosition": "80, 46",
+                    "PagePackageIndex": 0,
+					"BundleIcon": "Master_Fisher",
+					"BookId": "blue704.JojaCC_ForagingBundleBook",
+					"ShopType": "CCBundle",
+					"DrawQuestionMark": false, 
+					"BundleSlots": 5,
+					"Price": {
+						"(O)153": 5,
+						"(O)157": 5,
+						"(O)152": 2,
+						"(O)SeaJelly": 1,
+						"(O)RiverJelly": 1,
+                        "(O)CaveJelly": 1
+					},
+					"BundleReward": {
+						"(BC)Adam.Joja_FishTrap": 5
+					}
+				},
+				"blue704.JojaCC_ForagingBundle02": {
+					"Location": "JojaCC",
+					"BundleName": "{{i18n: blue704.JojaCC_ForagingBundle02}}",
+                    "ShopPosition": "222, 46",
+                    "PagePackageIndex": 1,
+					"BundleIcon": "Treasure_Hunter",
+					"BookId": "blue704.JojaCC_ForagingBundleBook",
+					"ShopType": "CCBundle",
+					"DrawQuestionMark": false, 
+					"BundleSlots": 5,
+					"Price": {
+						"(O)330": 3,
+						"(O)382": 5,
+						"(O)412": 1,
+						"(O)78": 1,
+						"(O)80": 1,
+						"(O)82": 1
+					},
+					"BundleReward": {
+						"(O)805": 5
+					}
+				},
+				"blue704.JojaCC_ForagingBundle03": {
+					"Location": "JojaCC",
+					"BundleName": "{{i18n: blue704.JojaCC_ForagingBundle03}}",
+                    "ShopPosition": "103, 111",
+                    "PagePackageIndex": 2,
+					"BundleIcon": "Summer_Foraging",
+					"BookId": "blue704.JojaCC_ForagingBundleBook",
+					"ShopType": "CCBundle",
+					"DrawQuestionMark": false, 
+					"BundleSlots": 6,
+					"Price": {
+						"(O)394": 1,
+						"(O)392": 1,
+						"(O)393": 1,
+						"(O)372": 1,
+						"(O)719": 1,
+						"(O)723": 1,
+						"(O)718": 1,
+                        "(O)397": 1
+					},
+					"BundleReward": {
+						"(BC)256": 2
+				}
+            },
+				"blue704.JojaCC_ForagingBundle04": {
+					"Location": "JojaCC",
+					"BundleName": "{{i18n: blue704.JojaCC_ForagingBundle04}}",
+                    "ShopPosition": "204, 111",
+                    "PagePackageIndex": 3,
+					"BundleIcon": "Mushrooms",
+					"BookId": "blue704.JojaCC_ForagingBundleBook",
+					"ShopType": "CCBundle",
+					"DrawQuestionMark": false, 
+					"BundleSlots": 4,
+                    "Price": {
+						"(O)404": 1,
+						"(O)420": 1,
+						"(O)422": 1,
+						"(O)257": 1,
+						"(O)281": 1
+					},
+					"BundleReward": {
+						"(BC)MushroomLog": 5
+					}
+				},
+				    //Farmer Bundles
+            "blue704.JojaCC_FarmerBundleBook": {
+					"Location": "JojaCC",
+					"BundleName": "{{i18n: blue704.JojaCC_FarmerBundleBook}}",
+					"BundleDescription": "{{i18n: blue704.JojaCC_FarmerBundleAllReward}}",
+					"ShopPosition": "16, 6",
+					"ShopType": "CCBundle",
+					"ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
+					"ShopTextureSource": { "X": 96, "Y": 0, "Width": 16, "Height": 16 },
+					"ShopDrawDimensions": "64, 64",
+					"ShopDrawOffset": "0, 64",
+					"ShopAnimation": "0",
+                    "InstantShopRemoval": true,
+					"ShopCompletedAnimation": "0",
+					"JunimoNoteTexture": "UnlockableBundles/UI/MagicBookJunimoNote_Yellow",
+					"IsBook": true,
+					"BundleReward": {
+						"(O)TreasureTotem": 10
+					}
+				},
+				"blue704.JojaCC_FarmerBundle01": {
+					"Location": "JojaCC",
+					"BundleName": "{{i18n: blue704.JojaCC_FarmerBundle01}}",
+                    "ShopPosition": "103, 46",
+                    "PagePackageIndex": 0,
+					"BundleIcon": "Spring_Crops",
+					"BookId": "blue704.JojaCC_FarmerBundleBook",
+					"ShopType": "CCBundle",
+					"DrawQuestionMark": false, 
+					"BundleSlots": 4,
+					"Price": {
+						"(O)Carrot": 1,
+						"(O)24": 1,
+						"(O)192": 1,
+						"(O)250": 1
+					},
+					"BundleReward": {
+						"(BC)15": 1
+					}
+				},
+				"blue704.JojaCC_FarmerBundle02": {
+					"Location": "JojaCC",
+					"BundleName": "{{i18n: blue704.JojaCC_FarmerBundle02}}",
+                    "ShopPosition": "123, 80",
+                    "PagePackageIndex": 3,
+					"BundleIcon": "Summer_Crops",
+					"BookId": "blue704.JojaCC_FarmerBundleBook",
+					"ShopType": "CCBundle",
+					"DrawQuestionMark": false, 
+					"BundleSlots": 4,
+					"Price": {
+						"(O)SummerSquash": 1,
+						"(O)264": 1,
+						"(O)262": 1,
+						"(O)593": 1
+					},
+					"BundleReward": {
+						"(O)805": 5
+					}
+				},
+				"blue704.JojaCC_FarmerBundle03": {
+					"Location": "JojaCC",
+					"BundleName": "{{i18n: blue704.JojaCC_FarmerBundle03}}",
+                    "ShopPosition": "80, 80",
+                    "PagePackageIndex": 2,
+					"BundleIcon": "Fall_Crops",
+					"BookId": "blue704.JojaCC_FarmerBundleBook",
+					"ShopType": "CCBundle",
+					"DrawQuestionMark": false, 
+					"BundleSlots": 4,
+					"Price": {
+						"(O)Broccoli": 1,
+						"(O)278": 1,
+						"(O)272": 1,
+						"(O)300": 1
+					},
+					"BundleReward": {
+						"(BC)256": 2
+				}
+            },
+				"blue704.JojaCC_FarmerBundle04": {
+					"Location": "JojaCC",
+					"BundleName": "{{i18n: blue704.JojaCC_FarmerBundle04}}",
+                    "ShopPosition": "222, 80",
+                    "PagePackageIndex": 1,
+					"BundleIcon": "Winter_Foraging",
+					"BookId": "blue704.JojaCC_FarmerBundleBook",
+					"ShopType": "CCBundle",
+					"DrawQuestionMark": false, 
+					"BundleSlots": 4,
+                    "Price": {
+						"(O)495": 1,
+						"(O)496": 1,
+						"(O)497": 1,
+						"(O)498": 1
+					},
+					"BundleReward": {
+						"(O)114": 5
+					}
+				},
+				"blue704.JojaCC_FarmerBundle05": {
+					"Location": "JojaCC",
+					"BundleName": "{{i18n: blue704.JojaCC_FarmerBundle05}}",
+                    "ShopPosition": "103, 111",
+                    "PagePackageIndex": 6,
+					"BundleIcon": "Quality_Crops",
+					"BookId": "blue704.JojaCC_FarmerBundleBook",
+					"ShopType": "CCBundle",
+					"DrawQuestionMark": false, 
+					"BundleSlots": 5,
+                    "Price": {
+						"(O)368": 10,
+						"(O)369": 5,
+						"(O)370": 10,
+						"(O)371": 5,
+						"(O)465": 10,
+						"(O)466": 5,
+						"(O)805": 10
+					},
+					"BundleReward": {
+						"(BC)114": 5
+					}
+				},
+				"blue704.JojaCC_FarmerBundle06": {
+					"Location": "JojaCC",
+					"BundleName": "{{i18n: blue704.JojaCC_FarmerBundle06}}",
+                    "ShopPosition": "204, 111",
+                    "PagePackageIndex": 5,
+					"BundleIconAsset": "{{InternalAssetKey: assets/BundleIcons/MayoBundle.png}}",
+					"BookId": "blue704.JojaCC_FarmerBundleBook",
+					"ShopType": "CCBundle",
+					"DrawQuestionMark": false, 
+					"BundleSlots": 3,
+                    "Price": {
+						"(O)306": 1,
+						"(O)307": 1,
+						"(O)308": 1
+					},
+					"BundleReward": {
+						"(BC)101": 1
+					}
+				},
+				"blue704.JojaCC_FarmerBundle07": {
+					"Location": "JojaCC",
+					"BundleName": "{{i18n: blue704.JojaCC_FarmerBundle07}}",
+                    "ShopPosition": "204, 46",
+                    "PagePackageIndex": 4,
+					"BundleIcon": "Home_Cook",
+					"BookId": "blue704.JojaCC_FarmerBundleBook",
+					"ShopType": "CCBundle",
+					"DrawQuestionMark": false, 
+					"BundleSlots": 8,
+                    "Price": {
+						"(O)246": 50,
+						"(O)247": 50,
+						"(O)419": 50,
+						"(O)245": 50,
+						"(O)176": 6,
+						"(O)180": 6,
+						"(O)184": 3,
+						"(O)423": 50,
+						"(O)216": 5,
+						"(O)229": 5
+					},
+					"BundleReward": {
+						"(0)289": 3
+					}
+				},
+				"blue704.JojaCC_FarmerBundle08": {
+					"Location": "JojaCC",
+					"BundleName": "{{i18n: blue704.JojaCC_FarmerBundle08}}",
+                    "ShopPosition": "182, 80",
+                    "PagePackageIndex": 6,
+					"BundleIcon": "Artisan",
+					"BookId": "blue704.JojaCC_FarmerBundleBook",
+					"ShopType": "CCBundle",
+					"DrawQuestionMark": false, 
+					"BundleSlots": 8,
+                    "Price": {
+						"(O)Adam.Joja_Cheeze": 5,
+						"(O)Adam.Joja_Honey": 2,
+						"(O)Adam.Joja_Wine": 1,
+						"(O)Adam.Joja_Mead": 1,
+						"(O)Adam.Joja_Juice": 1,
+						"(O)Adam.Joja_Beer": 1,
+						"(O)Adam.Joja_Jelly": 1,
+						"(O)Adam.Joja_Pickle": 1,
+						"(O)Adam.Joja_DriedFish": 1,
+						"(O)Adam.Joja_DriedRedMushrooms": 1
+					},
+					"BundleReward": {
+						"(0)289": 3
+					}
+				},
+				//Fisher Bundles
+            "blue704.JojaCC_FisherBundleBook": {
+					"Location": "JojaCC",
+					"BundleName": "{{i18n: blue704.JojaCC_FisherBundleBook}}",
+					"BundleDescription": "{{i18n: blue704.JojaCC_FisherBundleAllReward}}",
+					"ShopPosition": "36, 10",
+					"ShopType": "CCBundle",
+					"ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
+					"ShopTextureSource": { "X": 80, "Y": 0, "Width": 16, "Height": 16 },
+					"ShopDrawDimensions": "64, 64",
+					"ShopDrawOffset": "0, 64",
+					"ShopAnimation": "0",
+                    "InstantShopRemoval": true,
+					"ShopCompletedAnimation": "0",
+					"JunimoNoteTexture": "UnlockableBundles/UI/MagicBookJunimoNote_Teal",
+					"IsBook": true,
+					"BundleReward": {
+						"(O)TreasureTotem": 10
+					}
+				},
+				"blue704.JojaCC_FisherBundle01": {
+					"Location": "JojaCC",
+					"BundleName": "{{i18n: blue704.JojaCC_FisherBundle01}}",
+                    "ShopPosition": "103, 46",
+                    "PagePackageIndex": 0,
+					"BundleIcon": "Spring_Fishing",
+					"BookId": "blue704.JojaCC_FisherBundleBook",
+					"ShopType": "CCBundle",
+					"DrawQuestionMark": false, 
+					"BundleSlots": 6,
+					"Price": {
+						"(O)137": 1,
+						"(O)129": 1,
+						"(O)147": 1,
+						"(O)148": 1,
+						"(O)136": 1,
+						"(O)706": 1,
+						"(O)702": 1
+					},
+					"BundleReward": {
+						"(BC)Adam.Joja_TackleBin": 1
+					}
+				},
+				"blue704.JojaCC_FisherBundle02": {
+					"Location": "JojaCC",
+					"BundleName": "{{i18n: blue704.JojaCC_FisherBundle02}}",
+                    "ShopPosition": "204, 46",
+                    "PagePackageIndex": 3,
+					"BundleIcon": "Summer_Fishing",
+					"BookId": "blue704.JojaCC_FisherBundleBook",
+					"ShopType": "CCBundle",
+					"DrawQuestionMark": false, 
+					"BundleSlots": 6,
+					"Price": {
+						"(O)138": 1,
+						"(O)144": 1,
+						"(O)146": 1,
+						"(O)149": 1,
+						"(O)704": 1,
+						"(O)700": 1,
+						"(O)267": 1
+					},
+					"BundleReward": {
+						"(BC)Adam.Joja_FishSmoker": 2
+					}
+				},
+				"blue704.JojaCC_FisherBundle03": {
+					"Location": "JojaCC",
+					"BundleName": "{{i18n: blue704.JojaCC_FisherBundle03}}",
+                    "ShopPosition": "80, 80",
+                    "PagePackageIndex": 2,
+					"BundleIcon": "Fall_Fishing",
+					"BookId": "blue704.JojaCC_FisherBundleBook",
+					"ShopType": "CCBundle",
+					"DrawQuestionMark": false, 
+					"BundleSlots": 6,
+					"Price": {
+						"(O)139": 1,
+						"(O)154": 1,
+						"(O)269": 1,
+						"(O)699": 1,
+						"(O)701": 1,
+						"(O)705": 1,
+						"(O)140": 1
+					},
+					"BundleReward": {
+						"(BC)Adam.Joja_WormBin": 2
+				}
+            },
+				"blue704.JojaCC_FisherBundle04": {
+					"Location": "JojaCC",
+					"BundleName": "{{i18n: blue704.JojaCC_FisherBundle04}}",
+                    "ShopPosition": "222, 80",
+                    "PagePackageIndex": 1,
+					"BundleIcon": "Winter_Fishing",
+					"BookId": "blue704.JojaCC_FisherBundleBook",
+					"ShopType": "CCBundle",
+					"DrawQuestionMark": false, 
+					"BundleSlots": 6,
+                    "Price": {
+						"(O)141": 1,
+						"(O)151": 1,
+						"(O)707": 1,
+						"(O)698": 1,
+						"(O)161": 1,
+						"(O)708": 1,
+						"(O)130": 1
+					},
+					"BundleReward": {
+						"(O)265": 5
+					}
+				},
+				"blue704.JojaCC_FisherBundle05": {
+					"Location": "JojaCC",
+					"BundleName": "{{i18n: blue704.JojaCC_FisherBundle05}}",
+                    "ShopPosition": "204, 111",
+                    "PagePackageIndex": 6,
+					"BundleIcon": "Lake_Fish",
+					"BookId": "blue704.JojaCC_FisherBundleBook",
+					"ShopType": "CCBundle",
+					"DrawQuestionMark": false, 
+					"BundleSlots": 8,
+                    "Price": {
+						"(O)691": 1,
+						"(O)692": 1,
+						"(O)693": 1,
+						"(O)694": 1,
+						"(O)695": 1,
+						"(O)856": 1,
+						"(O)877": 1,
+						"(O)686": 1,
+						"(O)687": 1,
+						"(O)SonarBobber": 1
+					},
+					"BundleReward": {
+						"(T)IridiumRod": 1
+					}
+				},
+				"blue704.JojaCC_FisherBundle06": {
+					"Location": "JojaCC",
+					"BundleName": "{{i18n: blue704.JojaCC_FisherBundle06}}",
+                    "ShopPosition": "103, 111",
+                    "PagePackageIndex": 4,
+					"BundleIcon": "Fish_Farmer",
+					"BookId": "blue704.JojaCC_FisherBundleBook",
+					"ShopType": "CCBundle",
+					"DrawQuestionMark": false, 
+					"BundleSlots": 5,
+                    "Price": {
+						"(O)Adam.Joja_Caviar": 1,
+						"(O)Adam.Joja_AgedRoe": 1,
+						"(O)812": 1,
+						"(O)447": 1,
+						"(O)445": 1,
+						"(O)814": 1
+					},
+					"BundleReward": {
+						"(O)Book_Roe": 1
+					}
+				}
+            }
+        }
+    ]
+}
