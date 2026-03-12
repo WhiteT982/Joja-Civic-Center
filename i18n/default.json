@@ -1,4 +1,31 @@
 {
     //Place Names
-    "blue704.Joja_JojaCC": "Joja Civic Center"
+    "blue704.JojaCC_JojaCC": "Joja Civic Center",
+    //ForagingBundles
+    "blue704.JojaCC_ForagingBundleBook": "Foraging Bundles",
+    "blue704.JojaCC_ForagingBundleAllReward": "Reward: New Tree Farm Area",
+    "blue704.JojaCC_ForagingBundle01": "Water's Bounty",
+    "blue704.JojaCC_ForagingBundle02": "Mine's Bounty",
+    "blue704.JojaCC_ForagingBundle03": "Beach's Bounty",
+    "blue704.JojaCC_ForagingBundle04": "Forest's Bounty",
+    //FarmerBundles
+    "blue704.JojaCC_FarmerBundleBook": "Farmer Bundles",
+    "blue704.JojaCC_FarmerBundleAllReward": "Reward: Underground Cask Cellar",
+    "blue704.JojaCC_FarmerBundle01": "Spring Crops",
+    "blue704.JojaCC_FarmerBundle02": "Summer Crops",
+    "blue704.JojaCC_FarmerBundle03": "Fall Crops",
+    "blue704.JojaCC_FarmerBundle04": "Seasonal Seeds Bundle",
+    "blue704.JojaCC_FarmerBundle05": "Fertilzer Bundle",
+    "blue704.JojaCC_FarmerBundle06": "Mayo Bundle",
+    "blue704.JojaCC_FarmerBundle07": "Home Cook",
+    "blue704.JojaCC_FarmerBundle08": "Joja Products",
+    //FisherBundles
+    "blue704.JojaCC_FisherBundleBook": "Fisher Bundles",
+    "blue704.JojaCC_FisherBundleAllReward": "Reward: Indoor Fishing Pond",
+    "blue704.JojaCC_FisherBundle01": "Spring Fishing",
+    "blue704.JojaCC_FisherBundle02": "Summer Fishing",
+    "blue704.JojaCC_FisherBundle03": "Fall Fishing",
+    "blue704.JojaCC_FisherBundle04": "Winter Fishing",
+    "blue704.JojaCC_FisherBundle05": "Fish Tackle Bundle",
+    "blue704.JojaCC_FisherBundle06": "Fish Farmer"
 }
