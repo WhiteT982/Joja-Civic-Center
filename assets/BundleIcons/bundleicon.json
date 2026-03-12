@@ -11,6 +11,24 @@
 		"Action": "Load",
 		"Target": "LooseSprites/blue704.JojaCC",
 		"FromFile": "assets/BundleIcons/JojaBundle.png"
+	},
+    {
+		"LogName": "Load Bundle Icons",
+		"Action": "Load",
+		"Target": "LooseSprites/blue704.JojaCC",
+		"FromFile": "assets/BundleIcons/TackleBundle.png"
+	},
+    {
+		"LogName": "Load Bundle Icons",
+		"Action": "Load",
+		"Target": "LooseSprites/blue704.JojaCC",
+		"FromFile": "assets/BundleIcons/FertilizerBundle.png"
+	},
+    {
+		"LogName": "Load Bundle Icons",
+		"Action": "Load",
+		"Target": "LooseSprites/blue704.JojaCC",
+		"FromFile": "assets/BundleIcons/MinersBundle.png"
 	}
 ]
 }
