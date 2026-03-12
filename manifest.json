@@ -3,10 +3,18 @@
   "Author": "blue704",
   "Version": "1.0.0",
   "Description": "A Joja Civic Center styled after the Community Center.",
-  "UniqueID": "blue704.Joja_CC",
+  "UniqueID": "blue704.JojaCC",
   "UpdateKeys": [],
   "Dependencies": [
-		{"UniqueID": "FlashShifter.StardewValleyExpandedCP", "IsRequired": false}
+		{
+      "UniqueID": "FlashShifter.StardewValleyExpandedCP", "IsRequired": false
+    },
+    {
+      "UniqueID": "DLX.Bundles", "IsRequired": true
+    },
+    {
+      "UniqueID": "Adam.Joja_Machines", "IsRequired": true
+    }
     ],
   "ContentPackFor": {
     "UniqueID": "Pathoschild.ContentPatcher"
