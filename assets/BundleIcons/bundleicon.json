@@ -5,6 +5,12 @@
 		"Action": "Load",
 		"Target": "LooseSprites/blue704.JojaCC",
 		"FromFile": "assets/BundleIcons/MayoBundle.png"
+	},
+    {
+		"LogName": "Load Bundle Icons",
+		"Action": "Load",
+		"Target": "LooseSprites/blue704.JojaCC",
+		"FromFile": "assets/BundleIcons/JojaBundle.png"
 	}
 ]
 }

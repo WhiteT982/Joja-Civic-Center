@@ -287,7 +287,7 @@
 					"BundleName": "{{i18n: blue704.JojaCC_FarmerBundle08}}",
                     "ShopPosition": "182, 80",
                     "PagePackageIndex": 6,
-					"BundleIcon": "Artisan",
+					"BundleIconAsset": "{{InternalAssetKey: assets/BundleIcons/JojaBundle.png}}",
 					"BookId": "blue704.JojaCC_FarmerBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
