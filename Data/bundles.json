@@ -5,11 +5,11 @@
 			"Action": "EditData",
 			"Target": "UnlockableBundles/Bundles",
 			"Entries": {
-                //Foraging Bundles
-            "blue704.JojaCC_ForagingBundleBook": {
+                //Forager Bundles
+            "blue704.JojaCC_ForagerBundleBook": {
 					"Location": "JojaCC",
-					"BundleName": "{{i18n: blue704.JojaCC_ForagingBundleBook}}",
-					"BundleDescription": "{{i18n: blue704.JojaCC_ForagingBundleAllReward}}",
+					"BundleName": "{{i18n: blue704.JojaCC_ForagerBundleBook}}",
+					"BundleDescription": "{{i18n: blue704.JojaCC_ForagerBundleAllReward}}",
 					"ShopPosition": "13, 22",
 					"ShopType": "CCBundle",
 					"ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
@@ -25,13 +25,13 @@
 						"(O)TreasureTotem": 10
 					}
 				},
-				"blue704.JojaCC_ForagingBundle01": {
+				"blue704.JojaCC_ForagerBundle01": {
 					"Location": "JojaCC",
-					"BundleName": "{{i18n: blue704.JojaCC_ForagingBundle01}}",
+					"BundleName": "{{i18n: blue704.JojaCC_ForagerBundle01}}",
                     "ShopPosition": "80, 46",
                     "PagePackageIndex": 0,
 					"BundleIcon": "Master_Fisher",
-					"BookId": "blue704.JojaCC_ForagingBundleBook",
+					"BookId": "blue704.JojaCC_ForagerBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
 					"BundleSlots": 5,
@@ -47,13 +47,13 @@
 						"(BC)Adam.Joja_FishTrap": 5
 					}
 				},
-				"blue704.JojaCC_ForagingBundle02": {
+				"blue704.JojaCC_ForagerBundle02": {
 					"Location": "JojaCC",
-					"BundleName": "{{i18n: blue704.JojaCC_ForagingBundle02}}",
+					"BundleName": "{{i18n: blue704.JojaCC_ForagerBundle02}}",
                     "ShopPosition": "222, 46",
                     "PagePackageIndex": 1,
 					"BundleIconAsset": "{{InternalAssetKey: assets/BundleIcons/MinersBundle.png}}",
-					"BookId": "blue704.JojaCC_ForagingBundleBook",
+					"BookId": "blue704.JojaCC_ForagerBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
 					"BundleSlots": 5,
@@ -69,13 +69,13 @@
 						"(O)805": 5
 					}
 				},
-				"blue704.JojaCC_ForagingBundle03": {
+				"blue704.JojaCC_ForagerBundle03": {
 					"Location": "JojaCC",
-					"BundleName": "{{i18n: blue704.JojaCC_ForagingBundle03}}",
+					"BundleName": "{{i18n: blue704.JojaCC_ForagerBundle03}}",
                     "ShopPosition": "103, 111",
                     "PagePackageIndex": 2,
 					"BundleIcon": "Summer_Foraging",
-					"BookId": "blue704.JojaCC_ForagingBundleBook",
+					"BookId": "blue704.JojaCC_ForagerBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
 					"BundleSlots": 6,
@@ -93,13 +93,13 @@
 						"(BC)256": 2
 				}
             },
-				"blue704.JojaCC_ForagingBundle04": {
+				"blue704.JojaCC_ForagerBundle04": {
 					"Location": "JojaCC",
-					"BundleName": "{{i18n: blue704.JojaCC_ForagingBundle04}}",
+					"BundleName": "{{i18n: blue704.JojaCC_ForagerBundle04}}",
                     "ShopPosition": "204, 111",
                     "PagePackageIndex": 3,
 					"BundleIcon": "Mushrooms",
-					"BookId": "blue704.JojaCC_ForagingBundleBook",
+					"BookId": "blue704.JojaCC_ForagerBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
 					"BundleSlots": 4,
@@ -112,6 +112,30 @@
 					},
 					"BundleReward": {
 						"(BC)MushroomLog": 5
+					}
+				},
+				"blue704.JojaCC_ForagerBundle05": {
+					"Location": "JojaCC",
+					"BundleName": "{{i18n: blue704.JojaCC_ForagerBundle05}}",
+                    "ShopPosition": "154, 78",
+                    "PagePackageIndex": 4,
+					"BundleIcon": "Exotic_Foraging",
+					"BookId": "blue704.JojaCC_ForagerBundleBook",
+					"ShopType": "CCBundle",
+					"DrawQuestionMark": false, 
+					"BundleSlots": 6,
+                    "Price": {
+						"(O)92": 20,
+						"(O)399": 1,
+						"(O)88": 1,
+						"(O)90": 1,
+						"(O)829": 1,
+						"(O)851": 1,
+						"(O)283": 1
+					},
+					"BundleReward": {
+						"(O)69": 1,
+						"(O)835": 1
 					}
 				},
 				    //Farmer Bundles
@@ -143,16 +167,19 @@
 					"BookId": "blue704.JojaCC_FarmerBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 4,
+					"BundleSlots": 6,
 					"Price": {
 						"(O)Carrot": 1,
 						"(O)24": 1,
 						"(O)192": 1,
-						"(O)250": 1
+						"(O)250": 1,
+						"(O)188": 1,
+						"(O)190": 1
 					},
-					"BundleReward": {
-						"(BC)15": 1
-					}
+					"BundleCompletedActions": [
+  "AddMail Current blue704.JojaCC_Year2SeedsJoja received"
+]
+
 				},
 				"blue704.JojaCC_FarmerBundle02": {
 					"Location": "JojaCC",
@@ -163,15 +190,17 @@
 					"BookId": "blue704.JojaCC_FarmerBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 4,
+					"BundleSlots": 6,
 					"Price": {
 						"(O)SummerSquash": 1,
 						"(O)264": 1,
 						"(O)262": 1,
-						"(O)593": 1
+						"(O)593": 1,
+						"(O)266": 1,
+						"(O)304": 1
 					},
 					"BundleReward": {
-						"(O)805": 5
+						"(BC)Adam.Joja_HoneyMaker": 3
 					}
 				},
 				"blue704.JojaCC_FarmerBundle03": {
@@ -183,15 +212,17 @@
 					"BookId": "blue704.JojaCC_FarmerBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 4,
+					"BundleSlots": 6,
 					"Price": {
 						"(O)Broccoli": 1,
 						"(O)278": 1,
 						"(O)272": 1,
-						"(O)300": 1
+						"(O)300": 1,
+						"(O)274": 1,
+						"(O)284": 1
 					},
 					"BundleReward": {
-						"(BC)256": 2
+						"(BC)Adam.Joja_Keg": 5
 				}
             },
 				"blue704.JojaCC_FarmerBundle04": {
@@ -226,16 +257,16 @@
 					"BundleSlots": 5,
                     "Price": {
 						"(O)368": 10,
-						"(O)369": 5,
+						"(O)369": 1,
 						"(O)370": 10,
-						"(O)371": 5,
+						"(O)371": 1,
 						"(O)465": 10,
-						"(O)466": 5,
+						"(O)466": 1,
 						"(O)805": 10
 					},
-					"BundleReward": {
-						"(BC)114": 5
-					}
+					"BundleCompletedActions": [
+  "AddMail Current blue704.JojaCC_FertilizerJoja received"
+]
 				},
 				"blue704.JojaCC_FarmerBundle06": {
 					"Location": "JojaCC",
@@ -291,7 +322,7 @@
 					"BookId": "blue704.JojaCC_FarmerBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 8,
+					"BundleSlots": 10,
                     "Price": {
 						"(O)Adam.Joja_Cheeze": 5,
 						"(O)Adam.Joja_Honey": 2,
@@ -305,7 +336,7 @@
 						"(O)Adam.Joja_DriedRedMushrooms": 1
 					},
 					"BundleReward": {
-						"(0)289": 3
+						"(0)Adam.Joja_UpgradePack": 5
 					}
 				},
 				//Fisher Bundles

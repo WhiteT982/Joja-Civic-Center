@@ -1,0 +1,152 @@
+{
+    "Changes": [
+{
+    //Farmer Bundle 01 Complete
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "Joja",
+        "Items"
+      ],
+      "Entries": {
+        "Garlic Seeds": {
+          "Price": 50,
+          "AvailableStock": 100,
+          "AvoidRepeat": false,
+          "IgnoreShopPriceModifiers": true,
+          "Condition": "PLAYER_HAS_MAIL Current blue704.JojaCC_Year2SeedsJoja received",
+          "Id": "(O)476",
+          "ItemId": "(O)476"
+        },
+        "Rhubarb Seeds": {
+          "Price": 130,
+          "AvailableStock": 100,
+          "AvoidRepeat": false,
+          "IgnoreShopPriceModifiers": true,
+          "Condition": "PLAYER_HAS_MAIL Current blue704.JojaCC_Year2SeedsJoja received",
+          "Id": "(O)478",
+          "ItemId": "(O)478"
+        },
+        "Strawberry Seeds": {
+          "Price": 50,
+          "AvailableStock": 130,
+          "AvoidRepeat": false,
+          "IgnoreShopPriceModifiers": true,
+          "Condition": "PLAYER_HAS_MAIL Current blue704.JojaCC_Year2SeedsJoja received",
+          "Id": "(O)745",
+          "ItemId": "(O)745"
+        },
+        "Rice Shoot": {
+          "Price": 60,
+          "AvailableStock": 100,
+          "AvoidRepeat": false,
+          "IgnoreShopPriceModifiers": true,
+          "Condition": "PLAYER_HAS_MAIL Current blue704.JojaCC_Year2SeedsJoja received",
+          "Id": "(O)273",
+          "ItemId": "(O)273"
+        },
+        "Blueberry Seeds": {
+          "Price": 100,
+          "AvailableStock": 100,
+          "AvoidRepeat": false,
+          "IgnoreShopPriceModifiers": true,
+          "Condition": "PLAYER_HAS_MAIL Current blue704.JojaCC_Year2SeedsJoja received",
+          "Id": "(O)481",
+          "ItemId": "(O)481"
+        },
+        "Red Cabbage Seeds": {
+          "Price": 130,
+          "AvailableStock": 100,
+          "AvoidRepeat": false,
+          "IgnoreShopPriceModifiers": true,
+          "Condition": "PLAYER_HAS_MAIL Current blue704.JojaCC_Year2SeedsJoja received",
+          "Id": "(O)485",
+          "ItemId": "(O)485"
+        },
+        "Starfruit Seeds": {
+          "Price": 550,
+          "AvailableStock": 100,
+          "AvoidRepeat": false,
+          "IgnoreShopPriceModifiers": true,
+          "Condition": "PLAYER_HAS_MAIL Current blue704.JojaCC_Year2SeedsJoja received",
+          "Id": "(O)486",
+          "ItemId": "(O)486"
+        },
+        "Artichoke Seeds": {
+          "Price": 50,
+          "AvailableStock": 100,
+          "AvoidRepeat": false,
+          "IgnoreShopPriceModifiers": true,
+          "Condition": "PLAYER_HAS_MAIL Current blue704.JojaCC_Year2SeedsJoja received",
+          "Id": "(O)489",
+          "ItemId": "(O)489"
+        },
+        "Beet Seeds": {
+          "Price": 30,
+          "AvailableStock": 100,
+          "AvoidRepeat": false,
+          "IgnoreShopPriceModifiers": true,
+          "Condition": "PLAYER_HAS_MAIL Current blue704.JojaCC_Year2SeedsJoja received",
+          "Id": "(O)494",
+          "ItemId": "(O)494"
+        },
+        "Cactus Seeds": {
+          "Price": 200,
+          "AvailableStock": 100,
+          "AvoidRepeat": false,
+          "IgnoreShopPriceModifiers": true,
+          "Condition": "PLAYER_HAS_MAIL Current blue704.JojaCC_Year2SeedsJoja received",
+          "Id": "(O)802",
+          "ItemId": "(O)802"
+        }
+    }
+},
+{
+    //Farmer Bundle 05 Complete
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "Joja",
+        "Items"
+      ],
+      "Entries": {
+        "Deluxe Fertilizer": {
+          "Price": 200,
+          "AvailableStock": 100,
+          "AvoidRepeat": false,
+          "IgnoreShopPriceModifiers": true,
+          "Condition": "PLAYER_HAS_MAIL Current blue704.JojaCC_FerilizerJoja received",
+          "Id": "(O)919",
+          "ItemId": "(O)919"
+        },
+        "Hyper Speed Gro": {
+          "Price": 200,
+          "AvailableStock": 100,
+          "AvoidRepeat": false,
+          "IgnoreShopPriceModifiers": true,
+          "Condition": "PLAYER_HAS_MAIL Current blue704.JojaCC_FerilizerJoja received",
+          "Id": "(O)918",
+          "ItemId": "(O)918"
+        },
+        "Deluxe Retaining Soil": {
+          "Price": 150,
+          "AvailableStock": 100,
+          "AvoidRepeat": false,
+          "IgnoreShopPriceModifiers": true,
+          "Condition": "PLAYER_HAS_MAIL Current blue704.JojaCC_FerilizerJoja received",
+          "Id": "(O)920",
+          "ItemId": "(O)920"
+        },
+        "Tree Fertilizer": {
+          "Price": 75,
+          "AvailableStock": 100,
+          "AvoidRepeat": false,
+          "IgnoreShopPriceModifiers": true,
+          "Condition": "PLAYER_HAS_MAIL Current blue704.JojaCC_FerilizerJoja received",
+          "Id": "(O)805",
+          "ItemId": "(O)805"
+        }
+    }
+}
+]
+}
