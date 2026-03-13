@@ -27,5 +27,19 @@
     "blue704.JojaCC_FisherBundle03": "Fall Fishing",
     "blue704.JojaCC_FisherBundle04": "Winter Fishing",
     "blue704.JojaCC_FisherBundle05": "Fish Tackle Bundle",
-    "blue704.JojaCC_FisherBundle06": "Fish Farmer"
+    "blue704.JojaCC_FisherBundle06": "Fish Farmer",
+    //TreasureHuntBundles
+    "blue704.JojaCC_TreasureHuntBundleBook": "Treasure Hunt!",
+    "blue704.JojaCC_TreasureHuntBundleAllReward": "Reward: Making two kids happy.",
+    "blue704.JojaCC_TreasureHuntBundle01": "Vincent's Castles",
+    "blue704.JojaCC_TreasureHuntBundle02": "Spicy Spring Treat",
+    "blue704.JojaCC_TreasureHuntBundle03": "Who's David?",
+    "blue704.JojaCC_TreasureHuntBundle04": "Another Kid?",
+    "blue704.JojaCC_TreasureHuntBundle05": "Bear Buddies",
+    "blue704.JojaCC_TreasureHuntBundle06": "Ms.Penny's New Boooks",
+    //Objects
+    "blue704.JojaCC_TreasureHuntTag": "Treasure Hunt Tag",
+    "blue704.JojaCC_TreasureHuntTagDescription": "Turn in to the Treasure Hunt Bundle to claim your reward!",
+    "blue704.JojaCC_GoldenTreasureHuntTag": "Golden Treasure Hunt Tag",
+    "blue704.JojaCC_GoldenTreasureHuntTagDescription": "Turn in to the Treasure Hunt Bundle to claim your final reward!"
 }
