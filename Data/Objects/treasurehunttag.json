@@ -1,0 +1,110 @@
+{
+    "Changes":[
+//Add Treasure Hunt Tag object
+{
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries": {
+	"blue704.JojaCC_TreasureHuntTag": {
+		"Name": "(O)blue704.JojaCC_TreasureHuntTag",
+		"DisplayName": "{{i18n: blue704.JojaCC_TreasureHuntTag}}",
+		"Description": "{{i18n: blue704.JojaCC_TreasureHuntTagDescription}}",
+		"Type": "Basic",
+		"ExcludeFromFishingCollection": true,
+		"ExcludeFromShippingCollection": true,
+		"ExcludeFromRandomSale": true,
+		"Texture": "{{InternalAssetKey: assets/Objects/TreasureHuntTag.png}}",
+		"SpriteIndex": 0
+		}
+	}
+},
+//Adding a Treasure Hunt Tag currency
+{
+  "Action": "EditData",
+  "Target": "UnlockableBundles/WalletCurrencies",
+  "Entries": {
+	"blue704.JojaCC_TreasureHuntTag": {
+		"Shared": true,
+		
+		"DrawOverheadPickupAnimation": true,
+		"OverheadPickupTexture": "{{InternalAssetKey: assets/Objects/TreasureHuntTag.png}}",
+		"OverheadPickupAnimation": "1-4@100, 1-4",
+		"OverheadPickupTextureSize": 16,
+		
+		"BillboardTexture": "{{InternalAssetKey: assets/Objects/TreasureHuntTag.png}}",
+		"BillboardTextureSize": 16,
+		"BillboardDigits": 6,
+		
+		"PickupSound": "achievement",
+		"PlayMoneyRollSound": false,
+		
+		"Items": [
+			{
+			"ItemId": "(O)blue704.JojaCC_TreasureHuntTag",
+			"Value": 1
+			}
+		],
+			
+		"PowersData": {
+			"DisplayName": "{{i18n: blue704.JojaCC_TreasureHuntTag}}",
+			"TexturePath": "{{InternalAssetKey: assets/Objects/TreasureHuntTag.png}}",
+			"TexturePosition": { "X": 0, "Y": 0 }
+			}
+		}		
+	}
+},
+//Add Golden Treasure Hunt Tag object
+{
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries": {
+	"blue704.JojaCC_GoldenTreasureHuntTag": {
+		"Name": "(O)blue704.JojaCC_GoldenTreasureHuntTag",
+		"DisplayName": "{{i18n: blue704.JojaCC_GoldenTreasureHuntTag}}",
+		"Description": "{{i18n: blue704.JojaCC_GoldenTreasureHuntTagDescription}}",
+		"Type": "Basic",
+		"ExcludeFromFishingCollection": true,
+		"ExcludeFromShippingCollection": true,
+		"ExcludeFromRandomSale": true,
+		"Texture": "{{InternalAssetKey: assets/Objects/GoldenTreasureHuntTag.png}}",
+		"SpriteIndex": 0
+		}
+	}
+},
+//Adding a Golden Treasure Hunt Tag currency
+{
+  "Action": "EditData",
+  "Target": "UnlockableBundles/WalletCurrencies",
+  "Entries": {
+	"blue704.JojaCC_GoldenTreasureHuntTag": {
+		"Shared": true,
+		
+		"DrawOverheadPickupAnimation": true,
+		"OverheadPickupTexture": "{{InternalAssetKey: assets/Objects/GoldenTreasureHuntTag.png}}",
+		"OverheadPickupAnimation": "1-4@100, 1-4",
+		"OverheadPickupTextureSize": 16,
+		
+		"BillboardTexture": "{{InternalAssetKey: assets/Objects/GoldenTreasureHuntTag.png}}",
+		"BillboardTextureSize": 16,
+		"BillboardDigits": 6,
+		
+		"PickupSound": "achievement",
+		"PlayMoneyRollSound": false,
+		
+		"Items": [
+			{
+			"ItemId": "(O)blue704.JojaCC_GoldenTreasureHuntTag",
+			"Value": 1
+			}
+		],
+			
+		"PowersData": {
+			"DisplayName": "{{i18n: blue704.JojaCC_GoldenTreasureHuntTag}}",
+			"TexturePath": "{{InternalAssetKey: assets/Objects/GoldenTreasureHuntTag.png}}",
+			"TexturePosition": { "X": 0, "Y": 0 }
+			}
+		}		
+	}
+}
+    ]
+}
