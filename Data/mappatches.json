@@ -62,6 +62,35 @@
                     "Remove": true
                 }
             ]
+        },
+        //Treasure Hunt Complete Sign Removal
+        {
+      "When": {
+        "HasFlag": "TreasureHuntComplete"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "MapTiles": [
+        {
+          "Position": { "X": 31, "Y": 8 },
+                    "Layer": "Front",
+                    "Remove": "true"
         }
+      ]
+    },
+    {
+      "When": {
+        "HasFlag": "TreasureHuntComplete"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "MapTiles": [
+        {
+          "Position": { "X": 31, "Y": 9 },
+                    "Layer": "Buildings",
+                    "Remove": "true"
+        }
+      ]
+    }
       ]
     }
