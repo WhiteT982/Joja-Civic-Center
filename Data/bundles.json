@@ -177,7 +177,7 @@
 						"(O)190": 1
 					},
 					"BundleCompletedActions": [
-  "AddMail Current blue704.JojaCC_Year2SeedsJoja received"
+  "AddMail current JojaCC_Year2SeedsJoja received"
 ]
 
 				},
@@ -265,7 +265,7 @@
 						"(O)805": 10
 					},
 					"BundleCompletedActions": [
-  "AddMail Current blue704.JojaCC_FertilizerJoja received"
+  "AddMail current JojaCC_FertilizerJoja received"
 ]
 				},
 				"blue704.JojaCC_FarmerBundle06": {
@@ -782,7 +782,6 @@
 		  "BundleCompletedActions": [
   "AddMail Current TreasureHuntComplete received"
 ],
-
 		  "BundleReward": {
 						"(0)blue704.JojaCC_GoldenTreasureHuntTag": 1
 					}
