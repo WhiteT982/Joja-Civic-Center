@@ -1,13 +1,14 @@
 {
     //Place Names
     "blue704.JojaCC_JojaCC": "Joja Civic Center",
-    //ForagingBundles
-    "blue704.JojaCC_ForagingBundleBook": "Foraging Bundles",
-    "blue704.JojaCC_ForagingBundleAllReward": "Reward: New Tree Farm Area",
-    "blue704.JojaCC_ForagingBundle01": "Water's Bounty",
-    "blue704.JojaCC_ForagingBundle02": "Mine's Bounty",
-    "blue704.JojaCC_ForagingBundle03": "Beach's Bounty",
-    "blue704.JojaCC_ForagingBundle04": "Forest's Bounty",
+    //ForagerBundles
+    "blue704.JojaCC_ForagerBundleBook": "Forager Bundles",
+    "blue704.JojaCC_ForagerBundleAllReward": "Reward: New Tree Farm Area",
+    "blue704.JojaCC_ForagerBundle01": "Water's Bounty",
+    "blue704.JojaCC_ForagerBundle02": "Mine's Bounty",
+    "blue704.JojaCC_ForagerBundle03": "Beach's Bounty",
+    "blue704.JojaCC_ForagerBundle04": "Forest's Bounty",
+    "blue704.JojaCC_ForagerBundle05": "Nature's Bounty",
     //FarmerBundles
     "blue704.JojaCC_FarmerBundleBook": "Farmer Bundles",
     "blue704.JojaCC_FarmerBundleAllReward": "Reward: Underground Cask Cellar",
