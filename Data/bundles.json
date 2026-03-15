@@ -598,7 +598,7 @@
 ],
 
                     "PagePackageIndex": 1,
-					"BundleIcon": "Treasure_Hunter",
+					"BundleIcon": "Children",
 					"BookId": "blue704.JojaCC_TreasureHuntBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
@@ -622,7 +622,7 @@
 ],
 
                     "PagePackageIndex": 6,
-					"BundleIcon": "Treasure_Hunter",
+					"BundleIcon": "Children",
 					"BookId": "blue704.JojaCC_TreasureHuntBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
@@ -639,7 +639,7 @@
 					"BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle06}}",
                     "ShopPosition": "103, 111",
                     "PagePackageIndex": 4,
-					"BundleIcon": "Treasure_Hunter",
+					"BundleIcon": "Children",
 					"BookId": "blue704.JojaCC_TreasureHuntBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
@@ -785,7 +785,199 @@
 		  "BundleReward": {
 						"(0)blue704.JojaCC_GoldenTreasureHuntTag": 1
 					}
-        }
+        },
+		//Bulletin Board Bundles
+            "blue704.JojaCC_BulletinBoardBundleBook": {
+					"Location": "JojaCC",
+					"BundleName": "{{i18n: blue704.JojaCC_BulletinBoardBundleBook}}",
+					"BundleDescription": "{{i18n: blue704.JojaCC_BulletinBoardBundleAllReward}}",
+					"ShopPosition": "46, 13",
+					"ShopType": "CCBundle",
+					"ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
+					"ShopTextureSource": { "X": 16, "Y": 0, "Width": 16, "Height": 16 },
+					"ShopDrawDimensions": "64, 64",
+					"ShopDrawOffset": "0, 64",
+					"ShopAnimation": "0",
+                    "InstantShopRemoval": true,
+					"ShopCompletedAnimation": "0",
+					"JunimoNoteTexture": "UnlockableBundles/UI/MagicBookJunimoNote",
+					"IsBook": true,
+					"BundleCompletedActions": [
+  "AddFriendshipPoints Alex 250",
+  "AddFriendshipPoints Elliott 250",
+  "AddFriendshipPoints Harvey 250",
+  "AddFriendshipPoints Sam 250",
+  "AddFriendshipPoints Sebastian 250",
+  "AddFriendshipPoints Shane 250",
+  "AddFriendshipPoints Abigail 250",
+  "AddFriendshipPoints Emily 250",
+  "AddFriendshipPoints Haley 250",
+  "AddFriendshipPoints Leah 250",
+  "AddFriendshipPoints Maru 250",
+  "AddFriendshipPoints Penny 250",
+  "AddFriendshipPoints Caroline 250",
+  "AddFriendshipPoints Clint 250",
+  "AddFriendshipPoints Demetrius 250",
+  "AddFriendshipPoints Dwarf 250",
+  "AddFriendshipPoints Evelyn 250",
+  "AddFriendshipPoints George 250",
+  "AddFriendshipPoints Gus 250",
+  "AddFriendshipPoints Jas 250",
+  "AddFriendshipPoints Jodi 250",
+  "AddFriendshipPoints Kent 250",
+  "AddFriendshipPoints Krobus 250",
+  "AddFriendshipPoints Leo 250",
+  "AddFriendshipPoints Lewis 250",
+  "AddFriendshipPoints Linus 250",
+  "AddFriendshipPoints Marnie 250",
+  "AddFriendshipPoints Pam 250",
+  "AddFriendshipPoints Pierre 250",
+  "AddFriendshipPoints Robin 250",
+  "AddFriendshipPoints Sandy 250",
+  "AddFriendshipPoints Willy 250",
+  "AddFriendshipPoints Wizard 250",
+  "AddFriendshipPoints Vincent 250"
+]
+
+				},
+				"blue704.JojaCC_BulletinBoardBundle01": {
+					"Location": "JojaCC",
+					"BundleName": "{{i18n: blue704.JojaCC_BulletinBoardBundle01}}",
+                    "ShopPosition": "103, 46",
+                    "PagePackageIndex": 0,
+					"BundleIcon": "Forager",
+					"BookId": "blue704.JojaCC_BulletinBoardBundleBook",
+					"ShopType": "CCBundle",
+					"DrawQuestionMark": false, 
+					"BundleSlots": 6,
+					"Price": {
+						"(O)926": 1,
+						"(O)TentKit": 1,
+						"(O)296": 1,
+						"(O)410": 1,
+						"(O)227": 1,
+						"(O)399": 1
+					},
+					"BundleReward": {
+						"(BC)256": 2
+					}
+				},
+				"blue704.JojaCC_BulletinBoardBundle02": {
+					"Location": "JojaCC",
+					"BundleName": "{{i18n: blue704.JojaCC_BulletinBoardBundle02}}",
+                    "ShopPosition": "204, 46",
+                    "PagePackageIndex": 3,
+					"BundleIconAsset": "{{InternalAssetKey: assets/BundleIcons/carpenter.png}}",
+					"BookId": "blue704.JojaCC_BulletinBoardBundleBook",
+					"ShopType": "CCBundle",
+					"DrawQuestionMark": false, 
+					"BundleSlots": 4,
+					"Price": {
+						"(O)388": 500,
+						"(O)390": 200,
+						"(O)709": 50,
+						"(O)330": 10
+					},
+					"BundleReward": {
+						"(BC)MiniForge": 1
+					}
+				},
+				"blue704.JojaCC_BulletinBoardBundle03": {
+					"Location": "JojaCC",
+					"BundleName": "{{i18n: blue704.JojaCC_BulletinBoardBundle03}}",
+                    "ShopPosition": "80, 80",
+                    "PagePackageIndex": 2,
+					"BundleIconAsset": "{{InternalAssetKey: assets/BundleIcons/chickenfarmer.png}}",
+					"BookId": "blue704.JojaCC_BulletinBoardBundleBook",
+					"ShopType": "CCBundle",
+					"DrawQuestionMark": false, 
+					"BundleSlots": 4,
+					"Price": {
+						"(O)174": 3,
+						"(O)182": 3,
+						"(O)305": 1,
+						"(O)442": 1
+					},
+					"BundleReward": {
+						"(O)107": 2
+				}
+            },
+				"blue704.JojaCC_BulletinBoardBundle04": {
+					"Location": "JojaCC",
+					"BundleName": "{{i18n: blue704.JojaCC_BulletinBoardBundle04}}",
+                    "ShopPosition": "222, 80",
+                    "PagePackageIndex": 1,
+					"BundleIconAsset": "{{InternalAssetKey: assets/BundleIcons/floristbundle.png}}",
+					"BookId": "blue704.JojaCC_BulletinBoardBundleBook",
+					"ShopType": "CCBundle",
+					"DrawQuestionMark": false, 
+					"BundleSlots": 6,
+                    "Price": {
+						"(O)591": 1,
+						"(O)593": 1,
+						"(O)595": 1,
+						"(O)597": 1,
+						"(O)376": 1,
+						"(O)421": 1
+					},
+					"BundleReward": {
+						"(F)1971": 1
+					}
+				},
+				"blue704.JojaCC_BulletinBoardBundle05": {
+					"Location": "JojaCC",
+					"BundleName": "{{i18n: blue704.JojaCC_BulletinBoardBundle05}}",
+                    "ShopPosition": "204, 111",
+                    "PagePackageIndex": 6,
+					"BundleIconAsset": "{{InternalAssetKey: assets/BundleIcons/soldier.png}}",
+					"BookId": "blue704.JojaCC_BulletinBoardBundleBook",
+					"ShopType": "CCBundle",
+					"DrawQuestionMark": false, 
+					"BundleSlots": 6,
+                    "Price": {
+						"(O)879": 1,
+						"(O)773": 1,
+						"(O)888": 1,
+						"(O)874": 1,
+						"(O)109": 1,
+						"(O)244": 1,
+						"(O)680": 1
+					},
+					"BundleReward": {
+						"(W)4": 1,
+						"(W)23": 1,
+						"(W)29": 1,
+						"(W)34": 1
+					},
+					"RandomRewardEntries": 1
+				},
+				"blue704.JojaCC_BulletinBoardBundle06": {
+					"Location": "JojaCC",
+					"BundleName": "{{i18n: blue704.JojaCC_BulletinBoardBundle06}}",
+                    "ShopPosition": "103, 111",
+                    "PagePackageIndex": 4,
+					"BundleIconAsset": "{{InternalAssetKey: assets/BundleIcons/fashionista.png}}",
+					"BookId": "blue704.JojaCC_BulletinBoardBundleBook",
+					"ShopType": "CCBundle",
+					"DrawQuestionMark": false, 
+					"BundleSlots": 5,
+                    "Price": {
+						"(S)1189": 1,
+						"(S)1035": 1,
+						"(S)1161": 1,
+						"(P)13": 1,
+						"(P)3": 1,
+						"(H)54": 1,
+						"(H)90": 1,
+						"(H)47": 1,
+						"(P)1": 1,
+						"(P)2": 1
+						
+					},
+					"BundleReward": {
+						"(S)1143": 1
+					}
+				}
             }
         }
     ]

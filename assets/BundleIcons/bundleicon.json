@@ -29,6 +29,36 @@
 		"Action": "Load",
 		"Target": "LooseSprites/blue704.JojaCC",
 		"FromFile": "assets/BundleIcons/MinersBundle.png"
+	},
+	{
+		"LogName": "Load Bundle Icons",
+		"Action": "Load",
+		"Target": "LooseSprites/blue704.JojaCC",
+		"FromFile": "assets/BundleIcons/carpenter.png"
+	},
+	{
+		"LogName": "Load Bundle Icons",
+		"Action": "Load",
+		"Target": "LooseSprites/blue704.JojaCC",
+		"FromFile": "assets/BundleIcons/soldier.png"
+	},
+	{
+		"LogName": "Load Bundle Icons",
+		"Action": "Load",
+		"Target": "LooseSprites/blue704.JojaCC",
+		"FromFile": "assets/BundleIcons/florist.png"
+	},
+	{
+		"LogName": "Load Bundle Icons",
+		"Action": "Load",
+		"Target": "LooseSprites/blue704.JojaCC",
+		"FromFile": "assets/BundleIcons/fashionista.png"
+	},
+	{
+		"LogName": "Load Bundle Icons",
+		"Action": "Load",
+		"Target": "LooseSprites/blue704.JojaCC",
+		"FromFile": "assets/BundleIcons/chickenfarmer.png"
 	}
 ]
 }
