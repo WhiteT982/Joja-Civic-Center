@@ -47,6 +47,15 @@
     "blue704.JojaCC_BulletinBoardBundle04": "Florist",
     "blue704.JojaCC_BulletinBoardBundle05": "Soldier",
     "blue704.JojaCC_BulletinBoardBundle06": "Fashionista",
+    //BoilerRoomBundles
+    "blue704.JojaCC_BoilerRoomBundleBook": "Boiler Room",
+    "blue704.JojaCC_BoilerRoomBundleAllReward": "Reward: New Underground Mining Area",
+    "blue704.JojaCC_BoilerRoomBundle01": "Gems Bundle",
+    "blue704.JojaCC_BoilerRoomBundle02": "Geodes Bundle",
+    "blue704.JojaCC_BoilerRoomBundle03": "Explosives Bundle",
+    "blue704.JojaCC_BoilerRoomBundle04": "Monster Hunter",
+    "blue704.JojaCC_BoilerRoomBundle05": "Adventurer",
+    "blue704.JojaCC_BoilerRoomBundle06": "Exotic Miner",
     //Objects
     "blue704.JojaCC_TreasureHuntTag": "Treasure Hunt Tag",
     "blue704.JojaCC_TreasureHuntTagDescription": "Turn in to the Treasure Hunt Bundle to claim your reward!",

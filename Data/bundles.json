@@ -200,7 +200,7 @@
 						"(O)304": 1
 					},
 					"BundleReward": {
-						"(BC)Adam.Joja_HoneyMaker": 3
+						"(O)621": 3
 					}
 				},
 				"blue704.JojaCC_FarmerBundle03": {
@@ -301,13 +301,13 @@
 						"(O)246": 50,
 						"(O)247": 50,
 						"(O)419": 50,
+						"(O)Adam.Joja_Vinegar": 50,
 						"(O)245": 50,
 						"(O)176": 6,
 						"(O)180": 6,
 						"(O)184": 3,
 						"(O)423": 50,
-						"(O)216": 5,
-						"(O)229": 5
+						"(O)216": 5
 					},
 					"BundleReward": {
 						"(0)917": 10
@@ -379,7 +379,7 @@
 						"(O)702": 1
 					},
 					"BundleReward": {
-						"(BC)Adam.Joja_TackleBin": 1
+						"(O)SkillBook_1": 1
 					}
 				},
 				"blue704.JojaCC_FisherBundle02": {
@@ -496,8 +496,8 @@
 						"(O)814": 1
 					},
 					"BundleReward": {
-						"(O)Book_Roe": 1
-					}
+						"(O)Book_Roe": 1,
+						"(O)Book_Crabbing": 1					}
 				},
 				//Treasure Hunt Bundles
             "blue704.JojaCC_TreasureHuntBundleBook": {
@@ -976,6 +976,154 @@
 					},
 					"BundleReward": {
 						"(S)1143": 1
+					}
+				},
+				//Boiler Room Bundles
+            "blue704.JojaCC_BoilerRoomBundleBook": {
+					"Location": "JojaCC",
+					"BundleName": "{{i18n: blue704.JojaCC_BoilerRoomBundleBook}}",
+					"BundleDescription": "{{i18n: blue704.JojaCC_BoilerRoomBundleAllReward}}",
+					"ShopPosition": "62, 16",
+					"ShopType": "CCBundle",
+					"ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
+					"ShopTextureSource": { "X": 32, "Y": 0, "Width": 16, "Height": 16 },
+					"ShopDrawDimensions": "64, 64",
+					"ShopDrawOffset": "0, 64",
+					"ShopAnimation": "0",
+                    "InstantShopRemoval": true,
+					"ShopCompletedAnimation": "0",
+					"JunimoNoteTexture": "UnlockableBundles/UI/MagicBookJunimoNote_Brown",
+					"IsBook": true,
+					"BundleCompletedActions": [
+						"AddMail current JojaCC_BoilerRoomComplete received"
+]
+
+				},
+				"blue704.JojaCC_BoilerRoomBundle01": {
+					"Location": "JojaCC",
+					"BundleName": "{{i18n: blue704.JojaCC_BoilerRoomBundle01}}",
+                    "ShopPosition": "103, 46",
+                    "PagePackageIndex": 0,
+					"BundleIcon": "Geologist",
+					"BookId": "blue704.JojaCC_BoilerRoomBundleBook",
+					"ShopType": "CCBundle",
+					"DrawQuestionMark": false, 
+					"BundleSlots": 6,
+					"Price": {
+						"(O)60": 1,
+						"(O)62": 1,
+						"(O)64": 1,
+						"(O)66": 1,
+						"(O)68": 1,
+						"(O)70": 1
+					},
+					"BundleCompletedActions": [
+						"AddMail current JojaCC_BoilerRoomBundle01Complete received"
+]
+				},
+				"blue704.JojaCC_BoilerRoomBundle02": {
+					"Location": "JojaCC",
+					"BundleName": "{{i18n: blue704.JojaCC_BoilerRoomBundle02}}",
+                    "ShopPosition": "204, 46",
+                    "PagePackageIndex": 3,
+					"BundleIconAsset": "{{InternalAssetKey: assets/BundleIcons/blacksmith.png}}",
+					"BookId": "blue704.JojaCC_BoilerRoomBundleBook",
+					"ShopType": "CCBundle",
+					"DrawQuestionMark": false, 
+					"BundleSlots": 4,
+					"Price": {
+						"(O)535": 1,
+						"(O)536": 1,
+						"(O)537": 1,
+						"(O)749": 1
+					},
+					"BundleReward": {
+						"(O)GoldenMysteryBox": 3
+					}
+				},
+				"blue704.JojaCC_BoilerRoomBundle03": {
+					"Location": "JojaCC",
+					"BundleName": "{{i18n: blue704.JojaCC_BoilerRoomBundle03}}",
+                    "ShopPosition": "80, 80",
+                    "PagePackageIndex": 2,
+					"BundleIconAsset": "{{InternalAssetKey: assets/BundleIcons/bombs.png}}",
+					"BookId": "blue704.JojaCC_BoilerRoomBundleBook",
+					"ShopType": "CCBundle",
+					"DrawQuestionMark": false, 
+					"BundleSlots": 3,
+					"Price": {
+						"(O)286": 10,
+						"(O)287": 5,
+						"(O)288": 1
+					},
+					"BundleReward": {
+						"(O)811": 1
+				}
+            },
+				"blue704.JojaCC_BoilerRoomBundle04": {
+					"Location": "JojaCC",
+					"BundleName": "{{i18n: blue704.JojaCC_BoilerRoomBundle04}}",
+                    "ShopPosition": "222, 80",
+                    "PagePackageIndex": 1,
+					"BundleIconAsset": "{{InternalAssetKey: assets/BundleIcons/monsterhunter.png}}",
+					"BookId": "blue704.JojaCC_BoilerRoomBundleBook",
+					"ShopType": "CCBundle",
+					"DrawQuestionMark": false, 
+					"BundleSlots": 6,
+                    "Price": {
+						"(O)766": 50,
+						"(O)684": 25,
+						"(O)767": 15,
+						"(O)881": 10,
+						"(O)768": 5,
+						"(O)769": 5
+					},
+					"BundleReward": {
+						"(R)862": 1
+					}
+				},
+				"blue704.JojaCC_BoilerRoomBundle05": {
+					"Location": "JojaCC",
+					"BundleName": "{{i18n: blue704.JojaCC_BoilerRoomBundle05}}",
+                    "ShopPosition": "204, 111",
+                    "PagePackageIndex": 6,
+					"BundleIconAsset": "{{InternalAssetKey: assets/BundleIcons/adventurer.png}}",
+					"BookId": "blue704.JojaCC_BoilerRoomBundleBook",
+					"ShopType": "CCBundle",
+					"DrawQuestionMark": false, 
+					"BundleSlots": 5,
+                    "Price": {
+						"(O)772": 1,
+						"(O)166": 1,
+						"(O)527": 1,
+						"(O)164": 1,
+						"(O)CalicoEgg": 1,
+						"(O)226": 1
+					},
+					"BundleReward": {
+						"(O)289": 3
+					}
+				},
+				"blue704.JojaCC_BoilerRoomBundle06": {
+					"Location": "JojaCC",
+					"BundleName": "{{i18n: blue704.JojaCC_BoilerRoomBundle06}}",
+                    "ShopPosition": "103, 111",
+                    "PagePackageIndex": 4,
+					"BundleIconAsset": "{{InternalAssetKey: assets/BundleIcons/exoticminer.png}}",
+					"BookId": "blue704.JojaCC_BoilerRoomBundleBook",
+					"ShopType": "CCBundle",
+					"DrawQuestionMark": false, 
+					"BundleSlots": 5,
+                    "Price": {
+						"(O)337": 1,
+						"(O)82": 1,
+						"(O)72": 1,
+						"(O)74": 1,
+						"(O)243": 1
+						
+					},
+					"BundleReward": {
+						"(BC)21": 3
 					}
 				}
             }
