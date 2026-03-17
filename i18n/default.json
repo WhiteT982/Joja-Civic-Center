@@ -56,6 +56,16 @@
     "blue704.JojaCC_BoilerRoomBundle04": "Monster Hunter",
     "blue704.JojaCC_BoilerRoomBundle05": "Adventurer",
     "blue704.JojaCC_BoilerRoomBundle06": "Exotic Miner",
+     //VaultBundles
+    "blue704.JojaCC_VaultBundleBook": "The Vault",
+    "blue704.JojaCC_VaultBundleAllReward": "Reward: An Island Getaway",
+    "blue704.JojaCC_VaultBundle01": "10,000 Bundle",
+    "blue704.JojaCC_VaultBundle02": "Farmer Mystery Bundle",
+    "blue704.JojaCC_VaultBundle03": "15,000 Bundle",
+    "blue704.JojaCC_VaultBundle04": "Book Mystery Bundle",
+    "blue704.JojaCC_VaultBundle05": "20,000 Bundle",
+    "blue704.JojaCC_VaultBundle06": "Joja Mystery Bundle",
+    "blue704.JojaCC_VaultBundle07": "The Golden Bundle",
     //Objects
     "blue704.JojaCC_TreasureHuntTag": "Treasure Hunt Tag",
     "blue704.JojaCC_TreasureHuntTagDescription": "Turn in to the Treasure Hunt Bundle to claim your reward!",

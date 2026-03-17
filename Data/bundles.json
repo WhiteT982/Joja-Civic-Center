@@ -322,10 +322,10 @@
 					"BookId": "blue704.JojaCC_FarmerBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 10,
+					"BundleSlots": 7,
                     "Price": {
-						"(O)Adam.Joja_Cheeze": 5,
-						"(O)Adam.Joja_Honey": 2,
+						"(O)Adam.Joja_Cheeze": 1,
+						"(O)Adam.Joja_Honey": 1,
 						"(O)Adam.Joja_Wine": 1,
 						"(O)Adam.Joja_Mead": 1,
 						"(O)Adam.Joja_Juice": 1,
@@ -947,7 +947,10 @@
 						"(W)4": 1,
 						"(W)23": 1,
 						"(W)29": 1,
-						"(W)34": 1
+						"(W)34": 1,
+						"(W)57": 1,
+						"(W)58": 1,
+						"(W)59": 1
 					},
 					"RandomRewardEntries": 1
 				},
@@ -975,8 +978,17 @@
 						
 					},
 					"BundleReward": {
-						"(S)1143": 1
-					}
+						"(S)1143": 1,
+						"(H)40": 1,
+						"(H)66": 1,
+						"(H)92": 1,
+						"(H)LeprechuanHat": 1,
+						"(B)806": 1,
+						"(S)1280": 1,
+						"(S)1087": 1
+
+					},
+					"RandomRewardEntries": 1
 				},
 				//Boiler Room Bundles
             "blue704.JojaCC_BoilerRoomBundleBook": {
@@ -1125,7 +1137,179 @@
 					"BundleReward": {
 						"(BC)21": 3
 					}
-				}
+				},
+		//Vault Bundles
+		"blue704.JojaCC_VaultBundleBook": {
+          "Location": "JojaCC",
+          "BundleName": "{{i18n: blue704.JojaCC_VaultBundleBook}}",
+          "BundleDescription": "{{i18n: blue704.JojaCC_VaultBundleAllReward}}",
+          "ShopPosition": "55, 6",
+          "ShopType": "CCBundle",
+          "ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
+          "ShopTextureSource": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+          "ShopDrawDimensions": "64, 64",
+          "ShopDrawOffset": "0, 64",
+          "ShopAnimation": "0",
+          "InstantShopRemoval": true,
+          "ShopCompletedAnimation": "0",
+          "IsBook": true,
+          "BundleCompletedActions": [
+            "AddMail current JojaCC_VaultComplete received"
+          ]
+        },
+        "blue704.JojaCC_VaultBundle01": {
+          "Location": "JojaCC",
+          "BundleName": "{{i18n: blue704.JojaCC_VaultBundle01}}",
+          "ShopPosition": "103, 46",
+          "PagePackageIndex": 0,
+          "BundleIcon": "Medium_Money",
+          "BookId": "blue704.JojaCC_VaultBundleBook",
+          "ShopType": "CCBundle",
+          "DrawQuestionMark": false,
+          "BundleSlots": 1,
+          "Price": {
+            "money": 10000
+          },
+          "BundleReward": {
+            "(O)StardropTea": 3
+          }
+        },
+        "blue704.JojaCC_VaultBundle02": {
+          "Location": "JojaCC",
+          "BundleName": "{{i18n: blue704.JojaCC_VaultBundle02}}",
+          "ShopPosition": "204, 46",
+          "PagePackageIndex": 3,
+          "BundleIcon": "Small_Money",
+          "BookId": "blue704.JojaCC_VaultBundleBook",
+          "ShopType": "CCBundle",
+          "DrawQuestionMark": false,
+          "BundleSlots": 1,
+          "Price": {
+            "money": 5000
+          },
+          "BundleReward": {
+            "(BC)165": 1,
+            "(BC)272": 1,
+            "(O)107": 1,
+            "(O)178": 500,
+            "(O)621": 5,
+            "(O)645": 5,
+            "(O)928": 1
+          },
+          "RandomRewardEntries": 1
+        },
+        "blue704.JojaCC_VaultBundle03": {
+          "Location": "JojaCC",
+          "BundleName": "{{i18n: blue704.JojaCC_VaultBundle03}}",
+          "ShopPosition": "80, 80",
+          "PagePackageIndex": 2,
+          "BundleIcon": "Large_Money",
+          "BookId": "blue704.JojaCC_VaultBundleBook",
+          "ShopType": "CCBundle",
+          "DrawQuestionMark": false,
+          "BundleSlots": 1,
+          "Price": {
+            "money": 15000
+          },
+          "BundleReward": {
+            "(O)852": 10
+          }
+        },
+        "blue704.JojaCC_VaultBundle04": {
+          "Location": "JojaCC",
+          "BundleName": "{{i18n: blue704.JojaCC_VaultBundle04}}",
+          "ShopPosition": "222, 80",
+          "PagePackageIndex": 1,
+          "BundleIcon": "Small_Money",
+          "BookId": "blue704.JojaCC_VaultBundleBook",
+          "ShopType": "CCBundle",
+          "DrawQuestionMark": false,
+          "BundleSlots": 1,
+          "Price": {
+            "money": 5000
+          },
+          "BundleReward": {
+            "(0)Book_Void": 1,
+            "(O)PurpleBook": 1,
+            "(O)SkillBook_2": 1,
+            "(O)SkillBook_3": 1,
+            "(O)388": 500,
+            "(O)SkillBook_4": 1,
+            "(O)Book_Speed2": 1
+          },
+          "RandomRewardEntries": 1
+        },
+        "blue704.JojaCC_VaultBundle05": {
+          "Location": "JojaCC",
+          "BundleName": "{{i18n: blue704.JojaCC_VaultBundle05}}",
+          "ShopPosition": "103, 111",
+          "PagePackageIndex": 6,
+          "BundleIcon": "Extra_Large_Money",
+          "BookId": "blue704.JojaCC_VaultBundleBook",
+          "ShopType": "CCBundle",
+          "DrawQuestionMark": false,
+          "BundleSlots": 1,
+          "Price": {
+            "money": 20000
+          },
+          "BundleReward": {
+            "(BC)167": 1,
+            "(BC)126": 1,
+            "(BC)136": 1
+          }
+        },
+        "blue704.JojaCC_VaultBundle06": {
+          "Location": "JojaCC",
+          "BundleName": "{{i18n: blue704.JojaCC_VaultBundle06}}",
+          "ShopPosition": "204, 111",
+          "PagePackageIndex": 4,
+          "BundleIcon": "Small_Money",
+          "BookId": "blue704.JojaCC_VaultBundleBook",
+          "ShopType": "CCBundle",
+          "DrawQuestionMark": false,
+          "BundleSlots": 1,
+          "Price": {
+            "money": 5000
+          },
+          "BundleReward": {
+            "(BC)117": 1,
+            "(BC)Adam.Joja_Keg": 5,
+            "(BC)Adam.Joja_HoneyMaker": 5,
+            "(BC)Adam.Joja_PreservesJar": 5,
+            "(BC)Adam.Joja_FishSmoker": 5,
+            "(BC)Adam.Joja_Dehydrator": 5,
+            "(O)390": 500
+          },
+          "RandomRewardEntries": 1
+        },
+        "blue704.JojaCC_VaultBundle07": {
+          "Location": "JojaCC",
+          "BundleName": "{{i18n: blue704.JojaCC_VaultBundle07}}",
+          "ShopPosition": "145, 78",
+          "ShopTexture": "{{InternalAssetKey: assets/BundleIcons/goldenbundlepageindex.png}}",
+			"ShopTextureSource": { "X": 0, "Y": 0, "Width": 24, "Height": 24 },
+			"ShopDrawDimensions": "104, 104",
+			"ShopAnimation": "0",
+			"ShopCompletedAnimation": "0-7@200, 8@150000",
+			"PageLeafRustleColor": "Yellow",
+			"PageIconBounds": { "X":0,"Y":0,"Width":64,"Height":64 },
+          "BundleIconAsset": "{{InternalAssetKey: assets/BundleIcons/goldenbundle.png}}",
+          "BookId": "blue704.JojaCC_VaultBundleBook",
+          "ShopType": "CCBundle",
+          "DrawQuestionMark": false,
+          "BundleSlots": 1,
+          "Price": {
+            "money": 40000
+          },
+          "BundleReward": {
+            "(O)73": 5,
+            "(O)GoldenMysteryBox": 5,
+            "(O)GoldenAnimalCracker": 5,
+            "(O)791": 5,
+            "(O)373": 1,
+            "(O)928": 1
+          }
+        }
             }
         }
     ]
