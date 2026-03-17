@@ -59,6 +59,18 @@
 		"Action": "Load",
 		"Target": "LooseSprites/blue704.JojaCC",
 		"FromFile": "assets/BundleIcons/chickenfarmer.png"
+	},
+	{
+		"LogName": "Load Bundle Icons",
+		"Action": "Load",
+		"Target": "LooseSprites/blue704.JojaCC",
+		"FromFile": "assets/BundleIcons/goldenbundle.png"
+	},
+	{
+		"LogName": "Load Bundle Icons",
+		"Action": "Load",
+		"Target": "LooseSprites/blue704.JojaCC",
+		"FromFile": "assets/BundleIcons/goldenbundlepageindex.png"
 	}
 ]
 }
