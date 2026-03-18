@@ -5,7 +5,19 @@
       "Action": "Load",
       "Target": "Maps/JojaCC",
       "FromFile": "assets/Maps/z_JojaCC.tmx",
+      "When": {
+      "Season": "spring, summer, fall"
+      },
       "Priority": "Low"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCCwinter.tmx",
+      "When": {
+      "Season": "winter"
+      },
+      "Priority": "Medium"
     },
     {
       "LogName": "Add JojaCC Map To Locations",
