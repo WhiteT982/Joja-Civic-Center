@@ -3,7 +3,7 @@
   "Changes": [
     {
       "Action": "Include",
-      "FromFile": "Data/mappatches.json, Data/bundles.json, Data/events.json, Data/shop.json, Data/Objects/treasurehunttag.json, Data/Objects/bundlebook.json"
+      "FromFile": "Data/mappatches.json, Data/bundles.json, Data/events.json, Data/shop.json, Data/Objects/treasurehunttag.json, Data/Objects/bundlebook.json, assets/Maps/worldmap.json"
     }
   ]
 }

@@ -1,0 +1,74 @@
+{
+  "Changes": [
+    {
+      "LogName": "Load world map",
+      "Action": "Load",
+      "Target": "LooseSprites/blue704.JojaCC",
+      "FromFile": "assets/Maps/JojaCCworldmap.png"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/WorldMap",
+      "TargetField": ["Valley", "MapAreas"],
+      "When": {
+        "HasFlag": "jojaMember"
+      },
+      "Entries": {
+        "blue704.JojaCC_WorldMapTown":{
+        "Id": "JojaCC",
+        "Condition": "LOCATION_ACCESSIBLE JojaCC",
+        "PixelArea": {
+          "X": 165,
+          "Y": 58,
+          "Width": 20,
+          "Height": 20
+        },
+        "ScrollText": "Joja Civic Center",
+        "Textures": [
+          {
+            "Id": "JojaCC",
+            "Texture": "{{InternalAssetKey: assets/Maps/JojaCCworldmap.png}}",
+            "MapPixelArea": {
+              "X": 171,
+              "Y": 62,
+              "Width": 11,
+              "Height": 10
+            },
+            "Condition": "LOCATION_ACCESSIBLE JojaCC"
+          }
+        ],
+        "Tooltips": [
+          {
+            "Id": "JojaCC",
+            "Condition": "LOCATION_ACCESSIBLE JojaCC",
+            "KnownCondition": null,
+            "PixelArea": {
+              "X": 0,
+              "Y": 0,
+              "Width": 0,
+              "Height": 0
+            },
+            "Text": "Joja Civic Center",
+            "LeftNeighbor": "BusStop/Default",
+            "RightNeighbor": "Town/JojaMart",
+            "UpNeighbor": "Mountain/Carpenter",
+            "DownNeighbor": "Town/PierreStore"
+          }
+        ],
+         "WorldPositions": [
+            {
+              "Id": "JojaCC",
+              "LocationName": "JojaCC",
+              "MapPixelArea": {
+                "X": 176,
+                "Y": 69,
+                "Width": 0,
+                "Height": 0
+              }
+            }
+          ]
+    }
+  }
+}
+]
+        }
