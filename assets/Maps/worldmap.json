@@ -23,7 +23,7 @@
           "Width": 20,
           "Height": 20
         },
-        "ScrollText": "Joja Civic Center",
+        "ScrollText": "{{i18n: blue704.JojaCC_JojaCC}}",
         "Textures": [
           {
             "Id": "JojaCC",
@@ -58,7 +58,7 @@
          "WorldPositions": [
             {
               "Id": "JojaCC",
-              "LocationName": "JojaCC",
+              "LocationName": "Joja Civic Center",
               "MapPixelArea": {
                 "X": 176,
                 "Y": 69,
