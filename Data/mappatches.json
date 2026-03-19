@@ -103,6 +103,32 @@
                     "Remove": "true"
         }
       ]
+    },
+    //Load JojaCC Cellar
+    {
+      "Action": "Load",
+      "Target": "Maps/JojaCCcellar",
+      "FromFile": "assets/Maps/z_JojaCCcellar.tmx",
+      "Priority": "Low"
+    },
+    {
+      "LogName": "Add JojaCCcellar Map To Locations",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "JojaCCcellar": {
+          "DisplayName": "{{i18n:blue704.JojaCC_JojaCCcellar}}",
+          "DefaultArrivalTile": {
+            "X": 4,
+            "Y": 5
+          },
+          "MusicDefault": "jaunty",
+          "CreateOnLoad": {
+            "MapPath": "Maps/JojaCCcellar",
+            "Type": "StardewValley.Locations.Cellar"
+          }
+        }
+      }
     }
       ]
     }
