@@ -21,9 +21,9 @@
 					"ShopCompletedAnimation": "0",
 					"JunimoNoteTexture": "UnlockableBundles/UI/MagicBookJunimoNote_Green",
 					"IsBook": true,
-					"BundleReward": {
-						"(O)TreasureTotem": 10
-					}
+					"BundleCompletedActions": [
+  "AddMail current JojaCC_ForagerBundleBookComplete received"
+]
 				},
 				"blue704.JojaCC_ForagerBundle01": {
 					"Location": "JojaCC",
