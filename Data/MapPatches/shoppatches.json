@@ -12,7 +12,7 @@
                     "Position": { "X": 15, "Y": 20 },
                     "Layer": "Buildings",
                     "SetProperties": {
-                        "Action": "OpenShop LeahsForaging left 0600 2600 16 20 1 1"
+                        "Action": "OpenShop LeahsForaging left 0600 2600 16 21 1 1"
                     }
                 }
             ]
