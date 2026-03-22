@@ -1,0 +1,358 @@
+{
+    "Changes": [
+    {
+      "LogName": "Add the stump",
+      "Action": "EditData",
+      "Target": "Data/BigCraftables",
+      "Entries": {
+        "blue704.JojaCC_Resources_Stump": {
+          "Name": "blue704.JojaCC_Resources_Stump",
+          "DisplayName": "Resource Stump",
+          "Description": "A stump that grows a neverending source of foraging resources!",
+          "Texture": "{{InternalAssetKey: assets/stump.png}}",
+          "SpriteIndex": 0
+        }
+      }
+    },
+    {
+      "LogName": "Add the rock",
+      "Action": "EditData",
+      "Target": "Data/BigCraftables",
+      "Entries": {
+        "blue704.JojaCC_Resources_Rock": {
+          "Name": "blue704.JojaCC_Resources_Rock",
+          "DisplayName": "Resource Rock",
+          "Description": "A rock that you can mine for a neverending source of minerals!",
+          "Texture": "{{InternalAssetKey: assets/rock.png}}",
+          "SpriteIndex": 0
+        }
+      }
+    },
+    {
+      "LogName": "Create stump recipe.",
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "blue704.JojaCC_Resources_Stump": "334 2 388 20 92 30/Home/Adams.Resources_Stump/true/Foraging 2/"
+      }
+    },
+    {
+      "LogName": "Create rock recipe.",
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "blue704.JojaCC_Resources_Rock": "334 2 390 20 382 30/Home/Adams.Resources_Rock/true/Mining 2/"
+      }
+    },
+    {
+      "LogName": "Add stump rules",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "Entries": {
+        "(BC)blue704.JojaCC_Resources_Stump": {
+          "OutputRules": [
+            {
+              "Id": "blue704.JojaCC_Resources_Stump",
+              "Triggers": [
+                {
+                  "Id": "blue704.JojaCC_Resources_Stump",
+                  "Trigger": "MachinePutDown, OutputCollected"
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Hardwood",
+                  "ItemId": "(O)709",
+                  "MinStack": 3,
+                  "MaxStack": 6,
+                  "StackModifiers": [
+                    {
+                      "Id": "RareDouble",
+                      "Condition": "RANDOM .1",
+                      "Modification": "Multiply",
+                      "Amount": 2.0
+                    },
+                    {
+                      "Id": "ForageLvl2-5",
+                      "Condition": "RANDOM .25, PLAYER_FORAGING_LEVEL current 2 5"
+                    },
+                    {
+                      "Id": "ForageLvl6-8",
+                      "Condition": "RANDOM .4, PLAYER_FORAGING_LEVEL current 6 8"
+                    },
+                    {
+                      "Id": "ForageLvl9-10",
+                      "Condition": "RANDOM .5, PLAYER_FORAGING_LEVEL current 9 10"
+                    }
+                  ]
+                },
+                {
+                  "Id": "Moss",
+                  "ItemId": "(O)Moss",
+                  "MinStack": 3,
+                  "MaxStack": 6,
+                  "StackModifiers": [
+                    {
+                      "Id": "RareDouble",
+                      "Condition": "RANDOM .1",
+                      "Modification": "Multiply",
+                      "Amount": 2.0
+                    },
+                    {
+                      "Id": "ForageLvl2-5",
+                      "Condition": "RANDOM .2, PLAYER_FORAGING_LEVEL current 2 5"
+                    },
+                    {
+                      "Id": "ForageLvl6-8",
+                      "Condition": "RANDOM .3, PLAYER_FORAGING_LEVEL current 6 8"
+                    },
+                    {
+                      "Id": "ForageLvl9-10",
+                      "Condition": "RANDOM .5, PLAYER_FORAGING_LEVEL current 9 10"
+                    }
+                  ]
+                },
+                {
+                  "Id": "Wood",
+                  "ItemId": "(O)388",
+                  "MinStack": 3,
+                  "MaxStack": 6,
+                  "StackModifiers": [
+                    {
+                      "Id": "RareDouble",
+                      "Condition": "RANDOM .1",
+                      "Modification": "Multiply",
+                      "Amount": 2.0
+                    },
+                    {
+                      "Id": "ForageLvl2-5",
+                      "Condition": "RANDOM .25, PLAYER_FORAGING_LEVEL current 2 5"
+                    },
+                    {
+                      "Id": "ForageLvl6-8",
+                      "Condition": "RANDOM .4, PLAYER_FORAGING_LEVEL current 6 8"
+                    },
+                    {
+                      "Id": "ForageLvl9-10",
+                      "Condition": "RANDOM .5, PLAYER_FORAGING_LEVEL current 9 10"
+                    }
+                  ]
+                },
+                {
+                  "Id": "Fiber",
+                  "ItemId": "(O)771",
+                  "MinStack": 1,
+                  "MaxStack": 3,
+                  "StackModifiers": [
+                    {
+                      "Id": "RareDouble",
+                      "Condition": "RANDOM .1",
+                      "Modification": "Multiply",
+                      "Amount": 2.0
+                    },
+                    {
+                      "Id": "ForageLvl2-5",
+                      "Condition": "RANDOM .5, PLAYER_FORAGING_LEVEL current 2 5"
+                    },
+                    {
+                      "Id": "ForageLvl6-8",
+                      "Condition": "RANDOM .3, PLAYER_FORAGING_LEVEL current 6 8"
+                    },
+                    {
+                      "Id": "ForageLvl9-10",
+                      "Condition": "RANDOM .2, PLAYER_FORAGING_LEVEL current 9 10"
+                    }
+                  ]
+                },
+                {
+                  "Id": "Sap",
+                  "ItemId": "(O)92",
+                  "MinStack": 1,
+                  "MaxStack": 3,
+                  "StackModifiers": [
+                    {
+                      "Id": "RareDouble",
+                      "Condition": "RANDOM .1",
+                      "Modification": "Multiply",
+                      "Amount": 2.0
+                    }
+                  ]
+                }
+              ],
+              "MinutesUntilReady": 60
+            }
+          ],
+          "LoadEffects": [
+            {
+              "Id": "Default",
+              "Condition": null,
+              "Sounds": [
+                {
+                  "Id": "Ship",
+                  "Delay": 0
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "LogName": "Add rock rules",
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "Entries": {
+        "(BC)blue704.JojaCC_Resources_Rock": {
+          "OutputRules": [
+            {
+              "Id": "blue704.JojaCC_Resources_Rock",
+              "Triggers": [
+                {
+                  "Id": "blue704.JojaCC_Resources_Rock",
+                  "Trigger": "MachinePutDown, OutputCollected"
+                }
+              ],
+              "OutputItem": [
+                {
+                  "Id": "Gold Ore",
+                  "ItemId": "(O)384",
+                  "MinStack": 3,
+                  "MaxStack": 6,
+                  "StackModifiers": [
+                    {
+                      "Id": "RareDouble",
+                      "Condition": "RANDOM .1",
+                      "Modification": "Multiply",
+                      "Amount": 2.0
+                    },
+                    {
+                      "Id": "MineLvl2-5",
+                      "Condition": "RANDOM .25, PLAYER_MINING_LEVEL current 2 5"
+                    },
+                    {
+                      "Id": "MineLvl6-8",
+                      "Condition": "RANDOM .4, PLAYER_MINING_LEVEL current 6 8"
+                    },
+                    {
+                      "Id": "MineLvl9-10",
+                      "Condition": "RANDOM .5, PLAYER_MINING_LEVEL current 9 10"
+                    }
+                  ]
+                },
+                {
+                  "Id": "Iron Ore",
+                  "ItemId": "(O)380",
+                  "MinStack": 3,
+                  "MaxStack": 6,
+                  "StackModifiers": [
+                    {
+                      "Id": "RareDouble",
+                      "Condition": "RANDOM .1",
+                      "Modification": "Multiply",
+                      "Amount": 2.0
+                    },
+                    {
+                      "Id": "MineLvl2-5",
+                      "Condition": "RANDOM .2, PLAYER_MINING_LEVEL current 2 5"
+                    },
+                    {
+                      "Id": "MineLvl6-8",
+                      "Condition": "RANDOM .3, PLAYER_MINING_LEVEL current 6 8"
+                    },
+                    {
+                      "Id": "MineLvl9-10",
+                      "Condition": "RANDOM .5, PLAYER_MINING_LEVEL current 9 10"
+                    }
+                  ]
+                },
+                {
+                  "Id": "Copper Ore",
+                  "ItemId": "(O)378",
+                  "MinStack": 3,
+                  "MaxStack": 6,
+                  "StackModifiers": [
+                    {
+                      "Id": "RareDouble",
+                      "Condition": "RANDOM .1",
+                      "Modification": "Multiply",
+                      "Amount": 2.0
+                    },
+                    {
+                      "Id": "MineLvl2-5",
+                      "Condition": "RANDOM .25, PLAYER_MINING_LEVEL current 2 5"
+                    },
+                    {
+                      "Id": "MineLvl6-8",
+                      "Condition": "RANDOM .4, PLAYER_MINING_LEVEL current 6 8"
+                    },
+                    {
+                      "Id": "MineLvl9-10",
+                      "Condition": "RANDOM .5, PLAYER_MINING_LEVEL current 9 10"
+                    }
+                  ]
+                },
+                {
+                  "Id": "Coal",
+                  "ItemId": "(O)382",
+                  "MinStack": 3,
+                  "MaxStack": 6,
+                  "StackModifiers": [
+                    {
+                      "Id": "RareDouble",
+                      "Condition": "RANDOM .1",
+                      "Modification": "Multiply",
+                      "Amount": 2.0
+                    },
+                    {
+                      "Id": "MineLvl2-5",
+                      "Condition": "RANDOM .5, PLAYER_MINING_LEVEL current 2 5"
+                    },
+                    {
+                      "Id": "MineLvl6-8",
+                      "Condition": "RANDOM .3, PLAYER_MINING_LEVEL current 6 8"
+                    },
+                    {
+                      "Id": "MineLvl9-10",
+                      "Condition": "RANDOM .3, PLAYER_MINING_LEVEL current 9 10"
+                    }
+                  ]
+                },
+                {
+                  "Id": "Stone",
+                  "ItemId": "(O)390",
+                  "MinStack": 1,
+                  "MaxStack": 3,
+                  "StackModifiers": [
+                    {
+                      "Id": "RareDouble",
+                      "Condition": "RANDOM .1",
+                      "Modification": "Multiply",
+                      "Amount": 2.0
+                    }
+                  ]
+                }
+              ],
+              "MinutesUntilReady": 60
+            }
+          ],
+          "LoadEffects": [
+            {
+              "Id": "Default",
+              "Condition": null,
+              "Sounds": [
+                {
+                  "Id": "stoneCrack",
+                  "Delay": 0
+                },
+                {
+                  "Id": "drumkit4",
+                  "Delay": 0
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
