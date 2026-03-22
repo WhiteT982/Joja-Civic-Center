@@ -10,7 +10,7 @@
     },
      {
         "Action": "EditData",
-      "LogName": "Joja CC Treasure Hunt Start Event Data",
+      "LogName": "Joja CC Farmer Bundle 01 Complete Event Data",
       "Target": "Data/Events/Town",
       "Entries": {
         "FarmerBundle01Complete/GameStateQuery PLAYER_HAS_MAIL current JojaCC_Year2SeedsJoja received": "continue/-2000 -2000/Morris 92 53 1 farmer -100 -100 0/message \"Just now at JojaMart...\"/viewport 96 51/addObject 97 52 (F)LargeJojaCrate/fade false/pause 500/skippable/emote Morris 8/pause 800/speak Morris \"What do we have here?#$b#It must be that shipment that I was expecting!$h\"/pause 300/move Morris 4 0 1/pause 300/shake Morris 800/playSound openBox/pause 300/speak Morris \"Yes! Just what I was expecting.#$b#Pierre thought he had the upper hand but now JojaMart is the only supplier of these premium seeds.$h\"/pause 500/speak Morris \"Let's see what is in here exactly.#$b#There are garlic, rhubarb, strawberry, blueberry, red cabbage, artichoke, beet, and what else is in here at the bottom?\"/pause 500/emote Morris 16/pause 400/speak Morris \"There are even starfruit and cactus seeds in here!#$b#Haha. Pierre is in trouble now...\"/pause 500/end"
@@ -18,10 +18,18 @@
     },
      {
         "Action": "EditData",
-      "LogName": "Joja CC Treasure Hunt Start Event Data",
+      "LogName": "Joja CC Farmer Bundle 05 Complete Event Data",
       "Target": "Data/Events/Town",
       "Entries": {
         "FarmerBundle05Complete/GameStateQuery PLAYER_HAS_MAIL current JojaCC_FertilizerJoja received": "continue/-2000 -2000/Morris 92 53 1 farmer -100 -100 0/message \"Just now at JojaMart...\"/viewport 96 51/addObject 97 52 (F)LargeJojaCrate/fade false/pause 500/skippable/emote Morris 8/pause 800/speak Morris \"What is that smell?#$b#It's terrible!\"/move Morris 1 0 2/pause 400/faceDirection Morris 3/pause 400/faceDirection Morris 1/pause 300/speak Morris \"It is coming from the box.#$b#That must mean that it's the shipment of fertilizer I ordered.\"/pause 600/move Morris 3 0 1/pause 300/shake Morris 800/playSound openBox/pause 300/speak Morris \"Cough.Cough.#$b#It's even worse inside.#$b#I hope this fertilizer sells better than it smells.\"/pause 500/speak Morris \"Let's see what is in here exactly.#$b#There is some tree fertilizer, some deluxe retaining soil, a little deluxe fertilizer, and what else is that?\"/pause 500/emote Morris 16/pause 400/speak Morris \"There's even some hyper speed gro in here!#$b#I thought that stuff was radioactive...\"/pause 500/end"
+      }
+    },
+     {
+        "Action": "EditData",
+      "LogName": "Joja CC Forager Bundle Complete Event Data",
+      "Target": "Data/Events/Town",
+      "Entries": {
+        "ForagerBundleComplete/GameStateQuery PLAYER_HAS_MAIL current JojaCC_ForagerBundleBookComplete received": "continue/39 36/Morris 39 37 0 farmer 40 35 2 Leah 40 37 0/pause 500/speak Morris \"Ah, perfect timing. I see you just completed the Forager Bundle.\"/pause 300/emote farmer 20/pause 500/speak Morris \"I was just bringing Leah here to see the new shop that she's opening.#$b#Let's step inside so that Leah can see her new place.\"/pause 300/emote Leah 32/pause 500/fade/changeToTemporaryMap JojaCC/viewport 13 22/warp Morris 13 22/warp Leah 13 20/faceDirection Leah 2/warp farmer 11 20/faceDirection farmer 1/playMusic jaunty/pause 500/faceDirction Leah 3/pause 400/faceDirection Leah 1/pause 400/faceDirection Leah 3/pause 500/emote Leah 20/pause 500/speak Leah \"Wow this is amazing!$h#$b#Thank you @. I know that it was a lot of work to find all of those things, but I am really grateful.\"/pause 300/speak Leah \"And to show my appreciation me and Morris have a little surprise for you!$h\"/pause 500/faceDirection Leah 2/pause 300/speak Morris \"That's right. Leah has discovered a lovely clearing behind the Bus Stop and has asked Joja to open a path so that you can use it.$h\"/pause 500/faceDirection Leah 3/pause 300/speak Leah \"You'll love it @! There's even an old shed there that I'm sure you'll find a use for.$h\"/pause 600/speak Morris \"Just give us some time and we'll have it opened right up for you.#$b#I believe we should have all of the work done by tomorrow morning.\"/pause 500/emote farmer 20/pause 500/end"
       }
     }
     ]
