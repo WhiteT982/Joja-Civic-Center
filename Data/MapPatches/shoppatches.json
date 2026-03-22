@@ -1,0 +1,38 @@
+{
+    "Changes": [
+        //Leahs Foraging Shop open
+        {
+            "Action": "EditMap",
+            "Target": "Maps/JojaCC",
+      "When": {
+        "HasFlag": "JojaCC_ForagerBundleBookComplete"
+      },
+            "MapTiles": [
+                {
+                    "Position": { "X": 15, "Y": 20 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "OpenShop LeahsForaging left 0600 2600 16 20 1 1"
+                    }
+                }
+            ]
+        },
+        //Evelyns shop open
+        {
+            "Action": "EditMap",
+            "Target": "Maps/JojaCC",
+            "When": {
+        "HasFlag": "JojaCC_FarmerBundleBookComplete"
+      },
+            "MapTiles": [
+                {
+                    "Position": { "X": 8, "Y": 8 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "OpenShop EvelynsCooking down 0600 2600 8 7 1 1"
+                    }
+                }
+            ]
+        }
+    ]
+}

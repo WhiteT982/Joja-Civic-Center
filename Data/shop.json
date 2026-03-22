@@ -147,6 +147,146 @@
           "ItemId": "(O)805"
         }
     }
-}
-]
-}
+},
+//Leahs Foraging Shop
+{
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "Entries": {
+        "LeahsForaging": {
+          "Currency": 0,
+          "StackSizeVisibility": null,
+          "OpenSound": null,
+          "PurchaseSound": null,
+          "PurchaseRepeatSound": null,
+          "ApplyProfitMargins": null,
+          "PriceModifierMode": "Stack",
+          "SalableItemTags": [
+      "category_greens",
+      "category_vegetable",
+      "category_fruits",
+      "category_flowers",
+      "category_seeds",
+      "category_sell_at_pierres",
+      "category_milk",
+      "category_artisan_goods",
+      "category_egg",
+      "category_meat",
+      "category_fertilizer",
+      "category_cooking",
+      "category_ingredients"
+    ],
+          "Owners": [
+    {
+        "Name": "AnyOrNone",
+        "ClosedMessage": "I'll be back on Tuesday, Wednesday, Thursday, and Sunday from noon to 7pm.",
+        "Condition": "!TIME 1200 1900"
+    },
+    {
+        "Name": "Leah",
+        "Dialogues": [ 
+          {
+            "Id": "Default",
+            "Dialogue": "Hi there! Looking for some foraging supplies?"
+          }
+        ]
+    }
+],
+          "Items": [
+            {
+              "Price": 6000,
+              "AvailableStock": 10,
+              "AvoidRepeat": false,
+              "IgnoreShopPriceModifiers": true,
+              "Id": "(BC)MushroomLog",
+              "ItemId": "(BC)MushroomLog",
+              "IsRecipe": false
+            },
+            {
+              "Price": 3000,
+              "AvailableStock": -1,
+              "AvoidRepeat": false,
+              "IgnoreShopPriceModifiers": true,
+              "Id": "(BC)105",
+              "ItemId": "(BC)105",
+              "IsRecipe": false
+            },
+            {
+              "Price": 5500,
+              "AvailableStock": 10,
+              "AvoidRepeat": false,
+              "IgnoreShopPriceModifiers": true,
+              "Id": "(BC)264",
+              "ItemId": "(BC)264",
+              "IsRecipe": false
+            },
+              {
+              "Price": 1000,
+              "AvailableStock": -1,
+              "AvoidRepeat": false,
+              "IgnoreShopPriceModifiers": true,
+              "Id": "(O)TentKit",
+              "ItemId": "(O)TentKit",
+              "IsRecipe": false
+            },
+              {
+              "RandomItemId": [ "(O)681", "(O)688", "(O)689", "(O)690", "(O)261", "(O)TreasureTotem" ],
+              "AvailableStock": 10,
+              "AvoidRepeat": false,
+              "IgnoreShopPriceModifiers": true,
+              "IsRecipe": false
+            },
+            {
+              "RandomItemId": [ "(O)211", "(O)241", "(O)235", "(O)907" ],
+              "AvailableStock": 5,
+              "AvoidRepeat": false,
+              "IgnoreShopPriceModifiers": true,
+              "IsRecipe": false
+            },
+            {
+              "Price": 10,
+              "AvoidRepeat": false,
+              "IgnoreShopPriceModifiers": true,
+              "Id": "(O)388",
+              "ItemId": "(O)388",
+              "IsRecipe": false
+            },
+            {
+              "Price": 200,
+              "AvailableStock": 15,
+              "AvoidRepeat": false,
+              "IgnoreShopPriceModifiers": true,
+              "Id": "(O)330",
+              "ItemId": "(O)330",
+              "IsRecipe": false
+            },
+            {
+              "Price": 20,
+              "AvoidRepeat": false,
+              "IgnoreShopPriceModifiers": true,
+              "Id": "(O)390",
+              "ItemId": "(O)390",
+              "IsRecipe": false
+            },
+            {
+              "Price": 5000,
+              "AvoidRepeat": false,
+              "IgnoreShopPriceModifiers": true,
+              "Id": "(BC)blue704.JojaCC_Resources_Stump(recipe)",
+              "ItemId": "(BC)blue704.JojaCC_Resources_Stump",
+              "IsRecipe": true,
+              "AvailableStockModifiers": [
+            {
+              "Id": "No Repeat Recipe",
+              "Modification": "Set",
+              "Amount": 0,
+              "Condition": "PLAYER_HAS_CRAFTING_RECIPE Current (BC)blue704.JojaCC_Resources_Stump (Recipe)"
+            }
+          ]
+            }
+          ]
+            }
+          }
+        }
+          ]
+          }

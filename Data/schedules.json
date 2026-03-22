@@ -1,0 +1,18 @@
+{
+    "Changes": [
+        //Leah Schedule Edit
+        {
+      "Action": "EditData",
+      "Target": "characters/schedules/Leah",
+            "When": {
+                "HasFlag": "JojaCC_ForagerBundleBookComplete"
+            },
+      "Entries": {
+        "Tues": "1200 JojaCC 16 20 3/1900 LeahHouse 8 5 0/2200 LeahHouse 13 10 2/2400 LeahHouse 2 4 3 leah_sleep",
+        "Wed": "1200 JojaCC 16 20 3/1900 LeahHouse 8 5 0/2200 LeahHouse 13 10 2/2400 LeahHouse 2 4 3 leah_sleep",
+        "Thurs": "1200 JojaCC 16 20 3/1900 LeahHouse 8 5 0/2200 LeahHouse 13 10 2/2400 LeahHouse 2 4 3 leah_sleep",
+        "Sun": "1200 JojaCC 16 20 3/1900 LeahHouse 8 5 0/2200 LeahHouse 13 10 2/2400 LeahHouse 2 4 3 leah_sleep"
+    }
+}
+    ]
+}
