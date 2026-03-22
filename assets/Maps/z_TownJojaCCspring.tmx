@@ -4388,12 +4388,12 @@
   </object>
   <object id="46" name="TileData" x="624" y="544" width="16" height="16">
    <properties>
-    <property name="Action" value="Warp 32 23 JojaCC"/>
+    <property name="Action" value="Warp 32 22  JojaCC"/>
    </properties>
   </object>
   <object id="47" name="TileData" x="640" y="544" width="16" height="16">
    <properties>
-    <property name="Action" value="Warp 32 23 JojaCC"/>
+    <property name="Action" value="Warp 32 22  JojaCC"/>
    </properties>
   </object>
  </objectgroup>
