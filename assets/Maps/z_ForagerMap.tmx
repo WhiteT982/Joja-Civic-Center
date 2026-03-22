@@ -5,7 +5,6 @@
   <property name="CanBuildHere" value="T"/>
   <property name="Fall_Objects" value="T"/>
   <property name="Light" value="12 24 4 55 4 4 77 6 4"/>
-  <property name="LooserBuildRestrictions" value="T"/>
   <property name="Outdoors" value="T"/>
   <property name="Spring_Objects" value="T"/>
   <property name="Summer_Objects" value="T"/>
