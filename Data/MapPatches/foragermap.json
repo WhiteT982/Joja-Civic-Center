@@ -7,6 +7,13 @@
       "FromFile": "assets/Maps/z_ForagerMap.tmx",
       "Priority": "Low"
     },
+            //Load ForagerEvent Map
+    {
+      "Action": "Load",
+      "Target": "Maps/ForagerMapEvent",
+      "FromFile": "assets/Maps/z_ForagerMapEvent.tmx",
+      "Priority": "Low"
+    },
     {
 			"Action": "EditData",
 			"Target": "MindMeltMax.MapBuildings/Buildings",
