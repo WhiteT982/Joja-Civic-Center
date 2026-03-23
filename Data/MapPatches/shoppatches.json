@@ -29,7 +29,7 @@
                     "Position": { "X": 8, "Y": 8 },
                     "Layer": "Buildings",
                     "SetProperties": {
-                        "Action": "OpenShop EvelynsCooking down 0600 2600 8 7 1 1"
+                        "Action": "OpenShop EvelynsKitchen down 0600 2600 8 7 1 1"
                     }
                 }
             ]
