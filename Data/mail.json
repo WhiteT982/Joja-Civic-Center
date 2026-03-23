@@ -1,0 +1,12 @@
+{
+  "Changes": [
+    {
+         "Action": "EditData",
+      "LogName": "Farmer Bundle Book Complete Mail Data",
+      "Target": "Data/Mail",
+      "Entries": {
+        "FarmerBundleBookCaskMail": "{{i18n:blue704.JojaCC_FarmerBundleBookCaskMail.text}} %item id (BC)163 5%%[letterbg 0][#]{{i18n:blue704.JojaCC_FarmerBundleBookCaskMail.title}}"
+      }
+    }
+]
+}
