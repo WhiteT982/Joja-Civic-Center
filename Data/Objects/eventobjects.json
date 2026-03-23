@@ -1,0 +1,40 @@
+{
+    "Changes": [
+        //Add Bundle Book object
+{
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries": {
+	"blue704.JojaCC_bundlebook": {
+		"Name": "(O)blue704.JojaCC_bundlebook",
+		"DisplayName": "bundle book",
+		"Description": "bundle book",
+		"Type": "Basic",
+		"ExcludeFromFishingCollection": true,
+		"ExcludeFromShippingCollection": true,
+		"ExcludeFromRandomSale": true,
+		"Texture": "{{InternalAssetKey: assets/Objects/bundlebook.png}}",
+		"SpriteIndex": 0
+		}
+	}
+},
+     //Add Cellar floor patch object
+{
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries": {
+	"blue704.JojaCC_cellarfloorpatch": {
+		"Name": "(O)blue704.JojaCC_cellarfloorpatch",
+		"DisplayName": "cellar floor patch",
+		"Description": "cellar floor patch",
+		"Type": "Basic",
+		"ExcludeFromFishingCollection": true,
+		"ExcludeFromShippingCollection": true,
+		"ExcludeFromRandomSale": true,
+		"Texture": "{{InternalAssetKey: assets/Objects/cellarfloorpatch.png}}",
+		"SpriteIndex": 0
+		}
+	}
+}
+    ]
+}
