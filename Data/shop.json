@@ -161,6 +161,14 @@
           "PurchaseRepeatSound": null,
           "ApplyProfitMargins": null,
           "PriceModifierMode": "Stack",
+          "PriceModifiers": [
+            {
+              "Id": "Friend Discount",
+              "Condition": "PLAYER_FRIENDSHIP_POINTS Current Leah 750",
+              "Modification": "Multiply",
+              "Amount": 0.75
+            }
+          ],
           "SalableItemTags": [
       "category_greens",
       "category_vegetable",
@@ -179,7 +187,7 @@
           "Owners": [
     {
         "Name": "AnyOrNone",
-        "ClosedMessage": "I'll be back on Tuesday, Wednesday, Thursday, and Sunday from noon to 7pm.",
+        "ClosedMessage": "{{i18n: blue704.JojaCC_LeahsShopClosed}}",
         "Condition": "!TIME 1200 1900"
     },
     {
@@ -187,7 +195,7 @@
         "Dialogues": [ 
           {
             "Id": "Default",
-            "Dialogue": "Hi there! Looking for some foraging supplies?"
+            "Dialogue": "{{i18n: blue704.JojaCC_LeahsShopOpen}}"
           }
         ]
     }
@@ -197,7 +205,7 @@
               "Price": 6000,
               "AvailableStock": 10,
               "AvoidRepeat": false,
-              "IgnoreShopPriceModifiers": true,
+              "IgnoreShopPriceModifiers": false,
               "Id": "(BC)MushroomLog",
               "ItemId": "(BC)MushroomLog",
               "IsRecipe": false
@@ -206,7 +214,7 @@
               "Price": 3000,
               "AvailableStock": -1,
               "AvoidRepeat": false,
-              "IgnoreShopPriceModifiers": true,
+              "IgnoreShopPriceModifiers": false,
               "Id": "(BC)105",
               "ItemId": "(BC)105",
               "IsRecipe": false
@@ -215,7 +223,7 @@
               "Price": 5500,
               "AvailableStock": 10,
               "AvoidRepeat": false,
-              "IgnoreShopPriceModifiers": true,
+              "IgnoreShopPriceModifiers": false,
               "Id": "(BC)264",
               "ItemId": "(BC)264",
               "IsRecipe": false
@@ -224,7 +232,7 @@
               "Price": 1000,
               "AvailableStock": -1,
               "AvoidRepeat": false,
-              "IgnoreShopPriceModifiers": true,
+              "IgnoreShopPriceModifiers": false,
               "Id": "(O)TentKit",
               "ItemId": "(O)TentKit",
               "IsRecipe": false
@@ -233,39 +241,43 @@
               "RandomItemId": [ "(O)681", "(O)688", "(O)689", "(O)690", "(O)261", "(O)TreasureTotem" ],
               "AvailableStock": 10,
               "AvoidRepeat": false,
-              "IgnoreShopPriceModifiers": true,
+              "IgnoreShopPriceModifiers": false,
               "IsRecipe": false
             },
             {
               "RandomItemId": [ "(O)211", "(O)241", "(O)235", "(O)907" ],
               "AvailableStock": 5,
               "AvoidRepeat": false,
-              "IgnoreShopPriceModifiers": true,
+              "IgnoreShopPriceModifiers": false,
               "IsRecipe": false
             },
             {
-              "Price": 10,
+              "Price": 3000,
               "AvoidRepeat": false,
-              "IgnoreShopPriceModifiers": true,
+              "IgnoreShopPriceModifiers": false,
               "Id": "(O)388",
               "ItemId": "(O)388",
+              "MinStack": 250,
+              "MaxStack": 250,
               "IsRecipe": false
             },
             {
               "Price": 200,
               "AvailableStock": 15,
               "AvoidRepeat": false,
-              "IgnoreShopPriceModifiers": true,
+              "IgnoreShopPriceModifiers": false,
               "Id": "(O)330",
               "ItemId": "(O)330",
               "IsRecipe": false
             },
             {
-              "Price": 20,
+              "Price": 5500,
               "AvoidRepeat": false,
-              "IgnoreShopPriceModifiers": true,
+              "IgnoreShopPriceModifiers": false,
               "Id": "(O)390",
               "ItemId": "(O)390",
+              "MinStack": 250,
+              "MaxStack": 250,
               "IsRecipe": false
             },
             {
@@ -287,6 +299,136 @@
           ]
             }
           }
-        }
+        },
+        //Evelyns Kitchen
+{
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "Entries": {
+        "EvelynsKitchen": {
+          "Currency": 0,
+          "StackSizeVisibility": null,
+          "OpenSound": null,
+          "PurchaseSound": null,
+          "PurchaseRepeatSound": null,
+          "ApplyProfitMargins": null,
+          "PriceModifierMode": "Stack",
+          "PriceModifiers": [
+            {
+              "Id": "Friend Discount",
+              "Condition": "PLAYER_FRIENDSHIP_POINTS Current Evelyn 750",
+              "Modification": "Multiply",
+              "Amount": 0.75
+            }
+          ],
+          "SalableItemTags": [
+      "category_greens",
+      "category_vegetable",
+      "category_fruits",
+      "category_flowers",
+      "category_sell_at_pierres",
+      "category_milk",
+      "category_artisan_goods",
+      "category_egg",
+      "category_meat",
+      "category_cooking",
+      "category_ingredients"
+    ],
+          "Owners": [
+    {
+        "Name": "AnyOrNone",
+        "ClosedMessage": "{{i18n: blue704.JojaCC_EvelynsShopClosed}}",
+        "Condition": "!TIME 1000 1600"
+    },
+    {
+        "Name": "Evelyn",
+        "Dialogues": [ 
+          {
+            "Id": "Default",
+            "Dialogue": "{{i18n: blue704.JojaCC_EvelynsShopOpen}}"
+          }
+        ]
+    }
+],
+          "Items": [
+            {
+              "RandomItemId": [ "(O)194", "(O)195", "(O)196","(O)197", "(O)198", "(O)199","(O)200", "(O)201", "(O)202","(O)203", "(O)204", "(O)205","(O)206", "(O)207", "(O)208","(O)209", "(O)210", "(O)211","(O)212", "(O)213", "(O)214","(O)215", "(O)216", "(O)217", "(O)218", "(O)219", "(O)220", "(O)221", "(O)222", "(O)223", "(O)224", "(O)225", "(O)226", "(O)227", "(O)228", "(O)229", "(O)230", "(O)231", "(O)232", "(O)233", "(O)234", "(O)235", "(O)236", "(O)237", "(O)238", "(O)239", "(O)240", "(O)241", "(O)242", "(O)243", "(O)244", "(O)253", "(O)265", "(O)456", "(O)457", "(O)604", "(O)605", "(O)606", "(O)607", "(O)608", "(O)609", "(O)610", "(O)611", "(O)612", "(O)618", "(O)648", "(O)649", "(O)651", "(O)727", "(O)728", "(O)729", "(O)730", "(O)731", "(O)732", "(O)733", "(O)903", "(O)904", "(O)905", "(O)906", "(O)907", "(O)921", "(O)MossSoup" ],
+              "IgnoreShopPriceModifiers": false,
+              "AvoidRepeat": true,
+              "IsRecipe": true
+            },
+            {
+              "RandomItemId": [ "(O)194", "(O)195", "(O)196","(O)197", "(O)198", "(O)199","(O)200", "(O)201", "(O)202","(O)203", "(O)204", "(O)205","(O)206", "(O)207", "(O)208","(O)209", "(O)210", "(O)211","(O)212", "(O)213", "(O)214","(O)215", "(O)216", "(O)217", "(O)218", "(O)219", "(O)220", "(O)221", "(O)222", "(O)223", "(O)224", "(O)225", "(O)226", "(O)227", "(O)228", "(O)229", "(O)230", "(O)231", "(O)232", "(O)233", "(O)234", "(O)235", "(O)236", "(O)237", "(O)238", "(O)239", "(O)240", "(O)241", "(O)242", "(O)243", "(O)244", "(O)253", "(O)265", "(O)456", "(O)457", "(O)604", "(O)605", "(O)606", "(O)607", "(O)608", "(O)609", "(O)610", "(O)611", "(O)612", "(O)618", "(O)648", "(O)649", "(O)651", "(O)727", "(O)728", "(O)729", "(O)730", "(O)731", "(O)732", "(O)733", "(O)903", "(O)904", "(O)905", "(O)906", "(O)907", "(O)921", "(O)MossSoup" ],
+              "IgnoreShopPriceModifiers": false,
+              "AvoidRepeat": true,
+              "IsRecipe": true
+            },
+            {
+              "RandomItemId": [ "(O)194", "(O)195", "(O)196","(O)197", "(O)198", "(O)199","(O)200", "(O)201", "(O)202","(O)203", "(O)204", "(O)205","(O)206", "(O)207", "(O)208","(O)209", "(O)210", "(O)211","(O)212", "(O)213", "(O)214","(O)215", "(O)216", "(O)217", "(O)218", "(O)219", "(O)220", "(O)221", "(O)222", "(O)223", "(O)224", "(O)225", "(O)226", "(O)227", "(O)228", "(O)229", "(O)230", "(O)231", "(O)232", "(O)233", "(O)234", "(O)235", "(O)236", "(O)237", "(O)238", "(O)239", "(O)240", "(O)241", "(O)242", "(O)243", "(O)244", "(O)253", "(O)265", "(O)456", "(O)457", "(O)604", "(O)605", "(O)606", "(O)607", "(O)608", "(O)609", "(O)610", "(O)611", "(O)612", "(O)618", "(O)648", "(O)649", "(O)651", "(O)727", "(O)728", "(O)729", "(O)730", "(O)731", "(O)732", "(O)733", "(O)903", "(O)904", "(O)905", "(O)906", "(O)907", "(O)921", "(O)MossSoup" ],
+              "IgnoreShopPriceModifiers": false,
+              "AvoidRepeat": true,
+              "IsRecipe": true
+            },
+            {
+              "RandomItemId": [ "(O)194", "(O)195", "(O)196","(O)197", "(O)198", "(O)199","(O)200", "(O)201", "(O)202","(O)203", "(O)204", "(O)205","(O)206", "(O)207", "(O)208","(O)209", "(O)210", "(O)211","(O)212", "(O)213", "(O)214","(O)215", "(O)216", "(O)217", "(O)218", "(O)219", "(O)220", "(O)221", "(O)222", "(O)223", "(O)224", "(O)225", "(O)226", "(O)227", "(O)228", "(O)229", "(O)230", "(O)231", "(O)232", "(O)233", "(O)234", "(O)235", "(O)236", "(O)237", "(O)238", "(O)239", "(O)240", "(O)241", "(O)242", "(O)243", "(O)244", "(O)253", "(O)265", "(O)456", "(O)457", "(O)604", "(O)605", "(O)606", "(O)607", "(O)608", "(O)609", "(O)610", "(O)611", "(O)612", "(O)618", "(O)648", "(O)649", "(O)651", "(O)727", "(O)728", "(O)729", "(O)730", "(O)731", "(O)732", "(O)733", "(O)903", "(O)904", "(O)905", "(O)906", "(O)907", "(O)921", "(O)MossSoup" ],
+              "AvoidRepeat": true,
+              "IgnoreShopPriceModifiers": false,
+              "IsRecipe": false
+            },
+             {
+              "RandomItemId": [ "(O)194", "(O)195", "(O)196","(O)197", "(O)198", "(O)199","(O)200", "(O)201", "(O)202","(O)203", "(O)204", "(O)205","(O)206", "(O)207", "(O)208","(O)209", "(O)210", "(O)211","(O)212", "(O)213", "(O)214","(O)215", "(O)216", "(O)217", "(O)218", "(O)219", "(O)220", "(O)221", "(O)222", "(O)223", "(O)224", "(O)225", "(O)226", "(O)227", "(O)228", "(O)229", "(O)230", "(O)231", "(O)232", "(O)233", "(O)234", "(O)235", "(O)236", "(O)237", "(O)238", "(O)239", "(O)240", "(O)241", "(O)242", "(O)243", "(O)244", "(O)253", "(O)265", "(O)456", "(O)457", "(O)604", "(O)605", "(O)606", "(O)607", "(O)608", "(O)609", "(O)610", "(O)611", "(O)612", "(O)618", "(O)648", "(O)649", "(O)651", "(O)727", "(O)728", "(O)729", "(O)730", "(O)731", "(O)732", "(O)733", "(O)903", "(O)904", "(O)905", "(O)906", "(O)907", "(O)921", "(O)MossSoup" ],
+              "AvoidRepeat": true,
+              "IgnoreShopPriceModifiers": false,
+              "IsRecipe": false
+            },
+             {
+              "RandomItemId": [ "(O)194", "(O)195", "(O)196","(O)197", "(O)198", "(O)199","(O)200", "(O)201", "(O)202","(O)203", "(O)204", "(O)205","(O)206", "(O)207", "(O)208","(O)209", "(O)210", "(O)211","(O)212", "(O)213", "(O)214","(O)215", "(O)216", "(O)217", "(O)218", "(O)219", "(O)220", "(O)221", "(O)222", "(O)223", "(O)224", "(O)225", "(O)226", "(O)227", "(O)228", "(O)229", "(O)230", "(O)231", "(O)232", "(O)233", "(O)234", "(O)235", "(O)236", "(O)237", "(O)238", "(O)239", "(O)240", "(O)241", "(O)242", "(O)243", "(O)244", "(O)253", "(O)265", "(O)456", "(O)457", "(O)604", "(O)605", "(O)606", "(O)607", "(O)608", "(O)609", "(O)610", "(O)611", "(O)612", "(O)618", "(O)648", "(O)649", "(O)651", "(O)727", "(O)728", "(O)729", "(O)730", "(O)731", "(O)732", "(O)733", "(O)903", "(O)904", "(O)905", "(O)906", "(O)907", "(O)921", "(O)MossSoup" ],
+              "AvoidRepeat": true,
+              "IgnoreShopPriceModifiers": false,
+              "IsRecipe": false
+            },
+             {
+              "RandomItemId": [ "(O)194", "(O)195", "(O)196","(O)197", "(O)198", "(O)199","(O)200", "(O)201", "(O)202","(O)203", "(O)204", "(O)205","(O)206", "(O)207", "(O)208","(O)209", "(O)210", "(O)211","(O)212", "(O)213", "(O)214","(O)215", "(O)216", "(O)217", "(O)218", "(O)219", "(O)220", "(O)221", "(O)222", "(O)223", "(O)224", "(O)225", "(O)226", "(O)227", "(O)228", "(O)229", "(O)230", "(O)231", "(O)232", "(O)233", "(O)234", "(O)235", "(O)236", "(O)237", "(O)238", "(O)239", "(O)240", "(O)241", "(O)242", "(O)243", "(O)244", "(O)253", "(O)265", "(O)456", "(O)457", "(O)604", "(O)605", "(O)606", "(O)607", "(O)608", "(O)609", "(O)610", "(O)611", "(O)612", "(O)618", "(O)648", "(O)649", "(O)651", "(O)727", "(O)728", "(O)729", "(O)730", "(O)731", "(O)732", "(O)733", "(O)903", "(O)904", "(O)905", "(O)906", "(O)907", "(O)921", "(O)MossSoup" ],
+              "AvoidRepeat": true,
+              "IgnoreShopPriceModifiers": false,
+              "IsRecipe": false
+            },
+             {
+              "RandomItemId": [ "(O)194", "(O)195", "(O)196","(O)197", "(O)198", "(O)199","(O)200", "(O)201", "(O)202","(O)203", "(O)204", "(O)205","(O)206", "(O)207", "(O)208","(O)209", "(O)210", "(O)211","(O)212", "(O)213", "(O)214","(O)215", "(O)216", "(O)217", "(O)218", "(O)219", "(O)220", "(O)221", "(O)222", "(O)223", "(O)224", "(O)225", "(O)226", "(O)227", "(O)228", "(O)229", "(O)230", "(O)231", "(O)232", "(O)233", "(O)234", "(O)235", "(O)236", "(O)237", "(O)238", "(O)239", "(O)240", "(O)241", "(O)242", "(O)243", "(O)244", "(O)253", "(O)265", "(O)456", "(O)457", "(O)604", "(O)605", "(O)606", "(O)607", "(O)608", "(O)609", "(O)610", "(O)611", "(O)612", "(O)618", "(O)648", "(O)649", "(O)651", "(O)727", "(O)728", "(O)729", "(O)730", "(O)731", "(O)732", "(O)733", "(O)903", "(O)904", "(O)905", "(O)906", "(O)907", "(O)921", "(O)MossSoup" ],
+              "AvoidRepeat": true,
+              "IgnoreShopPriceModifiers": false,
+              "IsRecipe": false
+            },
+            {
+              "Price": 6000,
+              "AvailableStock": 1,
+              "AvoidRepeat": false,
+              "IgnoreShopPriceModifiers": false,
+              "Id": "(BC)216",
+              "ItemId": "(BC)216",
+              "IsRecipe": false
+            },
+              {
+              "Price": 1,
+              "AvailableStock": 1,
+              "AvoidRepeat": false,
+              "IgnoreShopPriceModifiers": true,
+              "Id": "(O)223",
+              "ItemId": "(O)223",
+              "IsRecipe": false
+            },
+            {
+              "Price": 25000,
+              "AvoidRepeat": false,
+              "IgnoreShopPriceModifiers": true,
+              "Id": "(O)Book_QueenOfSauce",
+              "ItemId": "(O)Book_QueenOfSauce",
+              "IsRecipe": false,
+              "Condition": "RANDOM 0.01"
+            }
+          ]
+            }
+            }
+          }
           ]
           }
