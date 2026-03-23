@@ -72,5 +72,13 @@
     "blue704.JojaCC_TreasureHuntTag": "Treasure Hunt Tag",
     "blue704.JojaCC_TreasureHuntTagDescription": "Turn in to the Treasure Hunt Bundle to claim your reward!",
     "blue704.JojaCC_GoldenTreasureHuntTag": "Golden Treasure Hunt Tag",
-    "blue704.JojaCC_GoldenTreasureHuntTagDescription": "Turn in to the Treasure Hunt Bundle to claim your final reward!"
+    "blue704.JojaCC_GoldenTreasureHuntTagDescription": "Turn in to the Treasure Hunt Bundle to claim your final reward!",
+    //Shops
+    "blue704.JojaCC_LeahsShopClosed":"I'll be back on Tuesday, Wednesday, Thursday, and Sunday from noon to 7pm.",
+    "blue704.JojaCC_LeahsShopOpen": "Hi there! Looking for some foraging supplies?",
+    "blue704.JojaCC_EvelynsShopClosed": "I'm sorry I'm not here right now but I should be back Monday, Thursday, Friday, or Saturday from 10am until 4pm.",
+    "blue704.JojaCC_EvelynsShopOpen": "Hello dear. Maybe you'd like a fresh cookie?",
+    //Mail
+    "blue704.JojaCC_FarmerBundleBookCaskMail.text": "Dear @,^^Again I would just like to thank you for all of the work that you did completing the Farmer Bundle. Thanks to you I can spend some time cooking for the community and sharing the recipes that have been passed down to me from my mother.^^But I have one more small present for you. Mr. Todd said that he was going to build that cellar in the pantry for us and I thought that you might need a few casks to help get you started? These have been gathering dust in our house so I wanted you to have them. Please come my new shop when you have the chance!^^Love, Evelyn",
+    "blue704.JojaCC_FarmerBundleBookCaskMail.title": "Farmer Bundle Book Complete"
 }
