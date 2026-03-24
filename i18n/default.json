@@ -69,6 +69,8 @@
     "blue704.JojaCC_VaultBundle06": "Joja Mystery Bundle",
     "blue704.JojaCC_VaultBundle07": "The Golden Bundle",
     //Objects
+    "blue704.JojaCC_MembershipCard": "Joja Membership Card",
+    "blue704.JojaCC_MembershipCardDescription": "Grants discounts at your local JojaMart!",
     "blue704.JojaCC_TreasureHuntTag": "Treasure Hunt Tag",
     "blue704.JojaCC_TreasureHuntTagDescription": "Turn in to the Treasure Hunt Bundle to claim your reward!",
     "blue704.JojaCC_GoldenTreasureHuntTag": "Golden Treasure Hunt Tag",
@@ -78,7 +80,13 @@
     "blue704.JojaCC_LeahsShopOpen": "Hi there! Looking for some foraging supplies?",
     "blue704.JojaCC_EvelynsShopClosed": "I'm sorry I'm not here right now but I should be back Monday, Thursday, Friday, or Saturday from 10am until 4pm.",
     "blue704.JojaCC_EvelynsShopOpen": "Hello dear. Maybe you'd like a fresh cookie?",
+    "blue704.JojaCC_JojaMembershipCardOpen": "Would you like to purchase a Joja Membership?",
+    "blue704.JojaCC_JojaMembershipCardClosed": "Thank you for purchasing a Joja Membeship!",
     //Mail
+    "blue704.JojaCC_JojaMoneyRewardMail.text": "Welcome to Pelican Town!^^JojaCo has decided to build a new Joja Civic Center in your town. However, we need a little help from you. As the new local farmer we hope that you will be able to help us stock and fill our new Civic Center to the brim with local products. Sadly we will only be able to allow Joja Members to have access to this new building, but don't worry. We are here to help!^^Included with this letter we are awarding you a 5000G bonus so that you can go and purchase that membership today and get started right away on the new Joja Civic Center. We are looking forward to seeing great things from you @!^^Join Us. Thrive",
+    "blue704.JojaCC_JojaMoneyRewardMail.title": "Joja Money Reward Mail",
+    "blue704.JojaCC_EarlyJojaMembershipDiscountMail.text": "Welcome to Pelican Town!^^We are writing to you from JojaCo to let you in on a special offer. For a limited time only you can purchase a new Joja Membership for only 1000G!^^This may seem like a lot but not only do you receive special discounts from JojaMart with a Joja Membership, but JojaCo is planning something special for your town when the next Joja Membership is purchased.^^Here at JojaCo we have heard the lament that commmunity is no longer a part of small town life. Well we hope to change that by building a new Joja Civic Center! Our hope is that the Joja Civic Center will be a place where people can gather for communtiy as well as open small town shops, and Pelican Town has been selected to pioneer this new idea. So stop on by your local JojaMart and purchase your new Joja Membership today!^^Join Us. Thrive^^Offer only applicable for the next Joja Membership purchased. After that price will increase to the standard 5000G.",
+    "blue704.JojaCC_EarlyJojaMembershipDiscountMail.title": "Early Joja Membership Discount",
     "blue704.JojaCC_FarmerBundleBookCaskMail.text": "Dear @,^^Again I would just like to thank you for all of the work that you did completing the Farmer Bundle. Thanks to you I can spend some time cooking for the community and sharing the recipes that have been passed down to me from my mother.^^But I have one more small present for you. Mr. Todd said that he was going to build that cellar in the pantry for us and I thought that you might need a few casks to help get you started? These have been gathering dust in our house so I wanted you to have them. Please come my new shop when you have the chance!^^Love, Evelyn",
     "blue704.JojaCC_FarmerBundleBookCaskMail.title": "Farmer Bundle Book Complete"
 }

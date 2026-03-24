@@ -1,6 +1,22 @@
 {
   "Changes": [
     {
+      //Joja Money Reward Mail
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "Joja Money Reward Mail": {
+          "Id": "JojaMoneyRewardMail",
+          "Trigger": "DayStarted",
+          "Condition": "PLAYER_HAS_SEEN_EVENT any 611439",
+          "Actions": [
+            "AddMail current JojaMoneyRewardMail now"
+          ]
+        }
+          }
+          },
+           {
+            //Farmer Bundle Book Cask Mail
       "Action": "EditData",
       "Target": "Data/TriggerActions",
       "Entries": {

@@ -2,6 +2,14 @@
   "Changes": [
     {
          "Action": "EditData",
+      "LogName": "Early Joja Membership Discount Mail Data",
+      "Target": "Data/Mail",
+      "Entries": {
+        "JojaMoneyRewardMail": "{{i18n:blue704.JojaCC_JojaMoneyRewardMail.text}} %action AddMoney 5000%%[letterbg 4][#]{{i18n:blue704.JojaCC_JojaMoneyRewardMail.title}}"
+      }
+    },
+    {
+         "Action": "EditData",
       "LogName": "Farmer Bundle Book Complete Mail Data",
       "Target": "Data/Mail",
       "Entries": {
