@@ -1,0 +1,51 @@
+{
+    "Changes":[
+//Add Membership Card object
+{
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries": {
+	"blue704.JojaCC_MembershipCard": {
+		"Name": "(O)blue704.JojaCC_MembershipCard",
+		"DisplayName": "{{i18n: blue704.JojaCC_MembershipCard}}",
+		"Description": "{{i18n: blue704.JojaCC_MembershipCardDescription}}",
+		"Type": "Basic",
+		"ExcludeFromFishingCollection": true,
+		"ExcludeFromShippingCollection": true,
+		"ExcludeFromRandomSale": true,
+		"Texture": "{{InternalAssetKey: assets/Objects/MembershipCard.png}}",
+		"SpriteIndex": 0
+		}
+	}
+},
+{
+  "Action": "EditData",
+  "Target": "UnlockableBundles/WalletCurrencies",
+  "Entries": {
+	"blue704.JojaCC_MembershipCard": {
+		"Shared": true,
+		
+		"DrawOverheadPickupAnimation": true,
+		"OverheadPickupTexture": "{{InternalAssetKey: assets/Objects/MembershipCard.png}}",
+		"OverheadPickupAnimation": "1-4@100, 1-4",
+		"OverheadPickupTextureSize": 16,
+		"PickupSound": "achievement",
+		"PlayMoneyRollSound": false,
+		
+		"Items": [
+			{
+			"ItemId": "(O)blue704.JojaCC_MembershipCard",
+			"Value": 1
+			}
+		],
+			
+		"PowersData": {
+			"DisplayName": "{{i18n: blue704.JojaCC_MembershipCard}}",
+			"TexturePath": "{{InternalAssetKey: assets/Objects/MembershipCard.png}}",
+			"TexturePosition": { "X": 0, "Y": 0 }
+			}
+		}		
+	}
+}
+    ]
+}
