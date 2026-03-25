@@ -3,9 +3,14 @@
  <properties>
   <property name="BrookSounds" value="85 7 4"/>
   <property name="CanBuildHere" value="T"/>
+  <property name="EnableGrassSpread" value="T"/>
   <property name="Fall_Objects" value="T"/>
+  <property name="ForceAllowTreePlanting" value="T"/>
   <property name="Light" value="12 24 4 55 4 4 77 6 4"/>
+  <property name="LooserBuildRestrictions" value="T"/>
   <property name="Outdoors" value="T"/>
+  <property name="SpawnDebrisOnNewMonth" value="T"/>
+  <property name="SpawnForestFarmForage" value="T"/>
   <property name="Spring_Objects" value="T"/>
   <property name="Summer_Objects" value="T"/>
   <property name="Winter_Objects" value="T"/>
@@ -2515,123 +2520,6 @@
   <object id="96" name="TileData" x="1968" y="576" width="16" height="16">
    <properties>
     <property name="TouchAction" value="Warp Backwoods 34 6"/>
-   </properties>
-  </object>
-  <object id="71" name="TileData" x="1984" y="464" width="16" height="16">
-   <properties>
-    <property name="Buildable" value="T"/>
-   </properties>
-  </object>
-  <object id="74" name="TileData" x="2000" y="464" width="16" height="16">
-   <properties>
-    <property name="Buildable" value="T"/>
-   </properties>
-  </object>
-  <object id="75" name="TileData" x="2016" y="464" width="16" height="16">
-   <properties>
-    <property name="Buildable" value="T"/>
-   </properties>
-  </object>
-  <object id="76" name="TileData" x="2032" y="464" width="16" height="16">
-   <properties>
-    <property name="Buildable" value="T"/>
-   </properties>
-  </object>
-  <object id="77" name="TileData" x="2048" y="464" width="16" height="16">
-   <properties>
-    <property name="Buildable" value="T"/>
-   </properties>
-  </object>
-  <object id="78" name="TileData" x="2064" y="464" width="16" height="16">
-   <properties>
-    <property name="Buildable" value="T"/>
-   </properties>
-  </object>
-  <object id="79" name="TileData" x="2080" y="464" width="16" height="16">
-   <properties>
-    <property name="Buildable" value="T"/>
-   </properties>
-  </object>
-  <object id="80" name="TileData" x="2080" y="480" width="16" height="16">
-   <properties>
-    <property name="Buildable" value="T"/>
-   </properties>
-  </object>
-  <object id="81" name="TileData" x="2080" y="496" width="16" height="16">
-   <properties>
-    <property name="Buildable" value="T"/>
-   </properties>
-  </object>
-  <object id="82" name="TileData" x="2064" y="496" width="16" height="16">
-   <properties>
-    <property name="Buildable" value="T"/>
-   </properties>
-  </object>
-  <object id="83" name="TileData" x="2032" y="496" width="16" height="16">
-   <properties>
-    <property name="Buildable" value="T"/>
-   </properties>
-  </object>
-  <object id="85" name="TileData" x="2016" y="496" width="16" height="16">
-   <properties>
-    <property name="Buildable" value="T"/>
-   </properties>
-  </object>
-  <object id="86" name="TileData" x="2000" y="496" width="16" height="16">
-   <properties>
-    <property name="Buildable" value="T"/>
-   </properties>
-  </object>
-  <object id="87" name="TileData" x="1984" y="496" width="16" height="16">
-   <properties>
-    <property name="Buildable" value="T"/>
-   </properties>
-  </object>
-  <object id="88" name="TileData" x="1984" y="480" width="16" height="16">
-   <properties>
-    <property name="Buildable" value="T"/>
-   </properties>
-  </object>
-  <object id="89" name="TileData" x="2000" y="480" width="16" height="16">
-   <properties>
-    <property name="Buildable" value="T"/>
-   </properties>
-  </object>
-  <object id="90" name="TileData" x="2016" y="480" width="16" height="16">
-   <properties>
-    <property name="Buildable" value="T"/>
-   </properties>
-  </object>
-  <object id="91" name="TileData" x="2032" y="480" width="16" height="16">
-   <properties>
-    <property name="Buildable" value="T"/>
-   </properties>
-  </object>
-  <object id="92" name="TileData" x="2048" y="480" width="16" height="16">
-   <properties>
-    <property name="Buildable" value="T"/>
-   </properties>
-  </object>
-  <object id="93" name="TileData" x="2064" y="480" width="16" height="16">
-   <properties>
-    <property name="Buildable" value="T"/>
-   </properties>
-  </object>
-  <object id="84" name="TileData" x="2048" y="496" width="16" height="16">
-   <properties>
-    <property name="Buildable" value="T"/>
-   </properties>
-  </object>
-  <object id="73" name="TileData" x="2000" y="560" width="16" height="16">
-   <properties>
-    <property name="Buildable" value="T"/>
-    <property name="Diggable" value="T"/>
-   </properties>
-  </object>
-  <object id="72" name="TileData" x="1984" y="560" width="16" height="16">
-   <properties>
-    <property name="Buildable" value="T"/>
-    <property name="Diggable" value="T"/>
    </properties>
   </object>
  </objectgroup>
