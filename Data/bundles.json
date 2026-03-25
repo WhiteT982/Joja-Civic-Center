@@ -102,17 +102,28 @@
 					"BookId": "blue704.JojaCC_ForagerBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 4,
+					"BundleSlots": 6,
                     "Price": {
 						"(O)404": 1,
 						"(O)420": 1,
 						"(O)422": 1,
 						"(O)257": 1,
-						"(O)281": 1
+						"(O)281": 1,
+						"(O)613": 1,
+						"(O)634": 1,
+						"(O)635": 1,
+						"(O)637": 1
 					},
 					"BundleReward": {
-						"(BC)MushroomLog": 5
-					}
+						"(BC)MushroomLog": 5,
+						"(O)628": 1,
+						"(O)630": 1,
+						"(O)633": 1,
+						"(O)629": 1,
+						"(O)631": 1,
+						"(O)632": 1
+					},
+					"RandomRewardEntries": 3
 				},
 				"blue704.JojaCC_ForagerBundle05": {
 					"Location": "JojaCC",
@@ -174,7 +185,9 @@
 						"(O)192": 1,
 						"(O)250": 1,
 						"(O)188": 1,
-						"(O)190": 1
+						"(O)190": 1,
+						"(O)634": 1,
+						"(O)638": 1
 					},
 					"BundleCompletedActions": [
   "AddMail current JojaCC_Year2SeedsJoja received"
@@ -197,7 +210,9 @@
 						"(O)262": 1,
 						"(O)593": 1,
 						"(O)266": 1,
-						"(O)304": 1
+						"(O)304": 1,
+						"(O)635": 1,
+						"(O)636": 1
 					},
 					"BundleReward": {
 						"(O)621": 3
@@ -219,7 +234,9 @@
 						"(O)272": 1,
 						"(O)300": 1,
 						"(O)274": 1,
-						"(O)284": 1
+						"(O)284": 1,
+						"(O)637": 1,
+						"(O)613": 1
 					},
 					"BundleReward": {
 						"(BC)Adam.Joja_Keg": 5
@@ -1168,7 +1185,7 @@
           "DrawQuestionMark": false,
           "BundleSlots": 1,
           "Price": {
-            "money": 10000
+            "money": 5000
           },
           "BundleReward": {
             "(O)StardropTea": 3
@@ -1185,7 +1202,7 @@
           "DrawQuestionMark": false,
           "BundleSlots": 1,
           "Price": {
-            "money": 5000
+            "money": 2500
           },
           "BundleReward": {
             "(BC)165": 1,
@@ -1209,7 +1226,7 @@
           "DrawQuestionMark": false,
           "BundleSlots": 1,
           "Price": {
-            "money": 15000
+            "money": 7500
           },
           "BundleReward": {
             "(O)852": 10
@@ -1226,7 +1243,7 @@
           "DrawQuestionMark": false,
           "BundleSlots": 1,
           "Price": {
-            "money": 5000
+            "money": 2500
           },
           "BundleReward": {
             "(0)Book_Void": 1,
@@ -1250,7 +1267,7 @@
           "DrawQuestionMark": false,
           "BundleSlots": 1,
           "Price": {
-            "money": 20000
+            "money": 10000
           },
           "BundleReward": {
             "(BC)167": 1,
@@ -1269,7 +1286,7 @@
           "DrawQuestionMark": false,
           "BundleSlots": 1,
           "Price": {
-            "money": 5000
+            "money": 2500
           },
           "BundleReward": {
             "(BC)117": 1,
@@ -1299,7 +1316,7 @@
           "DrawQuestionMark": false,
           "BundleSlots": 1,
           "Price": {
-            "money": 40000
+            "money": 20000
           },
           "BundleReward": {
             "(O)73": 5,
