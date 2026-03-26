@@ -1011,7 +1011,7 @@
 					"Location": "JojaCC",
 					"BundleName": "{{i18n: blue704.JojaCC_BoilerRoomBundleBook}}",
 					"BundleDescription": "{{i18n: blue704.JojaCC_BoilerRoomBundleAllReward}}",
-					"ShopPosition": "62, 16",
+					"ShopPosition": "62, 17",
 					"ShopType": "CCBundle",
 					"ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
 					"ShopTextureSource": { "X": 32, "Y": 0, "Width": 16, "Height": 16 },

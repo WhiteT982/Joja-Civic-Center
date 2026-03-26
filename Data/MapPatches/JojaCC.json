@@ -5,19 +5,7 @@
       "Action": "Load",
       "Target": "Maps/JojaCC",
       "FromFile": "assets/Maps/z_JojaCC.tmx",
-      "When": {
-      "Season": "spring, summer, fall"
-      },
       "Priority": "Low"
-    },
-    {
-      "Action": "Load",
-      "Target": "Maps/JojaCC",
-      "FromFile": "assets/Maps/z_JojaCCwinter.tmx",
-      "When": {
-      "Season": "winter"
-      },
-      "Priority": "Medium"
     },
     {
       "LogName": "Add JojaCC Map To Locations",
@@ -43,6 +31,289 @@
       "Target": "Data/Events/JojaCC",
       "FromFile": "assets/blank.json"
     },
+    //Spring Changes
+    {
+      "When": {
+        "Season": "spring"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCCseasonal.tmx",
+      "FromArea": {
+        "X": 26,
+        "Y": 17,
+        "Width": 1,
+        "Height": 2
+      },
+      "ToArea": {
+        "X": 26,
+        "Y": 17,
+        "Width": 1,
+        "Height": 2
+      }
+    },
+    {
+      "When": {
+        "Season": "spring"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCCseasonal.tmx",
+      "FromArea": {
+        "X": 9,
+        "Y": 8,
+        "Width": 1,
+        "Height": 2
+      },
+      "ToArea": {
+        "X": 9,
+        "Y": 8,
+        "Width": 1,
+        "Height": 2
+      }
+    },
+    //Fall Changes
+    {
+      "When": {
+        "Season": "fall"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCCseasonal.tmx",
+      "FromArea": {
+        "X": 39,
+        "Y": 17,
+        "Width": 6,
+        "Height": 2
+      },
+      "ToArea": {
+        "X": 39,
+        "Y": 17,
+        "Width": 6,
+        "Height": 2
+      }
+    },
+    {
+      "When": {
+        "Season": "fall"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCCseasonal.tmx",
+      "FromArea": {
+        "X": 27,
+        "Y": 17,
+        "Width": 1,
+        "Height": 2
+      },
+      "ToArea": {
+        "X": 27,
+        "Y": 17,
+        "Width": 1,
+        "Height": 2
+      }
+    },
+    {
+      "When": {
+        "Season": "fall"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCCseasonal.tmx",
+      "FromArea": {
+        "X": 5,
+        "Y": 8,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 5,
+        "Y": 8,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    {
+      "When": {
+        "Season": "fall"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCCseasonal.tmx",
+      "FromArea": {
+        "X": 31,
+        "Y": 17,
+        "Width": 1,
+        "Height": 2
+      },
+      "ToArea": {
+        "X": 31,
+        "Y": 17,
+        "Width": 1,
+        "Height": 2
+      }
+    },
+    {
+      "When": {
+        "Season": "fall"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCCseasonal.tmx",
+      "FromArea": {
+        "X": 34,
+        "Y": 17,
+        "Width": 1,
+        "Height": 2
+      },
+      "ToArea": {
+        "X": 34,
+        "Y": 17,
+        "Width": 1,
+        "Height": 2
+      }
+    },
+     //Winter Changes
+     {
+      "When": {
+        "Season": "winter"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCCwinter.tmx",
+      "FromArea": {
+        "X": 31,
+        "Y": 17,
+        "Width": 1,
+        "Height": 2
+      },
+      "ToArea": {
+        "X": 31,
+        "Y": 17,
+        "Width": 1,
+        "Height": 2
+      }
+    },
+    {
+      "When": {
+        "Season": "winter"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCCwinter.tmx",
+      "FromArea": {
+        "X": 34,
+        "Y": 17,
+        "Width": 1,
+        "Height": 2
+      },
+      "ToArea": {
+        "X": 34,
+        "Y": 17,
+        "Width": 1,
+        "Height": 2
+      }
+    },
+    {
+      "When": {
+        "Season": "winter"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCCwinter.tmx",
+      "FromArea": {
+        "X": 44,
+        "Y": 12,
+        "Width": 1,
+        "Height": 2
+      },
+      "ToArea": {
+        "X": 44,
+        "Y": 12,
+        "Width": 1,
+        "Height": 2
+      }
+    },
+    {
+      "When": {
+        "Season": "winter"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCCwinter.tmx",
+      "FromArea": {
+        "X": 10,
+        "Y": 18,
+        "Width": 1,
+        "Height": 2
+      },
+      "ToArea": {
+        "X": 10,
+        "Y": 18,
+        "Width": 1,
+        "Height": 2
+      }
+    },
+    {
+      "When": {
+        "Season": "winter"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCCseasonal.tmx",
+      "FromArea": {
+        "X": 32,
+        "Y": 11,
+        "Width": 3,
+        "Height": 5
+      },
+      "ToArea": {
+        "X": 32,
+        "Y": 11,
+        "Width": 3,
+        "Height": 5
+      }
+    },
+    {
+      "When": {
+        "Season": "winter"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCCseasonal.tmx",
+      "FromArea": {
+        "X": 34,
+        "Y": 6,
+        "Width": 2,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 34,
+        "Y": 6,
+        "Width": 2,
+        "Height": 1
+      }
+    },
+    {
+      "When": {
+        "Season": "winter"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCCseasonal.tmx",
+      "FromArea": {
+        "X": 29,
+        "Y": 6,
+        "Width": 2,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 29,
+        "Y": 6,
+        "Width": 2,
+        "Height": 1
+      }
+    },
     //Town Map Edit
     {
       "When": {
@@ -53,15 +324,15 @@
       "FromFile": "assets/Maps/z_TownJojaCC{{season}}.tmx",
       "FromArea": {
         "X": 33,
-        "Y": 26,
+        "Y": 24,
         "Width": 13,
-        "Height": 10
+        "Height": 13
       },
       "ToArea": {
         "X": 33,
-        "Y": 26,
+        "Y": 24,
         "Width": 13,
-        "Height": 10
+        "Height": 13
       }
     },
       {
