@@ -1,0 +1,349 @@
+{
+    "Changes": [
+     {
+        "Action": "EditData",
+      "Target": "Data/Buildings",
+      "Entries": {
+        "blue704.JojaCC_GeodeCrusher": {
+    "Name": "{{i18n:blue704.JojaCC_GeodeCrusher}}",
+    "Description": "{{i18n:blue704.JojaCC_GeodeCrusherDescription}}",
+    "Texture": "{{InternalAssetKey: assets/Objects/geodecrusher.png}}",
+    "DrawShadow": false,
+    "UpgradeSignTile": "1, 1",
+    "UpgradeSignHeight": 24.0,
+    "Size": {
+      "X": 4,
+      "Y": 3
+    },
+    "FadeWhenBehind": true,
+    "DrawOffset": "0, 0",
+    "SortTileOffset": 0.0,
+    "Builder": null,
+    "MagicalConstruction": false,
+    "AnimalDoorOpenDuration": 0.0,
+    "AnimalDoorOpenSound": null,
+    "AnimalDoorCloseDuration": 0.0,
+    "AnimalDoorCloseSound": null,
+    "NonInstancedIndoorLocation": null,
+    "IndoorMap": null,
+    "IndoorMapType": null,
+    "AllowAnimalPregnancy": false,
+    "HayCapacity": 0,
+    "Chests": [
+      {
+        "Id": "Input",
+        "Type": "Load",
+        "Sound": "Ship",
+        "InvalidItemMessage": "{{i18n:blue704.JojaCC_GeodeCrusherInvalidItem}}",
+        "InvalidItemMessageCondition": null,
+        "InvalidCountMessage": null,
+        "ChestFullMessage": "{{i18n:blue704.JojaCC_GeodeCrusherChestFull}}",
+        "DisplayTile": "-1, -1",
+        "DisplayHeight": 0.0
+      },
+      {
+        "Id": "Output",
+        "Type": "Collect",
+        "Sound": null,
+        "InvalidItemMessage": null,
+        "InvalidItemMessageCondition": null,
+        "InvalidCountMessage": null,
+        "ChestFullMessage": null,
+        "DisplayTile": "3, 2",
+        "DisplayHeight": 1.5
+      }
+    ],
+    "DefaultAction": null,
+    "AdditionalTilePropertyRadius": 0,
+    "AllowsFlooringUnderneath": true,
+    "ActionTiles": [
+      {
+        "Id": "Default_OpenInputChest",
+        "Tile": {
+          "X": 0,
+          "Y": 2
+        },
+        "Action": "BuildingChest Input"
+      },
+      {
+        "Id": "Default_OpenOutputChest",
+        "Tile": {
+          "X": 3,
+          "Y": 2
+        },
+        "Action": "BuildingChest Output"
+      }
+    ],
+    "ItemConversions": [
+       {
+        "Id": "Default_Geode",
+        "RequiredTags": [
+          "id_o_535"
+        ],
+        "RequiredCount": 1,
+        "MaxDailyConversions": -1,
+        "SourceChest": "Input",
+        "DestinationChest": "Output",
+        "ProducedItems": [
+          {
+            "Condition": null,
+            "Id": "Default_Geode",
+            "ItemId": null,
+            "RandomItemId": [ "(O)121", "(O)86", "(O)86", "(O)538", "(O)542", "(O)566", "(O)569", "(O)549", "(O)548", "(O)571", "(O)552", "(O)574", "(O)555", "(O)556", "(O)557", "(O)568", "(O)576", "(O)558", "(O)390", "(O)390", "(O)390", "(O)390", "(O)330", "(O)330", "(O)378", "(O)380", "(O)382", "(O)378", "(O)380", "(O)382", "(O)378", "(O)380", "(O)382" ],
+            "MaxItems": null,
+            "MinStack": 1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ObjectInternalName": null,
+            "ObjectDisplayName": null,
+            "ObjectColor": null,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack",
+            "ModData": null,
+            "PerItemCondition": null
+          }
+        ]
+      },
+       {
+        "Id": "Default_FrozenGeode",
+        "RequiredTags": [
+          "id_o_536"
+        ],
+        "RequiredCount": 1,
+        "MaxDailyConversions": -1,
+        "SourceChest": "Input",
+        "DestinationChest": "Output",
+        "ProducedItems": [
+          {
+            "Condition": null,
+            "Id": "Default_FrozenGeode",
+            "ItemId": null,
+            "RandomItemId": [ "(O)123", "(O)84", "(O)84", "(O)541", "(O)544", "(O)577", "(O)545", "(O)546", "(O)561", "(O)573", "(O)550", "(O)551", "(O)567", "(O)560", "(O)564", "(O)559", "(O)572", "(O)390", "(O)390", "(O)390", "(O)390", "(O)330", "(O)378", "(O)380", "(O)382", "(O)384", "(O)330", "(O)378", "(O)380", "(O)382", "(O)384" ],
+            "MaxItems": null,
+            "MinStack": 1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ObjectInternalName": null,
+            "ObjectDisplayName": null,
+            "ObjectColor": null,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack",
+            "ModData": null,
+            "PerItemCondition": null
+          }
+        ]
+      },
+       {
+        "Id": "Default_MagmaGeode",
+        "RequiredTags": [
+          "id_o_537"
+        ],
+        "RequiredCount": 1,
+        "MaxDailyConversions": -1,
+        "SourceChest": "Input",
+        "DestinationChest": "Output",
+        "ProducedItems": [
+          {
+            "Condition": null,
+            "Id": "Default_MagmaGeode",
+            "ItemId": null,
+            "RandomItemId": [ "(O)122", "(O)82", "(O)82", "(O)540", "(O)572", "(O)539", "(O)543", "(O)565", "(O)547", "(O)563", "(O)554", "(O)553", "(O)575", "(O)578", "(O)562", "(O)390", "(O)390", "(O)390", "(O)390", "(O)330", "(O)378", "(O)380", "(O)382", "(O)386", "(O)384", "(O)330", "(O)378", "(O)380", "(O)382", "(O)386", "(O)384" ],
+            "MaxItems": null,
+            "MinStack": 1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ObjectInternalName": null,
+            "ObjectDisplayName": null,
+            "ObjectColor": null,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack",
+            "ModData": null,
+            "PerItemCondition": null
+          }
+        ]
+      },
+       {
+        "Id": "Default_OmniGeode",
+        "RequiredTags": [
+          "id_o_749"
+        ],
+        "RequiredCount": 1,
+        "MaxDailyConversions": -1,
+        "SourceChest": "Input",
+        "DestinationChest": "Output",
+        "ProducedItems": [
+          {
+            "Condition": null,
+            "Id": "Default_OmniGeode",
+            "ItemId": null,
+            "RandomItemId": [ "(O)121", "(O)122", "(O)123", "(O)121", "(O)122", "(O)123", "(O)121", "(O)122", "(O)123", "(O)84", "(O)86", "(O)82", "(O)84", "(O)86", "(O)82", "(O)84", "(O)86", "(O)82", "(O)84", "(O)86", "(O)82", "(O)84", "(O)86", "(O)82", "(O)538", "(O)542", "(O)566", "(O)569", "(O)549", "(O)548", "(O)571", "(O)552", "(O)574", "(O)555", "(O)556", "(O)557", "(O)568", "(O)576", "(O)558", "(O)541", "(O)544", "(O)577", "(O)545", "(O)546", "(O)561", "(O)573", "(O)550", "(O)551", "(O)567", "(O)560", "(O)564", "(O)559", "(O)572", "(O)540", "(O)572", "(O)539", "(O)543", "(O)565", "(O)547", "(O)563", "(O)554", "(O)553", "(O)575", "(O)578", "(O)562", "(O)538", "(O)542", "(O)566", "(O)569", "(O)549", "(O)548", "(O)571", "(O)552", "(O)574", "(O)555", "(O)556", "(O)557", "(O)568", "(O)576", "(O)558", "(O)541", "(O)544", "(O)577", "(O)545", "(O)546", "(O)561", "(O)573", "(O)550", "(O)551", "(O)567", "(O)560", "(O)564", "(O)559", "(O)572", "(O)540", "(O)572", "(O)539", "(O)543", "(O)565", "(O)547", "(O)563", "(O)554", "(O)553", "(O)575", "(O)578", "(O)562", "(O)538", "(O)542", "(O)566", "(O)569", "(O)549", "(O)548", "(O)571", "(O)552", "(O)574", "(O)555", "(O)556", "(O)557", "(O)568", "(O)576", "(O)558", "(O)541", "(O)544", "(O)577", "(O)545", "(O)546", "(O)561", "(O)573", "(O)550", "(O)551", "(O)567", "(O)560", "(O)564", "(O)559", "(O)572", "(O)540", "(O)572", "(O)539", "(O)543", "(O)565", "(O)547", "(O)563", "(O)554", "(O)553", "(O)575", "(O)578", "(O)562", "(O)390", "(O)390",  "(O)390",  "(O)390",  "(O)390",  "(O)390",  "(O)390",  "(O)390",  "(O)390",  "(O)390",  "(O)390",  "(O)390",  "(O)390",  "(O)390",  "(O)390", "(O)390", "(O)390",  "(O)390",  "(O)390",  "(O)390",  "(O)390",  "(O)390",  "(O)390",  "(O)390",  "(O)390",  "(O)390",  "(O)390",  "(O)390",  "(O)390",  "(O)390", "(O)330", "(O)330", "(O)330", "(O)330", "(O)330", "(O)330", "(O)330", "(O)330", "(O)330", "(O)330", "(O)330", "(O)330", "(O)330", "(O)330", "(O)330", "(O)378", "(O)380", "(O)382", "(O)386", "(O)384", "(O)378", "(O)380", "(O)382", "(O)386", "(O)384",  "(O)378", "(O)380", "(O)382", "(O)386", "(O)384",  "(O)378", "(O)380", "(O)382", "(O)386", "(O)384",  "(O)378", "(O)380", "(O)382", "(O)386", "(O)384",  "(O)378", "(O)380", "(O)382", "(O)386", "(O)384",  "(O)378", "(O)380", "(O)382", "(O)386", "(O)384",  "(O)378", "(O)380", "(O)382", "(O)386", "(O)384",  "(O)378", "(O)380", "(O)382", "(O)386", "(O)384",  "(O)378", "(O)380", "(O)382", "(O)386", "(O)384",  "(O)378", "(O)380", "(O)382", "(O)386", "(O)384",  "(O)378", "(O)380", "(O)382", "(O)386", "(O)384", "(O)74" ],
+            "MaxItems": null,
+            "MinStack": 1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ObjectInternalName": null,
+            "ObjectDisplayName": null,
+            "ObjectColor": null,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack",
+            "ModData": null,
+            "PerItemCondition": null
+          }
+        ]
+      },
+      {
+        "Id": "Default_ArtifactTrove",
+        "RequiredTags": [
+          "id_o_275"
+        ],
+        "RequiredCount": 1,
+        "MaxDailyConversions": -1,
+        "SourceChest": "Input",
+        "DestinationChest": "Output",
+        "ProducedItems": [
+          {
+            "Condition": null,
+            "Id": "Default_ArtifactTrove",
+            "ItemId": null,
+            "RandomItemId": [ "(O)117", "(O)103", "(O)123", "(O)114", "(O)109", "(O)101", "(O)105", "(O)119", "(O)113", "(O)100", "(O)116", "(O)121", "(O)122", "(O)104", "(O)118", "(O)124", "(O)373", "(O)125", "(O)106", "(O)797", "(O)120", "(O)103", "(O)115", "(O)108", "(O)112", "(O)110", "(O)111", "(O)166", "(O)Book_Artifact" ],
+            "MaxItems": null,
+            "MinStack": 1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ObjectInternalName": null,
+            "ObjectDisplayName": null,
+            "ObjectColor": null,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack",
+            "ModData": null,
+            "PerItemCondition": null
+          }
+        ]
+      },
+      {
+        "Id": "Default_GoldenCoconut",
+        "RequiredTags": [
+          "id_o_791"
+        ],
+        "RequiredCount": 1,
+        "MaxDailyConversions": -1,
+        "SourceChest": "Input",
+        "DestinationChest": "Output",
+        "ProducedItems": [
+          {
+            "Condition": null,
+            "Id": "Default_GoldenCoconut",
+            "ItemId": null,
+            "RandomItemId": [ "(O)69", "(O)835", "(O)833", "(O)831", "(O)820", "(O)292", "(O)386", "(H)75", "(O)73" ],
+            "MaxItems": null,
+            "MinStack": 1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ObjectInternalName": null,
+            "ObjectDisplayName": null,
+            "ObjectColor": null,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack",
+            "ModData": null,
+            "PerItemCondition": null
+          }
+        ]
+      },
+      {
+        "Id": "Default_MysteryBox",
+        "RequiredTags": [
+          "id_o_MysteryBox"
+        ],
+        "RequiredCount": 1,
+        "MaxDailyConversions": -1,
+        "SourceChest": "Input",
+        "DestinationChest": "Output",
+        "ProducedItems": [
+          {
+            "Condition": null,
+            "Id": "Default_MysteryBox",
+            "ItemId": null,
+            "RandomItemId": [ "(O)279", "(O)529", "(O)531", "(O)629", "(O)633", "(O)274", "(O)489", "(O)235", "(O)SkillBook_1", "(O)198", "(O)207", "(O)473", "(O)234", "(O)287", "(O)Book_Mystery", "(O)PurpleBook", "(O)216", "(O)BroccoliSeeds", "(O)209", "(O)CarrotSeeds", "(O)474", "(O)197", "(O)628", "(O)220", "(O)727", "(O)395", "(O)SkillBook_4", "(O)201", "(O)223", "(O)695", "(O)270", "(O)487", "(O)732", "(O)238", "(O)214", "(O)466", "(O)242", "(O)687", "(O)231", "(O)488", "(O)533", "(O)729", "(O)728", "(O)213", "(O)202", "(O)225", "(O)194", "(O)205", "(O)208", "(O)888", "(O)373", "(O)709", "(O)210", "(O)233", "(O)532", "(O)773", "(O)730", "(O)204", "(O)228", "(O)731", "(O)288", "(O)SkillBook_3", "(O)770", "(O)MixedFlowerSeeds", "(O)MysteryBox", "(O)195", "(O)630", "(O)211", "(O)472", "(O)199", "(O)631", "(O)797", "(O)215", "(O)482", "(O)221", "(O)206", "(O)632", "(O)475", "(O)PowdermelonSeeds", "(O)490", "(O)236", "(O)369", "(O)621", "(O)484", "(O)230", "(O)222", "(O)232", "(O)534", "(O)196", "(O)212", "(O)227", "(O)733", "(O)224", "(O)226", "(O)SkillBook_0", "(O)203", "(O)239", "(O)525", "(O)SummerSquashSeeds", "(O)237", "(O)218", "(O)229", "(O)166", "(O)253", "(O)219", "(O)200", "(O)688", "(O)690", "(O)689", "(O)483", "(O)SkillBoook_2", "(O)279", "(O)529", "(O)531", "(O)629", "(O)633", "(O)274", "(O)489", "(O)235", "(O)SkillBook_1", "(O)198", "(O)207", "(O)473", "(O)234", "(O)287", "(O)Book_Mystery", "(O)PurpleBook", "(O)216", "(O)BroccoliSeeds", "(O)209", "(O)CarrotSeeds", "(O)474", "(O)197", "(O)628", "(O)220", "(O)727", "(O)395", "(O)SkillBook_4", "(O)201", "(O)223", "(O)695", "(O)270", "(O)487", "(O)732", "(O)238", "(O)214", "(O)466", "(O)242", "(O)687", "(O)231", "(O)488", "(O)533", "(O)729", "(O)728", "(O)213", "(O)202", "(O)225", "(O)194", "(O)205", "(O)208", "(O)888", "(O)373", "(O)709", "(O)210", "(O)233", "(O)532", "(O)773", "(O)730", "(O)204", "(O)228", "(O)731", "(O)288", "(O)SkillBook_3", "(O)770", "(O)MixedFlowerSeeds", "(O)MysteryBox", "(O)195", "(O)630", "(O)211", "(O)472", "(O)199", "(O)631", "(O)797", "(O)215", "(O)482", "(O)221", "(O)206", "(O)632", "(O)475", "(O)PowdermelonSeeds", "(O)490", "(O)236", "(O)369", "(O)621", "(O)484", "(O)230", "(O)222", "(O)232", "(O)534", "(O)196", "(O)212", "(O)227", "(O)733", "(O)224", "(O)226", "(O)SkillBook_0", "(O)203", "(O)239", "(O)525", "(O)SummerSquashSeeds", "(O)237", "(O)218", "(O)229", "(O)166", "(O)253", "(O)219", "(O)200", "(O)688", "(O)690", "(O)689", "(O)483", "(O)SkillBoook_2", "(W)60", "(W)60", "(WP)MoreWalls:11", "(WP)MoreWalls:11", "(H)MysteryHat", "(H)MysteryHat", "(S)MysteryShirt", "(S)MysteryShirt", "(O)74" ],
+            "MaxItems": null,
+            "MinStack": 1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ObjectInternalName": null,
+            "ObjectDisplayName": null,
+            "ObjectColor": null,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack",
+            "ModData": null,
+            "PerItemCondition": null
+          }
+        ]
+      },
+      {
+        "Id": "Default_GoldenMysteryBox",
+        "RequiredTags": [
+          "id_o_GoldenMysteryBox"
+        ],
+        "RequiredCount": 1,
+        "MaxDailyConversions": -1,
+        "SourceChest": "Input",
+        "DestinationChest": "Output",
+        "ProducedItems": [
+          {
+            "Condition": null,
+            "Id": "Default_GoldenMysteryBox",
+            "ItemId": null,
+            "RandomItemId": [ "(BC)272", "(O)GoldenAnimalCracker", "(O)279", "(O)529", "(O)531", "(O)629", "(O)633", "(O)274", "(O)489", "(O)235", "(O)SkillBook_1", "(O)198", "(O)207", "(O)473", "(O)234", "(O)287", "(O)Book_Mystery", "(O)PurpleBook", "(O)216", "(O)BroccoliSeeds", "(O)209", "(O)CarrotSeeds", "(O)474", "(O)197", "(O)628", "(O)220", "(O)727", "(O)395", "(O)SkillBook_4", "(O)201", "(O)223", "(O)695", "(O)270", "(O)487", "(O)732", "(O)238", "(O)214", "(O)466", "(O)242", "(O)687", "(O)231", "(O)488", "(O)533", "(O)729", "(O)728", "(O)213", "(O)202", "(O)225", "(O)194", "(O)205", "(O)208", "(O)888", "(O)373", "(O)709", "(O)210", "(O)233", "(O)532", "(O)773", "(O)730", "(O)204", "(O)228", "(O)731", "(O)288", "(O)SkillBook_3", "(O)770", "(O)MixedFlowerSeeds", "(O)MysteryBox", "(O)195", "(O)630", "(O)211", "(O)472", "(O)199", "(O)631", "(O)797", "(O)215", "(O)482", "(O)221", "(O)206", "(O)632", "(O)475", "(O)PowdermelonSeeds", "(O)490", "(O)236", "(O)369", "(O)621", "(O)484", "(O)230", "(O)222", "(O)232", "(O)534", "(O)196", "(O)212", "(O)227", "(O)733", "(O)224", "(O)226", "(O)SkillBook_0", "(O)203", "(O)239", "(O)525", "(O)SummerSquashSeeds", "(O)237", "(O)218", "(O)229", "(O)166", "(O)253", "(O)219", "(O)200", "(O)688", "(O)690", "(O)689", "(O)483", "(O)SkillBoook_2", "(O)279", "(O)529", "(O)531", "(O)629", "(O)633", "(O)274", "(O)489", "(O)235", "(O)SkillBook_1", "(O)198", "(O)207", "(O)473", "(O)234", "(O)287", "(O)Book_Mystery", "(O)PurpleBook", "(O)216", "(O)BroccoliSeeds", "(O)209", "(O)CarrotSeeds", "(O)474", "(O)197", "(O)628", "(O)220", "(O)727", "(O)395", "(O)SkillBook_4", "(O)201", "(O)223", "(O)695", "(O)270", "(O)487", "(O)732", "(O)238", "(O)214", "(O)466", "(O)242", "(O)687", "(O)231", "(O)488", "(O)533", "(O)729", "(O)728", "(O)213", "(O)202", "(O)225", "(O)194", "(O)205", "(O)208", "(O)888", "(O)373", "(O)709", "(O)210", "(O)233", "(O)532", "(O)773", "(O)730", "(O)204", "(O)228", "(O)731", "(O)288", "(O)SkillBook_3", "(O)770", "(O)MixedFlowerSeeds", "(O)MysteryBox", "(O)195", "(O)630", "(O)211", "(O)472", "(O)199", "(O)631", "(O)797", "(O)215", "(O)482", "(O)221", "(O)206", "(O)632", "(O)475", "(O)PowdermelonSeeds", "(O)490", "(O)236", "(O)369", "(O)621", "(O)484", "(O)230", "(O)222", "(O)232", "(O)534", "(O)196", "(O)212", "(O)227", "(O)733", "(O)224", "(O)226", "(O)SkillBook_0", "(O)203", "(O)239", "(O)525", "(O)SummerSquashSeeds", "(O)237", "(O)218", "(O)229", "(O)166", "(O)253", "(O)219", "(O)200", "(O)688", "(O)690", "(O)689", "(O)483", "(O)SkillBoook_2", "(W)60", "(W)60", "(WP)MoreWalls:11", "(WP)MoreWalls:11", "(H)MysteryHat", "(H)MysteryHat", "(S)MysteryShirt", "(S)MysteryShirt", "(O)74" ],
+            "MaxItems": null,
+            "MinStack": 1,
+            "MaxStack": -1,
+            "Quality": -1,
+            "ObjectInternalName": null,
+            "ObjectDisplayName": null,
+            "ObjectColor": null,
+            "ToolUpgradeLevel": -1,
+            "IsRecipe": false,
+            "StackModifiers": null,
+            "StackModifierMode": "Stack",
+            "QualityModifiers": null,
+            "QualityModifierMode": "Stack",
+            "ModData": null,
+            "PerItemCondition": null
+          }
+        ]
+      }
+    ],
+    "CustomFields": null
+  }
+        }
+
+     } 
+    ]
+}
