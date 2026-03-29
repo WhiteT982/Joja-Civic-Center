@@ -3,6 +3,8 @@
     "blue704.JojaCC_JojaCC": "Joja Civic Center",
     "blue704.JojaCC_JojaCCcellar": "Joja Civic Center Cellar",
     "blue704.JojaCC_ForagerMap": "Leah's Woods",
+    "blue704.JojaCC_ClintsCave": "Clint's Cave",
+    "blue704.JojaCC_Deeps": "The Deeps",
     //ForagerBundles
     "blue704.JojaCC_ForagerBundleBook": "Forager Bundles",
     "blue704.JojaCC_ForagerBundleAllReward": "Reward: New Tree Farm Area",
@@ -88,5 +90,10 @@
     "blue704.JojaCC_EarlyJojaMembershipDiscountMail.text": "Welcome to Pelican Town!^^We are writing to you from JojaCo to let you in on a special offer. For a limited time only you can purchase a new Joja Membership for only 1000G!^^This may seem like a lot but not only do you receive special discounts from JojaMart with a Joja Membership, but JojaCo is planning something special for your town when the next Joja Membership is purchased.^^Here at JojaCo we have heard the lament that commmunity is no longer a part of small town life. Well we hope to change that by building a new Joja Civic Center! Our hope is that the Joja Civic Center will be a place where people can gather for communtiy as well as open small town shops, and Pelican Town has been selected to pioneer this new idea. So stop on by your local JojaMart and purchase your new Joja Membership today!^^Join Us. Thrive^^Offer only applicable for the next Joja Membership purchased. After that price will increase to the standard 5000G.",
     "blue704.JojaCC_EarlyJojaMembershipDiscountMail.title": "Early Joja Membership Discount",
     "blue704.JojaCC_FarmerBundleBookCaskMail.text": "Dear @,^^Again I would just like to thank you for all of the work that you did completing the Farmer Bundle. Thanks to you I can spend some time cooking for the community and sharing the recipes that have been passed down to me from my mother.^^But I have one more small present for you. Mr. Todd said that he was going to build that cellar in the pantry for us and I thought that you might need a few casks to help get you started? These have been gathering dust in our house so I wanted you to have them. Please come my new shop when you have the chance!^^Love, Evelyn",
-    "blue704.JojaCC_FarmerBundleBookCaskMail.title": "Farmer Bundle Book Complete"
+    "blue704.JojaCC_FarmerBundleBookCaskMail.title": "Farmer Bundle Book Complete",
+    //Buildings
+    "blue704.JojaCC_GeodeCrusher": "Geode Crusher",
+    "blue704.JojaCC_GeodeCrusherDescription": "Crushes a large amount geodes every day.",
+    "blue704.JojaCC_GeodeCrusherInvalidItem": "Can only process geodes, mystery boxes, golden coconuts, and artifact troves.",
+    "blue704.JojaCC_GeodeCrusherChestFull": "Cannot process more geodes. Please empty the chest."
 }
