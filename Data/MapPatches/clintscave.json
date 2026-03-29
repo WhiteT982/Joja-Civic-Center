@@ -1,0 +1,355 @@
+{
+    "Changes": [
+            //Load Clints Cave Map
+    {
+      "Action": "Load",
+      "Target": "Maps/ClintsCave",
+      "FromFile": "assets/Maps/z_ClintsCave.tmx",
+      "Priority": "Low"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/ClintsCave2",
+      "FromFile": "assets/Maps/z_ClintsCave2.tmx",
+      "Priority": "Low"
+    },
+    {
+      "LogName": "Add ClintsCave2 Map To Locations",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "ClintsCave2": {
+          "DisplayName": "{{i18n:blue704.JojaCC_Deeps}}",
+          "DefaultArrivalTile": {
+            "X": 29,
+            "Y": 51
+          },
+          "MusicDefault": "Cavern",
+          "CreateOnLoad": {
+            "MapPath": "Maps/ClintsCave2"
+          }
+        }
+      }
+    },
+    {
+			"Action": "EditData",
+			"Target": "MindMeltMax.MapBuildings/Buildings",
+			"Entries": {
+				"blue704.JojaCC_ClintsCave": [
+					{
+						"Location": "ClintsCave",
+						"X": 36,
+						"Y": 8,
+						"Building": "blue704.JojaCC_GeodeCrusher"
+        },
+          {
+						"Location": "ClintsCave",
+						"X": 41,
+						"Y": 9,
+						"Building": "Shipping Bin"
+					}
+				]
+			}
+		},
+    {
+      "LogName": "Add ClintsCave Map To Locations",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "ClintsCave": {
+          "DisplayName": "{{i18n:blue704.JojaCC_ClintsCave}}",
+          "DefaultArrivalTile": {
+            "X": 48,
+            "Y": 17
+          },
+          "Forage": [],
+          "Fish": [
+      {
+        "Chance": 1.0,
+        "Season": null,
+        "FishAreaId": null,
+        "BobberPosition": null,
+        "PlayerPosition": null,
+        "MinFishingLevel": 0,
+        "MinDistanceFromShore": 0,
+        "MaxDistanceFromShore": -1,
+        "ApplyDailyLuck": false,
+        "CuriosityLureBuff": -1.0,
+        "SpecificBaitBuff": 0.0,
+        "SpecificBaitMultiplier": 1.66,
+        "CatchLimit": -1,
+        "CanUseTrainingRod": null,
+        "IsBossFish": false,
+        "SetFlagOnCatch": null,
+        "RequireMagicBait": false,
+        "Precedence": -10,
+        "IgnoreFishDataRequirements": false,
+        "CanBeInherited": false,
+        "ChanceModifiers": null,
+        "ChanceModifierMode": "Stack",
+        "ChanceBoostPerLuckLevel": 0.0,
+        "UseFishCaughtSeededRandom": false,
+        "Condition": null,
+        "Id": "(O)156",
+        "ItemId": "(O)156",
+        "RandomItemId": null,
+        "MaxItems": null,
+        "MinStack": -1,
+        "MaxStack": -1,
+        "Quality": -1,
+        "ObjectInternalName": null,
+        "ObjectDisplayName": null,
+        "ObjectColor": null,
+        "ToolUpgradeLevel": -1,
+        "IsRecipe": false,
+        "StackModifiers": null,
+        "StackModifierMode": "Stack",
+        "QualityModifiers": null,
+        "QualityModifierMode": "Stack",
+        "ModData": null,
+        "PerItemCondition": null
+      },
+      {
+        "Chance": 0.9,
+        "Season": null,
+        "FishAreaId": null,
+        "BobberPosition": null,
+        "PlayerPosition": null,
+        "MinFishingLevel": 0,
+        "MinDistanceFromShore": 0,
+        "MaxDistanceFromShore": -1,
+        "ApplyDailyLuck": false,
+        "CuriosityLureBuff": -1.0,
+        "SpecificBaitBuff": 0.0,
+        "SpecificBaitMultiplier": 1.66,
+        "CatchLimit": -1,
+        "CanUseTrainingRod": null,
+        "IsBossFish": false,
+        "SetFlagOnCatch": null,
+        "RequireMagicBait": false,
+        "Precedence": 0,
+        "IgnoreFishDataRequirements": false,
+        "CanBeInherited": true,
+        "ChanceModifiers": null,
+        "ChanceModifierMode": "Stack",
+        "ChanceBoostPerLuckLevel": 0.0,
+        "UseFishCaughtSeededRandom": false,
+        "Condition": null,
+        "Id": "(O)158",
+        "ItemId": "(O)158",
+        "RandomItemId": null,
+        "MaxItems": null,
+        "MinStack": -1,
+        "MaxStack": -1,
+        "Quality": -1,
+        "ObjectInternalName": null,
+        "ObjectDisplayName": null,
+        "ObjectColor": null,
+        "ToolUpgradeLevel": -1,
+        "IsRecipe": false,
+        "StackModifiers": null,
+        "StackModifierMode": "Stack",
+        "QualityModifiers": null,
+        "QualityModifierMode": "Stack",
+        "ModData": null,
+        "PerItemCondition": null
+      },
+      {
+        "Chance": 0.7,
+        "Season": null,
+        "FishAreaId": null,
+        "BobberPosition": null,
+        "PlayerPosition": null,
+        "MinFishingLevel": 0,
+        "MinDistanceFromShore": 0,
+        "MaxDistanceFromShore": -1,
+        "ApplyDailyLuck": false,
+        "CuriosityLureBuff": -1.0,
+        "SpecificBaitBuff": 0.0,
+        "SpecificBaitMultiplier": 1.66,
+        "CatchLimit": -1,
+        "CanUseTrainingRod": null,
+        "IsBossFish": false,
+        "SetFlagOnCatch": null,
+        "RequireMagicBait": false,
+        "Precedence": 0,
+        "IgnoreFishDataRequirements": false,
+        "CanBeInherited": true,
+        "ChanceModifiers": null,
+        "ChanceModifierMode": "Stack",
+        "ChanceBoostPerLuckLevel": 0.0,
+        "UseFishCaughtSeededRandom": false,
+        "Condition": null,
+        "Id": "(O)161",
+        "ItemId": "(O)161",
+        "RandomItemId": null,
+        "MaxItems": null,
+        "MinStack": -1,
+        "MaxStack": -1,
+        "Quality": -1,
+        "ObjectInternalName": null,
+        "ObjectDisplayName": null,
+        "ObjectColor": null,
+        "ToolUpgradeLevel": -1,
+        "IsRecipe": false,
+        "StackModifiers": null,
+        "StackModifierMode": "Stack",
+        "QualityModifiers": null,
+        "QualityModifierMode": "Stack",
+        "ModData": null,
+        "PerItemCondition": null
+      },
+      {
+        "Chance": 0.7,
+        "Season": null,
+        "FishAreaId": null,
+        "BobberPosition": null,
+        "PlayerPosition": null,
+        "MinFishingLevel": 0,
+        "MinDistanceFromShore": 0,
+        "MaxDistanceFromShore": -1,
+        "ApplyDailyLuck": false,
+        "CuriosityLureBuff": -1.0,
+        "SpecificBaitBuff": 0.0,
+        "SpecificBaitMultiplier": 1.66,
+        "CatchLimit": -1,
+        "CanUseTrainingRod": null,
+        "IsBossFish": false,
+        "SetFlagOnCatch": null,
+        "RequireMagicBait": false,
+        "Precedence": 0,
+        "IgnoreFishDataRequirements": false,
+        "CanBeInherited": true,
+        "ChanceModifiers": null,
+        "ChanceModifierMode": "Stack",
+        "ChanceBoostPerLuckLevel": 0.0,
+        "UseFishCaughtSeededRandom": false,
+        "Condition": null,
+        "Id": "(O)162",
+        "ItemId": "(O)162",
+        "RandomItemId": null,
+        "MaxItems": null,
+        "MinStack": -1,
+        "MaxStack": -1,
+        "Quality": -1,
+        "ObjectInternalName": null,
+        "ObjectDisplayName": null,
+        "ObjectColor": null,
+        "ToolUpgradeLevel": -1,
+        "IsRecipe": false,
+        "StackModifiers": null,
+        "StackModifierMode": "Stack",
+        "QualityModifiers": null,
+        "QualityModifierMode": "Stack",
+        "ModData": null,
+        "PerItemCondition": null
+      },
+      {
+        "Chance": 0.7,
+        "Season": null,
+        "FishAreaId": null,
+        "BobberPosition": null,
+        "PlayerPosition": null,
+        "MinFishingLevel": 0,
+        "MinDistanceFromShore": 0,
+        "MaxDistanceFromShore": -1,
+        "ApplyDailyLuck": false,
+        "CuriosityLureBuff": -1.0,
+        "SpecificBaitBuff": 0.0,
+        "SpecificBaitMultiplier": 1.66,
+        "CatchLimit": -1,
+        "CanUseTrainingRod": null,
+        "IsBossFish": false,
+        "SetFlagOnCatch": null,
+        "RequireMagicBait": false,
+        "Precedence": 0,
+        "IgnoreFishDataRequirements": false,
+        "CanBeInherited": true,
+        "ChanceModifiers": null,
+        "ChanceModifierMode": "Stack",
+        "ChanceBoostPerLuckLevel": 0.0,
+        "UseFishCaughtSeededRandom": false,
+        "Condition": null,
+        "Id": "(O)CaveJelly",
+        "ItemId": "(O)CaveJelly",
+        "RandomItemId": null,
+        "MaxItems": null,
+        "MinStack": -1,
+        "MaxStack": -1,
+        "Quality": -1,
+        "ObjectInternalName": null,
+        "ObjectDisplayName": null,
+        "ObjectColor": null,
+        "ToolUpgradeLevel": -1,
+        "IsRecipe": false,
+        "StackModifiers": null,
+        "StackModifierMode": "Stack",
+        "QualityModifiers": null,
+        "QualityModifierMode": "Stack",
+        "ModData": null,
+        "PerItemCondition": null
+      }
+    ],
+    "MinDailyWeeds": 0,
+    "MaxDailyWeeds": 0,
+    "FirstDayWeedMultiplier": 0,
+    "MinDailyForageSpawn": 0,
+    "MaxDailyForageSpawn": 0,
+    "MaxSpawnedForageAtOnce": 0,
+    "ChanceForClay": 0.03,
+          "MusicDefault": "Cavern",
+          "CreateOnLoad": {
+            "MapPath": "Maps/ClintsCave",
+            "AlwaysActive": true
+          }
+        }
+      }
+    },
+      {
+      "When": {
+        "HasFlag": "JojaCC_BoilerRoomComplete"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/Mountain",
+      "FromFile": "assets/Maps/z_ClintsCaveEntrance.tmx",
+      "FromArea": {
+        "X": 4,
+        "Y": 2,
+        "Width": 4,
+        "Height": 5
+      },
+      "ToArea": {
+        "X": 4,
+        "Y": 2,
+        "Width": 4,
+        "Height": 5
+      }
+    },
+    {
+            "Action": "EditMap",
+            "Target": "Maps/Mountain",
+            "MapTiles": [
+                {
+                    "Position": { "X": 4, "Y": 5 },
+                    "Layer": "Paths",
+                    "Remove": true
+                },
+                {
+                    "Position": { "X": 5, "Y": 6 },
+                    "Layer": "Paths",
+                    "Remove": true
+                },
+                {
+                    "Position": { "X": 4, "Y": 7 },
+                    "Layer": "Paths",
+                    "Remove": true
+                },
+                {
+                    "Position": { "X": 7, "Y": 5 },
+                    "Layer": "Paths",
+                    "Remove": true
+                }
+            ]
+        }
+    ]
+  }
