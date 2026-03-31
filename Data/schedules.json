@@ -27,6 +27,17 @@
         "Thu": "800 JoshHouse 3 17 0 square_3_1_0/1000 JojaCC 8 7 2/1630 JoshHouse 4 17 0 square_3_1_0/1900 JoshHouse 17 17 0/2130 JoshHouse 2 5 1",
         "Fri": "800 JoshHouse 3 17 0 square_3_1_0/1000 JojaCC 8 7 2/1630 JoshHouse 4 17 0 square_3_1_0/1900 JoshHouse 17 17 0/2130 JoshHouse 2 5 1"
     }
+},
+//Clint Schedule Edit
+        {
+      "Action": "EditData",
+      "Target": "characters/schedules/Clint",
+            "When": {
+                "HasFlag": "JojaCC_BoilerRoomComplete"
+            },
+      "Entries": {
+        "spring": "900 JojaCC 63 14 2/1700 Saloon 19 23 3/2400 Blacksmith 10 4 1 clint_sleep"
+        }
 }
     ]
 }
