@@ -15,6 +15,12 @@
       "Priority": "Low"
     },
     {
+      "Action": "Load",
+      "Target": "Maps/ForagerMapEvent2",
+      "FromFile": "assets/Maps/z_ForagerMapEvent2.tmx",
+      "Priority": "Medium"
+    },
+    {
 			"Action": "EditData",
 			"Target": "MindMeltMax.MapBuildings/Buildings",
 			"Entries": {
@@ -1155,6 +1161,76 @@
         "Width": 11,
         "Height": 11
       }
-    }
+    },
+    //Dwarf Clears Stones
+    {
+          "When": {
+        "HasFlag": "DwarfClearsStonesMail"
+      },
+            "Action": "EditMap",
+            "Target": "Maps/ForagerMap",
+            "MapTiles": [
+                {
+                    "Position": { "X": 124, "Y": 6 },
+                    "Layer": "Buildings",
+                    "Remove": true
+                },
+                {
+                    "Position": { "X": 125, "Y": 6 },
+                    "Layer": "Buildings",
+                    "Remove": true
+                },
+                {
+                    "Position": { "X": 126, "Y": 6 },
+                    "Layer": "Buildings",
+                    "Remove": true
+                },
+                {
+                    "Position": { "X": 127, "Y": 6 },
+                    "Layer": "Buildings",
+                    "Remove": true
+                },
+                {
+                    "Position": { "X": 125, "Y": 7 },
+                    "Layer": "Buildings",
+                    "Remove": true
+                },
+                {
+                    "Position": { "X": 126, "Y": 7 },
+                    "Layer": "Buildings",
+                    "Remove": true
+                },
+                {
+                    "Position": { "X": 125, "Y": 6 },
+                    "Layer": "Front",
+                    "Remove": true
+                },
+                {
+                    "Position": { "X": 126, "Y": 6 },
+                    "Layer": "Front",
+                    "Remove": true
+                },
+                {
+                    "Position": { "X": 124, "Y": 5 },
+                    "Layer": "Front",
+                    "Remove": true
+                },
+                {
+                    "Position": { "X": 125, "Y": 5 },
+                    "Layer": "Front",
+                    "Remove": true
+                },
+                {
+                    "Position": { "X": 126, "Y": 5 },
+                    "Layer": "Front",
+                    "Remove": true
+                },
+                {
+                    "Position": { "X": 127, "Y": 5 },
+                    "Layer": "Front",
+                    "Remove": true
+                }
+            ]
+        },
     ]
   }
