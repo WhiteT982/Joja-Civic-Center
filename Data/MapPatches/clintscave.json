@@ -7,10 +7,22 @@
       "FromFile": "assets/Maps/z_ClintsCave.tmx",
       "Priority": "Low"
     },
+     {
+      "LogName": "Custom Locations Events Blank",
+      "Action": "Load",
+      "Target": "Data/Events/ClintsCave",
+      "FromFile": "assets/blank.json"
+    },
     {
       "Action": "Load",
       "Target": "Maps/ClintsCave2",
       "FromFile": "assets/Maps/z_ClintsCave2.tmx",
+      "Priority": "Low"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/ClintsCaveEvent",
+      "FromFile": "assets/Maps/z_ClintsCaveEvent.tmx",
       "Priority": "Low"
     },
     {
@@ -347,6 +359,76 @@
                 {
                     "Position": { "X": 7, "Y": 5 },
                     "Layer": "Paths",
+                    "Remove": true
+                }
+            ]
+        },
+        //Dwarf Clears Stones
+        {
+          "When": {
+        "HasFlag": "DwarfClearsStonesMail"
+      },
+            "Action": "EditMap",
+            "Target": "Maps/ClintsCave",
+            "MapTiles": [
+                {
+                    "Position": { "X": 70, "Y": 8 },
+                    "Layer": "Buildings",
+                    "Remove": true
+                },
+                {
+                    "Position": { "X": 71, "Y": 8 },
+                    "Layer": "Buildings",
+                    "Remove": true
+                },
+                {
+                    "Position": { "X": 70, "Y": 9 },
+                    "Layer": "Buildings",
+                    "Remove": true
+                },
+                {
+                    "Position": { "X": 71, "Y": 9 },
+                    "Layer": "Buildings1",
+                    "Remove": true
+                },
+                {
+                    "Position": { "X": 71, "Y": 10 },
+                    "Layer": "Buildings",
+                    "Remove": true
+                },
+                {
+                    "Position": { "X": 72, "Y": 10 },
+                    "Layer": "Buildings",
+                    "Remove": true
+                },
+                {
+                    "Position": { "X": 71, "Y": 9 },
+                    "Layer": "Front",
+                    "Remove": true
+                },
+                {
+                    "Position": { "X": 72, "Y": 9 },
+                    "Layer": "Buildings1",
+                    "Remove": true
+                },
+                {
+                    "Position": { "X": 32, "Y": 15 },
+                    "Layer": "Buildings",
+                    "Remove": true
+                },
+                {
+                    "Position": { "X": 33, "Y": 15 },
+                    "Layer": "Buildings",
+                    "Remove": true
+                },
+                {
+                    "Position": { "X": 32, "Y": 16 },
+                    "Layer": "Buildings",
+                    "Remove": true
+                },
+                {
+                    "Position": { "X": 33, "Y": 16 },
+                    "Layer": "Buildings",
                     "Remove": true
                 }
             ]
