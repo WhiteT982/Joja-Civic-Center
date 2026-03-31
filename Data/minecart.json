@@ -1,0 +1,19 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Minecarts",
+            "TargetField": [ "Default", "Destinations" ],
+            "Entries": {
+                "ClintsCave": {
+                    "Id": "ClintsCave",
+                    "DisplayName": "{{i18n:blue704.JojaCC_ClintsCave}}",
+                    "Condition": "PLAYER_HAS_SEEN_EVENT current BoilerBundleAreaComplete",
+                    "TargetLocation": "ClintsCave",
+                    "TargetTile": { "X": 32, "Y": 9 },
+                    "TargetDirection": "down"
+                }
+            }
+        }
+    ]
+}
