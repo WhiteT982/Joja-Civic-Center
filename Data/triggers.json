@@ -29,6 +29,21 @@
           ]
         }
           }
+          },
+          {
+            //Dwarf Clears Stones Mail
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "Dwarf Clears Stones Mail": {
+          "Id": "DwarfClearsStonesMail",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HEARTS Current Dwarf 3, PLAYER_HAS_SEEN_EVENT Current DemetriusHintsatCave2, PLAYER_HAS_SEEN_EVENT Current ForagerBundleAreaComplete",
+          "Actions": [
+            "AddMail current DwarfClearsStonesMail tomorrow"
+          ]
+        }
+          }
           }
           ]
           }
