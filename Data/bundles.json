@@ -1045,9 +1045,9 @@
 						"(O)68": 1,
 						"(O)70": 1
 					},
-					"BundleCompletedActions": [
-						"AddMail current JojaCC_BoilerRoomBundle01Complete received"
-]
+					"BundleReward": {
+						"(O)74": 1
+					}
 				},
 				"blue704.JojaCC_BoilerRoomBundle02": {
 					"Location": "JojaCC",
