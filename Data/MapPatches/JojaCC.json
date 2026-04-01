@@ -374,6 +374,27 @@
                     "Remove": "true"
         }
       ]
+    },
+    //Add Prize Machine when Golden Bundle Complete
+    {
+      "When": {
+        "HasFlag": "JojaCC_GoldenBundleComplete"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCCwinter.tmx",
+      "FromArea": {
+        "X": 26,
+        "Y": 16,
+        "Width": 2,
+        "Height": 3
+      },
+      "ToArea": {
+        "X": 26,
+        "Y": 16,
+        "Width": 2,
+        "Height": 3
+      }
     }
 ]
 }
