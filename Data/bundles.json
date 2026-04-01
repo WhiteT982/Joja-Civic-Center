@@ -1170,6 +1170,9 @@
           "InstantShopRemoval": false,
           "ShopCompletedAnimation": "0",
           "IsBook": true,
+		  "BundleReward": {
+            "(O)886": 50
+          },
           "BundleCompletedActions": [
             "AddMail current JojaCC_VaultComplete received"
           ]
@@ -1185,7 +1188,7 @@
           "DrawQuestionMark": false,
           "BundleSlots": 1,
           "Price": {
-            "money": 5000
+            "money": 2500
           },
           "BundleReward": {
             "(O)StardropTea": 3
@@ -1202,7 +1205,7 @@
           "DrawQuestionMark": false,
           "BundleSlots": 1,
           "Price": {
-            "money": 2500
+            "money": 1000
           },
           "BundleReward": {
             "(BC)165": 1,
@@ -1226,7 +1229,7 @@
           "DrawQuestionMark": false,
           "BundleSlots": 1,
           "Price": {
-            "money": 7500
+            "money": 5000
           },
           "BundleReward": {
             "(O)852": 10
@@ -1243,7 +1246,7 @@
           "DrawQuestionMark": false,
           "BundleSlots": 1,
           "Price": {
-            "money": 2500
+            "money": 1000
           },
           "BundleReward": {
             "(0)Book_Void": 1,
@@ -1267,7 +1270,7 @@
           "DrawQuestionMark": false,
           "BundleSlots": 1,
           "Price": {
-            "money": 10000
+            "money": 7500
           },
           "BundleReward": {
             "(BC)167": 1,
@@ -1286,7 +1289,7 @@
           "DrawQuestionMark": false,
           "BundleSlots": 1,
           "Price": {
-            "money": 2500
+            "money": 1000
           },
           "BundleReward": {
             "(BC)117": 1,
@@ -1316,16 +1319,11 @@
           "DrawQuestionMark": false,
           "BundleSlots": 1,
           "Price": {
-            "money": 20000
+            "money": 10000
           },
-          "BundleReward": {
-            "(O)73": 5,
-            "(O)GoldenMysteryBox": 5,
-            "(O)GoldenAnimalCracker": 5,
-            "(O)791": 5,
-            "(O)373": 1,
-            "(O)928": 1
-          }
+          "BundleCompletedActions": [
+						"AddMail current JojaCC_GoldenBundleComplete tomorrow"
+]
         }
             }
         }
