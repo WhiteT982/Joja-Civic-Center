@@ -95,6 +95,22 @@
       "Entries": {
         "DwarfClearsStones/GameStateQuery PLAYER_HAS_MAIL current DwarfClearsStonesMail mailbox": "nightTime/-2000 -2000/farmer -100 -100 0/playSound explosion/pause 1000/playSound explosion/pause 500/playSound explosion/pause 1000/message \"Are those explosions coming from the mountains?\"/changeToTemporaryMap ForagerMapEvent2/addTemporaryActor Dwarf 16 24 126 5 2 true Character/ambientLight 200 200 0/viewport 123 8 clamp true true/skippable/pause 1000/speak Dwarf \"Ah...\"/pause 500/emote Dwarf 32/pause 800/speak Dwarf \"It has been such a long time since I've been to the surface.#$b#How humans can stand this brightness is beyond me.\"/pause 300/speak Dwarf \"What did @ call them?#$b#Stars?\"/pause 800/speak Dwarf \"There is a certain beauty to them...\"/pause 800/speak Dwarf \"I hope removing those rocks makes @ happy.#$b#It is nice to have a human friend once again...\"/pause 500/emote Dwarf 20/pause 500/end"
       }
+    },
+    {
+        "Action": "EditData",
+      "LogName": "Joja CC Golden Bundle Complete Event Data",
+      "Target": "Data/Events/Farmhouse",
+      "Entries": {
+        "GoldenBundleComplete/GameStateQuery PLAYER_HAS_MAIL current JojaCC_GoldenBundleComplete mailbox": "jaunty/-2000 -2000/Morris 26 19 0 farmer -100 -100 0/pause 500/message \"Yesterday afternoon at the Joja Civic Center...\"/pause 500/changeToTemporaryMap JojaCC/addObject 28 18 (F)LargeJojaCrate 1/viewport 26 21 clamp true true/pause 500/skippable/emote Morris 32/pause 500/speak Morris \"Since @ completed that Vault bundle we now have the funds to stock our Prize Machine.#$b#Let's see what Joja sent...\"/pause 500/move Morris 1 0 1/pause 500/shake Morris 500/pause 500/emote Morris 12/pause 500/shake Morris 500/pause 200/playSound openBox/pause 500/emote Morris 32/pause 500/speak Morris \"Ooohh...#$b#What do we have here?\"/pause 300/shake Morris 300/speak Morris \"There's some seeds, some fertilizer...\"/pause 300/shake Morris 300/pause 300/speak Morris \"And what's this?#$b#An Autopetter!?\"/pause 500/emote Morris 20/pause 500/speak Morris \"That'll make someone's day I'm sure.$h\"/pause 500/shake Morris 300/end"
+      }
+    },
+    {
+        "Action": "EditData",
+      "LogName": "Joja CC Vault Room Complete Event Data",
+      "Target": "Data/Events/Town",
+      "Entries": {
+        "VaultRoomComplete/GameStateQuery PLAYER_HAS_MAIL current JojaCC_VaultComplete received": "continue/39 36/Morris 39 37 0 farmer 40 35 2 Lewis 40 37 0/pause 500/skippable/speak Morris \"Ah, perfect timing. I see you just completed the Vault Room Bundle.\"/pause 300/emote farmer 20/pause 500/speak Morris \"I was just bringing Lewis here to see his new office.#$b#Let's step inside so that Lewis can see his new place.\"/pause 300/emote Lewis 32/pause 500/move Morris 0 -2 0 true/fade/changeToTemporaryMap JojaCC/viewport -2000 -2000/warp Morris 53 7/warp Lewis 52 6/faceDirection Morris 0/warp farmer 49 7/faceDirection farmer 1/playMusic jaunty/viewport 51 8/faceDirection Lewis 3/pause 400/faceDirection Lewis 1/pause 400/faceDirection Lewis 2/pause 500/emote Lewis 20/pause 500/speak Lewis \"An office just for me...$h#$b#I don't know what to say Morris. And of course thank you @ for funding this whole endeavor.\"/pause 300/emote Morris 32 true/emote farmer 20 true/pause 500/speak Morris \"Joja feels very strongly about the local government officials having a place to manage the town Mayor Lewis. This is the least we could do for you.\"/pause 500/faceDirection Lewis 3/pause 500/speak Lewis \"@...#$b#I'm ashamed to admit that I didn't think very much of you when you first stepped off of that bus. I thought you would decide that old farm was too tough and you'd head right back to where you came from.\"/pause 500/speak Lewis \"But you proved me wrong. You've done more for this town than anyone else, including me.\"/pause 500/move Lewis 0 -2 3/faceDirection farmer 0 true/faceDirection Morris 3 true/move Lewis -1 0 2/pause 300/emote Lewis 32/pause 500/speak Lewis \"But maybe now we can change that!$h\"/pause 500/speak Morris \"And Joja is here to stay as well.#$b#We will make Pelican Town a place where everyone can be proud to call home.\"/pause 500/emote farmer 20 true/emote Lewis 20 true/emote Morris 20 true/pause 500/end"
+      }
     }
     ]
 }
