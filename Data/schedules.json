@@ -38,6 +38,26 @@
       "Entries": {
         "spring": "900 JojaCC 63 14 2/1700 Saloon 19 23 3/2400 Blacksmith 10 4 1 clint_sleep"
         }
+},
+//Lewis Schedule Edit
+        {
+      "Action": "EditData",
+      "Target": "characters/schedules/Lewis",
+            "When": {
+                "HasFlag": "JojaCC_VaultComplete"
+            },
+      "Entries": {
+         "default": "800 ManorHouse 8 5 0/1000 Town 62 88 0/1040 Town 65 86 3 lewis_garden/1200 JojaCC 51 4 2/1600 ManorHouse 7 5 0 square_5_1_0/2000 ManorHouse 3 6 0/2200 ManorHouse 22 4 1 lewis_sleep",
+         "rain": "800 ManorHouse 8 5 0/900 JojaCC 51 4 2/1400 Saloon 12 20 0/1950 ManorHouse 7 5 0 square_5_1_0/2200 ManorHouse 22 4 1 lewis_sleep"
+        }
+},
+//Abigail Schedule Edit
+        {
+      "Action": "EditData",
+      "Target": "characters/schedules/Abigail",
+      "Entries": {
+         "fall": "900 SeedShop 39 5 0/1000 JojaCC 40 17 2/1700 SeedShop 3 6 0 abigail_videogames/1930 SeedShop 1 9 3 abigail_sleep"
+        }
 }
     ]
 }
