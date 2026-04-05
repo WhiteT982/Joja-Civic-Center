@@ -44,6 +44,49 @@
           ]
         }
           }
+          },
+          {
+           //Fish Farm Triggers
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "Fish Farm Location Added Mail": {
+          "Id": "FishFarmLocationAdded",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HAS_MAIL current JojaCC_FisherBundleBookComplete received, DAY_OF_WEEK Saturday",
+          "Actions": [
+            "AddMail current FishFarmLocationAdded received"
+          ]
+        }
+          }
+          },
+          {
+            "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "Fish Farm Area Event Mail": {
+          "Id": "FishFarmAreaEventMail",
+          "Trigger": "DayStarted",
+          "Condition": "PLAYER_HAS_SEEN_EVENT current FisherBundleComplete, DAY_OF_WEEK Saturday",
+          "Actions": [
+            "AddMail current FishFarmAreaEventMail tomorrow"
+          ]
+        }
+          }
+          },
+          {
+            "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "Fish Farm Buildings Added Mail": {
+          "Id": "FishFarmBuildingsAdded",
+          "Trigger": "DayStarted",
+          "Condition": "PLAYER_HAS_MAIL current FishFarmLocationAdded received",
+          "Actions": [
+            "AddMail current FishFarmBuildingsAdded tomorrow"
+          ]
+        }
+          }
           }
           ]
           }

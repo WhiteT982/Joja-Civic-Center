@@ -3,7 +3,7 @@
   "Changes": [
     {
       "Action": "Include",
-      "FromFile": "Data/MapPatches/shoppatches.json, Data/MapPatches/cellar.json, Data/MapPatches/JojaCC.json, Data/MapPatches/foragermap.json, Data/MapPatches/clintscave.json, Data/schedules.json, Data/bundles.json, Data/prizeticketmachine.json, Data/triggers.json, Data/mail.json, Data/minecart.json, Data/machines.json, Data/events.json, Data/shop.json, Data/buildings.json, Data/Objects/treasurehunttag.json, Data/Objects/membershipcard.json, Data/Objects/eventobjects.json, assets/Maps/worldmap.json"
+      "FromFile": "Data/MapPatches/shoppatches.json, Data/MapPatches/cellar.json, Data/MapPatches/JojaCC.json, Data/MapPatches/foragermap.json, Data/MapPatches/clintscave.json, Data/MapPatches/beach.json, Data/schedules.json, Data/bundles.json, Data/prizeticketmachine.json, Data/triggers.json, Data/mail.json, Data/minecart.json, Data/machines.json, Data/events.json, Data/shop.json, Data/buildings.json, Data/Objects/treasurehunttag.json, Data/Objects/membershipcard.json, Data/Objects/eventobjects.json, assets/Maps/worldmap.json"
     }
   ]
 }
