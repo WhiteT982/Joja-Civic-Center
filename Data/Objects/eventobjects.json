@@ -1,20 +1,71 @@
 {
     "Changes": [
-        //Add Bundle Book object
-{
+        //Add Bundle Book objects
+		{
   "Action": "EditData",
   "Target": "Data/Objects",
   "Entries": {
-	"blue704.JojaCC_bundlebook": {
-		"Name": "(O)blue704.JojaCC_bundlebook",
-		"DisplayName": "bundle book",
-		"Description": "bundle book",
+	"blue704.JojaCC_purplebundlebook": {
+		"Name": "(O)blue704.JojaCC_purplebundlebook",
+		"DisplayName": "purple bundle book",
+		"Description": "purple bundle book",
 		"Type": "Basic",
 		"ExcludeFromFishingCollection": true,
 		"ExcludeFromShippingCollection": true,
 		"ExcludeFromRandomSale": true,
 		"Texture": "{{InternalAssetKey: assets/Objects/bundlebook.png}}",
-		"SpriteIndex": 0
+		"SpriteIndex": 1
+		}
+	}
+},
+{
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries": {
+	"blue704.JojaCC_brownbundlebook": {
+		"Name": "(O)blue704.JojaCC_brownbundlebook",
+		"DisplayName": "brown bundle book",
+		"Description": "brown bundle book",
+		"Type": "Basic",
+		"ExcludeFromFishingCollection": true,
+		"ExcludeFromShippingCollection": true,
+		"ExcludeFromRandomSale": true,
+		"Texture": "{{InternalAssetKey: assets/Objects/bundlebook.png}}",
+		"SpriteIndex": 2
+		}
+	}
+},
+{
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries": {
+	"blue704.JojaCC_greenbundlebook": {
+		"Name": "(O)blue704.JojaCC_greenbundlebook",
+		"DisplayName": "green bundle book",
+		"Description": "green bundle book",
+		"Type": "Basic",
+		"ExcludeFromFishingCollection": true,
+		"ExcludeFromShippingCollection": true,
+		"ExcludeFromRandomSale": true,
+		"Texture": "{{InternalAssetKey: assets/Objects/bundlebook.png}}",
+		"SpriteIndex": 3
+		}
+	}
+},
+{
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries": {
+	"blue704.JojaCC_redbundlebook": {
+		"Name": "(O)blue704.JojaCC_redbundlebook",
+		"DisplayName": "red bundle book",
+		"Description": "red bundle book",
+		"Type": "Basic",
+		"ExcludeFromFishingCollection": true,
+		"ExcludeFromShippingCollection": true,
+		"ExcludeFromRandomSale": true,
+		"Texture": "{{InternalAssetKey: assets/Objects/bundlebook.png}}",
+		"SpriteIndex": 4
 		}
 	}
 },
