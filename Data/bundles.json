@@ -10,6 +10,13 @@
 					"Location": "JojaCC",
 					"BundleName": "{{i18n: blue704.JojaCC_ForagerBundleBook}}",
 					"BundleDescription": "{{i18n: blue704.JojaCC_ForagerBundleAllReward}}",
+					"SpecialPlacementRequirements": [
+  {
+    "Type": "GameStateQuery",
+    "Condition": "PLAYER_HAS_MAIL Any FirstBundleComplete mailbox"
+  }
+],
+
 					"ShopPosition": "13, 22",
 					"ShopType": "CCBundle",
 					"ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
@@ -46,7 +53,10 @@
 					},
 					"BundleReward": {
 						"(BC)Adam.Joja_FishTrap": 5
-					}
+					},
+					"BundleCompletedActions": [
+  "AddMail current SecondBundleComplete tomorrow"
+]
 				},
 				"blue704.JojaCC_ForagerBundle02": {
 					"Location": "JojaCC",
@@ -68,7 +78,10 @@
 					},
 					"BundleReward": {
 						"(O)848": 100
-					}
+					},
+					"BundleCompletedActions": [
+  "AddMail current SecondBundleComplete tomorrow"
+]
 				},
 				"blue704.JojaCC_ForagerBundle03": {
 					"Location": "JojaCC",
@@ -92,7 +105,10 @@
 					},
 					"BundleReward": {
 						"(O)797": 3
-				}
+				},
+				"BundleCompletedActions": [
+  "AddMail current SecondBundleComplete tomorrow"
+]
             },
 				"blue704.JojaCC_ForagerBundle04": {
 					"Location": "JojaCC",
@@ -124,6 +140,9 @@
 						"(O)631": 1,
 						"(O)632": 1
 					},
+					"BundleCompletedActions": [
+  "AddMail current SecondBundleComplete tomorrow"
+],
 					"RandomRewardEntries": 3
 				},
 				"blue704.JojaCC_ForagerBundle05": {
@@ -148,7 +167,10 @@
 					"BundleReward": {
 						"(O)69": 1,
 						"(O)835": 1
-					}
+					},
+					"BundleCompletedActions": [
+  "AddMail current SecondBundleComplete tomorrow"
+]
 				},
 				    //Farmer Bundles
             "blue704.JojaCC_FarmerBundleBook": {
@@ -192,7 +214,8 @@
 						"(O)638": 1
 					},
 					"BundleCompletedActions": [
-  "AddMail current JojaCC_Year2SeedsJoja received"
+  "AddMail current JojaCC_Year2SeedsJoja received",
+  "AddMail current FirstBundleComplete tomorrow"
 ]
 
 				},
@@ -218,7 +241,10 @@
 					},
 					"BundleReward": {
 						"(O)621": 3
-					}
+					},
+					"BundleCompletedActions": [
+  "AddMail current FirstBundleComplete tomorrow"
+]
 				},
 				"blue704.JojaCC_FarmerBundle03": {
 					"Location": "JojaCC",
@@ -242,7 +268,10 @@
 					},
 					"BundleReward": {
 						"(BC)Adam.Joja_Keg": 5
-				}
+				},
+				"BundleCompletedActions": [
+  "AddMail current FirstBundleComplete tomorrow"
+]
             },
 				"blue704.JojaCC_FarmerBundle04": {
 					"Location": "JojaCC",
@@ -262,7 +291,10 @@
 					},
 					"BundleReward": {
 						"(O)114": 5
-					}
+					},
+					"BundleCompletedActions": [
+  "AddMail current FirstBundleComplete tomorrow"
+]
 				},
 				"blue704.JojaCC_FarmerBundle05": {
 					"Location": "JojaCC",
@@ -284,7 +316,8 @@
 						"(O)805": 10
 					},
 					"BundleCompletedActions": [
-  "AddMail current JojaCC_FertilizerJoja received"
+  "AddMail current JojaCC_FertilizerJoja received",
+  "AddMail current FirstBundleComplete tomorrow"
 ]
 				},
 				"blue704.JojaCC_FarmerBundle06": {
@@ -304,7 +337,10 @@
 					},
 					"BundleReward": {
 						"(BC)101": 1
-					}
+					},
+					"BundleCompletedActions": [
+  "AddMail current FirstBundleComplete tomorrow"
+]
 				},
 				"blue704.JojaCC_FarmerBundle07": {
 					"Location": "JojaCC",
@@ -330,7 +366,10 @@
 					},
 					"BundleReward": {
 						"(0)917": 10
-					}
+					},
+					"BundleCompletedActions": [
+  "AddMail current FirstBundleComplete tomorrow"
+]
 				},
 				"blue704.JojaCC_FarmerBundle08": {
 					"Location": "JojaCC",
@@ -356,7 +395,10 @@
 					},
 					"BundleReward": {
 						"(0)Adam.Joja_UpgradePack": 5
-					}
+					},
+					"BundleCompletedActions": [
+  "AddMail current FirstBundleComplete tomorrow"
+]
 				},
 				//Fisher Bundles
             "blue704.JojaCC_FisherBundleBook": {
@@ -398,7 +440,10 @@
 					},
 					"BundleReward": {
 						"(O)SkillBook_1": 1
-					}
+					},
+					"BundleCompletedActions": [
+  "AddMail current FirstBundleComplete tomorrow"
+]
 				},
 				"blue704.JojaCC_FisherBundle02": {
 					"Location": "JojaCC",
@@ -420,7 +465,10 @@
 					},
 					"BundleReward": {
 						"(BC)Adam.Joja_FishSmoker": 2
-					}
+					},
+					"BundleCompletedActions": [
+  "AddMail current FirstBundleComplete tomorrow"
+]
 				},
 				"blue704.JojaCC_FisherBundle03": {
 					"Location": "JojaCC",
@@ -442,7 +490,10 @@
 					},
 					"BundleReward": {
 						"(BC)Adam.Joja_WormBin": 2
-				}
+				},
+				"BundleCompletedActions": [
+  "AddMail current FirstBundleComplete tomorrow"
+]
             },
 				"blue704.JojaCC_FisherBundle04": {
 					"Location": "JojaCC",
@@ -464,7 +515,10 @@
 					},
 					"BundleReward": {
 						"(O)265": 5
-					}
+					},
+					"BundleCompletedActions": [
+  "AddMail current FirstBundleComplete tomorrow"
+]
 				},
 				"blue704.JojaCC_FisherBundle05": {
 					"Location": "JojaCC",
@@ -490,7 +544,10 @@
 					},
 					"BundleReward": {
 						"(T)IridiumRod": 1
-					}
+					},
+					"BundleCompletedActions": [
+  "AddMail current FirstBundleComplete tomorrow"
+]
 				},
 				"blue704.JojaCC_FisherBundle06": {
 					"Location": "JojaCC",
@@ -512,7 +569,10 @@
 					},
 					"BundleReward": {
 						"(O)Book_Roe": 1,
-						"(O)Book_Crabbing": 1					}
+						"(O)Book_Crabbing": 1					},
+						"BundleCompletedActions": [
+  "AddMail current FirstBundleComplete tomorrow"
+]
 				},
 				//Treasure Hunt Bundles
             "blue704.JojaCC_TreasureHuntBundleBook": {
@@ -806,6 +866,12 @@
 					"Location": "JojaCC",
 					"BundleName": "{{i18n: blue704.JojaCC_BulletinBoardBundleBook}}",
 					"BundleDescription": "{{i18n: blue704.JojaCC_BulletinBoardBundleAllReward}}",
+					"SpecialPlacementRequirements": [
+  {
+    "Type": "GameStateQuery",
+    "Condition": "PLAYER_HAS_MAIL Any SecondBundleComplete mailbox"
+  }
+],
 					"ShopPosition": "46, 12",
 					"ShopType": "CCBundle",
 					"ShopTexture": "none",
@@ -1009,6 +1075,12 @@
 					"Location": "JojaCC",
 					"BundleName": "{{i18n: blue704.JojaCC_BoilerRoomBundleBook}}",
 					"BundleDescription": "{{i18n: blue704.JojaCC_BoilerRoomBundleAllReward}}",
+					"SpecialPlacementRequirements": [
+  {
+    "Type": "GameStateQuery",
+    "Condition": "PLAYER_HAS_MAIL Any FirstBundleComplete mailbox"
+  }
+],
 					"ShopPosition": "62, 17",
 					"ShopType": "CCBundle",
 					"ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
@@ -1046,7 +1118,10 @@
 					},
 					"BundleReward": {
 						"(O)74": 1
-					}
+					},
+					"BundleCompletedActions": [
+  "AddMail current SecondBundleComplete tomorrow"
+]
 				},
 				"blue704.JojaCC_BoilerRoomBundle02": {
 					"Location": "JojaCC",
@@ -1066,7 +1141,10 @@
 					},
 					"BundleReward": {
 						"(O)GoldenMysteryBox": 3
-					}
+					},
+					"BundleCompletedActions": [
+  "AddMail current SecondBundleComplete tomorrow"
+]
 				},
 				"blue704.JojaCC_BoilerRoomBundle03": {
 					"Location": "JojaCC",
@@ -1085,7 +1163,10 @@
 					},
 					"BundleReward": {
 						"(O)811": 1
-				}
+				},
+				"BundleCompletedActions": [
+  "AddMail current SecondBundleComplete tomorrow"
+]
             },
 				"blue704.JojaCC_BoilerRoomBundle04": {
 					"Location": "JojaCC",
@@ -1107,7 +1188,10 @@
 					},
 					"BundleReward": {
 						"(R)862": 1
-					}
+					},
+					"BundleCompletedActions": [
+  "AddMail current SecondBundleComplete tomorrow"
+]
 				},
 				"blue704.JojaCC_BoilerRoomBundle05": {
 					"Location": "JojaCC",
@@ -1129,7 +1213,10 @@
 					},
 					"BundleReward": {
 						"(O)289": 3
-					}
+					},
+					"BundleCompletedActions": [
+  "AddMail current SecondBundleComplete tomorrow"
+]
 				},
 				"blue704.JojaCC_BoilerRoomBundle06": {
 					"Location": "JojaCC",
@@ -1151,13 +1238,22 @@
 					},
 					"BundleReward": {
 						"(BC)21": 3
-					}
+					},
+					"BundleCompletedActions": [
+  "AddMail current SecondBundleComplete tomorrow"
+]
 				},
 		//Vault Bundles
 		"blue704.JojaCC_VaultBundleBook": {
           "Location": "JojaCC",
           "BundleName": "{{i18n: blue704.JojaCC_VaultBundleBook}}",
           "BundleDescription": "{{i18n: blue704.JojaCC_VaultBundleAllReward}}",
+		  "SpecialPlacementRequirements": [
+  {
+    "Type": "GameStateQuery",
+    "Condition": "PLAYER_HAS_MAIL Any SecondBundleComplete mailbox"
+  }
+],
           "ShopPosition": "55, 6",
           "ShopType": "CCBundle",
           "ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",

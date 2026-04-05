@@ -127,6 +127,22 @@
       "Entries": {
         "FisherBundleAreaComplete/GameStateQuery PLAYER_HAS_MAIL current FishFarmAreaEventMail mailbox": "continue/-2000 -2000/Morris 67 11 0 farmer -100 -100 0/pause 500/message \"Early this morning at the beach...\"/pause 500/changeLocation Beach/viewport 68 11 clamp true true/pause 500/skippable/emote Morris 32/pause 500/move Morris 4 0 2/pause 300/speak Morris \"This fish farm is going to be a wonderful addition to Pelican Town.\"/pause 300/move Morris 0 -2 0/pause 500/speak Morris \"Complete with a new shed for @ to use.#$b#I wonder how many Joja Preserves Jars ${he^she}$ can fit in there?\"/pause 500/move Morris -6 0 0/pause 500/emote Morris 32/pause 500/speak Morris \"And the new minecart system should help getting all the way out here too.\"/pause 300/faceDirection Morris 2/pause 300/speak Morris \"Once again JojaCo has outdone themselves.$h\"/pause 500/emote Morris 20/pause 500/end"
       }
+    },
+    {
+        "Action": "EditData",
+      "LogName": "Joja CC First Bundle Complete Event Data",
+      "Target": "Data/Events/FarmHouse",
+      "Entries": {
+        "FirstBundleComplete/GameStateQuery PLAYER_HAS_MAIL current FirstBundleComplete mailbox": "continue/-2000 -2000/Morris 13 21 2 farmer -100 -100 0/pause 500/message \"Early this morning at the Joja Civic Center...\"/pause 500/changeLocation JojaCC/viewport 13 23 clamp true true/pause 500/skippable/emote Morris 32/pause 500/speak Morris \"Now that @ finished their first bundle it's time I add a few more requests.#$b#Leah asked for several foraging items in order to open up a foraging shop so I'll just place this book here with her requests.\"/pause 300/addObject (O)blue704.JojaCC_greenbundlebook 13 22 1/pause 500/speak Morris \"Now to the boiler room...\"/pause 300/move Morris 0 -2 0 true/fade/viewport 61 16 clamp true/warp Morris 61 17 true/faceDirection Morris 1 true/pause 300/speak Morris \"And Clint said that he would like to move his shop out of his house and this would be the perfect place for him to set up.$h\"/pause 500 addObject (O)blue704.JojaCC_brownbundlebook 62 17 1/pause 500/speak Morris \"Of course Clint needs a lot of things in order to set up shop.#$b#Hopefully @ will be able to find everything he needs.\"/pause 300/emote Morris 32/pause 500/move Morris 0 2 2 true/end"
+      }
+    },
+        {
+        "Action": "EditData",
+      "LogName": "Joja CC Second Bundle Complete Event Data",
+      "Target": "Data/Events/FarmHouse",
+      "Entries": {
+        "SecondBundleComplete/GameStateQuery PLAYER_HAS_MAIL current SecondBundleComplete mailbox": "continue/-2000 -2000/Morris 46 13 0 farmer -100 -100 0/pause 500/message \"Early this morning at the Joja Civic Center...\"/pause 500/changeLocation JojaCC/viewport 46 13 clamp true true/pause 500/skippable/emote Morris 32/pause 500/speak Morris \"@ has really been completing those bundles.#$b#At this pace the Civic Center might be finished faster than I ever thought possible!$h\"/pause 300/emote Morris 32/pause 300/speak Morris \"Now for this bulletin board...#$b#Several of the townsfolk have asked for some rather difficult items and this will be the best place for @ to see what is needed.\"/pause 300/speak Morris \"If ${he^she}$ finishes this ${he'll^she'll}$ be the most popular person in town!$h#$b#And now to get the vault ready...\"/pause 500/move Morris 2 0 1 true/fade/viewport 54 5 clamp true/warp Morris 54 6 true/faceDirection Morris 1 true/pause 300/speak Morris \"Mayor Lewis has requested additional funds for the town so I'll just place his ledger book here so that @ can see what's needed.\"/pause 500 addObject (O)blue704.JojaCC_purplebundlebook 55 6 1/pause 500/speak Morris \"And everyone says that I'm greedy...\"/pause 500/move Morris -2 0 2 true/end"
+      }
     }
     ]
 }
