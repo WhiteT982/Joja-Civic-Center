@@ -1527,6 +1527,96 @@
 					}
 				]
 			}
-		}
+		},
+    //Festival Patches
+    {
+      "When": {
+        "HasFlag": "FishFarmBuildingsAdded"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/Beach-Jellies",
+      "FromFile": "assets/Maps/z_BeachEvent.tmx",
+      "FromArea": {
+        "X": 65,
+        "Y": 0,
+        "Width": 27,
+        "Height": 25
+      },
+      "ToArea": {
+        "X": 65,
+        "Y": 0,
+        "Width": 27,
+        "Height": 25
+      }
+    },
+    {
+      "When": {
+        "HasFlag": "FishFarmBuildingsAdded"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/Beach-Luau",
+      "FromFile": "assets/Maps/z_BeachEvent.tmx",
+      "FromArea": {
+        "X": 65,
+        "Y": 0,
+        "Width": 27,
+        "Height": 25
+      },
+      "ToArea": {
+        "X": 65,
+        "Y": 0,
+        "Width": 27,
+        "Height": 25
+      }
+    },
+    {
+      "When": {
+        "HasFlag": "FishFarmBuildingsAdded"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/Beach-Luau2",
+      "FromFile": "assets/Maps/z_BeachEvent.tmx",
+      "FromArea": {
+        "X": 65,
+        "Y": 0,
+        "Width": 27,
+        "Height": 25
+      },
+      "ToArea": {
+        "X": 65,
+        "Y": 0,
+        "Width": 27,
+        "Height": 25
+      }
+    },
+    {
+      "When": {
+        "HasFlag": "FishFarmBuildingsAdded"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/Beach-NightMarket",
+      "FromFile": "assets/Maps/z_BeachEvent.tmx",
+      "FromArea": {
+        "X": 65,
+        "Y": 0,
+        "Width": 27,
+        "Height": 25
+      },
+      "ToArea": {
+        "X": 65,
+        "Y": 0,
+        "Width": 27,
+        "Height": 25
+      }
+    },
+    {
+      "When": {
+        "HasFlag": "FishFarmBuildingsAdded"
+      },
+      "Action": "Load",
+      "Target": "Maps/Beach-Jellies2",
+      "FromFile": "assets/Maps/z_Beach-Jellies2.tmx",
+      "Priority": "Low"
+    }
     ]
 }
