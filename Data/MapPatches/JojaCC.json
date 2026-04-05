@@ -21,7 +21,54 @@
           "MusicDefault": "jaunty",
           "CreateOnLoad": {
             "MapPath": "Maps/JojaCC"
-          }
+          },
+          "Fish": [
+        {
+        "Chance": 1.0,
+        "Season": null,
+        "FishAreaId": null,
+        "BobberPosition": null,
+        "PlayerPosition": null,
+        "MinFishingLevel": 0,
+        "MinDistanceFromShore": 0,
+        "MaxDistanceFromShore": -1,
+        "ApplyDailyLuck": false,
+        "CuriosityLureBuff": -1.0,
+        "SpecificBaitBuff": 0.0,
+        "SpecificBaitMultiplier": 1.66,
+        "CatchLimit": -1,
+        "CanUseTrainingRod": null,
+        "IsBossFish": false,
+        "SetFlagOnCatch": null,
+        "RequireMagicBait": false,
+        "Precedence": 0,
+        "IgnoreFishDataRequirements": false,
+        "CanBeInherited": false,
+        "ChanceModifiers": null,
+        "ChanceModifierMode": "Stack",
+        "ChanceBoostPerLuckLevel": 0.0,
+        "UseFishCaughtSeededRandom": false,
+        "Condition": null,
+        "Id": "(O)156",
+        "ItemId": "(O)156",
+        "RandomItemId": null,
+        "MaxItems": null,
+        "MinStack": -1,
+        "MaxStack": -1,
+        "Quality": -1,
+        "ObjectInternalName": null,
+        "ObjectDisplayName": null,
+        "ObjectColor": null,
+        "ToolUpgradeLevel": -1,
+        "IsRecipe": false,
+        "StackModifiers": null,
+        "StackModifierMode": "Stack",
+        "QualityModifiers": null,
+        "QualityModifierMode": "Stack",
+        "ModData": null,
+        "PerItemCondition": null
+      }
+    ]
         }
       }
     },
@@ -395,6 +442,136 @@
         "Width": 2,
         "Height": 3
       }
+    },
+    //Add Fish Pond when Fisher Bundle Complete
+    {
+      "When": {
+        "HasFlag": "JojaCC_FisherBundleBookComplete"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "MapTiles": [
+        {
+          "Position": { "X": 39, "Y": 8 },
+                    "Layer": "Back1",
+                    "Remove": "true"
+        },
+        {
+          "Position": { "X": 40, "Y": 8 },
+                    "Layer": "Back1",
+                    "Remove": "true"
+        },
+        {
+          "Position": { "X": 41, "Y": 8 },
+                    "Layer": "Back1",
+                    "Remove": "true"
+        },
+        {
+          "Position": { "X": 42, "Y": 8 },
+                    "Layer": "Back1",
+                    "Remove": "true"
+        },
+        {
+          "Position": { "X": 38, "Y": 9 },
+                    "Layer": "Back1",
+                    "Remove": "true"
+        },
+        {
+          "Position": { "X": 39, "Y": 9 },
+                    "Layer": "Back1",
+                    "Remove": "true"
+        },
+        {
+          "Position": { "X": 40, "Y": 9 },
+                    "Layer": "Back1",
+                    "Remove": "true"
+        },
+        {
+          "Position": { "X": 41, "Y": 9 },
+                    "Layer": "Back1",
+                    "Remove": "true"
+        },
+        {
+          "Position": { "X": 42, "Y": 9 },
+                    "Layer": "Back1",
+                    "Remove": "true"
+        },
+        {
+          "Position": { "X": 38, "Y": 10 },
+                    "Layer": "Back1",
+                    "Remove": "true"
+        },
+        {
+          "Position": { "X": 39, "Y": 10 },
+                    "Layer": "Back1",
+                    "Remove": "true"
+        },
+        {
+          "Position": { "X": 40, "Y": 10 },
+                    "Layer": "Back1",
+                    "Remove": "true"
+        },
+        {
+          "Position": { "X": 41, "Y": 10 },
+                    "Layer": "Back1",
+                    "Remove": "true"
+        },
+        {
+          "Position": { "X": 42, "Y": 10 },
+                    "Layer": "Back1",
+                    "Remove": "true"
+        },
+         {
+          "Position": { "X": 38, "Y": 11 },
+                    "Layer": "Back1",
+                    "Remove": "true"
+        },
+         {
+          "Position": { "X": 39, "Y": 11 },
+                    "Layer": "Back1",
+                    "Remove": "true"
+        },
+       {
+          "Position": { "X": 40, "Y": 11 },
+                    "Layer": "Back1",
+                    "Remove": "true"
+        },
+       {
+          "Position": { "X": 41, "Y": 11 },
+                    "Layer": "Back1",
+                    "Remove": "true"
+        },
+       {
+          "Position": { "X": 42, "Y": 11 },
+                    "Layer": "Back1",
+                    "Remove": "true"
+        },
+      {
+          "Position": { "X": 38, "Y": 12 },
+                    "Layer": "Back1",
+                    "Remove": "true"
+        },
+         {
+          "Position": { "X": 39, "Y": 12 },
+                    "Layer": "Back1",
+                    "Remove": "true"
+        },
+         {
+          "Position": { "X": 40, "Y": 12 },
+                    "Layer": "Back1",
+                    "Remove": "true"
+        },
+         {
+          "Position": { "X": 41, "Y": 12 },
+                    "Layer": "Back1",
+                    "Remove": "true"
+        },
+         {
+          "Position": { "X": 42, "Y": 12 },
+                    "Layer": "Back1",
+                    "Remove": "true"
+        }
+      ]
     }
 ]
 }
