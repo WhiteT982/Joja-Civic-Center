@@ -17,6 +17,9 @@
     },
     {
       "UniqueID": "MindMeltMax.MapBuildings", "IsRequired": true
+    },
+    {
+      "UniqueID": "Esca.FarmTypeManager", "IsRequired": true
     }
     ],
   "ContentPackFor": {
