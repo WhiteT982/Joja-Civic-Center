@@ -7,13 +7,6 @@
       "FromFile": "assets/Maps/z_ForagerMap.tmx",
       "Priority": "Low"
     },
-            //Load ForagerEvent Map
-    {
-      "Action": "Load",
-      "Target": "Maps/ForagerMapEvent",
-      "FromFile": "assets/Maps/z_ForagerMapEvent.tmx",
-      "Priority": "Low"
-    },
     {
       "Action": "Load",
       "Target": "Maps/ForagerMapEvent2",
@@ -21,6 +14,9 @@
       "Priority": "Medium"
     },
     {
+      "When": {
+        "HasFlag": "JojaCC_ForagerBundleBookComplete"
+      },
 			"Action": "EditData",
 			"Target": "MindMeltMax.MapBuildings/Buildings",
 			"Entries": {
@@ -51,6 +47,7 @@
       "LogName": "Add Forager Map To Locations",
       "Action": "EditData",
       "Target": "Data/Locations",
+      "Priority": "Early",
       "Entries": {
         "ForagerMap": {
           "DisplayName": "{{i18n:blue704.JojaCC_ForagerMap}}",
@@ -1231,6 +1228,6 @@
                     "Remove": true
                 }
             ]
-        },
+        }
     ]
   }

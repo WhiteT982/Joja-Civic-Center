@@ -20,12 +20,6 @@
       "Priority": "Low"
     },
     {
-      "Action": "Load",
-      "Target": "Maps/ClintsCaveEvent",
-      "FromFile": "assets/Maps/z_ClintsCaveEvent.tmx",
-      "Priority": "Low"
-    },
-    {
       "LogName": "Add ClintsCave2 Map To Locations",
       "Action": "EditData",
       "Target": "Data/Locations",
@@ -44,6 +38,9 @@
       }
     },
     {
+      "When": {
+        "HasFlag": "JojaCC_BoilerRoomComplete"
+      },
 			"Action": "EditData",
 			"Target": "MindMeltMax.MapBuildings/Buildings",
 			"Entries": {
@@ -122,7 +119,7 @@
         "PerItemCondition": null
       },
       {
-        "Chance": 0.9,
+        "Chance": 1.0,
         "Season": null,
         "FishAreaId": null,
         "BobberPosition": null,
@@ -139,7 +136,7 @@
         "IsBossFish": false,
         "SetFlagOnCatch": null,
         "RequireMagicBait": false,
-        "Precedence": 0,
+        "Precedence":-10,
         "IgnoreFishDataRequirements": false,
         "CanBeInherited": true,
         "ChanceModifiers": null,
@@ -167,7 +164,7 @@
         "PerItemCondition": null
       },
       {
-        "Chance": 0.7,
+        "Chance": 1.0,
         "Season": null,
         "FishAreaId": null,
         "BobberPosition": null,
@@ -184,7 +181,7 @@
         "IsBossFish": false,
         "SetFlagOnCatch": null,
         "RequireMagicBait": false,
-        "Precedence": 0,
+        "Precedence": -10,
         "IgnoreFishDataRequirements": false,
         "CanBeInherited": true,
         "ChanceModifiers": null,
@@ -212,7 +209,7 @@
         "PerItemCondition": null
       },
       {
-        "Chance": 0.7,
+        "Chance": 1.0,
         "Season": null,
         "FishAreaId": null,
         "BobberPosition": null,
@@ -229,7 +226,7 @@
         "IsBossFish": false,
         "SetFlagOnCatch": null,
         "RequireMagicBait": false,
-        "Precedence": 0,
+        "Precedence": -10,
         "IgnoreFishDataRequirements": false,
         "CanBeInherited": true,
         "ChanceModifiers": null,
@@ -257,7 +254,7 @@
         "PerItemCondition": null
       },
       {
-        "Chance": 0.7,
+        "Chance": 1.0,
         "Season": null,
         "FishAreaId": null,
         "BobberPosition": null,
@@ -274,7 +271,7 @@
         "IsBossFish": false,
         "SetFlagOnCatch": null,
         "RequireMagicBait": false,
-        "Precedence": 0,
+        "Precedence": -10,
         "IgnoreFishDataRequirements": false,
         "CanBeInherited": true,
         "ChanceModifiers": null,
