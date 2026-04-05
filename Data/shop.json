@@ -1,5 +1,39 @@
 {
     "Changes": [
+      {
+    //Sale things at Joja
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "Joja"
+      ],
+      "Entries": {
+        "SalableItemTags": [
+      "category_greens",
+      "category_vegetable",
+      "category_fruits",
+      "category_flowers",
+      "category_seeds",
+      "category_sell_at_pierres",
+      "category_sell_at_pierres_and_marnies",
+      "category_milk",
+      "category_artisan_goods",
+      "category_egg",
+      "category_meat",
+      "category_fertilizer",
+      "category_cooking",
+      "category_ingredients",
+      "category_bait",
+      "category_fish",
+      "category_sell_at_fish_shop",
+      "category_tackle",
+      "category_minerals",
+      "category_gem",
+      "category_metal_resources",
+      "category_building_resources"
+        ]
+      }
+    },
 {
     //Farmer Bundle 01 Complete
       "Action": "EditData",
