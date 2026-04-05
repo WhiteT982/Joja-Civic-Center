@@ -5,6 +5,7 @@
     "blue704.JojaCC_ForagerMap": "Leah's Woods",
     "blue704.JojaCC_ClintsCave": "Clint's Cave",
     "blue704.JojaCC_Deeps": "The Deeps",
+    "blue704.JojaCC_WillysFishFarm": "Willy's Fish Farm",
     //ForagerBundles
     "blue704.JojaCC_ForagerBundleBook": "Forager Bundles",
     "blue704.JojaCC_ForagerBundleAllReward": "Reward: New Tree Farm Area",
@@ -26,7 +27,7 @@
     "blue704.JojaCC_FarmerBundle08": "Joja Products",
     //FisherBundles
     "blue704.JojaCC_FisherBundleBook": "Fisher Bundles",
-    "blue704.JojaCC_FisherBundleAllReward": "Reward: Indoor Fishing Pond",
+    "blue704.JojaCC_FisherBundleAllReward": "Reward: New Fish Farm Area",
     "blue704.JojaCC_FisherBundle01": "Spring Fishing",
     "blue704.JojaCC_FisherBundle02": "Summer Fishing",
     "blue704.JojaCC_FisherBundle03": "Fall Fishing",
@@ -63,11 +64,11 @@
      //VaultBundles
     "blue704.JojaCC_VaultBundleBook": "The Vault",
     "blue704.JojaCC_VaultBundleAllReward": "Reward: An Island Getaway",
-    "blue704.JojaCC_VaultBundle01": "10,000 Bundle",
+    "blue704.JojaCC_VaultBundle01": "2,500 Bundle",
     "blue704.JojaCC_VaultBundle02": "Farmer Mystery Bundle",
-    "blue704.JojaCC_VaultBundle03": "15,000 Bundle",
+    "blue704.JojaCC_VaultBundle03": "5,000 Bundle",
     "blue704.JojaCC_VaultBundle04": "Book Mystery Bundle",
-    "blue704.JojaCC_VaultBundle05": "20,000 Bundle",
+    "blue704.JojaCC_VaultBundle05": "7,500 Bundle",
     "blue704.JojaCC_VaultBundle06": "Joja Mystery Bundle",
     "blue704.JojaCC_VaultBundle07": "The Golden Bundle",
     //Objects
@@ -82,8 +83,8 @@
     "blue704.JojaCC_LeahsShopOpen": "Hi there! Looking for some foraging supplies?",
     "blue704.JojaCC_EvelynsShopClosed": "I'm sorry I'm not here right now but I should be back Monday, Thursday, Friday, or Saturday from 10am until 4pm.",
     "blue704.JojaCC_EvelynsShopOpen": "Hello dear. Maybe you'd like a fresh cookie?",
-    "blue704.JojaCC_JojaMembershipCardOpen": "Would you like to purchase a Joja Membership?",
-    "blue704.JojaCC_JojaMembershipCardClosed": "Thank you for purchasing a Joja Membeship!",
+    "blue704.JojaCC_WillysShopOpen": "Come to see what I fished up the other day?",
+    "blue704.JojaCC_WillysShopClosed": "Gone fishin'",
     //Mail
     "blue704.JojaCC_JojaMoneyRewardMail.text": "Welcome to Pelican Town!^^JojaCo has decided to build a new Joja Civic Center in your town. However, we need a little help from you. As the new local farmer we hope that you will be able to help us stock and fill our new Civic Center to the brim with local products. Sadly we will only be able to allow Joja Members to have access to this new building, but don't worry. We are here to help!^^Included with this letter we are awarding you a 5000G bonus so that you can go and purchase that membership today and get started right away on the new Joja Civic Center. We are looking forward to seeing great things from you @!^^Join Us. Thrive",
     "blue704.JojaCC_JojaMoneyRewardMail.title": "Joja Money Reward Mail",
