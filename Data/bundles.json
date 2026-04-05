@@ -22,7 +22,8 @@
 					"JunimoNoteTexture": "UnlockableBundles/UI/MagicBookJunimoNote_Green",
 					"IsBook": true,
 					"BundleCompletedActions": [
-  "AddMail current JojaCC_ForagerBundleBookComplete received"
+  "AddMail current JojaCC_ForagerBundleBookComplete received",
+  "AddMail current ForagerBundleCompleteEventSeen tomorrow"
 ]
 				},
 				"blue704.JojaCC_ForagerBundle01": {
@@ -166,7 +167,8 @@
 					"JunimoNoteTexture": "UnlockableBundles/UI/MagicBookJunimoNote_Yellow",
 					"IsBook": true,
 					"BundleCompletedActions": [
-  "AddMail current JojaCC_FarmerBundleBookComplete received"
+  "AddMail current JojaCC_FarmerBundleBookComplete received",
+  "AddMail current FarmerBundleCompleteEventSeen tomorrow"
 ]
 				},
 				"blue704.JojaCC_FarmerBundle01": {
@@ -372,9 +374,9 @@
 					"ShopCompletedAnimation": "0",
 					"JunimoNoteTexture": "UnlockableBundles/UI/MagicBookJunimoNote_Teal",
 					"IsBook": true,
-					"BundleReward": {
-						"(O)TreasureTotem": 10
-					}
+					"BundleCompletedActions": [
+  "AddMail current JojaCC_FisherBundleBookComplete received"
+]
 				},
 				"blue704.JojaCC_FisherBundle01": {
 					"Location": "JojaCC",
@@ -385,15 +387,14 @@
 					"BookId": "blue704.JojaCC_FisherBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 6,
+					"BundleSlots": 5,
 					"Price": {
 						"(O)137": 1,
 						"(O)129": 1,
 						"(O)147": 1,
 						"(O)148": 1,
 						"(O)136": 1,
-						"(O)706": 1,
-						"(O)702": 1
+						"(O)706": 1
 					},
 					"BundleReward": {
 						"(O)SkillBook_1": 1
@@ -408,14 +409,13 @@
 					"BookId": "blue704.JojaCC_FisherBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 6,
+					"BundleSlots": 5,
 					"Price": {
 						"(O)138": 1,
 						"(O)144": 1,
 						"(O)146": 1,
 						"(O)149": 1,
 						"(O)704": 1,
-						"(O)700": 1,
 						"(O)267": 1
 					},
 					"BundleReward": {
@@ -431,13 +431,12 @@
 					"BookId": "blue704.JojaCC_FisherBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 6,
+					"BundleSlots": 5,
 					"Price": {
 						"(O)139": 1,
 						"(O)154": 1,
 						"(O)269": 1,
 						"(O)699": 1,
-						"(O)701": 1,
 						"(O)705": 1,
 						"(O)140": 1
 					},
@@ -454,15 +453,14 @@
 					"BookId": "blue704.JojaCC_FisherBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 6,
+					"BundleSlots": 5,
                     "Price": {
 						"(O)141": 1,
 						"(O)151": 1,
 						"(O)707": 1,
 						"(O)698": 1,
 						"(O)161": 1,
-						"(O)708": 1,
-						"(O)130": 1
+						"(O)708": 1
 					},
 					"BundleReward": {
 						"(O)265": 5
@@ -1023,7 +1021,8 @@
 					"JunimoNoteTexture": "UnlockableBundles/UI/MagicBookJunimoNote_Brown",
 					"IsBook": true,
 					"BundleCompletedActions": [
-						"AddMail current JojaCC_BoilerRoomComplete received"
+						"AddMail current JojaCC_BoilerRoomComplete received",
+						"AddMail current BoilerBundleCompleteEventSeen tomorrow"
 ]
 
 				},
