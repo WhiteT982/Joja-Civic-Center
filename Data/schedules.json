@@ -58,6 +58,18 @@
       "Entries": {
          "fall": "900 SeedShop 39 5 0/1000 JojaCC 40 17 2/1700 SeedShop 3 6 0 abigail_videogames/1930 SeedShop 1 9 3 abigail_sleep"
         }
+},
+//Willy Schedule Edit
+        {
+      "Action": "EditData",
+      "Target": "characters/schedules/Willy",
+      "When": {
+                "HasFlag": "JojaCC_FisherBundleBookComplete"
+            },
+      "Entries": {
+         "rain": "610 FishShop 5 4 2/900 JojaCC 36 11 2/1700 Saloon 17 22 2 \"Strings\\schedules\\Willy:winter.000\"/2320 FishShop 5 4 2",
+         "winter": "610 FishShop 5 4 2/1200 JojaCC 36 11 2/1700 Saloon 17 22 2 \"Strings\\schedules\\Willy:winter.000\"/2320 FishShop 5 4 2"
+        }
 }
     ]
 }

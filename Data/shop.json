@@ -522,6 +522,60 @@
               "IsRecipe": false
             }
       }
+    },
+      //Willy's Oddities
+{
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "Entries": {
+        "WillysOddities": {
+          "Currency": 0,
+          "StackSizeVisibility": null,
+          "OpenSound": null,
+          "PurchaseSound": null,
+          "PurchaseRepeatSound": null,
+          "ApplyProfitMargins": null,
+          "PriceModifierMode": "Stack",
+          "PriceModifiers": [
+            {
+              "Id": "Friend Discount",
+              "Condition": "PLAYER_FRIENDSHIP_POINTS Current Willy 750",
+              "Modification": "Multiply",
+              "Amount": 0.75
+            }
+          ],
+          "SalableItemTags": [
+      "category_bait",
+      "category_fish",
+      "category_sell_at_fish_shop",
+      "category_tackle"
+    ],
+          "Owners": [
+    {
+        "Name": "AnyOrNone",
+        "ClosedMessage": "{{i18n: blue704.JojaCC_WillysShopClosed}}",
+        "Condition": "!WEATHER Beach Rain, !TIME 1200 1700, !SEASON Winter"
+    },
+    {
+        "Name": "Willy",
+        "Dialogues": [ 
+          {
+            "Id": "Default",
+            "Dialogue": "{{i18n: blue704.JojaCC_WillysShopOpen}}"
+          }
+        ]
     }
+],
+          "Items": [
+            {
+              "RandomItemId": [ "(F)2421", "(F)2427", "(F)2419","(F)2332", "(F)2396", "(F)2418","(F)2732", "(F)2334", "(F)2814","(F)2423", "(F)2425", "(H)78" ],
+              "IgnoreShopPriceModifiers": false,
+              "AvoidRepeat": true,
+              "IsRecipe": false
+            }
+          ]
+            }
+            }
+          }
   ]
 }

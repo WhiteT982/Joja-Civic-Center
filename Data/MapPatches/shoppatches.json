@@ -33,6 +33,23 @@
                     }
                 }
             ]
+        },
+         //Willys shop open
+        {
+            "Action": "EditMap",
+            "Target": "Maps/JojaCC",
+            "When": {
+        "HasFlag": "JojaCC_FisherBundleBookComplete"
+      },
+            "MapTiles": [
+                {
+                    "Position": { "X": 36, "Y": 12 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "OpenShop WillysOddities down 0600 2600 36 11 1 1"
+                    }
+                }
+            ]
         }
     ]
 }
