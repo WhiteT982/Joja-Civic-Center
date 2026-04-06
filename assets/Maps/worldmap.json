@@ -20,8 +20,8 @@
         "PixelArea": {
           "X": 165,
           "Y": 58,
-          "Width": 20,
-          "Height": 20
+          "Width": 15,
+          "Height": 15
         },
         "ScrollText": "{{i18n: blue704.JojaCC_JojaCC}}",
         "Textures": [
@@ -48,7 +48,7 @@
               "Width": 0,
               "Height": 0
             },
-            "Text": "Joja Civic Center",
+            "Text": "{{i18n: blue704.JojaCC_JojaCC}}",
             "LeftNeighbor": "BusStop/Default",
             "RightNeighbor": "Town/JojaMart",
             "UpNeighbor": "Mountain/Carpenter",
@@ -58,12 +58,218 @@
          "WorldPositions": [
             {
               "Id": "JojaCC",
-              "LocationName": "Joja Civic Center",
+              "LocationName": "JojaCC",
+              "TileArea": { 
+                "X": 0,
+                "Y": 0,
+                "Width": 69,
+                "Height": 29 
+              },
               "MapPixelArea": {
-                "X": 176,
-                "Y": 69,
-                "Width": 0,
-                "Height": 0
+                "X": 174,
+                "Y": 66,
+                "Width": 5,
+                "Height": 5
+              }
+            }
+          ]
+    }
+  }
+},
+//Leah's Woods Map
+{
+      "LogName": "Load world map",
+      "Action": "Load",
+      "Target": "LooseSprites/blue704.JojaCC",
+      "FromFile": "assets/Maps/LeahsWoodsworldmap{{season}}.png"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/WorldMap",
+      "TargetField": ["Valley", "MapAreas"],
+      "When": {
+        "HasFlag": "JojaCC_ForagerBundleBookComplete"
+      },
+      "Entries": {
+        "blue704.JojaCC_LeahsWoods":{
+        "Id": "LeahsWoods",
+        "PixelArea": {
+          "X": 85,
+          "Y": 18,
+          "Width": 20,
+          "Height": 20
+        },
+        "ScrollText": "{{i18n:blue704.JojaCC_ForagerMap}}",
+        "Textures": [
+          {
+            "Id": "LeahsWoods",
+            "Texture": "{{InternalAssetKey: assets/Maps/LeahsWoodsworldmap{{season}}.png}}",
+            "MapPixelArea": {
+              "X": 85,
+              "Y": 18,
+              "Width": 29,
+              "Height": 25
+            }
+          }
+        ],
+        "Tooltips": [
+          {
+            "Id": "LeahsWoods",
+            "KnownCondition": null,
+            "PixelArea": {
+              "X": 0,
+              "Y": 0,
+              "Width": 0,
+              "Height": 0
+            },
+            "Text": "{{i18n: blue704.JojaCC_ForagerMap}}",
+            "LeftNeighbor": "BusStop/Default",
+            "RightNeighbor": "Town/JojaMart",
+            "UpNeighbor": "Mountain/Carpenter",
+            "DownNeighbor": "Town/PierreStore"
+          }
+        ],
+         "WorldPositions": [
+            {
+              "Id": "LeahsWoods",
+              "LocationName": "ForagerMap",
+              "TileArea": { 
+                "X": 63,
+                "Y": 3,
+                "Width": 64,
+                "Height": 34 
+              },
+            "ExtendedTileArea": {
+              "X": 63,
+              "Y": 3,
+              "Width": 70,
+              "Height": 34 
+            },
+              "MapPixelArea": {
+                "X": 95,
+                "Y": 23,
+                "Width": 20,
+                "Height": 15
+              }
+            }
+          ]
+    }
+  }
+},
+//Clints Cave Map
+    {
+      "Action": "EditData",
+      "Target": "Data/WorldMap",
+      "TargetField": ["Valley", "MapAreas"],
+      "When": {
+        "HasFlag": "BoilerBundleCompleteEventSeen"
+      },
+      "Entries": {
+        "blue704.JojaCC_ClintsCave":{
+        "Id": "ClintsCave",
+        "PixelArea": {
+          "X": 146,
+          "Y": 8,
+          "Width": 20,
+          "Height": 10
+        },
+        "ScrollText": "{{i18n: blue704.JojaCC_ClintsCave}}",
+        "Textures": [],
+        "Tooltips": [
+          {
+            "Id": "ClintsCave",
+            "KnownCondition": null,
+            "PixelArea": {
+              "X": 0,
+              "Y": 0,
+              "Width": 0,
+              "Height": 0
+            },
+            "Text": "{{i18n: blue704.JojaCC_ClintsCave}}",
+            "LeftNeighbor": "BusStop/Default",
+            "RightNeighbor": "Town/JojaMart",
+            "UpNeighbor": "Mountain/Carpenter",
+            "DownNeighbor": "Town/PierreStore"
+          }
+        ],
+         "WorldPositions": [
+            {
+              "Id": "ClintsCave",
+              "LocationName": "ClintsCave",
+              "TileArea": { 
+                "X": 29,
+                "Y": 0,
+                "Width": 26,
+                "Height": 17 
+              },
+            "ExtendedTileArea": {
+              "X": 29,
+              "Y": 0,
+              "Width": 46,
+              "Height": 19 
+            },
+              "MapPixelArea": {
+                "X": 146,
+                "Y": 26,
+                "Width": 20,
+                "Height": 8
+              }
+            }
+          ]
+    }
+  }
+},
+//Clints Cave2 Map
+    {
+      "Action": "EditData",
+      "Target": "Data/WorldMap",
+      "TargetField": ["Valley", "MapAreas"],
+      "When": {
+        "HasFlag": "BoilerBundleCompleteEventSeen"
+      },
+      "Entries": {
+        "blue704.JojaCC_ClintsCave2":{
+        "Id": "ClintsCave2",
+        "PixelArea": {
+          "X": 146,
+          "Y": 8,
+          "Width": 20,
+          "Height": 10
+        },
+        "ScrollText": "{{i18n: blue704.JojaCC_Deeps}}",
+        "Textures": [],
+        "Tooltips": [
+          {
+            "Id": "ClintsCave2",
+            "KnownCondition": null,
+            "PixelArea": {
+              "X": 0,
+              "Y": 0,
+              "Width": 0,
+              "Height": 0
+            },
+            "Text": "{{i18n: blue704.JojaCC_Deeps}}",
+            "LeftNeighbor": "BusStop/Default",
+            "RightNeighbor": "Town/JojaMart",
+            "UpNeighbor": "Mountain/Carpenter",
+            "DownNeighbor": "Town/PierreStore"
+          }
+        ],
+         "WorldPositions": [
+            {
+              "Id": "ClintsCave2",
+              "LocationName": "ClintsCave2",
+              "TileArea": { 
+                "X": 1,
+                "Y": 1,
+                "Width": 46,
+                "Height": 57 
+              },
+              "MapPixelArea": {
+                "X": 146,
+                "Y": 26,
+                "Width": 20,
+                "Height": 8
               }
             }
           ]
