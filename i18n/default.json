@@ -78,6 +78,11 @@
     "blue704.JojaCC_TreasureHuntTagDescription": "Turn in to the Treasure Hunt Bundle to claim your reward!",
     "blue704.JojaCC_GoldenTreasureHuntTag": "Golden Treasure Hunt Tag",
     "blue704.JojaCC_GoldenTreasureHuntTagDescription": "Turn in to the Treasure Hunt Bundle to claim your final reward!",
+    //Machines
+    "blue704.JojaCC_Stump": "Resource Stump",
+    "blue704.JojaCC_StumpDescription": "A stump that grows a neverending source of foraging resources!",
+    "blue704.JojaCC_Rock": "Resource Rock",
+    "blue704.JojaCC_RockDescription": "A rock that you can mine for a neverending source of minerals!",
     //Shops
     "blue704.JojaCC_LeahsShopClosed":"I'll be back on Tuesday, Wednesday, Thursday, and Sunday from noon to 7pm.",
     "blue704.JojaCC_LeahsShopOpen": "Hi there! Looking for some foraging supplies?",

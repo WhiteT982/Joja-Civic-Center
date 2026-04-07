@@ -7,8 +7,8 @@
       "Entries": {
         "blue704.JojaCC_Resources_Stump": {
           "Name": "blue704.JojaCC_Resources_Stump",
-          "DisplayName": "Resource Stump",
-          "Description": "A stump that grows a neverending source of foraging resources!",
+          "DisplayName": "{{i18n:blue704.JojaCC_Stump}}",
+          "Description": "{{i18n:blue704.JojaCC_StumpDescription}}",
           "Texture": "{{InternalAssetKey: assets/stump.png}}",
           "SpriteIndex": 0
         }
@@ -21,8 +21,8 @@
       "Entries": {
         "blue704.JojaCC_Resources_Rock": {
           "Name": "blue704.JojaCC_Resources_Rock",
-          "DisplayName": "Resource Rock",
-          "Description": "A rock that you can mine for a neverending source of minerals!",
+          "DisplayName": "{{blue704.JojaCC_Rock}}",
+              "Description": "{{blue704.JojaCC_RockDescription}}",
           "Texture": "{{InternalAssetKey: assets/rock.png}}",
           "SpriteIndex": 0
         }
