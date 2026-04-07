@@ -66,7 +66,7 @@
       "Entries": {
         "Fish Farm Area Event Mail": {
           "Id": "FishFarmAreaEventMail",
-          "Trigger": "DayStarted",
+          "Trigger": "DayEnding",
           "Condition": "PLAYER_HAS_SEEN_EVENT current FisherBundleComplete, DAY_OF_WEEK Saturday",
           "Actions": [
             "AddMail current FishFarmAreaEventMail tomorrow"
