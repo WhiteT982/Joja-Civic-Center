@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.10" tiledversion="1.12.1" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="135" height="41" tilewidth="16" tileheight="16" infinite="0" nextlayerid="19" nextobjectid="99">
  <properties>
-  <property name="BrookSounds" value="85 7 4"/>
+  <property name="BrookSounds" value="65 9 4"/>
   <property name="BuildConditions" value="PLAYER_HAS_MAIL current JojaCC_ForagerBundleBookComplete received"/>
   <property name="CanBuildHere" value="T"/>
   <property name="EnableGrassSpread" value="T"/>
