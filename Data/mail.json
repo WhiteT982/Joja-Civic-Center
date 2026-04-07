@@ -15,6 +15,14 @@
       "Entries": {
         "FarmerBundleBookCaskMail": "{{i18n:blue704.JojaCC_FarmerBundleBookCaskMail.text}} %item id (BC)163 5%%[letterbg 0][#]{{i18n:blue704.JojaCC_FarmerBundleBookCaskMail.title}}"
       }
+    },
+    {
+         "Action": "EditData",
+      "LogName": "Bulletin Board Complete Mail Data",
+      "Target": "Data/Mail",
+      "Entries": {
+        "BulletinBoardComplete": "{{i18n:blue704.JojaCC_BulletinBoardComplete.text}}[letterbg 4][#]{{i18n:blue704.JojaCC_BulletinBoardComplete.title}}"
+      }
     }
 ]
 }
