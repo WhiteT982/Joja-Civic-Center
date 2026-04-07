@@ -916,7 +916,8 @@
   "AddFriendshipPoints Sandy 250",
   "AddFriendshipPoints Willy 500",
   "AddFriendshipPoints Wizard 500",
-  "AddFriendshipPoints Vincent 500"
+  "AddFriendshipPoints Vincent 500",
+  "AddMail current BulletinBoardComplete tomorrow"
 ]
 
 				},
