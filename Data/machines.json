@@ -21,8 +21,8 @@
       "Entries": {
         "blue704.JojaCC_Resources_Rock": {
           "Name": "blue704.JojaCC_Resources_Rock",
-          "DisplayName": "{{blue704.JojaCC_Rock}}",
-              "Description": "{{blue704.JojaCC_RockDescription}}",
+          "DisplayName": "{{i18n:blue704.JojaCC_Rock}}",
+              "Description": "{{i18n:blue704.JojaCC_RockDescription}}",
           "Texture": "{{InternalAssetKey: assets/rock.png}}",
           "SpriteIndex": 0
         }
