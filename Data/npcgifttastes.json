@@ -1,0 +1,16 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
+{
+                    "Operation": "Append",
+                    "Target": ["Entries", "Universal_Dislike"],
+                    "Value": "blue704.JojaCC_BadSoup", 
+                    "Delimiter": " "
+                }
+            ]
+        }
+    ]
+}
