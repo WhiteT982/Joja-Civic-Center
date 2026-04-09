@@ -1,0 +1,84 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "LogName": "JojaCC Strings Data",
+      "Target": "Strings/schedules/Gus",
+      "Entries": {
+        "Gus_Soup_Duty": "{{i18n:blue.704.JojaCC_GusSoupDuty}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "LogName": "JojaCC Strings Data",
+      "Target": "Strings/schedules/Marnie",
+      "Entries": {
+        "Marnie_Soup_Duty": "{{i18n:blue.704.JojaCC_MarnieSoupDuty}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "LogName": "JojaCC Strings Data",
+      "Target": "Strings/schedules/Evelyn",
+      "Entries": {
+        "EvelynsKitchen": "{{i18n:blue.704.JojaCC_EvelynsKitchen}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "LogName": "JojaCC Strings Data",
+      "Target": "Strings/schedules/Leah",
+      "Entries": {
+        "LeahsForaging": "{{i18n:blue.704.JojaCC_LeahsForaging}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "LogName": "JojaCC Strings Data",
+      "Target": "Strings/schedules/Willy",
+      "Entries": {
+        "WillysOddities": "{{i18n:blue.704.JojaCC_WillysOddities}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "LogName": "JojaCC Strings Data",
+      "Target": "Strings/schedules/Clint",
+      "Entries": {
+        "ClintBoilerRoom": "{{i18n:blue.704.JojaCC_ClintBoilerRoom}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "LogName": "JojaCC Strings Data",
+      "Target": "Strings/schedules/Lewis",
+      "Entries": {
+        "LewisVaultComplete": "{{i18n:blue.704.JojaCC_LewisVaultComplete}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "LogName": "JojaCC Strings Data",
+      "Target": "Strings/schedules/Abigail",
+      "Entries": {
+        "AbigailFallPumpkins": "{{i18n:blue.704.JojaCC_AbigailFallPumpkins}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "LogName": "JojaCC Strings Data",
+      "Target": "Strings/schedules/Jas",
+      "Entries": {
+        "JasFallPumpkins": "{{i18n:blue.704.JojaCC_JasFallPumpkins}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "LogName": "JojaCC Strings Data",
+      "Target": "Strings/schedules/Vincent",
+      "Entries": {
+        "VincentFallPumpkins": "{{i18n:blue.704.JojaCC_VincentFallPumpkins}}"
+      }
+    }
+]
+}
