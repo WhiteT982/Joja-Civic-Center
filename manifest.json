@@ -4,7 +4,7 @@
   "Version": "1.0.0",
   "Description": "A Joja Civic Center styled after the Community Center.",
   "UniqueID": "blue704.JojaCC",
-  "UpdateKeys": [],
+  "UpdateKeys": ["Nexus:44722"],
   "Dependencies": [
 		{
       "UniqueID": "FlashShifter.StardewValleyExpandedCP", "IsRequired": false
