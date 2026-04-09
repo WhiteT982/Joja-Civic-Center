@@ -87,6 +87,37 @@
           ]
         }
           }
+          },
+          //Soup Shop Triggers
+          {
+            "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "SoupShopOpenTrigger": {
+          "Id": "SoupShopOpenTrigger",
+          "Trigger": "DayEnding",
+          "Condition": "DAY_OF_MONTH 11, SEASON summer",
+          "MarkActionApplied": false,
+          "Actions": [
+            "AddMail current SoupShopOpenMail received"
+          ]
           }
+        }
+          },
+          {
+            "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "SoupShopClosedTrigger": {
+          "Id": "SoupShopClosedTrigger",
+          "Trigger": "DayEnding",
+          "Condition": "DAY_OF_MONTH 28, SEASON summer",
+          "MarkActionApplied": false,
+          "Actions": [
+            "RemoveMail current SoupShopOpenMail all"
+          ]
+        }
+          }
+        }
           ]
           }
