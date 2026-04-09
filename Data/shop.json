@@ -378,6 +378,15 @@
 ],
           "Items": [
             {
+              "Price": 0,
+              "AvailableStock": 1,
+              "AvoidRepeat": false,
+              "IgnoreShopPriceModifiers": true,
+              "Id": "(O)223",
+              "ItemId": "(O)223",
+              "IsRecipe": false
+            },
+            {
               "RandomItemId": [ "(O)194", "(O)195", "(O)196","(O)197", "(O)198", "(O)199","(O)200", "(O)201", "(O)202","(O)203", "(O)204", "(O)205","(O)206", "(O)207", "(O)208","(O)209", "(O)210", "(O)211","(O)212", "(O)213", "(O)214","(O)215", "(O)216", "(O)217", "(O)218", "(O)219", "(O)220", "(O)221", "(O)222", "(O)223", "(O)224", "(O)225", "(O)226", "(O)227", "(O)228", "(O)229", "(O)230", "(O)231", "(O)232", "(O)233", "(O)234", "(O)235", "(O)236", "(O)237", "(O)238", "(O)239", "(O)240", "(O)241", "(O)242", "(O)243", "(O)244", "(O)253", "(O)265", "(O)456", "(O)457", "(O)604", "(O)605", "(O)606", "(O)607", "(O)608", "(O)609", "(O)610", "(O)611", "(O)612", "(O)618", "(O)648", "(O)649", "(O)651", "(O)727", "(O)728", "(O)729", "(O)730", "(O)731", "(O)732", "(O)733", "(O)903", "(O)904", "(O)905", "(O)906", "(O)907", "(O)921", "(O)MossSoup" ],
               "IgnoreShopPriceModifiers": false,
               "AvoidRepeat": true,
@@ -432,15 +441,6 @@
               "IgnoreShopPriceModifiers": false,
               "Id": "(BC)216",
               "ItemId": "(BC)216",
-              "IsRecipe": false
-            },
-              {
-              "Price": 1,
-              "AvailableStock": 1,
-              "AvoidRepeat": false,
-              "IgnoreShopPriceModifiers": true,
-              "Id": "(O)223",
-              "ItemId": "(O)223",
               "IsRecipe": false
             },
             {
@@ -602,6 +602,35 @@
           ]
             }
             }
+          },
+          //Soup Shop
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "Entries": {
+        "SoupShop": {
+          "Currency": 0,
+          "PriceModifierMode": "Stack",
+          "Items": [
+            {
+              "Price": 0,
+              "AvailableStock": 1,
+              "AvoidRepeat": false,
+              "Condition": "PLAYER_HAS_ACHIEVEMENT current 38",
+              "Id": "(O)blue704.JojaCC_GoodSoup",
+              "ItemId": "(O)blue704.JojaCC_GoodSoup"
+            },
+            {
+              "Price": 0,
+              "AvailableStock": 1,
+              "AvoidRepeat": false,
+              "Condition": "!PLAYER_HAS_ACHIEVEMENT current 38",
+              "Id": "(O)blue704.JojaCC_BadSoup",
+              "ItemId": "(O)blue704.JojaCC_BadSoup"
+            }
+          ]
           }
+      }
+      }
   ]
 }

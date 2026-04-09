@@ -1,0 +1,66 @@
+{
+
+    "Changes": [
+        //Add Bundle Book objects
+		{
+  "Action": "EditData",
+  "Target": "Data/Objects",
+  "Entries": {
+	"blue704.JojaCC_GoodSoup": {
+		"Name": "(O)blue704.JojaCC_GoodSoup",
+		"DisplayName": "{{i18n:blue704.JojaCC_GoodSoup.Name}}",
+		"Description": "{{i18n:blue704.JojaCC_GoodSoup.Description}}",
+		"Type": "Basic",
+        "Category": -26,
+		"ExcludeFromFishingCollection": true,
+		"ExcludeFromShippingCollection": true,
+		"ExcludeFromRandomSale": true,
+		"Texture": "{{InternalAssetKey: assets/Objects/soup.png}}",
+    "IsDrink": true,
+		"SpriteIndex": 0,
+        "Edibility": 150,
+        "Buffs": [
+      {
+        "Id": "Food",
+        "IconSpriteIndex": 0,
+        "Duration": 1200,
+        "IsDebuff": false,
+        "GlowColor": null,
+        "CustomAttributes": {
+          "LuckLevel": 1.0,
+          "Speed": 1.0
+        }
+    }
+    ]
+		},
+        "blue704.JojaCC_BadSoup": {
+		"Name": "(O)blue704.JojaCC_BadSoup",
+		"DisplayName": "{{i18n:blue704.JojaCC_BadSoup.Name}}",
+		"Description": "{{i18n:blue704.JojaCC_BadSoup.Description}}",
+		"Type": "Basic",
+        "Category": -26,
+		"ExcludeFromFishingCollection": true,
+		"ExcludeFromShippingCollection": true,
+		"ExcludeFromRandomSale": true,
+		"Texture": "{{InternalAssetKey: assets/Objects/soup.png}}",
+    "IsDrink": true,
+		"SpriteIndex": 1,
+        "Edibility": -50,
+        "Buffs": [
+      {
+        "Id": "Food",
+        "IconSpriteIndex": 0,
+        "Duration": 600,
+        "IsDebuff": false,
+        "GlowColor": null,
+        "CustomAttributes": {
+          "LuckLevel": -1.0,
+          "Speed": -1.0
+        }
+    }
+    ]
+		}
+	}
+}
+    ]
+}
