@@ -9,10 +9,10 @@
             },
       "Entries": {
         "rain": "GOTO Thu",
-        "Tues": "1200 JojaCC 16 21 3 \"Strings\\schedules\\Leah:LeahsForaging\"/1900 LeahHouse 8 5 0/2200 LeahHouse 13 10 2/2400 LeahHouse 2 4 3 leah_sleep",
-        "Wed": "1200 JojaCC 16 21 3 \"Strings\\schedules\\Leah:LeahsForaging\"/1900 LeahHouse 8 5 0/2200 LeahHouse 13 10 2/2400 LeahHouse 2 4 3 leah_sleep",
-        "Thu": "1200 JojaCC 16 21 3 \"Strings\\schedules\\Leah:LeahsForaging\"/1900 Saloon 2 20 1/2340 LeahHouse 2 4 3 leah_sleep",
-        "Sun": "1200 JojaCC 16 21 3 \"Strings\\schedules\\Leah:LeahsForaging\"/1900 LeahHouse 8 5 0/2200 LeahHouse 13 10 2/2400 LeahHouse 2 4 3 leah_sleep"
+        "Tues": "900 LeahHouse 3 7 3 leah_sculpt/1200 JojaCC 16 21 3 \"Strings\\schedules\\Leah:LeahsForaging\"/1900 LeahHouse 8 5 0/2200 LeahHouse 13 10 2/2400 LeahHouse 2 4 3 leah_sleep",
+        "Wed": "900 LeahHouse 3 7 3 leah_sculpt/1200 JojaCC 16 21 3 \"Strings\\schedules\\Leah:LeahsForaging\"/1900 LeahHouse 8 5 0/2200 LeahHouse 13 10 2/2400 LeahHouse 2 4 3 leah_sleep",
+        "Thu": "900 LeahHouse 3 7 3 leah_sculpt/1200 JojaCC 16 21 3 \"Strings\\schedules\\Leah:LeahsForaging\"/1900 Saloon 2 20 1/2340 LeahHouse 2 4 3 leah_sleep",
+        "Sun": "900 LeahHouse 3 7 3 leah_sculpt/1200 JojaCC 16 21 3 \"Strings\\schedules\\Leah:LeahsForaging\"/1900 LeahHouse 8 5 0/2200 LeahHouse 13 10 2/2400 LeahHouse 2 4 3 leah_sleep"
     }
 },
 //Evelyn Schedule Edit
