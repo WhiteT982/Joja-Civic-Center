@@ -1328,13 +1328,13 @@
       "Target": "Maps/JojaCC",
       "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
       "FromArea": {
-        "X": 33,
+        "X": 32,
         "Y": 11,
         "Width": 3,
         "Height": 5
       },
       "ToArea": {
-        "X": 33,
+        "X": 32,
         "Y": 11,
         "Width": 3,
         "Height": 5
@@ -1550,15 +1550,36 @@
       "FromFile": "assets/Maps/z_TownJojaCC{{season}}.tmx",
       "FromArea": {
         "X": 33,
-        "Y": 24,
-        "Width": 13,
-        "Height": 13
+        "Y": 23,
+        "Width": 17,
+        "Height": 14
       },
       "ToArea": {
         "X": 33,
-        "Y": 24,
-        "Width": 13,
-        "Height": 13
+        "Y": 23,
+        "Width": 17,
+        "Height": 14
+      }
+    },
+    {
+      "When": {
+        "HasFlag": "jojaMember",
+        "HasMod": "FlashShifter.StardewValleyExpandedCP"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/Town",
+      "FromFile": "assets/Maps/z_TownSVEJojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 33,
+        "Y": 22,
+        "Width": 17,
+        "Height": 15
+      },
+      "ToArea": {
+        "X": 33,
+        "Y": 22,
+        "Width": 17,
+        "Height": 15
       }
     },
       {
@@ -1567,6 +1588,11 @@
             "MapTiles": [
                 {
                     "Position": { "X": 33, "Y": 31 },
+                    "Layer": "Paths",
+                    "Remove": true
+                },
+                {
+                    "Position": { "X": 34, "Y": 31 },
                     "Layer": "Paths",
                     "Remove": true
                 }
