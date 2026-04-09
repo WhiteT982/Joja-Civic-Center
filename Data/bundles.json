@@ -154,10 +154,11 @@
 					"BookId": "blue704.JojaCC_ForagerBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 6,
+					"BundleSlots": 7,
                     "Price": {
-						"(O)92": 20,
-						"(O)399": 1,
+						"(O)16": 1,
+						"(O)396": 1,
+						"(O)406": 1,
 						"(O)88": 1,
 						"(O)90": 1,
 						"(O)829": 1,
@@ -358,9 +359,9 @@
 						"(O)419": 50,
 						"(O)Adam.Joja_Vinegar": 50,
 						"(O)245": 50,
-						"(O)176": 6,
-						"(O)180": 6,
-						"(O)184": 3,
+						"(O)174": 6,
+						"(O)182": 6,
+						"(O)186": 3,
 						"(O)423": 50,
 						"(O)216": 5
 					},
@@ -1209,7 +1210,7 @@
 						"(O)166": 1,
 						"(O)527": 1,
 						"(O)164": 1,
-						"(O)CalicoEgg": 1,
+						"(O)848": 1,
 						"(O)226": 1
 					},
 					"BundleReward": {
