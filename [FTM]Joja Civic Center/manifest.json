@@ -1,0 +1,19 @@
+{
+  "Name": "Joja Civic Center Spawns",
+  "Author": "blue704",
+  "Version": "1.0.0",
+  "Description": "Mod spawning the monsters, nodes and additional forages.",
+  "UniqueID": "blue704.JojaCC.FTM",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "Esca.FarmTypeManager",
+    "MinimumVersion": "1.26.1"
+  },
+	"Dependencies": [
+   {
+      "UniqueID": "blue704.JojaCC",
+      "IsRequired": true
+   },
+   ]
+}

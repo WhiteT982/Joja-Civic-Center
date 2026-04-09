@@ -1,0 +1,1019 @@
+{
+  "ForageSpawnEnabled": true,
+  "LargeObjectSpawnEnabled": true,
+  "OreSpawnEnabled": true,
+  "MonsterSpawnEnabled": true,
+  "Forage_Spawn_Settings": {
+    "Areas": [
+      {
+        "SpringItemIndex": [
+          {
+            "category": "Breakable",
+            "contents": [
+              {
+                "category": "item",
+                "name": "wood",
+                "stack": 5,
+                "PercentChanceToSpawn": 15
+              },
+              {
+                "category": "item",
+                "name": "mixed seeds",
+                "stack": 3,
+                "PercentChanceToSpawn": 14
+              },
+              {
+                "category": "item",
+                "name": "coal",
+                "stack": 6,
+                "PercentChanceToSpawn": 14
+              },
+              {
+                "category": "item",
+                "name": "hardwood",
+                "stack": 5,
+                "PercentChanceToSpawn": 12
+              },
+              {
+                "category": "item",
+                "name": "copper ore",
+                "stack": 8,
+                "PercentChanceToSpawn": 12
+              },
+              {
+                "category": "item",
+                "name": "iron ore",
+                "stack": 3,
+                "PercentChanceToSpawn": 12
+              },
+              {
+                "category": "item",
+                "name": "gold ore",
+                "stack": 2,
+                "PercentChanceToSpawn": 14
+              },
+              {
+                "category": "item",
+                "name": "iridium ore",
+                "stack": 1,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "category": "item",
+                "name": "geode",
+                "stack": 1,
+                "PercentChanceToSpawn": 12
+              },
+              {
+                "category": "item",
+                "name": "frozen geode",
+                "stack": 1,
+                "PercentChanceToSpawn": 12
+              },
+              {
+                "category": "item",
+                "name": "magma geode",
+                "stack": 1,
+                "PercentChanceToSpawn": 12
+              },
+              {
+                "category": "item",
+                "name": "Warp Totem: Farm",
+                "stack": 1,
+                "PercentChanceToSpawn": 11
+              }
+            ]
+          }
+        ],
+        "SummerItemIndex": [
+          {
+            "category": "Breakable",
+            "contents": [
+              {
+                "category": "item",
+                "name": "wood",
+                "stack": 5,
+                "PercentChanceToSpawn": 15
+              },
+              {
+                "category": "item",
+                "name": "mixed seeds",
+                "stack": 3,
+                "PercentChanceToSpawn": 14
+              },
+              {
+                "category": "item",
+                "name": "coal",
+                "stack": 6,
+                "PercentChanceToSpawn": 14
+              },
+              {
+                "category": "item",
+                "name": "hardwood",
+                "stack": 5,
+                "PercentChanceToSpawn": 12
+              },
+              {
+                "category": "item",
+                "name": "copper ore",
+                "stack": 8,
+                "PercentChanceToSpawn": 12
+              },
+              {
+                "category": "item",
+                "name": "iron ore",
+                "stack": 3,
+                "PercentChanceToSpawn": 12
+              },
+              {
+                "category": "item",
+                "name": "gold ore",
+                "stack": 2,
+                "PercentChanceToSpawn": 14
+              },
+              {
+                "category": "item",
+                "name": "iridium ore",
+                "stack": 1,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "category": "item",
+                "name": "geode",
+                "stack": 1,
+                "PercentChanceToSpawn": 12
+              },
+              {
+                "category": "item",
+                "name": "frozen geode",
+                "stack": 1,
+                "PercentChanceToSpawn": 12
+              },
+              {
+                "category": "item",
+                "name": "magma geode",
+                "stack": 1,
+                "PercentChanceToSpawn": 12
+              },
+              {
+                "category": "item",
+                "name": "Warp Totem: Farm",
+                "stack": 1,
+                "PercentChanceToSpawn": 11
+              }
+            ]
+          }
+        ],
+        "FallItemIndex": [
+          {
+            "category": "Breakable",
+            "contents": [
+              {
+                "category": "item",
+                "name": "wood",
+                "stack": 5,
+                "PercentChanceToSpawn": 15
+              },
+              {
+                "category": "item",
+                "name": "mixed seeds",
+                "stack": 3,
+                "PercentChanceToSpawn": 14
+              },
+              {
+                "category": "item",
+                "name": "coal",
+                "stack": 6,
+                "PercentChanceToSpawn": 14
+              },
+              {
+                "category": "item",
+                "name": "hardwood",
+                "stack": 5,
+                "PercentChanceToSpawn": 12
+              },
+              {
+                "category": "item",
+                "name": "copper ore",
+                "stack": 8,
+                "PercentChanceToSpawn": 12
+              },
+              {
+                "category": "item",
+                "name": "iron ore",
+                "stack": 3,
+                "PercentChanceToSpawn": 12
+              },
+              {
+                "category": "item",
+                "name": "gold ore",
+                "stack": 2,
+                "PercentChanceToSpawn": 14
+              },
+              {
+                "category": "item",
+                "name": "iridium ore",
+                "stack": 1,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "category": "item",
+                "name": "geode",
+                "stack": 1,
+                "PercentChanceToSpawn": 12
+              },
+              {
+                "category": "item",
+                "name": "frozen geode",
+                "stack": 1,
+                "PercentChanceToSpawn": 12
+              },
+              {
+                "category": "item",
+                "name": "magma geode",
+                "stack": 1,
+                "PercentChanceToSpawn": 12
+              },
+              {
+                "category": "item",
+                "name": "Warp Totem: Farm",
+                "stack": 1,
+                "PercentChanceToSpawn": 11
+              }
+            ]
+          }
+        ],
+        "WinterItemIndex": [
+          {
+            "category": "Breakable",
+            "contents": [
+              {
+                "category": "item",
+                "name": "wood",
+                "stack": 5,
+                "PercentChanceToSpawn": 15
+              },
+              {
+                "category": "item",
+                "name": "mixed seeds",
+                "stack": 3,
+                "PercentChanceToSpawn": 14
+              },
+              {
+                "category": "item",
+                "name": "coal",
+                "stack": 6,
+                "PercentChanceToSpawn": 14
+              },
+              {
+                "category": "item",
+                "name": "hardwood",
+                "stack": 5,
+                "PercentChanceToSpawn": 12
+              },
+              {
+                "category": "item",
+                "name": "copper ore",
+                "stack": 8,
+                "PercentChanceToSpawn": 12
+              },
+              {
+                "category": "item",
+                "name": "iron ore",
+                "stack": 3,
+                "PercentChanceToSpawn": 12
+              },
+              {
+                "category": "item",
+                "name": "gold ore",
+                "stack": 2,
+                "PercentChanceToSpawn": 14
+              },
+              {
+                "category": "item",
+                "name": "iridium ore",
+                "stack": 1,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "category": "item",
+                "name": "geode",
+                "stack": 1,
+                "PercentChanceToSpawn": 12
+              },
+              {
+                "category": "item",
+                "name": "frozen geode",
+                "stack": 1,
+                "PercentChanceToSpawn": 12
+              },
+              {
+                "category": "item",
+                "name": "magma geode",
+                "stack": 1,
+                "PercentChanceToSpawn": 12
+              },
+              {
+                "category": "item",
+                "name": "Warp Totem: Farm",
+                "stack": 1,
+                "PercentChanceToSpawn": 11
+              }
+            ]
+          }
+        ],
+        "UniqueAreaID": "blue704.JojaCC_ClintsCave2Forage",
+        "MapName": "ClintsCave2",
+        "MinimumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 7,
+        "IncludeTerrainTypes": [
+          "Wood"
+        ],
+        "ExcludeTerrainTypes": [
+          "Stone",
+          "Dirt"
+        ],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": 10
+        },
+        "DaysUntilSpawnsExpire": null
+      }
+    ],
+    "PercentExtraSpawnsPerForagingLevel": 0,
+    "SpringItemIndex": [
+      16,
+      20,
+      22,
+      257
+    ],
+    "SummerItemIndex": [
+      396,
+      398,
+      402,
+      404
+    ],
+    "FallItemIndex": [
+      281,
+      404,
+      420,
+      422
+    ],
+    "WinterItemIndex": [],
+    "CustomTileIndex": []
+  },
+  "Large_Object_Spawn_Settings": {
+    "Areas": [
+      {
+        "ObjectTypes": [
+          "Boulder"
+        ],
+        "FindExistingObjectLocations": false,
+        "PercentExtraSpawnsPerSkillLevel": 0,
+        "RelatedSkill": "Mining",
+        "UniqueAreaID": "blue704.JojaCC_ClintsCaveLargeObjects",
+        "MapName": "ClintsCave",
+        "MinimumSpawnsPerDay": 0,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "Dirt:",
+          "Stone"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      }
+    ],
+    "CustomTileIndex": []
+  },
+  "Ore_Spawn_Settings": {
+    "Areas": [
+      {
+        "MiningLevelRequired": {
+          "Stone": 0,
+          "Geode": 0,
+          "FrozenGeode": 3,
+          "MagmaGeode": 5,
+          "OmniGeode": 0,
+          "Gem": 6,
+          "Copper": 0,
+          "Iron": 3,
+          "Gold": 5,
+          "Iridium": 6,
+          "Mystic": 10,
+          "Radioactive": 10,
+          "Diamond": 6,
+          "Ruby": 6,
+          "Jade": 6,
+          "Amethyst": 6,
+          "Topaz": 6,
+          "Emerald": 6,
+          "Aquamarine": 6,
+          "Clay": 0,
+          "CinderShard": 0
+        },
+        "StartingSpawnChance": {
+          "Stone": 50,
+          "Geode": 8,
+          "FrozenGeode": 4,
+          "MagmaGeode": 0,
+          "OmniGeode": 3,
+          "Gem": 5,
+          "Copper": 21,
+          "Iron": 15,
+          "Gold": 0,
+          "Iridium": 0,
+          "Mystic": 1,
+          "Radioactive": 0,
+          "Diamond": 3,
+          "Ruby": 5,
+          "Jade": 5,
+          "Amethyst": 5,
+          "Topaz": 5,
+          "Emerald": 5,
+          "Aquamarine": 5,
+          "Mussel": 0,
+          "Fossil": 0,
+          "Clay": 10,
+          "CinderShard": 0,
+          "Coal": 0
+        },
+        "LevelTenSpawnChance": {
+          "Stone": 30,
+          "Geode": 2,
+          "FrozenGeode": 2,
+          "MagmaGeode": 0,
+          "OmniGeode": 0,
+          "Gem": 5,
+          "Copper": 16,
+          "Iron": 13,
+          "Gold": 0,
+          "Iridium": 0,
+          "Mystic": 1,
+          "Radioactive": 0,
+          "Diamond": 8,
+          "Ruby": 5,
+          "Jade": 5,
+          "Amethyst": 5,
+          "Topaz": 5,
+          "Emerald": 5,
+          "Aquamarine": 5,
+          "Mussel": 0,
+          "Fossil": 0,
+          "Clay": 5,
+          "CinderShard": 0,
+          "Coal": 0
+        },
+        "UniqueAreaID": "blue704.JojaCC_ClintsCaveOre",
+        "MapName": "ClintsCave",
+        "MinimumSpawnsPerDay": 3,
+        "MaximumSpawnsPerDay": 5,
+        "IncludeTerrainTypes": [
+          "Stone",
+          "Dirt"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "42,4/57,16"
+        ],
+        "ExcludeCoordinates": [
+          "36,8/42,10"
+        ],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": 60
+        },
+        "DaysUntilSpawnsExpire": 7
+      },
+      {
+        "MiningLevelRequired": {
+          "Stone": 0,
+          "Geode": 0,
+          "FrozenGeode": 3,
+          "MagmaGeode": 5,
+          "OmniGeode": 0,
+          "Gem": 6,
+          "Copper": 0,
+          "Iron": 3,
+          "Gold": 5,
+          "Iridium": 6,
+          "Mystic": 10,
+          "Radioactive": 10,
+          "Diamond": 6,
+          "Ruby": 6,
+          "Jade": 6,
+          "Amethyst": 6,
+          "Topaz": 6,
+          "Emerald": 6,
+          "Aquamarine": 6,
+          "Clay": 0,
+          "CinderShard": 0
+        },
+        "StartingSpawnChance": {
+          "Stone": 50,
+          "Geode": 0,
+          "FrozenGeode": 0,
+          "MagmaGeode": 5,
+          "OmniGeode": 5,
+          "Gem": 8,
+          "Copper": 0,
+          "Iron": 0,
+          "Gold": 20,
+          "Iridium": 10,
+          "Mystic": 5,
+          "Radioactive": 1,
+          "Diamond": 5,
+          "Ruby": 7,
+          "Jade": 7,
+          "Amethyst": 7,
+          "Topaz": 7,
+          "Emerald": 7,
+          "Aquamarine": 7,
+          "Mussel": 0,
+          "Fossil": 0,
+          "Clay": 0,
+          "CinderShard": 0,
+          "Coal": 0
+        },
+        "LevelTenSpawnChance": {
+          "Stone": 30,
+          "Geode": 0,
+          "FrozenGeode": 0,
+          "MagmaGeode": 7,
+          "OmniGeode": 7,
+          "Gem": 10,
+          "Copper": 0,
+          "Iron": 0,
+          "Gold": 15,
+          "Iridium": 20,
+          "Mystic": 10,
+          "Radioactive": 5,
+          "Diamond": 10,
+          "Ruby": 7,
+          "Jade": 7,
+          "Amethyst": 7,
+          "Topaz": 7,
+          "Emerald": 7,
+          "Aquamarine": 7,
+          "Mussel": 0,
+          "Fossil": 0,
+          "Clay": 0,
+          "CinderShard": 0,
+          "Coal": 0
+        },
+        "UniqueAreaID": "blue704.JojaCC_ClintsCave2Ore",
+        "MapName": "ClintsCave2",
+        "MinimumSpawnsPerDay": 10,
+        "MaximumSpawnsPerDay": 30,
+        "IncludeTerrainTypes": [
+          "Stone",
+          "Dirt"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "0,0/49,59"
+        ],
+        "ExcludeCoordinates": [
+          "29,51/29,51"
+        ],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": 150
+        },
+        "DaysUntilSpawnsExpire": 7
+      }
+    ],
+    "PercentExtraSpawnsPerMiningLevel": 0,
+    "MiningLevelRequired": {
+      "Stone": 0,
+      "Geode": 0,
+      "FrozenGeode": 5,
+      "MagmaGeode": 8,
+      "OmniGeode": 0,
+      "Gem": 6,
+      "Copper": 0,
+      "Iron": 4,
+      "Gold": 7,
+      "Iridium": 9,
+      "Mystic": 10,
+      "Radioactive": 0,
+      "Diamond": 6,
+      "Ruby": 6,
+      "Jade": 6,
+      "Amethyst": 6,
+      "Topaz": 6,
+      "Emerald": 6,
+      "Aquamarine": 6,
+      "Mussel": 0,
+      "Fossil": 0,
+      "Clay": 0,
+      "CinderShard": 0,
+      "Coal": 0
+    },
+    "StartingSpawnChance": {
+      "Stone": 66,
+      "Geode": 8,
+      "FrozenGeode": 4,
+      "MagmaGeode": 2,
+      "OmniGeode": 0,
+      "Gem": 5,
+      "Copper": 21,
+      "Iron": 15,
+      "Gold": 10,
+      "Iridium": 1,
+      "Mystic": 1,
+      "Radioactive": 0,
+      "Diamond": 0,
+      "Ruby": 0,
+      "Jade": 0,
+      "Amethyst": 0,
+      "Topaz": 0,
+      "Emerald": 0,
+      "Aquamarine": 0,
+      "Mussel": 0,
+      "Fossil": 0,
+      "Clay": 0,
+      "CinderShard": 0,
+      "Coal": 0
+    },
+    "LevelTenSpawnChance": {
+      "Stone": 48,
+      "Geode": 2,
+      "FrozenGeode": 2,
+      "MagmaGeode": 2,
+      "OmniGeode": 0,
+      "Gem": 5,
+      "Copper": 16,
+      "Iron": 13,
+      "Gold": 10,
+      "Iridium": 1,
+      "Mystic": 1,
+      "Radioactive": 0,
+      "Diamond": 0,
+      "Ruby": 0,
+      "Jade": 0,
+      "Amethyst": 0,
+      "Topaz": 0,
+      "Emerald": 0,
+      "Aquamarine": 0,
+      "Mussel": 0,
+      "Fossil": 0,
+      "Clay": 0,
+      "CinderShard": 0,
+      "Coal": 0
+    },
+    "CustomTileIndex": []
+  },
+  "Monster_Spawn_Settings": {
+    "Areas": [
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "shadow brute",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 8
+            }
+          },
+          {
+            "MonsterName": "wilderness golem",
+            "Settings": {
+              "SpawnWeight": 4
+            }
+          },
+          {
+            "MonsterName": "purple slime",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 10,
+              "SpawnWeight": 2
+            }
+          },
+          {
+            "MonsterName": "red slime",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 8,
+              "MaximumSkillLevel": 9,
+              "SpawnWeight": 2
+            }
+          },
+          {
+            "MonsterName": "blue slime",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 4,
+              "MaximumSkillLevel": 7,
+              "SpawnWeight": 2
+            }
+          },
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MaximumSkillLevel": 3,
+              "SpawnWeight": 2
+            }
+          },
+          {
+            "MonsterName": "iridium bat",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 10,
+              "SpawnWeight": 4
+            }
+          },
+          {
+            "MonsterName": "serpent",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 10,
+              "SpawnWeight": 3
+            }
+          },
+          {
+            "MonsterName": "lava bat",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 8,
+              "SpawnWeight": 4
+            }
+          },
+          {
+            "MonsterName": "frost bat",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 5,
+              "SpawnWeight": 2
+            }
+          },
+          {
+            "MonsterName": "bat",
+            "Settings": {
+              "SpawnWeight": 2
+            }
+          }
+        ],
+        "UniqueAreaID": "blue704.JojaCC_ClintsCave2Monsters",
+        "MapName": "ClintsCave2",
+        "MinimumSpawnsPerDay": 20,
+        "MaximumSpawnsPerDay": 22,
+        "IncludeTerrainTypes": [
+          "Dirt",
+          "Diggable",
+          "Grass",
+          "Wood",
+          "Stone",
+          "Dirt"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "iridium bat",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 10,
+              "SpawnWeight": 4
+            }
+          },
+          {
+            "MonsterName": "serpent",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 10,
+              "SpawnWeight": 3
+            }
+          },
+          {
+            "MonsterName": "lava bat",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 8,
+              "SpawnWeight": 4
+            }
+          },
+          {
+            "MonsterName": "frost bat",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 5,
+              "SpawnWeight": 2
+            }
+          },
+          {
+            "MonsterName": "bat",
+            "Settings": {
+              "SpawnWeight": 2
+            }
+          },
+          {
+            "MonsterName": "shadow brute",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 8
+            }
+          },
+          {
+            "MonsterName": "wilderness golem",
+            "Settings": {
+              "SpawnWeight": 4
+            }
+          },
+          {
+            "MonsterName": "purple slime",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 10,
+              "SpawnWeight": 2
+            }
+          },
+          {
+            "MonsterName": "red slime",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 8,
+              "MaximumSkillLevel": 9,
+              "SpawnWeight": 2
+            }
+          },
+          {
+            "MonsterName": "blue slime",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MinimumSkillLevel": 4,
+              "MaximumSkillLevel": 7,
+              "SpawnWeight": 2
+            }
+          },
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "RelatedSkill": "Combat",
+              "MaximumSkillLevel": 3,
+              "SpawnWeight": 2
+            }
+          }
+        ],
+        "UniqueAreaID": "blue704.JojaCC_ClintsCaveMonsters",
+        "MapName": "ClintsCave",
+        "MinimumSpawnsPerDay": 5,
+        "MaximumSpawnsPerDay": 10,
+        "IncludeTerrainTypes": [
+          "Dirt",
+          "Diggable",
+          "Grass",
+          "Wood",
+          "Stone",
+          "Dirt"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": null
+      }
+    ],
+    "CustomTileIndex": []
+  },
+  "QuarryTileIndex": [
+    556,
+    558,
+    583,
+    606,
+    607,
+    608,
+    630,
+    635,
+    636,
+    680,
+    681,
+    685
+  ],
+  "File_Conditions": {
+    "FarmTypes": [],
+    "FarmerNames": [],
+    "SaveFileNames": [],
+    "OtherMods": {}
+  }
+}
