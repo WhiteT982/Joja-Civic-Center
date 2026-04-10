@@ -33,7 +33,7 @@
       "Action": "EditData",
       "Target": "Data/CraftingRecipes",
       "Entries": {
-        "blue704.JojaCC_Resources_Stump": "334 2 388 20 92 30/Home/Adams.Resources_Stump/true/Foraging 2/"
+        "blue704.JojaCC_Resources_Stump": "334 2 388 20 92 30/Home/blue704.JojaCC_Resources_Stump/true/"
       }
     },
     {
@@ -41,7 +41,7 @@
       "Action": "EditData",
       "Target": "Data/CraftingRecipes",
       "Entries": {
-        "blue704.JojaCC_Resources_Rock": "334 2 390 20 382 30/Home/Adams.Resources_Rock/true/Mining 2/"
+        "blue704.JojaCC_Resources_Rock": "334 2 390 20 382 30/Home/blue704.JojaCC_Resources_Rock/true/"
       }
     },
     {
