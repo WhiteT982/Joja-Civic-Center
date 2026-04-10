@@ -133,7 +133,7 @@
       "LogName": "Joja CC First Bundle Complete Event Data",
       "Target": "Data/Events/FarmHouse",
       "Entries": {
-        "FirstBundleComplete/GameStateQuery PLAYER_HAS_MAIL current FirstBundleComplete mailbox": "continue/-2000 -2000/Morris 13 21 2 farmer -100 -100 0/pause 500/message \"{{i18n:FirstBundleComplete.0}}\"/pause 500/changeLocation JojaCC/viewport 13 23 clamp true true/pause 500/skippable/emote Morris 32/pause 500/speak Morris \"{{i18n:FirstBundleComplete.1}}\"/pause 300/addObject (O)blue704.JojaCC_greenbundlebook 13 22 1/pause 500/speak Morris \"{{i18n:FirstBundleComplete.2}}\"/pause 300/move Morris 0 -2 0 true/fade/viewport 61 16 clamp true/warp Morris 61 17 true/faceDirection Morris 1 true/pause 300/speak Morris \"{{i18n:FirstBundleComplete.3}}\"/pause 500 addObject (O)blue704.JojaCC_brownbundlebook 62 17 1/pause 500/speak Morris \"{{i18n:FirstBundleComplete.4}}\"/pause 300/emote Morris 32/pause 500/move Morris 0 2 2 true/end"
+        "FirstBundleComplete/GameStateQuery PLAYER_HAS_MAIL current FirstBundleComplete mailbox": "continue/-2000 -2000/Morris 13 21 2 farmer -100 -100 0/pause 500/message \"{{i18n:FirstBundleComplete.0}}\"/pause 500/changeLocation JojaCC/viewport 13 23 clamp true true/pause 500/skippable/emote Morris 32/pause 500/speak Morris \"{{i18n:FirstBundleComplete.1}}\"/pause 500/speak Morris \"{{i18n:FirstBundleComplete.2}}\"/pause 300/move Morris 0 -2 0 true/fade/viewport 61 16 clamp true/warp Morris 61 17 true/faceDirection Morris 1 true/pause 300/speak Morris \"{{i18n:FirstBundleComplete.3}}\"/pause 500/speak Morris \"{{i18n:FirstBundleComplete.4}}\"/pause 300/emote Morris 32/pause 500/move Morris 0 2 2 true/end"
       }
     },
         {
@@ -141,7 +141,7 @@
       "LogName": "Joja CC Second Bundle Complete Event Data",
       "Target": "Data/Events/FarmHouse",
       "Entries": {
-        "SecondBundleComplete/GameStateQuery PLAYER_HAS_MAIL current SecondBundleComplete mailbox": "continue/-2000 -2000/Morris 46 13 0 farmer -100 -100 0/pause 500/message \"{{i18n:SecondBundleComplete.0}}\"/pause 500/changeLocation JojaCC/viewport 46 13 clamp true true/pause 500/skippable/emote Morris 32/pause 500/speak Morris \"{{i18n:SecondBundleComplete.1}}\"/pause 300/emote Morris 32/pause 300/speak Morris \"{{i18n:SecondBundleComplete.2}}\"/pause 300/speak Morris \"{{i18n:SecondBundleComplete.3}}\"/pause 500/move Morris 2 0 1 true/fade/viewport 54 5 clamp true/warp Morris 54 6 true/faceDirection Morris 1 true/pause 300/speak Morris \"{{i18n:SecondBundleComplete.4}}\"/pause 500 addObject (O)blue704.JojaCC_purplebundlebook 55 6 1/pause 500/speak Morris \"{{i18n:SecondBundleComplete.5}}\"/pause 500/move Morris -2 0 2 true/end"
+        "SecondBundleComplete/GameStateQuery PLAYER_HAS_MAIL current SecondBundleComplete mailbox": "continue/-2000 -2000/Morris 46 13 0 farmer -100 -100 0/pause 500/message \"{{i18n:SecondBundleComplete.0}}\"/pause 500/changeLocation JojaCC/viewport 46 13 clamp true true/pause 500/skippable/emote Morris 32/pause 500/speak Morris \"{{i18n:SecondBundleComplete.1}}\"/pause 300/emote Morris 32/pause 300/speak Morris \"{{i18n:SecondBundleComplete.2}}\"/pause 300/speak Morris \"{{i18n:SecondBundleComplete.3}}\"/pause 500/move Morris 2 0 1 true/fade/viewport 54 5 clamp true/warp Morris 54 6 true/faceDirection Morris 1 true/pause 300/speak Morris \"{{i18n:SecondBundleComplete.4}}\"/pause 500/speak Morris \"{{i18n:SecondBundleComplete.5}}\"/pause 500/move Morris -2 0 2 true/end"
       }
     }
     ]
