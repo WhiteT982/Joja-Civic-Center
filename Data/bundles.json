@@ -10,14 +10,12 @@
 					"Location": "JojaCC",
 					"BundleName": "{{i18n: blue704.JojaCC_ForagerBundleBook}}",
 					"BundleDescription": "{{i18n: blue704.JojaCC_ForagerBundleAllReward}}",
+					"ShopPosition": "13, 22",
 					"SpecialPlacementRequirements": [
   {
-    "Type": "GameStateQuery",
-    "Condition": "PLAYER_HAS_MAIL Any FirstBundleComplete mailbox"
+    "Type": "TriggerAction"
   }
 ],
-
-					"ShopPosition": "13, 22",
 					"ShopType": "CCBundle",
 					"ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
 					"ShopTextureSource": { "X": 48, "Y": 0, "Width": 16, "Height": 16 },
@@ -867,13 +865,12 @@
 					"Location": "JojaCC",
 					"BundleName": "{{i18n: blue704.JojaCC_BulletinBoardBundleBook}}",
 					"BundleDescription": "{{i18n: blue704.JojaCC_BulletinBoardBundleAllReward}}",
+					"ShopPosition": "46, 12",
 					"SpecialPlacementRequirements": [
   {
-    "Type": "GameStateQuery",
-    "Condition": "PLAYER_HAS_MAIL Any SecondBundleComplete mailbox"
+    "Type": "TriggerAction"
   }
 ],
-					"ShopPosition": "46, 12",
 					"ShopType": "CCBundle",
 					"ShopTexture": "none",
 					"ShopDrawDimensions": "64, 64",
@@ -1077,13 +1074,12 @@
 					"Location": "JojaCC",
 					"BundleName": "{{i18n: blue704.JojaCC_BoilerRoomBundleBook}}",
 					"BundleDescription": "{{i18n: blue704.JojaCC_BoilerRoomBundleAllReward}}",
+					"ShopPosition": "62, 17",
 					"SpecialPlacementRequirements": [
   {
-    "Type": "GameStateQuery",
-    "Condition": "PLAYER_HAS_MAIL Any FirstBundleComplete mailbox"
+    "Type": "TriggerAction"
   }
 ],
-					"ShopPosition": "62, 17",
 					"ShopType": "CCBundle",
 					"ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
 					"ShopTextureSource": { "X": 32, "Y": 0, "Width": 16, "Height": 16 },
@@ -1250,13 +1246,12 @@
           "Location": "JojaCC",
           "BundleName": "{{i18n: blue704.JojaCC_VaultBundleBook}}",
           "BundleDescription": "{{i18n: blue704.JojaCC_VaultBundleAllReward}}",
+          "ShopPosition": "55, 6",
 		  "SpecialPlacementRequirements": [
   {
-    "Type": "GameStateQuery",
-    "Condition": "PLAYER_HAS_MAIL Any SecondBundleComplete mailbox"
+    "Type": "TriggerAction"
   }
 ],
-          "ShopPosition": "55, 6",
           "ShopType": "CCBundle",
           "ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
           "ShopTextureSource": { "X": 16, "Y": 0, "Width": 16, "Height": 16 },
