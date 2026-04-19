@@ -75,7 +75,7 @@
 						"(O)82": 1
 					},
 					"BundleReward": {
-						"(O)848": 100
+						"(O)848": 50
 					},
 					"BundleCompletedActions": [
   "AddMail current SecondBundleComplete tomorrow"
@@ -1263,7 +1263,7 @@
           "ShopCompletedAnimation": "0",
           "IsBook": true,
 		  "BundleReward": {
-            "(O)886": 50
+            "(O)886": 25
           },
           "BundleCompletedActions": [
             "AddMail current JojaCC_VaultComplete received"
@@ -1297,16 +1297,15 @@
           "DrawQuestionMark": false,
           "BundleSlots": 1,
           "Price": {
-            "money": 1000
+            "money": 2500
           },
           "BundleReward": {
             "(BC)165": 1,
-            "(BC)272": 1,
             "(O)107": 1,
-            "(O)178": 500,
-            "(O)621": 5,
-            "(O)645": 5,
-            "(O)928": 1
+            "(O)178": 50,
+            "(O)621": 2,
+            "(O)928": 1,
+			"(O)369": 25
           },
           "RandomRewardEntries": 1
         },
@@ -1338,14 +1337,14 @@
           "DrawQuestionMark": false,
           "BundleSlots": 1,
           "Price": {
-            "money": 1000
+            "money": 2500
           },
           "BundleReward": {
             "(0)Book_Void": 1,
             "(O)PurpleBook": 1,
             "(O)SkillBook_2": 1,
             "(O)SkillBook_3": 1,
-            "(O)388": 500,
+            "(O)388": 50,
             "(O)SkillBook_4": 1,
             "(O)Book_Speed2": 1
           },
@@ -1381,16 +1380,16 @@
           "DrawQuestionMark": false,
           "BundleSlots": 1,
           "Price": {
-            "money": 1000
+            "money": 2500
           },
           "BundleReward": {
             "(BC)117": 1,
-            "(BC)Adam.Joja_Keg": 5,
-            "(BC)Adam.Joja_HoneyMaker": 5,
-            "(BC)Adam.Joja_PreservesJar": 5,
-            "(BC)Adam.Joja_FishSmoker": 5,
-            "(BC)Adam.Joja_Dehydrator": 5,
-            "(O)390": 500
+            "(BC)Adam.Joja_Keg": 1,
+            "(BC)Adam.Joja_HoneyMaker": 1,
+            "(BC)Adam.Joja_PreservesJar": 1,
+            "(BC)Adam.Joja_FishSmoker": 1,
+            "(BC)Adam.Joja_Dehydrator": 1,
+            "(O)390": 50
           },
           "RandomRewardEntries": 1
         },
