@@ -508,6 +508,7 @@
             },
             "CinderShards": {
               "AvailableStock": -1,
+              "Price": 150,
               "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": false,
               "Id": "(O)848",
@@ -522,6 +523,7 @@
             },
             "CherryBombs": {
               "AvoidRepeat": false,
+              "Price": 450,
               "IgnoreShopPriceModifiers": false,
               "Id": "(O)286",
               "ItemId": "(O)286",
@@ -529,6 +531,7 @@
             },
               "Bombs": {
               "AvoidRepeat": false,
+              "Price": 1000,
               "IgnoreShopPriceModifiers": false,
               "Id": "(O)287",
               "ItemId": "(O)287",
@@ -536,6 +539,7 @@
             },
               "MegaBombs": {
               "AvoidRepeat": false,
+              "Price": 1500,
               "IgnoreShopPriceModifiers": false,
               "Id": "(O)288",
               "ItemId": "(O)288",
