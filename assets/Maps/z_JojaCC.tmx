@@ -522,7 +522,7 @@
   </object>
   <object id="13" name="TileData" x="496" y="144" width="16" height="16">
    <properties>
-    <property name="Action" value="Dialogue Clue 1: Where I like to build castles. Reward: A big box that Mom lets us play in. -Vincent#Clue 2: Where a Spring treat that I won't eat grows. They're too spicy! Reward: My favorite hat. -Jas#Clue 3: I hid it in David's room. Do you know him? I love watching him run in circles! Reward: A cool rock. -Vincent#Clue 4: I put the next one with someone who is the same size as us. But be careful entering their house! It might be dangerous. Reward: A pretty ring I found. -Jas#Clue 5: My bear buddies are hiding this one. Don't worry. I gave them some maple syurp so we're friends. Reward: Some cool statues Clint gave us. -Vincent#Clue 6: Ms. Penny loves to read but where does she go when the library doesn't have any new books? Reward: A weird machine we found in the Museum. -Jas"/>
+    <property name="Action" value="Message &quot;TreasureHuntSign&quot;"/>
    </properties>
   </object>
   <object id="15" name="TileData" x="256" y="96" width="16" height="16">

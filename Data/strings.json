@@ -79,6 +79,14 @@
       "Entries": {
         "VincentFallPumpkins": "{{i18n:blue.704.JojaCC_VincentFallPumpkins}}"
       }
+    },
+    {
+      "Action": "EditData",
+      "LogName": "JojaCC Strings Data",
+      "Target": "Strings/StringsFromMaps",
+      "Entries": {
+        "TreasureHuntSign": "{{i18n:blue704.JojaCC_TreasureHuntSign}}"
+      }
     }
 ]
 }
