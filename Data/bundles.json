@@ -774,7 +774,7 @@
 		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle03}}",
 		  "BundleIcon": "Treasure_Hunter",
 		  "BundleSlots": 1,
-          "ShopPosition": "8, 4",
+          "ShopPosition": "7, 4",
 		  "SpecialPlacementRequirements":  [
   {
      "Type": "BundleCompletion",
