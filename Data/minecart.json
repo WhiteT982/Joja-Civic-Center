@@ -8,7 +8,7 @@
                 "ClintsCave": {
                     "Id": "ClintsCave",
                     "DisplayName": "{{i18n:blue704.JojaCC_ClintsCave}}",
-                    "Condition": "PLAYER_HAS_SEEN_EVENT current BoilerBundleAreaComplete",
+                    "Condition": "PLAYER_HAS_SEEN_EVENT any BoilerBundleAreaComplete",
                     "TargetLocation": "ClintsCave",
                     "TargetTile": { "X": 32, "Y": 9 },
                     "TargetDirection": "down"
@@ -23,7 +23,7 @@
                 "WillysFishFarm": {
                     "Id": "WillysFishFarm",
                     "DisplayName": "{{i18n:blue704.JojaCC_WillysFishFarm}}",
-                    "Condition": "PLAYER_HAS_SEEN_EVENT current FisherBundleAreaComplete",
+                    "Condition": "PLAYER_HAS_SEEN_EVENT any FisherBundleAreaComplete",
                     "TargetLocation": "Beach",
                     "TargetTile": { "X": 65, "Y": 7 },
                     "TargetDirection": "down"

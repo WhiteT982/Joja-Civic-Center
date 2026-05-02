@@ -37,7 +37,7 @@
             "Action": "EditMap",
             "Target": "Maps/Beach",
             "MapProperties": {
-                "BuildConditions": "PLAYER_HAS_MAIL current FishFarmLocationAdded received",
+                "BuildConditions": "PLAYER_HAS_MAIL any FishFarmLocationAdded received",
                 "CanBuildHere": "T",
                 "ValidBuildRect": "65 0 27 25"
             }

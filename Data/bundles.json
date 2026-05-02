@@ -27,8 +27,8 @@
 					"JunimoNoteTexture": "UnlockableBundles/UI/MagicBookJunimoNote_Green",
 					"IsBook": true,
 					"BundleCompletedActions": [
-  "AddMail current JojaCC_ForagerBundleBookComplete received",
-  "AddMail current ForagerBundleCompleteEventSeen tomorrow"
+  "AddMail all JojaCC_ForagerBundleBookComplete received",
+  "AddMail all ForagerBundleCompleteEventSeen tomorrow"
 ]
 				},
 				"blue704.JojaCC_ForagerBundle01": {
@@ -53,7 +53,7 @@
 						"(BC)Adam.Joja_FishTrap": 5
 					},
 					"BundleCompletedActions": [
-  "AddMail current SecondBundleComplete tomorrow"
+  "AddMail all SecondBundleComplete tomorrow"
 ]
 				},
 				"blue704.JojaCC_ForagerBundle02": {
@@ -78,7 +78,7 @@
 						"(O)848": 50
 					},
 					"BundleCompletedActions": [
-  "AddMail current SecondBundleComplete tomorrow"
+  "AddMail all SecondBundleComplete tomorrow"
 ]
 				},
 				"blue704.JojaCC_ForagerBundle03": {
@@ -105,7 +105,7 @@
 						"(O)797": 3
 				},
 				"BundleCompletedActions": [
-  "AddMail current SecondBundleComplete tomorrow"
+  "AddMail all SecondBundleComplete tomorrow"
 ]
             },
 				"blue704.JojaCC_ForagerBundle04": {
@@ -139,7 +139,7 @@
 						"(O)632": 1
 					},
 					"BundleCompletedActions": [
-  "AddMail current SecondBundleComplete tomorrow"
+  "AddMail all SecondBundleComplete tomorrow"
 ],
 					"RandomRewardEntries": 3
 				},
@@ -168,7 +168,7 @@
 						"(O)835": 1
 					},
 					"BundleCompletedActions": [
-  "AddMail current SecondBundleComplete tomorrow"
+  "AddMail all SecondBundleComplete tomorrow"
 ]
 				},
 				    //Farmer Bundles
@@ -188,8 +188,8 @@
 					"JunimoNoteTexture": "UnlockableBundles/UI/MagicBookJunimoNote_Yellow",
 					"IsBook": true,
 					"BundleCompletedActions": [
-  "AddMail current JojaCC_FarmerBundleBookComplete received",
-  "AddMail current FarmerBundleCompleteEventSeen tomorrow"
+  "AddMail all JojaCC_FarmerBundleBookComplete received",
+  "AddMail curreallnt FarmerBundleCompleteEventSeen tomorrow"
 ]
 				},
 				"blue704.JojaCC_FarmerBundle01": {
@@ -213,8 +213,8 @@
 						"(O)638": 1
 					},
 					"BundleCompletedActions": [
-  "AddMail current JojaCC_Year2SeedsJoja received",
-  "AddMail current FirstBundleComplete tomorrow"
+  "AddMail all JojaCC_Year2SeedsJoja received",
+  "AddMail all FirstBundleComplete tomorrow"
 ]
 
 				},
@@ -242,7 +242,7 @@
 						"(O)621": 3
 					},
 					"BundleCompletedActions": [
-  "AddMail current FirstBundleComplete tomorrow"
+  "AddMail all FirstBundleComplete tomorrow"
 ]
 				},
 				"blue704.JojaCC_FarmerBundle03": {
@@ -269,7 +269,7 @@
 						"(BC)Adam.Joja_Keg": 5
 				},
 				"BundleCompletedActions": [
-  "AddMail current FirstBundleComplete tomorrow"
+  "AddMail all FirstBundleComplete tomorrow"
 ]
             },
 				"blue704.JojaCC_FarmerBundle04": {
@@ -292,7 +292,7 @@
 						"(O)114": 5
 					},
 					"BundleCompletedActions": [
-  "AddMail current FirstBundleComplete tomorrow"
+  "AddMail all FirstBundleComplete tomorrow"
 ]
 				},
 				"blue704.JojaCC_FarmerBundle05": {
@@ -315,8 +315,8 @@
 						"(O)805": 10
 					},
 					"BundleCompletedActions": [
-  "AddMail current JojaCC_FertilizerJoja received",
-  "AddMail current FirstBundleComplete tomorrow"
+  "AddMail all JojaCC_FertilizerJoja received",
+  "AddMail all FirstBundleComplete tomorrow"
 ]
 				},
 				"blue704.JojaCC_FarmerBundle06": {
@@ -338,7 +338,7 @@
 						"(BC)101": 1
 					},
 					"BundleCompletedActions": [
-  "AddMail current FirstBundleComplete tomorrow"
+  "AddMail all FirstBundleComplete tomorrow"
 ]
 				},
 				"blue704.JojaCC_FarmerBundle07": {
@@ -367,7 +367,7 @@
 						"(0)917": 10
 					},
 					"BundleCompletedActions": [
-  "AddMail current FirstBundleComplete tomorrow"
+  "AddMail all FirstBundleComplete tomorrow"
 ]
 				},
 				"blue704.JojaCC_FarmerBundle08": {
@@ -396,7 +396,7 @@
 						"(0)Adam.Joja_UpgradePack": 5
 					},
 					"BundleCompletedActions": [
-  "AddMail current FirstBundleComplete tomorrow"
+  "AddMail all FirstBundleComplete tomorrow"
 ]
 				},
 				//Fisher Bundles
@@ -416,7 +416,7 @@
 					"JunimoNoteTexture": "UnlockableBundles/UI/MagicBookJunimoNote_Teal",
 					"IsBook": true,
 					"BundleCompletedActions": [
-  "AddMail current JojaCC_FisherBundleBookComplete received"
+  "AddMail all JojaCC_FisherBundleBookComplete received"
 ]
 				},
 				"blue704.JojaCC_FisherBundle01": {
@@ -441,7 +441,7 @@
 						"(O)SkillBook_1": 1
 					},
 					"BundleCompletedActions": [
-  "AddMail current FirstBundleComplete tomorrow"
+  "AddMail all FirstBundleComplete tomorrow"
 ]
 				},
 				"blue704.JojaCC_FisherBundle02": {
@@ -466,7 +466,7 @@
 						"(BC)Adam.Joja_FishSmoker": 2
 					},
 					"BundleCompletedActions": [
-  "AddMail current FirstBundleComplete tomorrow"
+  "AddMail all FirstBundleComplete tomorrow"
 ]
 				},
 				"blue704.JojaCC_FisherBundle03": {
@@ -491,7 +491,7 @@
 						"(BC)Adam.Joja_WormBin": 2
 				},
 				"BundleCompletedActions": [
-  "AddMail current FirstBundleComplete tomorrow"
+  "AddMail all FirstBundleComplete tomorrow"
 ]
             },
 				"blue704.JojaCC_FisherBundle04": {
@@ -516,7 +516,7 @@
 						"(O)265": 5
 					},
 					"BundleCompletedActions": [
-  "AddMail current FirstBundleComplete tomorrow"
+  "AddMail all FirstBundleComplete tomorrow"
 ]
 				},
 				"blue704.JojaCC_FisherBundle05": {
@@ -545,7 +545,7 @@
 						"(T)IridiumRod": 1
 					},
 					"BundleCompletedActions": [
-  "AddMail current FirstBundleComplete tomorrow"
+  "AddMail all FirstBundleComplete tomorrow"
 ]
 				},
 				"blue704.JojaCC_FisherBundle06": {
@@ -570,7 +570,7 @@
 						"(O)Book_Roe": 1,
 						"(O)Book_Crabbing": 1					},
 						"BundleCompletedActions": [
-  "AddMail current FirstBundleComplete tomorrow"
+  "AddMail all FirstBundleComplete tomorrow"
 ]
 				},
 				//Treasure Hunt Bundles
@@ -735,7 +735,7 @@
 		  "SpecialPlacementRequirements":  [
   {
     "Type": "GameStateQuery",
-    "Condition": "PLAYER_HAS_SEEN_EVENT current TreasureHuntBundleStart"
+    "Condition": "PLAYER_HAS_SEEN_EVENT any TreasureHuntBundleStart"
   }
 ],
 		  "InstantShopRemoval": true,
@@ -854,7 +854,7 @@
 			"(O)595": 1
           },
 		  "BundleCompletedActions": [
-  "AddMail Current TreasureHuntComplete received"
+  "AddMail all TreasureHuntComplete received"
 ],
 		  "BundleReward": {
 						"(0)blue704.JojaCC_GoldenTreasureHuntTag": 1
@@ -915,7 +915,7 @@
   "AddFriendshipPoints Willy 500",
   "AddFriendshipPoints Wizard 500",
   "AddFriendshipPoints Vincent 500",
-  "AddMail current BulletinBoardComplete tomorrow"
+  "AddMail all BulletinBoardComplete tomorrow"
 ]
 
 				},
@@ -1091,8 +1091,8 @@
 					"JunimoNoteTexture": "UnlockableBundles/UI/MagicBookJunimoNote_Brown",
 					"IsBook": true,
 					"BundleCompletedActions": [
-						"AddMail current JojaCC_BoilerRoomComplete received",
-						"AddMail current BoilerBundleCompleteEventSeen tomorrow"
+						"AddMail all JojaCC_BoilerRoomComplete received",
+						"AddMail all BoilerBundleCompleteEventSeen tomorrow"
 ]
 
 				},
@@ -1118,7 +1118,7 @@
 						"(O)74": 1
 					},
 					"BundleCompletedActions": [
-  "AddMail current SecondBundleComplete tomorrow"
+  "AddMail all SecondBundleComplete tomorrow"
 ]
 				},
 				"blue704.JojaCC_BoilerRoomBundle02": {
@@ -1141,7 +1141,7 @@
 						"(O)GoldenMysteryBox": 3
 					},
 					"BundleCompletedActions": [
-  "AddMail current SecondBundleComplete tomorrow"
+  "AddMail all SecondBundleComplete tomorrow"
 ]
 				},
 				"blue704.JojaCC_BoilerRoomBundle03": {
@@ -1163,7 +1163,7 @@
 						"(O)811": 1
 				},
 				"BundleCompletedActions": [
-  "AddMail current SecondBundleComplete tomorrow"
+  "AddMail all SecondBundleComplete tomorrow"
 ]
             },
 				"blue704.JojaCC_BoilerRoomBundle04": {
@@ -1188,7 +1188,7 @@
 						"(R)862": 1
 					},
 					"BundleCompletedActions": [
-  "AddMail current SecondBundleComplete tomorrow"
+  "AddMail all SecondBundleComplete tomorrow"
 ]
 				},
 				"blue704.JojaCC_BoilerRoomBundle05": {
@@ -1213,7 +1213,7 @@
 						"(O)289": 3
 					},
 					"BundleCompletedActions": [
-  "AddMail current SecondBundleComplete tomorrow"
+  "AddMail all SecondBundleComplete tomorrow"
 ]
 				},
 				"blue704.JojaCC_BoilerRoomBundle06": {
@@ -1238,7 +1238,7 @@
 						"(BC)21": 3
 					},
 					"BundleCompletedActions": [
-  "AddMail current SecondBundleComplete tomorrow"
+  "AddMail all SecondBundleComplete tomorrow"
 ]
 				},
 		//Vault Bundles
@@ -1266,7 +1266,7 @@
             "(O)886": 25
           },
           "BundleCompletedActions": [
-            "AddMail current JojaCC_VaultComplete received"
+            "AddMail all JojaCC_VaultComplete received"
           ]
         },
         "blue704.JojaCC_VaultBundle01": {
@@ -1413,7 +1413,7 @@
             "money": 10000
           },
           "BundleCompletedActions": [
-						"AddMail current JojaCC_GoldenBundleComplete tomorrow"
+						"AddMail all JojaCC_GoldenBundleComplete tomorrow"
 ]
         }
             }

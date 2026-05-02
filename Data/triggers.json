@@ -23,7 +23,7 @@
         "Farmer Bundle Book Complete Mail": {
           "Id": "FarmerBundleBookCaskMail",
           "Trigger": "DayEnding",
-          "Condition": "PLAYER_HAS_SEEN_EVENT current FarmerBundleComplete",
+          "Condition": "PLAYER_HAS_SEEN_EVENT any FarmerBundleComplete",
           "Actions": [
             "AddMail current FarmerBundleBookCaskMail"
           ]
@@ -38,7 +38,7 @@
         "Dwarf Clears Stones Mail": {
           "Id": "DwarfClearsStonesMail",
           "Trigger": "DayEnding",
-          "Condition": "PLAYER_HEARTS Current Dwarf 3, PLAYER_HAS_SEEN_EVENT Current DemetriusHintsatCave2, PLAYER_HAS_SEEN_EVENT Current ForagerBundleAreaComplete",
+          "Condition": "PLAYER_HEARTS any Dwarf 3, PLAYER_HAS_SEEN_EVENT any DemetriusHintsatCave2, PLAYER_HAS_SEEN_EVENT any ForagerBundleAreaComplete",
           "Actions": [
             "AddMail current DwarfClearsStonesMail tomorrow"
           ]
@@ -53,7 +53,7 @@
         "Fish Farm Location Added Mail": {
           "Id": "FishFarmLocationAdded",
           "Trigger": "DayEnding",
-          "Condition": "PLAYER_HAS_MAIL current JojaCC_FisherBundleBookComplete received, DAY_OF_WEEK Saturday",
+          "Condition": "PLAYER_HAS_MAIL any JojaCC_FisherBundleBookComplete received, DAY_OF_WEEK Saturday",
           "Actions": [
             "AddMail current FishFarmLocationAdded received"
           ]
@@ -67,7 +67,7 @@
         "Fish Farm Area Event Mail": {
           "Id": "FishFarmAreaEventMail",
           "Trigger": "DayEnding",
-          "Condition": "PLAYER_HAS_SEEN_EVENT current FisherBundleComplete, DAY_OF_WEEK Saturday",
+          "Condition": "PLAYER_HAS_SEEN_EVENT any FisherBundleComplete, DAY_OF_WEEK Saturday",
           "Actions": [
             "AddMail current FishFarmAreaEventMail tomorrow"
           ]
@@ -81,7 +81,7 @@
         "Fish Farm Buildings Added Mail": {
           "Id": "FishFarmBuildingsAdded",
           "Trigger": "DayStarted",
-          "Condition": "PLAYER_HAS_MAIL current FishFarmLocationAdded received",
+          "Condition": "PLAYER_HAS_MAIL any FishFarmLocationAdded received",
           "Actions": [
             "AddMail current FishFarmBuildingsAdded tomorrow"
           ]
@@ -117,6 +117,76 @@
             "RemoveMail current SoupShopOpenMail all"
           ]
         }
+          }
+        },
+        //MultiplayerTriggers
+        {
+            "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "ClintsCaveTrigger": {
+          "Id": "ClintsCaveTrigger",
+          "Trigger": "DayStarted",
+          "Condition": "PLAYER_HAS_MAIL current JojaCC_BoilerRoomComplete received",
+          "MarkActionApplied": false,
+          "Actions": [
+            "AddMail all JojaCC_BoilerRoomComplete received"
+          ]
+        },
+        "DwarfClearsStonesTrigger": {
+          "Id": "DwarfClearsStonesTrigger",
+          "Trigger": "DayStarted",
+          "Condition": "PLAYER_HAS_MAIL current DwarfClearsStonesMail received",
+          "MarkActionApplied": false,
+          "Actions": [
+            "AddMail all DwarfClearsStonesMail received"
+          ]
+        },
+        "LeahsWoodsTrigger": {
+          "Id": "LeahsWoodsTrigger",
+          "Trigger": "DayStarted",
+          "Condition": "PLAYER_HAS_MAIL current JojaCC_ForagerBundleBookComplete received",
+          "MarkActionApplied": false,
+          "Actions": [
+            "AddMail all JojaCC_ForagerBundleBookComplete received"
+          ]
+        },
+        "FisherBundleCompleteTrigger": {
+          "Id": "FisherBundleCompleteTrigger",
+          "Trigger": "DayStarted",
+          "Condition": "PLAYER_HAS_MAIL current JojaCC_ForagerBundleBookComplete received",
+          "MarkActionApplied": false,
+          "Actions": [
+            "AddMail all JojaCC_ForagerBundleBookComplete received"
+          ]
+        },
+        "FarmerBundleCompleteTrigger": {
+          "Id": "FarmerBundleCompleteTrigger",
+          "Trigger": "DayStarted",
+          "Condition": "PLAYER_HAS_MAIL current JojaCC_FarmerBundleBookComplete received",
+          "MarkActionApplied": false,
+          "Actions": [
+            "AddMail all JojaCC_FarmerBundleBookComplete received"
+          ]
+        },
+        "TreasureHuntCompleteTrigger": {
+          "Id": "TreasureHuntCompleteTrigger",
+          "Trigger": "DayStarted",
+          "Condition": "PLAYER_HAS_MAIL current TreasureHuntComplete received",
+          "MarkActionApplied": false,
+          "Actions": [
+            "AddMail all TreasureHuntComplete received"
+          ]
+        },
+        "GoldenBundleCompleteTrigger": {
+          "Id": "GoldenBundleCompleteTrigger",
+          "Trigger": "DayStarted",
+          "Condition": "PLAYER_HAS_MAIL current JojaCC_GoldenBundleComplete received",
+          "MarkActionApplied": false,
+          "Actions": [
+            "AddMail all JojaCC_GoldenBundleComplete received"
+          ]
+        },
           }
         }
           ]

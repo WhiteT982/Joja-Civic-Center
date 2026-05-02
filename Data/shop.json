@@ -48,7 +48,7 @@
           "AvailableStock": 100,
           "AvoidRepeat": false,
           "IgnoreShopPriceModifiers": true,
-          "Condition": "PLAYER_HAS_MAIL current JojaCC_Year2SeedsJoja received",
+          "Condition": "PLAYER_HAS_MAIL any JojaCC_Year2SeedsJoja received",
           "Id": "(O)476",
           "ItemId": "(O)476"
         },
@@ -57,7 +57,7 @@
           "AvailableStock": 100,
           "AvoidRepeat": false,
           "IgnoreShopPriceModifiers": true,
-          "Condition": "PLAYER_HAS_MAIL current JojaCC_Year2SeedsJoja received",
+          "Condition": "PLAYER_HAS_MAIL any JojaCC_Year2SeedsJoja received",
           "Id": "(O)478",
           "ItemId": "(O)478"
         },
@@ -66,7 +66,7 @@
           "AvailableStock": 130,
           "AvoidRepeat": false,
           "IgnoreShopPriceModifiers": true,
-          "Condition": "PLAYER_HAS_MAIL current JojaCC_Year2SeedsJoja received",
+          "Condition": "PLAYER_HAS_MAIL any JojaCC_Year2SeedsJoja received",
           "Id": "(O)745",
           "ItemId": "(O)745"
         },
@@ -75,7 +75,7 @@
           "AvailableStock": 100,
           "AvoidRepeat": false,
           "IgnoreShopPriceModifiers": true,
-          "Condition": "PLAYER_HAS_MAIL current JojaCC_Year2SeedsJoja received",
+          "Condition": "PLAYER_HAS_MAIL any JojaCC_Year2SeedsJoja received",
           "Id": "(O)273",
           "ItemId": "(O)273"
         },
@@ -84,7 +84,7 @@
           "AvailableStock": 100,
           "AvoidRepeat": false,
           "IgnoreShopPriceModifiers": true,
-          "Condition": "PLAYER_HAS_MAIL current JojaCC_Year2SeedsJoja received",
+          "Condition": "PLAYER_HAS_MAIL any JojaCC_Year2SeedsJoja received",
           "Id": "(O)481",
           "ItemId": "(O)481"
         },
@@ -93,7 +93,7 @@
           "AvailableStock": 100,
           "AvoidRepeat": false,
           "IgnoreShopPriceModifiers": true,
-          "Condition": "PLAYER_HAS_MAIL current JojaCC_Year2SeedsJoja received",
+          "Condition": "PLAYER_HAS_MAIL any JojaCC_Year2SeedsJoja received",
           "Id": "(O)485",
           "ItemId": "(O)485"
         },
@@ -102,7 +102,7 @@
           "AvailableStock": 100,
           "AvoidRepeat": false,
           "IgnoreShopPriceModifiers": true,
-          "Condition": "PLAYER_HAS_MAIL current JojaCC_Year2SeedsJoja received",
+          "Condition": "PLAYER_HAS_MAIL any JojaCC_Year2SeedsJoja received",
           "Id": "(O)486",
           "ItemId": "(O)486"
         },
@@ -111,7 +111,7 @@
           "AvailableStock": 100,
           "AvoidRepeat": false,
           "IgnoreShopPriceModifiers": true,
-          "Condition": "PLAYER_HAS_MAIL current JojaCC_Year2SeedsJoja received",
+          "Condition": "PLAYER_HAS_MAIL any JojaCC_Year2SeedsJoja received",
           "Id": "(O)489",
           "ItemId": "(O)489"
         },
@@ -120,7 +120,7 @@
           "AvailableStock": 100,
           "AvoidRepeat": false,
           "IgnoreShopPriceModifiers": true,
-          "Condition": "PLAYER_HAS_MAIL current JojaCC_Year2SeedsJoja received",
+          "Condition": "PLAYER_HAS_MAIL any JojaCC_Year2SeedsJoja received",
           "Id": "(O)494",
           "ItemId": "(O)494"
         },
@@ -129,7 +129,7 @@
           "AvailableStock": 100,
           "AvoidRepeat": false,
           "IgnoreShopPriceModifiers": true,
-          "Condition": "PLAYER_HAS_MAIL current JojaCC_Year2SeedsJoja received",
+          "Condition": "PLAYER_HAS_MAIL any JojaCC_Year2SeedsJoja received",
           "Id": "(O)802",
           "ItemId": "(O)802"
         }
@@ -149,7 +149,7 @@
           "AvailableStock": 100,
           "AvoidRepeat": false,
           "IgnoreShopPriceModifiers": true,
-          "Condition": "PLAYER_HAS_MAIL current JojaCC_FertilizerJoja received",
+          "Condition": "PLAYER_HAS_MAIL any JojaCC_FertilizerJoja received",
           "Id": "(O)919",
           "ItemId": "(O)919"
         },
@@ -158,7 +158,7 @@
           "AvailableStock": 100,
           "AvoidRepeat": false,
           "IgnoreShopPriceModifiers": true,
-          "Condition": "PLAYER_HAS_MAIL current JojaCC_FertilizerJoja received",
+          "Condition": "PLAYER_HAS_MAIL any JojaCC_FertilizerJoja received",
           "Id": "(O)918",
           "ItemId": "(O)918"
         },
@@ -167,7 +167,7 @@
           "AvailableStock": 100,
           "AvoidRepeat": false,
           "IgnoreShopPriceModifiers": true,
-          "Condition": "PLAYER_HAS_MAIL current JojaCC_FertilizerJoja received",
+          "Condition": "PLAYER_HAS_MAIL any JojaCC_FertilizerJoja received",
           "Id": "(O)920",
           "ItemId": "(O)920"
         },
@@ -176,7 +176,7 @@
           "AvailableStock": 100,
           "AvoidRepeat": false,
           "IgnoreShopPriceModifiers": true,
-          "Condition": "PLAYER_HAS_MAIL current JojaCC_FertilizerJoja received",
+          "Condition": "PLAYER_HAS_MAIL any JojaCC_FertilizerJoja received",
           "Id": "(O)805",
           "ItemId": "(O)805"
         }
