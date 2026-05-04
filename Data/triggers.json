@@ -83,7 +83,7 @@
           "Trigger": "DayStarted",
           "Condition": "PLAYER_HAS_MAIL any FishFarmLocationAdded received",
           "Actions": [
-            "AddMail current FishFarmBuildingsAdded tomorrow"
+            "AddMail current FishFarmBuildingsAdded received"
           ]
         }
           }
