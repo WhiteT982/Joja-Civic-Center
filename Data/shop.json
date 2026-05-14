@@ -145,8 +145,8 @@
       ],
       "Entries": {
         "Deluxe Fertilizer": {
-          "Price": 200,
-          "AvailableStock": 100,
+          "Price": 1200,
+          "AvailableStock": 20,
           "AvoidRepeat": false,
           "IgnoreShopPriceModifiers": true,
           "Condition": "PLAYER_HAS_MAIL any JojaCC_FertilizerJoja received",
@@ -154,8 +154,8 @@
           "ItemId": "(O)919"
         },
         "Hyper Speed Gro": {
-          "Price": 200,
-          "AvailableStock": 100,
+          "Price": 1200,
+          "AvailableStock": 20,
           "AvoidRepeat": false,
           "IgnoreShopPriceModifiers": true,
           "Condition": "PLAYER_HAS_MAIL any JojaCC_FertilizerJoja received",
@@ -163,8 +163,8 @@
           "ItemId": "(O)918"
         },
         "Deluxe Retaining Soil": {
-          "Price": 150,
-          "AvailableStock": 100,
+          "Price": 1000,
+          "AvailableStock": 10,
           "AvoidRepeat": false,
           "IgnoreShopPriceModifiers": true,
           "Condition": "PLAYER_HAS_MAIL any JojaCC_FertilizerJoja received",
@@ -173,7 +173,7 @@
         },
         "Tree Fertilizer": {
           "Price": 75,
-          "AvailableStock": 100,
+          "AvailableStock": 50,
           "AvoidRepeat": false,
           "IgnoreShopPriceModifiers": true,
           "Condition": "PLAYER_HAS_MAIL any JojaCC_FertilizerJoja received",
@@ -214,7 +214,7 @@
     {
         "Name": "AnyOrNone",
         "ClosedMessage": "{{i18n: blue704.JojaCC_LeahsShopClosed}}",
-        "Condition": "!TIME 1200 1900"
+        "Condition": "ANY \"DAY_OF_WEEK Monday Friday Saturday\" \"!TIME 1200 1900\""
     },
     {
         "Name": "Leah",
@@ -264,10 +264,20 @@
               "IsRecipe": false
             },
               {
-              "RandomItemId": [ "(O)681", "(O)688", "(O)689", "(O)690", "(O)261", "(O)TreasureTotem" ],
+              "RandomItemId": [ "(O)681", "(O)688", "(O)689", "(O)690", "(O)261" ],
+              "Price": 1500,
               "AvailableStock": 10,
               "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": false,
+              "IsRecipe": false
+            },
+            {
+              "Price": 2000,
+              "AvailableStock": 3,
+              "AvoidRepeat": false,
+              "IgnoreShopPriceModifiers": false,
+              "Id": "(O)TreasureTotem",
+              "ItemId": "(O)TreasureTotem",
               "IsRecipe": false
             },
             {
@@ -307,7 +317,7 @@
               "IsRecipe": false
             },
             {
-              "Price": 5000,
+              "Price": 25000,
               "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": true,
               "Id": "(BC)blue704.JojaCC_Resources_Stump(recipe)",
@@ -364,7 +374,7 @@
     {
         "Name": "AnyOrNone",
         "ClosedMessage": "{{i18n: blue704.JojaCC_EvelynsShopClosed}}",
-        "Condition": "!TIME 1000 1600"
+        "Condition": "ANY \"DAY_OF_WEEK Tuesday Wednesday Sunday\" \"!TIME 1000 1600\""
     },
     {
         "Name": "Evelyn",
@@ -387,49 +397,49 @@
               "IsRecipe": false
             },
             {
-              "RandomItemId": [ "(O)194", "(O)195", "(O)196","(O)197", "(O)198", "(O)199","(O)200", "(O)201", "(O)202","(O)203", "(O)204", "(O)205","(O)206", "(O)207", "(O)208","(O)209", "(O)210", "(O)211","(O)212", "(O)213", "(O)214","(O)215", "(O)216", "(O)217", "(O)218", "(O)219", "(O)220", "(O)221", "(O)222", "(O)223", "(O)224", "(O)225", "(O)226", "(O)227", "(O)228", "(O)229", "(O)230", "(O)231", "(O)232", "(O)233", "(O)234", "(O)235", "(O)236", "(O)237", "(O)238", "(O)239", "(O)240", "(O)241", "(O)242", "(O)243", "(O)244", "(O)253", "(O)265", "(O)456", "(O)457", "(O)604", "(O)605", "(O)606", "(O)607", "(O)608", "(O)609", "(O)610", "(O)611", "(O)612", "(O)618", "(O)648", "(O)649", "(O)651", "(O)727", "(O)728", "(O)729", "(O)730", "(O)731", "(O)732", "(O)733", "(O)903", "(O)904", "(O)905", "(O)906", "(O)907", "(O)921", "(O)MossSoup" ],
+              "RandomItemId": [ "(O)194", "(O)195", "(O)196","(O)197", "(O)198", "(O)199","(O)200", "(O)201", "(O)202","(O)203", "(O)204", "(O)205","(O)206", "(O)207", "(O)208","(O)209", "(O)210", "(O)211","(O)212", "(O)213", "(O)214","(O)215", "(O)216", "(O)218", "(O)219", "(O)220", "(O)221", "(O)222", "(O)223", "(O)224", "(O)225", "(O)226", "(O)227", "(O)228", "(O)229", "(O)230", "(O)231", "(O)232", "(O)233", "(O)234", "(O)235", "(O)236", "(O)237", "(O)238", "(O)239", "(O)240", "(O)241", "(O)242", "(O)243", "(O)244", "(O)253", "(O)265", "(O)456", "(O)457", "(O)604", "(O)605", "(O)606", "(O)607", "(O)608", "(O)609", "(O)610", "(O)611", "(O)612", "(O)618", "(O)648", "(O)649", "(O)651", "(O)727", "(O)728", "(O)729", "(O)730", "(O)731", "(O)732", "(O)733", "(O)903", "(O)904", "(O)905", "(O)906", "(O)907", "(O)921", "(O)MossSoup" ],
               "IgnoreShopPriceModifiers": false,
               "AvoidRepeat": true,
               "IsRecipe": true
             },
             {
-              "RandomItemId": [ "(O)194", "(O)195", "(O)196","(O)197", "(O)198", "(O)199","(O)200", "(O)201", "(O)202","(O)203", "(O)204", "(O)205","(O)206", "(O)207", "(O)208","(O)209", "(O)210", "(O)211","(O)212", "(O)213", "(O)214","(O)215", "(O)216", "(O)217", "(O)218", "(O)219", "(O)220", "(O)221", "(O)222", "(O)223", "(O)224", "(O)225", "(O)226", "(O)227", "(O)228", "(O)229", "(O)230", "(O)231", "(O)232", "(O)233", "(O)234", "(O)235", "(O)236", "(O)237", "(O)238", "(O)239", "(O)240", "(O)241", "(O)242", "(O)243", "(O)244", "(O)253", "(O)265", "(O)456", "(O)457", "(O)604", "(O)605", "(O)606", "(O)607", "(O)608", "(O)609", "(O)610", "(O)611", "(O)612", "(O)618", "(O)648", "(O)649", "(O)651", "(O)727", "(O)728", "(O)729", "(O)730", "(O)731", "(O)732", "(O)733", "(O)903", "(O)904", "(O)905", "(O)906", "(O)907", "(O)921", "(O)MossSoup" ],
+              "RandomItemId": [ "(O)194", "(O)195", "(O)196","(O)197", "(O)198", "(O)199","(O)200", "(O)201", "(O)202","(O)203", "(O)204", "(O)205","(O)206", "(O)207", "(O)208","(O)209", "(O)210", "(O)211","(O)212", "(O)213", "(O)214","(O)215", "(O)216", "(O)218", "(O)219", "(O)220", "(O)221", "(O)222", "(O)223", "(O)224", "(O)225", "(O)226", "(O)227", "(O)228", "(O)229", "(O)230", "(O)231", "(O)232", "(O)233", "(O)234", "(O)235", "(O)236", "(O)237", "(O)238", "(O)239", "(O)240", "(O)241", "(O)242", "(O)243", "(O)244", "(O)253", "(O)265", "(O)456", "(O)457", "(O)604", "(O)605", "(O)606", "(O)607", "(O)608", "(O)609", "(O)610", "(O)611", "(O)612", "(O)618", "(O)648", "(O)649", "(O)651", "(O)727", "(O)728", "(O)729", "(O)730", "(O)731", "(O)732", "(O)733", "(O)903", "(O)904", "(O)905", "(O)906", "(O)907", "(O)921", "(O)MossSoup" ],
               "IgnoreShopPriceModifiers": false,
               "AvoidRepeat": true,
               "IsRecipe": true
             },
             {
-              "RandomItemId": [ "(O)194", "(O)195", "(O)196","(O)197", "(O)198", "(O)199","(O)200", "(O)201", "(O)202","(O)203", "(O)204", "(O)205","(O)206", "(O)207", "(O)208","(O)209", "(O)210", "(O)211","(O)212", "(O)213", "(O)214","(O)215", "(O)216", "(O)217", "(O)218", "(O)219", "(O)220", "(O)221", "(O)222", "(O)223", "(O)224", "(O)225", "(O)226", "(O)227", "(O)228", "(O)229", "(O)230", "(O)231", "(O)232", "(O)233", "(O)234", "(O)235", "(O)236", "(O)237", "(O)238", "(O)239", "(O)240", "(O)241", "(O)242", "(O)243", "(O)244", "(O)253", "(O)265", "(O)456", "(O)457", "(O)604", "(O)605", "(O)606", "(O)607", "(O)608", "(O)609", "(O)610", "(O)611", "(O)612", "(O)618", "(O)648", "(O)649", "(O)651", "(O)727", "(O)728", "(O)729", "(O)730", "(O)731", "(O)732", "(O)733", "(O)903", "(O)904", "(O)905", "(O)906", "(O)907", "(O)921", "(O)MossSoup" ],
+              "RandomItemId": [ "(O)194", "(O)195", "(O)196","(O)197", "(O)198", "(O)199","(O)200", "(O)201", "(O)202","(O)203", "(O)204", "(O)205","(O)206", "(O)207", "(O)208","(O)209", "(O)210", "(O)211","(O)212", "(O)213", "(O)214","(O)215", "(O)216", "(O)218", "(O)219", "(O)220", "(O)221", "(O)222", "(O)223", "(O)224", "(O)225", "(O)226", "(O)227", "(O)228", "(O)229", "(O)230", "(O)231", "(O)232", "(O)233", "(O)234", "(O)235", "(O)236", "(O)237", "(O)238", "(O)239", "(O)240", "(O)241", "(O)242", "(O)243", "(O)244", "(O)253", "(O)265", "(O)456", "(O)457", "(O)604", "(O)605", "(O)606", "(O)607", "(O)608", "(O)609", "(O)610", "(O)611", "(O)612", "(O)618", "(O)648", "(O)649", "(O)651", "(O)727", "(O)728", "(O)729", "(O)730", "(O)731", "(O)732", "(O)733", "(O)903", "(O)904", "(O)905", "(O)906", "(O)907", "(O)921", "(O)MossSoup" ],
               "IgnoreShopPriceModifiers": false,
               "AvoidRepeat": true,
               "IsRecipe": true
             },
             {
-              "RandomItemId": [ "(O)194", "(O)195", "(O)196","(O)197", "(O)198", "(O)199","(O)200", "(O)201", "(O)202","(O)203", "(O)204", "(O)205","(O)206", "(O)207", "(O)208","(O)209", "(O)210", "(O)211","(O)212", "(O)213", "(O)214","(O)215", "(O)216", "(O)217", "(O)218", "(O)219", "(O)220", "(O)221", "(O)222", "(O)223", "(O)224", "(O)225", "(O)226", "(O)227", "(O)228", "(O)229", "(O)230", "(O)231", "(O)232", "(O)233", "(O)234", "(O)235", "(O)236", "(O)237", "(O)238", "(O)239", "(O)240", "(O)241", "(O)242", "(O)243", "(O)244", "(O)253", "(O)265", "(O)456", "(O)457", "(O)604", "(O)605", "(O)606", "(O)607", "(O)608", "(O)609", "(O)610", "(O)611", "(O)612", "(O)618", "(O)648", "(O)649", "(O)651", "(O)727", "(O)728", "(O)729", "(O)730", "(O)731", "(O)732", "(O)733", "(O)903", "(O)904", "(O)905", "(O)906", "(O)907", "(O)921", "(O)MossSoup" ],
+              "RandomItemId": [ "(O)194", "(O)195", "(O)196","(O)197", "(O)198", "(O)199","(O)200", "(O)201", "(O)202","(O)203", "(O)204", "(O)205","(O)206", "(O)207", "(O)208","(O)209", "(O)210", "(O)211","(O)212", "(O)213", "(O)214","(O)215", "(O)216", "(O)218", "(O)219", "(O)220", "(O)221", "(O)222", "(O)223", "(O)224", "(O)225", "(O)226", "(O)227", "(O)228", "(O)229", "(O)230", "(O)231", "(O)232", "(O)233", "(O)234", "(O)235", "(O)236", "(O)237", "(O)238", "(O)239", "(O)240", "(O)241", "(O)242", "(O)243", "(O)244", "(O)253", "(O)265", "(O)456", "(O)457", "(O)604", "(O)605", "(O)606", "(O)607", "(O)608", "(O)609", "(O)610", "(O)611", "(O)612", "(O)618", "(O)648", "(O)649", "(O)651", "(O)727", "(O)728", "(O)729", "(O)730", "(O)731", "(O)732", "(O)733", "(O)903", "(O)904", "(O)905", "(O)906", "(O)907", "(O)921", "(O)MossSoup" ],
               "AvoidRepeat": true,
               "IgnoreShopPriceModifiers": false,
               "IsRecipe": false
             },
              {
-              "RandomItemId": [ "(O)194", "(O)195", "(O)196","(O)197", "(O)198", "(O)199","(O)200", "(O)201", "(O)202","(O)203", "(O)204", "(O)205","(O)206", "(O)207", "(O)208","(O)209", "(O)210", "(O)211","(O)212", "(O)213", "(O)214","(O)215", "(O)216", "(O)217", "(O)218", "(O)219", "(O)220", "(O)221", "(O)222", "(O)223", "(O)224", "(O)225", "(O)226", "(O)227", "(O)228", "(O)229", "(O)230", "(O)231", "(O)232", "(O)233", "(O)234", "(O)235", "(O)236", "(O)237", "(O)238", "(O)239", "(O)240", "(O)241", "(O)242", "(O)243", "(O)244", "(O)253", "(O)265", "(O)456", "(O)457", "(O)604", "(O)605", "(O)606", "(O)607", "(O)608", "(O)609", "(O)610", "(O)611", "(O)612", "(O)618", "(O)648", "(O)649", "(O)651", "(O)727", "(O)728", "(O)729", "(O)730", "(O)731", "(O)732", "(O)733", "(O)903", "(O)904", "(O)905", "(O)906", "(O)907", "(O)921", "(O)MossSoup" ],
+              "RandomItemId": [ "(O)194", "(O)195", "(O)196","(O)197", "(O)198", "(O)199","(O)200", "(O)201", "(O)202","(O)203", "(O)204", "(O)205","(O)206", "(O)207", "(O)208","(O)209", "(O)210", "(O)211","(O)212", "(O)213", "(O)214","(O)215", "(O)216", "(O)218", "(O)219", "(O)220", "(O)221", "(O)222", "(O)223", "(O)224", "(O)225", "(O)226", "(O)227", "(O)228", "(O)229", "(O)230", "(O)231", "(O)232", "(O)233", "(O)234", "(O)235", "(O)236", "(O)237", "(O)238", "(O)239", "(O)240", "(O)241", "(O)242", "(O)243", "(O)244", "(O)253", "(O)265", "(O)456", "(O)457", "(O)604", "(O)605", "(O)606", "(O)607", "(O)608", "(O)609", "(O)610", "(O)611", "(O)612", "(O)618", "(O)648", "(O)649", "(O)651", "(O)727", "(O)728", "(O)729", "(O)730", "(O)731", "(O)732", "(O)733", "(O)903", "(O)904", "(O)905", "(O)906", "(O)907", "(O)921", "(O)MossSoup" ],
               "AvoidRepeat": true,
               "IgnoreShopPriceModifiers": false,
               "IsRecipe": false
             },
              {
-              "RandomItemId": [ "(O)194", "(O)195", "(O)196","(O)197", "(O)198", "(O)199","(O)200", "(O)201", "(O)202","(O)203", "(O)204", "(O)205","(O)206", "(O)207", "(O)208","(O)209", "(O)210", "(O)211","(O)212", "(O)213", "(O)214","(O)215", "(O)216", "(O)217", "(O)218", "(O)219", "(O)220", "(O)221", "(O)222", "(O)223", "(O)224", "(O)225", "(O)226", "(O)227", "(O)228", "(O)229", "(O)230", "(O)231", "(O)232", "(O)233", "(O)234", "(O)235", "(O)236", "(O)237", "(O)238", "(O)239", "(O)240", "(O)241", "(O)242", "(O)243", "(O)244", "(O)253", "(O)265", "(O)456", "(O)457", "(O)604", "(O)605", "(O)606", "(O)607", "(O)608", "(O)609", "(O)610", "(O)611", "(O)612", "(O)618", "(O)648", "(O)649", "(O)651", "(O)727", "(O)728", "(O)729", "(O)730", "(O)731", "(O)732", "(O)733", "(O)903", "(O)904", "(O)905", "(O)906", "(O)907", "(O)921", "(O)MossSoup" ],
+              "RandomItemId": [ "(O)194", "(O)195", "(O)196","(O)197", "(O)198", "(O)199","(O)200", "(O)201", "(O)202","(O)203", "(O)204", "(O)205","(O)206", "(O)207", "(O)208","(O)209", "(O)210", "(O)211","(O)212", "(O)213", "(O)214","(O)215", "(O)216", "(O)218", "(O)219", "(O)220", "(O)221", "(O)222", "(O)223", "(O)224", "(O)225", "(O)226", "(O)227", "(O)228", "(O)229", "(O)230", "(O)231", "(O)232", "(O)233", "(O)234", "(O)235", "(O)236", "(O)237", "(O)238", "(O)239", "(O)240", "(O)241", "(O)242", "(O)243", "(O)244", "(O)253", "(O)265", "(O)456", "(O)457", "(O)604", "(O)605", "(O)606", "(O)607", "(O)608", "(O)609", "(O)610", "(O)611", "(O)612", "(O)618", "(O)648", "(O)649", "(O)651", "(O)727", "(O)728", "(O)729", "(O)730", "(O)731", "(O)732", "(O)733", "(O)903", "(O)904", "(O)905", "(O)906", "(O)907", "(O)921", "(O)MossSoup" ],
               "AvoidRepeat": true,
               "IgnoreShopPriceModifiers": false,
               "IsRecipe": false
             },
              {
-              "RandomItemId": [ "(O)194", "(O)195", "(O)196","(O)197", "(O)198", "(O)199","(O)200", "(O)201", "(O)202","(O)203", "(O)204", "(O)205","(O)206", "(O)207", "(O)208","(O)209", "(O)210", "(O)211","(O)212", "(O)213", "(O)214","(O)215", "(O)216", "(O)217", "(O)218", "(O)219", "(O)220", "(O)221", "(O)222", "(O)223", "(O)224", "(O)225", "(O)226", "(O)227", "(O)228", "(O)229", "(O)230", "(O)231", "(O)232", "(O)233", "(O)234", "(O)235", "(O)236", "(O)237", "(O)238", "(O)239", "(O)240", "(O)241", "(O)242", "(O)243", "(O)244", "(O)253", "(O)265", "(O)456", "(O)457", "(O)604", "(O)605", "(O)606", "(O)607", "(O)608", "(O)609", "(O)610", "(O)611", "(O)612", "(O)618", "(O)648", "(O)649", "(O)651", "(O)727", "(O)728", "(O)729", "(O)730", "(O)731", "(O)732", "(O)733", "(O)903", "(O)904", "(O)905", "(O)906", "(O)907", "(O)921", "(O)MossSoup" ],
+              "RandomItemId": [ "(O)194", "(O)195", "(O)196","(O)197", "(O)198", "(O)199","(O)200", "(O)201", "(O)202","(O)203", "(O)204", "(O)205","(O)206", "(O)207", "(O)208","(O)209", "(O)210", "(O)211","(O)212", "(O)213", "(O)214","(O)215", "(O)216", "(O)218", "(O)219", "(O)220", "(O)221", "(O)222", "(O)223", "(O)224", "(O)225", "(O)226", "(O)227", "(O)228", "(O)229", "(O)230", "(O)231", "(O)232", "(O)233", "(O)234", "(O)235", "(O)236", "(O)237", "(O)238", "(O)239", "(O)240", "(O)241", "(O)242", "(O)243", "(O)244", "(O)253", "(O)265", "(O)456", "(O)457", "(O)604", "(O)605", "(O)606", "(O)607", "(O)608", "(O)609", "(O)610", "(O)611", "(O)612", "(O)618", "(O)648", "(O)649", "(O)651", "(O)727", "(O)728", "(O)729", "(O)730", "(O)731", "(O)732", "(O)733", "(O)903", "(O)904", "(O)905", "(O)906", "(O)907", "(O)921", "(O)MossSoup" ],
               "AvoidRepeat": true,
               "IgnoreShopPriceModifiers": false,
               "IsRecipe": false
             },
              {
-              "RandomItemId": [ "(O)194", "(O)195", "(O)196","(O)197", "(O)198", "(O)199","(O)200", "(O)201", "(O)202","(O)203", "(O)204", "(O)205","(O)206", "(O)207", "(O)208","(O)209", "(O)210", "(O)211","(O)212", "(O)213", "(O)214","(O)215", "(O)216", "(O)217", "(O)218", "(O)219", "(O)220", "(O)221", "(O)222", "(O)223", "(O)224", "(O)225", "(O)226", "(O)227", "(O)228", "(O)229", "(O)230", "(O)231", "(O)232", "(O)233", "(O)234", "(O)235", "(O)236", "(O)237", "(O)238", "(O)239", "(O)240", "(O)241", "(O)242", "(O)243", "(O)244", "(O)253", "(O)265", "(O)456", "(O)457", "(O)604", "(O)605", "(O)606", "(O)607", "(O)608", "(O)609", "(O)610", "(O)611", "(O)612", "(O)618", "(O)648", "(O)649", "(O)651", "(O)727", "(O)728", "(O)729", "(O)730", "(O)731", "(O)732", "(O)733", "(O)903", "(O)904", "(O)905", "(O)906", "(O)907", "(O)921", "(O)MossSoup" ],
+              "RandomItemId": [ "(O)194", "(O)195", "(O)196","(O)197", "(O)198", "(O)199","(O)200", "(O)201", "(O)202","(O)203", "(O)204", "(O)205","(O)206", "(O)207", "(O)208","(O)209", "(O)210", "(O)211","(O)212", "(O)213", "(O)214","(O)215", "(O)216", "(O)218", "(O)219", "(O)220", "(O)221", "(O)222", "(O)223", "(O)224", "(O)225", "(O)226", "(O)227", "(O)228", "(O)229", "(O)230", "(O)231", "(O)232", "(O)233", "(O)234", "(O)235", "(O)236", "(O)237", "(O)238", "(O)239", "(O)240", "(O)241", "(O)242", "(O)243", "(O)244", "(O)253", "(O)265", "(O)456", "(O)457", "(O)604", "(O)605", "(O)606", "(O)607", "(O)608", "(O)609", "(O)610", "(O)611", "(O)612", "(O)618", "(O)648", "(O)649", "(O)651", "(O)727", "(O)728", "(O)729", "(O)730", "(O)731", "(O)732", "(O)733", "(O)903", "(O)904", "(O)905", "(O)906", "(O)907", "(O)921", "(O)MossSoup" ],
               "AvoidRepeat": true,
               "IgnoreShopPriceModifiers": false,
               "IsRecipe": false
@@ -470,18 +480,143 @@
       "Entries": {
         "RandomSpouseWeapon": {
               "RandomItemId": [ "(W)25", "(W)30", "(W)35", "(W)36", "(W)37", "(W)38", "(W)39", "(W)40", "(W)41", "(W)42" ],
+              "Price": 9000,
               "AvoidRepeat": true,
               "IgnoreShopPriceModifiers": false,
               "IsRecipe": false
             },
-            "RandomWeapon1": {
-              "RandomItemId": [ "(W)0", "(W)1", "(W)2", "(W)3", "(W)4", "(W)5", "(W)6", "(W)7", "(W)8", "(W)9", "(W)10", "(W)11", "(W)12", "(W)13", "(W)14", "(W)15", "(W)16", "(W)17", "(W)18", "(W)19", "(W)20", "(W)21", "(W)22", "(W)23", "(W)24", "(W)26", "(W)27", "(W)28", "(W)29", "(W)31", "(W)32", "(W)33", "(W)34", "(W)43", "(W)44", "(W)45", "(W)46", "(W)48", "(W)49", "(W)50", "(W)51", "(W)52", "(W)54", "(W)55", "(W)56", "(W)57", "(W)58", "(W)59", "(W)60", "(W)61", "(W)62", "(W)63", "(W)64", "(W)65" ],
-              "AvoidRepeat": true,
+            "Ossified Blade": {
+              "Price": 9000,
+              "AvailableStock": -1,
+              "Condition": "RANDOM 0.5",
+              "Id": "(W)60",
+              "ItemId": "(W)60",
+              "AvoidRepeat": false,
+              "IgnoreShopPriceModifiers": false,
+              "IsRecipe": false
+            },
+            "Holy Blade": {
+              "Price": 9500,
+              "AvailableStock": -1,
+              "Condition": "RANDOM 0.5",
+              "Id": "(W)3",
+              "ItemId": "(W)3",
+              "AvoidRepeat": false,
+              "IgnoreShopPriceModifiers": false,
+              "IsRecipe": false
+            },
+            "Dark Sword": {
+              "Price": 11000,
+              "AvailableStock": -1,
+              "Condition": "RANDOM 0.3",
+              "Id": "(W)2",
+              "ItemId": "(W)2",
+              "AvoidRepeat": false,
+              "IgnoreShopPriceModifiers": false,
+              "IsRecipe": false
+            },
+            "Dwarf Sword": {
+              "Price": 25000,
+              "AvailableStock": -1,
+              "Condition": "RANDOM 0.2",
+              "Id": "(W)54",
+              "ItemId": "(W)54",
+              "AvoidRepeat": false,
+              "IgnoreShopPriceModifiers": false,
+              "IsRecipe": false
+            },
+            "Dragontooth Cutlass": {
+              "Price": 45000,
+              "AvailableStock": -1,
+              "Condition": "RANDOM 0.05",
+              "Id": "(W)57",
+              "ItemId": "(W)57",
+              "AvoidRepeat": false,
+              "IgnoreShopPriceModifiers": false,
+              "IsRecipe": false
+            },
+            "Shadow Dagger": {
+              "Price": 5000,
+              "AvailableStock": -1,
+              "Condition": "RANDOM 0.5",
+              "Id": "(W)19",
+              "ItemId": "(W)19",
+              "AvoidRepeat": false,
+              "IgnoreShopPriceModifiers": false,
+              "IsRecipe": false
+            },
+            "Wicked Kris": {
+              "Price": 10000,
+              "AvailableStock": -1,
+              "Condition": "RANDOM 0.3",
+              "Id": "(W)45",
+              "ItemId": "(W)45",
+              "AvoidRepeat": false,
+              "IgnoreShopPriceModifiers": false,
+              "IsRecipe": false
+            },
+            "Dwarf Dagger": {
+              "Price": 12000,
+              "AvailableStock": -1,
+              "Condition": "RANDOM 0.2",
+              "Id": "(W)56",
+              "ItemId": "(W)56",
+              "AvoidRepeat": false,
+              "IgnoreShopPriceModifiers": false,
+              "IsRecipe": false
+            },
+            "Dragontooth Shiv": {
+              "Price": 40000,
+              "AvailableStock": -1,
+              "Condition": "RANDOM 0.05",
+              "Id": "(W)59",
+              "ItemId": "(W)59",
+              "AvoidRepeat": false,
+              "IgnoreShopPriceModifiers": false,
+              "IsRecipe": false
+            },
+            "Kudgel": {
+              "Price": 4000,
+              "AvailableStock": -1,
+              "Condition": "RANDOM 0.5",
+              "Id": "(W)46",
+              "ItemId": "(W)46",
+              "AvoidRepeat": false,
+              "IgnoreShopPriceModifiers": false,
+              "IsRecipe": false
+            },
+            "The Slammer": {
+              "Price": 9000,
+              "AvailableStock": -1,
+              "Condition": "RANDOM 0.4",
+              "Id": "(W)28",
+              "ItemId": "(W)28",
+              "AvoidRepeat": false,
+              "IgnoreShopPriceModifiers": false,
+              "IsRecipe": false
+            },
+            "Dwarf Hammer": {
+              "Price": 80000,
+              "AvailableStock": -1,
+              "Condition": "RANDOM 0.2",
+              "Id": "(W)55",
+              "ItemId": "(W)55",
+              "AvoidRepeat": false,
+              "IgnoreShopPriceModifiers": false,
+              "IsRecipe": false
+            },
+            "Dragontooth Club": {
+              "Price": 85000,
+              "AvailableStock": -1,
+              "Condition": "RANDOM 0.05",
+              "Id": "(W)58",
+              "ItemId": "(W)58",
+              "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": false,
               "IsRecipe": false
             },
             "ResourceRockRecipe": {
-              "Price": 6000,
+              "Price": 25000,
               "AvailableStock": 1,
               "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": true,
@@ -578,7 +713,7 @@
     {
         "Name": "AnyOrNone",
         "ClosedMessage": "{{i18n: blue704.JojaCC_WillysShopClosed}}",
-        "Condition": "!WEATHER Beach Rain, !TIME 1200 1700, !SEASON Winter"
+        "Condition": "ANY \"!TIME 1200 1700, SEASON Winter\" \"WEATHER Beach Rain, !SEASON Winter, !TIME 900 1700\" \"!WEATHER Beach Rain, !SEASON Winter\""
     },
     {
         "Name": "Willy",
@@ -595,6 +730,42 @@
               "RandomItemId": [ "(F)2421", "(F)2427", "(F)2419","(F)2332", "(F)2396", "(F)2418","(F)2732", "(F)2334", "(F)2814","(F)2423", "(F)2425", "(H)78" ],
               "IgnoreShopPriceModifiers": false,
               "AvoidRepeat": true,
+              "IsRecipe": false
+            },
+            {
+              "Price": 5000,
+              "AvailableStock": 10,
+              "AvoidRepeat": false,
+              "IgnoreShopPriceModifiers": false,
+              "Id": "(BC)Adam.Joja_FishSmoker",
+              "ItemId": "(BC)Adam.Joja_FishSmoker",
+              "IsRecipe": false
+            },
+            {
+              "Price": 800,
+              "AvailableStock": 5,
+              "AvoidRepeat": false,
+              "IgnoreShopPriceModifiers": false,
+              "Id": "(BC)Adam.Joja_WormBin",
+              "ItemId": "(BC)Adam.Joja_WormBin",
+              "IsRecipe": false
+            },
+            {
+              "Price": 1200,
+              "AvailableStock": 5,
+              "AvoidRepeat": false,
+              "IgnoreShopPriceModifiers": false,
+              "Id": "(BC)Adam.Joja_ChumMaker",
+              "ItemId": "(BC)Adam.Joja_ChumMaker",
+              "IsRecipe": false
+            },
+            {
+              "Price": 4000,
+              "AvailableStock": 15,
+              "AvoidRepeat": false,
+              "IgnoreShopPriceModifiers": false,
+              "Id": "(BC)Adam.Joja_FishTrap",
+              "ItemId": "(BC)Adam.Joja_FishTrap",
               "IsRecipe": false
             }
           ]
