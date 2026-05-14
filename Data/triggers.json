@@ -15,6 +15,77 @@
         }
           }
           },
+          //Treasure Hunt Sign Changes
+          {
+            "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "TreasureHuntBundle01Complete": {
+          "Id": "TreasureHuntBundle01Complete",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HAS_MAIL any TreasureHuntBundle01Complete received",
+          "Actions": [
+            "AddMail all SignChange1 received"
+          ]
+        }
+          }
+          },
+           {
+            "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "TreasureHuntBundle02Complete": {
+          "Id": "TreasureHuntBundle02Complete",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HAS_MAIL any TreasureHuntBundle02Complete received",
+          "Actions": [
+            "AddMail all SignChange2 received"
+          ]
+        }
+          }
+          },
+          {
+            "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "TreasureHuntBundle03Complete": {
+          "Id": "TreasureHuntBundle03Complete",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HAS_MAIL any TreasureHuntBundle03Complete received",
+          "Actions": [
+            "AddMail all SignChange3 received"
+          ]
+        }
+          }
+          },
+          {
+            "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "TreasureHuntBundle04Complete": {
+          "Id": "TreasureHuntBundle04Complete",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HAS_MAIL any TreasureHuntBundle04Complete received",
+          "Actions": [
+            "AddMail all SignChange4 received"
+          ]
+        }
+          }
+          },
+          {
+            "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "TreasureHuntBundle05Complete": {
+          "Id": "TreasureHuntBundle05Complete",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HAS_MAIL any TreasureHuntBundle05Complete received",
+          "Actions": [
+            "AddMail all SignChange5 received"
+          ]
+        }
+          }
+          },
            {
             //Farmer Bundle Book Cask Mail
       "Action": "EditData",

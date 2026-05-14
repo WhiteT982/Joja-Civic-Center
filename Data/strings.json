@@ -85,7 +85,12 @@
       "LogName": "JojaCC Strings Data",
       "Target": "Strings/StringsFromMaps",
       "Entries": {
-        "TreasureHuntSign": "{{i18n:blue704.JojaCC_TreasureHuntSign}}"
+        "TreasureHuntSign1": "{{i18n:blue704.JojaCC_TreasureHuntSign1}}",
+        "TreasureHuntSign2": "{{i18n:blue704.JojaCC_TreasureHuntSign2}}",
+        "TreasureHuntSign3": "{{i18n:blue704.JojaCC_TreasureHuntSign3}}",
+        "TreasureHuntSign4": "{{i18n:blue704.JojaCC_TreasureHuntSign4}}",
+        "TreasureHuntSign5": "{{i18n:blue704.JojaCC_TreasureHuntSign5}}",
+        "TreasureHuntSign6": "{{i18n:blue704.JojaCC_TreasureHuntSign6}}"
       }
     }
 ]

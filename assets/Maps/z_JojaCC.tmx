@@ -522,7 +522,7 @@
   </object>
   <object id="13" name="TileData" x="496" y="144" width="16" height="16">
    <properties>
-    <property name="Action" value="Message &quot;TreasureHuntSign&quot;"/>
+    <property name="Action" value="Message &quot;TreasureHuntSign1&quot;"/>
    </properties>
   </object>
   <object id="15" name="TileData" x="256" y="96" width="16" height="16">

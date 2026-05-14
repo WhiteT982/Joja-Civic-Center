@@ -214,7 +214,8 @@
 					},
 					"BundleCompletedActions": [
   "AddMail all JojaCC_Year2SeedsJoja received",
-  "AddMail all FirstBundleComplete tomorrow"
+  "AddMail all FirstBundleComplete tomorrow",
+  "spacechase0.SpaceCore_PlayEvent FarmerBundle01Complete true"
 ]
 
 				},
@@ -289,7 +290,7 @@
 						"(O)498": 1
 					},
 					"BundleReward": {
-						"(O)114": 5
+						"(O)114": 1
 					},
 					"BundleCompletedActions": [
   "AddMail all FirstBundleComplete tomorrow"
@@ -316,7 +317,8 @@
 					},
 					"BundleCompletedActions": [
   "AddMail all JojaCC_FertilizerJoja received",
-  "AddMail all FirstBundleComplete tomorrow"
+  "AddMail all FirstBundleComplete tomorrow",
+  "spacechase0.SpaceCore_PlayEvent FarmerBundle05Complete true"
 ]
 				},
 				"blue704.JojaCC_FarmerBundle06": {
@@ -357,8 +359,8 @@
 						"(O)419": 50,
 						"(O)Adam.Joja_Vinegar": 50,
 						"(O)245": 50,
-						"(O)174": 6,
-						"(O)182": 6,
+						"(O)174": 3,
+						"(O)182": 3,
 						"(O)186": 3,
 						"(O)423": 50,
 						"(O)216": 5
@@ -574,156 +576,175 @@
 ]
 				},
 				//Treasure Hunt Bundles
-            "blue704.JojaCC_TreasureHuntBundleBook": {
-					"Location": "JojaCC",
-					"BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundleBook}}",
-					"BundleDescription": "{{i18n: blue704.JojaCC_TreasureHuntBundleAllReward}}",
-					"ShopPosition": "30, 10",
-					"ShopType": "CCBundle",
-					"ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
-					"ShopTextureSource": { "X": 64, "Y": 0, "Width": 16, "Height": 16 },
-					"ShopDrawDimensions": "64, 64",
-					"ShopDrawOffset": "0, 64",
-					"ShopAnimation": "0",
-                    "InstantShopRemoval": false,
-					"ShopCompletedAnimation": "0",
-					"JunimoNoteTexture": "UnlockableBundles/UI/MagicBookJunimoNote_Teal",
-					"IsBook": true,
-					"BundleCompletedActions": [
-  "AddFriendshipPoints Jas 250",
-  "AddFriendshipPoints Vincent 250"
-]
-
-				},
-				"blue704.JojaCC_TreasureHuntBundle01": {
-					"Location": "JojaCC",
-					"BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle01}}",
-                    "ShopPosition": "103, 46",
-                    "PagePackageIndex": 0,
-					"BundleIcon": "Children",
-					"BookId": "blue704.JojaCC_TreasureHuntBundleBook",
-					"ShopType": "CCBundle",
-					"DrawQuestionMark": false, 
-					"BundleSlots": 1,
-					"Price": {
-						"(O)blue704.JojaCC_TreasureHuntTag": 1
+        "blue704.JojaCC_TreasureHuntBundle01": {
+          "Location": "JojaCC",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle01}}",
+		  "BundleIcon": "Children",
+		  "BundleSlots": 1,
+          "ShopPosition": "30, 10",
+		  "SpecialPlacementRequirements":  [],
+		  "InstantShopRemoval": false,
+		  "ShopType": "CCBundle",
+		  "ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
+			"ShopTextureSource": { "X": 64, "Y": 0, "Width": 16, "Height": 16 },
+			"ShopDrawDimensions": "64, 64",
+			"ShopDrawOffset": "0, 64",
+			"ShopAnimation": "0",
+          "Price": {
+			"(O)blue704.JojaCC_TreasureHuntTag": 1
+          },
+		  "BundleReward": {
+			"(BC)BigChest": 1
 					},
-					"BundleReward": {
-						"(BC)BigChest": 1
-					}
+			"BundleCompletedActions": [
+  					"AddMail all TreasureHuntBundle01Complete received"
+					]
 				},
-				"blue704.JojaCC_TreasureHuntBundle02": {
-					"Location": "JojaCC",
-					"BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle02}}",
-                    "ShopPosition": "204, 46",
-					"SpecialPlacementRequirements":  [
-  {
-    "Type": "BundleCompletion",
-    "BundleKey": "blue704.JojaCC_TreasureHuntBundle01"
-  }
-],
-
-                    "PagePackageIndex": 3,
-					"BundleIcon": "Children",
-					"BookId": "blue704.JojaCC_TreasureHuntBundleBook",
-					"ShopType": "CCBundle",
-					"DrawQuestionMark": false, 
-					"BundleSlots": 1,
-					"Price": {
-						"(O)blue704.JojaCC_TreasureHuntTag": 1
+		"blue704.JojaCC_TreasureHuntBundle02": {
+          "Location": "JojaCC",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle02}}",
+		  "BundleIcon": "Children",
+		  "BundleSlots": 1,
+          "ShopPosition": "30, 10",
+		  "SpecialPlacementRequirements":  [
+			{
+    			"Type": "BundleCompletion",
+    			"BundleKey": "blue704.JojaCC_TreasureHuntBundle01"
+  			}
+		  ],
+		  "InstantShopRemoval": false,
+		  "ShopType": "CCBundle",
+		  "ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
+			"ShopTextureSource": { "X": 64, "Y": 0, "Width": 16, "Height": 16 },
+			"ShopDrawDimensions": "64, 64",
+			"ShopDrawOffset": "0, 64",
+			"ShopAnimation": "0",
+          "Price": {
+			"(O)blue704.JojaCC_TreasureHuntTag": 1
+          },
+		  "BundleReward": {
+			"(H)78": 1
 					},
-					"BundleReward": {
-						"(H)78": 1
-					}
+			"BundleCompletedActions": [
+  					"AddMail all TreasureHuntBundle02Complete received"
+					]
 				},
-				"blue704.JojaCC_TreasureHuntBundle03": {
-					"Location": "JojaCC",
-					"BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle03}}",
-                    "ShopPosition": "80, 80",
-					"SpecialPlacementRequirements":  [
-  {
-    "Type": "BundleCompletion",
-    "BundleKey": "blue704.JojaCC_TreasureHuntBundle02"
-  }
-],
-
-                    "PagePackageIndex": 2,
-					"BundleIcon": "Children",
-					"BookId": "blue704.JojaCC_TreasureHuntBundleBook",
-					"ShopType": "CCBundle",
-					"DrawQuestionMark": false, 
-					"BundleSlots": 1,
-					"Price": {
-						"(O)blue704.JojaCC_TreasureHuntTag": 1
+		"blue704.JojaCC_TreasureHuntBundle03": {
+          "Location": "JojaCC",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle03}}",
+		  "BundleIcon": "Children",
+		  "BundleSlots": 1,
+          "ShopPosition": "30, 10",
+		  "SpecialPlacementRequirements":  [
+			{
+    			"Type": "BundleCompletion",
+    			"BundleKey": "blue704.JojaCC_TreasureHuntBundle02"
+  			}
+		  ],
+		  "InstantShopRemoval": false,
+		  "ShopType": "CCBundle",
+		  "ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
+			"ShopTextureSource": { "X": 64, "Y": 0, "Width": 16, "Height": 16 },
+			"ShopDrawDimensions": "64, 64",
+			"ShopDrawOffset": "0, 64",
+			"ShopAnimation": "0",
+          "Price": {
+			"(O)blue704.JojaCC_TreasureHuntTag": 1
+          },
+		  "BundleReward": {
+			"(O)74": 1
 					},
-					"BundleReward": {
-						"(O)74": 1
-				}
-            },
+			"BundleCompletedActions": [
+  					"AddMail all TreasureHuntBundle03Complete received"
+					]
+				},
 				"blue704.JojaCC_TreasureHuntBundle04": {
-					"Location": "JojaCC",
-					"BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle04}}",
-                    "ShopPosition": "222, 80",
-					"SpecialPlacementRequirements":  [
-  {
-    "Type": "BundleCompletion",
-    "BundleKey": "blue704.JojaCC_TreasureHuntBundle03"
-  }
-],
-
-                    "PagePackageIndex": 1,
-					"BundleIcon": "Children",
-					"BookId": "blue704.JojaCC_TreasureHuntBundleBook",
-					"ShopType": "CCBundle",
-					"DrawQuestionMark": false, 
-					"BundleSlots": 1,
-                    "Price": {
-						"(O)blue704.JojaCC_TreasureHuntTag": 1
+          "Location": "JojaCC",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle04}}",
+		  "BundleIcon": "Children",
+		  "BundleSlots": 1,
+          "ShopPosition": "30, 10",
+		  "SpecialPlacementRequirements":  [
+			{
+    			"Type": "BundleCompletion",
+    			"BundleKey": "blue704.JojaCC_TreasureHuntBundle03"
+  			}
+		  ],
+		  "InstantShopRemoval": false,
+		  "ShopType": "CCBundle",
+		  "ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
+			"ShopTextureSource": { "X": 64, "Y": 0, "Width": 16, "Height": 16 },
+			"ShopDrawDimensions": "64, 64",
+			"ShopDrawOffset": "0, 64",
+			"ShopAnimation": "0",
+          "Price": {
+			"(O)blue704.JojaCC_TreasureHuntTag": 1
+          },
+		  "BundleReward": {
+			"(O)859": 1
 					},
-					"BundleReward": {
-						"(O)859": 1
-					}
+			"BundleCompletedActions": [
+  					"AddMail all TreasureHuntBundle04Complete received"
+					]
 				},
-				"blue704.JojaCC_TreasureHuntBundle05": {
-					"Location": "JojaCC",
-					"BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle05}}",
-                    "ShopPosition": "204, 111",
-					"SpecialPlacementRequirements":  [
-  {
-    "Type": "BundleCompletion",
-    "BundleKey": "blue704.JojaCC_TreasureHuntBundle04"
-  }
-],
-
-                    "PagePackageIndex": 6,
-					"BundleIcon": "Children",
-					"BookId": "blue704.JojaCC_TreasureHuntBundleBook",
-					"ShopType": "CCBundle",
-					"DrawQuestionMark": false, 
-					"BundleSlots": 1,
-                    "Price": {
-						"(O)blue704.JojaCC_TreasureHuntTag": 1
+			"blue704.JojaCC_TreasureHuntBundle05": {
+          "Location": "JojaCC",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle05}}",
+		  "BundleIcon": "Children",
+		  "BundleSlots": 1,
+          "ShopPosition": "30, 10",
+		  "SpecialPlacementRequirements":  [
+			{
+    			"Type": "BundleCompletion",
+    			"BundleKey": "blue704.JojaCC_TreasureHuntBundle04"
+  			}
+		  ],
+		  "InstantShopRemoval": false,
+		  "ShopType": "CCBundle",
+		  "ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
+			"ShopTextureSource": { "X": 64, "Y": 0, "Width": 16, "Height": 16 },
+			"ShopDrawDimensions": "64, 64",
+			"ShopDrawOffset": "0, 64",
+			"ShopAnimation": "0",
+          "Price": {
+			"(O)blue704.JojaCC_TreasureHuntTag": 1
+          },
+		  "BundleReward": {
+			"(O)TreasureTotem": 5
 					},
-					"BundleReward": {
-						"(O)TreasureTotem": 5
-					}
+			"BundleCompletedActions": [
+  					"AddMail all TreasureHuntBundle05Complete received"
+					]
 				},
 				"blue704.JojaCC_TreasureHuntBundle06": {
-					"Location": "JojaCC",
-					"BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle06}}",
-                    "ShopPosition": "103, 111",
-                    "PagePackageIndex": 4,
-					"BundleIcon": "Children",
-					"BookId": "blue704.JojaCC_TreasureHuntBundleBook",
-					"ShopType": "CCBundle",
-					"DrawQuestionMark": false, 
-					"BundleSlots": 1,
-                    "Price": {
-						"(O)blue704.JojaCC_GoldenTreasureHuntTag": 1
+          "Location": "JojaCC",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle06}}",
+		  "BundleIcon": "Children",
+		  "BundleSlots": 1,
+          "ShopPosition": "30, 10",
+		  "SpecialPlacementRequirements":  [
+			{
+    			"Type": "BundleCompletion",
+    			"BundleKey": "blue704.JojaCC_TreasureHuntBundle05"
+  			}
+		  ],
+		  "InstantShopRemoval": true,
+		  "ShopType": "CCBundle",
+		  "ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
+			"ShopTextureSource": { "X": 64, "Y": 0, "Width": 16, "Height": 16 },
+			"ShopDrawDimensions": "64, 64",
+			"ShopDrawOffset": "0, 64",
+			"ShopAnimation": "0",
+          "Price": {
+			"(O)blue704.JojaCC_TreasureHuntTag": 1
+          },
+		  "BundleReward": {
+			"(BC)254": 1
 					},
-					"BundleReward": {
-						"(BC)254": 1
-					}
+			"BundleCompletedActions": [
+  					 "AddFriendshipPoints Jas 250",
+  					 "AddFriendshipPoints Vincent 250"
+					]
 				},
 				//Treasure Hunt individual bundles
 		"blue704.JojaCC_TreasureHuntBeach": {
@@ -972,8 +993,8 @@
 					"DrawQuestionMark": false, 
 					"BundleSlots": 4,
 					"Price": {
-						"(O)174": 3,
-						"(O)182": 3,
+						"(O)174": 1,
+						"(O)182": 1,
 						"(O)305": 1,
 						"(O)442": 1
 					},
@@ -1023,15 +1044,9 @@
 						"(O)680": 1
 					},
 					"BundleReward": {
-						"(W)4": 1,
-						"(W)23": 1,
-						"(W)29": 1,
-						"(W)34": 1,
-						"(W)57": 1,
-						"(W)58": 1,
-						"(W)59": 1
-					},
-					"RandomRewardEntries": 1
+						"(B)853": 1,
+						"(O)810": 1
+					}
 				},
 				"blue704.JojaCC_BulletinBoardBundle06": {
 					"Location": "JojaCC",
