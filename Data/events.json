@@ -19,17 +19,17 @@
      {
         "Action": "EditData",
       "LogName": "Joja CC Farmer Bundle 01 Complete Event Data",
-      "Target": "Data/Events/Town",
+      "Target": "Data/Events/JojaCC",
       "Entries": {
-        "FarmerBundle01Complete/GameStateQuery PLAYER_HAS_MAIL current JojaCC_Year2SeedsJoja received": "continue/-2000 -2000/Morris 92 53 1 farmer -100 -100 0/message \"{{i18n:FarmerBundle01Complete.0}}\"/viewport 96 51/addObject 97 52 (F)LargeJojaCrate/fade false/pause 500/skippable/emote Morris 8/pause 800/speak Morris \"{{i18n:FarmerBundle01Complete.1}}\"/pause 300/move Morris 4 0 1/pause 300/shake Morris 800/playSound openBox/pause 300/speak Morris \"{{i18n:FarmerBundle01Complete.2}}\"/pause 500/speak Morris \"{{i18n:FarmerBundle01Complete.3}}\"/pause 500/emote Morris 16/pause 400/speak Morris \"{{i18n:FarmerBundle01Complete.4}}\"/pause 500/end"
+        "FarmerBundle01Complete/GameStateQuery PLAYER_HAS_MAIL current JojaCC_Year2SeedsJoja received": "continue/-2000 -2000/Morris 92 53 1 farmer -100 -100 0/changeLocation Town/message \"{{i18n:FarmerBundle01Complete.0}}\"/viewport 96 51/addObject 97 52 (F)LargeJojaCrate/fade false/pause 500/skippable/emote Morris 8/pause 800/speak Morris \"{{i18n:FarmerBundle01Complete.1}}\"/pause 300/move Morris 4 0 1/pause 300/shake Morris 800/playSound openBox/pause 300/speak Morris \"{{i18n:FarmerBundle01Complete.2}}\"/pause 500/speak Morris \"{{i18n:FarmerBundle01Complete.3}}\"/pause 500/emote Morris 16/pause 400/speak Morris \"{{i18n:FarmerBundle01Complete.4}}\"/pause 500/end"
       }
     },
      {
         "Action": "EditData",
       "LogName": "Joja CC Farmer Bundle 05 Complete Event Data",
-      "Target": "Data/Events/Town",
+      "Target": "Data/Events/JojaCC",
       "Entries": {
-        "FarmerBundle05Complete/GameStateQuery PLAYER_HAS_MAIL current JojaCC_FertilizerJoja received": "continue/-2000 -2000/Morris 92 53 1 farmer -100 -100 0/message \"{{i18n:FarmerBundle05Complete.0}}\"/viewport 96 51/addObject 97 52 (F)LargeJojaCrate/fade false/pause 500/skippable/emote Morris 8/pause 800/speak Morris \"{{i18n:FarmerBundle05Complete.1}}\"/move Morris 1 0 2/pause 400/faceDirection Morris 3/pause 400/faceDirection Morris 1/pause 300/speak Morris \"{{i18n:FarmerBundle05Complete.2}}\"/pause 600/move Morris 3 0 1/pause 300/shake Morris 800/playSound openBox/pause 300/speak Morris \"{{i18n:FarmerBundle05Complete.3}}\"/pause 500/speak Morris \"{{i18n:FarmerBundle05Complete.4}}\"/pause 500/emote Morris 16/pause 400/speak Morris \"{{i18n:FarmerBundle05Complete.5}}\"/pause 500/end"
+        "FarmerBundle05Complete/GameStateQuery PLAYER_HAS_MAIL current JojaCC_FertilizerJoja received": "continue/-2000 -2000/Morris 92 53 1 farmer -100 -100 0/changeLocation Town/message \"{{i18n:FarmerBundle05Complete.0}}\"/viewport 96 51/addObject 97 52 (F)LargeJojaCrate/fade false/pause 500/skippable/emote Morris 8/pause 800/speak Morris \"{{i18n:FarmerBundle05Complete.1}}\"/move Morris 1 0 2/pause 400/faceDirection Morris 3/pause 400/faceDirection Morris 1/pause 300/speak Morris \"{{i18n:FarmerBundle05Complete.2}}\"/pause 600/move Morris 3 0 1/pause 300/shake Morris 800/playSound openBox/pause 300/speak Morris \"{{i18n:FarmerBundle05Complete.3}}\"/pause 500/speak Morris \"{{i18n:FarmerBundle05Complete.4}}\"/pause 500/emote Morris 16/pause 400/speak Morris \"{{i18n:FarmerBundle05Complete.5}}\"/pause 500/end"
       }
     },
      {
