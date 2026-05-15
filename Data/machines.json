@@ -33,7 +33,7 @@
       "Action": "EditData",
       "Target": "Data/CraftingRecipes",
       "Entries": {
-        "blue704.JojaCC_Resources_Stump": "334 2 388 20 92 30/Home/blue704.JojaCC_Resources_Stump/true/"
+        "blue704.JojaCC_Resources_Stump": "709 40 336 10 Moss 10/Home/blue704.JojaCC_Resources_Stump/true/"
       }
     },
     {
@@ -41,7 +41,7 @@
       "Action": "EditData",
       "Target": "Data/CraftingRecipes",
       "Entries": {
-        "blue704.JojaCC_Resources_Rock": "334 2 390 20 382 30/Home/blue704.JojaCC_Resources_Rock/true/"
+        "blue704.JojaCC_Resources_Rock": "910 1 337 5 382 30/Home/blue704.JojaCC_Resources_Rock/true/"
       }
     },
     {
