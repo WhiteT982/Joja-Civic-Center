@@ -246,8 +246,9 @@
               "IsRecipe": false
             },
             {
-              "Price": 5500,
-              "AvailableStock": 10,
+              "Price": 10000,
+              "AvailableStock": 1,
+              "Condition": "DAY_OF_WEEK Sunday",
               "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": false,
               "Id": "(BC)264",
@@ -317,7 +318,7 @@
               "IsRecipe": false
             },
             {
-              "Price": 25000,
+              "Price": 12000,
               "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": true,
               "Id": "(BC)blue704.JojaCC_Resources_Stump(recipe)",
@@ -616,7 +617,7 @@
               "IsRecipe": false
             },
             "ResourceRockRecipe": {
-              "Price": 25000,
+              "Price": 12000,
               "AvailableStock": 1,
               "AvoidRepeat": false,
               "IgnoreShopPriceModifiers": true,
