@@ -143,6 +143,14 @@
       "Entries": {
         "SecondBundleComplete/GameStateQuery PLAYER_HAS_MAIL current SecondBundleCompleteEvent received": "continue/-2000 -2000/Morris 46 13 0 farmer -100 -100 0/pause 500/action UB_PlaceBundle blue704.JojaCC_VaultBundleBook/action UB_PlaceBundle blue704.JojaCC_BulletinBoardBundleBook/message \"{{i18n:SecondBundleComplete.0}}\"/pause 500/changeLocation JojaCC/viewport 46 13 clamp true true/pause 500/skippable/emote Morris 32/pause 500/speak Morris \"{{i18n:SecondBundleComplete.1}}\"/pause 300/emote Morris 32/pause 300/speak Morris \"{{i18n:SecondBundleComplete.2}}\"/pause 300/speak Morris \"{{i18n:SecondBundleComplete.3}}\"/pause 500/move Morris 2 0 1 true/fade/viewport 54 5 clamp true/warp Morris 54 6 true/faceDirection Morris 1 true/pause 300/speak Morris \"{{i18n:SecondBundleComplete.4}}\"/pause 500/speak Morris \"{{i18n:SecondBundleComplete.5}}\"/pause 500/move Morris -2 0 2 true/end"
       }
+    },
+    {
+        "Action": "EditData",
+      "LogName": "Joja Products Bundle Complete Event Data",
+      "Target": "Data/Events/Town",
+      "Entries": {
+        "JojaProductsBundleCompleteEvent/GameStateQuery PLAYER_HAS_MAIL current JojaProductsBundleComplete received/GameStateQuery !PLAYER_HAS_MAIL any Adam.Joja_MachinesPROMail received": "continue/40 37/Morris 40 37 0 farmer 40 35 2/pause 500/skippable/emote Morris 32/pause 500/speak Morris \"{{i18n:JojaProductsBundleCompleteEvent.0}}\"/pause 300/speak Morris \"{{i18n:JojaProductsBundleCompleteEvent.1}}\"/pause 300/emote farmer 8/pause 500/speak Morris \"{{i18n:JojaProductsBundleCompleteEvent.2}}\"/pause 500/speak Morris \"{{i18n:JojaProductsBundleCompleteEvent.3}}\"/pause 300/emote farmer 8/pause 500/speak Morris \"{{i18n:JojaProductsBundleCompleteEvent.4}}\"/pause 300/speak Morris \"{{i18n:JojaProductsBundleCompleteEvent.5}}\"/pause 500/end"
+      }
     }
     ]
 }

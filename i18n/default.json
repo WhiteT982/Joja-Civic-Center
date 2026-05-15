@@ -263,5 +263,11 @@
     "SecondBundleComplete.2": "Now for this bulletin board...#$b#Several of the townsfolk have asked for some rather difficult items and this will be the best place for @ to see what is needed.",
     "SecondBundleComplete.3": "If ${he^she}$ finishes this ${he'll^she'll}$ be the most popular person in town!$h#$b#And now to get the vault ready...",
     "SecondBundleComplete.4": "Mayor Lewis has requested additional funds for the town so I'll just place his ledger book here so that @ can see what's needed.",
-    "SecondBundleComplete.5": "And everyone says that I'm greedy..."
+    "SecondBundleComplete.5": "And everyone says that I'm greedy...",
+    "JojaProductsBundleCompleteEvent.0": "Ah there you are @!$h#$b#I see you just finished the Joja Products bundle.",
+    "JojaProductsBundleCompleteEvent.1": "I bet you're wondering what a Joja Uprgrade Pack is?",
+    "JojaProductsBundleCompleteEvent.2": "They're actually part of a secret project at Joja Co to enhance the already wonderful Joja Machines.$h",
+    "JojaProductsBundleCompleteEvent.3": "You see we haven't even completed the project yet, but be sure to hold onto them.#$b#The last thing Joja needs to finish the project is a large amount of iridium.",
+    "JojaProductsBundleCompleteEvent.4": "Have you not heard of it before?#$b#It's a rare ore that is extremely difficult to find.#$b#If a source is discovered though, I'm sure Joja will put out a special order in order to acquire as much iridium as they can get.",
+    "JojaProductsBundleCompleteEvent.5": "So don't throw away those upgrade packs. I'm sure you'll find a use for them before too long."
 }

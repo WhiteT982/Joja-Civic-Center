@@ -396,7 +396,8 @@
 						"(0)Adam.Joja_UpgradePack": 5
 					},
 					"BundleCompletedActions": [
-  "AddMail all FirstBundleComplete received"
+  "AddMail all FirstBundleComplete received",
+  "AddMail current JojaProductsBundleComplete received"
 ]
 				},
 				//Fisher Bundles
