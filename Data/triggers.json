@@ -86,6 +86,36 @@
         }
           }
           },
+          //First Bundle Complete Event Trigger
+          {
+            "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "FirstBundleCompleteEvent": {
+          "Id": "FirstBundleCompleteEvent",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HAS_MAIL any FirstBundleComplete received",
+          "Actions": [
+            "AddMail all FirstBundleCompleteEvent received"
+          ]
+        }
+          }
+          },
+          //Second Bundle Complete Event Trigger
+          {
+            "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "SecondBundleCompleteEvent": {
+          "Id": "SecondBundleCompleteEvent",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HAS_MAIL any SecondBundleComplete received",
+          "Actions": [
+            "AddMail all SecondBundleCompleteEvent received"
+          ]
+        }
+          }
+          },
            {
             //Farmer Bundle Book Cask Mail
       "Action": "EditData",
@@ -101,6 +131,66 @@
         }
           }
           },
+          //Forager Bundle Book Complete Event Trigger
+          {
+            "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "ForagerBundleBookCompleteEvent": {
+          "Id": "ForagerBundleBookCompleteEvent",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HAS_MAIL any JojaCC_ForagerBundleBookComplete received",
+          "Actions": [
+            "AddMail all ForagerBundleBookCompleteEvent received"
+          ]
+        }
+          }
+          },
+          //Farmer Bundle Book Complete Event Trigger
+          {
+            "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "FarmerBundleBookCompleteEvent": {
+          "Id": "FarmerBundleBookCompleteEvent",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HAS_MAIL any JojaCC_FarmerBundleBookComplete received",
+          "Actions": [
+            "AddMail all FarmerBundleBookCompleteEvent received"
+          ]
+        }
+          }
+          },
+          //Boiler Room Complete Event Trigger
+          {
+            "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "BoilerRoomCompleteEvent": {
+          "Id": "BoilerRoomCompleteEvent",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HAS_MAIL any JojaCC_BoilerRoomComplete received",
+          "Actions": [
+            "AddMail all BoilerRoomCompleteEvent received"
+          ]
+        }
+          }
+          },
+          //Vault Room Complete Prize Machine Trigger
+          {
+            "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "VaultRoomCompletePrizeMachine": {
+          "Id": "VaultRoomCompletePrizeMachine",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HAS_MAIL any JojaCC_GoldenBundleComplete received",
+          "Actions": [
+            "AddMail all VaultRoomCompletePrizeMachine received"
+          ]
+        }
+          }
+          },
           {
             //Dwarf Clears Stones Mail
       "Action": "EditData",
@@ -111,7 +201,7 @@
           "Trigger": "DayEnding",
           "Condition": "PLAYER_HEARTS any Dwarf 3, PLAYER_HAS_SEEN_EVENT any DemetriusHintsatCave2, PLAYER_HAS_SEEN_EVENT any ForagerBundleAreaComplete",
           "Actions": [
-            "AddMail current DwarfClearsStonesMail tomorrow"
+            "AddMail current DwarfClearsStonesMail received"
           ]
         }
           }
@@ -190,6 +280,20 @@
         }
           }
         },
+        {
+            "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "Island Open Mail": {
+          "Id": "IslandOpenMail",
+          "Trigger": "LocationChanged",
+          "Condition": "PLAYER_HAS_MAIL any willyHours mailbox",
+          "Actions": [
+            "AddMail all IslandOpenMail received"
+          ]
+        }
+          }
+          },
         //MultiplayerTriggers
         {
             "Action": "EditData",

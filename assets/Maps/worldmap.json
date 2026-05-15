@@ -162,7 +162,7 @@
       "Target": "Data/WorldMap",
       "TargetField": ["Valley", "MapAreas"],
       "When": {
-        "HasFlag": "BoilerBundleCompleteEventSeen"
+        "HasFlag": "BoilerRoomCompleteEvent"
       },
       "Entries": {
         "blue704.JojaCC_ClintsCave":{
@@ -225,7 +225,7 @@
       "Target": "Data/WorldMap",
       "TargetField": ["Valley", "MapAreas"],
       "When": {
-        "HasFlag": "BoilerBundleCompleteEventSeen"
+        "HasFlag": "BoilerRoomCompleteEvent"
       },
       "Entries": {
         "blue704.JojaCC_ClintsCave2":{

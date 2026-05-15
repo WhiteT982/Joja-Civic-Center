@@ -1671,7 +1671,7 @@
     //Add Prize Machine when Golden Bundle Complete
     {
       "When": {
-        "HasFlag": "JojaCC_GoldenBundleComplete"
+        "HasFlag": "VaultRoomCompletePrizeMachine"
       },
       "Action": "EditMap",
       "Target": "Maps/JojaCC",
