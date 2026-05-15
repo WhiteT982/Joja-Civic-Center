@@ -369,6 +369,13 @@
             "Target": "Maps/ClintsCave",
             "MapTiles": [
                 {
+                    "Position": { "X": 71, "Y": 9 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Warp 29 51 ClintsCave2"
+                    }
+                },
+                {
                     "Position": { "X": 70, "Y": 8 },
                     "Layer": "Buildings",
                     "Remove": true
