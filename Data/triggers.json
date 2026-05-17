@@ -191,6 +191,35 @@
         }
           }
           },
+          //Island S Map Changes
+          {
+            "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "IslandSWreckedShip": {
+          "Id": "IslandSWreckedShip",
+          "Trigger": "DayStarted",
+          "Condition": "ANY !IS_COMMUNITY_CENTER_COMPLETE !IS_JOJA_MART_COMPLETE",
+          "Actions": [
+            "AddMail all IslandSWreckedShip received"
+          ]
+        }
+          }
+          },
+          {
+            "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "IslandSWreckedShipGone": {
+          "Id": "IslandSWreckedShipGone",
+          "Trigger": "LocationChanged",
+          "Condition": "PLAYER_HAS_MAIL any willyHours mailbox",
+          "Actions": [
+            "RemoveMail all IslandSWreckedShip all"
+          ]
+        }
+          }
+          },
           {
             //Dwarf Clears Stones Mail
       "Action": "EditData",
@@ -280,20 +309,6 @@
         }
           }
         },
-        {
-            "Action": "EditData",
-      "Target": "Data/TriggerActions",
-      "Entries": {
-        "Island Open Mail": {
-          "Id": "IslandOpenMail",
-          "Trigger": "LocationChanged",
-          "Condition": "PLAYER_HAS_MAIL any willyHours mailbox",
-          "Actions": [
-            "AddMail all IslandOpenMail received"
-          ]
-        }
-          }
-          },
         //MultiplayerTriggers
         {
             "Action": "EditData",

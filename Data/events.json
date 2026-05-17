@@ -151,6 +151,14 @@
       "Entries": {
         "JojaProductsBundleCompleteEvent/GameStateQuery PLAYER_HAS_MAIL current JojaProductsBundleComplete received/GameStateQuery !PLAYER_HAS_MAIL any Adam.Joja_MachinesPROMail received": "continue/40 37/Morris 40 37 0 farmer 40 35 2/pause 500/skippable/emote Morris 32/pause 500/speak Morris \"{{i18n:JojaProductsBundleCompleteEvent.0}}\"/pause 300/speak Morris \"{{i18n:JojaProductsBundleCompleteEvent.1}}\"/pause 300/emote farmer 8/pause 500/speak Morris \"{{i18n:JojaProductsBundleCompleteEvent.2}}\"/pause 500/speak Morris \"{{i18n:JojaProductsBundleCompleteEvent.3}}\"/pause 300/emote farmer 8/pause 500/speak Morris \"{{i18n:JojaProductsBundleCompleteEvent.4}}\"/pause 300/speak Morris \"{{i18n:JojaProductsBundleCompleteEvent.5}}\"/pause 500/end"
       }
+    },
+    {
+        "Action": "EditData",
+      "LogName": "Island S Wrecked Ship Gone Event Data",
+      "Target": "Data/Events/IslandSouth",
+      "Entries": {
+        "IslandSWreckedShipGoneEvent/GameStateQuery !PLAYER_HAS_MAIL current IslandSWreckedShip received/GameStateQuery PLAYER_VISITED_LOCATION IslandEast": "continue/21 39/Willy 21 39 0 farmer 21 37 0/pause 500/skippable/emote farmer 16/pause 200/faceDirection farmer 2/pause 300/emote Willy 32/pause 500/speak Willy \"{{i18n:IslandSWreckedShipGoneEvent.0}}\"/pause 500/speak Willy \"{{i18n:IslandSWreckedShipGoneEvent.1}}\"/pause 300/emote Willy 60/pause 500/speak Willy \"{{i18n:IslandSWreckedShipGoneEvent.2}}\"/pause 300/emote farmer 32/pause 500/speak Willy \"{{i18n:IslandSWreckedShipGoneEvent.3}}\"/pause 300/emote farmer 20/pause 500/speak Willy \"{{i18n:IslandSWreckedShipGoneEvent.4}}\"/emote Willy 24/pause 500/end"
+      }
     }
     ]
 }

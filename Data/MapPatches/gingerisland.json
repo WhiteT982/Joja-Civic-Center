@@ -1,0 +1,14 @@
+{
+    "Changes": [
+        //Load JojaCC and Location
+    {
+        "When": {
+            "HasFlag": "IslandSWreckedShip"
+        },
+      "Action": "Load",
+      "Target": "Maps/Island_S",
+      "FromFile": "assets/Maps/z_Island_S.tmx",
+      "Priority": "Low"
+    }
+]
+}

@@ -269,5 +269,10 @@
     "JojaProductsBundleCompleteEvent.2": "They're actually part of a secret project at Joja Co to enhance the already wonderful Joja Machines.$h",
     "JojaProductsBundleCompleteEvent.3": "You see we haven't even completed the project yet, but be sure to hold onto them.#$b#The last thing Joja needs to finish the project is a large amount of iridium.",
     "JojaProductsBundleCompleteEvent.4": "Have you not heard of it before?#$b#It's a rare ore that is extremely difficult to find.#$b#If a source is discovered though, I'm sure Joja will put out a special order in order to acquire as much iridium as they can get.",
-    "JojaProductsBundleCompleteEvent.5": "So don't throw away those upgrade packs. I'm sure you'll find a use for them before too long."
+    "JojaProductsBundleCompleteEvent.5": "So don't throw away those upgrade packs. I'm sure you'll find a use for them before too long.",
+    "IslandSWreckedShipGoneEvent.0": "I'll bet you're wonderin' where those old ships went?",
+    "IslandSWreckedShipGoneEvent.1": "Well me and Robin finally got the ol' boat put back together the other night, and I thought we should take it out for a little spin.$h#$b#I mean it took a lot of work to get her seaworthy again so I thought we'd stop by Ginger Island here before headin' home.",
+    "IslandSWreckedShipGoneEvent.2": "Well you can imagine how surprised we were to see the wrecked ships.#$b#I wanted to call it a night but Robin wouldn't have it!$3",
+    "IslandSWreckedShipGoneEvent.3": "She said you had done so much for Pelican Town that we owed it to you to clear everything off.#$b#So we stayed to clear out the junk and fix the ol' dock.$h",
+    "IslandSWreckedShipGoneEvent.4": "Well it's all yours now @! Go and see what there is to see!$h#$b#I'm goin' to take a nap. Yawn...."
 }
