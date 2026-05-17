@@ -172,7 +172,7 @@
           "ItemId": "(O)920"
         },
         "Tree Fertilizer": {
-          "Price": 75,
+          "Price": 300,
           "AvailableStock": 50,
           "AvoidRepeat": false,
           "IgnoreShopPriceModifiers": true,
