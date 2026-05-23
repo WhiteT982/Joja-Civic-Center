@@ -8,6 +8,22 @@
         "Joja"
       ],
       "Entries": {
+        "PriceModifiers": [
+      {
+        "Id": "NonMemberMarkup",
+        "Condition": "!PLAYER_HAS_MAIL Current JojaMember",
+        "Modification": "Multiply",
+        "Amount": 1.25,
+        "RandomAmount": null
+      },
+      {
+        "Id": "JojaCCcompleteDiscount",
+        "Condition": "PLAYER_HAS_CONVERSATION_TOPIC any JojaCCcompleteDiscount",
+        "Modification": "Multiply",
+        "Amount": 0.5,
+        "RandomAmount": null
+      }
+    ],
         "SalableItemTags": [
       "category_greens",
       "category_vegetable",

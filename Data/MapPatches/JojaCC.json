@@ -8,6 +8,12 @@
       "Priority": "Low"
     },
     {
+      "Action": "Load",
+      "Target": "Maps/JojaCCEvent",
+      "FromFile": "assets/Maps/z_JojaCCEvent.tmx",
+      "Priority": "Low"
+    },
+    {
       "LogName": "Add JojaCC Map To Locations",
       "Action": "EditData",
       "Target": "Data/Locations",
@@ -1558,87 +1564,6 @@
                 }
             ]
         },
-        //Treasure Hunt Sign Changes
-        {
-      "When": {
-        "HasFlag": "SignChange1"
-      },
-      "Action": "EditMap",
-      "Target": "Maps/JojaCC",
-      "MapTiles": [
-                {
-                    "Position": { "X": 31, "Y": 9 },
-                    "Layer": "Buildings",
-                    "SetProperties": {
-                        "Action": "Message TreasureHuntSign2"
-                    }
-                }
-            ]
-    },
-    {
-      "When": {
-        "HasFlag": "SignChange2"
-      },
-      "Action": "EditMap",
-      "Target": "Maps/JojaCC",
-      "MapTiles": [
-                {
-                    "Position": { "X": 31, "Y": 9 },
-                    "Layer": "Buildings",
-                    "SetProperties": {
-                        "Action": "Message TreasureHuntSign3"
-                    }
-                }
-            ]
-    },
-    {
-      "When": {
-        "HasFlag": "SignChange3"
-      },
-      "Action": "EditMap",
-      "Target": "Maps/JojaCC",
-      "MapTiles": [
-                {
-                    "Position": { "X": 31, "Y": 9 },
-                    "Layer": "Buildings",
-                    "SetProperties": {
-                        "Action": "Message TreasureHuntSign4"
-                    }
-                }
-            ]
-    },
-    {
-      "When": {
-        "HasFlag": "SignChange4"
-      },
-      "Action": "EditMap",
-      "Target": "Maps/JojaCC",
-      "MapTiles": [
-                {
-                    "Position": { "X": 31, "Y": 9 },
-                    "Layer": "Buildings",
-                    "SetProperties": {
-                        "Action": "Message TreasureHuntSign5"
-                    }
-                }
-            ]
-    },
-    {
-      "When": {
-        "HasFlag": "SignChange5"
-      },
-      "Action": "EditMap",
-      "Target": "Maps/JojaCC",
-      "MapTiles": [
-                {
-                    "Position": { "X": 31, "Y": 9 },
-                    "Layer": "Buildings",
-                    "SetProperties": {
-                        "Action": "Message TreasureHuntSign6"
-                    }
-                }
-            ]
-    },
         //Treasure Hunt Complete Sign Removal
         {
       "When": {
