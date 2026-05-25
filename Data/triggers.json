@@ -15,17 +15,108 @@
         }
           }
           },
+          //Treasure Hunt Bundle Randomization
+          {
+            "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "RandomizeTHbundles": {
+          "Id": "RandomizeTHbundles",
+          "Trigger": "DayEnding",
+          "Condition": "DAYS_PLAYED 1",
+          "Actions": [
+            "AddMail host RandomizeTHbundles received"
+          ]
+        }
+          }
+          },
+          {
+      "Action": "EditData",
+      "Priority": "Late",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "RandomizeTHbundlesFlagRemoval": {
+          "Id": "RandomizeTHbundlesFlagRemoval",
+          "Trigger": "DayEnding",
+          "Condition": "ANY \"PLAYER_HAS_MAIL any AddTHbundle1 received\" \"PLAYER_HAS_MAIL any AddTHbundleA received\" \"PLAYER_HAS_MAIL any AddTHbundle7 received\" \"PLAYER_HAS_MAIL any AddTHbundle13 received\" \"PLAYER_HAS_MAIL any AddTHbundle19 received\"",
+          "Actions": [
+            "RemoveMail host RandomizeTHbundles all"
+          ]
+        }
+          }
+          },
           //Treasure Hunt Sign Changes
           {
             "Action": "EditData",
       "Target": "Data/TriggerActions",
       "Entries": {
-        "TreasureHuntBundle01Complete": {
-          "Id": "TreasureHuntBundle01Complete",
+        "TreasureHuntBundle01CompleteSign2": {
+          "Id": "TreasureHuntBundle01CompleteSign2",
           "Trigger": "DayEnding",
-          "Condition": "PLAYER_HAS_MAIL any TreasureHuntBundle01Complete received",
+          "Condition": "PLAYER_HAS_MAIL any TreasureHuntBundle01Complete received, PLAYER_HAS_MAIL any AddTHbundle2 received",
           "Actions": [
-            "AddMail all SignChange1 received"
+            "AddMail all SignChange2 received",
+            "AddMail all SetTHbundle02 received"
+          ]
+        }
+          }
+          },
+          {
+            "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "TreasureHuntBundle01CompleteSign8": {
+          "Id": "TreasureHuntBundle01CompleteSign8",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HAS_MAIL any TreasureHuntBundle01Complete received, PLAYER_HAS_MAIL any AddTHbundle8 received",
+          "Actions": [
+            "AddMail all SignChange8 received",
+            "AddMail all SetTHbundle02 received"
+          ]
+        }
+          }
+          },
+          {
+            "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "TreasureHuntBundle01CompleteSignB": {
+          "Id": "TreasureHuntBundle01CompleteSignB",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HAS_MAIL any TreasureHuntBundle01Complete received, PLAYER_HAS_MAIL any AddTHbundleB received",
+          "Actions": [
+            "AddMail all SignChangeB received",
+            "AddMail all SetTHbundle02 received"
+          ]
+        }
+          }
+          },
+          {
+            "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "TreasureHuntBundle01CompleteSign14": {
+          "Id": "TreasureHuntBundle01CompleteSign14",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HAS_MAIL any TreasureHuntBundle01Complete received, PLAYER_HAS_MAIL any AddTHbundle14 received",
+          "Actions": [
+            "AddMail all SignChange14 received",
+            "AddMail all SetTHbundle02 received"
+          ]
+        }
+          }
+          },
+          {
+            "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "TreasureHuntBundle01CompleteSign20": {
+          "Id": "TreasureHuntBundle01CompleteSign20",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HAS_MAIL any TreasureHuntBundle01Complete received, PLAYER_HAS_MAIL any AddTHbundle20 received",
+          "Actions": [
+            "AddMail all SignChange20 received",
+            "AddMail all SetTHbundle02 received"
           ]
         }
           }
@@ -34,12 +125,13 @@
             "Action": "EditData",
       "Target": "Data/TriggerActions",
       "Entries": {
-        "TreasureHuntBundle02Complete": {
-          "Id": "TreasureHuntBundle02Complete",
+        "TreasureHuntBundle02CompleteSignChange3": {
+          "Id": "TreasureHuntBundle02CompleteSignChange3",
           "Trigger": "DayEnding",
-          "Condition": "PLAYER_HAS_MAIL any TreasureHuntBundle02Complete received",
+          "Condition": "PLAYER_HAS_MAIL any TreasureHuntBundle02Complete received, PLAYER_HAS_MAIL any AddTHbundle3 received",
           "Actions": [
-            "AddMail all SignChange2 received"
+            "AddMail all SignChange3 received",
+            "AddMail all SetTHbundle03 received"
           ]
         }
           }
@@ -48,12 +140,13 @@
             "Action": "EditData",
       "Target": "Data/TriggerActions",
       "Entries": {
-        "TreasureHuntBundle03Complete": {
-          "Id": "TreasureHuntBundle03Complete",
+        "TreasureHuntBundle02CompleteSignChangeC": {
+          "Id": "TreasureHuntBundle02CompleteSignChangeC",
           "Trigger": "DayEnding",
-          "Condition": "PLAYER_HAS_MAIL any TreasureHuntBundle03Complete received",
+          "Condition": "PLAYER_HAS_MAIL any TreasureHuntBundle02Complete received, PLAYER_HAS_MAIL any AddTHbundleC received",
           "Actions": [
-            "AddMail all SignChange3 received"
+            "AddMail all SignChangeC received",
+            "AddMail all SetTHbundle03 received"
           ]
         }
           }
@@ -62,12 +155,13 @@
             "Action": "EditData",
       "Target": "Data/TriggerActions",
       "Entries": {
-        "TreasureHuntBundle04Complete": {
-          "Id": "TreasureHuntBundle04Complete",
+        "TreasureHuntBundle02CompleteSignChange9": {
+          "Id": "TreasureHuntBundle02CompleteSignChange9",
           "Trigger": "DayEnding",
-          "Condition": "PLAYER_HAS_MAIL any TreasureHuntBundle04Complete received",
+          "Condition": "PLAYER_HAS_MAIL any TreasureHuntBundle02Complete received, PLAYER_HAS_MAIL any AddTHbundle9 received",
           "Actions": [
-            "AddMail all SignChange4 received"
+            "AddMail all SignChange9 received",
+            "AddMail all SetTHbundle03 received"
           ]
         }
           }
@@ -76,12 +170,253 @@
             "Action": "EditData",
       "Target": "Data/TriggerActions",
       "Entries": {
-        "TreasureHuntBundle05Complete": {
-          "Id": "TreasureHuntBundle05Complete",
+        "TreasureHuntBundle02CompleteSignChange15": {
+          "Id": "TreasureHuntBundle02CompleteSignChange15",
           "Trigger": "DayEnding",
-          "Condition": "PLAYER_HAS_MAIL any TreasureHuntBundle05Complete received",
+          "Condition": "PLAYER_HAS_MAIL any TreasureHuntBundle02Complete received, PLAYER_HAS_MAIL any AddTHbundle15 received",
           "Actions": [
-            "AddMail all SignChange5 received"
+            "AddMail all SignChange15 received",
+            "AddMail all SetTHbundle03 received"
+          ]
+        }
+          }
+          },
+          {
+            "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "TreasureHuntBundle02CompleteSignChange21": {
+          "Id": "TreasureHuntBundle02CompleteSignChange21",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HAS_MAIL any TreasureHuntBundle02Complete received, PLAYER_HAS_MAIL any AddTHbundle21 received",
+          "Actions": [
+            "AddMail all SignChange21 received",
+            "AddMail all SetTHbundle03 received"
+          ]
+        }
+          }
+          },
+          {
+            "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "TreasureHuntBundle03CompleteSignChange4": {
+          "Id": "TreasureHuntBundle03CompleteSignChange4",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HAS_MAIL any TreasureHuntBundle03Complete received, PLAYER_HAS_MAIL any AddTHbundle4 received",
+          "Actions": [
+            "AddMail all SignChange4 received",
+            "AddMail all SetTHbundle04 received"
+          ]
+        }
+          }
+          },
+          {
+            "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "TreasureHuntBundle03CompleteSignChangeD": {
+          "Id": "TreasureHuntBundle03CompleteSignChangeD",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HAS_MAIL any TreasureHuntBundle03Complete received, PLAYER_HAS_MAIL any AddTHbundleD received",
+          "Actions": [
+            "AddMail all SignChangeD received",
+            "AddMail all SetTHbundle04 received"
+          ]
+        }
+          }
+          },
+          {
+            "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "TreasureHuntBundle03CompleteSignChange10": {
+          "Id": "TreasureHuntBundle03CompleteSignChange10",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HAS_MAIL any TreasureHuntBundle03Complete received, PLAYER_HAS_MAIL any AddTHbundle10 received",
+          "Actions": [
+            "AddMail all SignChange10 received",
+            "AddMail all SetTHbundle04 received"
+          ]
+        }
+          }
+          },
+          {
+            "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "TreasureHuntBundle03CompleteSignChange16": {
+          "Id": "TreasureHuntBundle03CompleteSignChange16",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HAS_MAIL any TreasureHuntBundle03Complete received, PLAYER_HAS_MAIL any AddTHbundle16 received",
+          "Actions": [
+            "AddMail all SignChange16 received",
+            "AddMail all SetTHbundle04 received"
+          ]
+        }
+          }
+          },
+          {
+            "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "TreasureHuntBundle03CompleteSignChange22": {
+          "Id": "TreasureHuntBundle03CompleteSignChange22",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HAS_MAIL any TreasureHuntBundle03Complete received, PLAYER_HAS_MAIL any AddTHbundle22 received",
+          "Actions": [
+            "AddMail all SignChange22 received",
+            "AddMail all SetTHbundle04 received"
+          ]
+        }
+          }
+          },
+          {
+            "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "TreasureHuntBundle04CompleteSignChange5": {
+          "Id": "TreasureHuntBundle04CompleteSignChange5",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HAS_MAIL any TreasureHuntBundle04Complete received, PLAYER_HAS_MAIL any AddTHbundle5 received",
+          "Actions": [
+            "AddMail all SignChange5 received",
+            "AddMail all SetTHbundle05 received"
+          ]
+        }
+          }
+          },
+          {
+            "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "TreasureHuntBundle04CompleteSignChangeE": {
+          "Id": "TreasureHuntBundle04CompleteSignChangeE",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HAS_MAIL any TreasureHuntBundle04Complete received, PLAYER_HAS_MAIL any AddTHbundleE received",
+          "Actions": [
+            "AddMail all SignChangeE received",
+            "AddMail all SetTHbundle05 received"
+          ]
+        }
+          }
+          },
+          {
+            "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "TreasureHuntBundle04CompleteSignChange11": {
+          "Id": "TreasureHuntBundle04CompleteSignChange11",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HAS_MAIL any TreasureHuntBundle04Complete received, PLAYER_HAS_MAIL any AddTHbundle11 received",
+          "Actions": [
+            "AddMail all SignChange11 received",
+            "AddMail all SetTHbundle05 received"
+          ]
+        }
+          }
+          },
+          {
+            "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "TreasureHuntBundle04CompleteSignChange17": {
+          "Id": "TreasureHuntBundle04CompleteSignChange17",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HAS_MAIL any TreasureHuntBundle04Complete received, PLAYER_HAS_MAIL any AddTHbundle17 received",
+          "Actions": [
+            "AddMail all SignChange17 received",
+            "AddMail all SetTHbundle05 received"
+          ]
+        }
+          }
+          },
+          {
+            "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "TreasureHuntBundle04CompleteSignChange23": {
+          "Id": "TreasureHuntBundle04CompleteSignChange23",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HAS_MAIL any TreasureHuntBundle04Complete received, PLAYER_HAS_MAIL any AddTHbundle23 received",
+          "Actions": [
+            "AddMail all SignChange23 received",
+            "AddMail all SetTHbundle05 received"
+          ]
+        }
+          }
+          },
+          {
+            "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "TreasureHuntBundle05CompleteSignChange6": {
+          "Id": "TreasureHuntBundle05CompleteSignChange6",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HAS_MAIL any TreasureHuntBundle05Complete received, PLAYER_HAS_MAIL any AddTHbundle6 received",
+          "Actions": [
+            "AddMail all SignChange6 received",
+            "AddMail all SetTHbundle06 received"
+          ]
+        }
+          }
+          },
+          {
+            "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "TreasureHuntBundle05CompleteSignChangeF": {
+          "Id": "TreasureHuntBundle05CompleteSignChangeF",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HAS_MAIL any TreasureHuntBundle05Complete received, PLAYER_HAS_MAIL any AddTHbundleF received",
+          "Actions": [
+            "AddMail all SignChangeF received",
+            "AddMail all SetTHbundle06 received"
+          ]
+        }
+          }
+          },
+          {
+            "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "TreasureHuntBundle05CompleteSignChange12": {
+          "Id": "TreasureHuntBundle05CompleteSignChange12",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HAS_MAIL any TreasureHuntBundle05Complete received, PLAYER_HAS_MAIL any AddTHbundle12 received",
+          "Actions": [
+            "AddMail all SignChange12 received",
+            "AddMail all SetTHbundle06 received"
+          ]
+        }
+          }
+          },
+          {
+            "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "TreasureHuntBundle05CompleteSignChange18": {
+          "Id": "TreasureHuntBundle05CompleteSignChange18",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HAS_MAIL any TreasureHuntBundle05Complete received, PLAYER_HAS_MAIL any AddTHbundle18 received",
+          "Actions": [
+            "AddMail all SignChange18 received",
+            "AddMail all SetTHbundle06 received"
+          ]
+        }
+          }
+          },
+          {
+            "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "TreasureHuntBundle05CompleteSignChange24": {
+          "Id": "TreasureHuntBundle05CompleteSignChange24",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HAS_MAIL any TreasureHuntBundle05Complete received, PLAYER_HAS_MAIL any AddTHbundle24 received",
+          "Actions": [
+            "AddMail all SignChange24 received",
+            "AddMail all SetTHbundle06 received"
           ]
         }
           }
@@ -376,7 +711,7 @@
           "Actions": [
             "AddMail all JojaCC_GoldenBundleComplete received"
           ]
-        },
+        }
           }
         }
           ]

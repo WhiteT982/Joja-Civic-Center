@@ -1,0 +1,18 @@
+{
+    "Changes":[
+        {
+        "Action": "EditData",
+        "Target": "Data/TriggerActions",
+        "Entries": {
+        "AddTHbundle21": {
+          "Id": "AddTHbundle21",
+          "Trigger": "DayEnding",
+          "Condition": "DAYS_PLAYED 1",
+          "Actions": [
+            "AddMail all AddTHbundle21 received"
+          ]
+        }
+          }
+          }
+        ]
+    }

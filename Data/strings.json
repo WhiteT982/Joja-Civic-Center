@@ -86,11 +86,35 @@
       "Target": "Strings/StringsFromMaps",
       "Entries": {
         "TreasureHuntSign1": "{{i18n:blue704.JojaCC_TreasureHuntSign1}}",
+        "TreasureHuntSignA": "{{i18n:blue704.JojaCC_TreasureHuntSignA}}",
+        "TreasureHuntSign7": "{{i18n:blue704.JojaCC_TreasureHuntSign7}}",
+        "TreasureHuntSign13": "{{i18n:blue704.JojaCC_TreasureHuntSign13}}",
+        "TreasureHuntSign19": "{{i18n:blue704.JojaCC_TreasureHuntSign19}}",
         "TreasureHuntSign2": "{{i18n:blue704.JojaCC_TreasureHuntSign2}}",
+        "TreasureHuntSign8": "{{i18n:blue704.JojaCC_TreasureHuntSign8}}",
+        "TreasureHuntSign14": "{{i18n:blue704.JojaCC_TreasureHuntSign14}}",
+        "TreasureHuntSign20": "{{i18n:blue704.JojaCC_TreasureHuntSign20}}",
+        "TreasureHuntSignB": "{{i18n:blue704.JojaCC_TreasureHuntSignB}}",
         "TreasureHuntSign3": "{{i18n:blue704.JojaCC_TreasureHuntSign3}}",
+        "TreasureHuntSignC": "{{i18n:blue704.JojaCC_TreasureHuntSignC}}",
+        "TreasureHuntSign9": "{{i18n:blue704.JojaCC_TreasureHuntSign9}}",
+        "TreasureHuntSign15": "{{i18n:blue704.JojaCC_TreasureHuntSign15}}",
+        "TreasureHuntSign21": "{{i18n:blue704.JojaCC_TreasureHuntSign21}}",
         "TreasureHuntSign4": "{{i18n:blue704.JojaCC_TreasureHuntSign4}}",
+        "TreasureHuntSignD": "{{i18n:blue704.JojaCC_TreasureHuntSignD}}",
+        "TreasureHuntSign10": "{{i18n:blue704.JojaCC_TreasureHuntSign10}}",
+        "TreasureHuntSign16": "{{i18n:blue704.JojaCC_TreasureHuntSign16}}",
+        "TreasureHuntSign22": "{{i18n:blue704.JojaCC_TreasureHuntSign22}}",
         "TreasureHuntSign5": "{{i18n:blue704.JojaCC_TreasureHuntSign5}}",
-        "TreasureHuntSign6": "{{i18n:blue704.JojaCC_TreasureHuntSign6}}"
+        "TreasureHuntSignE": "{{i18n:blue704.JojaCC_TreasureHuntSignE}}",
+        "TreasureHuntSign11": "{{i18n:blue704.JojaCC_TreasureHuntSign11}}",
+        "TreasureHuntSign17": "{{i18n:blue704.JojaCC_TreasureHuntSign17}}",
+        "TreasureHuntSign23": "{{i18n:blue704.JojaCC_TreasureHuntSign23}}",
+        "TreasureHuntSign6": "{{i18n:blue704.JojaCC_TreasureHuntSign6}}",
+        "TreasureHuntSignF": "{{i18n:blue704.JojaCC_TreasureHuntSignF}}",
+        "TreasureHuntSign12": "{{i18n:blue704.JojaCC_TreasureHuntSign12}}",
+        "TreasureHuntSign18": "{{i18n:blue704.JojaCC_TreasureHuntSign18}}",
+        "TreasureHuntSign24": "{{i18n:blue704.JojaCC_TreasureHuntSign24}}"
       }
     }
 ]

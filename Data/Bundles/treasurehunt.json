@@ -1,0 +1,2797 @@
+{
+    "Changes": [
+        //TH Bundle 1
+        {
+            "LogName": "Joja CC Treasure Hunt 1",
+			"Action": "EditData",
+            "When": {
+                "HasFlag": "AddTHbundle1"
+            },
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
+                "blue704.JojaCC_TreasureHuntBundle01": {
+          "Location": "JojaCC",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle01}}",
+		  "BundleIcon": "Children",
+		  "BundleSlots": 1,
+          "ShopPosition": "30, 10",
+		  "SpecialPlacementRequirements":  [],
+		  "InstantShopRemoval": false,
+		  "ShopType": "CCBundle",
+		  "ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
+			"ShopTextureSource": { "X": 64, "Y": 0, "Width": 16, "Height": 16 },
+			"ShopDrawDimensions": "64, 64",
+			"ShopDrawOffset": "0, 64",
+			"ShopAnimation": "0",
+          "Price": {
+			"(O)blue704.JojaCC_TreasureHuntTag": 1
+          },
+		  "BundleReward": {
+			"(BC)BigChest": 1,
+      "(BC)BigStoneChest": 1
+					},
+          "RandomRewardEntries": 1,
+			"BundleCompletedActions": [
+  					"AddMail all TreasureHuntBundle01Complete received"
+					]
+				},
+                "blue704.JojaCC_TreasureHuntBeach": {
+          "Location": "Beach",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle01}}",
+		  "BundleIcon": "Treasure_Hunter",
+		  "BundleSlots": 1,
+          "ShopPosition": "45, 23",
+		  "SpecialPlacementRequirements":  [
+  {
+    "Type": "GameStateQuery",
+    "Condition": "PLAYER_HAS_SEEN_EVENT any TreasureHuntBundleStart"
+  }
+],
+		  "InstantShopRemoval": true,
+		  "ShopType": "CCBundle",
+          "Price": {
+			"(O)80": 1,
+      "(O)18": 1,
+      "(O)344": 1,
+      "(O)86": 1
+          },
+      "RandomPriceEntries": 1,
+		  "BundleReward": {
+						"(0)blue704.JojaCC_TreasureHuntTag": 1
+					}
+        }
+    }
+},
+{
+      "When": {
+                "HasFlag": "AddTHbundle1",
+                "HasFlag: anyPlayer|contains=TreasureHuntComplete": false
+            },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "MapTiles": [
+                {
+                    "Position": { "X": 31, "Y": 9 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message TreasureHuntSign1"
+                    }
+                }
+            ]
+    },
+    //TH Bundle 7
+        {
+            "LogName": "Joja CC Treasure Hunt 7",
+			"Action": "EditData",
+            "When": {
+                "HasFlag": "AddTHbundle7"
+            },
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
+                "blue704.JojaCC_TreasureHuntBundle01": {
+          "Location": "JojaCC",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle07}}",
+		  "BundleIcon": "Children",
+		  "BundleSlots": 1,
+          "ShopPosition": "30, 10",
+		  "SpecialPlacementRequirements":  [],
+		  "InstantShopRemoval": false,
+		  "ShopType": "CCBundle",
+		  "ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
+			"ShopTextureSource": { "X": 64, "Y": 0, "Width": 16, "Height": 16 },
+			"ShopDrawDimensions": "64, 64",
+			"ShopDrawOffset": "0, 64",
+			"ShopAnimation": "0",
+          "Price": {
+			"(O)blue704.JojaCC_TreasureHuntTag": 1
+          },
+		  "BundleReward": {
+			"(BC)BigChest": 1,
+      "(BC)BigStoneChest": 1
+					},
+          "RandomRewardEntries": 1,
+			"BundleCompletedActions": [
+  					"AddMail all TreasureHuntBundle01Complete received"
+					]
+				},
+                "blue704.JojaCC_TreasureHuntGraveyard": {
+          "Location": "Town",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle07}}",
+		  "BundleIcon": "Treasure_Hunter",
+		  "BundleSlots": 1,
+          "ShopPosition": "41, 88",
+		  "SpecialPlacementRequirements":  [
+  {
+    "Type": "GameStateQuery",
+    "Condition": "PLAYER_HAS_SEEN_EVENT any TreasureHuntBundleStart"
+  }
+],
+		  "InstantShopRemoval": true,
+		  "ShopType": "CCBundle",
+          "Price": {
+			"(O)80": 1,
+      "(O)18": 1,
+      "(O)344": 1,
+      "(O)86": 1
+          },
+      "RandomPriceEntries": 1,
+		  "BundleReward": {
+						"(0)blue704.JojaCC_TreasureHuntTag": 1
+					}
+        }
+    }
+},
+{
+      "When": {
+                "HasFlag": "AddTHbundle7",
+                "HasFlag: anyPlayer|contains=TreasureHuntComplete": false
+            },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "MapTiles": [
+                {
+                    "Position": { "X": 31, "Y": 9 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message TreasureHuntSign7"
+                    }
+                }
+            ]
+    },
+    //TH Bundle 13
+        {
+            "LogName": "Joja CC Treasure Hunt 13",
+			"Action": "EditData",
+            "When": {
+                "HasFlag": "AddTHbundle13"
+            },
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
+                "blue704.JojaCC_TreasureHuntBundle01": {
+          "Location": "JojaCC",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle13}}",
+		  "BundleIcon": "Children",
+		  "BundleSlots": 1,
+          "ShopPosition": "30, 10",
+		  "SpecialPlacementRequirements":  [],
+		  "InstantShopRemoval": false,
+		  "ShopType": "CCBundle",
+		  "ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
+			"ShopTextureSource": { "X": 64, "Y": 0, "Width": 16, "Height": 16 },
+			"ShopDrawDimensions": "64, 64",
+			"ShopDrawOffset": "0, 64",
+			"ShopAnimation": "0",
+          "Price": {
+			"(O)blue704.JojaCC_TreasureHuntTag": 1
+          },
+		  "BundleReward": {
+			"(BC)BigChest": 1,
+      "(BC)BigStoneChest": 1
+					},
+          "RandomRewardEntries": 1,
+			"BundleCompletedActions": [
+  					"AddMail all TreasureHuntBundle01Complete received"
+					]
+				},
+                "blue704.JojaCC_TreasureHuntStars": {
+          "Location": "Mountain",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle13}}",
+		  "BundleIcon": "Treasure_Hunter",
+		  "BundleSlots": 1,
+          "ShopPosition": "7, 21",
+		  "SpecialPlacementRequirements":  [
+  {
+    "Type": "GameStateQuery",
+    "Condition": "PLAYER_HAS_SEEN_EVENT any TreasureHuntBundleStart"
+  }
+],
+		  "InstantShopRemoval": true,
+		  "ShopType": "CCBundle",
+          "Price": {
+			"(O)80": 1,
+      "(O)18": 1,
+      "(O)344": 1,
+      "(O)86": 1
+          },
+      "RandomPriceEntries": 1,
+		  "BundleReward": {
+						"(0)blue704.JojaCC_TreasureHuntTag": 1
+					}
+        }
+    }
+},
+{
+      "When": {
+                "HasFlag": "AddTHbundle13",
+                "HasFlag: anyPlayer|contains=TreasureHuntComplete": false
+            },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "MapTiles": [
+                {
+                    "Position": { "X": 31, "Y": 9 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message TreasureHuntSign13"
+                    }
+                }
+            ]
+    },
+    //TH Bundle 19
+        {
+            "LogName": "Joja CC Treasure Hunt 19",
+			"Action": "EditData",
+            "When": {
+                "HasFlag": "AddTHbundle19"
+            },
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
+                "blue704.JojaCC_TreasureHuntBundle01": {
+          "Location": "JojaCC",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle19}}",
+		  "BundleIcon": "Children",
+		  "BundleSlots": 1,
+          "ShopPosition": "30, 10",
+		  "SpecialPlacementRequirements":  [],
+		  "InstantShopRemoval": false,
+		  "ShopType": "CCBundle",
+		  "ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
+			"ShopTextureSource": { "X": 64, "Y": 0, "Width": 16, "Height": 16 },
+			"ShopDrawDimensions": "64, 64",
+			"ShopDrawOffset": "0, 64",
+			"ShopAnimation": "0",
+          "Price": {
+			"(O)blue704.JojaCC_TreasureHuntTag": 1
+          },
+		  "BundleReward": {
+			"(BC)BigChest": 1,
+      "(BC)BigStoneChest": 1
+					},
+          "RandomRewardEntries": 1,
+			"BundleCompletedActions": [
+  					"AddMail all TreasureHuntBundle01Complete received"
+					]
+				},
+                "blue704.JojaCC_TreasureHuntPlayground": {
+          "Location": "Town",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle19}}",
+		  "BundleIcon": "Treasure_Hunter",
+		  "BundleSlots": 1,
+          "ShopPosition": "25, 9",
+		  "SpecialPlacementRequirements":  [
+  {
+    "Type": "GameStateQuery",
+    "Condition": "PLAYER_HAS_SEEN_EVENT any TreasureHuntBundleStart"
+  }
+],
+		  "InstantShopRemoval": true,
+		  "ShopType": "CCBundle",
+          "Price": {
+			"(O)80": 1,
+      "(O)18": 1,
+      "(O)344": 1,
+      "(O)86": 1
+          },
+      "RandomPriceEntries": 1,
+		  "BundleReward": {
+						"(0)blue704.JojaCC_TreasureHuntTag": 1
+					}
+        }
+    }
+},
+{
+      "When": {
+                "HasFlag": "AddTHbundle19",
+                "HasFlag: anyPlayer|contains=TreasureHuntComplete": false
+            },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "MapTiles": [
+                {
+                    "Position": { "X": 31, "Y": 9 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message TreasureHuntSign19"
+                    }
+                }
+            ]
+    },
+    //TH Bundle A
+    {
+            "LogName": "Joja CC Treasure Hunt A",
+			"Action": "EditData",
+            "When": {
+                "HasFlag": "AddTHbundleA"
+      },
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
+                "blue704.JojaCC_TreasureHuntBundle01": {
+          "Location": "JojaCC",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundleA}}",
+		  "BundleIcon": "Children",
+		  "BundleSlots": 1,
+          "ShopPosition": "30, 10",
+		  "SpecialPlacementRequirements":  [],
+		  "InstantShopRemoval": false,
+		  "ShopType": "CCBundle",
+		  "ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
+			"ShopTextureSource": { "X": 64, "Y": 0, "Width": 16, "Height": 16 },
+			"ShopDrawDimensions": "64, 64",
+			"ShopDrawOffset": "0, 64",
+			"ShopAnimation": "0",
+          "Price": {
+			"(O)blue704.JojaCC_TreasureHuntTag": 1
+          },
+		  "BundleReward": {
+			"(BC)BigChest": 1,
+      "(BC)BigStoneChest": 1
+					},
+          "RandomRewardEntries": 1,
+			"BundleCompletedActions": [
+  					"AddMail all TreasureHuntBundle01Complete received"
+					]
+				},
+                "blue704.JojaCC_TreasureHuntPark": {
+          "Location": "Town",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundleA}}",
+		  "BundleIcon": "Treasure_Hunter",
+		  "BundleSlots": 1,
+          "ShopPosition": "4, 64",
+		  "SpecialPlacementRequirements":  [
+  {
+    "Type": "GameStateQuery",
+    "Condition": "PLAYER_HAS_SEEN_EVENT any TreasureHuntBundleStart"
+  }
+],
+		  "InstantShopRemoval": true,
+		  "ShopType": "CCBundle",
+          "Price": {
+			"(O)80": 1,
+      "(O)18": 1,
+      "(O)344": 1,
+      "(O)86": 1
+          },
+      "RandomPriceEntries": 1,
+		  "BundleReward": {
+						"(0)blue704.JojaCC_TreasureHuntTag": 1
+					}
+        }
+    }
+},
+{
+      "When": {
+        "HasFlag": "AddTHbundleA",
+        "HasFlag: anyPlayer|contains=TreasureHuntComplete": false
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "MapTiles": [
+                {
+                    "Position": { "X": 31, "Y": 9 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message TreasureHuntSignA"
+                    }
+                }
+            ]
+    },
+    //TH Bundle 2
+    {
+      "When": {
+        "HasFlag": "SignChange2",
+                "HasFlag: anyPlayer|contains=TreasureHuntComplete": false
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "MapTiles": [
+                {
+                    "Position": { "X": 31, "Y": 9 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message TreasureHuntSign2"
+                    }
+                }
+            ]
+    },
+    {
+            "LogName": "Joja CC Treasure Hunt 2",
+			"Action": "EditData",
+            "When": {
+        "HasFlag": "AddTHbundle2"
+      },
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
+                "blue704.JojaCC_TreasureHuntBundle02": {
+          "Location": "JojaCC",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle02}}",
+		  "BundleIcon": "Children",
+		  "BundleSlots": 1,
+          "ShopPosition": "30, 10",
+		  "SpecialPlacementRequirements":  [
+			{
+    "Type": "GameStateQuery",
+    "Condition": "PLAYER_HAS_MAIL any SetTHbundle02 received"
+  }
+
+		  ],
+		  "InstantShopRemoval": false,
+		  "ShopType": "CCBundle",
+		  "ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
+			"ShopTextureSource": { "X": 64, "Y": 0, "Width": 16, "Height": 16 },
+			"ShopDrawDimensions": "64, 64",
+			"ShopDrawOffset": "0, 64",
+			"ShopAnimation": "0",
+          "Price": {
+			"(O)blue704.JojaCC_TreasureHuntTag": 1
+          },
+		  "BundleReward": {
+			"(H)78": 1,
+      "(H)JunimoHat": 1,
+      "(H)10": 1
+					},
+          "RandomRewardEntries": 1,
+			"BundleCompletedActions": [
+  					"AddMail all TreasureHuntBundle02Complete received"
+					]
+				},
+                "blue704.JojaCC_TreasureHuntForest": {
+          "Location": "Forest",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle02}}",
+		  "BundleIcon": "Treasure_Hunter",
+		  "BundleSlots": 1,
+          "ShopPosition": "101, 92",
+		  "SpecialPlacementRequirements":  [
+  {
+     "Type": "BundleCompletion",
+    "BundleKey": "blue704.JojaCC_TreasureHuntBundle01"
+
+  }
+],
+		  "InstantShopRemoval": true,
+		  "ShopType": "CCBundle",
+          "Price": {
+			"(O)394": 1,
+      "(O)68": 1,
+      "(O)597": 1,
+      "(O)194": 1
+          },
+      "RandomPriceEntries": 1,
+		  "BundleReward": {
+						"(0)blue704.JojaCC_TreasureHuntTag": 1
+					}
+        }
+    }
+},
+//TH Bundle 8
+    {
+      "When": {
+        "HasFlag": "SignChange8",
+                "HasFlag: anyPlayer|contains=TreasureHuntComplete": false
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "MapTiles": [
+                {
+                    "Position": { "X": 31, "Y": 9 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message TreasureHuntSign8"
+                    }
+                }
+            ]
+    },
+    {
+            "LogName": "Joja CC Treasure Hunt 8",
+			"Action": "EditData",
+            "When": {
+        "HasFlag": "AddTHbundle8"
+      },
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
+                "blue704.JojaCC_TreasureHuntBundle02": {
+          "Location": "JojaCC",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle08}}",
+		  "BundleIcon": "Children",
+		  "BundleSlots": 1,
+          "ShopPosition": "30, 10",
+		  "SpecialPlacementRequirements":  [
+			{
+    "Type": "GameStateQuery",
+    "Condition": "PLAYER_HAS_MAIL any SetTHbundle02 received"
+  }
+		  ],
+		  "InstantShopRemoval": false,
+		  "ShopType": "CCBundle",
+		  "ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
+			"ShopTextureSource": { "X": 64, "Y": 0, "Width": 16, "Height": 16 },
+			"ShopDrawDimensions": "64, 64",
+			"ShopDrawOffset": "0, 64",
+			"ShopAnimation": "0",
+          "Price": {
+			"(O)blue704.JojaCC_TreasureHuntTag": 1
+          },
+		  "BundleReward": {
+			"(H)78": 1,
+      "(H)JunimoHat": 1,
+      "(H)10": 1
+					},
+          "RandomRewardEntries": 1,
+			"BundleCompletedActions": [
+  					"AddMail all TreasureHuntBundle02Complete received"
+					]
+				},
+                "blue704.JojaCC_TreasureHuntAerobics": {
+          "Location": "SeedShop",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle08}}",
+		  "BundleIcon": "Treasure_Hunter",
+		  "BundleSlots": 1,
+          "ShopPosition": "30, 22",
+		  "SpecialPlacementRequirements":  [
+  {
+     "Type": "BundleCompletion",
+    "BundleKey": "blue704.JojaCC_TreasureHuntBundle01"
+
+  }
+],
+		  "InstantShopRemoval": true,
+		  "ShopType": "CCBundle",
+          "Price": {
+			"(O)394": 1,
+      "(O)68": 1,
+      "(O)597": 1,
+      "(O)194": 1
+          },
+      "RandomPriceEntries": 1,
+		  "BundleReward": {
+						"(0)blue704.JojaCC_TreasureHuntTag": 1
+					}
+        }
+    }
+},
+//TH Bundle 14
+    {
+      "When": {
+        "HasFlag": "SignChange14",
+                "HasFlag: anyPlayer|contains=TreasureHuntComplete": false
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "MapTiles": [
+                {
+                    "Position": { "X": 31, "Y": 9 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message TreasureHuntSign14"
+                    }
+                }
+            ]
+    },
+    {
+            "LogName": "Joja CC Treasure Hunt 14",
+			"Action": "EditData",
+            "When": {
+        "HasFlag": "AddTHbundle14"
+      },
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
+                "blue704.JojaCC_TreasureHuntBundle02": {
+          "Location": "JojaCC",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle14}}",
+		  "BundleIcon": "Children",
+		  "BundleSlots": 1,
+          "ShopPosition": "30, 10",
+		  "SpecialPlacementRequirements":  [
+			{
+    "Type": "GameStateQuery",
+    "Condition": "PLAYER_HAS_MAIL any SetTHbundle02 received"
+  }
+		  ],
+		  "InstantShopRemoval": false,
+		  "ShopType": "CCBundle",
+		  "ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
+			"ShopTextureSource": { "X": 64, "Y": 0, "Width": 16, "Height": 16 },
+			"ShopDrawDimensions": "64, 64",
+			"ShopDrawOffset": "0, 64",
+			"ShopAnimation": "0",
+          "Price": {
+			"(O)blue704.JojaCC_TreasureHuntTag": 1
+          },
+		  "BundleReward": {
+			"(H)78": 1,
+      "(H)JunimoHat": 1,
+      "(H)10": 1
+					},
+          "RandomRewardEntries": 1,
+			"BundleCompletedActions": [
+  					"AddMail all TreasureHuntBundle02Complete received"
+					]
+				},
+                "blue704.JojaCC_TreasureHuntCookies": {
+          "Location": "JoshHouse",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle14}}",
+		  "BundleIcon": "Treasure_Hunter",
+		  "BundleSlots": 1,
+          "ShopPosition": "6, 18",
+		  "SpecialPlacementRequirements":  [
+  {
+     "Type": "BundleCompletion",
+    "BundleKey": "blue704.JojaCC_TreasureHuntBundle01"
+
+  }
+],
+		  "InstantShopRemoval": true,
+		  "ShopType": "CCBundle",
+          "Price": {
+			"(O)394": 1,
+      "(O)68": 1,
+      "(O)597": 1,
+      "(O)194": 1
+          },
+      "RandomPriceEntries": 1,
+		  "BundleReward": {
+						"(0)blue704.JojaCC_TreasureHuntTag": 1
+					}
+        }
+    }
+},
+//TH Bundle 20
+    {
+      "When": {
+        "HasFlag": "SignChange20",
+                "HasFlag: anyPlayer|contains=TreasureHuntComplete": false
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "MapTiles": [
+                {
+                    "Position": { "X": 31, "Y": 9 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message TreasureHuntSign20"
+                    }
+                }
+            ]
+    },
+    {
+            "LogName": "Joja CC Treasure Hunt 20",
+			"Action": "EditData",
+            "When": {
+        "HasFlag": "AddTHbundle20"
+      },
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
+                "blue704.JojaCC_TreasureHuntBundle02": {
+          "Location": "JojaCC",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle20}}",
+		  "BundleIcon": "Children",
+		  "BundleSlots": 1,
+          "ShopPosition": "30, 10",
+		  "SpecialPlacementRequirements":  [
+			{
+    "Type": "GameStateQuery",
+    "Condition": "PLAYER_HAS_MAIL any SetTHbundle02 received"
+  }
+		  ],
+		  "InstantShopRemoval": false,
+		  "ShopType": "CCBundle",
+		  "ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
+			"ShopTextureSource": { "X": 64, "Y": 0, "Width": 16, "Height": 16 },
+			"ShopDrawDimensions": "64, 64",
+			"ShopDrawOffset": "0, 64",
+			"ShopAnimation": "0",
+          "Price": {
+			"(O)blue704.JojaCC_TreasureHuntTag": 1
+          },
+		  "BundleReward": {
+			"(H)78": 1,
+      "(H)JunimoHat": 1,
+      "(H)10": 1
+					},
+          "RandomRewardEntries": 1,
+			"BundleCompletedActions": [
+  					"AddMail all TreasureHuntBundle02Complete received"
+					]
+				},
+                "blue704.JojaCC_TreasureHuntGusSpot": {
+          "Location": "Saloon",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle20}}",
+		  "BundleIcon": "Treasure_Hunter",
+		  "BundleSlots": 1,
+          "ShopPosition": "29, 7",
+		  "SpecialPlacementRequirements":  [
+  {
+     "Type": "BundleCompletion",
+    "BundleKey": "blue704.JojaCC_TreasureHuntBundle01"
+
+  }
+],
+		  "InstantShopRemoval": true,
+		  "ShopType": "CCBundle",
+          "Price": {
+			"(O)394": 1,
+      "(O)68": 1,
+      "(O)597": 1,
+      "(O)194": 1
+          },
+      "RandomPriceEntries": 1,
+		  "BundleReward": {
+						"(0)blue704.JojaCC_TreasureHuntTag": 1
+					}
+        }
+    }
+},
+//TH Bundle B
+{
+      "When": {
+        "HasFlag": "SignChangeB",
+                "HasFlag: anyPlayer|contains=TreasureHuntComplete": false
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "MapTiles": [
+                {
+                    "Position": { "X": 31, "Y": 9 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message TreasureHuntSignB"
+                    }
+                }
+            ]
+    },
+    {
+            "LogName": "Joja CC Treasure Hunt B",
+			"Action": "EditData",
+            "When": {
+        "HasFlag": "AddTHbundleB"
+      },
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
+                "blue704.JojaCC_TreasureHuntBundle02": {
+          "Location": "JojaCC",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundleB}}",
+		  "BundleIcon": "Children",
+		  "BundleSlots": 1,
+          "ShopPosition": "30, 10",
+		  "SpecialPlacementRequirements":  [
+			{
+    "Type": "GameStateQuery",
+    "Condition": "PLAYER_HAS_MAIL any SetTHbundle02 received"
+  }
+		  ],
+		  "InstantShopRemoval": false,
+		  "ShopType": "CCBundle",
+		  "ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
+			"ShopTextureSource": { "X": 64, "Y": 0, "Width": 16, "Height": 16 },
+			"ShopDrawDimensions": "64, 64",
+			"ShopDrawOffset": "0, 64",
+			"ShopAnimation": "0",
+          "Price": {
+			"(O)blue704.JojaCC_TreasureHuntTag": 1
+          },
+		  "BundleReward": {
+			"(H)78": 1,
+      "(H)JunimoHat": 1,
+      "(H)10": 1
+					},
+          "RandomRewardEntries": 1,
+			"BundleCompletedActions": [
+  					"AddMail all TreasureHuntBundle02Complete received"
+					]
+				},
+                "blue704.JojaCC_TreasureHuntSketch": {
+          "Location": "Forest",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundleB}}",
+		  "BundleIcon": "Treasure_Hunter",
+		  "BundleSlots": 1,
+          "ShopPosition": "34, 25",
+		  "SpecialPlacementRequirements":  [
+  {
+     "Type": "BundleCompletion",
+    "BundleKey": "blue704.JojaCC_TreasureHuntBundle01"
+
+  }
+],
+		  "InstantShopRemoval": true,
+		  "ShopType": "CCBundle",
+          "Price": {
+			"(O)394": 1,
+      "(O)68": 1,
+      "(O)597": 1,
+      "(O)194": 1
+          },
+      "RandomPriceEntries": 1,
+		  "BundleReward": {
+						"(0)blue704.JojaCC_TreasureHuntTag": 1
+					}
+        }
+    }
+},
+//TH Bundle 3
+{
+      "When": {
+        "HasFlag": "SignChange3",
+                "HasFlag: anyPlayer|contains=TreasureHuntComplete": false
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "MapTiles": [
+                {
+                    "Position": { "X": 31, "Y": 9 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message TreasureHuntSign3"
+                    }
+                }
+            ]
+    },
+    {
+            "LogName": "Joja CC Treasure Hunt 3",
+			"Action": "EditData",
+            "When": {
+        "HasFlag": "AddTHbundle3"
+      },
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
+                "blue704.JojaCC_TreasureHuntBundle03": {
+          "Location": "JojaCC",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle03}}",
+		  "BundleIcon": "Children",
+		  "BundleSlots": 1,
+          "ShopPosition": "30, 10",
+		  "SpecialPlacementRequirements":  [
+			{
+    "Type": "GameStateQuery",
+    "Condition": "PLAYER_HAS_MAIL any SetTHbundle03 received"
+  }
+		  ],
+		  "InstantShopRemoval": false,
+		  "ShopType": "CCBundle",
+		  "ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
+			"ShopTextureSource": { "X": 64, "Y": 0, "Width": 16, "Height": 16 },
+			"ShopDrawDimensions": "64, 64",
+			"ShopDrawOffset": "0, 64",
+			"ShopAnimation": "0",
+          "Price": {
+			"(O)blue704.JojaCC_TreasureHuntTag": 1
+          },
+		  "BundleReward": {
+			"(O)74": 1
+					},
+			"BundleCompletedActions": [
+  					"AddMail all TreasureHuntBundle03Complete received"
+					]
+				},
+                "blue704.JojaCC_TreasureHuntSeedShop": {
+          "Location": "SeedShop",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle03}}",
+		  "BundleIcon": "Treasure_Hunter",
+		  "BundleSlots": 1,
+          "ShopPosition": "7, 4",
+		  "SpecialPlacementRequirements":  [
+  {
+     "Type": "BundleCompletion",
+    "BundleKey": "blue704.JojaCC_TreasureHuntBundle02"
+
+  }
+],
+		  "InstantShopRemoval": true,
+		  "ShopType": "CCBundle",
+          "Price": {
+			"(O)635": 1,
+      "(O)84": 1,
+      "(O)402": 1,
+      "(O)186": 1
+          },
+      "RandomPriceEntries": 1,
+		  "BundleReward": {
+						"(0)blue704.JojaCC_TreasureHuntTag": 1
+					}
+        }
+    }
+},
+//TH Bundle 9
+{
+      "When": {
+        "HasFlag": "SignChange9",
+                "HasFlag: anyPlayer|contains=TreasureHuntComplete": false
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "MapTiles": [
+                {
+                    "Position": { "X": 31, "Y": 9 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message TreasureHuntSign9"
+                    }
+                }
+            ]
+    },
+    {
+            "LogName": "Joja CC Treasure Hunt 9",
+			"Action": "EditData",
+            "When": {
+        "HasFlag": "AddTHbundle9"
+      },
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
+                "blue704.JojaCC_TreasureHuntBundle03": {
+          "Location": "JojaCC",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle09}}",
+		  "BundleIcon": "Children",
+		  "BundleSlots": 1,
+          "ShopPosition": "30, 10",
+		  "SpecialPlacementRequirements":  [
+			{
+    "Type": "GameStateQuery",
+    "Condition": "PLAYER_HAS_MAIL any SetTHbundle03 received"
+  }
+		  ],
+		  "InstantShopRemoval": false,
+		  "ShopType": "CCBundle",
+		  "ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
+			"ShopTextureSource": { "X": 64, "Y": 0, "Width": 16, "Height": 16 },
+			"ShopDrawDimensions": "64, 64",
+			"ShopDrawOffset": "0, 64",
+			"ShopAnimation": "0",
+          "Price": {
+			"(O)blue704.JojaCC_TreasureHuntTag": 1
+          },
+		  "BundleReward": {
+			"(O)74": 1
+					},
+			"BundleCompletedActions": [
+  					"AddMail all TreasureHuntBundle03Complete received"
+					]
+				},
+                "blue704.JojaCC_TreasureHuntHairGel": {
+          "Location": "SamHouse",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle09}}",
+		  "BundleIcon": "Treasure_Hunter",
+		  "BundleSlots": 1,
+          "ShopPosition": "14, 14",
+		  "SpecialPlacementRequirements":  [
+  {
+     "Type": "BundleCompletion",
+    "BundleKey": "blue704.JojaCC_TreasureHuntBundle02"
+
+  }
+],
+		  "InstantShopRemoval": true,
+		  "ShopType": "CCBundle",
+          "Price": {
+			"(O)635": 1,
+      "(O)84": 1,
+      "(O)402": 1,
+      "(O)186": 1
+          },
+      "RandomPriceEntries": 1,
+		  "BundleReward": {
+						"(0)blue704.JojaCC_TreasureHuntTag": 1
+					}
+        }
+    }
+},
+//TH Bundle 15
+{
+      "When": {
+        "HasFlag": "SignChange15",
+                "HasFlag: anyPlayer|contains=TreasureHuntComplete": false
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "MapTiles": [
+                {
+                    "Position": { "X": 31, "Y": 9 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message TreasureHuntSign15"
+                    }
+                }
+            ]
+    },
+    {
+            "LogName": "Joja CC Treasure Hunt 15",
+			"Action": "EditData",
+            "When": {
+        "HasFlag": "AddTHbundle15"
+      },
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
+                "blue704.JojaCC_TreasureHuntBundle03": {
+          "Location": "JojaCC",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle15}}",
+		  "BundleIcon": "Children",
+		  "BundleSlots": 1,
+          "ShopPosition": "30, 10",
+		  "SpecialPlacementRequirements":  [
+			{
+    "Type": "GameStateQuery",
+    "Condition": "PLAYER_HAS_MAIL any SetTHbundle03 received"
+  }
+		  ],
+		  "InstantShopRemoval": false,
+		  "ShopType": "CCBundle",
+		  "ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
+			"ShopTextureSource": { "X": 64, "Y": 0, "Width": 16, "Height": 16 },
+			"ShopDrawDimensions": "64, 64",
+			"ShopDrawOffset": "0, 64",
+			"ShopAnimation": "0",
+          "Price": {
+			"(O)blue704.JojaCC_TreasureHuntTag": 1
+          },
+		  "BundleReward": {
+			"(O)74": 1
+					},
+			"BundleCompletedActions": [
+  					"AddMail all TreasureHuntBundle03Complete received"
+					]
+				},
+                "blue704.JojaCC_TreasureHuntPoke": {
+          "Location": "Forest",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle15}}",
+		  "BundleIcon": "Treasure_Hunter",
+		  "BundleSlots": 1,
+          "ShopPosition": "31, 95",
+		  "SpecialPlacementRequirements":  [
+  {
+     "Type": "BundleCompletion",
+    "BundleKey": "blue704.JojaCC_TreasureHuntBundle02"
+
+  }
+],
+		  "InstantShopRemoval": true,
+		  "ShopType": "CCBundle",
+          "Price": {
+			"(O)635": 1,
+      "(O)84": 1,
+      "(O)402": 1,
+      "(O)186": 1
+          },
+      "RandomPriceEntries": 1,
+		  "BundleReward": {
+						"(0)blue704.JojaCC_TreasureHuntTag": 1
+					}
+        }
+    }
+},
+//TH Bundle 21
+{
+      "When": {
+        "HasFlag": "SignChange21",
+                "HasFlag: anyPlayer|contains=TreasureHuntComplete": false
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "MapTiles": [
+                {
+                    "Position": { "X": 31, "Y": 9 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message TreasureHuntSign21"
+                    }
+                }
+            ]
+    },
+    {
+            "LogName": "Joja CC Treasure Hunt 21",
+			"Action": "EditData",
+            "When": {
+        "HasFlag": "AddTHbundle21"
+      },
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
+                "blue704.JojaCC_TreasureHuntBundle03": {
+          "Location": "JojaCC",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle21}}",
+		  "BundleIcon": "Children",
+		  "BundleSlots": 1,
+          "ShopPosition": "30, 10",
+		  "SpecialPlacementRequirements":  [
+			{
+    "Type": "GameStateQuery",
+    "Condition": "PLAYER_HAS_MAIL any SetTHbundle03 received"
+  }
+		  ],
+		  "InstantShopRemoval": false,
+		  "ShopType": "CCBundle",
+		  "ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
+			"ShopTextureSource": { "X": 64, "Y": 0, "Width": 16, "Height": 16 },
+			"ShopDrawDimensions": "64, 64",
+			"ShopDrawOffset": "0, 64",
+			"ShopAnimation": "0",
+          "Price": {
+			"(O)blue704.JojaCC_TreasureHuntTag": 1
+          },
+		  "BundleReward": {
+			"(O)74": 1
+					},
+			"BundleCompletedActions": [
+  					"AddMail all TreasureHuntBundle03Complete received"
+					]
+				},
+                "blue704.JojaCC_TreasureHuntWizardsGame": {
+          "Location": "SebastianRoom",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle21}}",
+		  "BundleIcon": "Treasure_Hunter",
+		  "BundleSlots": 1,
+          "ShopPosition": "3, 10",
+		  "SpecialPlacementRequirements":  [
+  {
+     "Type": "BundleCompletion",
+    "BundleKey": "blue704.JojaCC_TreasureHuntBundle02"
+
+  }
+],
+		  "InstantShopRemoval": true,
+		  "ShopType": "CCBundle",
+          "Price": {
+			"(O)635": 1,
+      "(O)84": 1,
+      "(O)402": 1,
+      "(O)186": 1
+          },
+      "RandomPriceEntries": 1,
+		  "BundleReward": {
+						"(0)blue704.JojaCC_TreasureHuntTag": 1
+					}
+        }
+    }
+},
+//TH Bundle C
+{
+      "When": {
+        "HasFlag": "SignChangeC",
+                "HasFlag: anyPlayer|contains=TreasureHuntComplete": false
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "MapTiles": [
+                {
+                    "Position": { "X": 31, "Y": 9 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message TreasureHuntSignC"
+                    }
+                }
+            ]
+    },
+    {
+            "LogName": "Joja CC Treasure Hunt C",
+			"Action": "EditData",
+            "When": {
+        "HasFlag": "AddTHbundleC"
+      },
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
+                "blue704.JojaCC_TreasureHuntBundle03": {
+          "Location": "JojaCC",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundleC}}",
+		  "BundleIcon": "Children",
+		  "BundleSlots": 1,
+          "ShopPosition": "30, 10",
+		  "SpecialPlacementRequirements":  [
+			{
+    "Type": "GameStateQuery",
+    "Condition": "PLAYER_HAS_MAIL any SetTHbundle03 received"
+  }
+		  ],
+		  "InstantShopRemoval": false,
+		  "ShopType": "CCBundle",
+		  "ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
+			"ShopTextureSource": { "X": 64, "Y": 0, "Width": 16, "Height": 16 },
+			"ShopDrawDimensions": "64, 64",
+			"ShopDrawOffset": "0, 64",
+			"ShopAnimation": "0",
+          "Price": {
+			"(O)blue704.JojaCC_TreasureHuntTag": 1
+          },
+		  "BundleReward": {
+			"(O)74": 1
+					},
+			"BundleCompletedActions": [
+  					"AddMail all TreasureHuntBundle03Complete received"
+					]
+				},
+                "blue704.JojaCC_TreasureHuntHarveyRoom": {
+          "Location": "HarveyRoom",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundleC}}",
+		  "BundleIcon": "Treasure_Hunter",
+		  "BundleSlots": 1,
+          "ShopPosition": "6, 4",
+		  "SpecialPlacementRequirements":  [
+  {
+     "Type": "BundleCompletion",
+    "BundleKey": "blue704.JojaCC_TreasureHuntBundle02"
+
+  }
+],
+		  "InstantShopRemoval": true,
+		  "ShopType": "CCBundle",
+          "Price": {
+			"(O)635": 1,
+      "(O)84": 1,
+      "(O)402": 1,
+      "(O)186": 1
+          },
+      "RandomPriceEntries": 1,
+		  "BundleReward": {
+						"(0)blue704.JojaCC_TreasureHuntTag": 1
+					}
+        }
+    }
+},
+//TH Bundle 4
+{
+      "When": {
+        "HasFlag": "SignChange4",
+                "HasFlag: anyPlayer|contains=TreasureHuntComplete": false
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "MapTiles": [
+                {
+                    "Position": { "X": 31, "Y": 9 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message TreasureHuntSign4"
+                    }
+                }
+            ]
+    },
+    {
+            "LogName": "Joja CC Treasure Hunt 4",
+			"Action": "EditData",
+            "When": {
+        "HasFlag": "AddTHbundle4"
+      },
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
+                "blue704.JojaCC_TreasureHuntBundle04": {
+          "Location": "JojaCC",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle04}}",
+		  "BundleIcon": "Children",
+		  "BundleSlots": 1,
+          "ShopPosition": "30, 10",
+		  "SpecialPlacementRequirements":  [
+			{
+    "Type": "GameStateQuery",
+    "Condition": "PLAYER_HAS_MAIL any SetTHbundle04 received"
+  }
+		  ],
+		  "InstantShopRemoval": false,
+		  "ShopType": "CCBundle",
+		  "ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
+			"ShopTextureSource": { "X": 64, "Y": 0, "Width": 16, "Height": 16 },
+			"ShopDrawDimensions": "64, 64",
+			"ShopDrawOffset": "0, 64",
+			"ShopAnimation": "0",
+          "Price": {
+			"(O)blue704.JojaCC_TreasureHuntTag": 1
+          },
+		  "BundleReward": {
+			"(O)859": 1,
+      "(O)520": 1,
+      "(O)527": 1
+					},
+          "RandomRewardEntries": 1,
+			"BundleCompletedActions": [
+  					"AddMail all TreasureHuntBundle04Complete received"
+					]
+				},
+                "blue704.JojaCC_TreasureHuntMine": {
+          "Location": "Mine",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle04}}",
+		  "BundleIcon": "Treasure_Hunter",
+		  "BundleSlots": 1,
+          "ShopPosition": "43, 12",
+		  "SpecialPlacementRequirements":  [
+  {
+     "Type": "BundleCompletion",
+    "BundleKey": "blue704.JojaCC_TreasureHuntBundle03"
+
+  }
+],
+		  "InstantShopRemoval": true,
+		  "ShopType": "CCBundle",
+          "Price": {
+			"(O)438": 1,
+      "(O)613": 1,
+      "(O)421": 1,
+      "(O)88": 1,
+      "(O)60": 1
+          },
+      "RandomPriceEntries": 1,
+		  "BundleReward": {
+						"(0)blue704.JojaCC_TreasureHuntTag": 1
+					}
+        }
+    }
+},
+//TH Bundle 10
+{
+      "When": {
+        "HasFlag": "SignChange10",
+                "HasFlag: anyPlayer|contains=TreasureHuntComplete": false
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "MapTiles": [
+                {
+                    "Position": { "X": 31, "Y": 9 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message TreasureHuntSign10"
+                    }
+                }
+            ]
+    },
+    {
+            "LogName": "Joja CC Treasure Hunt 10",
+			"Action": "EditData",
+            "When": {
+        "HasFlag": "AddTHbundle10"
+      },
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
+                "blue704.JojaCC_TreasureHuntBundle04": {
+          "Location": "JojaCC",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle10}}",
+		  "BundleIcon": "Children",
+		  "BundleSlots": 1,
+          "ShopPosition": "30, 10",
+		  "SpecialPlacementRequirements":  [
+			{
+    "Type": "GameStateQuery",
+    "Condition": "PLAYER_HAS_MAIL any SetTHbundle04 received"
+  }
+		  ],
+		  "InstantShopRemoval": false,
+		  "ShopType": "CCBundle",
+		  "ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
+			"ShopTextureSource": { "X": 64, "Y": 0, "Width": 16, "Height": 16 },
+			"ShopDrawDimensions": "64, 64",
+			"ShopDrawOffset": "0, 64",
+			"ShopAnimation": "0",
+          "Price": {
+			"(O)blue704.JojaCC_TreasureHuntTag": 1
+          },
+		  "BundleReward": {
+			"(O)859": 1,
+      "(O)520": 1,
+      "(O)527": 1
+					},
+          "RandomRewardEntries": 1,
+			"BundleCompletedActions": [
+  					"AddMail all TreasureHuntBundle04Complete received"
+					]
+				},
+                "blue704.JojaCC_TreasureHuntJojaMart": {
+          "Location": "JojaMart",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle10}}",
+		  "BundleIcon": "Treasure_Hunter",
+		  "BundleSlots": 1,
+          "ShopPosition": "16, 8",
+		  "SpecialPlacementRequirements":  [
+  {
+     "Type": "BundleCompletion",
+    "BundleKey": "blue704.JojaCC_TreasureHuntBundle03"
+
+  }
+],
+		  "InstantShopRemoval": true,
+		  "ShopType": "CCBundle",
+          "Price": {
+			"(O)438": 1,
+      "(O)613": 1,
+      "(O)421": 1,
+      "(O)88": 1,
+      "(O)60": 1
+          },
+      "RandomPriceEntries": 1,
+		  "BundleReward": {
+						"(0)blue704.JojaCC_TreasureHuntTag": 1
+					}
+        }
+    }
+},
+//TH Bundle 16
+{
+      "When": {
+        "HasFlag": "SignChange16",
+                "HasFlag: anyPlayer|contains=TreasureHuntComplete": false
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "MapTiles": [
+                {
+                    "Position": { "X": 31, "Y": 9 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message TreasureHuntSign16"
+                    }
+                }
+            ]
+    },
+    {
+            "LogName": "Joja CC Treasure Hunt 16",
+			"Action": "EditData",
+            "When": {
+        "HasFlag": "AddTHbundle16"
+      },
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
+                "blue704.JojaCC_TreasureHuntBundle04": {
+          "Location": "JojaCC",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle16}}",
+		  "BundleIcon": "Children",
+		  "BundleSlots": 1,
+          "ShopPosition": "30, 10",
+		  "SpecialPlacementRequirements":  [
+			{
+    "Type": "GameStateQuery",
+    "Condition": "PLAYER_HAS_MAIL any SetTHbundle04 received"
+  }
+		  ],
+		  "InstantShopRemoval": false,
+		  "ShopType": "CCBundle",
+		  "ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
+			"ShopTextureSource": { "X": 64, "Y": 0, "Width": 16, "Height": 16 },
+			"ShopDrawDimensions": "64, 64",
+			"ShopDrawOffset": "0, 64",
+			"ShopAnimation": "0",
+          "Price": {
+			"(O)blue704.JojaCC_TreasureHuntTag": 1
+          },
+		  "BundleReward": {
+			"(O)859": 1,
+      "(O)520": 1,
+      "(O)527": 1
+					},
+          "RandomRewardEntries": 1,
+			"BundleCompletedActions": [
+  					"AddMail all TreasureHuntBundle04Complete received"
+					]
+				},
+                "blue704.JojaCC_TreasureHuntElliottsPiano": {
+          "Location": "ElliottHouse",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle16}}",
+		  "BundleIcon": "Treasure_Hunter",
+		  "BundleSlots": 1,
+          "ShopPosition": "6, 4",
+		  "SpecialPlacementRequirements":  [
+  {
+     "Type": "BundleCompletion",
+    "BundleKey": "blue704.JojaCC_TreasureHuntBundle03"
+
+  }
+],
+		  "InstantShopRemoval": true,
+		  "ShopType": "CCBundle",
+          "Price": {
+			"(O)438": 1,
+      "(O)613": 1,
+      "(O)421": 1,
+      "(O)88": 1,
+      "(O)60": 1
+          },
+      "RandomPriceEntries": 1,
+		  "BundleReward": {
+						"(0)blue704.JojaCC_TreasureHuntTag": 1
+					}
+        }
+    }
+},
+//TH Bundle 22
+{
+      "When": {
+        "HasFlag": "SignChange22",
+                "HasFlag: anyPlayer|contains=TreasureHuntComplete": false
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "MapTiles": [
+                {
+                    "Position": { "X": 31, "Y": 9 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message TreasureHuntSign22"
+                    }
+                }
+            ]
+    },
+    {
+            "LogName": "Joja CC Treasure Hunt 22",
+			"Action": "EditData",
+            "When": {
+        "HasFlag": "AddTHbundle22"
+      },
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
+                "blue704.JojaCC_TreasureHuntBundle04": {
+          "Location": "JojaCC",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle22}}",
+		  "BundleIcon": "Children",
+		  "BundleSlots": 1,
+          "ShopPosition": "30, 10",
+		  "SpecialPlacementRequirements":  [
+			{
+    "Type": "GameStateQuery",
+    "Condition": "PLAYER_HAS_MAIL any SetTHbundle04 received"
+  }
+		  ],
+		  "InstantShopRemoval": false,
+		  "ShopType": "CCBundle",
+		  "ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
+			"ShopTextureSource": { "X": 64, "Y": 0, "Width": 16, "Height": 16 },
+			"ShopDrawDimensions": "64, 64",
+			"ShopDrawOffset": "0, 64",
+			"ShopAnimation": "0",
+          "Price": {
+			"(O)blue704.JojaCC_TreasureHuntTag": 1
+          },
+		  "BundleReward": {
+			"(O)859": 1,
+      "(O)520": 1,
+      "(O)527": 1
+					},
+          "RandomRewardEntries": 1,
+			"BundleCompletedActions": [
+  					"AddMail all TreasureHuntBundle04Complete received"
+					]
+				},
+                "blue704.JojaCC_TreasureHuntOldMariner": {
+          "Location": "Beach",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle22}}",
+		  "BundleIcon": "Treasure_Hunter",
+		  "BundleSlots": 1,
+          "ShopPosition": "84, 5",
+		  "SpecialPlacementRequirements":  [
+  {
+     "Type": "BundleCompletion",
+    "BundleKey": "blue704.JojaCC_TreasureHuntBundle03"
+
+  }
+],
+		  "InstantShopRemoval": true,
+		  "ShopType": "CCBundle",
+          "Price": {
+			"(O)438": 1,
+      "(O)613": 1,
+      "(O)421": 1,
+      "(O)88": 1,
+      "(O)60": 1
+          },
+      "RandomPriceEntries": 1,
+		  "BundleReward": {
+						"(0)blue704.JojaCC_TreasureHuntTag": 1
+					}
+        }
+    }
+},
+//TH Bundle D
+{
+      "When": {
+        "HasFlag": "SignChangeD",
+                "HasFlag: anyPlayer|contains=TreasureHuntComplete": false
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "MapTiles": [
+                {
+                    "Position": { "X": 31, "Y": 9 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message TreasureHuntSignD"
+                    }
+                }
+            ]
+    },
+    {
+            "LogName": "Joja CC Treasure Hunt D",
+			"Action": "EditData",
+            "When": {
+        "HasFlag": "AddTHbundleD"
+      },
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
+                "blue704.JojaCC_TreasureHuntBundle04": {
+          "Location": "JojaCC",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundleD}}",
+		  "BundleIcon": "Children",
+		  "BundleSlots": 1,
+          "ShopPosition": "30, 10",
+		  "SpecialPlacementRequirements":  [
+			{
+    "Type": "GameStateQuery",
+    "Condition": "PLAYER_HAS_MAIL any SetTHbundle04 received"
+  }
+		  ],
+		  "InstantShopRemoval": false,
+		  "ShopType": "CCBundle",
+		  "ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
+			"ShopTextureSource": { "X": 64, "Y": 0, "Width": 16, "Height": 16 },
+			"ShopDrawDimensions": "64, 64",
+			"ShopDrawOffset": "0, 64",
+			"ShopAnimation": "0",
+          "Price": {
+			"(O)blue704.JojaCC_TreasureHuntTag": 1
+          },
+		  "BundleReward": {
+			"(O)859": 1,
+      "(O)520": 1,
+      "(O)527": 1
+					},
+          "RandomRewardEntries": 1,
+			"BundleCompletedActions": [
+  					"AddMail all TreasureHuntBundle04Complete received"
+					]
+				},
+                "blue704.JojaCC_TreasureHuntPool": {
+          "Location": "BathHouse_Pool",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundleD}}",
+		  "BundleIcon": "Treasure_Hunter",
+		  "BundleSlots": 1,
+          "ShopPosition": "13, 7",
+		  "SpecialPlacementRequirements":  [
+  {
+     "Type": "BundleCompletion",
+    "BundleKey": "blue704.JojaCC_TreasureHuntBundle03"
+
+  }
+],
+		  "InstantShopRemoval": true,
+		  "ShopType": "CCBundle",
+          "Price": {
+			"(O)438": 1,
+      "(O)613": 1,
+      "(O)421": 1,
+      "(O)88": 1,
+      "(O)60": 1
+          },
+      "RandomPriceEntries": 1,
+		  "BundleReward": {
+						"(0)blue704.JojaCC_TreasureHuntTag": 1
+					}
+        }
+    }
+},
+//TH Bundle 5
+{
+      "When": {
+        "HasFlag": "SignChange5",
+                "HasFlag: anyPlayer|contains=TreasureHuntComplete": false,
+                "HasMod|contains=FlashShifter.StardewValleyExpandedCP": false
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "MapTiles": [
+                {
+                    "Position": { "X": 31, "Y": 9 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message TreasureHuntSign5"
+                    }
+                }
+            ]
+    },
+    {
+            "LogName": "Joja CC Treasure Hunt 5",
+			"Action": "EditData",
+            "When": {
+                "HasFlag": "AddTHbundle5",
+                "HasMod|contains=FlashShifter.StardewValleyExpandedCP": false
+      },
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
+                "blue704.JojaCC_TreasureHuntBundle05": {
+          "Location": "JojaCC",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle05}}",
+		  "BundleIcon": "Children",
+		  "BundleSlots": 1,
+          "ShopPosition": "30, 10",
+		  "SpecialPlacementRequirements":  [
+			{
+    "Type": "GameStateQuery",
+    "Condition": "PLAYER_HAS_MAIL any SetTHbundle05 received"
+  }
+		  ],
+		  "InstantShopRemoval": false,
+		  "ShopType": "CCBundle",
+		  "ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
+			"ShopTextureSource": { "X": 64, "Y": 0, "Width": 16, "Height": 16 },
+			"ShopDrawDimensions": "64, 64",
+			"ShopDrawOffset": "0, 64",
+			"ShopAnimation": "0",
+          "Price": {
+			"(O)blue704.JojaCC_TreasureHuntTag": 1
+          },
+		  "BundleReward": {
+			"(O)TreasureTotem": 3,
+      "(O)886": 3,
+      "(O)261": 3
+					},
+          "RandomRewardEntries": 1,
+			"BundleCompletedActions": [
+  					"AddMail all TreasureHuntBundle05Complete received"
+					]
+				},
+                "blue704.JojaCC_TreasureHuntWoods": {
+          "Location": "Woods",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle05}}",
+		  "BundleIcon": "Treasure_Hunter",
+		  "BundleSlots": 1,
+          "ShopPosition": "52, 14",
+		  "SpecialPlacementRequirements":  [
+  {
+     "Type": "BundleCompletion",
+    "BundleKey": "blue704.JojaCC_TreasureHuntBundle04"
+
+  }
+],
+		  "InstantShopRemoval": true,
+		  "ShopType": "CCBundle",
+          "Price": {
+			"(O)398": 1,
+      "(O)721": 1,
+      "(O)903": 1
+          },
+      "RandomPriceEntries": 1,
+		  "BundleReward": {
+						"(0)blue704.JojaCC_TreasureHuntTag": 1
+					}
+        }
+    }
+},
+//TH Bundle 5 SVE
+{
+      "When": {
+        "HasFlag": "SignChange5",
+                "HasFlag: anyPlayer|contains=TreasureHuntComplete": false,
+                "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "MapTiles": [
+                {
+                    "Position": { "X": 31, "Y": 9 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message TreasureHuntSign5"
+                    }
+                }
+            ]
+    },
+    {
+            "LogName": "Joja CC Treasure Hunt 5",
+			"Action": "EditData",
+            "When": {
+                "HasFlag": "AddTHbundle5",
+                "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
+      },
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
+                "blue704.JojaCC_TreasureHuntBundle05": {
+          "Location": "JojaCC",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle05}}",
+		  "BundleIcon": "Children",
+		  "BundleSlots": 1,
+          "ShopPosition": "30, 10",
+		  "SpecialPlacementRequirements":  [
+			{
+    "Type": "GameStateQuery",
+    "Condition": "PLAYER_HAS_MAIL any SetTHbundle05 received"
+  }
+		  ],
+		  "InstantShopRemoval": false,
+		  "ShopType": "CCBundle",
+		  "ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
+			"ShopTextureSource": { "X": 64, "Y": 0, "Width": 16, "Height": 16 },
+			"ShopDrawDimensions": "64, 64",
+			"ShopDrawOffset": "0, 64",
+			"ShopAnimation": "0",
+          "Price": {
+			"(O)blue704.JojaCC_TreasureHuntTag": 1
+          },
+		  "BundleReward": {
+			"(O)TreasureTotem": 3,
+      "(O)886": 3,
+      "(O)261": 3
+					},
+          "RandomRewardEntries": 1,
+			"BundleCompletedActions": [
+  					"AddMail all TreasureHuntBundle05Complete received"
+					]
+				},
+                "blue704.JojaCC_TreasureHuntWoods": {
+          "Location": "Woods",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle05}}",
+		  "BundleIcon": "Treasure_Hunter",
+		  "BundleSlots": 1,
+          "ShopPosition": "55, 20",
+		  "SpecialPlacementRequirements":  [
+  {
+     "Type": "BundleCompletion",
+    "BundleKey": "blue704.JojaCC_TreasureHuntBundle04"
+
+  }
+],
+		  "InstantShopRemoval": true,
+		  "ShopType": "CCBundle",
+          "Price": {
+			"(O)398": 1,
+      "(O)721": 1,
+      "(O)903": 1
+          },
+      "RandomPriceEntries": 1,
+		  "BundleReward": {
+						"(0)blue704.JojaCC_TreasureHuntTag": 1
+					}
+        }
+    }
+},
+//TH Bundle 11
+{
+      "When": {
+        "HasFlag": "SignChange11",
+                "HasFlag: anyPlayer|contains=TreasureHuntComplete": false
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "MapTiles": [
+                {
+                    "Position": { "X": 31, "Y": 9 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message TreasureHuntSign11"
+                    }
+                }
+            ]
+    },
+    {
+            "LogName": "Joja CC Treasure Hunt 11",
+			"Action": "EditData",
+            "When": {
+        "HasFlag": "AddTHbundle11"
+      },
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
+                "blue704.JojaCC_TreasureHuntBundle05": {
+          "Location": "JojaCC",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle11}}",
+		  "BundleIcon": "Children",
+		  "BundleSlots": 1,
+          "ShopPosition": "30, 10",
+		  "SpecialPlacementRequirements":  [
+			{
+    "Type": "GameStateQuery",
+    "Condition": "PLAYER_HAS_MAIL any SetTHbundle05 received"
+  }
+		  ],
+		  "InstantShopRemoval": false,
+		  "ShopType": "CCBundle",
+		  "ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
+			"ShopTextureSource": { "X": 64, "Y": 0, "Width": 16, "Height": 16 },
+			"ShopDrawDimensions": "64, 64",
+			"ShopDrawOffset": "0, 64",
+			"ShopAnimation": "0",
+          "Price": {
+			"(O)blue704.JojaCC_TreasureHuntTag": 1
+          },
+		  "BundleReward": {
+			"(O)TreasureTotem": 3,
+      "(O)886": 3,
+      "(O)261": 3
+					},
+          "RandomRewardEntries": 1,
+			"BundleCompletedActions": [
+  					"AddMail all TreasureHuntBundle05Complete received"
+					]
+				},
+                "blue704.JojaCC_TreasureHuntFriendlyLittleSlime": {
+          "Location": "ArchaeologyHouse",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle11}}",
+		  "BundleIcon": "Treasure_Hunter",
+		  "BundleSlots": 1,
+          "ShopPosition": "14, 4",
+		  "SpecialPlacementRequirements":  [
+  {
+     "Type": "BundleCompletion",
+    "BundleKey": "blue704.JojaCC_TreasureHuntBundle04"
+
+  }
+],
+		  "InstantShopRemoval": true,
+		  "ShopType": "CCBundle",
+          "Price": {
+			"(O)398": 1,
+      "(O)721": 1,
+      "(O)903": 1
+          },
+      "RandomPriceEntries": 1,
+		  "BundleReward": {
+						"(0)blue704.JojaCC_TreasureHuntTag": 1
+					}
+        }
+    }
+},
+//TH Bundle 17
+{
+      "When": {
+        "HasFlag": "SignChange17",
+                "HasFlag: anyPlayer|contains=TreasureHuntComplete": false
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "MapTiles": [
+                {
+                    "Position": { "X": 31, "Y": 9 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message TreasureHuntSign17"
+                    }
+                }
+            ]
+    },
+    {
+            "LogName": "Joja CC Treasure Hunt 17",
+			"Action": "EditData",
+            "When": {
+        "HasFlag": "AddTHbundle17"
+      },
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
+                "blue704.JojaCC_TreasureHuntBundle05": {
+          "Location": "JojaCC",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle17}}",
+		  "BundleIcon": "Children",
+		  "BundleSlots": 1,
+          "ShopPosition": "30, 10",
+		  "SpecialPlacementRequirements":  [
+			{
+    "Type": "GameStateQuery",
+    "Condition": "PLAYER_HAS_MAIL any SetTHbundle05 received"
+  }
+		  ],
+		  "InstantShopRemoval": false,
+		  "ShopType": "CCBundle",
+		  "ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
+			"ShopTextureSource": { "X": 64, "Y": 0, "Width": 16, "Height": 16 },
+			"ShopDrawDimensions": "64, 64",
+			"ShopDrawOffset": "0, 64",
+			"ShopAnimation": "0",
+          "Price": {
+			"(O)blue704.JojaCC_TreasureHuntTag": 1
+          },
+		  "BundleReward": {
+			"(O)TreasureTotem": 3,
+      "(O)886": 3,
+      "(O)261": 3
+					},
+          "RandomRewardEntries": 1,
+			"BundleCompletedActions": [
+  					"AddMail all TreasureHuntBundle05Complete received"
+					]
+				},
+                "blue704.JojaCC_TreasureHuntShortsAttack": {
+          "Location": "LewisBasement",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle17}}",
+		  "BundleIcon": "Treasure_Hunter",
+		  "BundleSlots": 1,
+          "ShopPosition": "2, 4",
+		  "SpecialPlacementRequirements":  [
+  {
+     "Type": "BundleCompletion",
+    "BundleKey": "blue704.JojaCC_TreasureHuntBundle04"
+
+  }
+],
+		  "InstantShopRemoval": true,
+		  "ShopType": "CCBundle",
+          "Price": {
+			"(O)398": 1,
+      "(O)721": 1,
+      "(O)903": 1
+          },
+      "RandomPriceEntries": 1,
+		  "BundleReward": {
+						"(0)blue704.JojaCC_TreasureHuntTag": 1
+					}
+        }
+    }
+},
+//TH Bundle 23
+{
+      "When": {
+        "HasFlag": "SignChange23",
+                "HasFlag: anyPlayer|contains=TreasureHuntComplete": false
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "MapTiles": [
+                {
+                    "Position": { "X": 31, "Y": 9 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message TreasureHuntSign23"
+                    }
+                }
+            ]
+    },
+    {
+            "LogName": "Joja CC Treasure Hunt 23",
+			"Action": "EditData",
+            "When": {
+        "HasFlag": "AddTHbundle23"
+      },
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
+                "blue704.JojaCC_TreasureHuntBundle05": {
+          "Location": "JojaCC",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle23}}",
+		  "BundleIcon": "Children",
+		  "BundleSlots": 1,
+          "ShopPosition": "30, 10",
+		  "SpecialPlacementRequirements":  [
+			{
+    "Type": "GameStateQuery",
+    "Condition": "PLAYER_HAS_MAIL any SetTHbundle05 received"
+  }
+		  ],
+		  "InstantShopRemoval": false,
+		  "ShopType": "CCBundle",
+		  "ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
+			"ShopTextureSource": { "X": 64, "Y": 0, "Width": 16, "Height": 16 },
+			"ShopDrawDimensions": "64, 64",
+			"ShopDrawOffset": "0, 64",
+			"ShopAnimation": "0",
+          "Price": {
+			"(O)blue704.JojaCC_TreasureHuntTag": 1
+          },
+		  "BundleReward": {
+			"(O)TreasureTotem": 3,
+      "(O)886": 3,
+      "(O)261": 3
+					},
+          "RandomRewardEntries": 1,
+			"BundleCompletedActions": [
+  					"AddMail all TreasureHuntBundle05Complete received"
+					]
+				},
+                "blue704.JojaCC_TreasureHuntMegaStation": {
+          "Location": "AnimalShop",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle23}}",
+		  "BundleIcon": "Treasure_Hunter",
+		  "BundleSlots": 1,
+          "ShopPosition": "22, 6",
+		  "SpecialPlacementRequirements":  [
+  {
+     "Type": "BundleCompletion",
+    "BundleKey": "blue704.JojaCC_TreasureHuntBundle04"
+
+  }
+],
+		  "InstantShopRemoval": true,
+		  "ShopType": "CCBundle",
+          "Price": {
+			"(O)398": 1,
+      "(O)721": 1,
+      "(O)903": 1
+          },
+      "RandomPriceEntries": 1,
+		  "BundleReward": {
+						"(0)blue704.JojaCC_TreasureHuntTag": 1
+					}
+        }
+    }
+},
+//TH Bundle E
+{
+      "When": {
+        "HasFlag": "SignChangeE",
+                "HasFlag: anyPlayer|contains=TreasureHuntComplete": false
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "MapTiles": [
+                {
+                    "Position": { "X": 31, "Y": 9 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message TreasureHuntSignE"
+                    }
+                }
+            ]
+    },
+    {
+            "LogName": "Joja CC Treasure Hunt E",
+			"Action": "EditData",
+            "When": {
+        "HasFlag": "AddTHbundleE"
+      },
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
+                "blue704.JojaCC_TreasureHuntBundle05": {
+          "Location": "JojaCC",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundleE}}",
+		  "BundleIcon": "Children",
+		  "BundleSlots": 1,
+          "ShopPosition": "30, 10",
+		  "SpecialPlacementRequirements":  [
+			{
+    "Type": "GameStateQuery",
+    "Condition": "PLAYER_HAS_MAIL any SetTHbundle05 received"
+  }
+		  ],
+		  "InstantShopRemoval": false,
+		  "ShopType": "CCBundle",
+		  "ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
+			"ShopTextureSource": { "X": 64, "Y": 0, "Width": 16, "Height": 16 },
+			"ShopDrawDimensions": "64, 64",
+			"ShopDrawOffset": "0, 64",
+			"ShopAnimation": "0",
+          "Price": {
+			"(O)blue704.JojaCC_TreasureHuntTag": 1
+          },
+		  "BundleReward": {
+			"(O)TreasureTotem": 3,
+      "(O)886": 3,
+      "(O)261": 3
+					},
+          "RandomRewardEntries": 1,
+			"BundleCompletedActions": [
+  					"AddMail all TreasureHuntBundle05Complete received"
+					]
+				},
+                "blue704.JojaCC_TreasureHuntSewer": {
+          "Location": "Sewer",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundleE}}",
+		  "BundleIcon": "Treasure_Hunter",
+		  "BundleSlots": 1,
+          "ShopPosition": "33, 16",
+		  "SpecialPlacementRequirements":  [
+  {
+     "Type": "BundleCompletion",
+    "BundleKey": "blue704.JojaCC_TreasureHuntBundle04"
+
+  }
+],
+		  "InstantShopRemoval": true,
+		  "ShopType": "CCBundle",
+          "Price": {
+			"(O)398": 1,
+      "(O)721": 1,
+      "(O)903": 1
+          },
+      "RandomPriceEntries": 1,
+		  "BundleReward": {
+						"(0)blue704.JojaCC_TreasureHuntTag": 1
+					}
+        }
+    }
+},
+//TH Bundle 6
+{
+      "When": {
+        "HasFlag": "SignChange6",
+                "HasFlag: anyPlayer|contains=TreasureHuntComplete": false,
+                "HasMod|contains=FlashShifter.StardewValleyExpandedCP": false
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "MapTiles": [
+                {
+                    "Position": { "X": 31, "Y": 9 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message TreasureHuntSign6"
+                    }
+                }
+            ]
+    },
+    {
+            "LogName": "Joja CC Treasure Hunt 6",
+			"Action": "EditData",
+            "When": {
+                "HasFlag": "AddTHbundle6",
+                "HasMod|contains=FlashShifter.StardewValleyExpandedCP": false
+      },
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
+               "blue704.JojaCC_TreasureHuntBundle06": {
+          "Location": "JojaCC",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle06}}",
+		  "BundleIcon": "Children",
+		  "BundleSlots": 1,
+          "ShopPosition": "30, 10",
+		  "SpecialPlacementRequirements":  [
+			{
+    "Type": "GameStateQuery",
+    "Condition": "PLAYER_HAS_MAIL any SetTHbundle06 received"
+  }
+		  ],
+		  "InstantShopRemoval": false,
+		  "ShopType": "CCBundle",
+		  "ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
+			"ShopTextureSource": { "X": 64, "Y": 0, "Width": 16, "Height": 16 },
+			"ShopDrawDimensions": "64, 64",
+			"ShopDrawOffset": "0, 64",
+			"ShopAnimation": "0",
+          "Price": {
+			"(O)blue704.JojaCC_GoldenTreasureHuntTag": 1
+          },
+		  "BundleReward": {
+			"(BC)254": 1
+					},
+			"BundleCompletedActions": [
+  					 "AddFriendshipPoints Jas 250",
+  					 "AddFriendshipPoints Vincent 250",
+             "AddMail all TreasureHuntComplete received"
+					]
+				},
+                "blue704.JojaCC_TreasureHuntTown": {
+          "Location": "Town",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle06}}",
+		  "BundleIcon": "Treasure_Hunter",
+		  "BundleSlots": 1,
+          "ShopPosition": "101, 69",
+		  "SpecialPlacementRequirements":  [
+  {
+     "Type": "BundleCompletion",
+    "BundleKey": "blue704.JojaCC_TreasureHuntBundle05"
+
+  }
+],
+		  "InstantShopRemoval": true,
+		  "ShopType": "CCBundle",
+          "Price": {
+			"(O)595": 1,
+      "(O)103": 1,
+      "(O)221": 1
+          },
+      "RandomPriceEntries": 1,
+		  "BundleCompletedActions": [],
+		  "BundleReward": {
+						"(0)blue704.JojaCC_GoldenTreasureHuntTag": 1
+					}
+        }
+    }
+},
+//TH Bundle 6 SVE
+{
+      "When": {
+        "HasFlag": "SignChange6",
+                "HasFlag: anyPlayer|contains=TreasureHuntComplete": false,
+                "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "MapTiles": [
+                {
+                    "Position": { "X": 31, "Y": 9 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message TreasureHuntSign6"
+                    }
+                }
+            ]
+    },
+    {
+            "LogName": "Joja CC Treasure Hunt 6",
+			"Action": "EditData",
+            "When": {
+                "HasFlag": "AddTHbundle6",
+                "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
+      },
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
+               "blue704.JojaCC_TreasureHuntBundle06": {
+          "Location": "JojaCC",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle06}}",
+		  "BundleIcon": "Children",
+		  "BundleSlots": 1,
+          "ShopPosition": "30, 10",
+		  "SpecialPlacementRequirements":  [
+			{
+    "Type": "GameStateQuery",
+    "Condition": "PLAYER_HAS_MAIL any SetTHbundle06 received"
+  }
+		  ],
+		  "InstantShopRemoval": false,
+		  "ShopType": "CCBundle",
+		  "ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
+			"ShopTextureSource": { "X": 64, "Y": 0, "Width": 16, "Height": 16 },
+			"ShopDrawDimensions": "64, 64",
+			"ShopDrawOffset": "0, 64",
+			"ShopAnimation": "0",
+          "Price": {
+			"(O)blue704.JojaCC_GoldenTreasureHuntTag": 1
+          },
+		  "BundleReward": {
+			"(BC)254": 1
+					},
+			"BundleCompletedActions": [
+  					 "AddFriendshipPoints Jas 250",
+  					 "AddFriendshipPoints Vincent 250",
+             "AddMail all TreasureHuntComplete received"
+					]
+				},
+                "blue704.JojaCC_TreasureHuntTown": {
+          "Location": "Town",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle06}}",
+		  "BundleIcon": "Treasure_Hunter",
+		  "BundleSlots": 1,
+          "ShopPosition": "122, 65",
+		  "SpecialPlacementRequirements":  [
+  {
+     "Type": "BundleCompletion",
+    "BundleKey": "blue704.JojaCC_TreasureHuntBundle05"
+
+  }
+],
+		  "InstantShopRemoval": true,
+		  "ShopType": "CCBundle",
+          "Price": {
+			"(O)595": 1,
+      "(O)103": 1,
+      "(O)221": 1
+          },
+      "RandomPriceEntries": 1,
+		  "BundleCompletedActions": [],
+		  "BundleReward": {
+						"(0)blue704.JojaCC_GoldenTreasureHuntTag": 1
+					}
+        }
+    }
+},
+//TH Bundle 12
+{
+      "When": {
+        "HasFlag": "SignChange12",
+                "HasFlag: anyPlayer|contains=TreasureHuntComplete": false
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "MapTiles": [
+                {
+                    "Position": { "X": 31, "Y": 9 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message TreasureHuntSign12"
+                    }
+                }
+            ]
+    },
+    {
+            "LogName": "Joja CC Treasure Hunt 12",
+			"Action": "EditData",
+            "When": {
+        "HasFlag": "AddTHbundle12"
+      },
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
+               "blue704.JojaCC_TreasureHuntBundle06": {
+          "Location": "JojaCC",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle12}}",
+		  "BundleIcon": "Children",
+		  "BundleSlots": 1,
+          "ShopPosition": "30, 10",
+		  "SpecialPlacementRequirements":  [
+			{
+    "Type": "GameStateQuery",
+    "Condition": "PLAYER_HAS_MAIL any SetTHbundle06 received"
+  }
+		  ],
+		  "InstantShopRemoval": false,
+		  "ShopType": "CCBundle",
+		  "ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
+			"ShopTextureSource": { "X": 64, "Y": 0, "Width": 16, "Height": 16 },
+			"ShopDrawDimensions": "64, 64",
+			"ShopDrawOffset": "0, 64",
+			"ShopAnimation": "0",
+          "Price": {
+			"(O)blue704.JojaCC_GoldenTreasureHuntTag": 1
+          },
+		  "BundleReward": {
+			"(BC)254": 1
+					},
+			"BundleCompletedActions": [
+  					 "AddFriendshipPoints Jas 250",
+  					 "AddFriendshipPoints Vincent 250",
+             "AddMail all TreasureHuntComplete received"
+					]
+				},
+                "blue704.JojaCC_TreasureHuntQuarry": {
+          "Location": "Mountain",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle12}}",
+		  "BundleIcon": "Treasure_Hunter",
+		  "BundleSlots": 1,
+          "ShopPosition": "127, 11",
+		  "SpecialPlacementRequirements":  [
+  {
+     "Type": "BundleCompletion",
+    "BundleKey": "blue704.JojaCC_TreasureHuntBundle05"
+
+  }
+],
+		  "InstantShopRemoval": true,
+		  "ShopType": "CCBundle",
+          "Price": {
+			"(O)595": 1,
+      "(O)103": 1,
+      "(O)221": 1
+          },
+      "RandomPriceEntries": 1,
+		  "BundleCompletedActions": [],
+		  "BundleReward": {
+						"(0)blue704.JojaCC_GoldenTreasureHuntTag": 1
+					}
+        }
+    }
+},
+//TH Bundle 18
+{
+      "When": {
+        "HasFlag": "SignChange18",
+                "HasFlag: anyPlayer|contains=TreasureHuntComplete": false
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "MapTiles": [
+                {
+                    "Position": { "X": 31, "Y": 9 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message TreasureHuntSign18"
+                    }
+                }
+            ]
+    },
+    {
+            "LogName": "Joja CC Treasure Hunt 18",
+			"Action": "EditData",
+            "When": {
+        "HasFlag": "AddTHbundle18"
+      },
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
+               "blue704.JojaCC_TreasureHuntBundle06": {
+          "Location": "JojaCC",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle18}}",
+		  "BundleIcon": "Children",
+		  "BundleSlots": 1,
+          "ShopPosition": "30, 10",
+		  "SpecialPlacementRequirements":  [
+			{
+    "Type": "GameStateQuery",
+    "Condition": "PLAYER_HAS_MAIL any SetTHbundle06 received"
+  }
+		  ],
+		  "InstantShopRemoval": false,
+		  "ShopType": "CCBundle",
+		  "ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
+			"ShopTextureSource": { "X": 64, "Y": 0, "Width": 16, "Height": 16 },
+			"ShopDrawDimensions": "64, 64",
+			"ShopDrawOffset": "0, 64",
+			"ShopAnimation": "0",
+          "Price": {
+			"(O)blue704.JojaCC_GoldenTreasureHuntTag": 1
+          },
+		  "BundleReward": {
+			"(BC)254": 1
+					},
+			"BundleCompletedActions": [
+  					 "AddFriendshipPoints Jas 250",
+  					 "AddFriendshipPoints Vincent 250",
+             "AddMail all TreasureHuntComplete received"
+					]
+				},
+                "blue704.JojaCC_TreasureHuntBotany": {
+          "Location": "Sunroom",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle18}}",
+		  "BundleIcon": "Treasure_Hunter",
+		  "BundleSlots": 1,
+          "ShopPosition": "1, 9",
+		  "SpecialPlacementRequirements":  [
+  {
+     "Type": "BundleCompletion",
+    "BundleKey": "blue704.JojaCC_TreasureHuntBundle05"
+
+  }
+],
+		  "InstantShopRemoval": true,
+		  "ShopType": "CCBundle",
+          "Price": {
+			"(O)595": 1,
+      "(O)103": 1,
+      "(O)221": 1
+          },
+      "RandomPriceEntries": 1,
+		  "BundleCompletedActions": [],
+		  "BundleReward": {
+						"(0)blue704.JojaCC_GoldenTreasureHuntTag": 1
+					}
+        }
+    }
+},
+//TH Bundle 24
+{
+      "When": {
+        "HasFlag": "SignChange24",
+                "HasFlag: anyPlayer|contains=TreasureHuntComplete": false
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "MapTiles": [
+                {
+                    "Position": { "X": 31, "Y": 9 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message TreasureHuntSign24"
+                    }
+                }
+            ]
+    },
+    {
+            "LogName": "Joja CC Treasure Hunt 24",
+			"Action": "EditData",
+            "When": {
+        "HasFlag": "AddTHbundle24"
+      },
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
+               "blue704.JojaCC_TreasureHuntBundle06": {
+          "Location": "JojaCC",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle24}}",
+		  "BundleIcon": "Children",
+		  "BundleSlots": 1,
+          "ShopPosition": "30, 10",
+		  "SpecialPlacementRequirements":  [
+			{
+    "Type": "GameStateQuery",
+    "Condition": "PLAYER_HAS_MAIL any SetTHbundle06 received"
+  }
+		  ],
+		  "InstantShopRemoval": false,
+		  "ShopType": "CCBundle",
+		  "ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
+			"ShopTextureSource": { "X": 64, "Y": 0, "Width": 16, "Height": 16 },
+			"ShopDrawDimensions": "64, 64",
+			"ShopDrawOffset": "0, 64",
+			"ShopAnimation": "0",
+          "Price": {
+			"(O)blue704.JojaCC_GoldenTreasureHuntTag": 1
+          },
+		  "BundleReward": {
+			"(BC)254": 1
+					},
+			"BundleCompletedActions": [
+  					 "AddFriendshipPoints Jas 250",
+  					 "AddFriendshipPoints Vincent 250",
+             "AddMail all TreasureHuntComplete received"
+					]
+				},
+                "blue704.JojaCC_TreasureHuntHospital": {
+          "Location": "Hospital",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle24}}",
+		  "BundleIcon": "Treasure_Hunter",
+		  "BundleSlots": 1,
+          "ShopPosition": "20, 6",
+		  "SpecialPlacementRequirements":  [
+  {
+     "Type": "BundleCompletion",
+    "BundleKey": "blue704.JojaCC_TreasureHuntBundle05"
+
+  }
+],
+		  "InstantShopRemoval": true,
+		  "ShopType": "CCBundle",
+          "Price": {
+			"(O)595": 1,
+      "(O)103": 1,
+      "(O)221": 1
+          },
+      "RandomPriceEntries": 1,
+		  "BundleCompletedActions": [],
+		  "BundleReward": {
+						"(0)blue704.JojaCC_GoldenTreasureHuntTag": 1
+					}
+        }
+    }
+},
+//TH Bundle F
+{
+      "When": {
+        "HasFlag": "SignChangeF",
+                "HasFlag: anyPlayer|contains=TreasureHuntComplete": false,
+                "HasMod|contains=FlashShifter.StardewValleyExpandedCP": false
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "MapTiles": [
+                {
+                    "Position": { "X": 31, "Y": 9 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message TreasureHuntSignF"
+                    }
+                }
+            ]
+    },
+    {
+            "LogName": "Joja CC Treasure Hunt F",
+			"Action": "EditData",
+            "When": {
+                "HasFlag": "AddTHbundleF",
+                "HasMod|contains=FlashShifter.StardewValleyExpandedCP": false
+      },
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
+               "blue704.JojaCC_TreasureHuntBundle06": {
+          "Location": "JojaCC",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundleF}}",
+		  "BundleIcon": "Children",
+		  "BundleSlots": 1,
+          "ShopPosition": "30, 10",
+		  "SpecialPlacementRequirements":  [
+			{
+    "Type": "GameStateQuery",
+    "Condition": "PLAYER_HAS_MAIL any SetTHbundle06 received"
+  }
+		  ],
+		  "InstantShopRemoval": false,
+		  "ShopType": "CCBundle",
+		  "ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
+			"ShopTextureSource": { "X": 64, "Y": 0, "Width": 16, "Height": 16 },
+			"ShopDrawDimensions": "64, 64",
+			"ShopDrawOffset": "0, 64",
+			"ShopAnimation": "0",
+          "Price": {
+			"(O)blue704.JojaCC_GoldenTreasureHuntTag": 1
+          },
+		  "BundleReward": {
+			"(BC)254": 1
+					},
+			"BundleCompletedActions": [
+  					 "AddFriendshipPoints Jas 250",
+  					 "AddFriendshipPoints Vincent 250",
+              "AddMail all TreasureHuntComplete received"
+					]
+				},
+                "blue704.JojaCC_TreasureHuntDesert": {
+          "Location": "Desert",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundleF}}",
+		  "BundleIcon": "Treasure_Hunter",
+		  "BundleSlots": 1,
+          "ShopPosition": "6, 37",
+		  "SpecialPlacementRequirements":  [
+  {
+     "Type": "BundleCompletion",
+    "BundleKey": "blue704.JojaCC_TreasureHuntBundle05"
+
+  }
+],
+		  "InstantShopRemoval": true,
+		  "ShopType": "CCBundle",
+          "Price": {
+			"(O)595": 1,
+      "(O)103": 1,
+      "(O)221": 1
+          },
+      "RandomPriceEntries": 1,
+		  "BundleCompletedActions": [],
+		  "BundleReward": {
+						"(0)blue704.JojaCC_GoldenTreasureHuntTag": 1
+					}
+        }
+    }
+},
+//TH Bundle F SVE
+{
+      "When": {
+        "HasFlag": "SignChangeF",
+                "HasFlag: anyPlayer|contains=TreasureHuntComplete": false,
+                "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "MapTiles": [
+                {
+                    "Position": { "X": 31, "Y": 9 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message TreasureHuntSignF"
+                    }
+                }
+            ]
+    },
+    {
+            "LogName": "Joja CC Treasure Hunt F",
+			"Action": "EditData",
+            "When": {
+                "HasFlag": "AddTHbundleF",
+                "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
+      },
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
+               "blue704.JojaCC_TreasureHuntBundle06": {
+          "Location": "JojaCC",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundleF}}",
+		  "BundleIcon": "Children",
+		  "BundleSlots": 1,
+          "ShopPosition": "30, 10",
+		  "SpecialPlacementRequirements":  [
+			{
+    "Type": "GameStateQuery",
+    "Condition": "PLAYER_HAS_MAIL any SetTHbundle06 received"
+  }
+		  ],
+		  "InstantShopRemoval": false,
+		  "ShopType": "CCBundle",
+		  "ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
+			"ShopTextureSource": { "X": 64, "Y": 0, "Width": 16, "Height": 16 },
+			"ShopDrawDimensions": "64, 64",
+			"ShopDrawOffset": "0, 64",
+			"ShopAnimation": "0",
+          "Price": {
+			"(O)blue704.JojaCC_GoldenTreasureHuntTag": 1
+          },
+		  "BundleReward": {
+			"(BC)254": 1
+					},
+			"BundleCompletedActions": [
+  					 "AddFriendshipPoints Jas 250",
+  					 "AddFriendshipPoints Vincent 250",
+              "AddMail all TreasureHuntComplete received"
+					]
+				},
+                "blue704.JojaCC_TreasureHuntDesert": {
+          "Location": "Desert",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundleF}}",
+		  "BundleIcon": "Treasure_Hunter",
+		  "BundleSlots": 1,
+          "ShopPosition": "48, 90",
+		  "SpecialPlacementRequirements":  [
+  {
+     "Type": "BundleCompletion",
+    "BundleKey": "blue704.JojaCC_TreasureHuntBundle05"
+
+  }
+],
+		  "InstantShopRemoval": true,
+		  "ShopType": "CCBundle",
+          "Price": {
+			"(O)595": 1,
+      "(O)103": 1,
+      "(O)221": 1
+          },
+      "RandomPriceEntries": 1,
+		  "BundleCompletedActions": [],
+		  "BundleReward": {
+						"(0)blue704.JojaCC_GoldenTreasureHuntTag": 1
+					}
+        }
+    }
+}
+    ]
+}
