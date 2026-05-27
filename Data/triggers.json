@@ -1,6 +1,21 @@
 {
   "Changes": [
     {
+      //Joja CC Finsished
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "Joja CC Finished": {
+          "Id": "JojaCCFinishedTrigger",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HAS_MAIL any JojaCC_ForagerBundleBookComplete received, PLAYER_HAS_MAIL any JojaCC_FarmerBundleBookComplete received, PLAYER_HAS_MAIL any JojaCC_FisherBundleBookComplete received, PLAYER_HAS_MAIL any BulletinBoardComplete received, PLAYER_HAS_MAIL any JojaCC_BoilerRoomComplete received, PLAYER_HAS_MAIL any JojaCC_VaultComplete received, PLAYER_HAS_MAIL any TreasureHuntComplete received, ",
+          "Actions": [
+            "AddMail all JojaCCFinishedTrigger received"
+          ]
+        }
+          }
+          },
+    {
       //Joja Money Reward Mail
       "Action": "EditData",
       "Target": "Data/TriggerActions",
@@ -679,10 +694,10 @@
         "FisherBundleCompleteTrigger": {
           "Id": "FisherBundleCompleteTrigger",
           "Trigger": "DayStarted",
-          "Condition": "PLAYER_HAS_MAIL current JojaCC_ForagerBundleBookComplete received",
+          "Condition": "PLAYER_HAS_MAIL current JojaCC_FisherBundleBookComplete received",
           "MarkActionApplied": false,
           "Actions": [
-            "AddMail all JojaCC_ForagerBundleBookComplete received"
+            "AddMail all JojaCC_FisherBundleBookComplete received"
           ]
         },
         "FarmerBundleCompleteTrigger": {

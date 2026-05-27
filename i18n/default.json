@@ -173,6 +173,7 @@
     "blue704.JojaCC_GeodeCrusherChestFull": "Cannot process more geodes. Please empty the chest.",
     //Events
     "JojaCCIntro.0": "Welcome @!$h#$b#Thank you so much for volunteering to help fill the new Joja Civic Center.",
+    "JojaCCIntroHard.0": "Welcome @!$h#$b#Not only have you chosen to help out with the new Civic Center, but I see that you are a ${man^woman}$ who isn't afraid of a little challenge.#$b#Hopefully these bundles aren't too difficult for you!$h#$b#But anyway...",
     "JojaCCIntro.1": "As you can see it's already in much better shape than that old run down Community Center, but we still need to fill it with local produce and that's where you come in.#$b#Hopefully then we will be able to entice a few of the local villagers to come open a few shops in here.",
     "JojaCCIntro.2": "I've placed several books around to let you know what is needed, and as you complete the bundles more books will show up for you to complete.#$b#And of course there will be plenty of rewards to compensate you for all of your hard work.$h",
     "JojaCCIntro.3": "Here let me show you around.",
@@ -341,12 +342,12 @@
     "JojaCCFinished.15": "You see, everyone? Our community is what makes Pelican Town special.#$b#But somewhere along the line we lost sight of that.#$b#But now maybe we have a second chance thanks to Morris and JojaMart.$h",
     "JojaCCFinished.16": "Such kind words Lewis, but we all know that this was all made possible because of @!#$b#Without ${him^her}$ Joja would have never been able to break ground on this new building. We should all be thanking ${him^her}$ for all of ${his^her}$ hardwork.$h",
     "JojaCCFinished.17": "It's been a long time since someone has made this old man smile.#$b#Thank you @. Thank you...$h",
-    "JojaCCFinished.18": "Three cheers for {{PlayerName}}!",
+    "JojaCCFinished.18": "Three cheers for",
     "JojaCCFinished.19": "Hip Hip!",
     "JojaCCFinished.20": "Hooray!",
     "JojaCCFinished.21": "Hooray!",
-    "JojaCCFinished.22": "Thanks {{PlayerName}}!",
+    "JojaCCFinished.22": "Thanks",
     "JojaCCFinished.23": "Woohoo!",
-    "JojaCCFinished.24": "Go {{PlayerName}}!",
+    "JojaCCFinished.24": "Go",
     "JojaCCFinished.25": "Thank you @. It has been a pleasure working with you in making this town a better place.#$b#I think I might be tearing up...sob..#$b#Discounts for everyone at JojaMart this week!$h"
 }
