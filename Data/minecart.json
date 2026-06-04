@@ -17,6 +17,9 @@
         },
         {
             "Action": "EditData",
+            "When": {
+                "Enable": "false"
+                    },
             "Target": "Data/Minecarts",
             "TargetField": [ "Default", "Destinations" ],
             "Entries": {
@@ -26,6 +29,24 @@
                     "Condition": "PLAYER_HAS_SEEN_EVENT any FisherBundleAreaComplete",
                     "TargetLocation": "Beach",
                     "TargetTile": { "X": 65, "Y": 7 },
+                    "TargetDirection": "down"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "When": {
+                "Enable": "true"
+                    },
+            "Target": "Data/Minecarts",
+            "TargetField": [ "Default", "Destinations" ],
+            "Entries": {
+                "WillysFishFarm": {
+                    "Id": "WillysFishFarm",
+                    "DisplayName": "{{i18n:blue704.JojaCC_WillysFishFarm}}",
+                    "Condition": "PLAYER_HAS_SEEN_EVENT any FisherBundleAreaComplete",
+                    "TargetLocation": "BeachAlternate",
+                    "TargetTile": { "X": 8, "Y": 7 },
                     "TargetDirection": "down"
                 }
             }

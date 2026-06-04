@@ -136,10 +136,24 @@
     },
     {
         "Action": "EditData",
+        "When": {
+                "Enable": "false"
+                    },
       "LogName": "Joja CC Fisher Bundle Area Event Data",
       "Target": "Data/Events/FarmHouse",
       "Entries": {
         "FisherBundleAreaComplete/GameStateQuery PLAYER_HAS_MAIL current FishFarmAreaEventMail mailbox": "continue/-2000 -2000/Morris 67 11 0 farmer -100 -100 0/pause 500/message \"{{i18n:FisherBundleAreaComplete.0}}\"/pause 500/changeLocation Beach/viewport 68 11 clamp true true/pause 500/skippable/emote Morris 32/pause 500/move Morris 4 0 2/pause 300/speak Morris \"{{i18n:FisherBundleAreaComplete.1}}\"/pause 300/move Morris 0 -2 0/pause 500/speak Morris \"{{i18n:FisherBundleAreaComplete.2}}\"/pause 500/move Morris -6 0 0/pause 500/emote Morris 32/pause 500/speak Morris \"{{i18n:FisherBundleAreaComplete.3}}\"/pause 300/faceDirection Morris 2/pause 300/speak Morris \"{{i18n:FisherBundleAreaComplete.4}}\"/pause 500/emote Morris 20/pause 500/end"
+      }
+    },
+    {
+        "Action": "EditData",
+        "When": {
+                "Enable": "true"
+                    },
+      "LogName": "Joja CC Fisher Bundle Alternate Event Data",
+      "Target": "Data/Events/FarmHouse",
+      "Entries": {
+        "FisherBundleAreaComplete/GameStateQuery PLAYER_HAS_MAIL current FishFarmAreaEventMail mailbox": "continue/-2000 -2000/Morris 10 11 0 farmer -100 -100 0/pause 500/message \"{{i18n:FisherBundleAreaComplete.0}}\"/pause 500/changeToTemporaryMap BeachEventalternate/viewport 11 11 clamp true true/pause 500/skippable/emote Morris 32/pause 500/move Morris 4 0 2/pause 300/speak Morris \"{{i18n:FisherBundleAreaComplete.1}}\"/pause 300/move Morris 0 -2 0/pause 500/speak Morris \"{{i18n:FisherBundleAreaComplete.2}}\"/pause 500/move Morris -6 0 0/pause 500/emote Morris 32/pause 500/speak Morris \"{{i18n:FisherBundleAreaComplete.3}}\"/pause 300/faceDirection Morris 2/pause 300/speak Morris \"{{i18n:FisherBundleAreaComplete.4}}\"/pause 500/emote Morris 20/pause 500/end"
       }
     },
     {

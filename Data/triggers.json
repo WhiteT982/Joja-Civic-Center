@@ -659,6 +659,43 @@
         }
           }
         },
+        //Alternate Fish Farm Build Triggers
+        {
+            "Action": "EditData",
+            "When": {
+              "Enable": "false"
+            },
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "BuildVanillaFishFarm": {
+          "Id": "BuildVanillaFishFarm",
+          "Trigger": "LocationChanged",
+          "MarkActionApplied": false,
+          "Actions": [
+            "AddMail all CanBuildFalse received",
+            "RemoveMail all CanBuildTrue all"
+          ]
+        }
+      }
+    },
+    {
+            "Action": "EditData",
+            "When": {
+              "Enable": "true"
+            },
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "BuildAlternateFishFarm": {
+          "Id": "BuildAlternateFishFarm",
+          "Trigger": "LocationChanged",
+          "MarkActionApplied": false,
+          "Actions": [
+            "AddMail all CanBuildTrue received",
+            "RemoveMail all CanBuildFalse all"
+          ]
+        }
+      }
+    },
         //MultiplayerTriggers
         {
             "Action": "EditData",

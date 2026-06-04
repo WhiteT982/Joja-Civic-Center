@@ -1,34 +1,81 @@
 {
   "Format": "2.9.1",
   "ConfigSchema": {
-    "Enable SVE Bundles": {
-      "AllowValues": "true, false",
-      "Default": "false",
-      "Section": "Bundle Types"
+    "Choose Your Bundle Base": {
+      "AllowValues": "Vanilla, SVE, RSV, East Scarp, VMV",
+      "Default": "Vanilla",
+      "Section": "Bundle Base"
     },
     "Enable More Difficult Bundles": {
       "AllowValues": "true, false",
       "Default": "false",
-      "Section": "Bundle Types"
+      "Section": "Bundle Addons"
+    },
+    "Enable Cornucopia Bundles": {
+      "AllowValues": "true, false",
+      "Default": "false",
+      "Section": "Bundle Addons",
+      "Description": "Must have Cornucopia-More Crops Extended enabled."
+    },
+    "Enable": {
+      "AllowValues": "true, false",
+      "Default": "false",
+      "Section": "Alternate Fish Farm Location",
+      "Description": "Places Willy's Fish Farm in a new location for compatiblity reasons. Avoid changing this value after the fish farm is built. It will not break your game, but there will be a few minor errors. Select false to place fish farm in vanilla tide pool location. Select true to place fish farm in a new area to the East of the vanilla tide pools."
     }
   },
   "Changes": [
     {
       "Action": "Include",
-      "FromFile": "Data/MapPatches/shoppatches.json, Data/MapPatches/cellar.json, Data/MapPatches/JojaCC.json, Data/MapPatches/foragermap.json, Data/MapPatches/gingerisland.json, Data/MapPatches/clintscave.json, Data/MapPatches/beach.json, Data/strings.json, Data/schedules.json, Data/prizeticketmachine.json, Data/triggers.json, Data/mail.json, Data/minecart.json, Data/machines.json, Data/npcgifttastes.json, Data/events.json, Data/shop.json, Data/Objects/soup.json, Data/buildings.json, Data/Objects/treasurehunttag.json, Data/Objects/eventobjects.json, Data/Bundles/treasurehunt.json, assets/Maps/worldmap.json"
+      "FromFile": "Data/Bundles/bundlebooks.json, Data/MapPatches/beachalternate.json, Data/MapPatches/beach.json, Data/MapPatches/shoppatches.json, Data/MapPatches/cellar.json, Data/MapPatches/JojaCC.json, Data/MapPatches/foragermap.json, Data/MapPatches/gingerisland.json, Data/MapPatches/clintscave.json, Data/strings.json, Data/schedules.json, Data/prizeticketmachine.json, Data/triggers.json, Data/mail.json, Data/minecart.json, Data/machines.json, Data/npcgifttastes.json, Data/events.json, Data/shop.json, Data/Objects/soup.json, Data/buildings.json, Data/Objects/treasurehunttag.json, Data/Objects/eventobjects.json, Data/Bundles/treasurehunt.json, assets/Maps/worldmap.json"
     },
     {
       "Action": "Include",
-      "FromFile": "Data/Bundles/bundles.json",
+      "FromFile": "Data/Bundles/Vanillabundles.json",
       "When": {
-        "Enable SVE Bundles": "false"
+        "Choose Your Bundle Base": "Vanilla"
+      }
+    },
+    {
+      "Action": "Include",
+      "FromFile": "Data/Bundles/RSVbundles.json",
+      "When": {
+        "Choose Your Bundle Base": "RSV"
       }
     },
     {
       "Action": "Include",
       "FromFile": "Data/Bundles/SVEbundles.json",
       "When": {
-        "Enable SVE Bundles": "true"
+        "Choose Your Bundle Base": "SVE"
+      }
+    },
+    {
+      "Action": "Include",
+      "FromFile": "Data/Bundles/ESbundles.json",
+      "When": {
+        "Choose Your Bundle Base": "East Scarp"
+      }
+    },
+    {
+      "Action": "Include",
+      "FromFile": "Data/Bundles/VMVbundles.json",
+      "When": {
+        "Choose Your Bundle Base": "VMV"
+      }
+    },
+    {
+      "Action": "Include",
+      "FromFile": "Data/MapPatches/beach.json",
+      "When": {
+        "Enable": "false"
+      }
+    },
+    {
+      "Action": "Include",
+      "FromFile": "Data/MapPatches/beachalternate.json",
+      "When": {
+        "Enable": "true"
       }
     },
     {

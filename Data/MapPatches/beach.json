@@ -3,7 +3,8 @@
             //Load Fish Farm Map
     {
       "When": {
-        "HasFlag": "FishFarmLocationAdded"
+        "HasFlag": "FishFarmLocationAdded",
+        "Enable": "false"
       },
       "Action": "EditMap",
       "Target": "Maps/Beach",
@@ -37,7 +38,7 @@
             "Action": "EditMap",
             "Target": "Maps/Beach",
             "MapProperties": {
-                "BuildConditions": "PLAYER_HAS_MAIL any FishFarmLocationAdded received",
+                "BuildConditions": "PLAYER_HAS_MAIL any FishFarmLocationAdded received, PLAYER_HAS_MAIL any CanBuildFalse received",
                 "CanBuildHere": "T",
                 "ValidBuildRect": "65 0 27 25"
             }
@@ -58,7 +59,8 @@
     },
     {
         "When": {
-            "HasFlag": "FishFarmBuildingsAdded"
+            "HasFlag": "FishFarmBuildingsAdded",
+            "Enable": "false"
         },
 			"Action": "EditData",
 			"Target": "MindMeltMax.MapBuildings/Buildings",
@@ -107,7 +109,8 @@
     //Festival Patches
     {
       "When": {
-        "HasFlag": "FishFarmBuildingsAdded"
+        "HasFlag": "FishFarmBuildingsAdded",
+            "Enable": "false"
       },
       "Action": "EditMap",
       "Target": "Maps/Beach-Jellies",
@@ -127,7 +130,8 @@
     },
     {
       "When": {
-        "HasFlag": "FishFarmBuildingsAdded"
+        "HasFlag": "FishFarmBuildingsAdded",
+            "Enable": "false"
       },
       "Action": "EditMap",
       "Target": "Maps/Beach-Luau",
@@ -147,7 +151,8 @@
     },
     {
       "When": {
-        "HasFlag": "FishFarmBuildingsAdded"
+        "HasFlag": "FishFarmBuildingsAdded",
+            "Enable": "false"
       },
       "Action": "EditMap",
       "Target": "Maps/Beach-Luau2",
@@ -167,7 +172,8 @@
     },
     {
       "When": {
-        "HasFlag": "FishFarmBuildingsAdded"
+        "HasFlag": "FishFarmBuildingsAdded",
+            "Enable": "false"
       },
       "Action": "EditMap",
       "Target": "Maps/Beach-NightMarket",
@@ -187,7 +193,8 @@
     },
     {
       "When": {
-        "HasFlag": "FishFarmBuildingsAdded"
+        "HasFlag": "FishFarmBuildingsAdded",
+            "Enable": "false"
       },
       "Action": "Load",
       "Target": "Maps/Beach-Jellies2",
