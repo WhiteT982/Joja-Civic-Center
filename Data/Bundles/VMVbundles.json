@@ -1,7 +1,7 @@
 {
     "Changes": [
         {
-            "LogName": "SVE Forager Bundles",
+            "LogName": "VMV Forager Bundles",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "false"
@@ -18,10 +18,11 @@
 					"BookId": "blue704.JojaCC_ForagerBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 5,
+					"BundleSlots": 6,
 					"Price": {
 						"(O)153": 5,
-						"(O)FlashShifter.StardewValleyExpandedCP_Dulse_Seaweed": 5,
+						"(O)157": 5,
+                        "(O)Lumisteria.MtVapius_Reed": 1,
 						"(O)152": 2,
 						"(O)SeaJelly": 1,
 						"(O)RiverJelly": 1,
@@ -43,10 +44,11 @@
 					"BookId": "blue704.JojaCC_ForagerBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 5,
+					"BundleSlots": 6,
 					"Price": {
-						"(O)330": 3,
-						"(O)382": 5,
+						"(O)Lumisteria.MtVapius_Garnet": 3,
+						"(O)Lumisteria.MtVapius_Amber": 5,
+                        "(O)Lumisteria.MtVapius_BlueAgathe": 1,
 						"(O)412": 1,
 						"(O)78": 1,
 						"(O)80": 1,
@@ -71,8 +73,8 @@
 					"BundleSlots": 6,
 					"Price": {
 						"(O)394": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Big_Conch": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Dried_Sand_Dollar": 1,
+						"(O)392": 1,
+						"(O)393": 1,
 						"(O)372": 1,
 						"(O)719": 1,
 						"(O)723": 1,
@@ -95,16 +97,17 @@
 					"BookId": "blue704.JojaCC_ForagerBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 6,
+					"BundleSlots": 7,
                     "Price": {
-						"(O)404": 1,
+						"(O)Lumisteria.MtVapius_Porchini": 1,
 						"(O)420": 1,
 						"(O)422": 1,
 						"(O)257": 1,
-						"(O)281": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Birch_Water": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Fir_Wax": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Mushroom_Colony": 1
+						"(O)Lumisteria.MtVapius_BlackChanterelle": 1,
+                        "(O)Lumisteria.MtVapius_BirchSap": 1,
+						"(O)724": 1,
+						"(O)725": 1,
+						"(O)726": 1
 					},
 					"BundleReward": {
 						"(BC)MushroomLog": 2,
@@ -123,7 +126,7 @@
             }
         },
         {
-            "LogName": "SVE Forager Bundles",
+            "LogName": "VMV Forager Bundles",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "false",
@@ -142,14 +145,14 @@
 					"DrawQuestionMark": false, 
 					"BundleSlots": 7,
                     "Price": {
-						"(O)FlashShifter.StardewValleyExpandedCP_Red_Baneberry": 1,
+						"(O)16": 1,
 						"(O)396": 1,
 						"(O)406": 1,
 						"(O)88": 1,
 						"(O)90": 1,
 						"(O)829": 1,
 						"(O)851": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Bearberrys": 1
+						"(O)Lumisteria.MtVapius_Nevaril": 1
 					},
 					"BundleReward": {
 						"(O)69": 1,
@@ -163,7 +166,7 @@
             }
         },
         {
-            "LogName": "SVE Forager Bundles",
+            "LogName": "VMV Forager Bundles",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "false",
@@ -180,17 +183,16 @@
 					"BookId": "blue704.JojaCC_ForagerBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 8,
+					"BundleSlots": 7,
                     "Price": {
 						"(O)Cornucopia_Peppercorn": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Red_Baneberry": 1,
 						"(O)Cornucopia_Raspberry": 1,
 						"(O)Cornucopia_ChickenoftheWoods": 1,
 						"(O)88": 1,
 						"(O)Cornucopia_Sugarcane": 1,
 						"(O)829": 1,
 						"(O)851": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Bearberrys": 1
+						"(O)Lumisteria.MtVapius_Nevaril": 1
 					},
 					"BundleReward": {
 						"(O)69": 1,
@@ -204,7 +206,7 @@
             }
         },
         {
-            "LogName": "SVE Farmer Bundles",
+            "LogName": "VMV Farmer Bundles",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "false",
@@ -228,10 +230,10 @@
 						"(O)24": 1,
 						"(O)192": 1,
 						"(O)250": 1,
-						"(O)188": 1,
+						"(O)Lumisteria.MtVapius_FireBeans": 1,
 						"(O)190": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Cucumber": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Pear": 1
+						"(O)634": 1,
+						"(O)638": 1
 					},
 					"BundleCompletedActions": [
   "AddMail all JojaCC_Year2SeedsJoja received",
@@ -256,9 +258,9 @@
 						"(O)262": 1,
 						"(O)593": 1,
 						"(O)266": 1,
-						"(O)304": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Butternut_Squash": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Nectarine": 1
+						"(O)Lumisteria.MtVapius_Basil": 1,
+						"(O)Lumisteria.MtVapius_OrangeBlossom": 1,
+						"(O)636": 1
 					},
 					"BundleReward": {
 						"(O)621": 3
@@ -280,12 +282,12 @@
 					"Price": {
 						"(O)Broccoli": 1,
 						"(O)278": 1,
-						"(O)272": 1,
+						"(O)Lumisteria.MtVapius_Sunroot": 1,
 						"(O)300": 1,
 						"(O)274": 1,
 						"(O)284": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Sweet_Potato": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Persimmon": 1
+						"(O)Lumisteria.MtVapius_WhiteGrape": 1,
+						"(O)Lumisteria.MtVapius_Olive": 1
 					},
 					"BundleReward": {
 						"(BC)Adam.Joja_Keg": 2
@@ -297,7 +299,7 @@
         }
     },
     {
-            "LogName": "SVE Farmer Bundles",
+            "LogName": "VMV Farmer Bundles",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "false",
@@ -321,10 +323,10 @@
 						"(O)Cornucopia_Asparagus": 1,
 						"(O)Cornucopia_Basil": 1,
 						"(O)250": 1,
-						"(O)188": 1,
+						"(O)Lumisteria.MtVapius_FireBeans": 1,
 						"(O)Cornucopia_Jalapeno": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Cucumber": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Pear": 1
+						"(O)634": 1,
+						"(O)638": 1
 					},
 					"BundleCompletedActions": [
   "AddMail all JojaCC_Year2SeedsJoja received",
@@ -347,11 +349,11 @@
 						"(O)SummerSquash": 1,
 						"(O)Cornucopia_Lettuce": 1,
 						"(O)Cornucopia_Honeydew": 1,
-						"(O)593": 1,
 						"(O)266": 1,
 						"(O)Cornucopia_WasabiRoot": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Butternut_Squash": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Nectarine": 1
+						"(O)Lumisteria.MtVapius_Basil": 1,
+						"(O)Lumisteria.MtVapius_OrangeBlossom": 1,
+						"(O)636": 1
 					},
 					"BundleReward": {
 						"(O)621": 3
@@ -374,11 +376,11 @@
 						"(O)Broccoli": 1,
 						"(O)Cornucopia_KidneyBeans": 1,
 						"(O)Cornucopia_Zucchini": 1,
-						"(O)300": 1,
+						"(O)Lumisteria.MtVapius_Sunroot": 1,
 						"(O)274": 1,
 						"(O)Cornucopia_Turnip": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Sweet_Potato": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Persimmon": 1
+						"(O)Lumisteria.MtVapius_WhiteGrape": 1,
+						"(O)Lumisteria.MtVapius_FrostApple": 1
 					},
 					"BundleReward": {
 						"(BC)Adam.Joja_Keg": 2
@@ -390,7 +392,7 @@
         }
     },
     {
-            "LogName": "SVE Farmer Bundles",
+            "LogName": "VMV Farmer Bundles",
 			"Action": "EditData",
             "When": {
 				"Enable More Difficult Bundles": "false"
@@ -459,7 +461,8 @@
                     "Price": {
 						"(O)306": 1,
 						"(O)307": 1,
-						"(O)308": 1
+						"(O)308": 1,
+                        "(O)Lumisteria.MtVapius_SpeckledFowlMayonnaise": 1
 					},
 					"BundleReward": {
 						"(BC)101": 1
@@ -488,7 +491,7 @@
 						"(O)182": 3,
 						"(O)186": 3,
 						"(O)423": 50,
-						"(O)FlashShifter.StardewValleyExpandedCP_Butter": 10
+						"(O)216": 5
 					},
 					"BundleReward": {
 						"(0)917": 10
@@ -530,7 +533,7 @@
             }
         },
         {
-            "LogName": "SVE Fisher Bundles",
+            "LogName": "VMV Fisher Bundles",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "false"
@@ -549,11 +552,11 @@
 					"DrawQuestionMark": false, 
 					"BundleSlots": 5,
 					"Price": {
-						"(O)137": 1,
+						"(O)Lumisteria.MtVapius_CrystalFish": 1,
 						"(O)129": 1,
 						"(O)147": 1,
 						"(O)148": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Goldfish": 1,
+						"(O)136": 1,
 						"(O)706": 1
 					},
 					"BundleReward": {
@@ -576,9 +579,9 @@
 					"Price": {
 						"(O)138": 1,
 						"(O)144": 1,
-						"(O)146": 1,
+						"(O)Lumisteria.MtVapius_WhiteVendace": 1,
 						"(O)149": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Grass_Carp": 1,
+						"(O)704": 1,
 						"(O)267": 1
 					},
 					"BundleReward": {
@@ -602,9 +605,9 @@
 						"(O)139": 1,
 						"(O)154": 1,
 						"(O)269": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Gar": 1,
+						"(O)699": 1,
 						"(O)705": 1,
-						"(O)140": 1
+						"(O)Lumisteria.MtVapius_LeafyTrout": 1
 					},
 					"BundleReward": {
 						"(BC)Adam.Joja_WormBin": 1
@@ -627,9 +630,9 @@
 						"(O)141": 1,
 						"(O)151": 1,
 						"(O)707": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Bull_Trout": 1,
+						"(O)698": 1,
 						"(O)161": 1,
-						"(O)708": 1
+						"(O)Lumisteria.MtVapius_RainbowPerch": 1
 					},
 					"BundleReward": {
 						"(O)265": 1
@@ -696,7 +699,7 @@
         },
         {
             //Bulletin Board Bundles
-            "LogName": "SVE Bulletin Board",
+            "LogName": "VMV Bulletin Board",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "false",
@@ -729,7 +732,7 @@
             }
         },
         {
-            "LogName": "SVE Bulletin Board",
+            "LogName": "VMV Bulletin Board",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "false",
@@ -762,7 +765,7 @@
             }
         },
         {
-            "LogName": "SVE Bulletin Board",
+            "LogName": "VMV Bulletin Board",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "false"
@@ -798,21 +801,22 @@
 					"BookId": "blue704.JojaCC_BulletinBoardBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 4,
+					"BundleSlots": 5,
 					"Price": {
 						"(O)174": 1,
 						"(O)182": 1,
 						"(O)305": 1,
-						"(O)442": 1
+						"(O)442": 1,
+                        "(O)Lumisteria.MtVapius_SpeckledFowlEgg": 1
 					},
 					"BundleReward": {
-						"(O)107": 1
+						"(O)Lumisteria.MtVapius_StellarGooseEgg": 1
 				}
             }
         }
     },
     {
-            "LogName": "SVE Bulletin Board",
+            "LogName": "VMV Bulletin Board",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "false",
@@ -831,12 +835,12 @@
 					"DrawQuestionMark": false, 
 					"BundleSlots": 6,
                     "Price": {
-						"(O)591": 1,
-						"(O)593": 1,
+						"(O)Lumisteria.MtVapius_BlueMorningGlory": 1,
+						"(O)Lumisteria.MtVapius_StarShapedFlower": 1,
 						"(O)595": 1,
-						"(O)597": 1,
-						"(O)376": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Swamp_Flower": 1
+						"(O)Lumisteria.MtVapius_Elfcup": 1,
+						"(O)Lumisteria.MtVapius_VelvetIris": 1,
+						"(O)Lumisteria.MtVapius_LaceFlower": 1
 					},
 					"BundleReward": {
 						"(F)1971": 1
@@ -845,7 +849,7 @@
             }
         },
         {
-            "LogName": "SVE Bulletin Board",
+            "LogName": "VMV Bulletin Board",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "false",
@@ -862,14 +866,15 @@
 					"BookId": "blue704.JojaCC_BulletinBoardBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 6,
+					"BundleSlots": 7,
                     "Price": {
-						"(O)591": 1,
-						"(O)593": 1,
 						"(O)Cornucopia_CanolaFlower": 1,
-						"(O)597": 1,
-						"(O)376": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Swamp_Flower": 1
+						"(O)Lumisteria.MtVapius_BlueMorningGlory": 1,
+						"(O)Lumisteria.MtVapius_StarShapedFlower": 1,
+						"(O)595": 1,
+						"(O)Lumisteria.MtVapius_Elfcup": 1,
+						"(O)Lumisteria.MtVapius_VelvetIris": 1,
+						"(O)Lumisteria.MtVapius_LaceFlower": 1
 					},
 					"BundleReward": {
 						"(F)1971": 1
@@ -878,7 +883,7 @@
             }
         },
         {
-            "LogName": "SVE Bulletin Board",
+            "LogName": "VMV Bulletin Board",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "false"
@@ -900,7 +905,7 @@
 						"(O)773": 1,
 						"(O)888": 1,
 						"(O)874": 1,
-						"(O)109": 1,
+						"(O)Lumisteria.MtVapius_Treasures_OldShield": 1,
 						"(O)244": 1,
 						"(O)680": 1
 					},
@@ -923,13 +928,13 @@
 						"(S)1189": 1,
 						"(S)1035": 1,
 						"(S)1161": 1,
-						"(P)13": 1,
-						"(P)3": 1,
-						"(H)54": 1,
-						"(H)90": 1,
-						"(H)47": 1,
-						"(P)1": 1,
-						"(P)2": 1
+						"(O)Lumisteria.MtVapius_Fan_ClassicFan": 1,
+						"(S)Lumisteria.MtVapius_Shirt051": 1,
+						"(H)Lumisteria.MtVapius_Beret": 1,
+						"(H)Lumisteria.MtVapius_SummerHat": 1,
+						"(H)Lumisteria.MtVapius_NevarilHat": 1,
+						"(O)Lumisteria.MtVapius_Earrings_EmeraldEarrings": 1,
+						"(P)Lumisteria.MtVapius_Pants004": 1
 						
 					},
 					"BundleReward": {
@@ -948,7 +953,7 @@
             }
         },
         {
-            "LogName": "SVE Boiler Room Bundles",
+            "LogName": "VMV Boiler Room Bundles",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "false"
@@ -967,12 +972,12 @@
 					"DrawQuestionMark": false, 
 					"BundleSlots": 6,
 					"Price": {
-						"(O)60": 1,
-						"(O)62": 1,
-						"(O)64": 1,
-						"(O)66": 1,
-						"(O)68": 1,
-                        "(O)70": 1
+						"(O)Lumisteria.MtVapius_Carnelian": 1,
+						"(O)Lumisteria.MtVapius_Turquoise": 1,
+						"(O)Lumisteria.MtVapius_Morganite": 1,
+						"(O)Lumisteria.MtVapius_Heliodor": 1,
+						"(O)Lumisteria.MtVapius_Labradorite": 1,
+                        "(O)Lumisteria.MtVapius_Tourmaline": 1
 					},
 					"BundleReward": {
 						"(O)74": 1
@@ -990,12 +995,14 @@
 					"BookId": "blue704.JojaCC_BoilerRoomBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 4,
+					"BundleSlots": 5,
 					"Price": {
 						"(O)535": 1,
 						"(O)536": 1,
 						"(O)537": 1,
-						"(O)749": 1
+						"(O)749": 1,
+                        "(O)Lumisteria.MtVapius_BlackGeode": 1,
+                        "(O)Lumisteria.MtVapius_GemPigeonEgg": 1
 					},
 					"BundleReward": {
 						"(O)GoldenMysteryBox": 3
@@ -1104,7 +1111,7 @@
             }
         },
         {
-            "LogName": "SVE Vault Bundles",
+            "LogName": "VMV Vault Bundles",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "false"
@@ -1263,7 +1270,7 @@
         },
 		//Hard Bundles
 		{
-            "LogName": "SVE Hard Forager Bundles",
+            "LogName": "VMV Hard Forager Bundles",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "true"
@@ -1280,10 +1287,11 @@
 					"BookId": "blue704.JojaCC_ForagerBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 6,
+					"BundleSlots": 7,
 					"Price": {
-						"(O)FlashShifter.StardewValleyExpandedCP_Dulse_Seaweed": 5,
-						"(O)FlashShifter.StardewValleyExpandedCP_Shark_Tooth": 1,
+						"(O)153": 5,
+						"(O)Lumisteria.MtVapius_Reed": 1,
+						"(O)157": 5,
 						"(O)152": 2,
 						"(O)SeaJelly": 1,
 						"(O)RiverJelly": 1,
@@ -1305,10 +1313,11 @@
 					"BookId": "blue704.JojaCC_ForagerBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 7,
+					"BundleSlots": 8,
 					"Price": {
-						"(O)330": 3,
-						"(O)382": 5,
+						"(O)Lumisteria.MtVapius_Garnet": 3,
+						"(O)Lumisteria.MtVapius_Amber": 5,
+                        "(O)Lumisteria.MtVapius_BlueAgathe": 1,
 						"(O)412": 1,
 						"(O)78": 1,
 						"(O)80": 1,
@@ -1334,8 +1343,8 @@
 					"BundleSlots": 8,
 					"Price": {
 						"(O)394": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Big_Conch": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Dried_Sand_Dollar": 1,
+						"(O)392": 1,
+						"(O)393": 1,
 						"(O)372": 1,
 						"(O)719": 1,
 						"(O)723": 1,
@@ -1360,14 +1369,15 @@
 					"DrawQuestionMark": false, 
 					"BundleSlots": 8,
                     "Price": {
-						"(O)FlashShifter.StardewValleyExpandedCP_Poison_Mushroom": 1,
-						"(O)420": 1,
+						"(O)Lumisteria.MtVapius_Porchini": 1,
+						"(O)Lumisteria.MtVapius_WoodgoatMushroom": 1,
 						"(O)422": 1,
 						"(O)257": 1,
-						"(O)281": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Birch_Water": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Fir_Wax": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Mushroom_Colony": 1
+						"(O)Lumisteria.MtVapius_BlackChanterelle": 1,
+                        "(O)Lumisteria.MtVapius_BirchSap": 1,
+						"(O)724": 1,
+						"(O)725": 1,
+						"(O)726": 1
 					},
 					"BundleReward": {
 						"(BC)MushroomLog": 5,
@@ -1386,7 +1396,7 @@
             }
         },
         {
-            "LogName": "SVE Hard Forager Bundles",
+            "LogName": "VMV Hard Forager Bundles",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "true",
@@ -1405,14 +1415,14 @@
 					"DrawQuestionMark": false, 
 					"BundleSlots": 8,
                     "Price": {
-						"(O)FlashShifter.StardewValleyExpandedCP_Red_Baneberry": 1,
-						"(O)396": 1,
-						"(O)406": 1,
+						"(O)Lumisteria.MtVapius_GoblinGentian": 1,
+						"(O)Lumisteria.MtVapius_SweetMyriadin": 1,
+						"(O)Lumisteria.MtVapius_Elfcup": 1,
 						"(O)88": 1,
 						"(O)90": 1,
 						"(O)829": 1,
 						"(O)851": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Bearberrys": 1
+						"(O)Lumisteria.MtVapius_Neralbane": 1
 					},
 					"BundleReward": {
 						"(O)69": 1,
@@ -1425,7 +1435,7 @@
             }
         },
         {
-            "LogName": "SVE Hard Forager Bundles",
+            "LogName": "VMV Hard Forager Bundles",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "true",
@@ -1442,7 +1452,7 @@
 					"BookId": "blue704.JojaCC_ForagerBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 9,
+					"BundleSlots": 8,
                     "Price": {
 						"(O)Cornucopia_Peppercorn": 1,
 						"(O)Cornucopia_Raspberry": 1,
@@ -1451,8 +1461,9 @@
 						"(O)Cornucopia_Sugarcane": 1,
 						"(O)829": 1,
 						"(O)851": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Red_Baneberry": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Bearberrys": 1
+						"(O)Lumisteria.MtVapius_GoblinGentian": 1,
+						"(O)Lumisteria.MtVapius_SweetMyriadin": 1,
+						"(O)Lumisteria.MtVapius_Elfcup": 1
 					},
 					"BundleReward": {
 						"(O)69": 1,
@@ -1465,7 +1476,7 @@
             }
         },
         {
-            "LogName": "SVE Hard Farmer Bundles",
+            "LogName": "VMV Hard Farmer Bundles",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "true",
@@ -1486,13 +1497,13 @@
 					"BundleSlots": 8,
 					"Price": {
 						"(O)Carrot": 15,
-						"(O)24": 1,
+						"(O)Lumisteria.MtVapius_CometRoots": 1,
 						"(O)192": 1,
 						"(O)250": 1,
 						"(O)252": 1,
-						"(O)190": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Cucumber": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Pear": 1
+						"(O)Lumisteria.MtVapius_FireBeans": 1,
+						"(O)Lumisteria.MtVapius_BalmcreekCarillon": 1,
+						"(O)638": 1
 					},
 					"BundleCompletedActions": [
   "AddMail all JojaCC_Year2SeedsJoja received",
@@ -1515,11 +1526,11 @@
 						"(O)SummerSquash": 15,
 						"(O)264": 1,
 						"(O)268": 1,
-						"(O)593": 1,
+						"(O)Lumisteria.MtVapius_MoonPods": 1,
 						"(O)266": 1,
-						"(O)304": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Butternut_Squash": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Nectarine": 1
+						"(O)Lumisteria.MtVapius_ConstellatedWatermelon": 1,
+						"(O)635": 1,
+						"(O)Lumisteria.MtVapius_Ringfruit": 1
 					},
 					"BundleReward": {
 						"(O)645": 3
@@ -1541,12 +1552,12 @@
 					"Price": {
 						"(O)Broccoli": 15,
 						"(O)278": 1,
-						"(O)272": 1,
-						"(O)300": 1,
+						"(O)Lumisteria.MtVapius_NightMiscanthus": 1,
+						"(O)Lumisteria.MtVapius_Sunroot": 1,
 						"(O)274": 1,
 						"(O)284": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Sweet_Potato": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Persimmon": 1
+						"(O)Lumisteria.MtVapius_VoidOlive": 1,
+						"(O)Lumisteria.MtVapius_GalaxyFruit": 1
 					},
 					"BundleReward": {
 						"(BC)Adam.Joja_Keg": 5
@@ -1558,7 +1569,7 @@
         }
     },
     {
-            "LogName": "SVE Hard Farmer Bundles",
+            "LogName": "VMV Hard Farmer Bundles",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "true",
@@ -1584,8 +1595,8 @@
 						"(O)252": 1,
 						"(O)250": 1,
 						"(O)Cornucopia_PassionFruit": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Cucumber": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Pear": 1
+						"(O)Lumisteria.MtVapius_CometRoots": 1,
+						"(O)Lumisteria.MtVapius_BalmcreekCarillon": 1
 					},
 					"BundleCompletedActions": [
   "AddMail all JojaCC_Year2SeedsJoja received",
@@ -1606,13 +1617,13 @@
 					"BundleSlots": 8,
 					"Price": {
 						"(O)SummerSquash": 15,
-						"(O)Cornucopia_Watermelon": 1,
+						"(O)Lumisteria.MtVapius_ConstellatedWatermelon": 1,
 						"(O)Cornucopia_Lemongrass": 1,
-						"(O)266": 1,
+						"(O)Lumisteria.MtVapius_MoonPods": 1,
 						"(O)268": 1,
 						"(O)Cornucopia_BeanSprouts": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Butternut_Squash": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Nectarine": 1
+						"(O)635": 1,
+						"(O)Lumisteria.MtVapius_Ringfruit": 1
 					},
 					"BundleReward": {
 						"(O)645": 3
@@ -1634,12 +1645,12 @@
 					"Price": {
 						"(O)Broccoli": 15,
 						"(O)Cornucopia_Turmeric": 1,
-						"(O)300": 1,
-						"(O)Cornucopia_Zucchini": 1,
+						"(O)Lumisteria.MtVapius_NightMiscanthus": 1,
+						"(O)Lumisteria.MtVapius_Sunroot": 1,
 						"(O)284": 1,
 						"(O)Cornucopia_Turnip": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Sweet_Potato": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Persimmon": 1
+						"(O)Lumisteria.MtVapius_VoidOlive": 1,
+						"(O)Lumisteria.MtVapius_GalaxyFruit": 1
 					},
 					"BundleReward": {
 						"(BC)Adam.Joja_Keg": 5
@@ -1651,7 +1662,7 @@
         }
     },
     {
-            "LogName": "SVE Hard Farmer Bundles",
+            "LogName": "VMV Hard Farmer Bundles",
 			"Action": "EditData",
             "When": {
 				"Enable More Difficult Bundles": "true"
@@ -1721,11 +1732,11 @@
 						"(O)306:Gold": 3,
 						"(O)307": 3,
 						"(O)308": 3,
-						"(O)FlashShifter.StardewValleyExpandedCP_Goose_Mayonnaise": 1
+                        "(O)Lumisteria.MtVapius_SpeckledFowlMayonnaise": 1
 					},
 					"BundleReward": {
 						"(BC)101": 1,
-						"(O)107": 1
+						"(O)Lumisteria.MtVapius_SpeckledFowlVoidEgg": 1
 					},
 					"BundleCompletedActions": [
   "AddMail all FirstBundleComplete received"
@@ -1751,7 +1762,7 @@
 						"(O)182": 3,
 						"(O)186": 3,
 						"(O)423": 50,
-						"(O)FlashShifter.StardewValleyExpandedCP_Butter": 10
+						"(O)216": 5
 					},
 					"BundleReward": {
 						"(0)917": 20
@@ -1793,7 +1804,7 @@
             }
         },
         {
-            "LogName": "SVE Hard Fisher Bundles",
+            "LogName": "VMV Hard Fisher Bundles",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "true"
@@ -1812,11 +1823,11 @@
 					"DrawQuestionMark": false, 
 					"BundleSlots": 6,
 					"Price": {
-						"(O)137": 1,
+						"(O)Lumisteria.MtVapius_CrystalFish": 1,
 						"(O)129": 1,
 						"(O)147": 1,
 						"(O)148": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Goldfish": 1,
+						"(O)136": 1,
 						"(O)706": 1
 					},
 					"BundleReward": {
@@ -1839,9 +1850,9 @@
 					"Price": {
 						"(O)138": 1,
 						"(O)144": 1,
-						"(O)146": 1,
+						"(O)Lumisteria.MtVapius_WhiteVendace": 1,
 						"(O)149": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Grass_Carp": 1,
+						"(O)704": 1,
 						"(O)267": 1
 					},
 					"BundleReward": {
@@ -1865,9 +1876,9 @@
 						"(O)139": 1,
 						"(O)154": 1,
 						"(O)269": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Gar": 1,
+						"(O)699": 1,
 						"(O)705": 1,
-						"(O)140": 1
+						"(O)Lumisteria.MtVapius_LeafyTrout": 1
 					},
 					"BundleReward": {
 						"(BC)Adam.Joja_WormBin": 2
@@ -1890,9 +1901,9 @@
 						"(O)141": 1,
 						"(O)151": 1,
 						"(O)707": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Bull_Trout": 1,
+						"(O)698": 1,
 						"(O)161": 1,
-						"(O)708": 1
+						"(O)Lumisteria.MtVapius_RainbowPerch": 1
 					},
 					"BundleReward": {
 						"(O)265": 3
@@ -1943,8 +1954,8 @@
                     "Price": {
 						"(O)Adam.Joja_Caviar": 1,
 						"(O)Adam.Joja_AgedRoe": 1,
-						"(UB.Flavored)AgedRoe.163": 1,
-						"(UB.Flavored)Roe.775": 1,
+						"(UB.Flavored)AgedRoe.Lumisteria.MtVapius_PlanetFish": 1,
+						"(UB.Flavored)Roe.Lumisteria.MtVapius_AlpineCharPrince": 1,
 						"(O)445": 1,
 						"(O)814": 1
 					},
@@ -1961,7 +1972,7 @@
         },
         {
             //Bulletin Board Bundles
-            "LogName": "SVE Hard Bulletin Board",
+            "LogName": "VMV Hard Bulletin Board",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "true",
@@ -1994,7 +2005,7 @@
             }
         },
         {
-            "LogName": "SVE Hard Bulletin Board",
+            "LogName": "VMV Hard Bulletin Board",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "true",
@@ -2027,7 +2038,7 @@
             }
         },
         {
-            "LogName": "SVE Hard Bulletin Board",
+            "LogName": "VMV Hard Bulletin Board",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "true"
@@ -2074,17 +2085,17 @@
 						"(O)182": 3,
 						"(O)305": 1,
 						"(O)442": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Goose_Egg": 1
+                        "(O)Lumisteria.MtVapius_SpeckledFowlEgg": 1
 					},
 					"BundleReward": {
-						"(O)107": 1,
+						"(O)Lumisteria.MtVapius_StellarGooseEgg": 1,
 						"(BC)Adam.Joja_MayoMachinePRO": 1
 				}
             }
         }
     },
     {
-            "LogName": "SVE Hard Bulletin Board",
+            "LogName": "VMV Hard Bulletin Board",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "true",
@@ -2103,15 +2114,15 @@
 					"DrawQuestionMark": false, 
 					"BundleSlots": 9,
                     "Price": {
-						"(O)591": 1,
-						"(O)593": 1,
-						"(O)595": 1,
-						"(O)597": 1,
-						"(O)376": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Swamp_Flower": 1,
-						"(O)418": 1,
-						"(O)402": 1,
-						"(O)22": 1
+						"(O)Lumisteria.MtVapius_BlueMorningGlory": 1,
+						"(O)Lumisteria.MtVapius_StarShapedFlower": 1,
+						"(O)Lumisteria.MtVapius_CloudFeather": 1,
+						"(O)Lumisteria.MtVapius_Hellebore": 1,
+						"(O)Lumisteria.MtVapius_Nymphea": 1,
+						"(O)Lumisteria.MtVapius_CasalotierFlower": 1,
+						"(O)Lumisteria.MtVapius_Elfcup": 1,
+						"(O)Lumisteria.MtVapius_VelvetIris": 1,
+						"(O)Lumisteria.MtVapius_LaceFlower": 1
 					},
 					"BundleReward": {
 						"(F)1971": 1,
@@ -2121,7 +2132,7 @@
             }
         },
         {
-            "LogName": "SVE Hard Bulletin Board",
+            "LogName": "VMV Hard Bulletin Board",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "true",
@@ -2140,15 +2151,16 @@
 					"DrawQuestionMark": false, 
 					"BundleSlots": 9,
                     "Price": {
-						"(O)597": 1,
-						"(O)591": 1,
-						"(O)593": 1,
-                        "(O)595": 1,
 						"(O)Cornucopia_CanolaFlower": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Swamp_Flower": 1,
-						"(O)376": 1,
-                        "(O)418": 1,
-						"(O)402": 1
+						"(O)Lumisteria.MtVapius_BlueMorningGlory": 1,
+						"(O)Lumisteria.MtVapius_StarShapedFlower": 1,
+						"(O)Lumisteria.MtVapius_CloudFeather": 1,
+						"(O)Lumisteria.MtVapius_Hellebore": 1,
+						"(O)Lumisteria.MtVapius_Nymphea": 1,
+						"(O)Lumisteria.MtVapius_CasalotierFlower": 1,
+						"(O)Lumisteria.MtVapius_Elfcup": 1,
+						"(O)Lumisteria.MtVapius_VelvetIris": 1,
+						"(O)Lumisteria.MtVapius_LaceFlower": 1
 					},
 					"BundleReward": {
 						"(F)1971": 1,
@@ -2158,7 +2170,7 @@
             }
         },
         {
-            "LogName": "SVE Hard Bulletin Board",
+            "LogName": "VMV Hard Bulletin Board",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "true"
@@ -2180,7 +2192,7 @@
 						"(O)773": 1,
 						"(O)888": 1,
 						"(O)874": 1,
-						"(O)109": 1,
+						"(O)Lumisteria.MtVapius_Treasures_OldShield": 1,
 						"(O)244": 1,
 						"(O)437": 1
 					},
@@ -2203,13 +2215,13 @@
 						"(S)1189": 1,
 						"(S)1035": 1,
 						"(S)1161": 1,
-						"(P)13": 1,
-						"(P)3": 1,
-						"(H)54": 1,
-						"(H)90": 1,
-						"(H)47": 1,
-						"(P)1": 1,
-						"(P)2": 1
+						"(O)Lumisteria.MtVapius_Fan_PinkFan": 1,
+						"(S)Lumisteria.MtVapius_Shirt051": 1,
+						"(H)Lumisteria.MtVapius_Beret": 1,
+						"(H)Lumisteria.MtVapius_SummerHat": 1,
+						"(H)Lumisteria.MtVapius_NevarilHat": 1,
+						"(O)Lumisteria.MtVapius_Earrings_EmeraldEarrings": 1,
+						"(P)Lumisteria.MtVapius_Pants004": 1
 						
 					},
 					"BundleReward": {
@@ -2228,7 +2240,7 @@
             }
         },
         {
-            "LogName": "SVE Hard Boiler Room Bundles",
+            "LogName": "VMV Hard Boiler Room Bundles",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "true"
@@ -2247,13 +2259,13 @@
 					"DrawQuestionMark": false, 
 					"BundleSlots": 7,
 					"Price": {
-						"(O)60": 1,
-						"(O)62": 1,
-						"(O)64": 1,
-						"(O)66": 1,
-						"(O)68": 1,
-                        "(O)70": 1,
-                        "(O)72": 1
+						"(O)Lumisteria.MtVapius_Carnelian_Polished": 1,
+						"(O)Lumisteria.MtVapius_Turquoise_Polished": 1,
+						"(O)Lumisteria.MtVapius_Morganite_Polished": 1,
+						"(O)Lumisteria.MtVapius_Heliodor_Polished": 1,
+						"(O)Lumisteria.MtVapius_Labradorite_Polished": 1,
+                        "(O)Lumisteria.MtVapius_Tourmaline_Polished": 1,
+                        "(O)Lumisteria.MtVapius_Larimar_Polished": 1
 					},
 					"BundleReward": {
 						"(O)74": 1
@@ -2271,12 +2283,14 @@
 					"BookId": "blue704.JojaCC_BoilerRoomBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 4,
+					"BundleSlots": 6,
 					"Price": {
 						"(O)535": 3,
 						"(O)536": 3,
 						"(O)537": 3,
-						"(O)749": 3
+						"(O)749": 3,
+                        "(O)Lumisteria.MtVapius_BlackGeode": 3,
+                        "(O)Lumisteria.MtVapius_GemPigeonEgg": 3
 					},
 					"BundleReward": {
 						"(O)GoldenMysteryBox": 5
@@ -2349,9 +2363,9 @@
 						"(O)772": 1,
 						"(O)166": 1,
 						"(O)527": 1,
-						"(O)162": 1,
+						"(O)Lumisteria.MtVapius_GiantCrystalFish": 1,
 						"(O)848": 1,
-						"(O)226": 1
+						"(O)Lumisteria.MtVapius_Cooking_GemOrangeade": 1
 					},
 					"BundleReward": {
 						"(O)289": 2
@@ -2363,7 +2377,7 @@
             }
         },
         {
-            "LogName": "SVE Hard Boiler Room Bundles",
+            "LogName":"VMV Hard Boiler Room Bundles",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "true",
@@ -2385,9 +2399,9 @@
 						"(O)337": 25,
 						"(O)CalicoEgg": 1,
 						"(O)82": 1,
-						"(O)72": 1,
+						"(O)Lumisteria.MtVapius_VoidDiamond": 1,
 						"(O)74": 1,
-						"(O)243": 1
+						"(O)Lumisteria.MtVapius_Cooking_CallaloSoup": 1
 						
 					},
 					"BundleReward": {
@@ -2400,7 +2414,7 @@
             }
         },
         {
-            "LogName": "SVE Hard Boiler Room Bundles",
+            "LogName": "VMV Hard Boiler Room Bundles",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "true",
@@ -2422,9 +2436,9 @@
 						"(O)337": 25,
 						"(O)CalicoEgg": 1,
 						"(O)82": 1,
-						"(O)72": 1,
+						"(O)Lumisteria.MtVapius_VoidDiamond": 1,
 						"(O)74": 1,
-						"(O)243": 1,
+						"(O)Lumisteria.MtVapius_Cooking_CallaloSoup": 1,
                         "(O)Cornucopia_Ginseng": 10
 						
 					},
@@ -2438,7 +2452,7 @@
             }
         },
         {
-            "LogName": "SVE Hard Vault Bundles",
+            "LogName": "VMV Hard Vault Bundles",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "true"

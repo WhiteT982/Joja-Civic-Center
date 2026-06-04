@@ -1,7 +1,7 @@
 {
     "Changes": [
         {
-            "LogName": "SVE Forager Bundles",
+            "LogName": "ES Forager Bundles",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "false"
@@ -21,7 +21,7 @@
 					"BundleSlots": 5,
 					"Price": {
 						"(O)153": 5,
-						"(O)FlashShifter.StardewValleyExpandedCP_Dulse_Seaweed": 5,
+						"(O)EastScarp_Wood_Duck_Feather": 1,
 						"(O)152": 2,
 						"(O)SeaJelly": 1,
 						"(O)RiverJelly": 1,
@@ -71,8 +71,8 @@
 					"BundleSlots": 6,
 					"Price": {
 						"(O)394": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Big_Conch": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Dried_Sand_Dollar": 1,
+						"(O)EastScarp_Pelican_Feather": 1,
+						"(O)392": 1,
 						"(O)372": 1,
 						"(O)719": 1,
 						"(O)723": 1,
@@ -102,9 +102,9 @@
 						"(O)422": 1,
 						"(O)257": 1,
 						"(O)281": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Birch_Water": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Fir_Wax": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Mushroom_Colony": 1
+						"(O)724": 1,
+						"(O)725": 1,
+						"(O)726": 1
 					},
 					"BundleReward": {
 						"(BC)MushroomLog": 2,
@@ -123,7 +123,7 @@
             }
         },
         {
-            "LogName": "SVE Forager Bundles",
+            "LogName": "ES Forager Bundles",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "false",
@@ -142,14 +142,14 @@
 					"DrawQuestionMark": false, 
 					"BundleSlots": 7,
                     "Price": {
-						"(O)FlashShifter.StardewValleyExpandedCP_Red_Baneberry": 1,
+						"(O)EastScarp_Blue_Jay_Feather": 1,
 						"(O)396": 1,
 						"(O)406": 1,
 						"(O)88": 1,
 						"(O)90": 1,
 						"(O)829": 1,
 						"(O)851": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Bearberrys": 1
+						"(O)283": 1
 					},
 					"BundleReward": {
 						"(O)69": 1,
@@ -163,7 +163,7 @@
             }
         },
         {
-            "LogName": "SVE Forager Bundles",
+            "LogName": "ES Forager Bundles",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "false",
@@ -183,14 +183,14 @@
 					"BundleSlots": 8,
                     "Price": {
 						"(O)Cornucopia_Peppercorn": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Red_Baneberry": 1,
+						"(O)396": 1,
 						"(O)Cornucopia_Raspberry": 1,
 						"(O)Cornucopia_ChickenoftheWoods": 1,
 						"(O)88": 1,
 						"(O)Cornucopia_Sugarcane": 1,
 						"(O)829": 1,
 						"(O)851": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Bearberrys": 1
+						"(O)283": 1
 					},
 					"BundleReward": {
 						"(O)69": 1,
@@ -204,7 +204,7 @@
             }
         },
         {
-            "LogName": "SVE Farmer Bundles",
+            "LogName": "ES Farmer Bundles",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "false",
@@ -226,12 +226,12 @@
 					"Price": {
 						"(O)Carrot": 1,
 						"(O)24": 1,
-						"(O)192": 1,
+						"(O)EastScarp_BiteBackMelon": 1,
 						"(O)250": 1,
-						"(O)188": 1,
-						"(O)190": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Cucumber": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Pear": 1
+						"(O)Lemurkat.EastScarp_FirePepper": 1,
+						"(O)Lemurkat.EastScarp_ButterTuff": 1,
+						"(O)634": 1,
+						"(O)638": 1
 					},
 					"BundleCompletedActions": [
   "AddMail all JojaCC_Year2SeedsJoja received",
@@ -253,12 +253,12 @@
 					"Price": {
 						"(O)SummerSquash": 1,
 						"(O)264": 1,
-						"(O)262": 1,
-						"(O)593": 1,
+						"(O)Lemurkat.EastScarp_ZinfazuFruit": 1,
+						"(O)EastScarp_PuckerWort": 1,
 						"(O)266": 1,
-						"(O)304": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Butternut_Squash": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Nectarine": 1
+						"(O)Lemurkat.EastScarp_ButtonFruit": 1,
+						"(O)635": 1,
+						"(O)636": 1
 					},
 					"BundleReward": {
 						"(O)621": 3
@@ -280,12 +280,12 @@
 					"Price": {
 						"(O)Broccoli": 1,
 						"(O)278": 1,
-						"(O)272": 1,
-						"(O)300": 1,
-						"(O)274": 1,
+						"(O)EastScarp_Cuccaroot": 1,
+						"(O)Lemurkat.EastScarp_FairyCap": 1,
+						"(O)Lemurkat.EastScarp_Paneeki": 1,
 						"(O)284": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Sweet_Potato": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Persimmon": 1
+						"(O)637": 1,
+						"(O)613": 1
 					},
 					"BundleReward": {
 						"(BC)Adam.Joja_Keg": 2
@@ -297,7 +297,7 @@
         }
     },
     {
-            "LogName": "SVE Farmer Bundles",
+            "LogName": "ES Farmer Bundles",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "false",
@@ -320,11 +320,11 @@
 						"(O)Carrot": 1,
 						"(O)Cornucopia_Asparagus": 1,
 						"(O)Cornucopia_Basil": 1,
-						"(O)250": 1,
-						"(O)188": 1,
+						"(O)Lemurkat.EastScarp_FirePepper": 1,
+						"(O)Lemurkat.EastScarp_ButterTuff": 1,
 						"(O)Cornucopia_Jalapeno": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Cucumber": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Pear": 1
+						"(O)EastScarp_BiteBackMelon": 1,
+						"(O)250": 1
 					},
 					"BundleCompletedActions": [
   "AddMail all JojaCC_Year2SeedsJoja received",
@@ -347,11 +347,11 @@
 						"(O)SummerSquash": 1,
 						"(O)Cornucopia_Lettuce": 1,
 						"(O)Cornucopia_Honeydew": 1,
-						"(O)593": 1,
-						"(O)266": 1,
+						"(O)Lemurkat.EastScarp_ZinfazuFruit": 1,
+						"(O)EastScarp_PuckerWort": 1,
 						"(O)Cornucopia_WasabiRoot": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Butternut_Squash": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Nectarine": 1
+						"(O)Lemurkat.EastScarp_ButtonFruit": 1,
+						"(O)266": 1
 					},
 					"BundleReward": {
 						"(O)621": 3
@@ -374,11 +374,11 @@
 						"(O)Broccoli": 1,
 						"(O)Cornucopia_KidneyBeans": 1,
 						"(O)Cornucopia_Zucchini": 1,
-						"(O)300": 1,
-						"(O)274": 1,
+						"(O)EastScarp_Cuccaroot": 1,
+						"(O)Lemurkat.EastScarp_FairyCap": 1,
+						"(O)Lemurkat.EastScarp_Paneeki": 1,
 						"(O)Cornucopia_Turnip": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Sweet_Potato": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Persimmon": 1
+						"(O)274": 1
 					},
 					"BundleReward": {
 						"(BC)Adam.Joja_Keg": 2
@@ -390,7 +390,7 @@
         }
     },
     {
-            "LogName": "SVE Farmer Bundles",
+            "LogName": "ES Farmer Bundles",
 			"Action": "EditData",
             "When": {
 				"Enable More Difficult Bundles": "false"
@@ -488,7 +488,7 @@
 						"(O)182": 3,
 						"(O)186": 3,
 						"(O)423": 50,
-						"(O)FlashShifter.StardewValleyExpandedCP_Butter": 10
+						"(O)216": 5
 					},
 					"BundleReward": {
 						"(0)917": 10
@@ -530,7 +530,7 @@
             }
         },
         {
-            "LogName": "SVE Fisher Bundles",
+            "LogName": "ES Fisher Bundles",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "false"
@@ -549,11 +549,11 @@
 					"DrawQuestionMark": false, 
 					"BundleSlots": 5,
 					"Price": {
-						"(O)137": 1,
+						"(O)EastScarp_Golden_Trout": 1,
 						"(O)129": 1,
 						"(O)147": 1,
 						"(O)148": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Goldfish": 1,
+						"(O)EastScarp_Ornate_Nudibranch": 1,
 						"(O)706": 1
 					},
 					"BundleReward": {
@@ -576,9 +576,9 @@
 					"Price": {
 						"(O)138": 1,
 						"(O)144": 1,
-						"(O)146": 1,
+						"(O)EastScarp_Kokanee_Salmon": 1,
 						"(O)149": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Grass_Carp": 1,
+						"(O)EastScarp_Sea_Bunny_Nudibranch": 1,
 						"(O)267": 1
 					},
 					"BundleReward": {
@@ -602,9 +602,9 @@
 						"(O)139": 1,
 						"(O)154": 1,
 						"(O)269": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Gar": 1,
+						"(O)EastScarp_Sunset_Nudibranch": 1,
 						"(O)705": 1,
-						"(O)140": 1
+						"(O)EastScarp_Slime_Barbel": 1
 					},
 					"BundleReward": {
 						"(BC)Adam.Joja_WormBin": 1
@@ -627,9 +627,9 @@
 						"(O)141": 1,
 						"(O)151": 1,
 						"(O)707": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Bull_Trout": 1,
+						"(O)EastScarp_Cerulean_Nudibranch": 1,
 						"(O)161": 1,
-						"(O)708": 1
+						"(O)EastScarp_Obsidian_Maw": 1
 					},
 					"BundleReward": {
 						"(O)265": 1
@@ -696,7 +696,7 @@
         },
         {
             //Bulletin Board Bundles
-            "LogName": "SVE Bulletin Board",
+            "LogName": "ES Bulletin Board",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "false",
@@ -729,7 +729,7 @@
             }
         },
         {
-            "LogName": "SVE Bulletin Board",
+            "LogName": "ES Bulletin Board",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "false",
@@ -762,7 +762,7 @@
             }
         },
         {
-            "LogName": "SVE Bulletin Board",
+            "LogName": "ES Bulletin Board",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "false"
@@ -812,7 +812,7 @@
         }
     },
     {
-            "LogName": "SVE Bulletin Board",
+            "LogName": "ES Bulletin Board",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "false",
@@ -834,9 +834,9 @@
 						"(O)591": 1,
 						"(O)593": 1,
 						"(O)595": 1,
-						"(O)597": 1,
-						"(O)376": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Swamp_Flower": 1
+						"(O)EastScarp_Serruria": 1,
+						"(O)EastScarp_Azure_Chrysanthemum": 1,
+						"(O)EastScarp_Bird_Of_Paradise": 1
 					},
 					"BundleReward": {
 						"(F)1971": 1
@@ -845,7 +845,7 @@
             }
         },
         {
-            "LogName": "SVE Bulletin Board",
+            "LogName": "ES Bulletin Board",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "false",
@@ -867,9 +867,9 @@
 						"(O)591": 1,
 						"(O)593": 1,
 						"(O)Cornucopia_CanolaFlower": 1,
-						"(O)597": 1,
-						"(O)376": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Swamp_Flower": 1
+						"(O)EastScarp_Serruria": 1,
+						"(O)EastScarp_Azure_Chrysanthemum": 1,
+						"(O)EastScarp_Bird_Of_Paradise": 1
 					},
 					"BundleReward": {
 						"(F)1971": 1
@@ -878,7 +878,7 @@
             }
         },
         {
-            "LogName": "SVE Bulletin Board",
+            "LogName": "ES Bulletin Board",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "false"
@@ -948,7 +948,7 @@
             }
         },
         {
-            "LogName": "SVE Boiler Room Bundles",
+            "LogName": "ES Boiler Room Bundles",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "false"
@@ -1104,7 +1104,7 @@
             }
         },
         {
-            "LogName": "SVE Vault Bundles",
+            "LogName": "ES Vault Bundles",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "false"
@@ -1263,7 +1263,7 @@
         },
 		//Hard Bundles
 		{
-            "LogName": "SVE Hard Forager Bundles",
+            "LogName": "ES Hard Forager Bundles",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "true"
@@ -1282,8 +1282,8 @@
 					"DrawQuestionMark": false, 
 					"BundleSlots": 6,
 					"Price": {
-						"(O)FlashShifter.StardewValleyExpandedCP_Dulse_Seaweed": 5,
-						"(O)FlashShifter.StardewValleyExpandedCP_Shark_Tooth": 1,
+						"(O)153": 5,
+						"(O)EastScarp_Wood_Duck_Feather": 5,
 						"(O)152": 2,
 						"(O)SeaJelly": 1,
 						"(O)RiverJelly": 1,
@@ -1334,8 +1334,8 @@
 					"BundleSlots": 8,
 					"Price": {
 						"(O)394": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Big_Conch": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Dried_Sand_Dollar": 1,
+						"(O)392": 1,
+						"(O)EastScarp_Pelican_Feather": 5,
 						"(O)372": 1,
 						"(O)719": 1,
 						"(O)723": 1,
@@ -1360,14 +1360,14 @@
 					"DrawQuestionMark": false, 
 					"BundleSlots": 8,
                     "Price": {
-						"(O)FlashShifter.StardewValleyExpandedCP_Poison_Mushroom": 1,
+						"(O)404": 1,
 						"(O)420": 1,
 						"(O)422": 1,
 						"(O)257": 1,
 						"(O)281": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Birch_Water": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Fir_Wax": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Mushroom_Colony": 1
+						"(O)724": 1,
+						"(O)725": 1,
+						"(O)726": 1
 					},
 					"BundleReward": {
 						"(BC)MushroomLog": 5,
@@ -1386,7 +1386,7 @@
             }
         },
         {
-            "LogName": "SVE Hard Forager Bundles",
+            "LogName": "ES Hard Forager Bundles",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "true",
@@ -1405,14 +1405,14 @@
 					"DrawQuestionMark": false, 
 					"BundleSlots": 8,
                     "Price": {
-						"(O)FlashShifter.StardewValleyExpandedCP_Red_Baneberry": 1,
-						"(O)396": 1,
+						"(O)20": 1,
+						"(O)EastScarp_Blue_Jay_Feather": 1,
 						"(O)406": 1,
 						"(O)88": 1,
 						"(O)90": 1,
 						"(O)829": 1,
 						"(O)851": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Bearberrys": 1
+						"(O)416": 1
 					},
 					"BundleReward": {
 						"(O)69": 1,
@@ -1425,7 +1425,7 @@
             }
         },
         {
-            "LogName": "SVE Hard Forager Bundles",
+            "LogName": "ES Hard Forager Bundles",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "true",
@@ -1442,7 +1442,7 @@
 					"BookId": "blue704.JojaCC_ForagerBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 9,
+					"BundleSlots": 8,
                     "Price": {
 						"(O)Cornucopia_Peppercorn": 1,
 						"(O)Cornucopia_Raspberry": 1,
@@ -1451,8 +1451,7 @@
 						"(O)Cornucopia_Sugarcane": 1,
 						"(O)829": 1,
 						"(O)851": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Red_Baneberry": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Bearberrys": 1
+						"(O)416": 1
 					},
 					"BundleReward": {
 						"(O)69": 1,
@@ -1465,7 +1464,7 @@
             }
         },
         {
-            "LogName": "SVE Hard Farmer Bundles",
+            "LogName": "ES Hard Farmer Bundles",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "true",
@@ -1487,12 +1486,12 @@
 					"Price": {
 						"(O)Carrot": 15,
 						"(O)24": 1,
-						"(O)192": 1,
+						"(O)EastScarp_BiteBackMelon": 1,
 						"(O)250": 1,
-						"(O)252": 1,
-						"(O)190": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Cucumber": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Pear": 1
+						"(O)Lemurkat.EastScarp_FirePepper": 1,
+						"(O)Lemurkat.EastScarp_ButterTuff": 1,
+						"(O)634": 1,
+						"(O)252": 1
 					},
 					"BundleCompletedActions": [
   "AddMail all JojaCC_Year2SeedsJoja received",
@@ -1514,12 +1513,12 @@
 					"Price": {
 						"(O)SummerSquash": 15,
 						"(O)264": 1,
-						"(O)268": 1,
-						"(O)593": 1,
+						"(O)Lemurkat.EastScarp_ZinfazuFruit": 1,
+						"(O)EastScarp_PuckerWort": 1,
 						"(O)266": 1,
-						"(O)304": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Butternut_Squash": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Nectarine": 1
+						"(O)Lemurkat.EastScarp_ButtonFruit": 1,
+						"(O)268": 1,
+						"(O)636": 1
 					},
 					"BundleReward": {
 						"(O)645": 3
@@ -1541,12 +1540,12 @@
 					"Price": {
 						"(O)Broccoli": 15,
 						"(O)278": 1,
-						"(O)272": 1,
-						"(O)300": 1,
-						"(O)274": 1,
+						"(O)EastScarp_Cuccaroot": 1,
+						"(O)Lemurkat.EastScarp_FairyCap": 1,
+						"(O)Lemurkat.EastScarp_Paneeki": 1,
 						"(O)284": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Sweet_Potato": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Persimmon": 1
+						"(O)637": 1,
+						"(O)613": 1
 					},
 					"BundleReward": {
 						"(BC)Adam.Joja_Keg": 5
@@ -1558,7 +1557,7 @@
         }
     },
     {
-            "LogName": "SVE Hard Farmer Bundles",
+            "LogName": "ES Hard Farmer Bundles",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "true",
@@ -1582,10 +1581,10 @@
 						"(O)Cornucopia_BlueAgave": 1,
 						"(O)Cornucopia_Onion": 1,
 						"(O)252": 1,
-						"(O)250": 1,
+						"(O)EastScarp_BiteBackMelon": 1,
 						"(O)Cornucopia_PassionFruit": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Cucumber": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Pear": 1
+						"(O)Lemurkat.EastScarp_FirePepper": 1,
+						"(O)Lemurkat.EastScarp_ButterTuff": 1
 					},
 					"BundleCompletedActions": [
   "AddMail all JojaCC_Year2SeedsJoja received",
@@ -1608,11 +1607,11 @@
 						"(O)SummerSquash": 15,
 						"(O)Cornucopia_Watermelon": 1,
 						"(O)Cornucopia_Lemongrass": 1,
-						"(O)266": 1,
+						"(O)Lemurkat.EastScarp_ButtonFruit": 1,
 						"(O)268": 1,
 						"(O)Cornucopia_BeanSprouts": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Butternut_Squash": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Nectarine": 1
+						"(O)Lemurkat.EastScarp_ZinfazuFruit": 1,
+						"(O)EastScarp_PuckerWort": 1
 					},
 					"BundleReward": {
 						"(O)645": 3
@@ -1634,12 +1633,12 @@
 					"Price": {
 						"(O)Broccoli": 15,
 						"(O)Cornucopia_Turmeric": 1,
-						"(O)300": 1,
+						"(O)Cornucopia_Turnip": 1,
 						"(O)Cornucopia_Zucchini": 1,
 						"(O)284": 1,
-						"(O)Cornucopia_Turnip": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Sweet_Potato": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Persimmon": 1
+						"(O)EastScarp_Cuccaroot": 1,
+						"(O)Lemurkat.EastScarp_FairyCap": 1,
+						"(O)Lemurkat.EastScarp_Paneeki": 1
 					},
 					"BundleReward": {
 						"(BC)Adam.Joja_Keg": 5
@@ -1651,7 +1650,7 @@
         }
     },
     {
-            "LogName": "SVE Hard Farmer Bundles",
+            "LogName": "ES Hard Farmer Bundles",
 			"Action": "EditData",
             "When": {
 				"Enable More Difficult Bundles": "true"
@@ -1716,12 +1715,11 @@
 					"BookId": "blue704.JojaCC_FarmerBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 4,
+					"BundleSlots": 3,
                     "Price": {
 						"(O)306:Gold": 3,
 						"(O)307": 3,
-						"(O)308": 3,
-						"(O)FlashShifter.StardewValleyExpandedCP_Goose_Mayonnaise": 1
+						"(O)308": 3
 					},
 					"BundleReward": {
 						"(BC)101": 1,
@@ -1751,7 +1749,7 @@
 						"(O)182": 3,
 						"(O)186": 3,
 						"(O)423": 50,
-						"(O)FlashShifter.StardewValleyExpandedCP_Butter": 10
+						"(O)216": 5
 					},
 					"BundleReward": {
 						"(0)917": 20
@@ -1793,7 +1791,7 @@
             }
         },
         {
-            "LogName": "SVE Hard Fisher Bundles",
+            "LogName": "ES Hard Fisher Bundles",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "true"
@@ -1812,12 +1810,12 @@
 					"DrawQuestionMark": false, 
 					"BundleSlots": 6,
 					"Price": {
-						"(O)137": 1,
+						"(O)EastScarp_Golden_Trout": 1,
 						"(O)129": 1,
 						"(O)147": 1,
 						"(O)148": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Goldfish": 1,
-						"(O)706": 1
+						"(O)EastScarp_Ornate_Nudibranch": 1,
+						"(O)EastScarp_Fairy_Betta": 1
 					},
 					"BundleReward": {
 						"(O)SkillBook_1": 1
@@ -1839,9 +1837,9 @@
 					"Price": {
 						"(O)138": 1,
 						"(O)144": 1,
-						"(O)146": 1,
+						"(O)EastScarp_Kokanee_Salmon": 1,
 						"(O)149": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Grass_Carp": 1,
+						"(O)EastScarp_Sea_Bunny_Nudibranch": 1,
 						"(O)267": 1
 					},
 					"BundleReward": {
@@ -1865,9 +1863,9 @@
 						"(O)139": 1,
 						"(O)154": 1,
 						"(O)269": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Gar": 1,
+						"(O)EastScarp_Sunset_Nudibranch": 1,
 						"(O)705": 1,
-						"(O)140": 1
+						"(O)EastScarp_Slime_Barbel": 1
 					},
 					"BundleReward": {
 						"(BC)Adam.Joja_WormBin": 2
@@ -1890,9 +1888,9 @@
 						"(O)141": 1,
 						"(O)151": 1,
 						"(O)707": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Bull_Trout": 1,
+						"(O)EastScarp_Cerulean_Nudibranch": 1,
 						"(O)161": 1,
-						"(O)708": 1
+						"(O)EastScarp_Obsidian_Maw": 1
 					},
 					"BundleReward": {
 						"(O)265": 3
@@ -1961,7 +1959,7 @@
         },
         {
             //Bulletin Board Bundles
-            "LogName": "SVE Hard Bulletin Board",
+            "LogName": "ES Hard Bulletin Board",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "true",
@@ -1994,7 +1992,7 @@
             }
         },
         {
-            "LogName": "SVE Hard Bulletin Board",
+            "LogName": "ES Hard Bulletin Board",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "true",
@@ -2027,7 +2025,7 @@
             }
         },
         {
-            "LogName": "SVE Hard Bulletin Board",
+            "LogName": "ES Hard Bulletin Board",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "true"
@@ -2073,8 +2071,7 @@
 						"(O)174": 3,
 						"(O)182": 3,
 						"(O)305": 1,
-						"(O)442": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Goose_Egg": 1
+						"(O)442": 1
 					},
 					"BundleReward": {
 						"(O)107": 1,
@@ -2084,7 +2081,7 @@
         }
     },
     {
-            "LogName": "SVE Hard Bulletin Board",
+            "LogName": "ES Hard Bulletin Board",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "true",
@@ -2106,9 +2103,9 @@
 						"(O)591": 1,
 						"(O)593": 1,
 						"(O)595": 1,
-						"(O)597": 1,
-						"(O)376": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Swamp_Flower": 1,
+						"(O)EastScarp_Serruria": 1,
+						"(O)EastScarp_Azure_Chrysanthemum": 1,
+						"(O)EastScarp_Bird_Of_Paradise": 1,
 						"(O)418": 1,
 						"(O)402": 1,
 						"(O)22": 1
@@ -2121,7 +2118,7 @@
             }
         },
         {
-            "LogName": "SVE Hard Bulletin Board",
+            "LogName": "ES Hard Bulletin Board",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "true",
@@ -2141,13 +2138,13 @@
 					"BundleSlots": 9,
                     "Price": {
 						"(O)597": 1,
-						"(O)591": 1,
+						"(O)418": 1,
 						"(O)593": 1,
                         "(O)595": 1,
 						"(O)Cornucopia_CanolaFlower": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Swamp_Flower": 1,
-						"(O)376": 1,
-                        "(O)418": 1,
+						"(O)EastScarp_Serruria": 1,
+						"(O)EastScarp_Azure_Chrysanthemum": 1,
+						"(O)EastScarp_Bird_Of_Paradise": 1,
 						"(O)402": 1
 					},
 					"BundleReward": {
@@ -2158,7 +2155,7 @@
             }
         },
         {
-            "LogName": "SVE Hard Bulletin Board",
+            "LogName": "ES Hard Bulletin Board",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "true"
@@ -2228,7 +2225,7 @@
             }
         },
         {
-            "LogName": "SVE Hard Boiler Room Bundles",
+            "LogName": "ES Hard Boiler Room Bundles",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "true"
@@ -2363,7 +2360,7 @@
             }
         },
         {
-            "LogName": "SVE Hard Boiler Room Bundles",
+            "LogName": "ES Hard Boiler Room Bundles",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "true",
@@ -2400,7 +2397,7 @@
             }
         },
         {
-            "LogName": "SVE Hard Boiler Room Bundles",
+            "LogName": "ES Hard Boiler Room Bundles",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "true",
@@ -2438,7 +2435,7 @@
             }
         },
         {
-            "LogName": "SVE Hard Vault Bundles",
+            "LogName": "ES Hard Vault Bundles",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "true"

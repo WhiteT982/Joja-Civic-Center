@@ -1,7 +1,7 @@
 {
     "Changes": [
         {
-            "LogName": "Joja CC Bundles Main",
+            "LogName": "Vanilla Forager Bundles",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "false"
@@ -9,30 +9,6 @@
 			"Target": "UnlockableBundles/Bundles",
 			"Entries": {
                 //Forager Bundles
-            "blue704.JojaCC_ForagerBundleBook": {
-					"Location": "JojaCC",
-					"BundleName": "{{i18n: blue704.JojaCC_ForagerBundleBook}}",
-					"BundleDescription": "{{i18n: blue704.JojaCC_ForagerBundleAllReward}}",
-					"ShopPosition": "13, 22",
-					"SpecialPlacementRequirements": [
-  {
-    "Type": "TriggerAction"
-  }
-],
-					"ShopType": "CCBundle",
-					"ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
-					"ShopTextureSource": { "X": 48, "Y": 0, "Width": 16, "Height": 16 },
-					"ShopDrawDimensions": "64, 64",
-					"ShopDrawOffset": "0, 64",
-					"ShopAnimation": "0",
-                    "InstantShopRemoval": false,
-					"ShopCompletedAnimation": "0",
-					"JunimoNoteTexture": "UnlockableBundles/UI/MagicBookJunimoNote_Green",
-					"IsBook": true,
-					"BundleCompletedActions": [
-  "AddMail all JojaCC_ForagerBundleBookComplete received"
-]
-				},
 				"blue704.JojaCC_ForagerBundle01": {
 					"Location": "JojaCC",
 					"BundleName": "{{i18n: blue704.JojaCC_ForagerBundle01}}",
@@ -52,7 +28,7 @@
                         "(O)CaveJelly": 1
 					},
 					"BundleReward": {
-						"(BC)Adam.Joja_FishTrap": 5
+						"(BC)Adam.Joja_FishTrap": 3
 					},
 					"BundleCompletedActions": [
   "AddMail all SecondBundleComplete received"
@@ -104,7 +80,7 @@
                         "(O)397": 1
 					},
 					"BundleReward": {
-						"(O)797": 3
+						"(O)797": 1
 				},
 				"BundleCompletedActions": [
   "AddMail all SecondBundleComplete received"
@@ -131,7 +107,7 @@
 						"(O)726": 1
 					},
 					"BundleReward": {
-						"(BC)MushroomLog": 5,
+						"(BC)MushroomLog": 2,
 						"(O)628": 1,
 						"(O)630": 1,
 						"(O)633": 1,
@@ -142,8 +118,19 @@
 					"BundleCompletedActions": [
   "AddMail all SecondBundleComplete received"
 ],
-					"RandomRewardEntries": 3
-				},
+					"RandomRewardEntries": 2
+				}
+            }
+        },
+        {
+            "LogName": "Vanilla Forager Bundles",
+			"Action": "EditData",
+			"When": {
+				"Enable More Difficult Bundles": "false",
+                "Enable Cornucopia Bundles": "false"
+			},
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
 				"blue704.JojaCC_ForagerBundle05": {
 					"Location": "JojaCC",
 					"BundleName": "{{i18n: blue704.JojaCC_ForagerBundle05}}",
@@ -170,29 +157,62 @@
 					},
 					"BundleCompletedActions": [
   "AddMail all SecondBundleComplete received"
-]
-				},
-				    //Farmer Bundles
-            "blue704.JojaCC_FarmerBundleBook": {
+],
+"RandomRewardEntries": 1
+				}
+            }
+        },
+        {
+            "LogName": "Vanilla Forager Bundles",
+			"Action": "EditData",
+			"When": {
+				"Enable More Difficult Bundles": "false",
+                "Enable Cornucopia Bundles": "true"
+			},
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
+				"blue704.JojaCC_ForagerBundle05": {
 					"Location": "JojaCC",
-					"BundleName": "{{i18n: blue704.JojaCC_FarmerBundleBook}}",
-					"BundleDescription": "{{i18n: blue704.JojaCC_FarmerBundleAllReward}}",
-					"ShopPosition": "16, 6",
+					"BundleName": "{{i18n: blue704.JojaCC_ForagerBundle05}}",
+                    "ShopPosition": "154, 78",
+                    "PagePackageIndex": 4,
+					"BundleIcon": "Exotic_Foraging",
+					"BookId": "blue704.JojaCC_ForagerBundleBook",
 					"ShopType": "CCBundle",
-					"ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
-					"ShopTextureSource": { "X": 96, "Y": 0, "Width": 16, "Height": 16 },
-					"ShopDrawDimensions": "64, 64",
-					"ShopDrawOffset": "0, 64",
-					"ShopAnimation": "0",
-                    "InstantShopRemoval": false,
-					"ShopCompletedAnimation": "0",
-					"JunimoNoteTexture": "UnlockableBundles/UI/MagicBookJunimoNote_Yellow",
-					"IsBook": true,
+					"DrawQuestionMark": false, 
+					"BundleSlots": 7,
+                    "Price": {
+						"(O)Cornucopia_Peppercorn": 1,
+						"(O)Cornucopia_Raspberry": 1,
+						"(O)Cornucopia_ChickenoftheWoods": 1,
+						"(O)88": 1,
+						"(O)Cornucopia_Sugarcane": 1,
+						"(O)829": 1,
+						"(O)851": 1,
+						"(O)283": 1
+					},
+					"BundleReward": {
+						"(O)69": 1,
+						"(O)835": 1
+					},
 					"BundleCompletedActions": [
-  "AddMail all JojaCC_FarmerBundleBookComplete received"
-]
-				},
-				"blue704.JojaCC_FarmerBundle01": {
+  "AddMail all SecondBundleComplete received"
+],
+"RandomRewardEntries": 1
+				}
+            }
+        },
+        {
+            "LogName": "Vanilla Farmer Bundles",
+			"Action": "EditData",
+			"When": {
+				"Enable More Difficult Bundles": "false",
+                "Enable Cornucopia Bundles": "false"
+			},
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
+				    //Farmer Bundles No Cornucopia
+                    "blue704.JojaCC_FarmerBundle01": {
 					"Location": "JojaCC",
 					"BundleName": "{{i18n: blue704.JojaCC_FarmerBundle01}}",
                     "ShopPosition": "103, 46",
@@ -267,12 +287,116 @@
 						"(O)613": 1
 					},
 					"BundleReward": {
-						"(BC)Adam.Joja_Keg": 5
+						"(BC)Adam.Joja_Keg": 2
 				},
 				"BundleCompletedActions": [
   "AddMail all FirstBundleComplete received"
 ]
-            },
+            }
+        }
+    },
+    {
+            "LogName": "Vanilla Farmer Bundles",
+			"Action": "EditData",
+			"When": {
+				"Enable More Difficult Bundles": "false",
+                "Enable Cornucopia Bundles": "true"
+			},
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
+                //Farmer Bundles Cornucopia
+				"blue704.JojaCC_FarmerBundle01": {
+					"Location": "JojaCC",
+					"BundleName": "{{i18n: blue704.JojaCC_FarmerBundle01}}",
+                    "ShopPosition": "103, 46",
+                    "PagePackageIndex": 0,
+					"BundleIcon": "Spring_Crops",
+					"BookId": "blue704.JojaCC_FarmerBundleBook",
+					"ShopType": "CCBundle",
+					"DrawQuestionMark": false, 
+					"BundleSlots": 6,
+					"Price": {
+						"(O)Carrot": 1,
+						"(O)Cornucopia_Asparagus": 1,
+						"(O)Cornucopia_Basil": 1,
+						"(O)250": 1,
+						"(O)188": 1,
+						"(O)Cornucopia_Jalapeno": 1,
+						"(O)634": 1,
+						"(O)638": 1
+					},
+					"BundleCompletedActions": [
+  "AddMail all JojaCC_Year2SeedsJoja received",
+  "AddMail all FirstBundleComplete received",
+  "spacechase0.SpaceCore_PlayEvent FarmerBundle01Complete true"
+]
+
+				},
+				"blue704.JojaCC_FarmerBundle02": {
+					"Location": "JojaCC",
+					"BundleName": "{{i18n: blue704.JojaCC_FarmerBundle02}}",
+                    "ShopPosition": "123, 80",
+                    "PagePackageIndex": 3,
+					"BundleIcon": "Summer_Crops",
+					"BookId": "blue704.JojaCC_FarmerBundleBook",
+					"ShopType": "CCBundle",
+					"DrawQuestionMark": false, 
+					"BundleSlots": 6,
+					"Price": {
+						"(O)SummerSquash": 1,
+						"(O)Cornucopia_Lettuce": 1,
+						"(O)Cornucopia_Honeydew": 1,
+						"(O)593": 1,
+						"(O)266": 1,
+						"(O)Cornucopia_WasabiRoot": 1,
+						"(O)635": 1,
+						"(O)636": 1
+					},
+					"BundleReward": {
+						"(O)621": 3
+					},
+					"BundleCompletedActions": [
+  "AddMail all FirstBundleComplete received"
+]
+				},
+				"blue704.JojaCC_FarmerBundle03": {
+					"Location": "JojaCC",
+					"BundleName": "{{i18n: blue704.JojaCC_FarmerBundle03}}",
+                    "ShopPosition": "80, 80",
+                    "PagePackageIndex": 2,
+					"BundleIcon": "Fall_Crops",
+					"BookId": "blue704.JojaCC_FarmerBundleBook",
+					"ShopType": "CCBundle",
+					"DrawQuestionMark": false, 
+					"BundleSlots": 6,
+					"Price": {
+						"(O)Broccoli": 1,
+						"(O)Cornucopia_KidneyBeans": 1,
+						"(O)Cornucopia_Zucchini": 1,
+						"(O)300": 1,
+						"(O)274": 1,
+						"(O)Cornucopia_Turnip": 1,
+						"(O)637": 1,
+						"(O)613": 1
+					},
+					"BundleReward": {
+						"(BC)Adam.Joja_Keg": 2
+				},
+				"BundleCompletedActions": [
+  "AddMail all FirstBundleComplete received"
+]
+            }
+        }
+    },
+    {
+            "LogName": "Vanilla Farmer Bundles",
+			"Action": "EditData",
+            "When": {
+				"Enable More Difficult Bundles": "false"
+			},
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
+                //Seasonal Seeds
 				"blue704.JojaCC_FarmerBundle04": {
 					"Location": "JojaCC",
 					"BundleName": "{{i18n: blue704.JojaCC_FarmerBundle04}}",
@@ -401,27 +525,18 @@
   "AddMail all FirstBundleComplete received",
   "AddMail current JojaProductsBundleComplete received"
 ]
-				},
+				}
+            }
+        },
+        {
+            "LogName": "Vanilla Fisher Bundles",
+			"Action": "EditData",
+			"When": {
+				"Enable More Difficult Bundles": "false"
+			},
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
 				//Fisher Bundles
-            "blue704.JojaCC_FisherBundleBook": {
-					"Location": "JojaCC",
-					"BundleName": "{{i18n: blue704.JojaCC_FisherBundleBook}}",
-					"BundleDescription": "{{i18n: blue704.JojaCC_FisherBundleAllReward}}",
-					"ShopPosition": "36, 10",
-					"ShopType": "CCBundle",
-					"ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
-					"ShopTextureSource": { "X": 80, "Y": 0, "Width": 16, "Height": 16 },
-					"ShopDrawDimensions": "64, 64",
-					"ShopDrawOffset": "0, 64",
-					"ShopAnimation": "0",
-                    "InstantShopRemoval": false,
-					"ShopCompletedAnimation": "0",
-					"JunimoNoteTexture": "UnlockableBundles/UI/MagicBookJunimoNote_Teal",
-					"IsBook": true,
-					"BundleCompletedActions": [
-  "AddMail all JojaCC_FisherBundleBookComplete received"
-]
-				},
 				"blue704.JojaCC_FisherBundle01": {
 					"Location": "JojaCC",
 					"BundleName": "{{i18n: blue704.JojaCC_FisherBundle01}}",
@@ -466,7 +581,7 @@
 						"(O)267": 1
 					},
 					"BundleReward": {
-						"(BC)Adam.Joja_FishSmoker": 2
+						"(BC)Adam.Joja_FishSmoker": 1
 					},
 					"BundleCompletedActions": [
   "AddMail all FirstBundleComplete received"
@@ -491,7 +606,7 @@
 						"(O)140": 1
 					},
 					"BundleReward": {
-						"(BC)Adam.Joja_WormBin": 2
+						"(BC)Adam.Joja_WormBin": 1
 				},
 				"BundleCompletedActions": [
   "AddMail all FirstBundleComplete received"
@@ -516,7 +631,7 @@
 						"(O)708": 1
 					},
 					"BundleReward": {
-						"(O)265": 5
+						"(O)265": 1
 					},
 					"BundleCompletedActions": [
   "AddMail all FirstBundleComplete received"
@@ -575,67 +690,53 @@
 						"BundleCompletedActions": [
   "AddMail all FirstBundleComplete received"
 ]
-				},
-		//Bulletin Board Bundles
-            "blue704.JojaCC_BulletinBoardBundleBook": {
-					"Location": "JojaCC",
-					"BundleName": "{{i18n: blue704.JojaCC_BulletinBoardBundleBook}}",
-					"BundleDescription": "{{i18n: blue704.JojaCC_BulletinBoardBundleAllReward}}",
-					"ShopPosition": "46, 12",
-					"SpecialPlacementRequirements": [
-  {
-    "Type": "TriggerAction"
-  }
-],
-					"ShopType": "CCBundle",
-					"ShopTexture": "none",
-					"ShopDrawDimensions": "64, 64",
-					"ShopDrawOffset": "0, 64",
-					"DrawQuestionMark": true,
-					"QuestionMarkOffset": "32, -16",
-                    "InstantShopRemoval": true,
-					"ShopCompletedAnimation": "0",
-					"IsBook": true,
-					"BundleCompletedActions": [
-  "AddFriendshipPoints Alex 250",
-  "AddFriendshipPoints Elliott 250",
-  "AddFriendshipPoints Harvey 250",
-  "AddFriendshipPoints Sam 250",
-  "AddFriendshipPoints Sebastian 250",
-  "AddFriendshipPoints Shane 250",
-  "AddFriendshipPoints Abigail 250",
-  "AddFriendshipPoints Emily 250",
-  "AddFriendshipPoints Haley 250",
-  "AddFriendshipPoints Leah 250",
-  "AddFriendshipPoints Maru 250",
-  "AddFriendshipPoints Penny 250",
-  "AddFriendshipPoints Caroline 500",
-  "AddFriendshipPoints Clint 250",
-  "AddFriendshipPoints Demetrius 500",
-  "AddFriendshipPoints Dwarf 500",
-  "AddFriendshipPoints Evelyn 500",
-  "AddFriendshipPoints George 500",
-  "AddFriendshipPoints Gus 500",
-  "AddFriendshipPoints Jas 500",
-  "AddFriendshipPoints Jodi 500",
-  "AddFriendshipPoints Kent 500",
-  "AddFriendshipPoints Krobus 500",
-  "AddFriendshipPoints Leo 500",
-  "AddFriendshipPoints Lewis 500",
-  "AddFriendshipPoints Linus 500",
-  "AddFriendshipPoints Marnie 500",
-  "AddFriendshipPoints Pam 500",
-  "AddFriendshipPoints Pierre 500",
-  "AddFriendshipPoints Robin 500",
-  "AddFriendshipPoints Sandy 250",
-  "AddFriendshipPoints Willy 500",
-  "AddFriendshipPoints Wizard 500",
-  "AddFriendshipPoints Vincent 500",
-  "AddMail all BulletinBoardComplete received"
-]
-
-				},
+				}
+            }
+        },
+        {
+            //Bulletin Board Bundles
+            "LogName": "Vanilla Bulletin Board",
+			"Action": "EditData",
+			"When": {
+				"Enable More Difficult Bundles": "false",
+                "Enable Cornucopia Bundles": "true"
+			},
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
 				"blue704.JojaCC_BulletinBoardBundle01": {
+					"Location": "JojaCC",
+					"BundleName": "{{i18n: blue704.JojaCC_BulletinBoardBundle01}}",
+                    "ShopPosition": "103, 46",
+                    "PagePackageIndex": 0,
+					"BundleIcon": "Forager",
+					"BookId": "blue704.JojaCC_BulletinBoardBundleBook",
+					"ShopType": "CCBundle",
+					"DrawQuestionMark": false, 
+					"BundleSlots": 6,
+					"Price": {
+						"(O)926": 1,
+						"(O)TentKit": 1,
+						"(O)Cornucopia_Gooseberry": 1,
+						"(O)Cornucopia_JuniperBerries": 1,
+						"(O)227": 1,
+						"(O)399": 1
+					},
+					"BundleReward": {
+						"(BC)256": 2
+					}
+				}
+            }
+        },
+        {
+            "LogName": "Vanilla Bulletin Board",
+			"Action": "EditData",
+			"When": {
+				"Enable More Difficult Bundles": "false",
+                "Enable Cornucopia Bundles": "false"
+			},
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
+                "blue704.JojaCC_BulletinBoardBundle01": {
 					"Location": "JojaCC",
 					"BundleName": "{{i18n: blue704.JojaCC_BulletinBoardBundle01}}",
                     "ShopPosition": "103, 46",
@@ -656,7 +757,17 @@
 					"BundleReward": {
 						"(BC)256": 2
 					}
-				},
+				}
+            }
+        },
+        {
+            "LogName": "Vanilla Bulletin Board",
+			"Action": "EditData",
+			"When": {
+				"Enable More Difficult Bundles": "false"
+			},
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
 				"blue704.JojaCC_BulletinBoardBundle02": {
 					"Location": "JojaCC",
 					"BundleName": "{{i18n: blue704.JojaCC_BulletinBoardBundle02}}",
@@ -696,7 +807,18 @@
 					"BundleReward": {
 						"(O)107": 1
 				}
-            },
+            }
+        }
+    },
+    {
+            "LogName": "Vanilla Bulletin Board",
+			"Action": "EditData",
+			"When": {
+				"Enable More Difficult Bundles": "false",
+                "Enable Cornucopia Bundles": "false"
+			},
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
 				"blue704.JojaCC_BulletinBoardBundle04": {
 					"Location": "JojaCC",
 					"BundleName": "{{i18n: blue704.JojaCC_BulletinBoardBundle04}}",
@@ -718,7 +840,50 @@
 					"BundleReward": {
 						"(F)1971": 1
 					}
-				},
+				}
+            }
+        },
+        {
+            "LogName": "Vanilla Bulletin Board",
+			"Action": "EditData",
+			"When": {
+				"Enable More Difficult Bundles": "false",
+                "Enable Cornucopia Bundles": "true"
+			},
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
+                "blue704.JojaCC_BulletinBoardBundle04": {
+					"Location": "JojaCC",
+					"BundleName": "{{i18n: blue704.JojaCC_BulletinBoardBundle04}}",
+                    "ShopPosition": "222, 80",
+                    "PagePackageIndex": 1,
+					"BundleIconAsset": "{{InternalAssetKey: assets/BundleIcons/floristbundle.png}}",
+					"BookId": "blue704.JojaCC_BulletinBoardBundleBook",
+					"ShopType": "CCBundle",
+					"DrawQuestionMark": false, 
+					"BundleSlots": 6,
+                    "Price": {
+						"(O)591": 1,
+						"(O)593": 1,
+						"(O)Cornucopia_CanolaFlower": 1,
+						"(O)597": 1,
+						"(O)376": 1,
+						"(O)421": 1
+					},
+					"BundleReward": {
+						"(F)1971": 1
+					}
+				}
+            }
+        },
+        {
+            "LogName": "Vanilla Bulletin Board",
+			"Action": "EditData",
+			"When": {
+				"Enable More Difficult Bundles": "false"
+			},
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
 				"blue704.JojaCC_BulletinBoardBundle05": {
 					"Location": "JojaCC",
 					"BundleName": "{{i18n: blue704.JojaCC_BulletinBoardBundle05}}",
@@ -778,32 +943,18 @@
 
 					},
 					"RandomRewardEntries": 1
-				},
+				}
+            }
+        },
+        {
+            "LogName": "Vanilla Boiler Room Bundles",
+			"Action": "EditData",
+			"When": {
+				"Enable More Difficult Bundles": "false"
+			},
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
 				//Boiler Room Bundles
-            "blue704.JojaCC_BoilerRoomBundleBook": {
-					"Location": "JojaCC",
-					"BundleName": "{{i18n: blue704.JojaCC_BoilerRoomBundleBook}}",
-					"BundleDescription": "{{i18n: blue704.JojaCC_BoilerRoomBundleAllReward}}",
-					"ShopPosition": "62, 17",
-					"SpecialPlacementRequirements": [
-  {
-    "Type": "TriggerAction"
-  }
-],
-					"ShopType": "CCBundle",
-					"ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
-					"ShopTextureSource": { "X": 32, "Y": 0, "Width": 16, "Height": 16 },
-					"ShopDrawDimensions": "64, 64",
-					"ShopDrawOffset": "0, 64",
-					"ShopAnimation": "0",
-                    "InstantShopRemoval": false,
-					"ShopCompletedAnimation": "0",
-					"JunimoNoteTexture": "UnlockableBundles/UI/MagicBookJunimoNote_Brown",
-					"IsBook": true,
-					"BundleCompletedActions": [
-						"AddMail all JojaCC_BoilerRoomComplete received"
-]
-				},
 				"blue704.JojaCC_BoilerRoomBundle01": {
 					"Location": "JojaCC",
 					"BundleName": "{{i18n: blue704.JojaCC_BoilerRoomBundle01}}",
@@ -820,7 +971,7 @@
 						"(O)64": 1,
 						"(O)66": 1,
 						"(O)68": 1,
-						"(O)70": 1
+                        "(O)70": 1
 					},
 					"BundleReward": {
 						"(O)74": 1
@@ -893,7 +1044,7 @@
 						"(O)769": 5
 					},
 					"BundleReward": {
-						"(R)862": 1
+						"(O)862": 1
 					},
 					"BundleCompletedActions": [
  "AddMail all SecondBundleComplete received"
@@ -948,35 +1099,18 @@
 					"BundleCompletedActions": [
   "AddMail all SecondBundleComplete received"
 ]
-				},
-		//Vault Bundles
-		"blue704.JojaCC_VaultBundleBook": {
-          "Location": "JojaCC",
-          "BundleName": "{{i18n: blue704.JojaCC_VaultBundleBook}}",
-          "BundleDescription": "{{i18n: blue704.JojaCC_VaultBundleAllReward}}",
-          "ShopPosition": "55, 6",
-		  "SpecialPlacementRequirements": [
-  {
-    "Type": "TriggerAction"
-  }
-],
-          "ShopType": "CCBundle",
-          "ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
-          "ShopTextureSource": { "X": 16, "Y": 0, "Width": 16, "Height": 16 },
-          "ShopDrawDimensions": "64, 64",
-          "ShopDrawOffset": "0, 64",
-          "ShopAnimation": "0",
-		  "JunimoNoteTexture": "UnlockableBundles/UI/MagicBookJunimoNote",
-          "InstantShopRemoval": false,
-          "ShopCompletedAnimation": "0",
-          "IsBook": true,
-		  "BundleReward": {
-            "(O)886": 10
-          },
-          "BundleCompletedActions": [
-            "AddMail all JojaCC_VaultComplete received"
-          ]
+				}
+            }
         },
+        {
+            "LogName": "Vanilla Vault Bundles",
+			"Action": "EditData",
+			"When": {
+				"Enable More Difficult Bundles": "false"
+			},
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
+		//Vault Bundles
         "blue704.JojaCC_VaultBundle01": {
           "Location": "JojaCC",
           "BundleName": "{{i18n: blue704.JojaCC_VaultBundle01}}",
@@ -1128,38 +1262,14 @@
         },
 		//Hard Bundles
 		{
-            "LogName": "Joja CC Bundles Main",
+            "LogName": "Vanilla Hard Forager Bundles",
+			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "true"
 			},
-			"Action": "EditData",
 			"Target": "UnlockableBundles/Bundles",
 			"Entries": {
                 //Forager Bundles
-            "blue704.JojaCC_ForagerBundleBook": {
-					"Location": "JojaCC",
-					"BundleName": "{{i18n: blue704.JojaCC_ForagerBundleBook}}",
-					"BundleDescription": "{{i18n: blue704.JojaCC_ForagerBundleAllReward}}",
-					"ShopPosition": "13, 22",
-					"SpecialPlacementRequirements": [
-  {
-    "Type": "TriggerAction"
-  }
-],
-					"ShopType": "CCBundle",
-					"ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
-					"ShopTextureSource": { "X": 48, "Y": 0, "Width": 16, "Height": 16 },
-					"ShopDrawDimensions": "64, 64",
-					"ShopDrawOffset": "0, 64",
-					"ShopAnimation": "0",
-                    "InstantShopRemoval": false,
-					"ShopCompletedAnimation": "0",
-					"JunimoNoteTexture": "UnlockableBundles/UI/MagicBookJunimoNote_Green",
-					"IsBook": true,
-					"BundleCompletedActions": [
-  "AddMail all JojaCC_ForagerBundleBookComplete received"
-]
-				},
 				"blue704.JojaCC_ForagerBundle01": {
 					"Location": "JojaCC",
 					"BundleName": "{{i18n: blue704.JojaCC_ForagerBundle01}}",
@@ -1271,7 +1381,18 @@
   "AddMail all SecondBundleComplete received"
 ],
 					"RandomRewardEntries": 3
-				},
+				}
+            }
+        },
+        {
+            "LogName": "Vanilla Hard Forager Bundles",
+			"Action": "EditData",
+			"When": {
+				"Enable More Difficult Bundles": "true",
+                "Enable Cornucopia Bundles": "false"
+			},
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
 				"blue704.JojaCC_ForagerBundle05": {
 					"Location": "JojaCC",
 					"BundleName": "{{i18n: blue704.JojaCC_ForagerBundle05}}",
@@ -1299,28 +1420,59 @@
 					"BundleCompletedActions": [
   "AddMail all SecondBundleComplete received"
 ]
-				},
-				    //Farmer Bundles
-            "blue704.JojaCC_FarmerBundleBook": {
+				}
+            }
+        },
+        {
+            "LogName": "Vanilla Hard Forager Bundles",
+			"Action": "EditData",
+			"When": {
+				"Enable More Difficult Bundles": "true",
+                "Enable Cornucopia Bundles": "true"
+			},
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
+				"blue704.JojaCC_ForagerBundle05": {
 					"Location": "JojaCC",
-					"BundleName": "{{i18n: blue704.JojaCC_FarmerBundleBook}}",
-					"BundleDescription": "{{i18n: blue704.JojaCC_FarmerBundleAllReward}}",
-					"ShopPosition": "16, 6",
+					"BundleName": "{{i18n: blue704.JojaCC_ForagerBundle05}}",
+                    "ShopPosition": "154, 78",
+                    "PagePackageIndex": 4,
+					"BundleIcon": "Exotic_Foraging",
+					"BookId": "blue704.JojaCC_ForagerBundleBook",
 					"ShopType": "CCBundle",
-					"ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
-					"ShopTextureSource": { "X": 96, "Y": 0, "Width": 16, "Height": 16 },
-					"ShopDrawDimensions": "64, 64",
-					"ShopDrawOffset": "0, 64",
-					"ShopAnimation": "0",
-                    "InstantShopRemoval": false,
-					"ShopCompletedAnimation": "0",
-					"JunimoNoteTexture": "UnlockableBundles/UI/MagicBookJunimoNote_Yellow",
-					"IsBook": true,
+					"DrawQuestionMark": false, 
+					"BundleSlots": 8,
+                    "Price": {
+						"(O)Cornucopia_Peppercorn": 1,
+						"(O)Cornucopia_Raspberry": 1,
+						"(O)Cornucopia_ChickenoftheWoods": 1,
+						"(O)88": 1,
+						"(O)Cornucopia_Sugarcane": 1,
+						"(O)829": 1,
+						"(O)851": 1,
+						"(O)416": 1
+					},
+					"BundleReward": {
+						"(O)69": 1,
+						"(O)835": 1
+					},
 					"BundleCompletedActions": [
-  "AddMail all JojaCC_FarmerBundleBookComplete received"
+  "AddMail all SecondBundleComplete received"
 ]
-				},
-				"blue704.JojaCC_FarmerBundle01": {
+				}
+            }
+        },
+        {
+            "LogName": "Vanilla Hard Farmer Bundles",
+			"Action": "EditData",
+			"When": {
+				"Enable More Difficult Bundles": "true",
+                "Enable Cornucopia Bundles": "false"
+			},
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
+				    //Farmer Bundles No Cornucopia
+                    "blue704.JojaCC_FarmerBundle01": {
 					"Location": "JojaCC",
 					"BundleName": "{{i18n: blue704.JojaCC_FarmerBundle01}}",
                     "ShopPosition": "103, 46",
@@ -1331,11 +1483,11 @@
 					"DrawQuestionMark": false, 
 					"BundleSlots": 8,
 					"Price": {
-						"(O)Carrot": 10,
+						"(O)Carrot": 15,
 						"(O)24": 1,
 						"(O)192": 1,
 						"(O)250": 1,
-						"(O)188": 1,
+						"(O)252": 1,
 						"(O)190": 1,
 						"(O)634": 1,
 						"(O)638": 1
@@ -1358,9 +1510,9 @@
 					"DrawQuestionMark": false, 
 					"BundleSlots": 8,
 					"Price": {
-						"(O)SummerSquash": 10,
+						"(O)SummerSquash": 15,
 						"(O)264": 1,
-						"(O)262": 1,
+						"(O)268": 1,
 						"(O)593": 1,
 						"(O)266": 1,
 						"(O)304": 1,
@@ -1368,7 +1520,7 @@
 						"(O)636": 1
 					},
 					"BundleReward": {
-						"(O)621": 3
+						"(O)645": 3
 					},
 					"BundleCompletedActions": [
   "AddMail all FirstBundleComplete received"
@@ -1385,7 +1537,7 @@
 					"DrawQuestionMark": false, 
 					"BundleSlots": 8,
 					"Price": {
-						"(O)Broccoli": 10,
+						"(O)Broccoli": 15,
 						"(O)278": 1,
 						"(O)272": 1,
 						"(O)300": 1,
@@ -1400,7 +1552,111 @@
 				"BundleCompletedActions": [
   "AddMail all FirstBundleComplete received"
 ]
-            },
+            }
+        }
+    },
+    {
+            "LogName": "Vanilla Hard Farmer Bundles",
+			"Action": "EditData",
+			"When": {
+				"Enable More Difficult Bundles": "true",
+                "Enable Cornucopia Bundles": "true"
+			},
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
+                //Farmer Bundles Cornucopia
+				"blue704.JojaCC_FarmerBundle01": {
+					"Location": "JojaCC",
+					"BundleName": "{{i18n: blue704.JojaCC_FarmerBundle01}}",
+                    "ShopPosition": "103, 46",
+                    "PagePackageIndex": 0,
+					"BundleIcon": "Spring_Crops",
+					"BookId": "blue704.JojaCC_FarmerBundleBook",
+					"ShopType": "CCBundle",
+					"DrawQuestionMark": false, 
+					"BundleSlots": 8,
+					"Price": {
+						"(O)Carrot": 15,
+						"(O)Cornucopia_BlueAgave": 1,
+						"(O)Cornucopia_Onion": 1,
+						"(O)252": 1,
+						"(O)250": 1,
+						"(O)Cornucopia_PassionFruit": 1,
+						"(O)634": 1,
+						"(O)638": 1
+					},
+					"BundleCompletedActions": [
+  "AddMail all JojaCC_Year2SeedsJoja received",
+  "AddMail all FirstBundleComplete received",
+  "spacechase0.SpaceCore_PlayEvent FarmerBundle01Complete true"
+]
+
+				},
+				"blue704.JojaCC_FarmerBundle02": {
+					"Location": "JojaCC",
+					"BundleName": "{{i18n: blue704.JojaCC_FarmerBundle02}}",
+                    "ShopPosition": "123, 80",
+                    "PagePackageIndex": 3,
+					"BundleIcon": "Summer_Crops",
+					"BookId": "blue704.JojaCC_FarmerBundleBook",
+					"ShopType": "CCBundle",
+					"DrawQuestionMark": false, 
+					"BundleSlots": 8,
+					"Price": {
+						"(O)SummerSquash": 15,
+						"(O)Cornucopia_Watermelon": 1,
+						"(O)Cornucopia_Lemongrass": 1,
+						"(O)593": 1,
+						"(O)268": 1,
+						"(O)Cornucopia_BeanSprouts": 1,
+						"(O)635": 1,
+						"(O)636": 1
+					},
+					"BundleReward": {
+						"(O)645": 3
+					},
+					"BundleCompletedActions": [
+  "AddMail all FirstBundleComplete received"
+]
+				},
+				"blue704.JojaCC_FarmerBundle03": {
+					"Location": "JojaCC",
+					"BundleName": "{{i18n: blue704.JojaCC_FarmerBundle03}}",
+                    "ShopPosition": "80, 80",
+                    "PagePackageIndex": 2,
+					"BundleIcon": "Fall_Crops",
+					"BookId": "blue704.JojaCC_FarmerBundleBook",
+					"ShopType": "CCBundle",
+					"DrawQuestionMark": false, 
+					"BundleSlots": 8,
+					"Price": {
+						"(O)Broccoli": 15,
+						"(O)Cornucopia_Turmeric": 1,
+						"(O)300": 1,
+						"(O)274": 1,
+						"(O)284": 1,
+						"(O)Cornucopia_Turnip": 1,
+						"(O)Cornucopia_SweetPotato": 1,
+						"(O)613": 1
+					},
+					"BundleReward": {
+						"(BC)Adam.Joja_Keg": 5
+				},
+				"BundleCompletedActions": [
+  "AddMail all FirstBundleComplete received"
+]
+            }
+        }
+    },
+    {
+            "LogName": "Vanilla Hard Farmer Bundles",
+			"Action": "EditData",
+            "When": {
+				"Enable More Difficult Bundles": "true"
+			},
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
+                //Seasonal Seeds
 				"blue704.JojaCC_FarmerBundle04": {
 					"Location": "JojaCC",
 					"BundleName": "{{i18n: blue704.JojaCC_FarmerBundle04}}",
@@ -1465,7 +1721,8 @@
 						"(O)308": 3
 					},
 					"BundleReward": {
-						"(BC)101": 1
+						"(BC)101": 1,
+						"(O)107": 1
 					},
 					"BundleCompletedActions": [
   "AddMail all FirstBundleComplete received"
@@ -1494,7 +1751,7 @@
 						"(O)216": 5
 					},
 					"BundleReward": {
-						"(0)917": 10
+						"(0)917": 20
 					},
 					"BundleCompletedActions": [
   "AddMail all FirstBundleComplete received"
@@ -1514,7 +1771,7 @@
 						"(O)Adam.Joja_Cheeze": 1,
 						"(O)Adam.Joja_Honey": 1,
 						"(O)Adam.Joja_Wine": 1,
-						"(O)Adam.Joja_Mead": 1,
+						"(O)Adam.Joja_PremiumMead": 1,
 						"(O)Adam.Joja_Juice": 1,
 						"(O)Adam.Joja_Beer": 1,
 						"(O)Adam.Joja_Jelly": 1,
@@ -1523,33 +1780,24 @@
 						"(O)Adam.Joja_DriedRedMushrooms": 1
 					},
 					"BundleReward": {
-						"(0)Adam.Joja_UpgradePack": 5
+						"(0)Adam.Joja_UpgradePack": 10
 					},
 					"BundleCompletedActions": [
   "AddMail all FirstBundleComplete received",
   "AddMail current JojaProductsBundleComplete received"
 ]
-				},
+				}
+            }
+        },
+        {
+            "LogName": "Vanilla Hard Fisher Bundles",
+			"Action": "EditData",
+			"When": {
+				"Enable More Difficult Bundles": "true"
+			},
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
 				//Fisher Bundles
-            "blue704.JojaCC_FisherBundleBook": {
-					"Location": "JojaCC",
-					"BundleName": "{{i18n: blue704.JojaCC_FisherBundleBook}}",
-					"BundleDescription": "{{i18n: blue704.JojaCC_FisherBundleAllReward}}",
-					"ShopPosition": "36, 10",
-					"ShopType": "CCBundle",
-					"ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
-					"ShopTextureSource": { "X": 80, "Y": 0, "Width": 16, "Height": 16 },
-					"ShopDrawDimensions": "64, 64",
-					"ShopDrawOffset": "0, 64",
-					"ShopAnimation": "0",
-                    "InstantShopRemoval": false,
-					"ShopCompletedAnimation": "0",
-					"JunimoNoteTexture": "UnlockableBundles/UI/MagicBookJunimoNote_Teal",
-					"IsBook": true,
-					"BundleCompletedActions": [
-  "AddMail all JojaCC_FisherBundleBookComplete received"
-]
-				},
 				"blue704.JojaCC_FisherBundle01": {
 					"Location": "JojaCC",
 					"BundleName": "{{i18n: blue704.JojaCC_FisherBundle01}}",
@@ -1644,7 +1892,7 @@
 						"(O)708": 1
 					},
 					"BundleReward": {
-						"(O)265": 5
+						"(O)265": 3
 					},
 					"BundleCompletedActions": [
   "AddMail all FirstBundleComplete received"
@@ -1692,78 +1940,66 @@
                     "Price": {
 						"(O)Adam.Joja_Caviar": 1,
 						"(O)Adam.Joja_AgedRoe": 1,
-						"(O)812": 1,
-						"(O)447": 1,
+						"(UB.Flavored)AgedRoe.163": 1,
+						"(UB.Flavored)Roe.775": 1,
 						"(O)445": 1,
 						"(O)814": 1
 					},
 					"BundleReward": {
 						"(O)Book_Roe": 1,
-						"(O)Book_Crabbing": 1					},
+						"(O)Book_Crabbing": 1	,
+						"(BC)Adam.Joja_Dehydrator": 1
+                    				},
 						"BundleCompletedActions": [
   "AddMail all FirstBundleComplete received"
 ]
-				},
-				//Bulletin Board Bundles
-            "blue704.JojaCC_BulletinBoardBundleBook": {
-					"Location": "JojaCC",
-					"BundleName": "{{i18n: blue704.JojaCC_BulletinBoardBundleBook}}",
-					"BundleDescription": "{{i18n: blue704.JojaCC_BulletinBoardBundleAllReward}}",
-					"ShopPosition": "46, 12",
-					"SpecialPlacementRequirements": [
-  {
-    "Type": "TriggerAction"
-  }
-],
-					"ShopType": "CCBundle",
-					"ShopTexture": "none",
-					"ShopDrawDimensions": "64, 64",
-					"ShopDrawOffset": "0, 64",
-					"DrawQuestionMark": true,
-					"QuestionMarkOffset": "32, -16",
-                    "InstantShopRemoval": true,
-					"ShopCompletedAnimation": "0",
-					"IsBook": true,
-					"BundleCompletedActions": [
-  "AddFriendshipPoints Alex 250",
-  "AddFriendshipPoints Elliott 250",
-  "AddFriendshipPoints Harvey 250",
-  "AddFriendshipPoints Sam 250",
-  "AddFriendshipPoints Sebastian 250",
-  "AddFriendshipPoints Shane 250",
-  "AddFriendshipPoints Abigail 250",
-  "AddFriendshipPoints Emily 250",
-  "AddFriendshipPoints Haley 250",
-  "AddFriendshipPoints Leah 250",
-  "AddFriendshipPoints Maru 250",
-  "AddFriendshipPoints Penny 250",
-  "AddFriendshipPoints Caroline 500",
-  "AddFriendshipPoints Clint 250",
-  "AddFriendshipPoints Demetrius 500",
-  "AddFriendshipPoints Dwarf 500",
-  "AddFriendshipPoints Evelyn 500",
-  "AddFriendshipPoints George 500",
-  "AddFriendshipPoints Gus 500",
-  "AddFriendshipPoints Jas 500",
-  "AddFriendshipPoints Jodi 500",
-  "AddFriendshipPoints Kent 500",
-  "AddFriendshipPoints Krobus 500",
-  "AddFriendshipPoints Leo 500",
-  "AddFriendshipPoints Lewis 500",
-  "AddFriendshipPoints Linus 500",
-  "AddFriendshipPoints Marnie 500",
-  "AddFriendshipPoints Pam 500",
-  "AddFriendshipPoints Pierre 500",
-  "AddFriendshipPoints Robin 500",
-  "AddFriendshipPoints Sandy 250",
-  "AddFriendshipPoints Willy 500",
-  "AddFriendshipPoints Wizard 500",
-  "AddFriendshipPoints Vincent 500",
-  "AddMail all BulletinBoardComplete received"
-]
-
-				},
+				}
+            }
+        },
+        {
+            //Bulletin Board Bundles
+            "LogName": "Vanilla Hard Bulletin Board",
+			"Action": "EditData",
+			"When": {
+				"Enable More Difficult Bundles": "true",
+                "Enable Cornucopia Bundles": "true"
+			},
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
 				"blue704.JojaCC_BulletinBoardBundle01": {
+					"Location": "JojaCC",
+					"BundleName": "{{i18n: blue704.JojaCC_BulletinBoardBundle01}}",
+                    "ShopPosition": "103, 46",
+                    "PagePackageIndex": 0,
+					"BundleIcon": "Forager",
+					"BookId": "blue704.JojaCC_BulletinBoardBundleBook",
+					"ShopType": "CCBundle",
+					"DrawQuestionMark": false, 
+					"BundleSlots": 6,
+					"Price": {
+						"(O)926": 1,
+						"(O)TentKit": 1,
+						"(O)Cornucopia_Gooseberry": 10,
+						"(O)Cornucopia_JuniperBerries": 10,
+						"(O)227": 1,
+						"(O)399": 10
+					},
+					"BundleReward": {
+						"(BC)256": 2
+					}
+				}
+            }
+        },
+        {
+            "LogName": "Vanilla Hard Bulletin Board",
+			"Action": "EditData",
+			"When": {
+				"Enable More Difficult Bundles": "true",
+                "Enable Cornucopia Bundles": "false"
+			},
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
+                "blue704.JojaCC_BulletinBoardBundle01": {
 					"Location": "JojaCC",
 					"BundleName": "{{i18n: blue704.JojaCC_BulletinBoardBundle01}}",
                     "ShopPosition": "103, 46",
@@ -1784,7 +2020,17 @@
 					"BundleReward": {
 						"(BC)256": 2
 					}
-				},
+				}
+            }
+        },
+        {
+            "LogName": "Vanilla Hard Bulletin Board",
+			"Action": "EditData",
+			"When": {
+				"Enable More Difficult Bundles": "true"
+			},
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
 				"blue704.JojaCC_BulletinBoardBundle02": {
 					"Location": "JojaCC",
 					"BundleName": "{{i18n: blue704.JojaCC_BulletinBoardBundle02}}",
@@ -1794,15 +2040,20 @@
 					"BookId": "blue704.JojaCC_BulletinBoardBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 4,
+					"BundleSlots": 7,
 					"Price": {
 						"(O)388": 999,
 						"(O)390": 500,
 						"(O)709": 99,
-						"(O)330": 20
+						"(O)330": 20,
+						"(O)334": 50,
+						"(O)335": 40,
+						"(O)336": 30,
+						"(O)337": 20
 					},
 					"BundleReward": {
-						"(BC)MiniForge": 1
+						"(BC)MiniForge": 1,
+						"(O)896": 1
 					}
 				},
 				"blue704.JojaCC_BulletinBoardBundle03": {
@@ -1822,9 +2073,21 @@
 						"(O)442": 1
 					},
 					"BundleReward": {
-						"(O)107": 1
+						"(O)107": 1,
+						"(BC)Adam.Joja_MayoMachinePRO": 1
 				}
-            },
+            }
+        }
+    },
+    {
+            "LogName": "Vanilla Hard Bulletin Board",
+			"Action": "EditData",
+			"When": {
+				"Enable More Difficult Bundles": "true",
+                "Enable Cornucopia Bundles": "false"
+			},
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
 				"blue704.JojaCC_BulletinBoardBundle04": {
 					"Location": "JojaCC",
 					"BundleName": "{{i18n: blue704.JojaCC_BulletinBoardBundle04}}",
@@ -1847,9 +2110,57 @@
 						"(O)22": 1
 					},
 					"BundleReward": {
-						"(F)1971": 1
+						"(F)1971": 1,
+						"(BC)Adam.Joja_HoneyMakerPRO": 1
 					}
-				},
+				}
+            }
+        },
+        {
+            "LogName": "Vanilla Hard Bulletin Board",
+			"Action": "EditData",
+			"When": {
+				"Enable More Difficult Bundles": "true",
+                "Enable Cornucopia Bundles": "true"
+			},
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
+                "blue704.JojaCC_BulletinBoardBundle04": {
+					"Location": "JojaCC",
+					"BundleName": "{{i18n: blue704.JojaCC_BulletinBoardBundle04}}",
+                    "ShopPosition": "222, 80",
+                    "PagePackageIndex": 1,
+					"BundleIconAsset": "{{InternalAssetKey: assets/BundleIcons/floristbundle.png}}",
+					"BookId": "blue704.JojaCC_BulletinBoardBundleBook",
+					"ShopType": "CCBundle",
+					"DrawQuestionMark": false, 
+					"BundleSlots": 9,
+                    "Price": {
+						"(O)597": 1,
+						"(O)591": 1,
+						"(O)593": 1,
+                        "(O)595": 1,
+						"(O)Cornucopia_CanolaFlower": 1,
+						"(O)22": 1,
+						"(O)376": 1,
+                        "(O)418": 1,
+						"(O)402": 1
+					},
+					"BundleReward": {
+						"(F)1971": 1,
+						"(BC)Adam.Joja_HoneyMakerPRO": 1
+					}
+				}
+            }
+        },
+        {
+            "LogName": "Vanilla Hard Bulletin Board",
+			"Action": "EditData",
+			"When": {
+				"Enable More Difficult Bundles": "true"
+			},
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
 				"blue704.JojaCC_BulletinBoardBundle05": {
 					"Location": "JojaCC",
 					"BundleName": "{{i18n: blue704.JojaCC_BulletinBoardBundle05}}",
@@ -1909,32 +2220,18 @@
 
 					},
 					"RandomRewardEntries": 1
-				},
+				}
+            }
+        },
+        {
+            "LogName": "Vanilla Hard Boiler Room Bundles",
+			"Action": "EditData",
+			"When": {
+				"Enable More Difficult Bundles": "true"
+			},
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
 				//Boiler Room Bundles
-            "blue704.JojaCC_BoilerRoomBundleBook": {
-					"Location": "JojaCC",
-					"BundleName": "{{i18n: blue704.JojaCC_BoilerRoomBundleBook}}",
-					"BundleDescription": "{{i18n: blue704.JojaCC_BoilerRoomBundleAllReward}}",
-					"ShopPosition": "62, 17",
-					"SpecialPlacementRequirements": [
-  {
-    "Type": "TriggerAction"
-  }
-],
-					"ShopType": "CCBundle",
-					"ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
-					"ShopTextureSource": { "X": 32, "Y": 0, "Width": 16, "Height": 16 },
-					"ShopDrawDimensions": "64, 64",
-					"ShopDrawOffset": "0, 64",
-					"ShopAnimation": "0",
-                    "InstantShopRemoval": false,
-					"ShopCompletedAnimation": "0",
-					"JunimoNoteTexture": "UnlockableBundles/UI/MagicBookJunimoNote_Brown",
-					"IsBook": true,
-					"BundleCompletedActions": [
-						"AddMail all JojaCC_BoilerRoomComplete received"
-]
-				},
 				"blue704.JojaCC_BoilerRoomBundle01": {
 					"Location": "JojaCC",
 					"BundleName": "{{i18n: blue704.JojaCC_BoilerRoomBundle01}}",
@@ -1951,8 +2248,8 @@
 						"(O)64": 1,
 						"(O)66": 1,
 						"(O)68": 1,
-						"(O)70": 1,
-						"(O)72": 1
+                        "(O)70": 1,
+                        "(O)72": 1
 					},
 					"BundleReward": {
 						"(O)74": 1
@@ -1978,7 +2275,7 @@
 						"(O)749": 3
 					},
 					"BundleReward": {
-						"(O)GoldenMysteryBox": 3
+						"(O)GoldenMysteryBox": 5
 					},
 					"BundleCompletedActions": [
   "AddMail all SecondBundleComplete received"
@@ -1993,14 +2290,16 @@
 					"BookId": "blue704.JojaCC_BoilerRoomBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 3,
+					"BundleSlots": 4,
 					"Price": {
 						"(O)286": 20,
 						"(O)287": 10,
-						"(O)288": 5
+						"(O)288": 5,
+						"(O)441": 50
 					},
 					"BundleReward": {
-						"(O)811": 1
+						"(O)811": 1,
+						"(O)Book_Bombs": 1
 				},
 				"BundleCompletedActions": [
   "AddMail all SecondBundleComplete received"
@@ -2025,7 +2324,8 @@
 						"(O)769": 10
 					},
 					"BundleReward": {
-						"(R)862": 1
+						"(O)862": 1,
+						"(B)855": 1
 					},
 					"BundleCompletedActions": [
  "AddMail all SecondBundleComplete received"
@@ -2055,7 +2355,18 @@
 					"BundleCompletedActions": [
  "AddMail all SecondBundleComplete received"
 ]
-				},
+				}
+            }
+        },
+        {
+            "LogName":"Vanilla Hard Boiler Room Bundles",
+			"Action": "EditData",
+			"When": {
+				"Enable More Difficult Bundles": "true",
+                "Enable Cornucopia Bundles": "false"
+			},
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
 				"blue704.JojaCC_BoilerRoomBundle06": {
 					"Location": "JojaCC",
 					"BundleName": "{{i18n: blue704.JojaCC_BoilerRoomBundle06}}",
@@ -2071,7 +2382,7 @@
 						"(O)CalicoEgg": 1,
 						"(O)82": 1,
 						"(O)72": 1,
-						"(O)74": 2,
+						"(O)74": 1,
 						"(O)243": 1
 						
 					},
@@ -2081,35 +2392,56 @@
 					"BundleCompletedActions": [
   "AddMail all SecondBundleComplete received"
 ]
-				},
-		//Vault Bundles
-		"blue704.JojaCC_VaultBundleBook": {
-          "Location": "JojaCC",
-          "BundleName": "{{i18n: blue704.JojaCC_VaultBundleBook}}",
-          "BundleDescription": "{{i18n: blue704.JojaCC_VaultBundleAllReward}}",
-          "ShopPosition": "55, 6",
-		  "SpecialPlacementRequirements": [
-  {
-    "Type": "TriggerAction"
-  }
-],
-          "ShopType": "CCBundle",
-          "ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
-          "ShopTextureSource": { "X": 16, "Y": 0, "Width": 16, "Height": 16 },
-          "ShopDrawDimensions": "64, 64",
-          "ShopDrawOffset": "0, 64",
-          "ShopAnimation": "0",
-		  "JunimoNoteTexture": "UnlockableBundles/UI/MagicBookJunimoNote",
-          "InstantShopRemoval": false,
-          "ShopCompletedAnimation": "0",
-          "IsBook": true,
-		  "BundleReward": {
-            "(O)886": 15
-          },
-          "BundleCompletedActions": [
-            "AddMail all JojaCC_VaultComplete received"
-          ]
+				}
+            }
         },
+        {
+            "LogName": "Vanilla Hard Boiler Room Bundles",
+			"Action": "EditData",
+			"When": {
+				"Enable More Difficult Bundles": "true",
+                "Enable Cornucopia Bundles": "true"
+			},
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
+				"blue704.JojaCC_BoilerRoomBundle06": {
+					"Location": "JojaCC",
+					"BundleName": "{{i18n: blue704.JojaCC_BoilerRoomBundle06}}",
+                    "ShopPosition": "103, 111",
+                    "PagePackageIndex": 4,
+					"BundleIconAsset": "{{InternalAssetKey: assets/BundleIcons/exoticminer.png}}",
+					"BookId": "blue704.JojaCC_BoilerRoomBundleBook",
+					"ShopType": "CCBundle",
+					"DrawQuestionMark": false, 
+					"BundleSlots": 7,
+                    "Price": {
+						"(O)337": 25,
+						"(O)CalicoEgg": 1,
+						"(O)82": 1,
+						"(O)72": 1,
+						"(O)74": 1,
+						"(O)243": 1,
+                        "(O)Cornucopia_Ginseng": 10
+						
+					},
+					"BundleReward": {
+						"(BC)21": 3
+					},
+					"BundleCompletedActions": [
+  "AddMail all SecondBundleComplete received"
+]
+				}
+            }
+        },
+        {
+            "LogName": "Vanilla Hard Vault Bundles",
+			"Action": "EditData",
+			"When": {
+				"Enable More Difficult Bundles": "true"
+			},
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
+		//Vault Bundles
         "blue704.JojaCC_VaultBundle01": {
           "Location": "JojaCC",
           "BundleName": "{{i18n: blue704.JojaCC_VaultBundle01}}",

@@ -1,0 +1,188 @@
+{
+    "Changes": [
+        {
+            "LogName": "Joja CC Bundles Main",
+			"Action": "EditData",
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
+                //Forager Bundles
+            "blue704.JojaCC_ForagerBundleBook": {
+					"Location": "JojaCC",
+					"BundleName": "{{i18n: blue704.JojaCC_ForagerBundleBook}}",
+					"BundleDescription": "{{i18n: blue704.JojaCC_ForagerBundleAllReward}}",
+					"ShopPosition": "13, 22",
+					"SpecialPlacementRequirements": [
+  {
+    "Type": "TriggerAction"
+  }
+],
+					"ShopType": "CCBundle",
+					"ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
+					"ShopTextureSource": { "X": 48, "Y": 0, "Width": 16, "Height": 16 },
+					"ShopDrawDimensions": "64, 64",
+					"ShopDrawOffset": "0, 64",
+					"ShopAnimation": "0",
+                    "InstantShopRemoval": false,
+					"ShopCompletedAnimation": "0",
+					"JunimoNoteTexture": "UnlockableBundles/UI/MagicBookJunimoNote_Green",
+					"IsBook": true,
+					"BundleCompletedActions": [
+  "AddMail all JojaCC_ForagerBundleBookComplete received"
+]
+				},
+                //Farmer Bundles
+            "blue704.JojaCC_FarmerBundleBook": {
+					"Location": "JojaCC",
+					"BundleName": "{{i18n: blue704.JojaCC_FarmerBundleBook}}",
+					"BundleDescription": "{{i18n: blue704.JojaCC_FarmerBundleAllReward}}",
+					"ShopPosition": "16, 6",
+					"ShopType": "CCBundle",
+					"ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
+					"ShopTextureSource": { "X": 96, "Y": 0, "Width": 16, "Height": 16 },
+					"ShopDrawDimensions": "64, 64",
+					"ShopDrawOffset": "0, 64",
+					"ShopAnimation": "0",
+                    "InstantShopRemoval": false,
+					"ShopCompletedAnimation": "0",
+					"JunimoNoteTexture": "UnlockableBundles/UI/MagicBookJunimoNote_Yellow",
+					"IsBook": true,
+					"BundleCompletedActions": [
+  "AddMail all JojaCC_FarmerBundleBookComplete received"
+]
+				},
+                //Fisher Bundles
+            "blue704.JojaCC_FisherBundleBook": {
+					"Location": "JojaCC",
+					"BundleName": "{{i18n: blue704.JojaCC_FisherBundleBook}}",
+					"BundleDescription": "{{i18n: blue704.JojaCC_FisherBundleAllReward}}",
+					"ShopPosition": "36, 10",
+					"ShopType": "CCBundle",
+					"ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
+					"ShopTextureSource": { "X": 80, "Y": 0, "Width": 16, "Height": 16 },
+					"ShopDrawDimensions": "64, 64",
+					"ShopDrawOffset": "0, 64",
+					"ShopAnimation": "0",
+                    "InstantShopRemoval": false,
+					"ShopCompletedAnimation": "0",
+					"JunimoNoteTexture": "UnlockableBundles/UI/MagicBookJunimoNote_Teal",
+					"IsBook": true,
+					"BundleCompletedActions": [
+  "AddMail all JojaCC_FisherBundleBookComplete received"
+]
+				},
+                //Bulletin Board Bundles
+            "blue704.JojaCC_BulletinBoardBundleBook": {
+					"Location": "JojaCC",
+					"BundleName": "{{i18n: blue704.JojaCC_BulletinBoardBundleBook}}",
+					"BundleDescription": "{{i18n: blue704.JojaCC_BulletinBoardBundleAllReward}}",
+					"ShopPosition": "46, 12",
+					"SpecialPlacementRequirements": [
+  {
+    "Type": "TriggerAction"
+  }
+],
+					"ShopType": "CCBundle",
+					"ShopTexture": "none",
+					"ShopDrawDimensions": "64, 64",
+					"ShopDrawOffset": "0, 64",
+					"DrawQuestionMark": true,
+					"QuestionMarkOffset": "32, -16",
+                    "InstantShopRemoval": true,
+					"ShopCompletedAnimation": "0",
+					"IsBook": true,
+					"BundleCompletedActions": [
+  "AddFriendshipPoints Alex 250",
+  "AddFriendshipPoints Elliott 250",
+  "AddFriendshipPoints Harvey 250",
+  "AddFriendshipPoints Sam 250",
+  "AddFriendshipPoints Sebastian 250",
+  "AddFriendshipPoints Shane 250",
+  "AddFriendshipPoints Abigail 250",
+  "AddFriendshipPoints Emily 250",
+  "AddFriendshipPoints Haley 250",
+  "AddFriendshipPoints Leah 250",
+  "AddFriendshipPoints Maru 250",
+  "AddFriendshipPoints Penny 250",
+  "AddFriendshipPoints Caroline 500",
+  "AddFriendshipPoints Clint 250",
+  "AddFriendshipPoints Demetrius 500",
+  "AddFriendshipPoints Dwarf 500",
+  "AddFriendshipPoints Evelyn 500",
+  "AddFriendshipPoints George 500",
+  "AddFriendshipPoints Gus 500",
+  "AddFriendshipPoints Jas 500",
+  "AddFriendshipPoints Jodi 500",
+  "AddFriendshipPoints Kent 500",
+  "AddFriendshipPoints Krobus 500",
+  "AddFriendshipPoints Leo 500",
+  "AddFriendshipPoints Lewis 500",
+  "AddFriendshipPoints Linus 500",
+  "AddFriendshipPoints Marnie 500",
+  "AddFriendshipPoints Pam 500",
+  "AddFriendshipPoints Pierre 500",
+  "AddFriendshipPoints Robin 500",
+  "AddFriendshipPoints Sandy 250",
+  "AddFriendshipPoints Willy 500",
+  "AddFriendshipPoints Wizard 500",
+  "AddFriendshipPoints Vincent 500",
+  "AddMail all BulletinBoardComplete received"
+]
+
+				},
+                //Boiler Room Bundles
+            "blue704.JojaCC_BoilerRoomBundleBook": {
+					"Location": "JojaCC",
+					"BundleName": "{{i18n: blue704.JojaCC_BoilerRoomBundleBook}}",
+					"BundleDescription": "{{i18n: blue704.JojaCC_BoilerRoomBundleAllReward}}",
+					"ShopPosition": "62, 17",
+					"SpecialPlacementRequirements": [
+  {
+    "Type": "TriggerAction"
+  }
+],
+					"ShopType": "CCBundle",
+					"ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
+					"ShopTextureSource": { "X": 32, "Y": 0, "Width": 16, "Height": 16 },
+					"ShopDrawDimensions": "64, 64",
+					"ShopDrawOffset": "0, 64",
+					"ShopAnimation": "0",
+                    "InstantShopRemoval": false,
+					"ShopCompletedAnimation": "0",
+					"JunimoNoteTexture": "UnlockableBundles/UI/MagicBookJunimoNote_Brown",
+					"IsBook": true,
+					"BundleCompletedActions": [
+						"AddMail all JojaCC_BoilerRoomComplete received"
+]
+				},
+                //Vault Bundles
+		"blue704.JojaCC_VaultBundleBook": {
+          "Location": "JojaCC",
+          "BundleName": "{{i18n: blue704.JojaCC_VaultBundleBook}}",
+          "BundleDescription": "{{i18n: blue704.JojaCC_VaultBundleAllReward}}",
+          "ShopPosition": "55, 6",
+		  "SpecialPlacementRequirements": [
+  {
+    "Type": "TriggerAction"
+  }
+],
+          "ShopType": "CCBundle",
+          "ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
+          "ShopTextureSource": { "X": 16, "Y": 0, "Width": 16, "Height": 16 },
+          "ShopDrawDimensions": "64, 64",
+          "ShopDrawOffset": "0, 64",
+          "ShopAnimation": "0",
+		  "JunimoNoteTexture": "UnlockableBundles/UI/MagicBookJunimoNote",
+          "InstantShopRemoval": false,
+          "ShopCompletedAnimation": "0",
+          "IsBook": true,
+		  "BundleReward": {
+            "(O)886": 10
+          },
+          "BundleCompletedActions": [
+            "AddMail all JojaCC_VaultComplete received"
+          ]
+        }
+    }
+}
+    ]
+}

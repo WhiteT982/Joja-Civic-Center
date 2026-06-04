@@ -1,7 +1,7 @@
 {
     "Changes": [
         {
-            "LogName": "SVE Forager Bundles",
+            "LogName": "RSV Forager Bundles",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "false"
@@ -21,7 +21,7 @@
 					"BundleSlots": 5,
 					"Price": {
 						"(O)153": 5,
-						"(O)FlashShifter.StardewValleyExpandedCP_Dulse_Seaweed": 5,
+						"(O)157": 5,
 						"(O)152": 2,
 						"(O)SeaJelly": 1,
 						"(O)RiverJelly": 1,
@@ -71,8 +71,8 @@
 					"BundleSlots": 6,
 					"Price": {
 						"(O)394": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Big_Conch": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Dried_Sand_Dollar": 1,
+						"(O)392": 1,
+						"(O)393": 1,
 						"(O)372": 1,
 						"(O)719": 1,
 						"(O)723": 1,
@@ -99,12 +99,12 @@
                     "Price": {
 						"(O)404": 1,
 						"(O)420": 1,
-						"(O)422": 1,
-						"(O)257": 1,
+						"(O)Rafseazz.RSVCP_Ridgeside_Clementine": 1,
+						"(O)Rafseazz.RSVCP_Autumn_Drop_Berry": 1,
 						"(O)281": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Birch_Water": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Fir_Wax": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Mushroom_Colony": 1
+						"(O)724": 1,
+						"(O)725": 1,
+						"(O)726": 1
 					},
 					"BundleReward": {
 						"(BC)MushroomLog": 2,
@@ -123,7 +123,7 @@
             }
         },
         {
-            "LogName": "SVE Forager Bundles",
+            "LogName": "RSV Farmer Bundles",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "false",
@@ -142,14 +142,14 @@
 					"DrawQuestionMark": false, 
 					"BundleSlots": 7,
                     "Price": {
-						"(O)FlashShifter.StardewValleyExpandedCP_Red_Baneberry": 1,
+						"(O)16": 1,
 						"(O)396": 1,
 						"(O)406": 1,
 						"(O)88": 1,
 						"(O)90": 1,
 						"(O)829": 1,
 						"(O)851": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Bearberrys": 1
+						"(O)Rafseazz.RSVCP_Sierra_Wintergreen": 1
 					},
 					"BundleReward": {
 						"(O)69": 1,
@@ -163,7 +163,7 @@
             }
         },
         {
-            "LogName": "SVE Forager Bundles",
+            "LogName": "RSV Farmer Bundles",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "false",
@@ -180,17 +180,16 @@
 					"BookId": "blue704.JojaCC_ForagerBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 8,
+					"BundleSlots": 7,
                     "Price": {
 						"(O)Cornucopia_Peppercorn": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Red_Baneberry": 1,
 						"(O)Cornucopia_Raspberry": 1,
 						"(O)Cornucopia_ChickenoftheWoods": 1,
 						"(O)88": 1,
 						"(O)Cornucopia_Sugarcane": 1,
 						"(O)829": 1,
 						"(O)851": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Bearberrys": 1
+						"(O)Rafseazz.RSVCP_Sierra_Wintergreen": 1
 					},
 					"BundleReward": {
 						"(O)69": 1,
@@ -204,7 +203,7 @@
             }
         },
         {
-            "LogName": "SVE Farmer Bundles",
+            "LogName": "RSV Farmer Bundles",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "false",
@@ -225,13 +224,13 @@
 					"BundleSlots": 6,
 					"Price": {
 						"(O)Carrot": 1,
-						"(O)24": 1,
+						"(O)(O)Rafseazz.RSVCP_Mountain_Arugula": 1,
 						"(O)192": 1,
 						"(O)250": 1,
 						"(O)188": 1,
 						"(O)190": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Cucumber": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Pear": 1
+						"(O)Rafseazz.RSVCP_Ridge_Cherry": 1,
+						"(O)638": 1
 					},
 					"BundleCompletedActions": [
   "AddMail all JojaCC_Year2SeedsJoja received",
@@ -254,11 +253,11 @@
 						"(O)SummerSquash": 1,
 						"(O)264": 1,
 						"(O)262": 1,
-						"(O)593": 1,
+						"(O)Rafseazz.RSVCP_Mountain_Hokkaido": 1,
 						"(O)266": 1,
 						"(O)304": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Butternut_Squash": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Nectarine": 1
+						"(O)Rafseazz.RSVCP_Ridge_Wild_Apple": 1,
+						"(O)Rafseazz.RSVCP_Mountain_Chico": 1
 					},
 					"BundleReward": {
 						"(O)621": 3
@@ -280,12 +279,12 @@
 					"Price": {
 						"(O)Broccoli": 1,
 						"(O)278": 1,
-						"(O)272": 1,
-						"(O)300": 1,
+						"(O)Rafseazz.RSVCP_Highland_Chard": 1,
+						"(O)Rafseazz.RSVCP_Highland_Butterwort": 1,
 						"(O)274": 1,
 						"(O)284": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Sweet_Potato": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Persimmon": 1
+						"(O)637": 1,
+						"(O)613": 1
 					},
 					"BundleReward": {
 						"(BC)Adam.Joja_Keg": 2
@@ -297,7 +296,7 @@
         }
     },
     {
-            "LogName": "SVE Farmer Bundles",
+            "LogName": "RSV Farmer Bundles",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "false",
@@ -321,10 +320,10 @@
 						"(O)Cornucopia_Asparagus": 1,
 						"(O)Cornucopia_Basil": 1,
 						"(O)250": 1,
-						"(O)188": 1,
+						"(O)Rafseazz.RSVCP_Mountain_Arugula": 1,
 						"(O)Cornucopia_Jalapeno": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Cucumber": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Pear": 1
+						"(O)Rafseazz.RSVCP_Ridge_Cherry": 1,
+						"(O)638": 1
 					},
 					"BundleCompletedActions": [
   "AddMail all JojaCC_Year2SeedsJoja received",
@@ -347,11 +346,11 @@
 						"(O)SummerSquash": 1,
 						"(O)Cornucopia_Lettuce": 1,
 						"(O)Cornucopia_Honeydew": 1,
-						"(O)593": 1,
+						"(O)Rafseazz.RSVCP_Mountain_Hokkaido": 1,
 						"(O)266": 1,
 						"(O)Cornucopia_WasabiRoot": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Butternut_Squash": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Nectarine": 1
+						"(O)Rafseazz.RSVCP_Ridge_Wild_Apple": 1,
+						"(O)Rafseazz.RSVCP_Mountain_Chico": 1
 					},
 					"BundleReward": {
 						"(O)621": 3
@@ -373,12 +372,12 @@
 					"Price": {
 						"(O)Broccoli": 1,
 						"(O)Cornucopia_KidneyBeans": 1,
-						"(O)Cornucopia_Zucchini": 1,
-						"(O)300": 1,
+						"(O)Rafseazz.RSVCP_Highland_Chard": 1,
+						"(O)Rafseazz.RSVCP_Highland_Butterwort": 1,
 						"(O)274": 1,
 						"(O)Cornucopia_Turnip": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Sweet_Potato": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Persimmon": 1
+						"(O)637": 1,
+						"(O)613": 1
 					},
 					"BundleReward": {
 						"(BC)Adam.Joja_Keg": 2
@@ -390,7 +389,7 @@
         }
     },
     {
-            "LogName": "SVE Farmer Bundles",
+            "LogName": "RSV Farmer Bundles",
 			"Action": "EditData",
             "When": {
 				"Enable More Difficult Bundles": "false"
@@ -488,7 +487,7 @@
 						"(O)182": 3,
 						"(O)186": 3,
 						"(O)423": 50,
-						"(O)FlashShifter.StardewValleyExpandedCP_Butter": 10
+						"(O)216": 5
 					},
 					"BundleReward": {
 						"(0)917": 10
@@ -530,7 +529,7 @@
             }
         },
         {
-            "LogName": "SVE Fisher Bundles",
+            "LogName": "RSV Fisher Bundles",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "false"
@@ -549,11 +548,11 @@
 					"DrawQuestionMark": false, 
 					"BundleSlots": 5,
 					"Price": {
-						"(O)137": 1,
+						"(O)Rafseazz.RSVCP_Mountain_Redbelly_Dace": 1,
 						"(O)129": 1,
 						"(O)147": 1,
 						"(O)148": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Goldfish": 1,
+						"(O)Rafseazz.RSVCP_Ridgeside_Bass": 1,
 						"(O)706": 1
 					},
 					"BundleReward": {
@@ -578,7 +577,7 @@
 						"(O)144": 1,
 						"(O)146": 1,
 						"(O)149": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Grass_Carp": 1,
+						"(O)Rafseazz.RSVCP_Mountain_Whitefish": 1,
 						"(O)267": 1
 					},
 					"BundleReward": {
@@ -602,7 +601,7 @@
 						"(O)139": 1,
 						"(O)154": 1,
 						"(O)269": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Gar": 1,
+						"(O)Rafseazz.RSVCP_Cutthroat_Trout": 1,
 						"(O)705": 1,
 						"(O)140": 1
 					},
@@ -627,7 +626,7 @@
 						"(O)141": 1,
 						"(O)151": 1,
 						"(O)707": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Bull_Trout": 1,
+						"(O)Rafseazz.RSVCP_Ridge_Bluegill": 1,
 						"(O)161": 1,
 						"(O)708": 1
 					},
@@ -696,7 +695,7 @@
         },
         {
             //Bulletin Board Bundles
-            "LogName": "SVE Bulletin Board",
+            "LogName": "RSV Bulletin Board",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "false",
@@ -729,7 +728,7 @@
             }
         },
         {
-            "LogName": "SVE Bulletin Board",
+            "LogName": "RSV Bulletin Board",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "false",
@@ -762,7 +761,7 @@
             }
         },
         {
-            "LogName": "SVE Bulletin Board",
+            "LogName": "RSV Bulletin Board",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "false"
@@ -812,7 +811,7 @@
         }
     },
     {
-            "LogName": "SVE Bulletin Board",
+            "LogName": "RSV Bulletin Board",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "false",
@@ -831,12 +830,12 @@
 					"DrawQuestionMark": false, 
 					"BundleSlots": 6,
                     "Price": {
-						"(O)591": 1,
+						"(O)Rafseazz.RSVCP_Ridgeside_Monkshood": 1,
 						"(O)593": 1,
-						"(O)595": 1,
+						"(O)Rafseazz.RSVCP_Highland_Butterwort": 1,
 						"(O)597": 1,
 						"(O)376": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Swamp_Flower": 1
+						"(O)Rafseazz.RSVCP_Violet_Devil_s_Claw": 1
 					},
 					"BundleReward": {
 						"(F)1971": 1
@@ -845,7 +844,7 @@
             }
         },
         {
-            "LogName": "SVE Bulletin Board",
+            "LogName": "RSV Bulletin Board",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "false",
@@ -864,12 +863,12 @@
 					"DrawQuestionMark": false, 
 					"BundleSlots": 6,
                     "Price": {
-						"(O)591": 1,
+						"(O)Rafseazz.RSVCP_Ridgeside_Monkshood": 1,
 						"(O)593": 1,
 						"(O)Cornucopia_CanolaFlower": 1,
-						"(O)597": 1,
+						"(O)Rafseazz.RSVCP_Highland_Butterwort": 1,
 						"(O)376": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Swamp_Flower": 1
+						"(O)Rafseazz.RSVCP_Violet_Devil_s_Claw": 1
 					},
 					"BundleReward": {
 						"(F)1971": 1
@@ -878,7 +877,7 @@
             }
         },
         {
-            "LogName": "SVE Bulletin Board",
+            "LogName": "RSV Bulletin Board",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "false"
@@ -923,7 +922,7 @@
 						"(S)1189": 1,
 						"(S)1035": 1,
 						"(S)1161": 1,
-						"(P)13": 1,
+						"(S)Rafseazz.RSVCP_Juninja_Shirt": 1,
 						"(P)3": 1,
 						"(H)54": 1,
 						"(H)90": 1,
@@ -948,7 +947,7 @@
             }
         },
         {
-            "LogName": "SVE Boiler Room Bundles",
+            "LogName": "RSV Boiler Room Bundles",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "false"
@@ -965,14 +964,15 @@
 					"BookId": "blue704.JojaCC_BoilerRoomBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 6,
+					"BundleSlots": 7,
 					"Price": {
 						"(O)60": 1,
 						"(O)62": 1,
 						"(O)64": 1,
 						"(O)66": 1,
 						"(O)68": 1,
-                        "(O)70": 1
+                        "(O)70": 1,
+						"(O)Rafseazz.RSVCP_Nightblack_Diamond": 1
 					},
 					"BundleReward": {
 						"(O)74": 1
@@ -1042,7 +1042,8 @@
 						"(O)767": 15,
 						"(O)881": 10,
 						"(O)768": 5,
-						"(O)769": 5
+						"(O)769": 5,
+                        "(O)Rafseazz.RSVCP_Spiritual_Essence": 50
 					},
 					"BundleReward": {
 						"(O)862": 1
@@ -1104,7 +1105,7 @@
             }
         },
         {
-            "LogName": "SVE Vault Bundles",
+            "LogName": "RSV Vault Bundles",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "false"
@@ -1263,7 +1264,7 @@
         },
 		//Hard Bundles
 		{
-            "LogName": "SVE Hard Forager Bundles",
+            "LogName": "RSV Forager Bundles",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "true"
@@ -1282,8 +1283,8 @@
 					"DrawQuestionMark": false, 
 					"BundleSlots": 6,
 					"Price": {
-						"(O)FlashShifter.StardewValleyExpandedCP_Dulse_Seaweed": 5,
-						"(O)FlashShifter.StardewValleyExpandedCP_Shark_Tooth": 1,
+						"(O)153": 5,
+						"(O)157": 5,
 						"(O)152": 2,
 						"(O)SeaJelly": 1,
 						"(O)RiverJelly": 1,
@@ -1334,8 +1335,8 @@
 					"BundleSlots": 8,
 					"Price": {
 						"(O)394": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Big_Conch": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Dried_Sand_Dollar": 1,
+						"(O)392": 1,
+						"(O)393": 1,
 						"(O)372": 1,
 						"(O)719": 1,
 						"(O)723": 1,
@@ -1360,14 +1361,14 @@
 					"DrawQuestionMark": false, 
 					"BundleSlots": 8,
                     "Price": {
-						"(O)FlashShifter.StardewValleyExpandedCP_Poison_Mushroom": 1,
+						"(O)404": 1,
 						"(O)420": 1,
-						"(O)422": 1,
-						"(O)257": 1,
+						"(O)Rafseazz.RSVCP_Ridgeside_Clementine": 1,
+						"(O)Rafseazz.RSVCP_Autumn_Drop_Berry": 1,
 						"(O)281": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Birch_Water": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Fir_Wax": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Mushroom_Colony": 1
+						"(O)724": 1,
+						"(O)725": 1,
+						"(O)726": 1
 					},
 					"BundleReward": {
 						"(BC)MushroomLog": 5,
@@ -1386,7 +1387,7 @@
             }
         },
         {
-            "LogName": "SVE Hard Forager Bundles",
+            "LogName": "RSV Farmer Bundles",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "true",
@@ -1405,14 +1406,14 @@
 					"DrawQuestionMark": false, 
 					"BundleSlots": 8,
                     "Price": {
-						"(O)FlashShifter.StardewValleyExpandedCP_Red_Baneberry": 1,
+						"(O)20": 1,
 						"(O)396": 1,
 						"(O)406": 1,
 						"(O)88": 1,
 						"(O)90": 1,
 						"(O)829": 1,
 						"(O)851": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Bearberrys": 1
+						"(O)Rafseazz.RSVCP_Sierra_Wintergreen": 1
 					},
 					"BundleReward": {
 						"(O)69": 1,
@@ -1425,7 +1426,7 @@
             }
         },
         {
-            "LogName": "SVE Hard Forager Bundles",
+            "LogName": "RSV Farmer Bundles",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "true",
@@ -1442,7 +1443,7 @@
 					"BookId": "blue704.JojaCC_ForagerBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 9,
+					"BundleSlots": 8,
                     "Price": {
 						"(O)Cornucopia_Peppercorn": 1,
 						"(O)Cornucopia_Raspberry": 1,
@@ -1451,8 +1452,7 @@
 						"(O)Cornucopia_Sugarcane": 1,
 						"(O)829": 1,
 						"(O)851": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Red_Baneberry": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Bearberrys": 1
+						"(O)Rafseazz.RSVCP_Sierra_Wintergreen": 1
 					},
 					"BundleReward": {
 						"(O)69": 1,
@@ -1465,7 +1465,7 @@
             }
         },
         {
-            "LogName": "SVE Hard Farmer Bundles",
+            "LogName": "RSV Farmer Bundles",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "true",
@@ -1486,13 +1486,13 @@
 					"BundleSlots": 8,
 					"Price": {
 						"(O)Carrot": 15,
-						"(O)24": 1,
+						"(O)(O)Rafseazz.RSVCP_Mountain_Arugula": 1,
 						"(O)192": 1,
 						"(O)250": 1,
 						"(O)252": 1,
 						"(O)190": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Cucumber": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Pear": 1
+						"(O)Rafseazz.RSVCP_Ridge_Cherry": 1,
+						"(O)638": 1
 					},
 					"BundleCompletedActions": [
   "AddMail all JojaCC_Year2SeedsJoja received",
@@ -1515,11 +1515,11 @@
 						"(O)SummerSquash": 15,
 						"(O)264": 1,
 						"(O)268": 1,
-						"(O)593": 1,
+						"(O)Rafseazz.RSVCP_Mountain_Hokkaido": 1,
 						"(O)266": 1,
 						"(O)304": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Butternut_Squash": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Nectarine": 1
+						"(O)Rafseazz.RSVCP_Ridge_Wild_Apple": 1,
+						"(O)Rafseazz.RSVCP_Mountain_Chico": 1
 					},
 					"BundleReward": {
 						"(O)645": 3
@@ -1541,12 +1541,12 @@
 					"Price": {
 						"(O)Broccoli": 15,
 						"(O)278": 1,
-						"(O)272": 1,
-						"(O)300": 1,
+						"(O)Rafseazz.RSVCP_Highland_Chard": 1,
+						"(O)Rafseazz.RSVCP_Highland_Butterwort": 1,
 						"(O)274": 1,
 						"(O)284": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Sweet_Potato": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Persimmon": 1
+						"(O)637": 1,
+						"(O)613": 1
 					},
 					"BundleReward": {
 						"(BC)Adam.Joja_Keg": 5
@@ -1558,7 +1558,7 @@
         }
     },
     {
-            "LogName": "SVE Hard Farmer Bundles",
+            "LogName": "RSV Farmer Bundles",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "true",
@@ -1582,10 +1582,10 @@
 						"(O)Cornucopia_BlueAgave": 1,
 						"(O)Cornucopia_Onion": 1,
 						"(O)252": 1,
-						"(O)250": 1,
+						"(O)Rafseazz.RSVCP_Mountain_Arugula": 1,
 						"(O)Cornucopia_PassionFruit": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Cucumber": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Pear": 1
+						"(O)Rafseazz.RSVCP_Ridge_Cherry": 1,
+						"(O)638": 1
 					},
 					"BundleCompletedActions": [
   "AddMail all JojaCC_Year2SeedsJoja received",
@@ -1608,11 +1608,11 @@
 						"(O)SummerSquash": 15,
 						"(O)Cornucopia_Watermelon": 1,
 						"(O)Cornucopia_Lemongrass": 1,
-						"(O)266": 1,
+						"(O)Rafseazz.RSVCP_Mountain_Hokkaido": 1,
 						"(O)268": 1,
 						"(O)Cornucopia_BeanSprouts": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Butternut_Squash": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Nectarine": 1
+						"(O)Rafseazz.RSVCP_Ridge_Wild_Apple": 1,
+						"(O)Rafseazz.RSVCP_Mountain_Chico": 1
 					},
 					"BundleReward": {
 						"(O)645": 3
@@ -1634,12 +1634,12 @@
 					"Price": {
 						"(O)Broccoli": 15,
 						"(O)Cornucopia_Turmeric": 1,
-						"(O)300": 1,
-						"(O)Cornucopia_Zucchini": 1,
+						"(O)Rafseazz.RSVCP_Highland_Chard": 1,
+						"(O)Rafseazz.RSVCP_Highland_Butterwort": 1,
 						"(O)284": 1,
 						"(O)Cornucopia_Turnip": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Sweet_Potato": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Persimmon": 1
+						"(O)Cornucopia_SweetPotato": 1,
+						"(O)613": 1
 					},
 					"BundleReward": {
 						"(BC)Adam.Joja_Keg": 5
@@ -1651,7 +1651,7 @@
         }
     },
     {
-            "LogName": "SVE Hard Farmer Bundles",
+            "LogName": "RSV Farmer Bundles",
 			"Action": "EditData",
             "When": {
 				"Enable More Difficult Bundles": "true"
@@ -1716,12 +1716,11 @@
 					"BookId": "blue704.JojaCC_FarmerBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 4,
+					"BundleSlots": 3,
                     "Price": {
 						"(O)306:Gold": 3,
 						"(O)307": 3,
-						"(O)308": 3,
-						"(O)FlashShifter.StardewValleyExpandedCP_Goose_Mayonnaise": 1
+						"(O)308": 3
 					},
 					"BundleReward": {
 						"(BC)101": 1,
@@ -1751,7 +1750,7 @@
 						"(O)182": 3,
 						"(O)186": 3,
 						"(O)423": 50,
-						"(O)FlashShifter.StardewValleyExpandedCP_Butter": 10
+						"(O)216": 5
 					},
 					"BundleReward": {
 						"(0)917": 20
@@ -1793,7 +1792,7 @@
             }
         },
         {
-            "LogName": "SVE Hard Fisher Bundles",
+            "LogName": "RSV Fisher Bundles",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "true"
@@ -1812,11 +1811,11 @@
 					"DrawQuestionMark": false, 
 					"BundleSlots": 6,
 					"Price": {
-						"(O)137": 1,
+						"(O)Rafseazz.RSVCP_Mountain_Redbelly_Dace": 1,
 						"(O)129": 1,
 						"(O)147": 1,
 						"(O)148": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Goldfish": 1,
+						"(O)Rafseazz.RSVCP_Ridgeside_Bass": 1,
 						"(O)706": 1
 					},
 					"BundleReward": {
@@ -1841,7 +1840,7 @@
 						"(O)144": 1,
 						"(O)146": 1,
 						"(O)149": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Grass_Carp": 1,
+						"(O)Rafseazz.RSVCP_Mountain_Whitefish": 1,
 						"(O)267": 1
 					},
 					"BundleReward": {
@@ -1865,7 +1864,7 @@
 						"(O)139": 1,
 						"(O)154": 1,
 						"(O)269": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Gar": 1,
+						"(O)Rafseazz.RSVCP_Cutthroat_Trout": 1,
 						"(O)705": 1,
 						"(O)140": 1
 					},
@@ -1890,7 +1889,7 @@
 						"(O)141": 1,
 						"(O)151": 1,
 						"(O)707": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Bull_Trout": 1,
+						"(O)Rafseazz.RSVCP_Ridge_Bluegill": 1,
 						"(O)161": 1,
 						"(O)708": 1
 					},
@@ -1961,7 +1960,7 @@
         },
         {
             //Bulletin Board Bundles
-            "LogName": "SVE Hard Bulletin Board",
+            "LogName": "RSV Bulletin Board",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "true",
@@ -1994,7 +1993,7 @@
             }
         },
         {
-            "LogName": "SVE Hard Bulletin Board",
+            "LogName": "RSV Bulletin Board",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "true",
@@ -2027,7 +2026,7 @@
             }
         },
         {
-            "LogName": "SVE Hard Bulletin Board",
+            "LogName": "RSV Bulletin Board",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "true"
@@ -2068,13 +2067,12 @@
 					"BookId": "blue704.JojaCC_BulletinBoardBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 5,
+					"BundleSlots": 4,
 					"Price": {
 						"(O)174": 3,
 						"(O)182": 3,
 						"(O)305": 1,
-						"(O)442": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Goose_Egg": 1
+						"(O)442": 1
 					},
 					"BundleReward": {
 						"(O)107": 1,
@@ -2084,7 +2082,7 @@
         }
     },
     {
-            "LogName": "SVE Hard Bulletin Board",
+            "LogName": "RSV Bulletin Board",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "true",
@@ -2103,15 +2101,15 @@
 					"DrawQuestionMark": false, 
 					"BundleSlots": 9,
                     "Price": {
-						"(O)591": 1,
+						"(O)Rafseazz.RSVCP_Ridgeside_Monkshood": 1,
+                        "(O)591": 1,
 						"(O)593": 1,
-						"(O)595": 1,
+                        "(O)595": 1,
+						"(O)Rafseazz.RSVCP_Highland_Butterwort": 1,
 						"(O)597": 1,
 						"(O)376": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Swamp_Flower": 1,
-						"(O)418": 1,
-						"(O)402": 1,
-						"(O)22": 1
+                        "(O)418": 1,
+						"(O)Rafseazz.RSVCP_Violet_Devil_s_Claw": 1
 					},
 					"BundleReward": {
 						"(F)1971": 1,
@@ -2121,7 +2119,7 @@
             }
         },
         {
-            "LogName": "SVE Hard Bulletin Board",
+            "LogName": "RSV Bulletin Board",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "true",
@@ -2140,15 +2138,15 @@
 					"DrawQuestionMark": false, 
 					"BundleSlots": 9,
                     "Price": {
-						"(O)597": 1,
+						"(O)Rafseazz.RSVCP_Ridgeside_Monkshood": 1,
 						"(O)591": 1,
 						"(O)593": 1,
                         "(O)595": 1,
 						"(O)Cornucopia_CanolaFlower": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Swamp_Flower": 1,
+						"(O)Rafseazz.RSVCP_Highland_Butterwort": 1,
 						"(O)376": 1,
                         "(O)418": 1,
-						"(O)402": 1
+						"(O)Rafseazz.RSVCP_Violet_Devil_s_Claw": 1
 					},
 					"BundleReward": {
 						"(F)1971": 1,
@@ -2158,7 +2156,7 @@
             }
         },
         {
-            "LogName": "SVE Hard Bulletin Board",
+            "LogName": "RSV Bulletin Board",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "true"
@@ -2203,7 +2201,7 @@
 						"(S)1189": 1,
 						"(S)1035": 1,
 						"(S)1161": 1,
-						"(P)13": 1,
+						"(S)Rafseazz.RSVCP_Juninja_Shirt": 1,
 						"(P)3": 1,
 						"(H)54": 1,
 						"(H)90": 1,
@@ -2228,7 +2226,7 @@
             }
         },
         {
-            "LogName": "SVE Hard Boiler Room Bundles",
+            "LogName": "RSV Boiler Room Bundles",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "true"
@@ -2245,7 +2243,7 @@
 					"BookId": "blue704.JojaCC_BoilerRoomBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 7,
+					"BundleSlots": 8,
 					"Price": {
 						"(O)60": 1,
 						"(O)62": 1,
@@ -2253,7 +2251,8 @@
 						"(O)66": 1,
 						"(O)68": 1,
                         "(O)70": 1,
-                        "(O)72": 1
+                        "(O)72": 1,
+						"(O)Rafseazz.RSVCP_Nightblack_Diamond": 1
 					},
 					"BundleReward": {
 						"(O)74": 1
@@ -2318,14 +2317,15 @@
 					"BookId": "blue704.JojaCC_BoilerRoomBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 6,
+					"BundleSlots": 7,
                     "Price": {
 						"(O)766": 100,
 						"(O)684": 50,
 						"(O)767": 30,
 						"(O)881": 20,
 						"(O)768": 10,
-						"(O)769": 10
+						"(O)769": 10,
+                        "(O)Rafseazz.RSVCP_Spiritual_Essence": 100
 					},
 					"BundleReward": {
 						"(O)862": 1,
@@ -2363,7 +2363,7 @@
             }
         },
         {
-            "LogName": "SVE Hard Boiler Room Bundles",
+            "LogName": "RSV Boiler Room Bundles",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "true",
@@ -2400,7 +2400,7 @@
             }
         },
         {
-            "LogName": "SVE Hard Boiler Room Bundles",
+            "LogName": "RSV Boiler Room Bundles",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "true",
@@ -2438,7 +2438,7 @@
             }
         },
         {
-            "LogName": "SVE Hard Vault Bundles",
+            "LogName": "RSV Vault Bundles",
 			"Action": "EditData",
 			"When": {
 				"Enable More Difficult Bundles": "true"
