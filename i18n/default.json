@@ -349,5 +349,23 @@
     "JojaCCFinished.22": "Thanks",
     "JojaCCFinished.23": "Woohoo!",
     "JojaCCFinished.24": "Go",
-    "JojaCCFinished.25": "Thank you @. It has been a pleasure working with you in making this town a better place.#$b#I think I might be tearing up...sob..#$b#Discounts for everyone at JojaMart this week!$h"
+    "JojaCCFinished.25": "Thank you @. It has been a pleasure working with you in making this town a better place.#$b#I think I might be tearing up...sob..#$b#Discounts for everyone at JojaMart this week!$h",
+    //Config Options
+"config.Choose Your Bundle Base.name": "Choose Your Bundle Base",
+"config.Choose Your Bundle Base.values.Vanilla": "Vanilla",
+"config.Choose Your Bundle Base.values.SVE": "SVE",
+"config.Choose Your Bundle Base.values.RSV": "RSV",
+"config.Choose Your Bundle Base.values.East Scarp": "East Scarp",
+"config.Choose Your Bundle Base.values.VMV": "VMV",
+"config.Enable More Difficult Bundles.name": "Enable More Difficult Bundles",
+"config.Enable Cornucopia Bundles.name": "Enable Cornucopia Bundles",
+"config.Enable Cornucopia Bundles.description": "Must have Cornucopia-More Crops Extended enabled.",
+"config.Enable.name": "Enable",
+"config.Enable.description": "Places Willy's Fish Farm in a new location for compatibility reasons. Avoid changing this value after the fish farm is built. It will not break your game, but there will be a few minor errors. Select false to place fish farm in vanilla tide pool location. Select true to place fish farm in a new area to the East of the vanilla tide pools.",
+"config.section.Bundle Base.name": "Bundle Base",
+"config.section.Bundle Base.description": "",
+"config.section.Bundle Addons.name": "Bundle Addons",
+"config.section.Bundle Addons.description": "",
+"config.section.Alternate Fish Farm Location.name": "Alternate Fish Farm Location",
+"config.section.Alternate Fish Farm Location.description": ""
 }
