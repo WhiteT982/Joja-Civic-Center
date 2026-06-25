@@ -185,7 +185,7 @@
       "LogName": "Island S Wrecked Ship Gone Event Data",
       "Target": "Data/Events/IslandSouth",
       "Entries": {
-        "IslandSWreckedShipGoneEvent/GameStateQuery !PLAYER_HAS_MAIL current IslandSWreckedShip received/GameStateQuery PLAYER_VISITED_LOCATION IslandEast": "continue/21 39/Willy 21 39 0 farmer 21 37 0/pause 500/skippable/emote farmer 16/pause 200/faceDirection farmer 2/pause 300/emote Willy 32/pause 500/speak Willy \"{{i18n:IslandSWreckedShipGoneEvent.0}}\"/pause 500/speak Willy \"{{i18n:IslandSWreckedShipGoneEvent.1}}\"/pause 300/emote Willy 60/pause 500/speak Willy \"{{i18n:IslandSWreckedShipGoneEvent.2}}\"/pause 300/emote farmer 32/pause 500/speak Willy \"{{i18n:IslandSWreckedShipGoneEvent.3}}\"/pause 300/emote farmer 20/pause 500/speak Willy \"{{i18n:IslandSWreckedShipGoneEvent.4}}\"/emote Willy 24/pause 500/end"
+        "IslandSWreckedShipGoneEvent/GameStateQuery !PLAYER_HAS_MAIL current IslandSWreckedShip received/GameStateQuery PLAYER_VISITED_LOCATION current IslandEast": "continue/21 39/Willy 21 39 0 farmer 21 37 0/pause 500/skippable/emote farmer 16/pause 200/faceDirection farmer 2/pause 300/emote Willy 32/pause 500/speak Willy \"{{i18n:IslandSWreckedShipGoneEvent.0}}\"/pause 500/speak Willy \"{{i18n:IslandSWreckedShipGoneEvent.1}}\"/pause 300/emote Willy 60/pause 500/speak Willy \"{{i18n:IslandSWreckedShipGoneEvent.2}}\"/pause 300/emote farmer 32/pause 500/speak Willy \"{{i18n:IslandSWreckedShipGoneEvent.3}}\"/pause 300/emote farmer 20/pause 500/speak Willy \"{{i18n:IslandSWreckedShipGoneEvent.4}}\"/emote Willy 24/pause 500/end"
       }
     },
     {

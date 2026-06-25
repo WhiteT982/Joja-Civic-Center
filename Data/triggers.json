@@ -549,7 +549,7 @@
         "IslandSWreckedShip": {
           "Id": "IslandSWreckedShip",
           "Trigger": "DayStarted",
-          "Condition": "ANY !IS_COMMUNITY_CENTER_COMPLETE !IS_JOJA_MART_COMPLETE",
+          "Condition":"!IS_COMMUNITY_CENTER_COMPLETE, !IS_JOJA_MART_COMPLETE",
           "Actions": [
             "AddMail all IslandSWreckedShip received"
           ]
