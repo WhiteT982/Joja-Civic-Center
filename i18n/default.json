@@ -363,7 +363,7 @@
 "config.Enable.name": "Enable",
 "config.Enable.description": "Places Willy's Fish Farm in a new location for compatibility reasons. Avoid changing this value after the fish farm is built. It will not break your game, but there will be a few minor errors. Select false to place fish farm in vanilla tide pool location. Select true to place fish farm in a new area to the East of the vanilla tide pools.",
 "config.section.Bundle Base.name": "Bundle Base",
-"config.section.Bundle Base.description": "",
+"config.section.Bundle Base.description": "Choose which expansion you would like to be featured in the bundles or SVE+RSV+ES for a mega modded playthrough! ",
 "config.section.Bundle Addons.name": "Bundle Addons",
 "config.section.Bundle Addons.description": "",
 "config.section.Alternate Fish Farm Location.name": "Alternate Fish Farm Location",

@@ -2,7 +2,7 @@
   "Format": "2.9.1",
   "ConfigSchema": {
     "Choose Your Bundle Base": {
-      "AllowValues": "Vanilla, SVE, RSV, East Scarp, VMV",
+      "AllowValues": "Vanilla, SVE, RSV, East Scarp, VMV, SVE+RSV+ES",
       "Default": "Vanilla",
       "Section": "Bundle Base"
     },
@@ -29,6 +29,7 @@
       "Action": "Include",
       "FromFile": "Data/Bundles/bundlebooks.json, Data/MapPatches/beachalternate.json, Data/MapPatches/beach.json, Data/MapPatches/shoppatches.json, Data/MapPatches/cellar.json, Data/MapPatches/JojaCC.json, Data/MapPatches/foragermap.json, Data/MapPatches/gingerisland.json, Data/MapPatches/clintscave.json, Data/strings.json, Data/schedules.json, Data/prizeticketmachine.json, Data/triggers.json, Data/mail.json, Data/minecart.json, Data/machines.json, Data/npcgifttastes.json, Data/events.json, Data/shop.json, Data/Objects/soup.json, Data/buildings.json, Data/Objects/treasurehunttag.json, Data/Objects/eventobjects.json, Data/Bundles/treasurehunt.json, assets/Maps/worldmap.json"
     },
+    //Bundle Configs
     {
       "Action": "Include",
       "FromFile": "Data/Bundles/Vanillabundles.json",
@@ -66,7 +67,16 @@
     },
     {
       "Action": "Include",
+      "FromFile": "Data/Bundles/SVE_RSV_ESbundles.json",
+      "When": {
+        "Choose Your Bundle Base": "SVE+RSV+ES"
+      }
+    },
+    //Alternate Fish Farm Config
+    {
+      "Action": "Include",
       "FromFile": "Data/MapPatches/beach.json",
+      "Update": "OnLocationChange",
       "When": {
         "Enable": "false"
       }
@@ -74,10 +84,12 @@
     {
       "Action": "Include",
       "FromFile": "Data/MapPatches/beachalternate.json",
+      "Update": "OnLocationChange",
       "When": {
         "Enable": "true"
       }
     },
+    //TH Bundle Randomization
     {
       "Action": "Include",
       "When":{
