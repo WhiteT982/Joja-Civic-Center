@@ -560,11 +560,26 @@
             "Action": "EditData",
       "Target": "Data/TriggerActions",
       "Entries": {
+        "IslandSWreckedShipEvent": {
+          "Id": "IslandSWreckedShipEvent",
+          "Trigger": "LocationChanged",
+          "Condition": "!PLAYER_HAS_MAIL any NoIslandSWreckedShipEvent received, PLAYER_VISITED_LOCATION current IslandSouth",
+          "Actions": [
+            "AddMail all IslandSWreckedShipEvent received"
+          ]
+        }
+          }
+          },
+          {
+            "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
         "IslandSWreckedShipGone": {
           "Id": "IslandSWreckedShipGone",
           "Trigger": "LocationChanged",
           "Condition": "PLAYER_HAS_MAIL any willyHours mailbox",
           "Actions": [
+            "AddMail all NoIslandSWreckedShipEvent received",
             "RemoveMail all IslandSWreckedShip all"
           ]
         }
