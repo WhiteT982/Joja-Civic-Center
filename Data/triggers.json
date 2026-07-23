@@ -47,12 +47,12 @@
           },
           {
       "Action": "EditData",
-      "Priority": "Late",
       "Target": "Data/TriggerActions",
       "Entries": {
         "RandomizeTHbundlesFlagRemoval": {
           "Id": "RandomizeTHbundlesFlagRemoval",
-          "Trigger": "DayEnding",
+          "Priority": "Late",
+          "Trigger": "DayStarted",
           "Condition": "ANY \"PLAYER_HAS_MAIL any AddTHbundle1 received\" \"PLAYER_HAS_MAIL any AddTHbundleA received\" \"PLAYER_HAS_MAIL any AddTHbundle7 received\" \"PLAYER_HAS_MAIL any AddTHbundle13 received\" \"PLAYER_HAS_MAIL any AddTHbundle19 received\"",
           "Actions": [
             "RemoveMail host RandomizeTHbundles all"
