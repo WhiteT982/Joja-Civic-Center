@@ -9,7 +9,8 @@
           "Trigger": "DayEnding",
           "Condition": "DAYS_PLAYED 1",
           "Actions": [
-            "AddMail all AddTHbundle13 received"
+            "AddMail all AddTHbundle13 received",
+            "RemoveMail host RandomizeTHbundles all"
           ]
         }
           }

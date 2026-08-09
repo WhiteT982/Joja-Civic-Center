@@ -45,21 +45,6 @@
         }
           }
           },
-          {
-      "Action": "EditData",
-      "Target": "Data/TriggerActions",
-      "Entries": {
-        "RandomizeTHbundlesFlagRemoval": {
-          "Id": "RandomizeTHbundlesFlagRemoval",
-          "Priority": "Late",
-          "Trigger": "DayStarted",
-          "Condition": "ANY \"PLAYER_HAS_MAIL any AddTHbundle1 received\" \"PLAYER_HAS_MAIL any AddTHbundleA received\" \"PLAYER_HAS_MAIL any AddTHbundle7 received\" \"PLAYER_HAS_MAIL any AddTHbundle13 received\" \"PLAYER_HAS_MAIL any AddTHbundle19 received\"",
-          "Actions": [
-            "RemoveMail host RandomizeTHbundles all"
-          ]
-        }
-          }
-          },
           //Treasure Hunt Sign Changes
           {
             "Action": "EditData",

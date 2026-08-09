@@ -4,7 +4,7 @@
         "Action": "EditData",
         "Target": "Data/TriggerActions",
         "Entries": {
-        "AddTHbundle1": {
+        "AddTHbundle2": {
           "Id": "AddTHbundle2",
           "Trigger": "DayEnding",
           "Condition": "DAYS_PLAYED 1",
