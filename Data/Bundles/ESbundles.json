@@ -233,10 +233,12 @@
 						"(O)634": 1,
 						"(O)638": 1
 					},
+					"BundleReward": {
+						"(O)599": 3
+					},
 					"BundleCompletedActions": [
   "AddMail all JojaCC_Year2SeedsJoja received",
-  "AddMail all FirstBundleComplete received",
-  "spacechase0.SpaceCore_PlayEvent FarmerBundle01Complete true"
+  "AddMail all FirstBundleComplete received"
 ]
 
 				},
@@ -326,10 +328,12 @@
 						"(O)EastScarp_BiteBackMelon": 1,
 						"(O)250": 1
 					},
+					"BundleReward": {
+						"(O)599": 3
+					},
 					"BundleCompletedActions": [
   "AddMail all JojaCC_Year2SeedsJoja received",
-  "AddMail all FirstBundleComplete received",
-  "spacechase0.SpaceCore_PlayEvent FarmerBundle01Complete true"
+  "AddMail all FirstBundleComplete received"
 ]
 
 				},
@@ -440,10 +444,15 @@
 						"(O)466": 1,
 						"(O)805": 10
 					},
+					"BundleReward": {
+						"(O)919": 15,
+						"(O)920": 10,
+						"(O)918": 15
+					},
+					"RandomRewardEntries": 1,
 					"BundleCompletedActions": [
   "AddMail all JojaCC_FertilizerJoja received",
-  "AddMail all FirstBundleComplete received",
-  "spacechase0.SpaceCore_PlayEvent FarmerBundle05Complete true"
+  "AddMail all FirstBundleComplete received"
 ]
 				},
 				"blue704.JojaCC_FarmerBundle06": {
@@ -582,7 +591,7 @@
 						"(O)267": 1
 					},
 					"BundleReward": {
-						"(BC)Adam.Joja_FishSmoker": 1
+						"(BC)Adam.Joja_WormBin": 1
 					},
 					"BundleCompletedActions": [
   "AddMail all FirstBundleComplete received"
@@ -607,7 +616,7 @@
 						"(O)EastScarp_Slime_Barbel": 1
 					},
 					"BundleReward": {
-						"(BC)Adam.Joja_WormBin": 1
+						"(BC)Adam.Joja_FishSmoker": 1
 				},
 				"BundleCompletedActions": [
   "AddMail all FirstBundleComplete received"
@@ -1255,8 +1264,12 @@
           "Price": {
             "money": 10000
           },
+		  "BundleReward": {
+						"(O)PrizeTicket": 1
+					},
           "BundleCompletedActions": [
-						"AddMail all JojaCC_GoldenBundleComplete received"
+						"AddMail all JojaCC_GoldenBundleComplete received",
+  						"spacechase0.SpaceCore_PlayEvent GoldenBundleComplete true"
 ]
         }
             }
@@ -1494,10 +1507,12 @@
 						"(O)634": 1,
 						"(O)252": 1
 					},
+					"BundleReward": {
+						"(O)621": 3
+					},
 					"BundleCompletedActions": [
   "AddMail all JojaCC_Year2SeedsJoja received",
-  "AddMail all FirstBundleComplete received",
-  "spacechase0.SpaceCore_PlayEvent FarmerBundle01Complete true"
+  "AddMail all FirstBundleComplete received"
 ]
 
 				},
@@ -1587,10 +1602,12 @@
 						"(O)Lemurkat.EastScarp_FirePepper": 1,
 						"(O)Lemurkat.EastScarp_ButterTuff": 1
 					},
+					"BundleReward": {
+						"(O)621": 3
+					},
 					"BundleCompletedActions": [
   "AddMail all JojaCC_Year2SeedsJoja received",
-  "AddMail all FirstBundleComplete received",
-  "spacechase0.SpaceCore_PlayEvent FarmerBundle01Complete true"
+  "AddMail all FirstBundleComplete received"
 ]
 
 				},
@@ -1701,10 +1718,15 @@
 						"(O)466": 10,
 						"(O)805": 20
 					},
+					"BundleReward": {
+						"(O)919": 20,
+						"(O)920": 15,
+						"(O)918": 20
+					},
+					"RandomRewardEntries": 1,
 					"BundleCompletedActions": [
   "AddMail all JojaCC_FertilizerJoja received",
-  "AddMail all FirstBundleComplete received",
-  "spacechase0.SpaceCore_PlayEvent FarmerBundle05Complete true"
+  "AddMail all FirstBundleComplete received"
 ]
 				},
 				"blue704.JojaCC_FarmerBundle06": {
@@ -1844,7 +1866,7 @@
 						"(O)267": 1
 					},
 					"BundleReward": {
-						"(BC)Adam.Joja_FishSmoker": 2
+						"(BC)Adam.Joja_WormBin": 2
 					},
 					"BundleCompletedActions": [
   "AddMail all FirstBundleComplete received"
@@ -1869,7 +1891,7 @@
 						"(O)EastScarp_Slime_Barbel": 1
 					},
 					"BundleReward": {
-						"(BC)Adam.Joja_WormBin": 2
+						"(BC)Adam.Joja_FishSmoker": 2
 				},
 				"BundleCompletedActions": [
   "AddMail all FirstBundleComplete received"
@@ -2587,8 +2609,12 @@
           "Price": {
             "money": 20000
           },
+		  "BundleReward": {
+						"(O)PrizeTicket": 1
+					},
           "BundleCompletedActions": [
-						"AddMail all JojaCC_GoldenBundleComplete received"
+						"AddMail all JojaCC_GoldenBundleComplete received",
+  						"spacechase0.SpaceCore_PlayEvent GoldenBundleComplete true"
 ]
         }
             }
