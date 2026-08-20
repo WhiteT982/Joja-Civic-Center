@@ -471,26 +471,6 @@
       "Target": "Maps/JojaCC",
       "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
       "FromArea": {
-        "X": 24,
-        "Y": 8,
-        "Width": 1,
-        "Height": 1
-      },
-      "ToArea": {
-        "X": 24,
-        "Y": 8,
-        "Width": 1,
-        "Height": 1
-      }
-    },
-    {
-      "When": {
-        "Season": "spring"
-      },
-      "Action": "EditMap",
-      "Target": "Maps/JojaCC",
-      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
-      "FromArea": {
         "X": 19,
         "Y": 4,
         "Width": 1,
@@ -1508,9 +1488,6 @@
     },
     //Town Map Edit
     {
-      "When": {
-        "HasFlag": "jojaMember"
-      },
       "Action": "EditMap",
       "Target": "Maps/Town",
       "FromFile": "assets/Maps/z_TownJojaCC{{season}}.tmx",
@@ -1529,7 +1506,6 @@
     },
     {
       "When": {
-        "HasFlag": "jojaMember",
         "HasMod": "FlashShifter.StardewValleyExpandedCP"
       },
       "Action": "EditMap",
@@ -1548,6 +1524,48 @@
         "Height": 15
       }
     },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Town",
+        "When": {
+          "HasMod|contains=FlashShifter.StardewValleyExpandedCP": false,
+          "HasFlag|contains=RemoveJojaCCclosedSign": false
+            },
+      "FromFile": "assets/Maps/z_JojaCCsign.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 2,
+        "Height": 2
+      },
+      "ToArea": {
+        "X": 39,
+        "Y": 34,
+        "Width": 2,
+        "Height": 2
+      }
+        },
+        {
+      "Action": "EditMap",
+      "Target": "Maps/Town",
+        "When": {
+          "HasMod": "FlashShifter.StardewValleyExpandedCP",
+          "HasFlag|contains=RemoveJojaCCclosedSign": false
+            },
+      "FromFile": "assets/Maps/z_JojaCCsign.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 2,
+        "Height": 2
+      },
+      "ToArea": {
+        "X": 39,
+        "Y": 33,
+        "Width": 2,
+        "Height": 2
+      }
+        },
       {
             "Action": "EditMap",
             "Target": "Maps/Town",
@@ -1612,6 +1630,27 @@
         "Y": 16,
         "Width": 2,
         "Height": 3
+      }
+    },
+    //Add Joja CC Order Board
+    {
+      "When": {
+        "HasFlag": "JojaCCOrderBoardBuilt"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCCorderboard.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 4,
+        "Height": 4
+      },
+      "ToArea": {
+        "X": 45,
+        "Y": 10,
+        "Width": 4,
+        "Height": 4
       }
     },
     //Add Fish Pond when Fisher Bundle Complete
