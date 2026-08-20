@@ -5,7 +5,8 @@
       "LogName": "JojaCC Strings Data",
       "Target": "Strings/schedules/Gus",
       "Entries": {
-        "Gus_Soup_Duty": "{{i18n:blue.704.JojaCC_GusSoupDuty}}"
+        "Gus_Soup_Duty": "{{i18n:blue704.JojaCC_GusSoupDuty}}",
+        "GusJojaCCKitchen": "{{i18n:blue704.JojaCC_GusJojaCCKitchen}}"
       }
     },
     {
@@ -13,7 +14,7 @@
       "LogName": "JojaCC Strings Data",
       "Target": "Strings/schedules/Marnie",
       "Entries": {
-        "Marnie_Soup_Duty": "{{i18n:blue.704.JojaCC_MarnieSoupDuty}}"
+        "Marnie_Soup_Duty": "{{i18n:blue704.JojaCC_MarnieSoupDuty}}"
       }
     },
     {
@@ -21,7 +22,7 @@
       "LogName": "JojaCC Strings Data",
       "Target": "Strings/schedules/Evelyn",
       "Entries": {
-        "EvelynsKitchen": "{{i18n:blue.704.JojaCC_EvelynsKitchen}}"
+        "EvelynsKitchen": "{{i18n:blue704.JojaCC_EvelynsKitchen}}"
       }
     },
     {
@@ -29,7 +30,7 @@
       "LogName": "JojaCC Strings Data",
       "Target": "Strings/schedules/Leah",
       "Entries": {
-        "LeahsForaging": "{{i18n:blue.704.JojaCC_LeahsForaging}}"
+        "LeahsForaging": "{{i18n:blue704.JojaCC_LeahsForaging}}"
       }
     },
     {
@@ -37,7 +38,7 @@
       "LogName": "JojaCC Strings Data",
       "Target": "Strings/schedules/Willy",
       "Entries": {
-        "WillysOddities": "{{i18n:blue.704.JojaCC_WillysOddities}}"
+        "WillysOddities": "{{i18n:blue704.JojaCC_WillysOddities}}"
       }
     },
     {
@@ -45,7 +46,7 @@
       "LogName": "JojaCC Strings Data",
       "Target": "Strings/schedules/Clint",
       "Entries": {
-        "ClintBoilerRoom": "{{i18n:blue.704.JojaCC_ClintBoilerRoom}}"
+        "ClintBoilerRoom": "{{i18n:blue704.JojaCC_ClintBoilerRoom}}"
       }
     },
     {
@@ -53,7 +54,7 @@
       "LogName": "JojaCC Strings Data",
       "Target": "Strings/schedules/Lewis",
       "Entries": {
-        "LewisVaultComplete": "{{i18n:blue.704.JojaCC_LewisVaultComplete}}"
+        "LewisVaultComplete": "{{i18n:blue704.JojaCC_LewisVaultComplete}}"
       }
     },
     {
@@ -61,7 +62,24 @@
       "LogName": "JojaCC Strings Data",
       "Target": "Strings/schedules/Abigail",
       "Entries": {
-        "AbigailFallPumpkins": "{{i18n:blue.704.JojaCC_AbigailFallPumpkins}}"
+        "AbigailFallPumpkins": "{{i18n:blue704.JojaCC_AbigailFallPumpkins}}",
+        "AbigailSatJK": "{{i18n:blue704.JojaCC_AbigailSatJK}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "LogName": "JojaCC Strings Data",
+      "Target": "Strings/schedules/Sam",
+      "Entries": {
+        "SamSatPool": "{{i18n:blue704.JojaCC_SamSatPool}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "LogName": "JojaCC Strings Data",
+      "Target": "Strings/schedules/Sebastian",
+      "Entries": {
+        "SebSatPool": "{{i18n:blue704.JojaCC_SebSatPool}}"
       }
     },
     {
@@ -69,7 +87,7 @@
       "LogName": "JojaCC Strings Data",
       "Target": "Strings/schedules/Jas",
       "Entries": {
-        "JasFallPumpkins": "{{i18n:blue.704.JojaCC_JasFallPumpkins}}"
+        "JasFallPumpkins": "{{i18n:blue704.JojaCC_JasFallPumpkins}}"
       }
     },
     {
@@ -77,7 +95,67 @@
       "LogName": "JojaCC Strings Data",
       "Target": "Strings/schedules/Vincent",
       "Entries": {
-        "VincentFallPumpkins": "{{i18n:blue.704.JojaCC_VincentFallPumpkins}}"
+        "VincentFallPumpkins": "{{i18n:blue704.JojaCC_VincentFallPumpkins}}"
+      }
+    },
+
+    {
+      "Action": "EditData",
+      "LogName": "JojaCC Strings Data",
+      "Target": "Strings/schedules/Maru",
+      "Entries": {
+        "MaruJojaCC": "{{i18n:blue704.JojaCC_MaruJojaCC}}",
+        "MaruJojaCCboiler": "{{i18n:blue704.JojaCC_MaruJojaCCboiler}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "LogName": "JojaCC Strings Data",
+      "Target": "Strings/schedules/Penny",
+      "Entries": {
+        "PennyJojaCC": "{{i18n:blue704.JojaCC_PennyJojaCC}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "LogName": "JojaCC Strings Data",
+      "Target": "Strings/schedules/Demetrius",
+      "Entries": {
+        "DemetriusJojaCC": "{{i18n:blue704.JojaCC_DemetriusJojaCC}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "LogName": "JojaCC Strings Data",
+      "Target": "Strings/schedules/Linus",
+      "Entries": {
+        "LinusJojaCCrain": "{{i18n:blue704.JojaCC_LinusJojaCCrain}}",
+        "LinusJojaCCwinter": "{{i18n:blue704.JojaCC_LinusJojaCCwinter}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "LogName": "JojaCC Strings Data",
+      "Target": "Strings/schedules/Pam",
+      "Entries": {
+        "PamJojaCC": "{{i18n:blue704.JojaCC_PamJojaCC}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "LogName": "JojaCC Strings Data",
+      "Target": "Strings/schedules/Emily",
+      "Entries": {
+        "EmilyJojaCCpaint": "{{i18n:blue704.JojaCC_EmilyJojaCCpaint}}",
+        "EmilyJojaCCherbs": "{{i18n:blue704.JojaCC_EmilyJojaCCherbs}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "LogName": "JojaCC Strings Data",
+      "Target": "Strings/schedules/Jodi",
+      "Entries": {
+        "JodiJojaCCsugar": "{{i18n:blue704.JojaCC_JodiJojaCCsugar}}"
       }
     },
     {
@@ -114,7 +192,10 @@
         "TreasureHuntSignF": "{{i18n:blue704.JojaCC_TreasureHuntSignF}}",
         "TreasureHuntSign12": "{{i18n:blue704.JojaCC_TreasureHuntSign12}}",
         "TreasureHuntSign18": "{{i18n:blue704.JojaCC_TreasureHuntSign18}}",
-        "TreasureHuntSign24": "{{i18n:blue704.JojaCC_TreasureHuntSign24}}"
+        "TreasureHuntSign24": "{{i18n:blue704.JojaCC_TreasureHuntSign24}}",
+        "JojaCCclosed": "{{i18n:blue704.JojaCC_JojaCCclosed}}",
+        "JojaBooks1": "{{i18n:blue704.JojaCC_JojaCCBooks1}}",
+        "JojaBooks2": "{{i18n:blue704.JojaCC_JojaCCBooks2}}"
       }
     }
 ]

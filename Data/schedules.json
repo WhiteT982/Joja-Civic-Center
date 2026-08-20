@@ -58,8 +58,25 @@
       "Action": "EditData",
       "Target": "characters/schedules/Abigail",
       "Entries": {
+         "Sat": "900 SeedShop 39 5 0/1030 SeedShop 2 20 3/1300 Town 73 54 2/1500 JojaCC 25 19 0 \"Strings\\schedules\\Abigail:AbigailSatJK\"/2100 SeedShop 1 9 3 abigail_sleep",
          "fall": "900 SeedShop 39 5 0/1000 JojaCC 40 17 2 \"Strings\\schedules\\Abigail:AbigailFallPumpkins\"/1700 SeedShop 3 6 0 abigail_videogames/1930 SeedShop 1 9 3 abigail_sleep"
         }
+},
+//Sam Schedule Edit
+        {
+      "Action": "EditData",
+      "Target": "characters/schedules/Sam",
+      "Entries": {
+         "Sat": "800 Town 25 98 2/1100 Town 18 94 3 sam_gameboy/1230 SamHouse 17 15 2 sam_guitar/1500 JojaCC 23 22 1 \"Strings\\schedules\\Sam:SamSatPool\"/2100 SamHouse 22 13 1 sam_sleep"
+        }
+},
+//Sebastian Schedule Edit
+        {
+      "Action": "EditData",
+      "Target": "characters/schedules/Sebastian",
+      "Entries": {
+        "Sat": "900 Town 18 95 0/1230 SamHouse 19 18 0 sebastian_keyboard_up/1500 JojaCC 29 22 3 \"Strings\\schedules\\Seb:SebSatPool\"/2100 SebastianRoom 11 9 1 sebastian_sleep"
+      }
 },
 //Jas Schedule Edit
         {
@@ -104,6 +121,15 @@
          "summer": "800 JojaCC 33 15 1 \"Strings\\schedules\\Gus:Gus_Soup_Duty\"/1200 Saloon 14 18 2 gus_clean/1830 Saloon 12 18 0/1850 Saloon 10 18 2/1940 Saloon 12 18 0/1950 Saloon 10 18 2/2030 Saloon 12 18 0/2040 Saloon 10 18 2/2400 Saloon 23 4 1 gus_sleep"
         }
     },
+    {
+      "Action": "EditData",
+      "Target": "characters/schedules/Gus",
+      "Entries": {
+         "Wed": "800 JojaCC 4 5 0 \"Strings\\schedules\\Gus:GusJojaCCKitchen\"/1200 Saloon 14 18 2 gus_clean/1830 Saloon 12 18 0/1850 Saloon 10 18 2/1940 Saloon 12 18 0/1950 Saloon 10 18 2/2030 Saloon 12 18 0/2040 Saloon 10 18 2/2400 Saloon 23 4 1 gus_sleep",
+         "Thu": "800 JojaCC 4 5 0 \"Strings\\schedules\\Gus:GusJojaCCKitchen\"/1200 Saloon 14 18 2 gus_clean/1830 Saloon 12 18 0/1850 Saloon 10 18 2/1940 Saloon 12 18 0/1950 Saloon 10 18 2/2030 Saloon 12 18 0/2040 Saloon 10 18 2/2400 Saloon 23 4 1 gus_sleep",
+         "Sat": "800 JojaCC 4 5 0 \"Strings\\schedules\\Gus:GusJojaCCKitchen\"/1200 Saloon 14 18 2 gus_clean/1830 Saloon 12 18 0/1850 Saloon 10 18 2/1940 Saloon 12 18 0/1950 Saloon 10 18 2/2030 Saloon 12 18 0/2040 Saloon 10 18 2/2400 Saloon 23 4 1 gus_sleep"
+        }
+    },
     //Marnie Schedule Edit
         {
       "Action": "EditData",
@@ -123,6 +149,66 @@
           "Entries": {
             "marnie_stirs_soup":"17 17 18 18 17 17 19 19/17 17 18 18 17 17 19 19/2"
           }
+        },
+    //Maru Schedule Edit
+    {
+      "Action": "EditData",
+      "Target": "characters/schedules/Maru",
+      "Entries": {
+         "Mon": "800 ScienceHouse 5 6 1 maru_tinker/1000 ScienceHouse 19 18 0/1330 JojaCC 23 8 2 maru_sit_down \"Strings\\schedules\\Maru:MaruJojaCC\"/1830 ScienceHouse 5 6 1 maru_tinker/2300 ScienceHouse 2 4 3 maru_sleep",
+         "Wed": "800 ScienceHouse 5 6 1 maru_tinker/1000 ScienceHouse 19 18 0/1430 JojaCC 60 18 2 \"Strings\\schedules\\Maru:MaruJojaCCboiler\"/1900 ScienceHouse 5 6 1 maru_tinker/2200 ScienceHouse 2 4 3 maru_sleep"
         }
+    },
+    //Penny Schedule Edit
+    {
+      "Action": "EditData",
+      "Target": "characters/schedules/Penny",
+      "Entries": {
+         "Mon": "800 Town 35 89 2 penny_read/1230 Trailer 12 6 0 penny_dishes/1400 JojaCC 24 8 2 penny_sit \"Strings\\schedules\\Penny:PennyJojaCC\"/1840 Trailer 4 9 1 penny_sleep"
+        }
+    },
+    //Demetrius Schedule Edit
+    {
+      "Action": "EditData",
+      "Target": "characters/schedules/Demetrius",
+      "Entries": {
+         "Wed": "750 ScienceHouse 29 9 0/1100 ScienceHouse 22 20 1 demetrius_notes/1430 JojaCC 60 17 3 \"Strings\\schedules\\Demetrius:DemetriusJojaCC\"/1900 ScienceHouse 27 9 0/2040 ScienceHouse 28 9 0/2100 ScienceHouse 15 4 0/2230 ScienceHouse 19 4 11 demetrius_sleep"
+        }
+    },
+    //Linus Schedule Edit
+    {
+      "Action": "EditData",
+      "Target": "characters/schedules/Linus",
+      "Entries": {
+         "rain": "700 Tent 2 2 0/930 Mountain 25 5 1/1010 JojaCC 12 26 3 \"Strings\\schedules\\Linus:LinusJojaCCrain\"/1500 Mountain 17 8 2/1900 Tent 2 2 2",
+         "winter": "800 JojaCC 17 23 1 \"Strings\\schedules\\Linus:LinusJojaCCwinter\"/1100 Mountain 28 9 1/1400 BathHouse_Entry 8 6 3 \"Strings\\schedules\\Linus:winter.000\"/1800 Tent 2 2 2"
+        }
+    },
+    //Pam Schedule Edit
+    {
+      "Action": "EditData",
+      "Target": "characters/schedules/Pam",
+      "Entries": {
+        "Mon": "800 JojaCC 37 10 1 \"Strings\\schedules\\Pam:PamJojaCC\"/1200 JojaMart 6 19 1/1600 Saloon 7 18 1/2400 Trailer 15 4 2 pam_sleep",
+        "Wed": "800 JojaCC 37 10 1 \"Strings\\schedules\\Pam:PamJojaCC\"/1200 JojaMart 6 19 1/1600 Saloon 7 18 1/2400 Trailer 15 4 2 pam_sleep"
+      }
+    },
+    //Emily Schedule Edit
+    {
+      "Action": "EditData",
+      "Target": "characters/schedules/Emily",
+      "Entries": {
+        "Tue": "900 JojaCC 16 19 0 \"Strings\\schedules\\Emily:EmilyJojaCCpaint\"/1530 Saloon 15 17 0 square_5_1_0/2430 HaleyHouse 21 4 1 emily_sleep",
+        "Sat": "900 JojaCC 18 19 0 \"Strings\\schedules\\Emily:EmilyJojaCCherbs\"/1530 Saloon 15 17 0 square_5_1_0/2430 HaleyHouse 21 4 1 emily_sleep"
+      }
+    },
+    //Jodi Schedule Edit
+    {
+      "Action": "EditData",
+      "Target": "characters/schedules/Jodi",
+      "Entries": {
+        "Wed": "800 SamHouse 6 5 0 jodi_dishes/940 SamHouse 5 5 0/1000 SamHouse 7 5 0/1020 SamHouse 4 5 0/1040 SamHouse 6 5 0 jodi_dishes/1100 JojaCC 13 5 0 \"Strings\\schedules\\Jodi:JodiJojaCCsugar\"/1530 JojaMart 27 13 1/1600 JojaMart 11 25 3/1700 SamHouse 7 5 0/1930 SamHouse 5 7 3/2100 SamHouse 10 22 3/2200 SamHouse 22 5 1 jodi_sleep"
+      }
+    }
     ]
 }
