@@ -16,16 +16,48 @@
           }
           },
     {
-      //Joja Money Reward Mail
+      //Joja CC Open Mail
       "Action": "EditData",
       "Target": "Data/TriggerActions",
       "Entries": {
-        "Joja Money Reward Mail": {
-          "Id": "JojaMoneyRewardMail",
-          "Trigger": "DayStarted",
-          "Condition": "PLAYER_HAS_SEEN_EVENT any 611439",
+        "Joja CC Open Mail": {
+          "Id": "JojaCCOpenMail",
+          "Trigger": "DayEnding",
+          "Condition": "DAYS_PLAYED 3",
           "Actions": [
-            "AddMail current JojaMoneyRewardMail now"
+            "AddMail current JojaCCOpenMail now",
+            "AddMail all RemoveJojaCCclosedSign received"
+          ]
+        }
+          }
+          },
+          {
+          //Joja CC Order Board Built and Triggers
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "Joja CC Order Board Built": {
+          "Id": "JojaCCOrderBoardBuilt",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HAS_MAIL any BulletinBoardComplete received",
+          "Actions": [
+            "AddMail all JojaCCOrderBoardBuilt received"
+          ]
+        },
+        "AnyBarnBuilt": {
+          "Id": "AnyBarnBuilt",
+          "Trigger": "DayEnding",
+          "Condition": "BUILDINGS_CONSTRUCTED All Barn 1",
+          "Actions": [
+            "AddMail current AnyBarnBuilt received"
+          ]
+        },
+         "AnyCoopBuilt": {
+          "Id": "AnyCoopBuilt",
+          "Trigger": "DayEnding",
+          "Condition": "BUILDINGS_CONSTRUCTED All Coop 1",
+          "Actions": [
+            "AddMail current AnyCoopBuilt received"
           ]
         }
           }
