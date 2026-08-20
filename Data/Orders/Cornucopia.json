@@ -1,0 +1,73 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "When": {
+        "HasFlag": "JojaCCOrderBoardBuilt"
+      },
+      "Entries": {
+        "blue704.JojaCC_Orders.CornucopiaCrops": {
+          "Name": "{{i18n:blue704.JojaCC_Orders.CropSpecialOrder.name}}",
+          "Requester": "Gus",
+          "Duration": "TwoWeeks",
+          "Repeatable": "True",
+          "RequiredTags": "!season_winter, !dropbox_GusFridge",
+          "OrderType": "Esca.EMP/blue704.JojaCC_Orders",
+          "SpecialRule": "",
+          "Text": "{{i18n:blue704.JojaCC_Orders.CropSpecialOrder.text}}",
+          "RandomizedElements": [
+            {
+              "Name": "Crops",
+              "Values": [
+          {
+            "RequiredTags": "season_spring",
+            "Value": "PICK_ITEM Cornucopia_Basil, Cornucopia_Onion, Cornucopia_Spinach, Cornucopia_SesameSeeds"
+          },
+          {
+            "RequiredTags": "season_summer",
+            "Value": "PICK_ITEM Cornucopia_BellPepper, Cornucopia_Cucumber, Cornucopia_Kiwi, Cornucopia_Lettuce, Cornucopia_Sugarcane, Cornucopia_Watermelon"
+          },
+          {
+            "RequiredTags": "season_fall",
+            "Value": "PICK_ITEM Cornucopia_Turnip, Cornucopia_Peanut, Cornucopia_Spinach, Cornucopia_Soybeans, Cornucopia_Zucchini"
+          }
+        ]
+      }
+    ],
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "Text": "{{i18n:blue704.JojaCC_Orders.CropSpecialOrder.collect.text}}",
+              "RequiredCount": "25",
+              "Data": {
+                "AcceptedContextTags": "{Crops:Tags}"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:blue704.JojaCC_Orders.CropSpecialOrder.ship.text}}",
+              "RequiredCount": "25",
+              "Data": {
+          "DropBox": "GusFridge",
+          "DropBoxGameLocation": "Saloon",
+          "DropBoxIndicatorLocation": "18 15",
+          "MinimumCapacity": "30",
+          "AcceptedContextTags": "{Crops:Tags}"
+        }
+      }
+    ],
+          "Rewards": [
+            {
+        "Type": "Money",
+        "Data": {
+          "Amount": "{Crops:Price}",
+          "Multiplier": "50"
+        }
+      }
+          ]
+        }
+    }
+}
+  ]
+}

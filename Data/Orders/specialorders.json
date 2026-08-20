@@ -1,0 +1,1445 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "When": {
+        "HasFlag": "JojaCCOrderBoardBuilt"
+      },
+      "Entries": {
+        "blue704.JojaCC_Orders.Crops": {
+          "Name": "{{i18n:blue704.JojaCC_Orders.CropSpecialOrder.name}}",
+          "Requester": "Gus",
+          "Duration": "TwoWeeks",
+          "Repeatable": "True",
+          "RequiredTags": "!season_winter, !dropbox_GusFridge",
+          "OrderType": "Esca.EMP/blue704.JojaCC_Orders",
+          "SpecialRule": "",
+          "Text": "{{i18n:blue704.JojaCC_Orders.CropSpecialOrder.text}}",
+          "RandomizedElements": [
+            {
+              "Name": "Crops",
+              "Values": [
+          {
+            "RequiredTags": "season_spring",
+            "Value": "PICK_ITEM Parsnip, Potato, Green Bean, Garlic, Cauliflower"
+          },
+          {
+            "RequiredTags": "season_summer",
+            "Value": "PICK_ITEM Tomato, Blueberry, Radish, Melon, Hot Pepper, Wheat"
+          },
+          {
+            "RequiredTags": "season_fall",
+            "Value": "PICK_ITEM Pumpkin, Eggplant, Cranberries, Bok Choy, Amaranth, Grape, Yam, Artichoke"
+          }
+        ]
+      }
+    ],
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "Text": "{{i18n:blue704.JojaCC_Orders.CropSpecialOrder.collect.text}}",
+              "RequiredCount": "25",
+              "Data": {
+                "AcceptedContextTags": "{Crops:Tags}"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:blue704.JojaCC_Orders.CropSpecialOrder.ship.text}}",
+              "RequiredCount": "25",
+              "Data": {
+          "DropBox": "GusFridge",
+          "DropBoxGameLocation": "Saloon",
+          "DropBoxIndicatorLocation": "18 15",
+          "MinimumCapacity": "30",
+          "AcceptedContextTags": "{Crops:Tags}"
+        }
+      }
+    ],
+          "Rewards": [
+            {
+        "Type": "Money",
+        "Data": {
+          "Amount": "{Crops:Price}",
+          "Multiplier": "50"
+        }
+      }
+          ]
+        },
+        "blue704.JojaCC_Orders.Fish": {
+          "Name": "{{i18n:blue704.JojaCC_Orders.FishOrder.name}}",
+          "Requester": "Gus",
+          "Duration": "TwoWeeks",
+          "Repeatable": "True",
+          "RequiredTags": "!dropbox_GusFridge",
+          "OrderType": "Esca.EMP/blue704.JojaCC_Orders",
+          "SpecialRule": "",
+          "Text": "{{i18n:blue704.JojaCC_Orders.FishOrder.text}}",
+          "RandomizedElements": [
+            {
+              "Name": "Fish",
+              "Values": [
+          {
+            "RequiredTags": "season_spring",
+            "Value": "PICK_ITEM Sunfish, Sardine, Flounder, Largemouth Bass, Halibut"
+          },
+          {
+            "RequiredTags": "season_summer",
+            "Value": "PICK_ITEM Rainbow Trout, Dorado, Tilapia, Tuna, Red Mullet"
+          },
+          {
+            "RequiredTags": "season_fall",
+            "Value": "PICK_ITEM Tiger Trout, Albacore, Midnight Carp, Salmon"
+          },
+          {
+            "RequiredTags": "season_winter",
+            "Value": "PICK_ITEM Squid, Perch, Lingcod"
+          }
+        ]
+      }
+    ],
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "Text": "{{i18n:blue704.JojaCC_Orders.FishOrder.collect.text}}",
+              "RequiredCount": "10",
+              "Data": {
+                "AcceptedContextTags": "{Fish:Tags}"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:blue704.JojaCC_Orders.FishOrder.ship.text}}",
+              "RequiredCount": "10",
+              "Data": {
+          "DropBox": "GusFridge",
+          "DropBoxGameLocation": "Saloon",
+          "DropBoxIndicatorLocation": "18 15",
+          "MinimumCapacity": "30",
+          "AcceptedContextTags": "{Fish:Tags}"
+        }
+      }
+    ],
+          "Rewards": [
+            {
+        "Type": "Money",
+        "Data": {
+          "Amount": "{Fish:Price}",
+          "Multiplier": "20"
+        }
+      }
+          ]
+        },
+        "blue704.JojaCC_Orders.Ingredients": {
+          "Name": "{{i18n:blue704.JojaCC_Orders.IngredientsOrder.name}}",
+          "Requester": "Gus",
+          "Duration": "Month",
+          "Repeatable": "True",
+          "RequiredTags": "!dropbox_GusFridge",
+          "OrderType": "Esca.EMP/blue704.JojaCC_Orders",
+          "Condition": "PLAYER_BASE_FARMING_LEVEL current 4",
+          "SpecialRule": "",
+          "Text": "{{i18n:blue704.JojaCC_Orders.IngredientsOrder.text}}",
+          "RandomizedElements": [
+            {
+              "Name": "Ingredients",
+              "Values": [
+          {
+            "Value": "PICK_ITEM Cheese, Goat Cheese, Mayonnaise"
+          }
+        ]
+      }
+    ],
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "Text": "{{i18n:blue704.JojaCC_Orders.IngredientsOrder.collect.text}}",
+              "RequiredCount": "25",
+              "Data": {
+                "AcceptedContextTags": "{Ingredients:Tags}"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:blue704.JojaCC_Orders.IngredientsOrder.ship.text}}",
+              "RequiredCount": "25",
+              "Data": {
+          "DropBox": "GusFridge",
+          "DropBoxGameLocation": "Saloon",
+          "DropBoxIndicatorLocation": "18 15",
+          "MinimumCapacity": "30",
+          "AcceptedContextTags": "{Ingredients:Tags}"
+        }
+      }
+    ],
+          "Rewards": [
+            {
+        "Type": "Money",
+        "Data": {
+          "Amount": "{Ingredients:Price}",
+          "Multiplier": "50"
+        }
+      }
+          ]
+        },
+        "blue704.JojaCC_Orders.WheatFlour": {
+          "Name": "{{i18n:blue704.JojaCC_Orders.IngredientsOrder.name}}",
+          "Requester": "Gus",
+          "Duration": "Month",
+          "Repeatable": "True",
+          "RequiredTags": "!dropbox_GusFridge, !season_spring, !season_winter",
+          "OrderType": "Esca.EMP/blue704.JojaCC_Orders",
+          "SpecialRule": "",
+          "Text": "{{i18n:blue704.JojaCC_Orders.WheatFlourOrder.text}}",
+          "RandomizedElements": [
+            {
+              "Name": "Ingredients",
+              "Values": [
+          {
+            "Value": "PICK_ITEM Wheat Flour"
+          }
+        ]
+      }
+    ],
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "Text": "{{i18n:blue704.JojaCC_Orders.WheatFlourOrder.collect.text}}",
+              "RequiredCount": "25",
+              "Data": {
+                "AcceptedContextTags": "{Ingredients:Tags}"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:blue704.JojaCC_Orders.WheatFlourOrder.ship.text}}",
+              "RequiredCount": "25",
+              "Data": {
+          "DropBox": "GusFridge",
+          "DropBoxGameLocation": "Saloon",
+          "DropBoxIndicatorLocation": "18 15",
+          "MinimumCapacity": "30",
+          "AcceptedContextTags": "{Ingredients:Tags}"
+        }
+      }
+    ],
+          "Rewards": [
+            {
+        "Type": "Money",
+        "Data": {
+          "Amount": "{Ingredients:Price}",
+          "Multiplier": "50"
+        }
+      }
+          ]
+        },
+        "blue704.JojaCC_Orders.Oil": {
+          "Name": "{{i18n:blue704.JojaCC_Orders.IngredientsOrder.name}}",
+          "Requester": "Gus",
+          "Duration": "Month",
+          "Repeatable": "True",
+          "RequiredTags": "!dropbox_GusFridge",
+          "OrderType": "Esca.EMP/blue704.JojaCC_Orders",
+          "Condition": "PLAYER_BASE_FARMING_LEVEL current 8",
+          "SpecialRule": "",
+          "Text": "{{i18n:blue704.JojaCC_Orders.OilOrder.text}}",
+          "RandomizedElements": [
+            {
+              "Name": "Ingredients",
+              "Values": [
+          {
+            "Value": "PICK_ITEM Oil"
+          }
+        ]
+      }
+    ],
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "Text": "{{i18n:blue704.JojaCC_Orders.OilOrder.collect.text}}",
+              "RequiredCount": "25",
+              "Data": {
+                "AcceptedContextTags": "{Ingredients:Tags}"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:blue704.JojaCC_Orders.OilOrder.ship.text}}",
+              "RequiredCount": "25",
+              "Data": {
+          "DropBox": "GusFridge",
+          "DropBoxGameLocation": "Saloon",
+          "DropBoxIndicatorLocation": "18 15",
+          "MinimumCapacity": "30",
+          "AcceptedContextTags": "{Ingredients:Tags}"
+        }
+      }
+    ],
+          "Rewards": [
+            {
+        "Type": "Money",
+        "Data": {
+          "Amount": "{Ingredients:Price}",
+          "Multiplier": "50"
+        }
+      }
+          ]
+        },
+        "blue704.JojaCC_Orders.Vinegar": {
+          "Name": "{{i18n:blue704.JojaCC_Orders.IngredientsOrder.name}}",
+          "Requester": "Gus",
+          "Duration": "Month",
+          "Repeatable": "True",
+          "RequiredTags": "!dropbox_GusFridge, season_spring",
+          "OrderType": "Esca.EMP/blue704.JojaCC_Orders",
+          "Condition": "PLAYER_BASE_FARMING_LEVEL current 8",
+          "SpecialRule": "",
+          "Text": "{{i18n:blue704.JojaCC_Orders.OilOrder.text}}",
+          "RandomizedElements": [
+            {
+              "Name": "Ingredients",
+              "Values": [
+          {
+            "Value": "PICK_ITEM Vinegar"
+          }
+        ]
+      }
+    ],
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "Text": "{{i18n:blue704.JojaCC_Orders.OilOrder.collect.text}}",
+              "RequiredCount": "25",
+              "Data": {
+                "AcceptedContextTags": "{Ingredients:Tags}"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:blue704.JojaCC_Orders.OilOrder.ship.text}}",
+              "RequiredCount": "25",
+              "Data": {
+          "DropBox": "GusFridge",
+          "DropBoxGameLocation": "Saloon",
+          "DropBoxIndicatorLocation": "18 15",
+          "MinimumCapacity": "30",
+          "AcceptedContextTags": "{Ingredients:Tags}"
+        }
+      }
+    ],
+          "Rewards": [
+            {
+        "Type": "Money",
+        "Data": {
+          "Amount": "{Ingredients:Price}",
+          "Multiplier": "50"
+        }
+      }
+          ]
+        },
+        "blue704.JojaCC_Orders.Sugar": {
+          "Name": "{{i18n:blue704.JojaCC_Orders.IngredientsOrder.name}}",
+          "Requester": "Gus",
+          "Duration": "Month",
+          "Repeatable": "True",
+          "RequiredTags": "!dropbox_GusFridge, season_fall",
+          "OrderType": "Esca.EMP/blue704.JojaCC_Orders",
+          "SpecialRule": "",
+          "Text": "{{i18n:blue704.JojaCC_Orders.WheatFlourOrder.text}}",
+          "RandomizedElements": [
+            {
+              "Name": "Ingredients",
+              "Values": [
+          {
+            "Value": "PICK_ITEM Sugar"
+          }
+        ]
+      }
+    ],
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "Text": "{{i18n:blue704.JojaCC_Orders.WheatFlourOrder.collect.text}}",
+              "RequiredCount": "25",
+              "Data": {
+                "AcceptedContextTags": "{Ingredients:Tags}"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:blue704.JojaCC_Orders.WheatFlourOrder.ship.text}}",
+              "RequiredCount": "25",
+              "Data": {
+          "DropBox": "GusFridge",
+          "DropBoxGameLocation": "Saloon",
+          "DropBoxIndicatorLocation": "18 15",
+          "MinimumCapacity": "30",
+          "AcceptedContextTags": "{Ingredients:Tags}"
+        }
+      }
+    ],
+          "Rewards": [
+            {
+        "Type": "Money",
+        "Data": {
+          "Amount": "{Ingredients:Price}",
+          "Multiplier": "50"
+        }
+      }
+          ]
+        },
+        "blue704.JojaCC_Orders.Eggs": {
+          "Name": "{{i18n:blue704.JojaCC_Orders.EggsOrder.name}}",
+          "Requester": "Gus",
+          "Duration": "TwoWeeks",
+          "Repeatable": "True",
+          "RequiredTags": "!dropbox_GusFridge",
+          "OrderType": "Esca.EMP/blue704.JojaCC_Orders",
+          "Condition": "PLAYER_HAS_MAIL any AnyCoopBuilt",
+          "SpecialRule": "",
+          "Text": "{{i18n:blue704.JojaCC_Orders.EggsOrder.text}}",
+          "RandomizedElements": [],
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "Text": "{{i18n:blue704.JojaCC_Orders.EggsOrder.collect.text}}",
+              "RequiredCount": "24",
+              "Data": {
+                "AcceptedContextTags": "egg_item"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:blue704.JojaCC_Orders.EggsOrder.ship.text}}",
+              "RequiredCount": "24",
+              "Data": {
+          "DropBox": "GusFridge",
+          "DropBoxGameLocation": "Saloon",
+          "DropBoxIndicatorLocation": "18 15",
+          "MinimumCapacity": "30",
+          "AcceptedContextTags": "egg_item"
+        }
+      }
+    ],
+          "Rewards": [
+            {
+        "Type": "Money",
+        "Data": {
+          "Amount": 5000
+        }
+      }
+          ]
+        },
+        "blue704.JojaCC_Orders.Milk": {
+          "Name": "{{i18n:blue704.JojaCC_Orders.MilkOrder.name}}",
+          "Requester": "Gus",
+          "Duration": "TwoWeeks",
+          "Repeatable": "True",
+          "RequiredTags": "!dropbox_GusFridge",
+          "OrderType": "Esca.EMP/blue704.JojaCC_Orders",
+          "Condition": "PLAYER_HAS_MAIL any AnyBarnBuilt",
+          "SpecialRule": "",
+          "Text": "{{i18n:blue704.JojaCC_Orders.MilkOrder.text}}",
+          "RandomizedElements": [],
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "Text": "{{i18n:blue704.JojaCC_Orders.MilkOrder.collect.text}}",
+              "RequiredCount": "25",
+              "Data": {
+                "AcceptedContextTags": "milk_item"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:blue704.JojaCC_Orders.MilkOrder.ship.text}}",
+              "RequiredCount": "25",
+              "Data": {
+          "DropBox": "GusFridge",
+          "DropBoxGameLocation": "Saloon",
+          "DropBoxIndicatorLocation": "18 15",
+          "MinimumCapacity": "30",
+          "AcceptedContextTags": "milk_item"
+        }
+      }
+    ],
+          "Rewards": [
+            {
+        "Type": "Money",
+        "Data": {
+          "Amount": 7500
+        }
+      }
+          ]
+        },
+        "blue704.JojaCC_Orders.Alcohol": {
+          "Name": "{{i18n:blue704.JojaCC_Orders.AlcoholOrder.name}}",
+          "Requester": "Gus",
+          "Duration": "Month",
+          "Repeatable": "True",
+          "RequiredTags": "!dropbox_GusFridge",
+          "OrderType": "Esca.EMP/blue704.JojaCC_Orders",
+          "Condition": "PLAYER_BASE_FARMING_LEVEL current 8",
+          "SpecialRule": "",
+          "Text": "{{i18n:blue704.JojaCC_Orders.AlcoholOrder.text}}",
+          "RandomizedElements": [
+            {
+              "Name": "Alcohol",
+              "Values": [
+          {
+            "Value": "PICK_ITEM Wine, Beer, Mead, Pale Ale"
+          }
+        ]
+      }
+    ],
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "Text": "{{i18n:blue704.JojaCC_Orders.AlcoholOrder.collect.text}}",
+              "RequiredCount": "25",
+              "Data": {
+                "AcceptedContextTags": "{Alcohol:Tags}"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:blue704.JojaCC_Orders.AlcoholOrder.ship.text}}",
+              "RequiredCount": "25",
+              "Data": {
+          "DropBox": "GusFridge",
+          "DropBoxGameLocation": "Saloon",
+          "DropBoxIndicatorLocation": "18 15",
+          "MinimumCapacity": "30",
+          "AcceptedContextTags": "{Alcohol:Tags}"
+        }
+      }
+    ],
+          "Rewards": [
+            {
+        "Type": "Money",
+        "Data": {
+          "Amount": "{Alcohol:Price}",
+          "Multiplier": "50"
+        }
+      }
+          ]
+        },
+        "blue704.JojaCC_Orders.Fruit": {
+          "Name": "{{i18n:blue704.JojaCC_Orders.FruitOrder.name}}",
+          "Requester": "Gus",
+          "Duration": "Month",
+          "Repeatable": "True",
+          "RequiredTags": "!season_winter, !dropbox_GusFridge",
+          "OrderType": "Esca.EMP/blue704.JojaCC_Orders",
+          "SpecialRule": "!dropbox_GusFridge",
+          "Text": "{{i18n:blue704.JojaCC_Orders.FruitOrder.text}}",
+          "RandomizedElements": [
+            {
+              "Name": "Fruit",
+              "Values": [
+          {
+            "RequiredTags": "season_spring",
+            "Value": "PICK_ITEM Apricot, Cherry"
+          },
+          {
+            "RequiredTags": "season_summer",
+            "Value": "PICK_ITEM Banana, Mango, Orange, Peach"
+          },
+          {
+            "RequiredTags": "season_fall",
+            "Value": "PICK_ITEM Apple, Pomegranate"
+          }
+        ]
+      }
+    ],
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "Text": "{{i18n:blue704.JojaCC_Orders.FruitOrder.collect.text}}",
+              "RequiredCount": "10",
+              "Data": {
+                "AcceptedContextTags": "{Fruit:Tags}"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:blue704.JojaCC_Orders.FruitOrder.ship.text}}",
+              "RequiredCount": "10",
+              "Data": {
+          "DropBox": "GusFridge",
+          "DropBoxGameLocation": "Saloon",
+          "DropBoxIndicatorLocation": "18 15",
+          "MinimumCapacity": "30",
+          "AcceptedContextTags": "{Fruit:Tags}"
+        }
+      }
+    ],
+          "Rewards": [
+            {
+        "Type": "Money",
+        "Data": {
+          "Amount": "{Fruit:Price}",
+          "Multiplier": "20"
+        }
+      }
+          ]
+        },
+        "blue704.JojaCC_Orders.Bait": {
+          "Name": "{{i18n:blue704.JojaCC_Orders.BaitOrder.name}}",
+          "Requester": "Willy",
+          "Duration": "ThreeDays",
+          "Repeatable": "True",
+          "RequiredTags": "!dropbox_JojaCCorders",
+          "OrderType": "Esca.EMP/blue704.JojaCC_Orders",
+          "Condition":"PLAYER_BASE_FISHING_LEVEL current 4",
+          "SpecialRule": "",
+          "Text": "{{i18n:blue704.JojaCC_Orders.BaitOrder.text}}",
+          "RandomizedElements": [
+            {
+              "Name": "Bait",
+              "Values": [
+          {
+            "Value": "PICK_ITEM Bait, Magnet, Wild Bait, Deluxe Bait"
+          }
+        ]
+      }
+    ],
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "Text": "{{i18n:blue704.JojaCC_Orders.BaitOrder.collect.text}}",
+              "RequiredCount": "25",
+              "Data": {
+                "AcceptedContextTags": "{Bait:Tags}"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:blue704.JojaCC_Orders.BaitOrder.ship.text}}",
+              "RequiredCount": "25",
+              "Data": {
+                "DropBox": "JojaCCorders",
+                "DropBoxGameLocation": "JojaCC",
+                "DropBoxIndicatorLocation": "47.5 12",
+                "MinimumCapacity": "24",
+    "AcceptedContextTags": "{Bait:Tags}"
+}
+      }
+    ],
+          "Rewards": [
+            {
+        "Type": "Money",
+        "Data": {
+          "Amount": "2500"
+        }
+      }
+          ]
+        },
+        "blue704.JojaCC_Orders.CopperBars": {
+          "Name": "{{i18n:blue704.JojaCC_Orders.ClintsBars.name}}",
+          "Requester": "Clint",
+          "Duration": "Week",
+          "Repeatable": "True",
+          "RequiredTags": "!dropbox_JojaCCorders",
+          "OrderType": "Esca.EMP/blue704.JojaCC_Orders",
+          "Condition": "MINE_LOWEST_LEVEL_REACHED 1, !PLAYER_SPECIAL_ORDER_ACTIVE current blue704.JojaCC_Orders.IronBars, !PLAYER_SPECIAL_ORDER_ACTIVE current blue704.JojaCC_Orders.GoldBars",
+          "SpecialRule": "",
+          "Text": "{{i18n:blue704.JojaCC_Orders.ClintsCopperBars.text}}",
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "Text": "{{i18n:blue704.JojaCC_Orders.ClintsCopperBars.collect.text}}",
+              "RequiredCount": "25",
+              "Data": {
+                "AcceptedContextTags": "color_copper, furnace_item, use_reverse_name_for_sorting"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:blue704.JojaCC_Orders.ClintsCopperBars.ship.text}}",
+              "RequiredCount": "25",
+              "Data": {
+                "DropBox": "JojaCCorders",
+                "DropBoxGameLocation": "JojaCC",
+                "DropBoxIndicatorLocation": "47.5 12",
+                "MinimumCapacity": "24",
+    "AcceptedContextTags": "color_copper, furnace_item, use_reverse_name_for_sorting"
+}
+      }
+    ],
+          "Rewards": [
+            {
+        "Type": "Money",
+        "Data": {
+          "Amount": 3000
+        }
+      }
+          ]
+        },
+         "blue704.JojaCC_Orders.IronBars": {
+          "Name": "{{i18n:blue704.JojaCC_Orders.ClintsBars.name}}",
+          "Requester": "Clint",
+          "Duration": "Week",
+          "Repeatable": "True",
+          "RequiredTags": "!dropbox_JojaCCorders",
+          "OrderType": "Esca.EMP/blue704.JojaCC_Orders",
+          "Condition": "MINE_LOWEST_LEVEL_REACHED 40, !PLAYER_SPECIAL_ORDER_ACTIVE current blue704.JojaCC_Orders.CopperBars, !PLAYER_SPECIAL_ORDER_ACTIVE current blue704.JojaCC_Orders.GoldBars",
+          "SpecialRule": "",
+          "Text": "{{i18n:blue704.JojaCC_Orders.ClintsIronBars.text}}",
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "Text": "{{i18n:blue704.JojaCC_Orders.ClintsIronBars.collect.text}}",
+              "RequiredCount": "25",
+              "Data": {
+                "AcceptedContextTags": "color_iron, furnace_item, use_reverse_name_for_sorting"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:blue704.JojaCC_Orders.ClintsIronBars.ship.text}}",
+              "RequiredCount": "25",
+              "Data": {
+                "DropBox": "JojaCCorders",
+                "DropBoxGameLocation": "JojaCC",
+                "DropBoxIndicatorLocation": "47.5 12",
+                "MinimumCapacity": "24",
+    "AcceptedContextTags": "color_iron, furnace_item, use_reverse_name_for_sorting"
+}
+      }
+    ],
+          "Rewards": [
+            {
+        "Type": "Money",
+        "Data": {
+          "Amount": 6000
+        }
+      }
+          ]
+        },
+        "blue704.JojaCC_Orders.GoldBars": {
+          "Name": "{{i18n:blue704.JojaCC_Orders.ClintsBars.name}}",
+          "Requester": "Clint",
+          "Duration": "Week",
+          "Repeatable": "True",
+          "RequiredTags": "!dropbox_JojaCCorders",
+          "OrderType": "Esca.EMP/blue704.JojaCC_Orders",
+          "Condition": "MINE_LOWEST_LEVEL_REACHED 80, !PLAYER_SPECIAL_ORDER_ACTIVE current blue704.JojaCC_Orders.IronBars, !PLAYER_SPECIAL_ORDER_ACTIVE current blue704.JojaCC_Orders.CopperBars",
+          "SpecialRule": "",
+          "Text":"{{i18n:blue704.JojaCC_Orders.ClintsGoldBars.text}}",
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "Text": "{{i18n:blue704.JojaCC_Orders.ClintsGoldBars.collect.text}}",
+              "RequiredCount": "25",
+              "Data": {
+                "AcceptedContextTags": "color_gold, furnace_item, use_reverse_name_for_sorting"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:blue704.JojaCC_Orders.ClintsGoldBars.ship.text}}",
+              "RequiredCount": "25",
+              "Data": {
+                "DropBox": "JojaCCorders",
+                "DropBoxGameLocation": "JojaCC",
+                "DropBoxIndicatorLocation": "47.5 12",
+                "MinimumCapacity": "24",
+    "AcceptedContextTags": "color_gold, furnace_item, use_reverse_name_for_sorting"
+}
+      }
+    ],
+          "Rewards": [
+            {
+        "Type": "Money",
+        "Data": {
+          "Amount": 10000
+        }
+      }
+          ]
+        },
+        "blue704.JojaCC_Orders.MaruOre": {
+          "Name": "{{i18n:blue704.JojaCC_Orders.MaruOre.name}}",
+          "Requester": "Maru",
+          "Duration": "Week",
+          "Repeatable": "True",
+          "RequiredTags": "!dropbox_JojaCCorders",
+          "OrderType": "Esca.EMP/blue704.JojaCC_Orders",
+          "Condition": "LOCATION_ACCESSIBLE Desert",
+          "SpecialRule": "",
+          "Text": "{{i18n:blue704.JojaCC_Orders.MaruOre.text}}",
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "Text": "{{i18n:blue704.JojaCC_Orders.MaruOre.collect.text}}",
+              "RequiredCount": "100",
+              "Data": {
+                "AcceptedContextTags": "color_iridium, ore_item, use_reverse_name_for_sorting"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:blue704.JojaCC_Orders.MaruOre.ship.text}}",
+              "RequiredCount": "100",
+              "Data": {
+                "DropBox": "JojaCCorders",
+                "DropBoxGameLocation": "JojaCC",
+                "DropBoxIndicatorLocation": "47.5 12",
+                "MinimumCapacity": "24",
+    "AcceptedContextTags": "color_iridium, ore_item, use_reverse_name_for_sorting"
+}
+      }
+    ],
+          "Rewards": [
+            {
+        "Type": "Money",
+        "Data": {
+          "Amount": 15000
+        }
+      }
+          ]
+        },
+        "blue704.JojaCC_Orders.EmilyCloth": {
+          "Name": "{{i18n:blue704.JojaCC_Orders.EmilyCloth.name}}",
+          "Requester": "Emily",
+          "Duration": "TwoWeeks",
+          "Repeatable": "True",
+          "RequiredTags": "!dropbox_JojaCCorders",
+          "OrderType": "Esca.EMP/blue704.JojaCC_Orders",
+          "Condition": "BUILDINGS_CONSTRUCTED All \"Deluxe Barn\"",
+          "SpecialRule": "",
+          "Text": "{{i18n:blue704.JojaCC_Orders.EmilyCloth.text}}",
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "Text": "{{i18n:blue704.JojaCC_Orders.EmilyCloth.collect.text}}",
+              "RequiredCount": "15",
+              "Data": {
+                "AcceptedContextTags": "cloth_item"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:blue704.JojaCC_Orders.EmilyCloth.ship.text}}",
+              "RequiredCount": "15",
+              "Data": {
+                "DropBox": "JojaCCorders",
+                "DropBoxGameLocation": "JojaCC",
+                "DropBoxIndicatorLocation": "47.5 12",
+                "MinimumCapacity": "24",
+    "AcceptedContextTags": "cloth_item"
+}
+      }
+    ],
+          "Rewards": [
+            {
+        "Type": "Money",
+        "Data": {
+          "Amount": 15000
+        }
+      }
+          ]
+        },
+        "blue704.JojaCC_Orders.DemetriusForage": {
+          "Name": "{{i18n:blue704.JojaCC_Orders.DemetriusForage.name}}",
+          "Requester": "Demetrius",
+          "Duration": "TwoWeeks",
+          "Repeatable": "True",
+          "RequiredTags": "!dropbox_JojaCCorders",
+          "OrderType": "Esca.EMP/blue704.JojaCC_Orders",
+          "SpecialRule": "",
+          "Text": "{{i18n:blue704.JojaCC_Orders.DemetriusForage.text}}",
+          "RandomizedElements": [
+            {
+              "Name": "Forage",
+              "Values": [
+          {
+            "RequiredTags": "season_spring",
+            "Value": "PICK_ITEM Leek, Wild Horseradish, Daffodil, Dandelion, Spring Onion"
+          },
+          {
+            "RequiredTags": "season_summer",
+            "Value": "PICK_ITEM Grape, Spice Berry, Sweet Pea"
+          },
+          {
+            "RequiredTags": "season_fall",
+            "Value": "PICK_ITEM Blackberry, Common Mushroom, Hazelnut, Wild Plum"
+          },
+          {
+            "RequiredTags": "season_winter",
+            "Value": "PICK_ITEM Crocus, Crystal Fruit, Holly, Snow Yam, Winter Root"
+          }
+        ]
+      }
+    ],
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "Text": "{{i18n:blue704.JojaCC_Orders.DemetriusForage.collect.text}}",
+              "RequiredCount": "5",
+              "Data": {
+                "AcceptedContextTags": "{Forage:Tags}"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:blue704.JojaCC_Orders.DemetriusForage.ship.text}}",
+              "RequiredCount": "5",
+              "Data": {
+                "DropBox": "JojaCCorders",
+                "DropBoxGameLocation": "JojaCC",
+                "DropBoxIndicatorLocation": "47.5 12",
+                "MinimumCapacity": "24",
+                "AcceptedContextTags": "{Forage:Tags}"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+        "Type": "Money",
+        "Data": {
+          "Amount": "{Forage:Price}",
+          "Multiplier": "20"
+        }
+      }
+          ]
+        },
+        "blue704.JojaCC_Orders.Minerals": {
+          "Name": "{{i18n:blue704.JojaCC_Orders.Minerals.name}}",
+          "Requester": "Gunther",
+          "Duration": "TwoWeeks",
+          "Repeatable": "True",
+          "RequiredTags": "!dropbox_JojaCCorders",
+          "OrderType": "Esca.EMP/blue704.JojaCC_Orders",
+          "Condition": "PLAYER_STAT current GeodesCracked 10",
+          "SpecialRule": "",
+          "Text": "{{i18n:blue704.JojaCC_Orders.Minerals.text}}",
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:blue704.JojaCC_Orders.Minerals.ship.text}}",
+              "RequiredCount": "10",
+              "Data": {
+                "DropBox": "JojaCCorders",
+                "DropBoxGameLocation": "JojaCC",
+                "DropBoxIndicatorLocation": "47.5 12",
+                "MinimumCapacity": "24",
+    "AcceptedContextTags": "category_minerals"
+}
+      }
+    ],
+          "Rewards": [
+            {
+        "Type": "Money",
+        "Data": {
+          "Amount": 5000
+        }
+      }
+          ]
+        },
+        "blue704.JojaCC_Orders.Gems": {
+          "Name": "{{i18n:blue704.JojaCC_Orders.Gems.name}}",
+          "Requester": "Gunther",
+          "Duration": "TwoWeeks",
+          "Repeatable": "True",
+          "RequiredTags": "!dropbox_JojaCCorders",
+          "OrderType": "Esca.EMP/blue704.JojaCC_Orders",
+          "Condition":"MINE_LOWEST_LEVEL_REACHED 40",
+          "SpecialRule": "",
+          "Text": "{{i18n:blue704.JojaCC_Orders.Gems.text}}",
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:blue704.JojaCC_Orders.Gems.ship.text}}",
+              "RequiredCount": "10",
+              "Data": {
+                "DropBox": "JojaCCorders",
+                "DropBoxGameLocation": "JojaCC",
+                "DropBoxIndicatorLocation": "47.5 12",
+                "MinimumCapacity": "24",
+    "AcceptedContextTags": "category_gem"
+}
+      }
+    ],
+          "Rewards": [
+            {
+        "Type": "Money",
+        "Data": {
+          "Amount": 5000
+        }
+      }
+          ]
+        },
+        "blue704.JojaCC_Orders.Bones": {
+          "Name": "{{i18n:blue704.JojaCC_Orders.Bones.name}}",
+          "Requester": "Gunther",
+          "Duration": "Month",
+          "Repeatable": "True",
+          "RequiredTags": "!dropbox_JojaCCorders",
+          "OrderType": "Esca.EMP/blue704.JojaCC_Orders",
+          "Condition":"MINE_LOWEST_LEVEL_REACHED 40",
+          "SpecialRule": "",
+          "Text": "{{i18n:blue704.JojaCC_Orders.Bones.text}}",
+          "RandomizedElements": null,
+          "Objectives": [
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:blue704.JojaCC_Orders.Bones.ship.text}}",
+              "RequiredCount": "10",
+              "Data": {
+                "DropBox": "JojaCCorders",
+                "DropBoxGameLocation": "JojaCC",
+                "DropBoxIndicatorLocation": "47.5 12",
+                "MinimumCapacity": "24",
+    "AcceptedContextTags": "prehistoric_item/fossil_item/bone_item"
+}
+      }
+    ],
+          "Rewards": [
+            {
+        "Type": "Money",
+        "Data": {
+          "Amount": 7500
+        }
+      }
+          ]
+        },
+        "blue704.JojaCC_Orders.StoreProducts": {
+          "Name": "{{i18n:blue704.JojaCC_Orders.StoreProducts.name}}",
+          "Requester": "Pierre",
+          "Duration": "TwoWeeks",
+          "Repeatable": "True",
+          "RequiredTags": "!dropbox_PierreBox",
+          "OrderType": "Esca.EMP/blue704.JojaCC_Orders",
+          "Condition": "PLAYER_BASE_FARMING_LEVEL current 4",
+          "SpecialRule": "",
+          "Text": "{{i18n:blue704.JojaCC_Orders.StoreProducts.text}}",
+          "RandomizedElements": [
+            {
+              "Name": "Goods",
+              "Values": [
+                {
+                  "Value": "PICK_ITEM Pickles, Jelly"
+                }
+              ]
+            }
+          ],
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "Text": "{{i18n:blue704.JojaCC_Orders.StoreProducts.collect.text}}",
+              "RequiredCount": "25",
+              "Data": {
+                "AcceptedContextTags": "{Goods:Tags}"
+              }
+            },
+            {
+        "Type": "Donate",
+        "Text": "{{i18n:blue704.JojaCC_Orders.StoreProducts.ship.text}}",
+        "RequiredCount": "25",
+        "Data": {
+          "DropBox": "PierreBox",
+          "DropBoxGameLocation": "SeedShop",
+          "DropBoxIndicatorLocation": "18.5 27",
+          "AcceptedContextTags": "{Goods:Tags}"
+        }
+      }
+    ],
+          "Rewards": [
+            {
+        "Type": "Money",
+        "Data": {
+          "Amount": "{Goods:Price}",
+          "Multiplier": "50"
+        }
+      }
+          ]
+        },
+        "blue704.JojaCC_Orders.MonsterParts": {
+          "Name": "{{i18n:blue704.JojaCC_Orders.MonsterParts.name}}",
+          "Requester": "Wizard",
+          "Duration": "TwoWeeks",
+          "Repeatable": "True",
+          "RequiredTags": "!dropbox_JojaCCorders",
+          "OrderType": "Esca.EMP/blue704.JojaCC_Orders",
+          "Condition": "MINE_LOWEST_LEVEL_REACHED 1, !PLAYER_SPECIAL_ORDER_ACTIVE current blue704.JojaCC_Orders.MonsterParts2, !PLAYER_SPECIAL_ORDER_ACTIVE current blue704.JojaCC_Orders.MonsterParts3",
+          "SpecialRule": "",
+          "Text": "{{i18n:blue704.JojaCC_Orders.MonsterParts.text}}",
+          "RandomizedElements": [
+            {
+              "Name": "Parts",
+              "Values": [
+                {
+                  "Value": "PICK_ITEM Slime, Bug Meat"
+                }
+              ]
+            }
+          ],
+          "Objectives": [
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:blue704.JojaCC_Orders.MonsterParts.ship.text}}",
+              "RequiredCount": "50",
+              "Data": {
+                "DropBox": "JojaCCorders",
+                "DropBoxGameLocation": "JojaCC",
+                "DropBoxIndicatorLocation": "47.5 12",
+                "MinimumCapacity": "24",
+    "AcceptedContextTags": "{Parts:Tags}"
+}
+      }
+    ],
+          "Rewards": [
+            {
+        "Type": "Money",
+        "Data": {
+          "Amount": 1000
+        }
+      }
+          ]
+        },
+        "blue704.JojaCC_Orders.MonsterParts2": {
+          "Name": "{{i18n:blue704.JojaCC_Orders.MonsterParts.name}}",
+          "Requester": "Wizard",
+          "Duration": "TwoWeeks",
+          "Repeatable": "True",
+          "RequiredTags": "!dropbox_JojaCCorders",
+          "OrderType": "Esca.EMP/blue704.JojaCC_Orders",
+          "Condition": "MINE_LOWEST_LEVEL_REACHED 40,!PLAYER_SPECIAL_ORDER_ACTIVE current blue704.JojaCC_Orders.MonsterParts, !PLAYER_SPECIAL_ORDER_ACTIVE current blue704.JojaCC_Orders.MonsterParts3",
+          "SpecialRule": "",
+          "Text": "{{i18n:blue704.JojaCC_Orders.MonsterParts1.text}}",
+          "RandomizedElements": [
+            {
+              "Name": "Parts",
+              "Values": [
+                {
+                  "Value": "PICK_ITEM Bat Wing, Bone Fragment"
+                }
+              ]
+            }
+          ],
+          "Objectives": [
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:blue704.JojaCC_Orders.MonsterParts1.ship.text}}",
+              "RequiredCount": "50",
+              "Data": {
+                "DropBox": "JojaCCorders",
+                "DropBoxGameLocation": "JojaCC",
+                "DropBoxIndicatorLocation": "47.5 12",
+                "MinimumCapacity": "24",
+    "AcceptedContextTags": "{Parts:Tags}"
+}
+      }
+    ],
+          "Rewards": [
+            {
+        "Type": "Money",
+        "Data": {
+          "Amount": 3000
+        }
+      }
+          ]
+        },
+        "blue704.JojaCC_Orders.MonsterParts3": {
+          "Name": "{{i18n:blue704.JojaCC_Orders.MonsterParts.name}}",
+          "Requester": "Wizard",
+          "Duration": "TwoWeeks",
+          "Repeatable": "True",
+          "RequiredTags": "!dropbox_JojaCCorders",
+          "OrderType": "Esca.EMP/blue704.JojaCC_Orders",
+          "Condition": "MINE_LOWEST_LEVEL_REACHED 80,!PLAYER_SPECIAL_ORDER_ACTIVE current blue704.JojaCC_Orders.MonsterParts2, !PLAYER_SPECIAL_ORDER_ACTIVE current blue704.JojaCC_Orders.MonsterParts",
+          "SpecialRule": "",
+          "Text": "{{i18n:blue704.JojaCC_Orders.MonsterParts1.text}}",
+          "RandomizedElements": [
+            {
+              "Name": "Parts",
+              "Values": [
+                {
+                  "Value": "PICK_ITEM Solar Essence, Void Essence"
+                }
+              ]
+            }
+          ],
+          "Objectives": [
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:blue704.JojaCC_Orders.MonsterParts1.ship.text}}",
+              "RequiredCount": "50",
+              "Data": {
+                "DropBox": "JojaCCorders",
+                "DropBoxGameLocation": "JojaCC",
+                "DropBoxIndicatorLocation": "47.5 12",
+                "MinimumCapacity": "24",
+    "AcceptedContextTags": "{Parts:Tags}"
+}
+      }
+    ],
+          "Rewards": [
+            {
+        "Type": "Money",
+        "Data": {
+          "Amount": 10000
+        }
+      }
+          ]
+        },
+        "blue704.JojaCC_Orders.Hay": {
+          "Name": "{{i18n:blue704.JojaCC_Orders.Hay.name}}",
+          "Requester": "Marnie",
+          "Duration": "Month",
+          "Repeatable": "True",
+          "RequiredTags": "!season_winter, !season_spring, !dropbox_JojaCCorders",
+          "OrderType": "Esca.EMP/blue704.JojaCC_Orders",
+          "Condition": "BUILDINGS_CONSTRUCTED All Silo",
+          "SpecialRule": "",
+          "Text": "{{i18n:blue704.JojaCC_Orders.Hay.text}}",
+          "RandomizedElements": [],
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "Text": "{{i18n:blue704.JojaCC_Orders.Hay.collect.text}}",
+              "RequiredCount": "250",
+              "Data": {
+                "AcceptedContextTags": "color_yellow, hay_item"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:blue704.JojaCC_Orders.Hay.ship.text}}",
+              "RequiredCount": "250",
+              "Data": {
+                "DropBox": "JojaCCorders",
+                "DropBoxGameLocation": "JojaCC",
+                "DropBoxIndicatorLocation": "47.5 12",
+                "MinimumCapacity": "24",
+    "AcceptedContextTags": "color_yellow, hay_item"
+}
+      }
+    ],
+          "Rewards": [
+            {
+        "Type": "Money",
+        "Data": {
+          "Amount": 10000
+        }
+      }
+          ]
+        },
+        //Community Center Complete
+        "blue704.JojaCC_Orders.JojaGoodsCCcomplete": {
+          "Name": "{{i18n:blue704.JojaCC_Orders.JojaGoods.name}}",
+          "Requester": "Morris",
+          "Duration": "TwoWeeks",
+          "Repeatable": "True",
+          "RequiredTags": "!season_winter, !dropbox_JojaCCorders",
+          "OrderType": "Esca.EMP/blue704.JojaCC_Orders",
+          "Condition": "IS_COMMUNITY_CENTER_COMPLETE",
+          "SpecialRule": "",
+          "Text": "{{i18n:blue704.JojaCC_Orders.JojaGoodsCCcomplete.text}}",
+          "RandomizedElements": [
+            {
+              "Name": "JojaGoods",
+              "Values": [
+          {
+            "Value": "PICK_ITEM Adam.Joja_Pickle, Adam.Joja_Jelly, Adam.Joja_AgedRoe, Adam.Joja_DriedFish"
+          }
+    ]
+}
+          ],
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "Text": "{{i18n:blue704.JojaCC_Orders.JojaGoods.collect.text}}",
+              "RequiredCount": "25",
+              "Data": {
+                "AcceptedContextTags": "{JojaGoods:Tags}"
+              }
+            },
+             {
+              "Type": "Donate",
+              "Text": "{{i18n:blue704.JojaCC_Orders.JojaGoodsCCcomplete.ship.text}}",
+              "RequiredCount": "25",
+              "Data": {
+                "DropBox": "JojaCCorders",
+                "DropBoxGameLocation": "JojaCC",
+                "DropBoxIndicatorLocation": "47.5 12",
+                "MinimumCapacity": "9",
+                "AcceptedContextTags": "{JojaGoods:Tags}"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+        "Type": "Money",
+        "Data": {
+          "Amount": "{JojaGoods:Price}",
+          "Multiplier": "50"
+        }
+      }
+          ]
+        },
+        "blue704.JojaCC_Orders.JojaAlcoholCCcomplete": {
+          "Name": "{{i18n:blue704.JojaCC_Orders.JojaAlcohol.name}}",
+          "Requester": "Morris",
+          "Duration": "TwoWeeks",
+          "Repeatable": "True",
+          "RequiredTags": "!season_winter, !dropbox_JojaCCorders",
+          "OrderType": "Esca.EMP/blue704.JojaCC_Orders",
+          "Condition": "IS_COMMUNITY_CENTER_COMPLETE",
+          "SpecialRule": "",
+          "Text": "{{i18n:blue704.JojaCC_Orders.JojaAlcoholCCcomplete.text}}",
+          "RandomizedElements": [
+            {
+              "Name": "JojaAlcohol",
+              "Values": [
+          {
+            "Value": "PICK_ITEM Adam.Joja_Wine, Adam.Joja_Beer, Adam.Joja_Mead, Adam.Joja_PaleAle"
+          }
+    ]
+}
+          ],
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "Text": "{{i18n:blue704.JojaCC_Orders.JojaAlcohol.collect.text}}",
+              "RequiredCount": "25",
+              "Data": {
+                "AcceptedContextTags": "{JojaAlcohol:Tags}"
+              }
+            },
+             {
+              "Type": "Donate",
+              "Text": "{{i18n:blue704.JojaCC_Orders.JojaAlcoholCCcomplete.ship.text}}",
+              "RequiredCount": "25",
+              "Data": {
+                "DropBox": "JojaCCorders",
+                "DropBoxGameLocation": "JojaCC",
+                "DropBoxIndicatorLocation": "47.5 12",
+                "MinimumCapacity": "9",
+                "AcceptedContextTags": "{JojaAlcohol:Tags}"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+        "Type": "Money",
+        "Data": {
+          "Amount": "{JojaAlcohol:Price}",
+          "Multiplier": "50"
+        }
+      }
+          ]
+        },
+        //Community Center NOT Complete
+        "blue704.JojaCC_Orders.JojaGoods": {
+          "Name": "{{i18n:blue704.JojaCC_Orders.JojaGoods.name}}",
+          "Requester": "Morris",
+          "Duration": "TwoWeeks",
+          "Repeatable": "True",
+          "RequiredTags": "!season_winter, !dropbox_JojaPROorder",
+          "OrderType": "Esca.EMP/blue704.JojaCC_Orders",
+          "Condition": "!IS_COMMUNITY_CENTER_COMPLETE",
+          "SpecialRule": "",
+          "Text": "{{i18n:blue704.JojaCC_Orders.JojaGoods.text}}",
+          "RandomizedElements": [
+            {
+              "Name": "JojaGoods",
+              "Values": [
+          {
+            "Value": "PICK_ITEM Adam.Joja_Pickle, Adam.Joja_Jelly, Adam.Joja_AgedRoe, Adam.Joja_DriedFish"
+          }
+    ]
+}
+          ],
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "Text": "{{i18n:blue704.JojaCC_Orders.JojaGoods.collect.text}}",
+              "RequiredCount": "25",
+              "Data": {
+                "AcceptedContextTags": "{JojaGoods:Tags}"
+              }
+            },
+             {
+              "Type": "Donate",
+              "Text": "{{i18n:blue704.JojaCC_Orders.JojaGoods.ship.text}}",
+              "RequiredCount": "25",
+              "Data": {
+                "DropBox": "JojaPROorder",
+                "DropBoxGameLocation": "JojaMart",
+                "DropBoxIndicatorLocation": "16.5 27",
+                "MinimumCapacity": "9",
+                "AcceptedContextTags": "{JojaGoods:Tags}"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+        "Type": "Money",
+        "Data": {
+          "Amount": "{JojaGoods:Price}",
+          "Multiplier": "50"
+        }
+      }
+          ]
+        },
+        "blue704.JojaCC_Orders.JojaAlcohol": {
+          "Name": "{{i18n:blue704.JojaCC_Orders.JojaAlcohol.name}}",
+          "Requester": "Morris",
+          "Duration": "TwoWeeks",
+          "Repeatable": "True",
+          "RequiredTags": "!season_winter, !dropbox_JojaPROorder",
+          "OrderType": "Esca.EMP/blue704.JojaCC_Orders",
+          "Condition": "!IS_COMMUNITY_CENTER_COMPLETE",
+          "SpecialRule": "",
+          "Text": "{{i18n:blue704.JojaCC_Orders.JojaAlcohol.text}}",
+          "RandomizedElements": [
+            {
+              "Name": "JojaAlcohol",
+              "Values": [
+          {
+            "Value": "PICK_ITEM Adam.Joja_Wine, Adam.Joja_Beer, Adam.Joja_Mead, Adam.Joja_PaleAle"
+          }
+    ]
+}
+          ],
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "Text": "{{i18n:blue704.JojaCC_Orders.JojaAlcohol.collect.text}}",
+              "RequiredCount": "25",
+              "Data": {
+                "AcceptedContextTags": "{JojaAlcohol:Tags}"
+              }
+            },
+             {
+              "Type": "Donate",
+              "Text": "{{i18n:blue704.JojaCC_Orders.JojaAlcohol.ship.text}}",
+              "RequiredCount": "25",
+              "Data": {
+                "DropBox": "JojaPROorder",
+                "DropBoxGameLocation": "JojaMart",
+                "DropBoxIndicatorLocation": "16.5 27",
+                "MinimumCapacity": "9",
+                "AcceptedContextTags": "{JojaAlcohol:Tags}"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+        "Type": "Money",
+        "Data": {
+          "Amount": "{JojaAlcohol:Price}",
+          "Multiplier": "50"
+        }
+      }
+          ]
+        }
+      }
+    }
+  ]
+}

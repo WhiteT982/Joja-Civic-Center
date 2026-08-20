@@ -1,0 +1,391 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "When": {
+        "HasFlag": "JojaCCOrderBoardBuilt"
+      },
+      "Entries": {
+        "blue704.JojaCC_Orders.AndyFertilizer": {
+          "Name": "{{i18n:blue704.JojaCC_Orders.AndyFertilizer.name}}",
+          "Requester": "Andy",
+          "Duration": "Week",
+          "Repeatable": "True",
+          "RequiredTags": "!dropbox_JojaCCorders",
+          "OrderType": "Esca.EMP/blue704.JojaCC_Orders",
+          "Condition": "PLAYER_BASE_FARMING_LEVEL current 5",
+          "SpecialRule": "",
+          "Text": "{{i18n:blue704.JojaCC_Orders.AndyFertilizer.text}}",
+          "RandomizedElements": [
+            {
+              "Name": "Fertilizer",
+              "Values": [
+          {
+            "Value": "PICK_ITEM Basic Fertilizer, Quality Fertilizer, Basic Retaining Soil, Quality Retaining Soil, Speed-Gro, Deluxe Speed-Gro"
+          }
+    ]
+}
+          ],
+          "Objectives": [
+             {
+              "Type": "Donate",
+              "Text": "{{i18n:blue704.JojaCC_Orders.AndyFertilizer.ship.text}}",
+              "RequiredCount": "50",
+              "Data": {
+                "DropBox": "JojaCCorders",
+                "DropBoxGameLocation": "JojaCC",
+                "DropBoxIndicatorLocation": "47.5 12",
+                "MinimumCapacity": "24",
+    "AcceptedContextTags": "{Fertilizer:Tags}"
+}
+      }
+    ],
+          "Rewards": [
+            {
+        "Type": "Money",
+        "Data": {
+          "Amount": "{Fertilizer:Price}",
+          "Multiplier": "150"
+        }
+      }
+          ]
+        },
+        "blue704.JojaCC_Orders.SophiaFruit": {
+          "Name": "{{i18n:blue704.JojaCC_Orders.SophiaFruit.name}}",
+          "Requester": "Sophia",
+          "Duration": "Month",
+          "Repeatable": "True",
+          "RequiredTags": "!season_Winter, !dropbox_JojaCCorders",
+          "OrderType": "Esca.EMP/blue704.JojaCC_Orders",
+          "SpecialRule": "",
+          "Text": "{{i18n:blue704.JojaCC_Orders.SophiaFruit.text}}",
+          "RandomizedElements": [
+            {
+              "Name": "Fruit",
+              "Values": [
+          {
+            "RequiredTags": "season_spring",
+            "Value": "PICK_ITEM Apricot, Cherry, FlashShifter.StardewValleyExpandedCP_Pear"
+          },
+          {
+            "RequiredTags": "season_summer",
+            "Value": "PICK_ITEM Banana, Mango, Orange, Peach, FlashShifter.StardewValleyExpandedCP_Nectarine"
+          },
+          {
+            "RequiredTags": "season_fall",
+            "Value": "PICK_ITEM Apple, Pomegranate, FlashShifter.StardewValleyExpandedCP_Persimmon"
+          }
+    ]
+}
+          ],
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "Text": "{{i18n:blue704.JojaCC_Orders.SophiaFruit.collect.text}}",
+              "RequiredCount": "10",
+              "Data": {
+                "AcceptedContextTags": "{Fruit:Tags}"
+              }
+            },
+             {
+              "Type": "Donate",
+              "Text": "{{i18n:blue704.JojaCC_Orders.SophiaFruit.ship.text}}",
+              "RequiredCount": "10",
+              "Data": {
+                "DropBox": "JojaCCorders",
+                "DropBoxGameLocation": "JojaCC",
+                "DropBoxIndicatorLocation": "47.5 12",
+                "MinimumCapacity": "24",
+    "AcceptedContextTags": "{Fruit:Tags}"
+}
+      }
+    ],
+          "Rewards": [
+            {
+        "Type": "Money",
+        "Data": {
+          "Amount": "{Fruit:Price}",
+          "Multiplier": "25"
+        }
+      }
+          ]
+        },
+        "blue704.JojaCC_Orders.SVECrops": {
+          "Name": "{{i18n:blue704.JojaCC_Orders.CropSpecialOrder.name}}",
+          "Requester": "Gus",
+          "Duration": "TwoWeeks",
+          "Repeatable": "True",
+          "RequiredTags": "!season_winter, !dropbox_GusFridge",
+          "OrderType": "Esca.EMP/blue704.JojaCC_Orders",
+          "SpecialRule": "",
+          "Text": "{{i18n:blue704.JojaCC_Orders.CropSpecialOrder.text}}",
+          "RandomizedElements": [
+            {
+              "Name": "Crops",
+              "Values": [
+          {
+            "RequiredTags": "season_spring",
+            "Value": "PICK_ITEM FlashShifter.StardewValleyExpandedCP_Cucumber, FlashShifter.StardewValleyExpandedCP_Gold_Carrot, FlashShifter.StardewValleyExpandedCP_Salal_Berry"
+          },
+          {
+            "RequiredTags": "season_summer",
+            "Value": "PICK_ITEM FlashShifter.StardewValleyExpandedCP_Butternut_Squash, FlashShifter.StardewValleyExpandedCP_Gold_Carrot, FlashShifter.StardewValleyExpandedCP_Salal_Berry"
+          },
+          {
+            "RequiredTags": "season_fall",
+            "Value": "PICK_ITEM FlashShifter.StardewValleyExpandedCP_Sweet_Potato, FlashShifter.StardewValleyExpandedCP_Gold_Carrot"
+          }
+        ]
+      }
+    ],
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "Text": "{{i18n:blue704.JojaCC_Orders.CropSpecialOrder.collect.text}}",
+              "RequiredCount": "25",
+              "Data": {
+                "AcceptedContextTags": "{Crops:Tags}"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:blue704.JojaCC_Orders.CropSpecialOrder.ship.text}}",
+              "RequiredCount": "25",
+              "Data": {
+          "DropBox": "GusFridge",
+          "DropBoxGameLocation": "Saloon",
+          "DropBoxIndicatorLocation": "18 15",
+          "MinimumCapacity": "30",
+          "AcceptedContextTags": "{Crops:Tags}"
+        }
+      }
+    ],
+          "Rewards": [
+            {
+        "Type": "Money",
+        "Data": {
+          "Amount": "{Crops:Price}",
+          "Multiplier": "50"
+        }
+      }
+          ]
+        },
+        "blue704.JojaCC_Orders.SVEFish": {
+          "Name": "{{i18n:blue704.JojaCC_Orders.FishOrder.name}}",
+          "Requester": "Gus",
+          "Duration": "TwoWeeks",
+          "Repeatable": "True",
+          "RequiredTags": "!dropbox_GusFridge",
+          "OrderType": "Esca.EMP/blue704.JojaCC_Orders",
+          "SpecialRule": "",
+          "Text": "{{i18n:blue704.JojaCC_Orders.FishOrder.text}}",
+          "RandomizedElements": [
+            {
+              "Name": "Fish",
+              "Values": [
+          {
+            "RequiredTags": "season_spring",
+            "Value": "PICK_ITEM FlashShifter.StardewValleyExpandedCP_Butterfish, FlashShifter.StardewValleyExpandedCP_King_Salmon, FlashShifter.StardewValleyExpandedCP_Puppyfish"
+          },
+          {
+            "RequiredTags": "season_summer",
+            "Value": "PICK_ITEM FlashShifter.StardewValleyExpandedCP_Butterfish, FlashShifter.StardewValleyExpandedCP_King_Salmon, FlashShifter.StardewValleyExpandedCP_Puppyfish"
+          },
+          {
+            "RequiredTags": "season_fall",
+            "Value": "PICK_ITEM FlashShifter.StardewValleyExpandedCP_Bull_Trout, FlashShifter.StardewValleyExpandedCP_Butterfish, FlashShifter.StardewValleyExpandedCP_Puppyfish, FlashShifter.StardewValleyExpandedCP_Gar"
+          },
+          {
+            "RequiredTags": "season_winter",
+            "Value": "PICK_ITEM FlashShifter.StardewValleyExpandedCP_Bull_Trout, FlashShifter.StardewValleyExpandedCP_Starfish"
+          }
+        ]
+      }
+    ],
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "Text": "{{i18n:blue704.JojaCC_Orders.FishOrder.collect.text}}",
+              "RequiredCount": "10",
+              "Data": {
+                "AcceptedContextTags": "{Fish:Tags}"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:blue704.JojaCC_Orders.FishOrder.ship.text}}",
+              "RequiredCount": "10",
+              "Data": {
+          "DropBox": "GusFridge",
+          "DropBoxGameLocation": "Saloon",
+          "DropBoxIndicatorLocation": "18 15",
+          "MinimumCapacity": "30",
+          "AcceptedContextTags": "{Fish:Tags}"
+        }
+      }
+    ],
+          "Rewards": [
+            {
+        "Type": "Money",
+        "Data": {
+          "Amount": "{Fish:Price}",
+          "Multiplier": "20"
+        }
+      }
+          ]
+        },
+        "blue704.JojaCC_Orders.SVEIngredients": {
+          "Name": "{{i18n:blue704.JojaCC_Orders.IngredientsOrder.name}}",
+          "Requester": "Gus",
+          "Duration": "Month",
+          "Repeatable": "True",
+          "RequiredTags": "!dropbox_GusFridge",
+          "OrderType": "Esca.EMP/blue704.JojaCC_Orders",
+          "Condition": "PLAYER_HAS_MAIL any AnyBarnBuilt",
+          "SpecialRule": "",
+          "Text": "{{i18n:blue704.JojaCC_Orders.ButterOrder.text}}",
+          "RandomizedElements": [
+            {
+              "Name": "Ingredients",
+              "Values": [
+          {
+            "Value": "PICK_ITEM FlashShifter.StardewValleyExpandedCP_Butter"
+          }
+        ]
+      }
+    ],
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "Text": "{{i18n:blue704.JojaCC_Orders.ButterOrder.collect.text}}",
+              "RequiredCount": "25",
+              "Data": {
+                "AcceptedContextTags": "{Ingredients:Tags}"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:blue704.JojaCC_Orders.ButterOrder.ship.text}}",
+              "RequiredCount": "25",
+              "Data": {
+          "DropBox": "GusFridge",
+          "DropBoxGameLocation": "Saloon",
+          "DropBoxIndicatorLocation": "18 15",
+          "MinimumCapacity": "30",
+          "AcceptedContextTags": "{Ingredients:Tags}"
+        }
+      }
+    ],
+          "Rewards": [
+            {
+        "Type": "Money",
+        "Data": {
+          "Amount": "{Ingredients:Price}",
+          "Multiplier": "50"
+        }
+      }
+          ]
+        },
+        "blue704.JojaCC_Orders.SVEDemetriusForage": {
+          "Name": "{{i18n:blue704.JojaCC_Orders.DemetriusForage.name}}",
+          "Requester": "Demetrius",
+          "Duration": "TwoWeeks",
+          "Repeatable": "True",
+          "RequiredTags": "!dropbox_JojaCCorders",
+          "OrderType": "Esca.EMP/blue704.JojaCC_Orders",
+          "SpecialRule": "",
+          "Text": "{{i18n:blue704.JojaCC_Orders.DemetriusForage.text}}",
+          "RandomizedElements": [
+            {
+              "Name": "Forage",
+              "Values": [
+          {
+            "RequiredTags": "season_spring",
+            "Value": "PICK_ITEM FlashShifter.StardewValleyExpandedCP_Lucky_Four_Leaf_Clover, FlashShifter.StardewValleyExpandedCP_Smelly_Rafflesia"
+          },
+          {
+            "RequiredTags": "season_summer",
+            "Value": "PICK_ITEM FlashShifter.StardewValleyExpandedCP_Poison_Mushroom, FlashShifter.StardewValleyExpandedCP_Red_Baneberry"
+          },
+          {
+            "RequiredTags": "season_fall",
+            "Value": "PICK_ITEM FlashShifter.StardewValleyExpandedCP_Mushroom_Colony, FlashShifter.StardewValleyExpandedCP_Poison_Mushroom"
+          },
+          {
+            "RequiredTags": "season_winter",
+            "Value": "PICK_ITEM FlashShifter.StardewValleyExpandedCP_Bearberrys"
+          }
+        ]
+      }
+    ],
+          "Objectives": [
+            {
+              "Type": "Collect",
+              "Text": "{{i18n:blue704.JojaCC_Orders.DemetriusForage.collect.text}}",
+              "RequiredCount": "5",
+              "Data": {
+                "AcceptedContextTags": "{Forage:Tags}"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:blue704.JojaCC_Orders.DemetriusForage.ship.text}}",
+              "RequiredCount": "5",
+              "Data": {
+                "DropBox": "JojaCCorders",
+                "DropBoxGameLocation": "JojaCC",
+                "DropBoxIndicatorLocation": "47.5 12",
+                "MinimumCapacity": "24",
+                "AcceptedContextTags": "{Forage:Tags}"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+        "Type": "Money",
+        "Data": {
+          "Amount": "{Forage:Price}",
+          "Multiplier": "20"
+        }
+      }
+          ]
+        },
+        "blue704.JojaCC_Orders.SVESusanKegs": {
+          "Name": "{{i18n:blue704.JojaCC_Orders.SusansKegs.name}}",
+          "Requester": "Susan",
+          "Duration": "TwoWeeks",
+          "Repeatable": "True",
+          "RequiredTags": "!dropbox_JojaCCorders",
+          "OrderType": "Esca.EMP/blue704.JojaCC_Orders",
+          "Condition": "PLAYER_HAS_SEEN_EVENT Any 1000077, PLAYER_BASE_FORAGING_LEVEL current 4",
+          "SpecialRule": "",
+          "Text": "{{i18n:blue704.JojaCC_Orders.SusansKegs.text}}",
+          "RandomizedElements": [],
+          "Objectives": [
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:blue704.JojaCC_Orders.SusansKegs.ship.text}}",
+              "RequiredCount": "20",
+              "Data": {
+                "DropBox": "JojaCCorders",
+                "DropBoxGameLocation": "JojaCC",
+                "DropBoxIndicatorLocation": "47.5 12",
+                "MinimumCapacity": "24",
+                "AcceptedContextTags": "color_green, syrup_item"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+        "Type": "Money",
+        "Data": {
+          "Amount": 7500
+        }
+      }
+          ]
+        }
+    }
+}
+  ]
+}
