@@ -10,9 +10,6 @@
       "Action": "EditData",
       "Target": "Data/WorldMap",
       "TargetField": ["Valley", "MapAreas"],
-      "When": {
-        "HasFlag": "jojaMember"
-      },
       "Entries": {
         "blue704.JojaCC_WorldMapTown":{
         "Id": "JojaCC",
