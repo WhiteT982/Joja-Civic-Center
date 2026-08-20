@@ -27,7 +27,30 @@
   "Changes": [
     {
       "Action": "Include",
-      "FromFile": "Data/Bundles/bundlebooks.json, Data/MapPatches/beachalternate.json, Data/MapPatches/beach.json, Data/MapPatches/shoppatches.json, Data/MapPatches/cellar.json, Data/MapPatches/JojaCC.json, Data/MapPatches/foragermap.json, Data/MapPatches/gingerisland.json, Data/MapPatches/clintscave.json, Data/strings.json, Data/schedules.json, Data/prizeticketmachine.json, Data/triggers.json, Data/mail.json, Data/minecart.json, Data/machines.json, Data/npcgifttastes.json, Data/events.json, Data/shop.json, Data/Objects/soup.json, Data/buildings.json, Data/Objects/treasurehunttag.json, Data/Objects/eventobjects.json, Data/Bundles/treasurehunt.json, assets/Maps/worldmap.json"
+      "FromFile": "Data/Bundles/bundlebooks.json, Data/MapPatches/beachalternate.json, Data/MapPatches/beach.json, Data/MapPatches/shoppatches.json, Data/MapPatches/cellar.json, Data/MapPatches/JojaCC.json, Data/MapPatches/foragermap.json, Data/MapPatches/gingerisland.json, Data/MapPatches/clintscave.json, Data/strings.json, Data/schedules.json, Data/prizeticketmachine.json, Data/triggers.json, Data/mail.json, Data/minecart.json, Data/machines.json, Data/npcgifttastes.json, Data/events.json, Data/shop.json, Data/Objects/soup.json, Data/buildings.json, Data/Objects/treasurehunttag.json, Data/Objects/eventobjects.json, Data/Bundles/treasurehunt.json, assets/Maps/worldmap.json, Data/Orders/contexttags.json, Data/Orders/shop.json, Data/Orders/specialorders.json"
+    },
+    //Order Board Includes
+    {
+      "When": {
+        "HasMod": "FlashShifter.StardewValleyExpandedCP"
+      },
+      "Action": "Include",
+      "FromFile": "Data/Orders/SVE.json"
+    },
+    {
+      "When": {
+        "HasMod": "Cornucopia.MoreCrops"
+      },
+      "Action": "Include",
+      "FromFile": "Data/Orders/Cornucopia.json"
+    },
+    {
+      "When": {
+        "HasMod": "Cornucopia.MoreCrops",
+        "HasFlag": "Cornucopia.MoreCrops_ExtendedCropsPackEnabled"
+      },
+      "Action": "Include",
+      "FromFile": "Data/Orders/CornucopiaExtended.json"
     },
     //Bundle Configs
     {
