@@ -14,6 +14,22 @@
       "Priority": "Medium"
     },
     {
+            "Action": "EditMap",
+            "Target": "Maps/Backwoods",
+            "MapTiles": [
+                {
+                    "Position": { "X": 39, "Y": 10 },
+                    "Layer": "Paths",
+                    "Remove": true
+                },
+                {
+                    "Position": { "X": 38, "Y": 10 },
+                    "Layer": "Paths",
+                    "Remove": true
+                }
+              ]
+              },
+    {
       "When": {
         "HasFlag": "JojaCC_ForagerBundleBookComplete"
       },
@@ -1147,15 +1163,15 @@
       "Target": "Maps/Backwoods",
       "FromFile": "assets/Maps/z_ForagerMapEntrance.tmx",
       "FromArea": {
-        "X": 29,
+        "X": 31,
         "Y": 0,
-        "Width": 11,
+        "Width": 14,
         "Height": 11
       },
       "ToArea": {
-        "X": 29,
+        "X": 31,
         "Y": 0,
-        "Width": 11,
+        "Width": 14,
         "Height": 11
       }
     },
