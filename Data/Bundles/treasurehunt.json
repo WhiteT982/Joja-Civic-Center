@@ -1328,7 +1328,7 @@
         }
     }
 },
-//TH Bundle 10
+//TH Bundle 10 no CC
 {
       "When": {
         "HasFlag": "SignChange10",
@@ -1350,7 +1350,8 @@
             "LogName": "Joja CC Treasure Hunt 10",
 			"Action": "EditData",
             "When": {
-        "HasFlag": "AddTHbundle10"
+        "HasFlag": "AddTHbundle10",
+                "IsCommunityCenterComplete": false
       },
 			"Target": "UnlockableBundles/Bundles",
 			"Entries": {
@@ -1392,6 +1393,77 @@
 		  "BundleIcon": "Treasure_Hunter",
 		  "BundleSlots": 1,
           "ShopPosition": "16, 8",
+		  "SpecialPlacementRequirements":  [
+  {
+     "Type": "BundleCompletion",
+    "BundleKey": "blue704.JojaCC_TreasureHuntBundle03"
+
+  }
+],
+		  "InstantShopRemoval": true,
+		  "ShopType": "CCBundle",
+          "Price": {
+			"(O)438": 1,
+      "(O)613": 1,
+      "(O)421": 1,
+      "(O)88": 1,
+      "(O)60": 1
+          },
+      "RandomPriceEntries": 1,
+		  "BundleReward": {
+						"(0)blue704.JojaCC_TreasureHuntTag": 1
+					}
+        }
+    }
+},
+//TH Bundle 10 CC complete
+    {
+      "LogName": "Joja CC Treasure Hunt 10",
+			"Action": "EditData",
+            "When": {
+        "HasFlag": "AddTHbundle10",
+        "IsCommunityCenterComplete": true
+      },
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
+                "blue704.JojaCC_TreasureHuntBundle04": {
+          "Location": "JojaCC",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle10}}",
+		  "BundleIcon": "Children",
+		  "BundleSlots": 1,
+          "ShopPosition": "30, 10",
+		  "SpecialPlacementRequirements":  [
+			{
+    "Type": "GameStateQuery",
+    "Condition": "PLAYER_HAS_MAIL any SetTHbundle04 received"
+  }
+		  ],
+		  "InstantShopRemoval": false,
+		  "ShopType": "CCBundle",
+		  "ShopTexture": "UnlockableBundles/ShopTextures/BundleIcons_Tai",
+			"ShopTextureSource": { "X": 64, "Y": 0, "Width": 16, "Height": 16 },
+			"ShopDrawDimensions": "64, 64",
+			"ShopDrawOffset": "0, 64",
+			"ShopAnimation": "0",
+          "Price": {
+			"(O)blue704.JojaCC_TreasureHuntTag": 1
+          },
+		  "BundleReward": {
+			"(O)859": 1,
+      "(O)520": 1,
+      "(O)527": 1
+					},
+          "RandomRewardEntries": 1,
+			"BundleCompletedActions": [
+  					"AddMail all TreasureHuntBundle04Complete received"
+					]
+				},
+                "blue704.JojaCC_TreasureHuntJojaMart": {
+          "Location": "AbandonedJojaMart",
+		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle10}}",
+		  "BundleIcon": "Treasure_Hunter",
+		  "BundleSlots": 1,
+          "ShopPosition": "12, 7",
 		  "SpecialPlacementRequirements":  [
   {
      "Type": "BundleCompletion",
@@ -2246,7 +2318,8 @@
 			"BundleCompletedActions": [
   					 "AddFriendshipPoints Jas 250",
   					 "AddFriendshipPoints Vincent 250",
-             "AddMail all TreasureHuntComplete received"
+             "AddMail all TreasureHuntComplete received",
+  					"spacechase0.SpaceCore_PlayEvent JojaCCTreasureHuntComplete true"
 					]
 				},
                 "blue704.JojaCC_TreasureHuntTown": {
@@ -2333,7 +2406,8 @@
 			"BundleCompletedActions": [
   					 "AddFriendshipPoints Jas 250",
   					 "AddFriendshipPoints Vincent 250",
-             "AddMail all TreasureHuntComplete received"
+             "AddMail all TreasureHuntComplete received",
+  					"spacechase0.SpaceCore_PlayEvent JojaCCTreasureHuntComplete true"
 					]
 				},
                 "blue704.JojaCC_TreasureHuntTown": {
@@ -2418,7 +2492,8 @@
 			"BundleCompletedActions": [
   					 "AddFriendshipPoints Jas 250",
   					 "AddFriendshipPoints Vincent 250",
-             "AddMail all TreasureHuntComplete received"
+             "AddMail all TreasureHuntComplete received",
+  					"spacechase0.SpaceCore_PlayEvent JojaCCTreasureHuntComplete true"
 					]
 				},
                 "blue704.JojaCC_TreasureHuntQuarry": {
@@ -2503,7 +2578,8 @@
 			"BundleCompletedActions": [
   					 "AddFriendshipPoints Jas 250",
   					 "AddFriendshipPoints Vincent 250",
-             "AddMail all TreasureHuntComplete received"
+             "AddMail all TreasureHuntComplete received",
+  					"spacechase0.SpaceCore_PlayEvent JojaCCTreasureHuntComplete true"
 					]
 				},
                 "blue704.JojaCC_TreasureHuntBotany": {
@@ -2588,7 +2664,8 @@
 			"BundleCompletedActions": [
   					 "AddFriendshipPoints Jas 250",
   					 "AddFriendshipPoints Vincent 250",
-             "AddMail all TreasureHuntComplete received"
+             "AddMail all TreasureHuntComplete received",
+  					"spacechase0.SpaceCore_PlayEvent JojaCCTreasureHuntComplete true"
 					]
 				},
                 "blue704.JojaCC_TreasureHuntHospital": {
@@ -2675,7 +2752,8 @@
 			"BundleCompletedActions": [
   					 "AddFriendshipPoints Jas 250",
   					 "AddFriendshipPoints Vincent 250",
-              "AddMail all TreasureHuntComplete received"
+              "AddMail all TreasureHuntComplete received",
+  					"spacechase0.SpaceCore_PlayEvent JojaCCTreasureHuntComplete true"
 					]
 				},
                 "blue704.JojaCC_TreasureHuntDesert": {
@@ -2760,9 +2838,10 @@
 			"(BC)254": 1
 					},
 			"BundleCompletedActions": [
-  					 "AddFriendshipPoints Jas 250",
-  					 "AddFriendshipPoints Vincent 250",
-              "AddMail all TreasureHuntComplete received"
+  					"AddFriendshipPoints Jas 250",
+  					"AddFriendshipPoints Vincent 250",
+            "AddMail all TreasureHuntComplete received",
+  					"spacechase0.SpaceCore_PlayEvent JojaCCTreasureHuntComplete true"
 					]
 				},
                 "blue704.JojaCC_TreasureHuntDesert": {
