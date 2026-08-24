@@ -1155,9 +1155,11 @@
   }
         }
       },
+      //Default Entrance
       {
       "When": {
-        "HasFlag": "JojaCC_ForagerBundleBookComplete"
+        "HasFlag": "JojaCC_ForagerBundleBookComplete",
+        "Alternate Leah's Woods Entrance": "false"
       },
       "Action": "EditMap",
       "Target": "Maps/Backwoods",
@@ -1175,6 +1177,153 @@
         "Height": 11
       }
     },
+    {
+          "When": {
+        "Alternate Leah's Woods Entrance": "false"
+      },
+            "Action": "EditMap",
+            "Target": "Maps/ForagerMap",
+            "MapTiles": [
+                {
+                    "Position": { "X": 120, "Y": 36 },
+                    "Layer": "Back",
+                    "SetProperties": null
+                },
+                {
+                    "Position": { "X": 121, "Y": 36 },
+                    "Layer": "Back",
+                    "SetProperties": null
+                },
+                {
+                    "Position": { "X": 122, "Y": 36 },
+                    "Layer": "Back",
+                    "SetProperties": null
+                },
+                {
+                    "Position": { "X": 123, "Y": 36 },
+                    "Layer": "Back",
+                    "SetProperties": null
+                },
+                {
+                    "Position": { "X": 120, "Y": 36 },
+                    "Layer": "Back",
+                    "SetProperties": {
+                      "TouchAction": "Warp Backwoods 39 6"
+                    }
+                },
+                {
+                    "Position": { "X": 121, "Y": 36 },
+                    "Layer": "Back",
+                    "SetProperties": {
+                      "TouchAction": "Warp Backwoods 39 6"
+                    }
+                },
+                {
+                    "Position": { "X": 122, "Y": 36 },
+                    "Layer": "Back",
+                    "SetProperties": {
+                      "TouchAction": "Warp Backwoods 39 6"
+                    }
+                },
+                {
+                    "Position": { "X": 123, "Y": 36 },
+                    "Layer": "Back",
+                    "SetProperties": {
+                      "TouchAction": "Warp Backwoods 39 6"
+                    }
+                }
+              ]
+            },
+    //Alternate Entrance
+      {
+      "When": {
+        "HasFlag": "JojaCC_ForagerBundleBookComplete",
+        "Alternate Leah's Woods Entrance": "true"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/Backwoods",
+      "FromFile": "assets/Maps/z_ForagerMapEntrance.tmx",
+      "FromArea": {
+        "X": 22,
+        "Y": 0,
+        "Width": 7,
+        "Height": 10
+      },
+      "ToArea": {
+        "X": 22,
+        "Y": 0,
+        "Width": 7,
+        "Height": 10
+      }
+    },
+    {
+          "When": {
+        "Alternate Leah's Woods Entrance": "true"
+      },
+            "Action": "EditMap",
+            "Target": "Maps/ForagerMap",
+            "MapTiles": [
+                {
+                    "Position": { "X": 120, "Y": 36 },
+                    "Layer": "Back",
+                    "SetProperties": null
+                },
+                {
+                    "Position": { "X": 121, "Y": 36 },
+                    "Layer": "Back",
+                    "SetProperties": null
+                },
+                {
+                    "Position": { "X": 122, "Y": 36 },
+                    "Layer": "Back",
+                    "SetProperties": null
+                },
+                {
+                    "Position": { "X": 123, "Y": 36 },
+                    "Layer": "Back",
+                    "SetProperties": null
+                },
+                {
+                    "Position": { "X": 120, "Y": 36 },
+                    "Layer": "Back",
+                    "SetProperties": {
+                      "TouchAction": "Warp Backwoods 25 5"
+                    }
+                },
+                {
+                    "Position": { "X": 121, "Y": 36 },
+                    "Layer": "Back",
+                    "SetProperties": {
+                      "TouchAction": "Warp Backwoods 25 5"
+                    }
+                },
+                {
+                    "Position": { "X": 122, "Y": 36 },
+                    "Layer": "Back",
+                    "SetProperties": {
+                      "TouchAction": "Warp Backwoods 25 5"
+                    }
+                },
+                {
+                    "Position": { "X": 123, "Y": 36 },
+                    "Layer": "Back",
+                    "SetProperties": {
+                      "TouchAction": "Warp Backwoods 25 5"
+                    }
+                }
+              ]
+            },
+      {
+            "Action": "EditMap",
+            "Target": "Maps/Backwoods",
+            "MapTiles": [
+                {
+                    "Position": { "X": 26, "Y": 8 },
+                    "Layer": "Paths",
+                    "Remove": true
+                }
+            ]
+        },
     //Dwarf Clears Stones
     {
           "When": {

@@ -512,12 +512,17 @@
 "config.Enable More Difficult Bundles.name": "Enable More Difficult Bundles",
 "config.Enable Cornucopia Bundles.name": "Enable Cornucopia Bundles",
 "config.Enable Cornucopia Bundles.description": "Must have Cornucopia-More Crops Extended enabled.",
-"config.Enable.name": "Enable",
-"config.Enable.description": "Places Willy's Fish Farm in a new location for compatibility reasons. Avoid changing this value after the fish farm is built. It will not break your game, but there will be a few minor errors. Select false to place fish farm in vanilla tide pool location. Select true to place fish farm in a new area to the East of the vanilla tide pools.",
+"config.Alternate Fish Farm Location.name": "Alternate Fish Farm Location",
+"config.Alternate Fish Farm Location.values.Default": "Default",
+"config.Alternate Fish Farm Location.values.Alternate 1": "Alternate 1",
+"config.Alternate Fish Farm Location.values.Alternate 2": "Alternate 2",
+"config.Alternate Fish Farm Location.description": "Places Willy's Fish Farm in a new location for compatibility reasons. Avoid changing this value after the fish farm is built. It will not break your game, but there will be a few minor errors. Select Default to place fish farm in vanilla tide pool location. Select either Alternate to place fish farm in a new area to the East of the vanilla tide pools.",
+"config.Alternate Leah's Woods Entrance.name": "Alternate Leah's Woods Entrance",
+"config.Alternate Leah's Woods Entrance.description": "Moves Leah's Woods entrance to the left side of the Backwoods.",
 "config.section.Bundle Base.name": "Bundle Base",
 "config.section.Bundle Base.description": "Choose which expansion you would like to be featured in the bundles or SVE+RSV+ES for a mega modded playthrough! ",
 "config.section.Bundle Addons.name": "Bundle Addons",
 "config.section.Bundle Addons.description": "",
-"config.section.Alternate Fish Farm Location.name": "Alternate Fish Farm Location",
-"config.section.Alternate Fish Farm Location.description": ""
+"config.section.Alternate Locations/Entrances.name": "Alternate Locations/Entrances",
+"config.section.Alternate Locations/Entrances.description": "If another mod is interfering with a location, try selecting these options to true for an alternate."
 }

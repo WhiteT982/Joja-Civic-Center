@@ -17,11 +17,17 @@
       "Section": "Bundle Addons",
       "Description": "Must have Cornucopia-More Crops Extended enabled."
     },
-    "Enable": {
+    "Alternate Fish Farm Location": {
+      "AllowValues": "Default, Alternate 1, Alternate 2",
+      "Default": "Default",
+      "Section": "Alternate Locations/Entrances",
+      "Description": "Places Willy's Fish Farm in a new location for compatibility reasons. Avoid changing this value after the fish farm is built. It will not break your game, but there will be a few minor errors. Select Default to place fish farm in vanilla tide pool location. Select either Alternate to place fish farm in a new area to the East of the vanilla tide pools."
+    },
+    "Alternate Leah's Woods Entrance": {
       "AllowValues": "true, false",
       "Default": "false",
-      "Section": "Alternate Fish Farm Location",
-      "Description": "Places Willy's Fish Farm in a new location for compatibility reasons. Avoid changing this value after the fish farm is built. It will not break your game, but there will be a few minor errors. Select false to place fish farm in vanilla tide pool location. Select true to place fish farm in a new area to the East of the vanilla tide pools."
+      "Section": "Alternate Locations/Entrances",
+      "Description": "Moves Leah's Woods entrance to the left side of the Backwoods."
     }
   },
   "Changes": [
