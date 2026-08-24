@@ -107,7 +107,7 @@
       "FromFile": "Data/MapPatches/beach.json",
       "Update": "OnLocationChange",
       "When": {
-        "Enable": "false"
+        "Alternate Fish Farm Location": "Default"
       }
     },
     {
@@ -115,7 +115,15 @@
       "FromFile": "Data/MapPatches/beachalternate.json",
       "Update": "OnLocationChange",
       "When": {
-        "Enable": "true"
+        "Alternate Fish Farm Location": "Alternate 1"
+      }
+    },
+    {
+      "Action": "Include",
+      "FromFile": "Data/MapPatches/beachalternate.json",
+      "Update": "OnLocationChange",
+      "When": {
+        "Alternate Fish Farm Location": "Alternate 2"
       }
     },
     //TH Bundle Randomization

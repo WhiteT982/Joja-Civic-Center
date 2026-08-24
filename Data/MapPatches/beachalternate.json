@@ -4,7 +4,7 @@
     {
       "When": {
         "HasFlag": "FishFarmLocationAdded",
-        "Enable": "true"
+        "Alternate Fish Farm Location": "Alternate 1"
       },
       "Action": "EditMap",
       "Target": "Maps/Beach",
@@ -22,6 +22,117 @@
         "Height": 7
       }
     },
+    {
+          "When": {
+        "Alternate Fish Farm Location": "Alternate 1"
+      },
+            "Action": "EditMap",
+            "Target": "Maps/BeachAlternate",
+            "MapTiles": [
+                {
+                    "Position": { "X": 1, "Y": 12 },
+                    "Layer": "Back",
+                    "SetProperties": null
+                },
+                {
+                    "Position": { "X": 1, "Y": 13 },
+                    "Layer": "Back",
+                    "SetProperties": null
+                },
+                {
+                    "Position": { "X": 1, "Y": 14 },
+                    "Layer": "Back",
+                    "SetProperties": null
+                },
+                {
+                    "Position": { "X": 1, "Y": 12 },
+                    "Layer": "Back",
+                    "SetProperties": {
+                      "TouchAction": "Warp Beach 100 6"
+                    }
+                },
+                {
+                    "Position": { "X": 1, "Y": 13 },
+                    "Layer": "Back",
+                    "SetProperties": {
+                      "TouchAction": "Warp Beach 100 6"
+                    }
+                },
+                {
+                    "Position": { "X": 1, "Y": 14 },
+                    "Layer": "Back",
+                    "SetProperties": {
+                      "TouchAction": "Warp Beach 100 6"
+                    }
+                }
+              ]
+            },
+    {
+      "When": {
+        "HasFlag": "FishFarmLocationAdded",
+        "Alternate Fish Farm Location": "Alternate 2"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/Beach",
+      "FromFile": "assets/Maps/z_beachpier.tmx",
+      "FromArea": {
+        "X": 92,
+        "Y": 17,
+        "Width": 12,
+        "Height": 7
+      },
+      "ToArea": {
+        "X": 92,
+        "Y": 17,
+        "Width": 12,
+        "Height": 7
+      }
+    },
+    {
+          "When": {
+        "Alternate Fish Farm Location": "Alternate 2"
+      },
+            "Action": "EditMap",
+            "Target": "Maps/BeachAlternate",
+            "MapTiles": [
+                {
+                    "Position": { "X": 1, "Y": 12 },
+                    "Layer": "Back",
+                    "SetProperties": null
+                },
+                {
+                    "Position": { "X": 1, "Y": 13 },
+                    "Layer": "Back",
+                    "SetProperties": null
+                },
+                {
+                    "Position": { "X": 1, "Y": 14 },
+                    "Layer": "Back",
+                    "SetProperties": null
+                },
+                {
+                    "Position": { "X": 1, "Y": 12 },
+                    "Layer": "Back",
+                    "SetProperties": {
+                      "TouchAction": "Warp Beach 100 21"
+                    }
+                },
+                {
+                    "Position": { "X": 1, "Y": 13 },
+                    "Layer": "Back",
+                    "SetProperties": {
+                      "TouchAction": "Warp Beach 100 21"
+                    }
+                },
+                {
+                    "Position": { "X": 1, "Y": 14 },
+                    "Layer": "Back",
+                    "SetProperties": {
+                      "TouchAction": "Warp Beach 100 21"
+                    }
+                }
+              ]
+            },
     {
       "Action": "Load",
       "Target": "Maps/BeachAlternate",
@@ -1478,31 +1589,59 @@
 }
     },
     {
-    "Action": "EditMap",
-            "Target": "Maps/Beach",
-            "MapTiles": [
-                {
-                    "Position": { "X": 101, "Y": 6 },
-                    "Layer": "Back",
-                    "SetProperties": {
-                        "TouchAction": "Warp BeachAlternate 2 13"
-                    }
-                },
-                {
-                    "Position": { "X": 101, "Y": 7 },
-                    "Layer": "Back",
-                    "SetProperties": {
-                        "TouchAction": "Warp BeachAlternate 2 13"
-                    }
-                }
-              ]
-            },
+			"Action": "EditData",
+			"Target": "MindMeltMax.MapBuildings/Buildings",
+      "When": {
+        "HasFlag": "FishFarmBuildingsAdded",
+        "Alternate Fish Farm Location": "Alternate 1"
+      },
+			"Entries": {
+				"blue704.JojaCC_BeachAlternate": [
+					{
+						"Location": "BeachAlternate",
+						"X": 11,
+						"Y": 5,
+						"Building": "Shed"
+        },
+          {
+						"Location": "BeachAlternate",
+						"X": 9,
+						"Y": 7,
+						"Building": "Shipping Bin"
+					},
+                    {
+						"Location": "BeachAlternate",
+						"X": 16,
+						"Y": 9,
+						"Building": "Fish Pond"
+					},
+                    {
+						"Location": "BeachAlternate",
+						"X": 9,
+						"Y": 16,
+						"Building": "Fish Pond"
+					},
+                    {
+						"Location": "BeachAlternate",
+						"X": 16,
+						"Y": 16,
+						"Building": "Fish Pond"
+					},
+                    {
+						"Location": "BeachAlternate",
+						"X": 23,
+						"Y": 9,
+						"Building": "Fish Pond"
+					}
+				]
+			}
+		},
     {
 			"Action": "EditData",
 			"Target": "MindMeltMax.MapBuildings/Buildings",
       "When": {
         "HasFlag": "FishFarmBuildingsAdded",
-        "Enable": "true"
+        "Alternate Fish Farm Location": "Alternate 2"
       },
 			"Entries": {
 				"blue704.JojaCC_BeachAlternate": [

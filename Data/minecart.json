@@ -18,7 +18,7 @@
         {
             "Action": "EditData",
             "When": {
-                "Enable": "false"
+                "Alternate Fish Farm Location": "Default"
                     },
             "Target": "Data/Minecarts",
             "TargetField": [ "Default", "Destinations" ],
@@ -36,7 +36,25 @@
         {
             "Action": "EditData",
             "When": {
-                "Enable": "true"
+                "Alternate Fish Farm Location": "Alternate 1"
+                    },
+            "Target": "Data/Minecarts",
+            "TargetField": [ "Default", "Destinations" ],
+            "Entries": {
+                "WillysFishFarm": {
+                    "Id": "WillysFishFarm",
+                    "DisplayName": "{{i18n:blue704.JojaCC_WillysFishFarm}}",
+                    "Condition": "PLAYER_HAS_SEEN_EVENT any FisherBundleAreaComplete",
+                    "TargetLocation": "BeachAlternate",
+                    "TargetTile": { "X": 8, "Y": 7 },
+                    "TargetDirection": "down"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "When": {
+                "Alternate Fish Farm Location": "Alternate 2"
                     },
             "Target": "Data/Minecarts",
             "TargetField": [ "Default", "Destinations" ],

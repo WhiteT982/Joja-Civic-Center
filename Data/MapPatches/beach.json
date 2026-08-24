@@ -4,7 +4,7 @@
     {
       "When": {
         "HasFlag": "FishFarmLocationAdded",
-        "Enable": "false"
+        "Alternate Fish Farm Location": "Default"
       },
       "Action": "EditMap",
       "Target": "Maps/Beach",
@@ -60,7 +60,7 @@
     {
         "When": {
             "HasFlag": "FishFarmBuildingsAdded",
-            "Enable": "false"
+            "Alternate Fish Farm Location": "Default"
         },
 			"Action": "EditData",
 			"Target": "MindMeltMax.MapBuildings/Buildings",
@@ -110,7 +110,7 @@
     {
       "When": {
         "HasFlag": "FishFarmBuildingsAdded",
-            "Enable": "false"
+            "Alternate Fish Farm Location": "Default"
       },
       "Action": "EditMap",
       "Target": "Maps/Beach-Jellies",
@@ -131,7 +131,7 @@
     {
       "When": {
         "HasFlag": "FishFarmBuildingsAdded",
-            "Enable": "false"
+            "Alternate Fish Farm Location": "Default"
       },
       "Action": "EditMap",
       "Target": "Maps/Beach-Luau",
@@ -152,7 +152,7 @@
     {
       "When": {
         "HasFlag": "FishFarmBuildingsAdded",
-            "Enable": "false"
+            "Alternate Fish Farm Location": "Default"
       },
       "Action": "EditMap",
       "Target": "Maps/Beach-Luau2",
@@ -173,7 +173,7 @@
     {
       "When": {
         "HasFlag": "FishFarmBuildingsAdded",
-            "Enable": "false"
+            "Alternate Fish Farm Location": "Default"
       },
       "Action": "EditMap",
       "Target": "Maps/Beach-NightMarket",
@@ -194,7 +194,7 @@
     {
       "When": {
         "HasFlag": "FishFarmBuildingsAdded",
-            "Enable": "false"
+            "Alternate Fish Farm Location": "Default"
       },
       "Action": "Load",
       "Target": "Maps/Beach-Jellies2",

@@ -695,7 +695,7 @@
         {
             "Action": "EditData",
             "When": {
-              "Enable": "false"
+              "Alternate Fish Farm Location": "Default"
             },
       "Target": "Data/TriggerActions",
       "Entries": {
@@ -713,7 +713,25 @@
     {
             "Action": "EditData",
             "When": {
-              "Enable": "true"
+              "Alternate Fish Farm Location": "Alternate 1"
+            },
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "BuildAlternateFishFarm": {
+          "Id": "BuildAlternateFishFarm",
+          "Trigger": "LocationChanged",
+          "MarkActionApplied": false,
+          "Actions": [
+            "AddMail all CanBuildTrue received",
+            "RemoveMail all CanBuildFalse all"
+          ]
+        }
+      }
+    },
+    {
+            "Action": "EditData",
+            "When": {
+              "Alternate Fish Farm Location": "Alternate 2"
             },
       "Target": "Data/TriggerActions",
       "Entries": {
