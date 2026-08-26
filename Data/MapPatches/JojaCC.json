@@ -1486,7 +1486,7 @@
         "Height": 1
       }
     },
-    //Town Map Edit
+    //Default CC Map Edit
     {
       "Action": "EditMap",
       "Target": "Maps/Town",
@@ -1565,6 +1565,14 @@
         "Width": 2,
         "Height": 2
       }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/JojaCC",
+            "AddWarps": [
+                "32 23 Town 39 35",
+                "33 23 Town 40 35"
+            ]
         },
       {
             "Action": "EditMap",

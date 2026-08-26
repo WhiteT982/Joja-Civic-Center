@@ -6,6 +6,7 @@
       "Target": "LooseSprites/blue704.JojaCC",
       "FromFile": "assets/Maps/JojaCCworldmap.png"
     },
+    //Default CC
     {
       "Action": "EditData",
       "Target": "Data/WorldMap",
