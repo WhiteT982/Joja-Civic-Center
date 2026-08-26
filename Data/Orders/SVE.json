@@ -48,6 +48,13 @@
           "Amount": "{Fertilizer:Price}",
           "Multiplier": "150"
         }
+      },
+      {
+        "Type": "Object",
+        "Data": {
+          "Item": "PrizeTicket",
+          "Amount": "1"
+        }
       }
           ]
         },
@@ -108,6 +115,13 @@
           "Amount": "{Fruit:Price}",
           "Multiplier": "25"
         }
+      },
+      {
+        "Type": "Object",
+        "Data": {
+          "Item": "PrizeTicket",
+          "Amount": "1"
+        }
       }
           ]
         },
@@ -167,6 +181,13 @@
         "Data": {
           "Amount": "{Crops:Price}",
           "Multiplier": "50"
+        }
+      },
+      {
+        "Type": "Object",
+        "Data": {
+          "Item": "PrizeTicket",
+          "Amount": "1"
         }
       }
           ]
@@ -232,6 +253,13 @@
           "Amount": "{Fish:Price}",
           "Multiplier": "20"
         }
+      },
+      {
+        "Type": "Object",
+        "Data": {
+          "Item": "PrizeTicket",
+          "Amount": "1"
+        }
       }
           ]
         },
@@ -283,6 +311,13 @@
         "Data": {
           "Amount": "{Ingredients:Price}",
           "Multiplier": "50"
+        }
+      },
+      {
+        "Type": "Object",
+        "Data": {
+          "Item": "PrizeTicket",
+          "Amount": "1"
         }
       }
           ]
@@ -348,6 +383,13 @@
           "Amount": "{Forage:Price}",
           "Multiplier": "20"
         }
+      },
+      {
+        "Type": "Object",
+        "Data": {
+          "Item": "PrizeTicket",
+          "Amount": "1"
+        }
       }
           ]
         },
@@ -381,6 +423,13 @@
         "Type": "Money",
         "Data": {
           "Amount": 7500
+        }
+      },
+      {
+        "Type": "Object",
+        "Data": {
+          "Item": "PrizeTicket",
+          "Amount": "1"
         }
       }
           ]

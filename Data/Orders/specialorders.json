@@ -64,6 +64,13 @@
           "Amount": "{Crops:Price}",
           "Multiplier": "50"
         }
+      },
+      {
+        "Type": "Object",
+        "Data": {
+          "Item": "PrizeTicket",
+          "Amount": "1"
+        }
       }
           ]
         },
@@ -128,6 +135,13 @@
           "Amount": "{Fish:Price}",
           "Multiplier": "20"
         }
+      },
+      {
+        "Type": "Object",
+        "Data": {
+          "Item": "PrizeTicket",
+          "Amount": "1"
+        }
       }
           ]
         },
@@ -180,6 +194,13 @@
           "Amount": "{Ingredients:Price}",
           "Multiplier": "50"
         }
+      },
+      {
+        "Type": "Object",
+        "Data": {
+          "Item": "PrizeTicket",
+          "Amount": "1"
+        }
       }
           ]
         },
@@ -230,6 +251,13 @@
         "Data": {
           "Amount": "{Ingredients:Price}",
           "Multiplier": "50"
+        }
+      },
+      {
+        "Type": "Object",
+        "Data": {
+          "Item": "PrizeTicket",
+          "Amount": "1"
         }
       }
           ]
@@ -283,6 +311,13 @@
           "Amount": "{Ingredients:Price}",
           "Multiplier": "50"
         }
+      },
+      {
+        "Type": "Object",
+        "Data": {
+          "Item": "PrizeTicket",
+          "Amount": "1"
+        }
       }
           ]
         },
@@ -335,6 +370,13 @@
           "Amount": "{Ingredients:Price}",
           "Multiplier": "50"
         }
+      },
+      {
+        "Type": "Object",
+        "Data": {
+          "Item": "PrizeTicket",
+          "Amount": "1"
+        }
       }
           ]
         },
@@ -386,6 +428,13 @@
           "Amount": "{Ingredients:Price}",
           "Multiplier": "50"
         }
+      },
+      {
+        "Type": "Object",
+        "Data": {
+          "Item": "PrizeTicket",
+          "Amount": "1"
+        }
       }
           ]
         },
@@ -428,6 +477,13 @@
         "Data": {
           "Amount": 5000
         }
+      },
+      {
+        "Type": "Object",
+        "Data": {
+          "Item": "PrizeTicket",
+          "Amount": "1"
+        }
       }
           ]
         },
@@ -469,6 +525,13 @@
         "Type": "Money",
         "Data": {
           "Amount": 7500
+        }
+      },
+      {
+        "Type": "Object",
+        "Data": {
+          "Item": "PrizeTicket",
+          "Amount": "1"
         }
       }
           ]
@@ -521,6 +584,13 @@
         "Data": {
           "Amount": "{Alcohol:Price}",
           "Multiplier": "50"
+        }
+      },
+      {
+        "Type": "Object",
+        "Data": {
+          "Item": "PrizeTicket",
+          "Amount": "1"
         }
       }
           ]
@@ -582,6 +652,13 @@
           "Amount": "{Fruit:Price}",
           "Multiplier": "20"
         }
+      },
+      {
+        "Type": "Object",
+        "Data": {
+          "Item": "PrizeTicket",
+          "Amount": "1"
+        }
       }
           ]
         },
@@ -633,6 +710,13 @@
         "Data": {
           "Amount": "2500"
         }
+      },
+      {
+        "Type": "Object",
+        "Data": {
+          "Item": "PrizeTicket",
+          "Amount": "1"
+        }
       }
           ]
         },
@@ -673,6 +757,13 @@
         "Type": "Money",
         "Data": {
           "Amount": 3000
+        }
+      },
+      {
+        "Type": "Object",
+        "Data": {
+          "Item": "PrizeTicket",
+          "Amount": "1"
         }
       }
           ]
@@ -715,6 +806,13 @@
         "Data": {
           "Amount": 6000
         }
+      },
+      {
+        "Type": "Object",
+        "Data": {
+          "Item": "PrizeTicket",
+          "Amount": "1"
+        }
       }
           ]
         },
@@ -755,6 +853,13 @@
         "Type": "Money",
         "Data": {
           "Amount": 10000
+        }
+      },
+      {
+        "Type": "Object",
+        "Data": {
+          "Item": "PrizeTicket",
+          "Amount": "1"
         }
       }
           ]
@@ -797,6 +902,13 @@
         "Data": {
           "Amount": 15000
         }
+      },
+      {
+        "Type": "Object",
+        "Data": {
+          "Item": "PrizeTicket",
+          "Amount": "1"
+        }
       }
           ]
         },
@@ -837,6 +949,13 @@
         "Type": "Money",
         "Data": {
           "Amount": 15000
+        }
+      },
+      {
+        "Type": "Object",
+        "Data": {
+          "Item": "PrizeTicket",
+          "Amount": "1"
         }
       }
           ]
@@ -902,6 +1021,13 @@
           "Amount": "{Forage:Price}",
           "Multiplier": "20"
         }
+      },
+      {
+        "Type": "Object",
+        "Data": {
+          "Item": "PrizeTicket",
+          "Amount": "1"
+        }
       }
           ]
         },
@@ -910,7 +1036,7 @@
           "Requester": "Gunther",
           "Duration": "TwoWeeks",
           "Repeatable": "True",
-          "RequiredTags": "!dropbox_JojaCCorders",
+          "RequiredTags": "!dropbox_GuntherBox",
           "OrderType": "Esca.EMP/blue704.JojaCC_Orders",
           "Condition": "PLAYER_STAT current GeodesCracked 10",
           "SpecialRule": "",
@@ -922,9 +1048,9 @@
               "Text": "{{i18n:blue704.JojaCC_Orders.Minerals.ship.text}}",
               "RequiredCount": "10",
               "Data": {
-                "DropBox": "JojaCCorders",
-                "DropBoxGameLocation": "JojaCC",
-                "DropBoxIndicatorLocation": "47.5 12",
+                "DropBox": "GuntherBox",
+                "DropBoxGameLocation": "ArchaeologyHouse",
+                "DropBoxIndicatorLocation": "6 8",
                 "MinimumCapacity": "24",
     "AcceptedContextTags": "category_minerals"
 }
@@ -936,6 +1062,13 @@
         "Data": {
           "Amount": 5000
         }
+      },
+      {
+        "Type": "Object",
+        "Data": {
+          "Item": "PrizeTicket",
+          "Amount": "1"
+        }
       }
           ]
         },
@@ -944,7 +1077,7 @@
           "Requester": "Gunther",
           "Duration": "TwoWeeks",
           "Repeatable": "True",
-          "RequiredTags": "!dropbox_JojaCCorders",
+          "RequiredTags": "!dropbox_GuntherBox",
           "OrderType": "Esca.EMP/blue704.JojaCC_Orders",
           "Condition":"MINE_LOWEST_LEVEL_REACHED 40",
           "SpecialRule": "",
@@ -956,9 +1089,9 @@
               "Text": "{{i18n:blue704.JojaCC_Orders.Gems.ship.text}}",
               "RequiredCount": "10",
               "Data": {
-                "DropBox": "JojaCCorders",
-                "DropBoxGameLocation": "JojaCC",
-                "DropBoxIndicatorLocation": "47.5 12",
+                "DropBox": "GuntherBox",
+                "DropBoxGameLocation": "ArchaeologyHouse",
+                "DropBoxIndicatorLocation": "6 8",
                 "MinimumCapacity": "24",
     "AcceptedContextTags": "category_gem"
 }
@@ -970,6 +1103,13 @@
         "Data": {
           "Amount": 5000
         }
+      },
+      {
+        "Type": "Object",
+        "Data": {
+          "Item": "PrizeTicket",
+          "Amount": "1"
+        }
       }
           ]
         },
@@ -978,7 +1118,7 @@
           "Requester": "Gunther",
           "Duration": "Month",
           "Repeatable": "True",
-          "RequiredTags": "!dropbox_JojaCCorders",
+          "RequiredTags": "!dropbox_GuntherBox",
           "OrderType": "Esca.EMP/blue704.JojaCC_Orders",
           "Condition":"MINE_LOWEST_LEVEL_REACHED 40",
           "SpecialRule": "",
@@ -990,9 +1130,9 @@
               "Text": "{{i18n:blue704.JojaCC_Orders.Bones.ship.text}}",
               "RequiredCount": "10",
               "Data": {
-                "DropBox": "JojaCCorders",
-                "DropBoxGameLocation": "JojaCC",
-                "DropBoxIndicatorLocation": "47.5 12",
+                "DropBox": "GuntherBox",
+                "DropBoxGameLocation": "ArchaeologyHouse",
+                "DropBoxIndicatorLocation": "6 8",
                 "MinimumCapacity": "24",
     "AcceptedContextTags": "prehistoric_item/fossil_item/bone_item"
 }
@@ -1003,6 +1143,13 @@
         "Type": "Money",
         "Data": {
           "Amount": 7500
+        }
+      },
+      {
+        "Type": "Object",
+        "Data": {
+          "Item": "PrizeTicket",
+          "Amount": "1"
         }
       }
           ]
@@ -1055,6 +1202,13 @@
           "Amount": "{Goods:Price}",
           "Multiplier": "50"
         }
+      },
+      {
+        "Type": "Object",
+        "Data": {
+          "Item": "PrizeTicket",
+          "Amount": "1"
+        }
       }
           ]
         },
@@ -1097,6 +1251,13 @@
         "Type": "Money",
         "Data": {
           "Amount": 1000
+        }
+      },
+      {
+        "Type": "Object",
+        "Data": {
+          "Item": "PrizeTicket",
+          "Amount": "1"
         }
       }
           ]
@@ -1141,6 +1302,13 @@
         "Data": {
           "Amount": 3000
         }
+      },
+      {
+        "Type": "Object",
+        "Data": {
+          "Item": "PrizeTicket",
+          "Amount": "1"
+        }
       }
           ]
         },
@@ -1184,6 +1352,13 @@
         "Data": {
           "Amount": 10000
         }
+      },
+      {
+        "Type": "Object",
+        "Data": {
+          "Item": "PrizeTicket",
+          "Amount": "1"
+        }
       }
           ]
         },
@@ -1225,6 +1400,13 @@
         "Type": "Money",
         "Data": {
           "Amount": 10000
+        }
+      },
+      {
+        "Type": "Object",
+        "Data": {
+          "Item": "PrizeTicket",
+          "Amount": "1"
         }
       }
           ]
@@ -1279,6 +1461,13 @@
           "Amount": "{JojaGoods:Price}",
           "Multiplier": "50"
         }
+      },
+      {
+        "Type": "Object",
+        "Data": {
+          "Item": "PrizeTicket",
+          "Amount": "1"
+        }
       }
           ]
         },
@@ -1330,6 +1519,13 @@
         "Data": {
           "Amount": "{JojaAlcohol:Price}",
           "Multiplier": "50"
+        }
+      },
+      {
+        "Type": "Object",
+        "Data": {
+          "Item": "PrizeTicket",
+          "Amount": "1"
         }
       }
           ]
@@ -1384,6 +1580,13 @@
           "Amount": "{JojaGoods:Price}",
           "Multiplier": "50"
         }
+      },
+      {
+        "Type": "Object",
+        "Data": {
+          "Item": "PrizeTicket",
+          "Amount": "1"
+        }
       }
           ]
         },
@@ -1435,6 +1638,13 @@
         "Data": {
           "Amount": "{JojaAlcohol:Price}",
           "Multiplier": "50"
+        }
+      },
+      {
+        "Type": "Object",
+        "Data": {
+          "Item": "PrizeTicket",
+          "Amount": "1"
         }
       }
           ]
