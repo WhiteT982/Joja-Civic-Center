@@ -189,8 +189,8 @@
       "Action": "EditData",
       "Target": "characters/schedules/Pam",
       "Entries": {
-        "Mon": "800 JojaCC 37 10 1 \"Strings\\schedules\\Pam:PamJojaCC\"/1200 JojaMart 6 19 1/1600 Saloon 7 18 1/2400 Trailer 15 4 2 pam_sleep",
-        "Wed": "800 JojaCC 37 10 1 \"Strings\\schedules\\Pam:PamJojaCC\"/1200 JojaMart 6 19 1/1600 Saloon 7 18 1/2400 Trailer 15 4 2 pam_sleep"
+        "Mon": "800 JojaCC 40 13 0 \"Strings\\schedules\\Pam:PamJojaCC\"/1200 JojaMart 6 19 1/1600 Saloon 7 18 1/2400 Trailer 15 4 2 pam_sleep",
+        "Wed": "800 JojaCC 40 13 0 \"Strings\\schedules\\Pam:PamJojaCC\"/1200 JojaMart 6 19 1/1600 Saloon 7 18 1/2400 Trailer 15 4 2 pam_sleep"
       }
     },
     //Emily Schedule Edit
