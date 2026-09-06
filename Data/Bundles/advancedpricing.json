@@ -1,0 +1,392 @@
+{
+  "Changes": [
+    {
+	"Action": "EditData",
+	"Target": "UnlockableBundles/AdvancedPricing",
+	"Entries": {
+		"Adam.Joja_StrawberryWine": { 
+			"Name": "Joja Strawberry Wine",
+			"ContextTags": [ 
+				"id_(o)Adam.Joja_Wine",
+				"preserve_sheet_index_400",
+				"color_blue",
+                "joja_item",
+                "joja_wine",
+                "alcohol_item",
+                "use_reverse_name_for_sorting",
+                "drink_item"
+			],
+			"ItemCopy": "(O)Adam.Joja_Wine",
+			"SubItemCopy": "(O)400",
+			"ItemTypes": [ "(O)"]
+		},
+		"Adam.Joja_AncientFruitWine": { 
+			"Name": "Joja Ancient Fruit Wine",
+			"ContextTags": [ 
+				"id_(o)Adam.Joja_Wine",
+				"preserve_sheet_index_454",
+				"color_blue",
+                "joja_item",
+                "joja_wine",
+                "alcohol_item",
+                "use_reverse_name_for_sorting",
+                "drink_item"
+			],
+			"ItemCopy": "(O)Adam.Joja_Wine",
+			"SubItemCopy": "(O)454",
+			"ItemTypes": [ "(O)"]
+		},
+		"Adam.Joja_StarfruitWine": { 
+			"Name": "Joja Starfruit Wine",
+			"ContextTags": [ 
+				"id_(o)Adam.Joja_Wine",
+				"preserve_sheet_index_268",
+				"color_blue",
+                "joja_item",
+                "joja_wine",
+                "alcohol_item",
+                "use_reverse_name_for_sorting",
+                "drink_item"
+			],
+			"ItemCopy": "(O)Adam.Joja_Wine",
+			"SubItemCopy": "(O)268",
+			"ItemTypes": [ "(O)"]
+		},
+        "Adam.Joja_TulipMead": { 
+			"Name": "Joja Tulip Mead",
+			"ContextTags": [ 
+				"id_(o)Adam.Joja_Mead",
+				"preserve_sheet_index_591",
+				"color_blue",
+                "joja_item",
+                "joja_mead",
+                "alcohol_item"
+			],
+			"ItemCopy": "(O)Adam.Joja_Mead",
+			"SubItemCopy": "(O)591",
+			"ItemTypes": [ "(O)"]
+		    },
+			"Adam.Joja_MelonWine": { 
+			"Name": "Joja Melon Wine",
+			"ContextTags": [ 
+				"id_(o)Adam.Joja_Wine",
+				"preserve_sheet_index_254",
+				"color_blue",
+                "joja_item",
+                "joja_wine",
+                "alcohol_item",
+                "use_reverse_name_for_sorting",
+                "drink_item"
+			],
+			"ItemCopy": "(O)Adam.Joja_Wine",
+			"SubItemCopy": "(O)254",
+			"ItemTypes": [ "(O)"]
+		},
+        "Adam.Joja_PoppyMead": { 
+			"Name": "Joja Poppy Mead",
+			"ContextTags": [ 
+				"id_(o)Adam.Joja_Mead",
+				"preserve_sheet_index_376",
+				"color_blue",
+                "joja_item",
+                "joja_mead",
+                "alcohol_item"
+			],
+			"ItemCopy": "(O)Adam.Joja_Mead",
+			"SubItemCopy": "(O)376",
+			"ItemTypes": [ "(O)"]
+		    },
+			"Adam.Joja_GrapeWine": { 
+			"Name": "Joja Grape Wine",
+			"ContextTags": [ 
+				"id_(o)Adam.Joja_Wine",
+				"preserve_sheet_index_398",
+				"color_blue",
+                "joja_item",
+                "joja_wine",
+                "alcohol_item",
+                "use_reverse_name_for_sorting",
+                "drink_item"
+			],
+			"ItemCopy": "(O)Adam.Joja_Wine",
+			"SubItemCopy": "(O)398",
+			"ItemTypes": [ "(O)"]
+		},
+        "Adam.Joja_FairyRoseMead": { 
+			"Name": "Joja Fairy Rose Mead",
+			"ContextTags": [ 
+				"id_(o)Adam.Joja_Mead",
+				"preserve_sheet_index_595",
+				"color_blue",
+                "joja_item",
+                "joja_mead",
+                "alcohol_item"
+			],
+			"ItemCopy": "(O)Adam.Joja_Mead",
+			"SubItemCopy": "(O)595",
+			"ItemTypes": [ "(O)"]
+		    },
+			"Adam.Joja_FairyRosePremiumMead": { 
+			"Name": "Joja Premium Fairy Rose Mead",
+			"ContextTags": [ 
+				"id_(o)Adam.Joja_PremiumMead",
+				"preserve_sheet_index_595",
+				"color_blue",
+                "joja_item",
+                "joja_mead",
+                "alcohol_item"
+			],
+			"ItemCopy": "(O)Adam.Joja_PremiumMead",
+			"SubItemCopy": "(O)595",
+			"ItemTypes": [ "(O)"]
+		    },
+			"Adam.Joja_PowdermelonWine": { 
+			"Name": "Joja Powdermelon Wine",
+			"ContextTags": [ 
+				"id_(o)Adam.Joja_Wine",
+				"preserve_sheet_index_Powdermelon",
+				"color_blue",
+                "joja_item",
+                "joja_wine",
+                "alcohol_item",
+                "use_reverse_name_for_sorting",
+                "drink_item"
+			],
+			"ItemCopy": "(O)Adam.Joja_Wine",
+			"SubItemCopy": "(O)Powdermelon",
+			"ItemTypes": [ "(O)"]
+		},
+		"Adam.Joja_ParsnipPickle": { 
+			"Name": "Joja Parsnip Pickles",
+			"ContextTags": [ 
+				"id_(o)Adam.Joja_Pickle",
+				"preserve_sheet_index_24",
+				"color_blue",
+            	"joja_item",
+            	"joja_pickles",
+            	"pickles_item",
+            	"use_reverse_name_for_sorting"
+			],
+			"ItemCopy": "(O)Adam.Joja_Pickle",
+			"SubItemCopy": "(O)24",
+			"ItemTypes": [ "(O)"]
+		},
+        "Adam.Joja_StrawberryJelly": { 
+			"Name": "Joja Strawberry Jelly",
+			"ContextTags": [ 
+				"id_(o)Adam.Joja_Jelly",
+				"preserve_sheet_index_400",
+				"color_blue",
+            	"joja_item",
+            	"joja_jelly",
+            	"use_reverse_name_for_sorting"
+			],
+			"ItemCopy": "(O)Adam.Joja_Jelly",
+			"SubItemCopy": "(O)400",
+			"ItemTypes": [ "(O)"]
+		    },
+		"Adam.Joja_RedCabbagePickle": { 
+			"Name": "Joja Red Cabbage Pickles",
+			"ContextTags": [ 
+				"id_(o)Adam.Joja_Pickle",
+				"preserve_sheet_index_266",
+				"color_blue",
+            	"joja_item",
+            	"joja_pickles",
+            	"pickles_item",
+            	"use_reverse_name_for_sorting"
+			],
+			"ItemCopy": "(O)Adam.Joja_Pickle",
+			"SubItemCopy": "(O)266",
+			"ItemTypes": [ "(O)"]
+		},
+        "Adam.Joja_BlueberryJelly": { 
+			"Name": "Joja Blueberry Jelly",
+			"ContextTags": [ 
+				"id_(o)Adam.Joja_Jelly",
+				"preserve_sheet_index_258",
+				"color_blue",
+            	"joja_item",
+            	"joja_jelly",
+            	"use_reverse_name_for_sorting"
+			],
+			"ItemCopy": "(O)Adam.Joja_Jelly",
+			"SubItemCopy": "(O)258",
+			"ItemTypes": [ "(O)"]
+		    },
+		"Adam.Joja_PumpkinPickle": { 
+			"Name": "Joja Pumpkin Pickles",
+			"ContextTags": [ 
+				"id_(o)Adam.Joja_Pickle",
+				"preserve_sheet_index_276",
+				"color_blue",
+            	"joja_item",
+            	"joja_pickles",
+            	"pickles_item",
+            	"use_reverse_name_for_sorting"
+			],
+			"ItemCopy": "(O)Adam.Joja_Pickle",
+			"SubItemCopy": "(O)276",
+			"ItemTypes": [ "(O)"]
+		},
+        "Adam.Joja_CranberryJelly": { 
+			"Name": "Joja Cranberry Jelly",
+			"ContextTags": [ 
+				"id_(o)Adam.Joja_Jelly",
+				"preserve_sheet_index_282",
+				"color_blue",
+            	"joja_item",
+            	"joja_jelly",
+            	"use_reverse_name_for_sorting"
+			],
+			"ItemCopy": "(O)Adam.Joja_Jelly",
+			"SubItemCopy": "(O)282",
+			"ItemTypes": [ "(O)"]
+		    },
+		"Adam.Joja_SnowYamPickle": { 
+			"Name": "Joja Snow Yam Pickles",
+			"ContextTags": [ 
+				"id_(o)Adam.Joja_Pickle",
+				"preserve_sheet_index_416",
+				"color_blue",
+            	"joja_item",
+            	"joja_pickles",
+            	"pickles_item",
+            	"use_reverse_name_for_sorting"
+			],
+			"ItemCopy": "(O)Adam.Joja_Pickle",
+			"SubItemCopy": "(O)416",
+			"ItemTypes": [ "(O)"]
+		},
+        "Adam.Joja_CrystalFruitJelly": { 
+			"Name": "Joja Crystal Fruit Jelly",
+			"ContextTags": [ 
+				"id_(o)Adam.Joja_Jelly",
+				"preserve_sheet_index_414",
+				"color_blue",
+            	"joja_item",
+            	"joja_jelly",
+            	"use_reverse_name_for_sorting"
+			],
+			"ItemCopy": "(O)Adam.Joja_Jelly",
+			"SubItemCopy": "(O)414",
+			"ItemTypes": [ "(O)"]
+		    },
+        "Adam.Joja_AgedSalmonRoe": { 
+			"Name": "Joja Aged Salmon Roe",
+			"ContextTags": [ 
+				"id_(o)Adam.Joja_AgedRoe",
+				"preserve_sheet_index_139",
+				"color_blue",
+            	"joja_item",
+            	"use_reverse_name_for_sorting"
+			],
+			"ItemCopy": "(O)Adam.Joja_AgedRoe",
+			"SubItemCopy": "(O)139",
+			"ItemTypes": [ "(O)"]
+		    },
+			"Adam.Joja_AgedLegendRoe": { 
+			"Name": "Joja Aged Legend Roe",
+			"ContextTags": [ 
+				"id_(o)Adam.Joja_AgedRoe",
+				"preserve_sheet_index_163",
+				"color_blue",
+            	"joja_item",
+            	"use_reverse_name_for_sorting"
+			],
+			"ItemCopy": "(O)Adam.Joja_AgedRoe",
+			"SubItemCopy": "(O)163",
+			"ItemTypes": [ "(O)"]
+		    },
+			"Adam.Joja_AgedGlacierFishRoe": { 
+			"Name": "Joja Aged Glacierfish Roe",
+			"ContextTags": [ 
+				"id_(o)Adam.Joja_AgedRoe",
+				"preserve_sheet_index_775",
+				"color_blue",
+            	"joja_item",
+            	"use_reverse_name_for_sorting"
+			],
+			"ItemCopy": "(O)Adam.Joja_AgedRoe",
+			"SubItemCopy": "(O)775",
+			"ItemTypes": [ "(O)"]
+		    },
+			"Adam.Joja_AgedCrimsonFishRoe": { 
+			"Name": "Joja Aged Glacierfish Roe",
+			"ContextTags": [ 
+				"id_(o)Adam.Joja_AgedRoe",
+				"preserve_sheet_index_159",
+				"color_blue",
+            	"joja_item",
+            	"use_reverse_name_for_sorting"
+			],
+			"ItemCopy": "(O)Adam.Joja_AgedRoe",
+			"SubItemCopy": "(O)159",
+			"ItemTypes": [ "(O)"]
+		    },
+        "Adam.Joja_AgedRainbowTroutRoe": { 
+			"Name": "Joja Aged Rainbow Trout Roe",
+			"ContextTags": [ 
+				"id_(o)Adam.Joja_AgedRoe",
+				"preserve_sheet_index_138",
+				"color_blue",
+            	"joja_item",
+            	"use_reverse_name_for_sorting"
+			],
+			"ItemCopy": "(O)Adam.Joja_AgedRoe",
+			"SubItemCopy": "(O)138",
+			"ItemTypes": [ "(O)"]
+		    },
+        "Adam.Joja_AgedLingcodRoe": { 
+			"Name": "Joja Aged Lingcod Roe",
+			"ContextTags": [ 
+				"id_(o)Adam.Joja_AgedRoe",
+				"preserve_sheet_index_707",
+				"color_blue",
+            	"joja_item",
+            	"use_reverse_name_for_sorting"
+			],
+			"ItemCopy": "(O)Adam.Joja_AgedRoe",
+			"SubItemCopy": "(O)707",
+			"ItemTypes": [ "(O)"]
+		    },
+        "Adam.Joja_DriedAnchovy": { 
+			"Name": "Joja Dried Anchovies",
+			"ContextTags": [ 
+				"id_(o)Adam.Joja_DriedFish",
+				"preserve_sheet_index_129",
+				"color_blue",
+            	"joja_item"
+			],
+			"ItemCopy": "(O)Adam.Joja_DriedFish",
+			"SubItemCopy": "(O)129",
+			"ItemTypes": [ "(O)"]
+		    },
+        "Adam.Joja_DriedHerring": { 
+			"Name": "Joja Dried Herring",
+			"ContextTags": [ 
+				"id_(o)Adam.Joja_DriedFish",
+				"preserve_sheet_index_147",
+				"color_blue",
+            	"joja_item"
+			],
+			"ItemCopy": "(O)Adam.Joja_DriedFish",
+			"SubItemCopy": "(O)147",
+			"ItemTypes": [ "(O)"]
+		    },
+			"Adam.Joja_DriedLegendII": { 
+			"Name": "Joja Dried Legend II",
+			"ContextTags": [ 
+				"id_(o)Adam.Joja_DriedFish",
+				"preserve_sheet_index_900",
+				"color_blue",
+            	"joja_item"
+			],
+			"ItemCopy": "(O)Adam.Joja_DriedFish",
+			"SubItemCopy": "(O)900",
+			"ItemTypes": [ "(O)"]
+		    }
+	    }
+    }
+  ]
+}
