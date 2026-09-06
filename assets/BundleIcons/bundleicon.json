@@ -71,6 +71,60 @@
 		"Action": "Load",
 		"Target": "LooseSprites/blue704.JojaCC",
 		"FromFile": "assets/BundleIcons/goldenbundlepageindex.png"
+	},
+	{
+		"LogName": "Load Bundle Icons",
+		"Action": "Load",
+		"Target": "LooseSprites/blue704.JojaCC",
+		"FromFile": "assets/BundleIcons/flavored.png"
+	},
+	{
+		"LogName": "Load Bundle Icons",
+		"Action": "Load",
+		"Target": "LooseSprites/blue704.JojaCC",
+		"FromFile": "assets/BundleIcons/valleysbounty.png"
+	},
+	{
+		"LogName": "Load Bundle Icons",
+		"Action": "Load",
+		"Target": "LooseSprites/blue704.JojaCC",
+		"FromFile": "assets/BundleIcons/eggfest.png"
+	},
+	{
+		"LogName": "Load Bundle Icons",
+		"Action": "Load",
+		"Target": "LooseSprites/blue704.JojaCC",
+		"FromFile": "assets/BundleIcons/luau.png"
+	},
+	{
+		"LogName": "Load Bundle Icons",
+		"Action": "Load",
+		"Target": "LooseSprites/blue704.JojaCC",
+		"FromFile": "assets/BundleIcons/bartender.png"
+	},
+	{
+		"LogName": "Load Bundle Icons",
+		"Action": "Load",
+		"Target": "LooseSprites/blue704.JojaCC",
+		"FromFile": "assets/BundleIcons/iridiumcrops.png"
+	},
+	{
+		"LogName": "Load Bundle Icons",
+		"Action": "Load",
+		"Target": "LooseSprites/blue704.JojaCC",
+		"FromFile": "assets/BundleIcons/baitbundle.png"
+	},
+	{
+		"LogName": "Load Bundle Icons",
+		"Action": "Load",
+		"Target": "LooseSprites/blue704.JojaCC",
+		"FromFile": "assets/BundleIcons/fieldcook.png"
+	},
+	{
+		"LogName": "Load Bundle Icons",
+		"Action": "Load",
+		"Target": "LooseSprites/blue704.JojaCC",
+		"FromFile": "assets/BundleIcons/exoticfishing.png"
 	}
 ]
 }
