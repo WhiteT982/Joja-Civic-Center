@@ -499,7 +499,7 @@
 						"(O)216": 5
 					},
 					"BundleReward": {
-						"(0)917": 10
+						"(O)917": 10
 					},
 					"BundleCompletedActions": [
   "AddMail all FirstBundleComplete received"
@@ -528,7 +528,7 @@
 						"(O)Adam.Joja_DriedRedMushrooms": 1
 					},
 					"BundleReward": {
-						"(0)Adam.Joja_UpgradePack": 5
+						"(O)Adam.Joja_UpgradePack": 5
 					},
 					"BundleCompletedActions": [
   "AddMail all FirstBundleComplete received",
@@ -1193,7 +1193,7 @@
             "money": 2500
           },
           "BundleReward": {
-            "(0)Book_Void": 1,
+            "(O)Book_Void": 1,
             "(O)PurpleBook": 1,
             "(O)SkillBook_2": 1,
             "(O)SkillBook_3": 1,
@@ -1775,7 +1775,7 @@
 						"(O)216": 5
 					},
 					"BundleReward": {
-						"(0)917": 20
+						"(O)917": 20
 					},
 					"BundleCompletedActions": [
   "AddMail all FirstBundleComplete received"
@@ -1804,7 +1804,7 @@
 						"(O)Adam.Joja_DriedRedMushrooms": 1
 					},
 					"BundleReward": {
-						"(0)Adam.Joja_UpgradePack": 10
+						"(O)Adam.Joja_UpgradePack": 10
 					},
 					"BundleCompletedActions": [
   "AddMail all FirstBundleComplete received",
@@ -2539,7 +2539,7 @@
             "money": 4000
           },
           "BundleReward": {
-            "(0)Book_Void": 1,
+            "(O)Book_Void": 1,
             "(O)PurpleBook": 1,
             "(O)SkillBook_2": 1,
             "(O)SkillBook_3": 1,
