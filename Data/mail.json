@@ -8,6 +8,14 @@
         "JojaCCOpenMail": "{{i18n:blue704.JojaCC_JojaCCOpenMail.text}}[letterbg 4][#]{{i18n:blue704.JojaCC_JojaCCOpenMail.title}}"
       }
     },
+{
+         "Action": "EditData",
+      "LogName": "EggHunt Start Mail Data",
+      "Target": "Data/Mail",
+      "Entries": {
+        "EggHuntStartMail": "{{i18n:blue704.JojaCC_EggHuntStart.text}}[letterbg 0][#]{{i18n:blue704.JojaCC_EggHuntStart.title}}"
+      }
+    },
     {
          "Action": "EditData",
       "LogName": "Farmer Bundle Book Complete Mail Data",
