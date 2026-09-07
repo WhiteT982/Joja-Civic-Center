@@ -1,0 +1,16 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/JojaSign",
+      "Entries": {
+        "EggHunt1_correct": "{{i18n:blue704.JojaCC_EggHunt1_correct}}",
+        "EggHunt2_correct": "{{i18n:blue704.JojaCC_EggHunt2_correct}}",
+        "EggHunt3_correct": "{{i18n:blue704.JojaCC_EggHunt3_correct}}",
+        "EggHunt1_incorrect": "{{i18n:blue704.JojaCC_EggHunt1_incorrect}}",
+        "EggHunt1_followup": "{{i18n:blue704.JojaCC_EggHunt1_followup}}",
+        "EggHunt3_followup": "{{i18n:blue704.JojaCC_EggHunt1_followup}}"
+}
+    }
+]
+}

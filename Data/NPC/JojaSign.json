@@ -1,0 +1,51 @@
+{
+    "Changes": [
+    {
+      "Action": "Load",
+      "Target": "Portraits/JojaSign",
+      "FromFile": "assets/JojaSign.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Dialogue/JojaSign",
+      "FromFile": "assets/Dialogue.json"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/JojaCCspring",
+      "FromFile": "assets/Maps/z_JojaCCspring.tmx",
+      "Priority": "Low"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "Entries": {
+        "JojaSign": {
+          "DisplayName": "{{i18n:blue704.JojaCC_JojaSign}}",
+          "BirthSeason": "Fall",
+          "BirthDay": 26,
+          "HomeRegion": "Other",
+          "Gender": "Male",
+          "Age": "Adult",
+          "Manner": "Polite",
+          "SocialAnxiety": "Neutral",
+          "Optimism": "Positive",
+          "CanBeRomanced": false,
+           "SocialTab": "HiddenAlways",
+           "CanSocialize": "FALSE",
+           "CanGreetNearbyCharacters": false,
+          "Home": [
+            {
+              "Id": "JojaCCspring",
+              "Location": "JojaCCspring",
+              "Tile": {
+                "X": 1,
+                "Y": 13
+              }
+            }
+          ]
+        }
+      }
+    }
+]
+}
