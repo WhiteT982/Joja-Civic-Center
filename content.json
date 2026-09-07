@@ -38,7 +38,7 @@
   "Changes": [
     {
       "Action": "Include",
-      "FromFile": "Data/Bundles/advancedpricing.json, Data/Bundles/bundlebooks.json, Data/MapPatches/beachalternate.json, Data/MapPatches/beach.json, Data/MapPatches/shoppatches.json, Data/MapPatches/cellar.json, Data/MapPatches/JojaCC.json, Data/MapPatches/foragermap.json, Data/MapPatches/gingerisland.json, Data/MapPatches/clintscave.json, Data/strings.json, Data/prizeticketmachine.json, Data/triggers.json, Data/mail.json, Data/minecart.json, Data/machines.json, Data/npcgifttastes.json, Data/events.json, Data/shop.json, Data/Objects/soup.json, Data/buildings.json, Data/Objects/treasurehunttag.json, Data/Objects/eventobjects.json, Data/Bundles/treasurehunt.json, assets/Maps/worldmap.json, Data/Orders/contexttags.json, Data/Orders/shop.json, Data/Orders/specialorders.json"
+      "FromFile": "Data/Bundles/advancedpricing.json, Data/Bundles/bundlebooks.json, Data/MapPatches/beachalternate.json, Data/MapPatches/beach.json, Data/MapPatches/shoppatches.json, Data/MapPatches/cellar.json, Data/MapPatches/JojaCC.json, Data/MapPatches/foragermap.json, Data/MapPatches/gingerisland.json, Data/MapPatches/clintscave.json, Data/strings.json, Data/prizeticketmachine.json, Data/triggers.json, Data/mail.json, Data/minecart.json, Data/machines.json, Data/npcgifttastes.json, Data/events.json, Data/shop.json, Data/Objects/soup.json, Data/buildings.json, Data/Objects/treasurehunttag.json, Data/Objects/eventobjects.json, Data/Bundles/treasurehunt.json, assets/Maps/worldmap.json, Data/Orders/contexttags.json, Data/Orders/shop.json, Data/Orders/specialorders.json, Data/NPC/JojaSign.json, Data/NPC/JojaSigndialogue.json, Data/MapPatches/EggHunt/EggHunt.json"
     },
     {
       "When": {
@@ -195,6 +195,14 @@
         "HasFlag: anyPlayer|contains=TreasureHuntComplete": false
       },
       "FromFile": "Data/Bundles/TreasureHunt/{{Random:6, 12, 18, 24, F}}.json"
+    },
+    //EggHunt Map Randomization
+    {
+      "Action": "Include",
+      "When":{
+        "HasFlag": "RandomizeEggHuntMaps"
+      },
+      "FromFile": "Data/MapPatches/EggHunt/{{Random:MapA, MapB, MapC, MapD}}.json"
     }
   ]
 }

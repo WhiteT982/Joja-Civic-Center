@@ -660,6 +660,95 @@
         }
           }
           },
+          //Egg Hunt Triggers
+          {
+            "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "RandomizeEggHuntMaps": {
+          "Id": "RandomizeEggHuntMaps",
+          "Trigger": "DayEnding",
+          "Condition": "SEASON_DAY spring 6",
+          "MarkActionApplied": false,
+          "Actions": [
+            "AddMail host RandomizeEggHuntMaps received"
+          ]
+        }
+          }
+          },
+          {
+            "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "EggHunt_IncorrectTrigger": {
+          "Id": "EggHunt_IncorrectTrigger",
+          "Trigger": "DayEnding",
+          "Condition": "PLAYER_HAS_MAIL current EggHunt_Incorrect received",
+          "MarkActionApplied": false,
+          "Actions": [
+            "RemoveMail current EggHunt_Incorrect all",
+            "MarkQuestionAnswered current EH1_Incorrect false",
+            "MarkQuestionAnswered current EH2_Incorrect false",
+            "MarkQuestionAnswered current EH3_Incorrect false"
+          ]
+          }
+        }
+          },
+
+          {
+            "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "EggHuntAnswerRemovalTrigger": {
+          "Id": "EggHuntAnswerRemovalTrigger",
+          "Trigger": "DayEnding",
+          "Condition": "SEASON_DAY spring 28",
+          "MarkActionApplied": false,
+          "Actions": [
+            "MarkQuestionAnswered all EH1_Incorrect false",
+            "MarkQuestionAnswered all EH2_Incorrect false",
+            "MarkQuestionAnswered all EH3_Incorrect false",
+            "MarkQuestionAnswered all EH1_Correct false",
+            "MarkQuestionAnswered all EH2_Correct false",
+            "MarkQuestionAnswered all EH3_Correct false",
+            "RemoveMail all AddMapA all",
+            "RemoveMail all AddMapB all",
+            "RemoveMail all AddMapC all",
+            "RemoveMail all AddMapD all"
+          ]
+          }
+        }
+          },
+          {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "Egg Hunt Start Mail": {
+          "Id": "EggHuntStartMail",
+          "Trigger": "DayEnding",
+          "Condition": "SEASON_DAY spring 6",
+          "MarkActionApplied": "false",
+          "Actions": [
+            "AddMail current EggHuntStartMail now"
+          ]
+        }
+          }
+          },
+          {
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "Egg Hunt Start Mail Removal": {
+          "Id": "EggHuntStartMailRemoval",
+          "Trigger": "DayEnding",
+          "Condition": "SEASON_DAY spring 28",
+          "MarkActionApplied": "false",
+          "Actions": [
+            "RemoveMail current EggHuntStartMail all"
+          ]
+        }
+          }
+          },
           //Soup Shop Triggers
           {
             "Action": "EditData",

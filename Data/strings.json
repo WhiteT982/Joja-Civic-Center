@@ -195,7 +195,19 @@
         "TreasureHuntSign24": "{{i18n:blue704.JojaCC_TreasureHuntSign24}}",
         "JojaCCclosed": "{{i18n:blue704.JojaCC_JojaCCclosed}}",
         "JojaBooks1": "{{i18n:blue704.JojaCC_JojaCCBooks1}}",
-        "JojaBooks2": "{{i18n:blue704.JojaCC_JojaCCBooks2}}"
+        "JojaBooks2": "{{i18n:blue704.JojaCC_JojaCCBooks2}}",
+        "EggHunt1_A": "{{i18n:blue704.JojaCC_EggHunt1_A}}",
+        "EggHunt2_A": "{{i18n:blue704.JojaCC_EggHunt2_A}}",
+        "EggHunt3_A": "{{i18n:blue704.JojaCC_EggHunt3_A}}",
+        "EggHunt1_B": "{{i18n:blue704.JojaCC_EggHunt1_B}}",
+        "EggHunt2_B": "{{i18n:blue704.JojaCC_EggHunt2_B}}",
+        "EggHunt3_B": "{{i18n:blue704.JojaCC_EggHunt3_B}}",
+        "EggHunt1_C": "{{i18n:blue704.JojaCC_EggHunt1_C}}",
+        "EggHunt2_C": "{{i18n:blue704.JojaCC_EggHunt2_C}}",
+        "EggHunt3_C": "{{i18n:blue704.JojaCC_EggHunt3_C}}",
+        "EggHunt1_D": "{{i18n:blue704.JojaCC_EggHunt1_D}}",
+        "EggHunt2_D": "{{i18n:blue704.JojaCC_EggHunt2_D}}",
+        "EggHunt3_D": "{{i18n:blue704.JojaCC_EggHunt3_D}}"
       }
     }
 ]

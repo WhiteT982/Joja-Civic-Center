@@ -1,0 +1,1461 @@
+{
+    "Changes": [
+        //Build EggHunt Sign
+        {
+      "When": {
+        "Season": "spring",
+        "Day": "{{Range: 8, 28}}",
+        "HasSeenEvent": "JojaCCIntro, JojaCCIntroHard"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "Update": "OnLocationChange",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 33,
+        "Y": 14,
+        "Width": 1,
+        "Height": 2
+      },
+      "ToArea": {
+        "X": 33,
+        "Y": 14,
+        "Width": 1,
+        "Height": 2
+      }
+    },
+    //Set Sign Message MapA
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag |contains=EggHunt1_Incorrect": "false",
+        "Day": "{{Range: 8, 14}}",
+        "HasFlag": "AddMapA"
+                  },
+            "Action": "EditMap",
+            "Target": "Maps/JojaCC",
+            "MapTiles": [
+                {
+                    "Position": { "X": 33, "Y": 15 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "NPCSpeechMessageNoRadius JojaSign EggHunt1_A"
+                    }
+                }
+              ]
+        },
+        {
+      "When": {
+        "Season": "spring",
+        "HasFlag |contains=EggHunt1_Incorrect": "false",
+        "Day": "{{Range: 15, 21}}",
+        "HasFlag": "AddMapA"
+                  },
+            "Action": "EditMap",
+            "Target": "Maps/JojaCC",
+            "MapTiles": [
+                {
+                    "Position": { "X": 33, "Y": 15 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "NPCSpeechMessageNoRadius JojaSign EggHunt2_A"
+                    }
+                }
+              ]
+        },
+        {
+      "When": {
+        "Season": "spring",
+        "HasFlag |contains=EggHunt1_Incorrect": "false",
+        "Day": "{{Range: 22, 28}}",
+        "HasFlag": "AddMapA"
+                  },
+            "Action": "EditMap",
+            "Target": "Maps/JojaCC",
+            "MapTiles": [
+                {
+                    "Position": { "X": 33, "Y": 15 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "NPCSpeechMessageNoRadius JojaSign EggHunt3_A"
+                    }
+                }
+              ]
+        },
+        //Set MapA Eggs
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapA"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 5,
+        "Y": 8,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 5,
+        "Y": 8,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapA"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 19,
+        "Y": 4,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 19,
+        "Y": 4,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapA"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 35,
+        "Y": 6,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 35,
+        "Y": 6,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapA"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 30,
+        "Y": 6,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 30,
+        "Y": 6,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapA"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 45,
+        "Y": 17,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 45,
+        "Y": 17,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapA"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 48,
+        "Y": 4,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 48,
+        "Y": 4,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapA"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 60,
+        "Y": 14,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 60,
+        "Y": 14,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapA"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 62,
+        "Y": 11,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 62,
+        "Y": 11,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapA"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 66,
+        "Y": 14,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 66,
+        "Y": 14,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    //Set Sign Message MapB
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag |contains=EggHunt1_Incorrect": "false",
+        "Day": "{{Range: 8, 14}}",
+        "HasFlag": "AddMapB"
+                  },
+            "Action": "EditMap",
+            "Target": "Maps/JojaCC",
+            "MapTiles": [
+                {
+                    "Position": { "X": 33, "Y": 15 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "NPCSpeechMessageNoRadius JojaSign EggHunt1_B"
+                    }
+                }
+              ]
+        },
+        {
+      "When": {
+        "Season": "spring",
+        "HasFlag |contains=EggHunt1_Incorrect": "false",
+        "Day": "{{Range: 15, 21}}",
+        "HasFlag": "AddMapB"
+                  },
+            "Action": "EditMap",
+            "Target": "Maps/JojaCC",
+            "MapTiles": [
+                {
+                    "Position": { "X": 33, "Y": 15 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "NPCSpeechMessageNoRadius JojaSign EggHunt2_B"
+                    }
+                }
+              ]
+        },
+        {
+      "When": {
+        "Season": "spring",
+        "HasFlag |contains=EggHunt1_Incorrect": "false",
+        "Day": "{{Range: 22, 28}}",
+        "HasFlag": "AddMapB"
+                  },
+            "Action": "EditMap",
+            "Target": "Maps/JojaCC",
+            "MapTiles": [
+                {
+                    "Position": { "X": 33, "Y": 15 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "NPCSpeechMessageNoRadius JojaSign EggHunt3_B"
+                    }
+                }
+              ]
+        },
+        //Set MapB Eggs
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapB"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 12,
+        "Y": 4,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 12,
+        "Y": 4,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapB"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 16,
+        "Y": 1,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 16,
+        "Y": 1,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapB"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 29,
+        "Y": 23,
+        "Width": 1,
+        "Height": 2
+      },
+      "ToArea": {
+        "X": 29,
+        "Y": 23,
+        "Width": 1,
+        "Height": 2
+      }
+    },
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapB"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 24,
+        "Y": 10,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 24,
+        "Y": 10,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapB"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 30,
+        "Y": 6,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 30,
+        "Y": 6,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapB"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 23,
+        "Y": 23,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 23,
+        "Y": 23,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapB"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 51,
+        "Y": 5,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 51,
+        "Y": 5,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapB"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 19,
+        "Y": 18,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 19,
+        "Y": 18,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapB"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 12,
+        "Y": 27,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 12,
+        "Y": 27,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapB"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 8,
+        "Y": 21,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 8,
+        "Y": 21,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapB"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 13,
+        "Y": 17,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 13,
+        "Y": 17,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapB"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 3,
+        "Y": 7,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 3,
+        "Y": 7,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapB"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 19,
+        "Y": 5,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 19,
+        "Y": 5,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapB"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 25,
+        "Y": 21,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 25,
+        "Y": 21,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapB"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 45,
+        "Y": 20,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 45,
+        "Y": 20,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapB"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 57,
+        "Y": 1,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 57,
+        "Y": 1,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapB"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 59,
+        "Y": 14,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 59,
+        "Y": 14,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapB"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 59,
+        "Y": 4,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 59,
+        "Y": 4,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    //Set Sign Message MapC
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag |contains=EggHunt1_Incorrect": "false",
+        "Day": "{{Range: 8, 14}}",
+        "HasFlag": "AddMapC"
+                  },
+            "Action": "EditMap",
+            "Target": "Maps/JojaCC",
+            "MapTiles": [
+                {
+                    "Position": { "X": 33, "Y": 15 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "NPCSpeechMessageNoRadius JojaSign EggHunt1_C"
+                    }
+                }
+              ]
+        },
+        {
+      "When": {
+        "Season": "spring",
+        "HasFlag |contains=EggHunt1_Incorrect": "false",
+        "Day": "{{Range: 15, 21}}",
+        "HasFlag": "AddMapC"
+                  },
+            "Action": "EditMap",
+            "Target": "Maps/JojaCC",
+            "MapTiles": [
+                {
+                    "Position": { "X": 33, "Y": 15 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "NPCSpeechMessageNoRadius JojaSign EggHunt2_C"
+                    }
+                }
+              ]
+        },
+        {
+      "When": {
+        "Season": "spring",
+        "HasFlag |contains=EggHunt1_Incorrect": "false",
+        "Day": "{{Range: 22, 28}}",
+        "HasFlag": "AddMapC"
+                  },
+            "Action": "EditMap",
+            "Target": "Maps/JojaCC",
+            "MapTiles": [
+                {
+                    "Position": { "X": 33, "Y": 15 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "NPCSpeechMessageNoRadius JojaSign EggHunt3_C"
+                    }
+                }
+              ]
+        },
+        //Set MapC Eggs
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapC"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 5,
+        "Y": 8,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 5,
+        "Y": 8,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapC"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 8,
+        "Y": 21,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 8,
+        "Y": 21,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapC"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 43,
+        "Y": 11,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 43,
+        "Y": 11,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapC"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 23,
+        "Y": 23,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 23,
+        "Y": 23,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapC"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 66,
+        "Y": 16,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 66,
+        "Y": 16,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapC"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 3,
+        "Y": 3,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 3,
+        "Y": 3,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapC"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 16,
+        "Y": 1,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 16,
+        "Y": 1,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapC"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 13,
+        "Y": 17,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 13,
+        "Y": 17,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapC"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 28,
+        "Y": 21,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 28,
+        "Y": 21,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapC"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 29,
+        "Y": 23,
+        "Width": 1,
+        "Height": 2
+      },
+      "ToArea": {
+        "X": 29,
+        "Y": 23,
+        "Width": 1,
+        "Height": 2
+      }
+    },
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapC"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 39,
+        "Y": 9,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 39,
+        "Y": 9,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapC"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 17,
+        "Y": 1,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 17,
+        "Y": 1,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapC"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 39,
+        "Y": 17,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 39,
+        "Y": 17,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapC"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 59,
+        "Y": 4,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 59,
+        "Y": 4,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapC"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 66,
+        "Y": 14,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 66,
+        "Y": 14,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    //Set Sign Message MapD
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag |contains=EggHunt1_Incorrect": "false",
+        "Day": "{{Range: 8, 14}}",
+        "HasFlag": "AddMapD"
+                  },
+            "Action": "EditMap",
+            "Target": "Maps/JojaCC",
+            "MapTiles": [
+                {
+                    "Position": { "X": 33, "Y": 15 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "NPCSpeechMessageNoRadius JojaSign EggHunt1_D"
+                    }
+                }
+              ]
+        },
+        {
+      "When": {
+        "Season": "spring",
+        "HasFlag |contains=EggHunt1_Incorrect": "false",
+        "Day": "{{Range: 15, 21}}",
+        "HasFlag": "AddMapD"
+                  },
+            "Action": "EditMap",
+            "Target": "Maps/JojaCC",
+            "MapTiles": [
+                {
+                    "Position": { "X": 33, "Y": 15 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "NPCSpeechMessageNoRadius JojaSign EggHunt2_D"
+                    }
+                }
+              ]
+        },
+        {
+      "When": {
+        "Season": "spring",
+        "HasFlag |contains=EggHunt1_Incorrect": "false",
+        "Day": "{{Range: 22, 28}}",
+        "HasFlag": "AddMapD"
+                  },
+            "Action": "EditMap",
+            "Target": "Maps/JojaCC",
+            "MapTiles": [
+                {
+                    "Position": { "X": 33, "Y": 15 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "NPCSpeechMessageNoRadius JojaSign EggHunt3_D"
+                    }
+                }
+              ]
+        },
+        //Set MapD Eggs
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapD"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 17,
+        "Y": 1,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 17,
+        "Y": 1,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapD"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 19,
+        "Y": 21,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 19,
+        "Y": 21,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapD"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 26,
+        "Y": 15,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 26,
+        "Y": 15,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapD"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 24,
+        "Y": 10,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 24,
+        "Y": 10,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapD"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 29,
+        "Y": 23,
+        "Width": 1,
+        "Height": 2
+      },
+      "ToArea": {
+        "X": 29,
+        "Y": 23,
+        "Width": 1,
+        "Height": 2
+      }
+    },
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapD"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 42,
+        "Y": 18,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 42,
+        "Y": 18,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapD"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 43,
+        "Y": 11,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 43,
+        "Y": 11,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapD"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 45,
+        "Y": 17,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 45,
+        "Y": 17,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapD"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 39,
+        "Y": 17,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 39,
+        "Y": 17,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapD"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 3,
+        "Y": 3,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 3,
+        "Y": 3,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapD"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 12,
+        "Y": 4,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 12,
+        "Y": 4,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapD"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 8,
+        "Y": 21,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 8,
+        "Y": 21,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapD"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 51,
+        "Y": 5,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 51,
+        "Y": 5,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapD"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 57,
+        "Y": 1,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 57,
+        "Y": 1,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapD"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 62,
+        "Y": 11,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 62,
+        "Y": 11,
+        "Width": 1,
+        "Height": 1
+      }
+    }
+    ]
+}
