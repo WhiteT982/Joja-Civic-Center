@@ -9,7 +9,8 @@
         "EggHunt3_correct": "{{i18n:blue704.JojaCC_EggHunt3_correct}}",
         "EggHunt1_incorrect": "{{i18n:blue704.JojaCC_EggHunt1_incorrect}}",
         "EggHunt1_followup": "{{i18n:blue704.JojaCC_EggHunt1_followup}}",
-        "EggHunt3_followup": "{{i18n:blue704.JojaCC_EggHunt1_followup}}"
+        "EggHunt2_followup": "{{i18n:blue704.JojaCC_EggHunt2_followup}}",
+        "EggHunt3_followup": "{{i18n:blue704.JojaCC_EggHunt3_followup}}"
 }
     }
 ]
