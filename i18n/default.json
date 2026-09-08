@@ -569,6 +569,9 @@
     "JojaCCTreasureHuntComplete.9": "Yeah, I still can't believe that you found all of them.",
     "JojaCCTreasureHuntComplete.10": "Well, if you ever decide to play again we will make sure to put the bundles in different places. Don't think that we will make it easy on you!",
     "JojaCCTreasureHuntComplete.11": "We may even change the rewards on you too...$h",
+    "JojaCCTreasureHuntComplete.12": "But before you go we wanted to let you know we are also setting up a Lost and Found box behind you.",
+    "JojaCCTreasureHuntComplete.13": "Yeah we find a lot of stuff and thought maybe we should put it in here so someone else could use it.",
+    "JojaCCTreasureHuntComplete.14": "So be sure to come check out our Lost and Found box tomorrow and see what you can find!$h",
     //Config Options
 "config.Choose Your Bundle Base.name": "Choose Your Bundle Base",
 "config.Choose Your Bundle Base.values.Vanilla": "Vanilla",
