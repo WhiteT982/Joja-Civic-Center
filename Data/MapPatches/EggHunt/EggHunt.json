@@ -30,7 +30,8 @@
         "Season": "spring",
         "HasFlag |contains=EggHunt1_Incorrect": "false",
         "Day": "{{Range: 8, 14}}",
-        "HasFlag": "AddMapA"
+        "HasFlag": "AddMapA",
+        "Year": "1"
                   },
             "Action": "EditMap",
             "Target": "Maps/JojaCC",
@@ -49,7 +50,8 @@
         "Season": "spring",
         "HasFlag |contains=EggHunt1_Incorrect": "false",
         "Day": "{{Range: 15, 21}}",
-        "HasFlag": "AddMapA"
+        "HasFlag": "AddMapA",
+        "Year": "1"
                   },
             "Action": "EditMap",
             "Target": "Maps/JojaCC",
@@ -68,7 +70,8 @@
         "Season": "spring",
         "HasFlag |contains=EggHunt1_Incorrect": "false",
         "Day": "{{Range: 22, 28}}",
-        "HasFlag": "AddMapA"
+        "HasFlag": "AddMapA",
+        "Year": "1"
                   },
             "Action": "EditMap",
             "Target": "Maps/JojaCC",
@@ -78,6 +81,66 @@
                     "Layer": "Buildings",
                     "SetProperties": {
                         "Action": "NPCSpeechMessageNoRadius JojaSign EggHunt3_A"
+                    }
+                }
+              ]
+        },
+        {
+      "When": {
+        "Season": "spring",
+        "HasFlag |contains=EggHunt1_Incorrect": "false",
+        "Day": "{{Range: 8, 14}}",
+        "HasFlag": "AddMapA",
+        "Year |contains=1": "false"
+                  },
+            "Action": "EditMap",
+            "Target": "Maps/JojaCC",
+            "MapTiles": [
+                {
+                    "Position": { "X": 33, "Y": 15 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "NPCSpeechMessageNoRadius JojaSign EggHunt1_A2"
+                    }
+                }
+              ]
+        },
+        {
+      "When": {
+        "Season": "spring",
+        "HasFlag |contains=EggHunt1_Incorrect": "false",
+        "Day": "{{Range: 15, 21}}",
+        "HasFlag": "AddMapA",
+        "Year |contains=1": "false"
+                  },
+            "Action": "EditMap",
+            "Target": "Maps/JojaCC",
+            "MapTiles": [
+                {
+                    "Position": { "X": 33, "Y": 15 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "NPCSpeechMessageNoRadius JojaSign EggHunt2_A2"
+                    }
+                }
+              ]
+        },
+        {
+      "When": {
+        "Season": "spring",
+        "HasFlag |contains=EggHunt1_Incorrect": "false",
+        "Day": "{{Range: 22, 28}}",
+        "HasFlag": "AddMapA",
+        "Year |contains=1": "false"
+                  },
+            "Action": "EditMap",
+            "Target": "Maps/JojaCC",
+            "MapTiles": [
+                {
+                    "Position": { "X": 33, "Y": 15 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "NPCSpeechMessageNoRadius JojaSign EggHunt3_A2"
                     }
                 }
               ]
@@ -134,6 +197,48 @@
       "Target": "Maps/JojaCC",
       "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
       "FromArea": {
+        "X": 12,
+        "Y": 27,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 12,
+        "Y": 27,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapA"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 8,
+        "Y": 21,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 8,
+        "Y": 21,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapA"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
         "X": 35,
         "Y": 6,
         "Width": 1,
@@ -155,6 +260,48 @@
       "Target": "Maps/JojaCC",
       "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
       "FromArea": {
+        "X": 24,
+        "Y": 10,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 24,
+        "Y": 10,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapA"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 26,
+        "Y": 15,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 26,
+        "Y": 15,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapA"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
         "X": 30,
         "Y": 6,
         "Width": 1,
@@ -163,6 +310,27 @@
       "ToArea": {
         "X": 30,
         "Y": 6,
+        "Width": 1,
+        "Height": 1
+      }
+    },
+    {
+      "When": {
+        "Season": "spring",
+        "HasFlag": "AddMapA"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/JojaCC",
+      "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
+      "FromArea": {
+        "X": 39,
+        "Y": 17,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 39,
+        "Y": 17,
         "Width": 1,
         "Height": 1
       }
@@ -278,7 +446,8 @@
         "Season": "spring",
         "HasFlag |contains=EggHunt1_Incorrect": "false",
         "Day": "{{Range: 8, 14}}",
-        "HasFlag": "AddMapB"
+        "HasFlag": "AddMapB",
+        "Year": "1"
                   },
             "Action": "EditMap",
             "Target": "Maps/JojaCC",
@@ -297,7 +466,8 @@
         "Season": "spring",
         "HasFlag |contains=EggHunt1_Incorrect": "false",
         "Day": "{{Range: 15, 21}}",
-        "HasFlag": "AddMapB"
+        "HasFlag": "AddMapB",
+        "Year": "1"
                   },
             "Action": "EditMap",
             "Target": "Maps/JojaCC",
@@ -316,7 +486,68 @@
         "Season": "spring",
         "HasFlag |contains=EggHunt1_Incorrect": "false",
         "Day": "{{Range: 22, 28}}",
-        "HasFlag": "AddMapB"
+        "HasFlag": "AddMapB",
+        "Year": "1"
+                  },
+            "Action": "EditMap",
+            "Target": "Maps/JojaCC",
+            "MapTiles": [
+                {
+                    "Position": { "X": 33, "Y": 15 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "NPCSpeechMessageNoRadius JojaSign EggHunt3_B"
+                    }
+                }
+              ]
+        },
+        {
+      "When": {
+        "Season": "spring",
+        "HasFlag |contains=EggHunt1_Incorrect": "false",
+        "Day": "{{Range: 8, 14}}",
+        "HasFlag": "AddMapB",
+        "Year |contains=1": "false"
+                  },
+            "Action": "EditMap",
+            "Target": "Maps/JojaCC",
+            "MapTiles": [
+                {
+                    "Position": { "X": 33, "Y": 15 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "NPCSpeechMessageNoRadius JojaSign EggHunt1_B"
+                    }
+                }
+              ]
+        },
+        {
+      "When": {
+        "Season": "spring",
+        "HasFlag |contains=EggHunt1_Incorrect": "false",
+        "Day": "{{Range: 15, 21}}",
+        "HasFlag": "AddMapB",
+        "Year |contains=1": "false"
+                  },
+            "Action": "EditMap",
+            "Target": "Maps/JojaCC",
+            "MapTiles": [
+                {
+                    "Position": { "X": 33, "Y": 15 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "NPCSpeechMessageNoRadius JojaSign EggHunt2_B"
+                    }
+                }
+              ]
+        },
+        {
+      "When": {
+        "Season": "spring",
+        "HasFlag |contains=EggHunt1_Incorrect": "false",
+        "Day": "{{Range: 22, 28}}",
+        "HasFlag": "AddMapB",
+        "Year |contains=1": "false"
                   },
             "Action": "EditMap",
             "Target": "Maps/JojaCC",
@@ -715,7 +946,8 @@
         "Season": "spring",
         "HasFlag |contains=EggHunt1_Incorrect": "false",
         "Day": "{{Range: 8, 14}}",
-        "HasFlag": "AddMapC"
+        "HasFlag": "AddMapC",
+        "Year": "1"
                   },
             "Action": "EditMap",
             "Target": "Maps/JojaCC",
@@ -734,7 +966,8 @@
         "Season": "spring",
         "HasFlag |contains=EggHunt1_Incorrect": "false",
         "Day": "{{Range: 15, 21}}",
-        "HasFlag": "AddMapC"
+        "HasFlag": "AddMapC",
+        "Year": "1"
                   },
             "Action": "EditMap",
             "Target": "Maps/JojaCC",
@@ -753,7 +986,68 @@
         "Season": "spring",
         "HasFlag |contains=EggHunt1_Incorrect": "false",
         "Day": "{{Range: 22, 28}}",
-        "HasFlag": "AddMapC"
+        "HasFlag": "AddMapC",
+        "Year": "1"
+                  },
+            "Action": "EditMap",
+            "Target": "Maps/JojaCC",
+            "MapTiles": [
+                {
+                    "Position": { "X": 33, "Y": 15 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "NPCSpeechMessageNoRadius JojaSign EggHunt3_C"
+                    }
+                }
+              ]
+        },
+        {
+      "When": {
+        "Season": "spring",
+        "HasFlag |contains=EggHunt1_Incorrect": "false",
+        "Day": "{{Range: 8, 14}}",
+        "HasFlag": "AddMapC",
+        "Year |contains=1": "false"
+                  },
+            "Action": "EditMap",
+            "Target": "Maps/JojaCC",
+            "MapTiles": [
+                {
+                    "Position": { "X": 33, "Y": 15 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "NPCSpeechMessageNoRadius JojaSign EggHunt1_C"
+                    }
+                }
+              ]
+        },
+        {
+      "When": {
+        "Season": "spring",
+        "HasFlag |contains=EggHunt1_Incorrect": "false",
+        "Day": "{{Range: 15, 21}}",
+        "HasFlag": "AddMapC",
+        "Year |contains=1": "false"
+                  },
+            "Action": "EditMap",
+            "Target": "Maps/JojaCC",
+            "MapTiles": [
+                {
+                    "Position": { "X": 33, "Y": 15 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "NPCSpeechMessageNoRadius JojaSign EggHunt2_C"
+                    }
+                }
+              ]
+        },
+        {
+      "When": {
+        "Season": "spring",
+        "HasFlag |contains=EggHunt1_Incorrect": "false",
+        "Day": "{{Range: 22, 28}}",
+        "HasFlag": "AddMapC",
+        "Year |contains=1": "false"
                   },
             "Action": "EditMap",
             "Target": "Maps/JojaCC",
@@ -1089,7 +1383,8 @@
         "Season": "spring",
         "HasFlag |contains=EggHunt1_Incorrect": "false",
         "Day": "{{Range: 8, 14}}",
-        "HasFlag": "AddMapD"
+        "HasFlag": "AddMapD",
+        "Year": "1"
                   },
             "Action": "EditMap",
             "Target": "Maps/JojaCC",
@@ -1108,7 +1403,8 @@
         "Season": "spring",
         "HasFlag |contains=EggHunt1_Incorrect": "false",
         "Day": "{{Range: 15, 21}}",
-        "HasFlag": "AddMapD"
+        "HasFlag": "AddMapD",
+        "Year": "1"
                   },
             "Action": "EditMap",
             "Target": "Maps/JojaCC",
@@ -1127,7 +1423,68 @@
         "Season": "spring",
         "HasFlag |contains=EggHunt1_Incorrect": "false",
         "Day": "{{Range: 22, 28}}",
-        "HasFlag": "AddMapD"
+        "HasFlag": "AddMapD",
+        "Year": "1"
+                  },
+            "Action": "EditMap",
+            "Target": "Maps/JojaCC",
+            "MapTiles": [
+                {
+                    "Position": { "X": 33, "Y": 15 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "NPCSpeechMessageNoRadius JojaSign EggHunt3_D"
+                    }
+                }
+              ]
+        },
+        {
+      "When": {
+        "Season": "spring",
+        "HasFlag |contains=EggHunt1_Incorrect": "false",
+        "Day": "{{Range: 8, 14}}",
+        "HasFlag": "AddMapD",
+        "Year |contains=1": "false"
+                  },
+            "Action": "EditMap",
+            "Target": "Maps/JojaCC",
+            "MapTiles": [
+                {
+                    "Position": { "X": 33, "Y": 15 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "NPCSpeechMessageNoRadius JojaSign EggHunt1_D"
+                    }
+                }
+              ]
+        },
+        {
+      "When": {
+        "Season": "spring",
+        "HasFlag |contains=EggHunt1_Incorrect": "false",
+        "Day": "{{Range: 15, 21}}",
+        "HasFlag": "AddMapD",
+        "Year |contains=1": "false"
+                  },
+            "Action": "EditMap",
+            "Target": "Maps/JojaCC",
+            "MapTiles": [
+                {
+                    "Position": { "X": 33, "Y": 15 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "NPCSpeechMessageNoRadius JojaSign EggHunt2_D"
+                    }
+                }
+              ]
+        },
+        {
+      "When": {
+        "Season": "spring",
+        "HasFlag |contains=EggHunt1_Incorrect": "false",
+        "Day": "{{Range: 22, 28}}",
+        "HasFlag": "AddMapD",
+        "Year |contains=1": "false"
                   },
             "Action": "EditMap",
             "Target": "Maps/JojaCC",
