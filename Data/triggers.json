@@ -842,7 +842,6 @@
           }
         }
           },
-
           {
             "Action": "EditData",
       "Target": "Data/TriggerActions",
@@ -854,6 +853,37 @@
           "MarkActionApplied": false,
           "Actions": [
             "RemoveMail current TrickorTreat2Start all"
+          ]
+          }
+        }
+          },
+          //Christmas Eve Triggers
+          {
+            "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "ChristmasEveMail": {
+          "Id": "ChristmasEveMail",
+          "Trigger": "DayEnding",
+          "Condition": "DAY_OF_MONTH 22, SEASON winter",
+          "MarkActionApplied": false,
+          "Actions": [
+            "AddMail current ChristmasEveMail tomorrow"
+          ]
+          }
+        }
+          },
+          {
+            "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "ChristmasEveGiftReset": {
+          "Id": "ChristmasEveGiftReset",
+          "Trigger": "DayEnding",
+          "Condition": "DAY_OF_MONTH 24, SEASON winter",
+          "MarkActionApplied": false,
+          "Actions": [
+            "RemoveMail current ChristmasEveGiftReceived all"
           ]
           }
         }

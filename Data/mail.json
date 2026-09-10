@@ -18,6 +18,14 @@
     },
     {
          "Action": "EditData",
+      "LogName": "Christmas Eve Mail Data",
+      "Target": "Data/Mail",
+      "Entries": {
+        "ChristmasEveMail": "{{i18n:blue704.JojaCC_ChristmasEveMail.text}}[letterbg 4][#]{{i18n:blue704.JojaCC_ChristmasEveMail.title}}"
+      }
+    },
+    {
+         "Action": "EditData",
       "LogName": "Farmer Bundle Book Complete Mail Data",
       "Target": "Data/Mail",
       "Entries": {

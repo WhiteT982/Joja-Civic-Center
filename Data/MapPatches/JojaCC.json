@@ -1306,6 +1306,42 @@
         "Height": 1
       }
     },
+    {
+      "When": {
+        "Season": "winter",
+        "Day": "24",
+        "HasFlag|contains=JojaCCFinishedTrigger": false
+                  },
+            "Action": "EditMap",
+            "Target": "Maps/JojaCC",
+            "MapTiles": [
+                {
+                    "Position": { "X": 33, "Y": 15 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "NPCSpeechMessageNoRadius JojaSign ChristmasEveJojaCCincomplete"
+                    }
+                }
+              ]
+        },
+        {
+      "When": {
+        "Season": "winter",
+        "Day": "24",
+        "HasFlag|contains=JojaCCFinishedTrigger": true
+                  },
+            "Action": "EditMap",
+            "Target": "Maps/JojaCC",
+            "MapTiles": [
+                {
+                    "Position": { "X": 33, "Y": 15 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "NPCSpeechMessageNoRadius JojaSign ChristmasEveJojaCCcomplete"
+                    }
+                }
+              ]
+        },
     //Default CC Map Edit
     {
       "Action": "EditMap",

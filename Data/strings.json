@@ -219,7 +219,9 @@
         "EggHunt3_C2": "{{i18n:blue704.JojaCC_EggHunt3_C2}}",
         "EggHunt1_D2": "{{i18n:blue704.JojaCC_EggHunt1_D2}}",
         "EggHunt2_D2": "{{i18n:blue704.JojaCC_EggHunt2_D2}}",
-        "EggHunt3_D2": "{{i18n:blue704.JojaCC_EggHunt3_D2}}"
+        "EggHunt3_D2": "{{i18n:blue704.JojaCC_EggHunt3_D2}}",
+        "ChristmasEveJojaCCincomplete": "{{i18n:blue704.JojaCC_ChristmasEveJojaCCincomplete}}",
+        "ChristmasEveJojaCCcomplete": "{{i18n:blue704.JojaCC_ChristmasEveJojaCCcomplete}}"
       }
     }
 ]
