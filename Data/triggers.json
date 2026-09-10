@@ -780,6 +780,84 @@
         }
           }
         },
+        //Trick or Treat Triggers
+          {
+            "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "TrickorTreatResets": {
+          "Id": "TrickorTreatResets",
+          "Trigger": "DayEnding",
+          "Condition": "DAY_OF_MONTH 28, SEASON fall",
+          "MarkActionApplied": false,
+          "Actions": [
+            "MarkEventSeen current JojaCCTrickorTreat1 false",
+            "MarkEventSeen current JojaCCTrickorTreat2 false"
+          ]
+        }
+          }
+        },
+        {
+            "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "TrickorTreat1Start": {
+          "Id": "TrickorTreat1Start",
+          "Trigger": "DayStarted",
+          "Condition": "DAY_OF_MONTH 1, SEASON fall",
+          "MarkActionApplied": false,
+          "Actions": [
+            "AddMail current TrickorTreat1Start received"
+          ]
+          }
+        }
+          },
+          {
+            "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "TrickorTreat1Removal": {
+          "Id": "TrickorTreat1Removal",
+          "Trigger": "DayEnding",
+          "Condition": "DAY_OF_MONTH 13, SEASON fall",
+          "MarkActionApplied": false,
+          "Actions": [
+            "RemoveMail current TrickorTreat1Start all"
+          ]
+          }
+        }
+          },
+        {
+            "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "TrickorTreat2Start": {
+          "Id": "TrickorTreat2Start",
+          "Trigger": "DayStarted",
+          "Condition": "DAY_OF_MONTH 14, SEASON fall",
+          "MarkActionApplied": false,
+          "Actions": [
+            "AddMail current TrickorTreat2Start received"
+          ]
+          }
+        }
+          },
+
+          {
+            "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "TrickorTreat2Removal": {
+          "Id": "TrickorTreat2Removal",
+          "Trigger": "DayEnding",
+          "Condition": "DAY_OF_MONTH 26, SEASON fall",
+          "MarkActionApplied": false,
+          "Actions": [
+            "RemoveMail current TrickorTreat2Start all"
+          ]
+          }
+        }
+          },
         //Alternate Fish Farm Build Triggers
         {
             "Action": "EditData",
