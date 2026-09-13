@@ -1,5 +1,6 @@
 {
   "Changes": [
+    //Vanilla Schedule Srings
     {
       "Action": "EditData",
       "LogName": "JojaCC Strings Data",
@@ -158,6 +159,36 @@
         "JodiJojaCCsugar": "{{i18n:blue704.JojaCC_JodiJojaCCsugar}}"
       }
     },
+    //SVE Schedule Strings
+    {
+      "Action": "EditData",
+      "LogName": "JojaCC Strings Data",
+      "Target": "Strings/schedules/Andy",
+      "Entries": {
+        "AndyForagePrep": "{{i18n:blue704.JojaCC_AndyForagePrep}}",
+        "AndyMissedPam": "{{i18n:blue704.JojaCC_AndyMissedPam}}",
+        "AndyCC": "{{i18n:blue704.JojaCC_AndyCC}}",
+        "AndyJojaCola": "{{i18n:blue704.JojaCC_AndyJojaCola}}",
+        "AndyForaging": "{{i18n:blue704.JojaCC_AndyForaging}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "LogName": "JojaCC Strings Data",
+      "Target": "Strings/schedules/MorrisTod",
+      "Entries": {
+        "MorrisJojaCC": "{{i18n:blue704.JojaCC_MorrisJojaCC}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "LogName": "JojaCC Strings Data",
+      "Target": "Strings/schedules/Sophia",
+      "Entries": {
+        "SophiaJojaCC": "{{i18n:blue704.JojaCC_SophiaJojaCC}}"
+      }
+    },
+    //Map Strings
     {
       "Action": "EditData",
       "LogName": "JojaCC Strings Data",

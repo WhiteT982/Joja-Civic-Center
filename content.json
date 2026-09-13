@@ -42,7 +42,7 @@
     },
     {
       "When": {
-        "DaysPlayed": "4"
+        "HasFlag": "RemoveJojaCCclosedSign"
       },
       "Action": "Include",
       "FromFile": "Data/schedules.json"

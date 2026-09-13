@@ -209,6 +209,66 @@
       "Entries": {
         "Wed": "800 SamHouse 6 5 0 jodi_dishes/940 SamHouse 5 5 0/1000 SamHouse 7 5 0/1020 SamHouse 4 5 0/1040 SamHouse 6 5 0 jodi_dishes/1100 JojaCC 13 5 0 \"Strings\\schedules\\Jodi:JodiJojaCCsugar\"/1530 JojaMart 27 13 1/1600 JojaMart 11 25 3/1700 SamHouse 7 5 0/1930 SamHouse 5 7 3/2100 SamHouse 10 22 3/2200 SamHouse 22 5 1 jodi_sleep"
       }
+    },
+    //SVE Schedules
+    {
+      "Action": "EditData",
+      "Priority": "Late",
+      "When": {
+        "HasMod": "FlashShifter.StardewValleyExpandedCP"
+      },
+      "Target": "characters/schedules/Andy",
+      "Entries": {
+        "winter_Mon": "0 Custom_AndyHouse 18 6 0/610 Custom_AndyHouse 20 6 0/0800 JojaCC 18 19 0 \"Strings\\schedules\\Andy:AndyForagePrep\"/1300 Forest 64 74 0/1430 Forest 62 74 0/1530 Forest 58 79 0/1630 Forest 76 86 0/1800 Saloon 3 23 3 Andy_Drink1/2330 Custom_AndyHouse 9 6 1 Andy_Sleep",
+        "winter_Wed": "0 Custom_AndyHouse 18 6 0/610 Custom_AndyHouse 20 6 0/1200 JojaCC 39 13 0 \"Strings\\schedules\\Andy:AndyMissedPam\"/1500 JojaCC 41 20 0 \"Strings\\schedules\\Andy:AndyCC\"/1900 Custom_AndyHouse 20 6 0/2400 Custom_AndyHouse 9 6 1 Andy_Sleep",
+        "Mon": "0 Custom_AndyHouse 18 6 0/610 Custom_AndyHouse 18 6 0/700 Forest 70 67 1 Andy_Farm1/730 Forest 70 64 1 Andy_Farm1/740 Forest 72 62 2 Andy_Farm2/810 Forest 75 62 2 Andy_Farm2/840 Forest 77 62 2 Andy_Farm2/910 Forest 79 62 2 Andy_Farm2/940 Forest 70 66 1 Andy_Farm1/1010 Forest 70 63 1 Andy_Farm1/1040 Forest 57 67 0/1130 JojaMart 21 18 3/1400 JojaCC 22 20 0 \"Strings\\schedules\\Andy:AndyJojaCola\"/1800 Saloon 3 23 3 Andy_Drink1/2330 Custom_AndyHouse 9 6 1 Andy_Sleep",
+        "Thu": "0 Custom_AndyHouse 18 6 0/700 Forest 68 66 1/800 Forest 58 69 1/830 Forest 60 71 0/900 Forest 62 71 0/920 Forest 64 71 0/940 Forest 61 71 0/1000 Forest 66 69 3/1020 Forest 64 68 2/1040 Forest 61 68 2/1100 Forest 59 68 2/1120 Forest 57 67 0/1200 JojaCC 10 19 3 \"Strings\\schedules\\Andy:AndyForaging\"/1400 JojaMart 22 13 1/1630 Town 80 95 2/1800 Saloon 3 23 3 Andy_Drink2/2300 Custom_AndyHouse 9 6 1 Andy_Sleep"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Priority": "Late",
+      "When": {
+        "HasMod": "FlashShifter.StardewValleyExpandedCP"
+      },
+      "Target": "characters/schedules/MorrisTod",
+      "Entries": {
+        "Mon": "610 JojaCC 50 7 0 \"Strings\\schedules\\MorrisTod:MorrisJojaCC\"/940 JojaMart 24 26 3/2300 BusStop 22 8 0/2510 BusStop 22 9 0/2520 Custom_DayEnd_WarpRoom 3 3 0",
+        "Tue": "610 JojaCC 13 7 3 \"Strings\\schedules\\MorrisTod:MorrisJojaCC\"/930 JojaMart 24 26 3/2300 BusStop 22 8 0/2510 BusStop 22 9 0/2520 Custom_DayEnd_WarpRoom 3 3 0",
+        "Thu": "610 JojaCC 2 8 1 \"Strings\\schedules\\MorrisTod:MorrisJojaCC\"/930 JojaMart 24 26 3/2300 BusStop 22 8 0/2510 BusStop 22 9 0/2520 Custom_DayEnd_WarpRoom 3 3 0",
+        "Fri": "610 JojaCC 17 23 1 \"Strings\\schedules\\MorrisTod:MorrisJojaCC\"/940 JojaMart 24 26 3/2300 BusStop 22 8 0/2510 BusStop 22 9 0/2520 Custom_DayEnd_WarpRoom 3 3 0",
+        "Sat": "610 JojaCC 37 19 1 \"Strings\\schedules\\MorrisTod:MorrisJojaCC\"/900 Town 88 51 2/930 JojaMart 24 26 3/2300 BusStop 22 8 0/2510 BusStop 22 9 0/2520 Custom_DayEnd_WarpRoom 3 3 0",
+        "Sun": "610 JojaCC 42 13 0 \"Strings\\schedules\\MorrisTod:MorrisJojaCC\"/930 JojaMart 24 26 3/2300 BusStop 22 8 0/2510 BusStop 22 9 0/2520 Custom_DayEnd_WarpRoom 3 3 0",
+        "rain": "610 JojaCC 50 7 0 \"Strings\\schedules\\MorrisTod:MorrisJojaCC\"/930 JojaMart 24 26 3/2300 BusStop 22 8 0/2510 BusStop 22 9 0/2520 Custom_DayEnd_WarpRoom 3 3 0"
+      }
+    },
+
+    {
+      "Action": "EditData",
+      "Priority": "Late",
+      "When": {
+        "HasMod": "FlashShifter.StardewValleyExpandedCP",
+        "HasSeenEvent: anyPlayer| contains=5553210": true
+      },
+      "Target": "characters/schedules/MorrisTod",
+      "Entries": {
+        "Mon": "610 JojaCC 50 7 0 \"Strings\\schedules\\MorrisTod:MorrisJojaCC\"/930 Town 113 30 2/1200 Town 30 56 2/1730 Town 52 25 0/2020 JojaMart 24 26 3",
+        "Tue": "610 JojaCC 13 7 3 \"Strings\\schedules\\MorrisTod:MorrisJojaCC\"/930 Town 30 56 2/1150 Town 87 50 2/1530 Town 97 65 3/1810 JojaMart 24 26 3",
+        "Thu": "610 JojaCC 2 8 1 \"Strings\\schedules\\MorrisTod:MorrisJojaCC\"/1000 Town 30 56 2/1530 Town 103 97 2/2000 JojaMart 24 26 3",
+        "Sun": "610 JojaCC 42 13 0 \"Strings\\schedules\\MorrisTod:MorrisJojaCC\"/1130 Town 30 56 2/1600 JojaMart 24 26 3",
+        "rain": "610 JojaCC 50 7 0 \"Strings\\schedules\\MorrisTod:MorrisJojaCC\"/800 JojaMart 24 26 3/1030 Saloon 14 20 0/1700 JojaMart 24 26 3"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Priority": "Late",
+      "When": {
+        "HasMod": "FlashShifter.StardewValleyExpandedCP"
+      },
+      "Target": "characters/schedules/Sophia",
+      "Entries": {
+        "Sat": "0 Custom_SophiaHouse 23 6 3/610 Custom_SophiaHouse 23 6 1/800 Custom_SophiaHouse 25 23 0/950 Custom_SophiaHouse 24 23 2/1030 Custom_BlueMoonVineyard 25 55 2/1300 JojaCC 28 16 2 \"Strings\\schedules\\Sophia:SophiaJojaCC\"/1840 Custom_SophiaHouse 25 23 0/1930 Custom_SophiaHouse 19 7 2 Sophia_Read/2100 Custom_SophiaHouse 24 6 1 Sophia_Sleep"
+      }
     }
     ]
 }
