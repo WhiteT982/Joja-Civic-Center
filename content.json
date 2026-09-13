@@ -47,6 +47,17 @@
       "Action": "Include",
       "FromFile": "Data/schedules.json"
     },
+    {
+         "Action": "EditImage",
+         "Target": "LooseSprites/Cursors2",
+         "When": {
+          "LocationName": "JojaCC"
+         },
+         "Update": "OnLocationChange",
+         "FromFile": "assets/Objects/Cursors2lostandfound.png",
+         "FromArea": { "X": 21, "Y": 0, "Width": 67, "Height": 32 },
+         "ToArea": { "X": 21, "Y": 0, "Width": 67, "Height": 32 }
+      },
     //Order Board Includes
     {
       "When": {
