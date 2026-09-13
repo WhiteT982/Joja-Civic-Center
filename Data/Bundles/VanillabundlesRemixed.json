@@ -59,7 +59,18 @@
 					"BundleCompletedActions": [
   "AddMail all SecondBundleComplete received"
 ]
-				},
+				}
+			}
+		},
+		{
+            "LogName": "Vanilla Forager Bundles",
+			"Action": "EditData",
+			"When": {
+				"Enable More Difficult Bundles": "false",
+                "Enable Cornucopia Bundles": "false"
+			},
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
 				"blue704.JojaCC_ForagerBundle03": {
 					"Location": "JojaCC",
 					"BundleName": "{{i18n: blue704.JojaCC_RemixedForagerBundle03}}",
@@ -84,7 +95,55 @@
 				"BundleCompletedActions": [
   "AddMail all SecondBundleComplete received"
 ]
-            },
+            }
+		}
+	},
+	{
+            "LogName": "Vanilla Forager Bundles",
+			"Action": "EditData",
+			"When": {
+				"Enable More Difficult Bundles": "false",
+                "Enable Cornucopia Bundles": "true"
+			},
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
+				"blue704.JojaCC_ForagerBundle03": {
+					"Location": "JojaCC",
+					"BundleName": "{{i18n: blue704.JojaCC_RemixedForagerBundle03}}",
+                    "ShopPosition": "103, 111",
+                    "PagePackageIndex": 2,
+					"BundleIcon": "Mushrooms",
+					"BookId": "blue704.JojaCC_ForagerBundleBook",
+					"ShopType": "CCBundle",
+					"DrawQuestionMark": false, 
+					"BundleSlots": 7,
+					"Price": {
+						"(O)404": 1,
+						"(O)420": 1,
+						"(O)422": 1,
+						"(O)257": 1,
+						"(O)281": 1,
+						"(O)430": 1,
+						"(O)Cornucopia_Shiitake": 1,
+						"(O)Cornucopia_ChickenoftheWoods": 1
+					},
+					"BundleReward": {
+						"(BC)MushroomLog": 2
+				},
+				"BundleCompletedActions": [
+  "AddMail all SecondBundleComplete received"
+]
+            }
+		}
+	},
+	{
+            "LogName": "Vanilla Forager Bundles",
+			"Action": "EditData",
+			"When": {
+				"Enable More Difficult Bundles": "false"
+			},
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
 				"blue704.JojaCC_ForagerBundle04": {
 					"Location": "JojaCC",
 					"BundleName": "{{i18n: blue704.JojaCC_RemixedForagerBundle04}}",
@@ -176,7 +235,6 @@
                     "Price": {
 						"(O)Cornucopia_Peppercorn": 1,
 						"(O)Cornucopia_Raspberry": 1,
-						"(O)Cornucopia_ChickenoftheWoods": 1,
 						"(O)Cornucopia_Sugarcane": 1,
 						"(O)16": 1,
 						"(O)18": 1,
@@ -306,7 +364,50 @@
 				"BundleCompletedActions": [
   "AddMail all FirstBundleComplete received"
 ]
-            }
+            },
+			"blue704.JojaCC_FarmerBundle04": {
+					"Location": "JojaCC",
+					"BundleName": "{{i18n: blue704.JojaCC_RemixedFarmerBundle04}}",
+                    "ShopPosition": "222, 80",
+                    "PagePackageIndex": 1,
+					"BundleIcon": "Quality_Crops",
+					"BookId": "blue704.JojaCC_FarmerBundleBook",
+					"ShopType": "CCBundle",
+					"DrawQuestionMark": false, 
+					"BundleSlots": 6,
+                    "Price": {
+						"(O)24:Gold": 3,
+						"(O)192:Gold": 3,
+						"(O)278:Gold": 3,
+						"(O)272:Gold": 3,
+						"(O)300:Gold": 3,
+						"(O)274:Gold": 3,
+						"(O)284:Gold": 3,
+						"(O)282:Gold": 3,
+						"(O)276:Gold": 3,
+						"(O)280:Gold": 3,
+						"(O)398:Gold": 3,
+						"(O)264:Gold": 3,
+						"(O)262:Gold": 3,
+						"(O)266:Gold": 3,
+						"(O)304:Gold": 3,
+						"(O)258:Gold": 3,
+						"(O)270:Gold": 3,
+						"(O)254:Gold": 3,
+						"(O)256:Gold": 3,
+						"(O)250:Gold": 3,
+						"(O)188:Gold": 3,
+						"(O)190:Gold": 3,
+						"(O)400:Gold": 3
+					},
+					"RandomPriceEntries": 7,
+					"BundleReward": {
+						"(O)GoldenAnimalCracker": 1
+					},
+					"BundleCompletedActions": [
+  "AddMail all FirstBundleComplete received"
+]
+				}
         }
     },
     {
@@ -333,6 +434,11 @@
 						"(O)Cornucopia_Asparagus": 1,
 						"(O)Cornucopia_Basil": 1,
 						"(O)Cornucopia_Jalapeno": 1,
+						"(O)Cornucopia_Buckwheat": 1,
+						"(O)Cornucopia_Cabbage": 1,
+						"(O)Cornucopia_Cantaloupe": 1,
+						"(O)Cornucopia_Onion": 1,
+						"(O)Cornucopia_Spinach": 1,
 						"(O)Carrot": 1,
 						"(O)24": 1,
 						"(O)192": 1,
@@ -369,6 +475,12 @@
 						"(O)Cornucopia_Lettuce": 1,
 						"(O)Cornucopia_Honeydew": 1,
 						"(O)Cornucopia_WasabiRoot": 1,
+						"(O)Cornucopia_AdzukiBean": 1,
+						"(O)Cornucopia_BellPepper": 1,
+						"(O)Cornucopia_Cassava": 1,
+						"(O)Cornucopia_Chickpea": 1,
+						"(O)Cornucopia_GreenPeas": 1,
+						"(O)Cornucopia_Okra": 1,
 						"(O)SummerSquash": 1,
 						"(O)264": 1,
 						"(O)262": 1,
@@ -404,6 +516,12 @@
 						"(O)Cornucopia_KidneyBeans": 1,
 						"(O)Cornucopia_Zucchini": 1,
 						"(O)Cornucopia_Turnip": 1,
+						"(O)Cornucopia_Barley": 1,
+						"(O)Cornucopia_BlackBeans": 1,
+						"(O)Cornucopia_Daikon": 1,
+						"(O)Cornucopia_Habanero": 1,
+						"(O)Cornucopia_Peanut": 1,
+						"(O)Cornucopia_Oats": 1,
 						"(O)Broccoli": 1,
 						"(O)278": 1,
 						"(O)272": 1,
@@ -423,19 +541,8 @@
 				"BundleCompletedActions": [
   "AddMail all FirstBundleComplete received"
 ]
-            }
-        }
-    },
-    {
-            "LogName": "Vanilla Farmer Bundles",
-			"Action": "EditData",
-            "When": {
-				"Enable More Difficult Bundles": "false"
-			},
-			"Target": "UnlockableBundles/Bundles",
-			"Entries": {
-                //Quality Crops
-				"blue704.JojaCC_FarmerBundle04": {
+            },
+			"blue704.JojaCC_FarmerBundle04": {
 					"Location": "JojaCC",
 					"BundleName": "{{i18n: blue704.JojaCC_RemixedFarmerBundle04}}",
                     "ShopPosition": "222, 80",
@@ -444,7 +551,7 @@
 					"BookId": "blue704.JojaCC_FarmerBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 7,
+					"BundleSlots": 6,
                     "Price": {
 						"(O)24:Gold": 3,
 						"(O)192:Gold": 3,
@@ -468,16 +575,52 @@
 						"(O)250:Gold": 3,
 						"(O)188:Gold": 3,
 						"(O)190:Gold": 3,
-						"(O)400:Gold": 3
+						"(O)400:Gold": 3,
+						"(O)Cornucopia_KidneyBeans:Gold": 3,
+						"(O)Cornucopia_Zucchini:Gold": 3,
+						"(O)Cornucopia_Turnip:Gold": 3,
+						"(O)Cornucopia_Barley:Gold": 3,
+						"(O)Cornucopia_BlackBeans:Gold": 3,
+						"(O)Cornucopia_Daikon:Gold": 3,
+						"(O)Cornucopia_Habanero:Gold": 3,
+						"(O)Cornucopia_Peanut:Gold": 3,
+						"(O)Cornucopia_Oats:Gold": 3,
+						"(O)Cornucopia_Lettuce:Gold": 3,
+						"(O)Cornucopia_Honeydew:Gold": 3,
+						"(O)Cornucopia_WasabiRoot:Gold": 3,
+						"(O)Cornucopia_AdzukiBean:Gold": 3,
+						"(O)Cornucopia_BellPepper:Gold": 3,
+						"(O)Cornucopia_Cassava:Gold": 3,
+						"(O)Cornucopia_Chickpea:Gold": 3,
+						"(O)Cornucopia_GreenPeas:Gold": 3,
+						"(O)Cornucopia_Okra:Gold": 3,
+						"(O)Cornucopia_Asparagus:Gold": 3,
+						"(O)Cornucopia_Basil:Gold": 3,
+						"(O)Cornucopia_Jalapeno:Gold": 3,
+						"(O)Cornucopia_Buckwheat:Gold": 3,
+						"(O)Cornucopia_Cabbage:Gold": 3,
+						"(O)Cornucopia_Cantaloupe:Gold": 3,
+						"(O)Cornucopia_Onion:Gold": 3,
+						"(O)Cornucopia_Spinach:Gold": 3
 					},
-					"RandomPriceEntries": 10,
+					"RandomPriceEntries": 7,
 					"BundleReward": {
 						"(O)GoldenAnimalCracker": 1
 					},
 					"BundleCompletedActions": [
   "AddMail all FirstBundleComplete received"
 ]
-				},
+				}
+        }
+    },
+    {
+            "LogName": "Vanilla Farmer Bundles",
+			"Action": "EditData",
+            "When": {
+				"Enable More Difficult Bundles": "false"
+			},
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
 				"blue704.JojaCC_FarmerBundle05": {
 					"Location": "JojaCC",
 					"BundleName": "{{i18n: blue704.JojaCC_FarmerBundle05}}",
@@ -999,13 +1142,13 @@
 					"Price": {
 						"(O)84": 1,
 						"(O)86": 1,
-						"(O)70": 1,
+						"(O)574": 1,
 						"(O)62": 1,
-						"(O)64": 1,
+						"(O)559": 1,
 						"(O)66": 1,
-						"(O)68": 1,
-						"(O)80": 1,
-						"(O)82": 1
+						"(O)556": 1,
+						"(O)550": 1,
+						"(O)544": 1
 
 					},
 					"BundleReward": {
@@ -1033,7 +1176,7 @@
 						"(O)382": 20
 					},
 					"BundleReward": {
-						"(BC)182": 1
+						"(BC)158": 1
 					},
 					"BundleCompletedActions": [
   "AddMail all SecondBundleComplete received"
@@ -1367,7 +1510,18 @@
 					"BundleCompletedActions": [
   "AddMail all SecondBundleComplete received"
 ]
-				},
+				}
+			}
+		},
+		{
+            "LogName": "Vanilla Forager Bundles",
+			"Action": "EditData",
+			"When": {
+				"Enable More Difficult Bundles": "true",
+                "Enable Cornucopia Bundles": "false"
+			},
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
 				"blue704.JojaCC_ForagerBundle03": {
 					"Location": "JojaCC",
 					"BundleName": "{{i18n: blue704.JojaCC_RemixedForagerBundle03}}",
@@ -1395,7 +1549,57 @@
 				"BundleCompletedActions": [
   "AddMail all SecondBundleComplete received"
 ]
-            },
+            }
+		}
+	},
+	{
+            "LogName": "Vanilla Forager Bundles",
+			"Action": "EditData",
+			"When": {
+				"Enable More Difficult Bundles": "true",
+                "Enable Cornucopia Bundles": "true"
+			},
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
+				"blue704.JojaCC_ForagerBundle03": {
+					"Location": "JojaCC",
+					"BundleName": "{{i18n: blue704.JojaCC_RemixedForagerBundle03}}",
+                    "ShopPosition": "103, 111",
+                    "PagePackageIndex": 2,
+					"BundleIcon": "Mushrooms",
+					"BookId": "blue704.JojaCC_ForagerBundleBook",
+					"ShopType": "CCBundle",
+					"DrawQuestionMark": false, 
+					"BundleSlots": 9,
+					"Price": {
+						"(O)404": 1,
+						"(O)420": 1,
+						"(O)422": 1,
+						"(O)257": 1,
+						"(O)281": 1,
+						"(O)430": 1,
+						"(O)Cornucopia_Shiitake": 1,
+						"(O)Cornucopia_ChickenoftheWoods": 1,
+						"(O)Adam.Joja_DriedRedMushrooms": 1,
+						"(O)DriedMushrooms": 1
+					},
+					"BundleReward": {
+						"(BC)MushroomLog": 3
+				},
+				"BundleCompletedActions": [
+  "AddMail all SecondBundleComplete received"
+]
+            }
+		}
+	},
+	{
+            "LogName": "Vanilla Forager Bundles",
+			"Action": "EditData",
+			"When": {
+				"Enable More Difficult Bundles": "true"
+			},
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
 				"blue704.JojaCC_ForagerBundle04": {
 					"Location": "JojaCC",
 					"BundleName": "{{i18n: blue704.JojaCC_RemixedForagerBundle04}}",
@@ -1491,7 +1695,6 @@
                     "Price": {
 						"(O)Cornucopia_Peppercorn": 1,
 						"(O)Cornucopia_Raspberry": 1,
-						"(O)Cornucopia_ChickenoftheWoods": 1,
 						"(O)Cornucopia_Sugarcane": 1,
 						"(O)16": 1,
 						"(O)18": 1,
@@ -1621,7 +1824,50 @@
 				"BundleCompletedActions": [
   "AddMail all FirstBundleComplete received"
 ]
-            }
+            },
+			"blue704.JojaCC_FarmerBundle04": {
+					"Location": "JojaCC",
+					"BundleName": "{{i18n: blue704.JojaCC_RemixedFarmerBundle04}}",
+                    "ShopPosition": "222, 80",
+                    "PagePackageIndex": 1,
+					"BundleIconAsset": "{{InternalAssetKey: assets/BundleIcons/iridiumcrops.png}}",
+					"BookId": "blue704.JojaCC_FarmerBundleBook",
+					"ShopType": "CCBundle",
+					"DrawQuestionMark": false, 
+					"BundleSlots": 7,
+                    "Price": {
+						"(O)24:Iridium": 3,
+						"(O)192:Iridium": 3,
+						"(O)278:Iridium": 3,
+						"(O)272:Iridium": 3,
+						"(O)300:Iridium": 3,
+						"(O)274:Iridium": 3,
+						"(O)284:Iridium": 3,
+						"(O)282:Iridium": 3,
+						"(O)276:Iridium": 3,
+						"(O)280:Iridium": 3,
+						"(O)398:Iridium": 3,
+						"(O)264:Iridium": 3,
+						"(O)262:Iridium": 3,
+						"(O)266:Iridium": 3,
+						"(O)304:Iridium": 3,
+						"(O)258:Iridium": 3,
+						"(O)270:Iridium": 3,
+						"(O)254:Iridium": 3,
+						"(O)256:Iridium": 3,
+						"(O)250:Iridium": 3,
+						"(O)188:Iridium": 3,
+						"(O)190:Iridium": 3,
+						"(O)400:Iridium": 3
+					},
+					"RandomPriceEntries": 8,
+					"BundleReward": {
+						"(O)GoldenAnimalCracker": 3
+					},
+					"BundleCompletedActions": [
+  "AddMail all FirstBundleComplete received"
+]
+				}
         }
     },
     {
@@ -1646,8 +1892,12 @@
 					"BundleSlots": 8,
 					"Price": {
 						"(O)Cornucopia_BlueAgave": 1,
-						"(O)Cornucopia_Onion": 1,
+						"(O)Cornucopia_LicoriceRoot": 1,
 						"(O)Cornucopia_PassionFruit": 1,
+						"(O)Cornucopia_Agave": 1,
+						"(O)Cornucopia_Bamboo": 1,
+						"(O)Cornucopia_CanaryMelon": 1,
+						"(O)Cornucopia_SesameSeeds": 1,
 						"(O)Carrot": 15,
 						"(O)24": 1,
 						"(O)192": 1,
@@ -1685,6 +1935,10 @@
 						"(O)Cornucopia_Watermelon": 1,
 						"(O)Cornucopia_Lemongrass": 1,
 						"(O)Cornucopia_BeanSprouts": 1,
+						"(O)Cornucopia_Aloe": 1,
+						"(O)Cornucopia_MungBeans": 1,
+						"(O)Cornucopia_Kiwi": 1,
+						"(O)Cornucopia_Sugarcane": 1,
 						"(O)SummerSquash": 15,
 						"(O)264": 1,
 						"(O)262": 1,
@@ -1721,6 +1975,9 @@
 						"(O)Cornucopia_Turmeric": 1,
 						"(O)Cornucopia_SweetPotato": 1,
 						"(O)Cornucopia_Turnip": 1,
+						"(O)Cornucopia_CuminSeeds": 1,
+						"(O)Cornucopia_Lentils": 1,
+						"(O)Cornucopia_Soybeans": 1,
 						"(O)Broccoli": 15,
 						"(O)278": 1,
 						"(O)272": 1,
@@ -1741,19 +1998,8 @@
 				"BundleCompletedActions": [
   "AddMail all FirstBundleComplete received"
 ]
-            }
-        }
-    },
-    {
-            "LogName": "Vanilla Hard Farmer Bundles",
-			"Action": "EditData",
-            "When": {
-				"Enable More Difficult Bundles": "true"
-			},
-			"Target": "UnlockableBundles/Bundles",
-			"Entries": {
-                //Quality Crops
-				"blue704.JojaCC_FarmerBundle04": {
+            },
+			"blue704.JojaCC_FarmerBundle04": {
 					"Location": "JojaCC",
 					"BundleName": "{{i18n: blue704.JojaCC_RemixedFarmerBundle04}}",
                     "ShopPosition": "222, 80",
@@ -1762,7 +2008,7 @@
 					"BookId": "blue704.JojaCC_FarmerBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 8,
+					"BundleSlots": 7,
                     "Price": {
 						"(O)24:Iridium": 3,
 						"(O)192:Iridium": 3,
@@ -1786,16 +2032,46 @@
 						"(O)250:Iridium": 3,
 						"(O)188:Iridium": 3,
 						"(O)190:Iridium": 3,
-						"(O)400:Iridium": 3
+						"(O)400:Iridium": 3,
+						"(O)Cornucopia_BlueAgave:Iridium": 3,
+						"(O)Cornucopia_LicoriceRoot:Iridium": 3,
+						"(O)Cornucopia_PassionFruit:Iridium": 3,
+						"(O)Cornucopia_Agave:Iridium": 3,
+						"(O)Cornucopia_Bamboo:Iridium": 3,
+						"(O)Cornucopia_CanaryMelon:Iridium": 3,
+						"(O)Cornucopia_SesameSeeds:Iridium": 3,
+						"(O)Cornucopia_Watermelon:Iridium": 3,
+						"(O)Cornucopia_Lemongrass:Iridium": 3,
+						"(O)Cornucopia_BeanSprouts:Iridium": 3,
+						"(O)Cornucopia_Aloe:Iridium": 3,
+						"(O)Cornucopia_MungBeans:Iridium": 3,
+						"(O)Cornucopia_Kiwi:Iridium": 3,
+						"(O)Cornucopia_Sugarcane:Iridium": 3,
+						"(O)Cornucopia_Turmeric:Iridium": 3,
+						"(O)Cornucopia_SweetPotato:Iridium": 3,
+						"(O)Cornucopia_Turnip:Iridium": 3,
+						"(O)Cornucopia_CuminSeeds:Iridium": 3,
+						"(O)Cornucopia_Lentils:Iridium": 3,
+						"(O)Cornucopia_Soybeans:Iridium": 3
 					},
-					"RandomPriceEntries": 10,
+					"RandomPriceEntries": 8,
 					"BundleReward": {
 						"(O)GoldenAnimalCracker": 3
 					},
 					"BundleCompletedActions": [
   "AddMail all FirstBundleComplete received"
 ]
-				},
+				}
+        }
+    },
+    {
+            "LogName": "Vanilla Hard Farmer Bundles",
+			"Action": "EditData",
+            "When": {
+				"Enable More Difficult Bundles": "true"
+			},
+			"Target": "UnlockableBundles/Bundles",
+			"Entries": {
 				"blue704.JojaCC_FarmerBundle05": {
 					"Location": "JojaCC",
 					"BundleName": "{{i18n: blue704.JojaCC_FarmerBundle05}}",
@@ -2158,7 +2434,7 @@
 						"(O)437": 1
 					},
 					"BundleReward": {
-						"(928)": 1,
+						"(O)928": 1,
 						"(BC)101": 1
 					}
 				}
@@ -2335,17 +2611,17 @@
 					"BookId": "blue704.JojaCC_BoilerRoomBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 4,
+					"BundleSlots": 7,
 					"Price": {
 						"(O)84": 1,
 						"(O)86": 1,
-						"(O)70": 1,
-						"(O)62": 1,
+						"(O)557": 1,
+						"(O)578": 1,
 						"(O)64": 1,
-						"(O)66": 1,
+						"(O)575": 1,
 						"(O)68": 1,
-						"(O)80": 1,
-						"(O)82": 1
+						"(O)573": 1,
+						"(O)567": 1
 					},
 					"BundleReward": {
 						"(BC)21": 1
@@ -2374,7 +2650,7 @@
 						"(O)382": 20
 					},
 					"BundleReward": {
-						"(BC)182": 1,
+						"(BC)158": 1,
 						"(BC)Adam.Joja_FurnacePRO": 1
 					},
 					"BundleCompletedActions": [
@@ -2495,7 +2771,7 @@
 						
 					},
 					"BundleReward": {
-						"(B)855": 3
+						"(B)855": 1
 					},
 					"BundleCompletedActions": [
   "AddMail all SecondBundleComplete received"
