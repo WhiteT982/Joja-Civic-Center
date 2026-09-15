@@ -1281,14 +1281,14 @@
       "Target": "Maps/JojaCC",
       "FromFile": "assets/Maps/z_JojaCC{{season}}.tmx",
       "FromArea": {
-        "X": 41,
-        "Y": 9,
+        "X": 38,
+        "Y": 21,
         "Width": 1,
         "Height": 1
       },
       "ToArea": {
-        "X": 41,
-        "Y": 9,
+        "X": 38,
+        "Y": 21,
         "Width": 1,
         "Height": 1
       }
