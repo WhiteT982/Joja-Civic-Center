@@ -81,7 +81,7 @@
       "Action": "Include",
       "FromFile": "Data/Orders/CornucopiaExtended.json"
     },
-    //Bundle Configs
+    //Vanilla Bundle Configs
     {
       "Action": "Include",
       "FromFile": "Data/Bundles/Vanillabundles.json",
@@ -98,39 +98,89 @@
         "Remixed Bundles": "true"
       }
     },
+    //RSV Bundle Configs
     {
       "Action": "Include",
       "FromFile": "Data/Bundles/RSVbundles.json",
       "When": {
-        "Choose Your Bundle Base": "RSV"
+        "Choose Your Bundle Base": "RSV",
+        "Remixed Bundles": "false"
       }
     },
+    {
+      "Action": "Include",
+      "FromFile": "Data/Bundles/RSVbundlesRemixed.json",
+      "When": {
+        "Choose Your Bundle Base": "RSV",
+        "Remixed Bundles": "true"
+      }
+    },
+    //SVE Bundle Configs
     {
       "Action": "Include",
       "FromFile": "Data/Bundles/SVEbundles.json",
       "When": {
-        "Choose Your Bundle Base": "SVE"
+        "Choose Your Bundle Base": "SVE",
+        "Remixed Bundles": "false"
       }
     },
+    {
+      "Action": "Include",
+      "FromFile": "Data/Bundles/SVEbundlesRemixed.json",
+      "When": {
+        "Choose Your Bundle Base": "SVE",
+        "Remixed Bundles": "true"
+      }
+    },
+    //ES Bundle Configs
     {
       "Action": "Include",
       "FromFile": "Data/Bundles/ESbundles.json",
       "When": {
-        "Choose Your Bundle Base": "East Scarp"
+        "Choose Your Bundle Base": "East Scarp",
+        "Remixed Bundles": "false"
       }
     },
+    {
+      "Action": "Include",
+      "FromFile": "Data/Bundles/ESbundlesRemixed.json",
+      "When": {
+        "Choose Your Bundle Base": "East Scarp",
+        "Remixed Bundles": "true"
+      }
+    },
+    //VMV Bundle Configs
     {
       "Action": "Include",
       "FromFile": "Data/Bundles/VMVbundles.json",
       "When": {
-        "Choose Your Bundle Base": "VMV"
+        "Choose Your Bundle Base": "VMV",
+        "Remixed Bundles": "false"
       }
     },
     {
       "Action": "Include",
+      "FromFile": "Data/Bundles/VMVbundlesRemixed.json",
+      "When": {
+        "Choose Your Bundle Base": "VMV",
+        "Remixed Bundles": "true"
+      }
+    },
+    //SVE RSV ES Bundle Configs
+    {
+      "Action": "Include",
       "FromFile": "Data/Bundles/SVE_RSV_ESbundles.json",
       "When": {
-        "Choose Your Bundle Base": "SVE+RSV+ES"
+        "Choose Your Bundle Base": "SVE+RSV+ES",
+        "Remixed Bundles": "false"
+      }
+    },
+    {
+      "Action": "Include",
+      "FromFile": "Data/Bundles/SVE_RSV_ESbundlesRemixed.json",
+      "When": {
+        "Choose Your Bundle Base": "SVE+RSV+ES",
+        "Remixed Bundles": "true"
       }
     },
     //Alternate Fish Farm Config
