@@ -517,6 +517,7 @@
 						"(O)69": 1,
 						"(O)835": 1
 					},
+					"RandomRewardEntries": 1,
 					"BundleCompletedActions": [
   "AddMail all FirstBundleComplete received"
 ]
@@ -906,7 +907,8 @@
 					},
 					"RandomPriceEntries": 7,
 					"BundleReward": {
-						"(BC)Adam.Joja_FishTrap": 3
+						"(O)265": 3,
+                        "(O)797": 2
 					},
 					"BundleCompletedActions": [
   "AddMail all FirstBundleComplete received"
@@ -1347,8 +1349,10 @@
             "money": 2500
           },
           "BundleReward": {
-            "(O)StardropTea": 3
-          }
+            "(O)261": 3,
+			"(O)TreasureTotem": 3
+          },
+		  "RandomRewardEntries": 1
         },
         "blue704.JojaCC_VaultBundle02": {
           "Location": "JojaCC",
@@ -1388,7 +1392,10 @@
             "money": 5000
           },
           "BundleReward": {
-            "(O)852": 10
+            "(O)96": 1,
+			"(O)97": 1,
+			"(O)98": 1,
+			"(O)99": 1
           }
         },
         "blue704.JojaCC_VaultBundle04": {
@@ -1429,9 +1436,8 @@
             "money": 7500
           },
           "BundleReward": {
-            "(BC)167": 1,
-            "(BC)126": 1,
-            "(BC)136": 1
+            "(O)910": 5,
+			"(O)275": 5
           }
         },
         "blue704.JojaCC_VaultBundle06": {
@@ -1452,7 +1458,7 @@
             "(O)908": 15,
             "(BC)Adam.Joja_FishSmoker": 1,
             "(BC)Adam.Joja_FishTrap": 3,
-            "(O)152": 25
+            "(O)152": 50
           },
           "RandomRewardEntries": 1
         },
@@ -2403,7 +2409,9 @@
 					},
 					"RandomPriceEntries": 7,
 					"BundleReward": {
-						"(BC)Adam.Joja_FishTrap": 5
+						"(BC)Adam.Joja_FishTrap": 3,
+						"(O)265": 1,
+                        "(O)797": 1
 					},
 					"BundleCompletedActions": [
   "AddMail all FirstBundleComplete received"
@@ -2910,8 +2918,10 @@
             "money": 5000
           },
           "BundleReward": {
-            "(O)StardropTea": 3
-          }
+            "(O)261": 3,
+			"(O)TreasureTotem": 3
+          },
+		  "RandomRewardEntries": 1
         },
         "blue704.JojaCC_VaultBundle02": {
           "Location": "JojaCC",
@@ -2951,7 +2961,10 @@
             "money": 10000
           },
           "BundleReward": {
-            "(O)852": 10
+            "(O)96": 1,
+			"(O)97": 1,
+			"(O)98": 1,
+			"(O)99": 1
           }
         },
         "blue704.JojaCC_VaultBundle04": {
@@ -2992,9 +3005,8 @@
             "money": 15000
           },
           "BundleReward": {
-            "(BC)167": 1,
-            "(BC)126": 1,
-            "(BC)136": 1
+            "(O)910": 5,
+			"(O)275": 5
           }
         },
         "blue704.JojaCC_VaultBundle06": {
@@ -3015,7 +3027,7 @@
             "(O)908": 15,
             "(BC)Adam.Joja_FishSmoker": 1,
             "(BC)Adam.Joja_FishTrap": 3,
-            "(O)152": 25
+            "(O)152": 50
           },
           "RandomRewardEntries": 1
         },

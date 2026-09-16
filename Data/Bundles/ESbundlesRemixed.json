@@ -982,7 +982,8 @@
 					},
 					"BundleReward": {
 						"(O)Book_Roe": 1,
-						"(O)Book_Crabbing": 1					},
+						"(O)Book_Crabbing": 1					
+					},
 						"BundleCompletedActions": [
   "AddMail all FirstBundleComplete received"
 ]
@@ -1473,7 +1474,7 @@
             "(O)908": 15,
             "(BC)Adam.Joja_FishSmoker": 1,
             "(BC)Adam.Joja_FishTrap": 3,
-            "(O)152": 25
+            "(O)152": 50
           },
           "RandomRewardEntries": 1
         },
@@ -3061,7 +3062,7 @@
             "(O)908": 15,
             "(BC)Adam.Joja_FishSmoker": 1,
             "(BC)Adam.Joja_FishTrap": 3,
-            "(O)152": 25
+            "(O)152": 50
           },
           "RandomRewardEntries": 1
         },
