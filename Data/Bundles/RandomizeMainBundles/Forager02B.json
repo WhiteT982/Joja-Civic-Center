@@ -1,0 +1,18 @@
+{
+    "Changes":[
+        {
+        "Action": "EditData",
+        "Target": "Data/TriggerActions",
+        "Entries": {
+        "AddForager02B": {
+          "Id": "AddForager02B",
+          "Trigger": "DayEnding",
+          "Condition": "DAYS_PLAYED 1",
+          "Actions": [
+            "AddMail all ForagerBundle02B received"
+          ]
+        }
+          }
+          }
+        ]
+    }

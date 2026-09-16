@@ -1,0 +1,18 @@
+{
+    "Changes":[
+        {
+        "Action": "EditData",
+        "Target": "Data/TriggerActions",
+        "Entries": {
+        "AddFarmer06B": {
+          "Id": "AddFarmer06B",
+          "Trigger": "DayEnding",
+          "Condition": "DAYS_PLAYED 1",
+          "Actions": [
+            "AddMail all FarmerBundle06B received"
+          ]
+        }
+          }
+          }
+        ]
+    }

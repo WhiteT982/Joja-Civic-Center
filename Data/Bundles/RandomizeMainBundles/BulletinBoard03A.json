@@ -1,0 +1,18 @@
+{
+    "Changes":[
+        {
+        "Action": "EditData",
+        "Target": "Data/TriggerActions",
+        "Entries": {
+        "AddBulletinBoard03A": {
+          "Id": "AddBulletinBoard03A",
+          "Trigger": "DayEnding",
+          "Condition": "DAYS_PLAYED 1",
+          "Actions": [
+            "AddMail all BulletinBoardBundle03A received"
+          ]
+        }
+          }
+          }
+        ]
+    }

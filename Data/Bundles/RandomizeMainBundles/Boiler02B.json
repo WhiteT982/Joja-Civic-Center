@@ -1,0 +1,18 @@
+{
+    "Changes":[
+        {
+        "Action": "EditData",
+        "Target": "Data/TriggerActions",
+        "Entries": {
+        "AddBoiler02B": {
+          "Id": "AddBoiler02B",
+          "Trigger": "DayEnding",
+          "Condition": "DAYS_PLAYED 1",
+          "Actions": [
+            "AddMail all BoilerBundle02B received"
+          ]
+        }
+          }
+          }
+        ]
+    }

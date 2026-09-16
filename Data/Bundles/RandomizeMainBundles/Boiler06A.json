@@ -1,0 +1,19 @@
+{
+    "Changes":[
+        {
+        "Action": "EditData",
+        "Target": "Data/TriggerActions",
+        "Entries": {
+        "AddBoiler06A": {
+          "Id": "AddBoiler06A",
+          "Trigger": "DayEnding",
+          "Condition": "DAYS_PLAYED 1",
+          "Actions": [
+            "AddMail all BoilerBundle06A received",
+            "RemoveMail host RandomizeMainBundles all"
+          ]
+        }
+          }
+          }
+        ]
+    }

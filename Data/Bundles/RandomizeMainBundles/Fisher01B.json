@@ -1,0 +1,19 @@
+{
+    "Changes":[
+        {
+        "Action": "EditData",
+        "Target": "Data/TriggerActions",
+        "Entries": {
+        "AddFisher01B": {
+          "Id": "AddFisher01B",
+          "Trigger": "DayEnding",
+          "Condition": "DAYS_PLAYED 1",
+          "Actions": [
+            "AddMail all FisherBundle01B received",
+            "RemoveMail host RandomizeMainBundles all"
+          ]
+        }
+          }
+          }
+        ]
+    }

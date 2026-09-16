@@ -11,6 +11,11 @@
       "Default": "false",
       "Section": "Bundle Addons"
     },
+    "Random Bundles": {
+      "AllowValues": "true, false",
+      "Default": "false",
+      "Section": "Bundle Addons"
+    },
     "Enable More Difficult Bundles": {
       "AllowValues": "true, false",
       "Default": "false",
@@ -87,7 +92,8 @@
       "FromFile": "Data/Bundles/Vanillabundles.json",
       "When": {
         "Choose Your Bundle Base": "Vanilla",
-        "Remixed Bundles": "false"
+        "Remixed Bundles": "false",
+        "Random Bundles": "false"
       }
     },
     {
@@ -95,7 +101,16 @@
       "FromFile": "Data/Bundles/VanillabundlesRemixed.json",
       "When": {
         "Choose Your Bundle Base": "Vanilla",
-        "Remixed Bundles": "true"
+        "Remixed Bundles": "true",
+        "Random Bundles": "false"
+      }
+    },
+    {
+      "Action": "Include",
+      "FromFile": "Data/Bundles/VanillabundlesRandom.json",
+      "When": {
+        "Choose Your Bundle Base": "Vanilla",
+        "Random Bundles": "true"
       }
     },
     //RSV Bundle Configs
@@ -264,6 +279,271 @@
         "HasFlag": "RandomizeEggHuntMaps"
       },
       "FromFile": "Data/MapPatches/EggHunt/{{Random:MapA, MapB, MapC, MapD}}.json"
+    },
+    //Forager Bundle Randomization
+    {
+      "Action": "Include",
+      "When":{
+        "HasFlag": "RandomizeMainBundles"
+      },
+      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:Forager01A, Forager01B}}.json"
+    },
+    {
+      "Action": "Include",
+      "When":{
+        "HasFlag": "RandomizeMainBundles"
+      },
+      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:Forager02A, Forager02B}}.json"
+    },
+    {
+      "Action": "Include",
+      "When":{
+        "HasFlag": "RandomizeMainBundles"
+      },
+      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:Forager03A, Forager03B}}.json"
+    },
+    {
+      "Action": "Include",
+      "When":{
+        "HasFlag": "RandomizeMainBundles"
+      },
+      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:Forager04A, Forager04B}}.json"
+    },
+    {
+      "Action": "Include",
+      "When":{
+        "HasFlag": "RandomizeMainBundles"
+      },
+      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:Forager05A, Forager05B}}.json"
+    },
+    //Farmer Bundle Randomization
+    {
+      "Action": "Include",
+      "When":{
+        "HasFlag": "RandomizeMainBundles"
+      },
+      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:Farmer01A, Farmer01B}}.json"
+    },
+    {
+      "Action": "Include",
+      "When":{
+        "HasFlag": "RandomizeMainBundles"
+      },
+      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:Farmer02A, Farmer02B}}.json"
+    },
+    {
+      "Action": "Include",
+      "When":{
+        "HasFlag": "RandomizeMainBundles"
+      },
+      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:Farmer03A, Farmer03B}}.json"
+    },
+    {
+      "Action": "Include",
+      "When":{
+        "HasFlag": "RandomizeMainBundles"
+      },
+      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:Farmer04A, Farmer04B}}.json"
+    },
+    {
+      "Action": "Include",
+      "When":{
+        "HasFlag": "RandomizeMainBundles"
+      },
+      "FromFile": "Data/Bundles/RandomizeMainBundles/Farmer05A.json"
+    },
+    {
+      "Action": "Include",
+      "When":{
+        "HasFlag": "RandomizeMainBundles"
+      },
+      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:Farmer06A, Farmer06B}}.json"
+    },
+    {
+      "Action": "Include",
+      "When":{
+        "HasFlag": "RandomizeMainBundles"
+      },
+      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:Farmer07A, Farmer07B}}.json"
+    },
+    {
+      "Action": "Include",
+      "When":{
+        "HasFlag": "RandomizeMainBundles"
+      },
+      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:Farmer08A, Farmer08B}}.json"
+    },
+    //Fisher Bundle Randomization
+    {
+      "Action": "Include",
+      "When":{
+        "HasFlag": "RandomizeMainBundles"
+      },
+      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:Fisher01A, Fisher01B}}.json"
+    },
+    {
+      "Action": "Include",
+      "When":{
+        "HasFlag": "RandomizeMainBundles"
+      },
+      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:Fisher02A, Fisher02B}}.json"
+    },
+    {
+      "Action": "Include",
+      "When":{
+        "HasFlag": "RandomizeMainBundles"
+      },
+      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:Fisher03A, Fisher03B}}.json"
+    },
+    {
+      "Action": "Include",
+      "When":{
+        "HasFlag": "RandomizeMainBundles"
+      },
+      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:Fisher04A, Fisher04B}}.json"
+    },
+    {
+      "Action": "Include",
+      "When":{
+        "HasFlag": "RandomizeMainBundles"
+      },
+      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:Fisher05A, Fisher05B}}.json"
+    },
+    {
+      "Action": "Include",
+      "When":{
+        "HasFlag": "RandomizeMainBundles"
+      },
+      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:Fisher06A, Fisher06B}}.json"
+    },
+    //Bulletin Board Bundle Randomization
+    {
+      "Action": "Include",
+      "When":{
+        "HasFlag": "RandomizeMainBundles"
+      },
+      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:BulletinBoard01A, BulletinBoard01B}}.json"
+    },
+    {
+      "Action": "Include",
+      "When":{
+        "HasFlag": "RandomizeMainBundles"
+      },
+      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:BulletinBoard02A, BulletinBoard02B}}.json"
+    },
+    {
+      "Action": "Include",
+      "When":{
+        "HasFlag": "RandomizeMainBundles"
+      },
+      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:BulletinBoard03A, BulletinBoard03B}}.json"
+    },
+    {
+      "Action": "Include",
+      "When":{
+        "HasFlag": "RandomizeMainBundles"
+      },
+      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:BulletinBoard04A, BulletinBoard04B}}.json"
+    },
+    {
+      "Action": "Include",
+      "When":{
+        "HasFlag": "RandomizeMainBundles"
+      },
+      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:BulletinBoard05A, BulletinBoard05B}}.json"
+    },
+    {
+      "Action": "Include",
+      "When":{
+        "HasFlag": "RandomizeMainBundles"
+      },
+      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:BulletinBoard06A, BulletinBoard06B}}.json"
+    },
+    //Boiler Room Bundle Randomization
+    {
+      "Action": "Include",
+      "When":{
+        "HasFlag": "RandomizeMainBundles"
+      },
+      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:Boiler01A, Boiler01B}}.json"
+    },
+    {
+      "Action": "Include",
+      "When":{
+        "HasFlag": "RandomizeMainBundles"
+      },
+      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:Boiler02A, Boiler02B}}.json"
+    },
+    {
+      "Action": "Include",
+      "When":{
+        "HasFlag": "RandomizeMainBundles"
+      },
+      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:Boiler03A, Boiler03B}}.json"
+    },
+    {
+      "Action": "Include",
+      "When":{
+        "HasFlag": "RandomizeMainBundles"
+      },
+      "FromFile": "Data/Bundles/RandomizeMainBundles/Boiler04A.json"
+    },
+    {
+      "Action": "Include",
+      "When":{
+        "HasFlag": "RandomizeMainBundles"
+      },
+      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:Boiler05A, Boiler05B}}.json"
+    },
+    {
+      "Action": "Include",
+      "When":{
+        "HasFlag": "RandomizeMainBundles"
+      },
+      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:Boiler06A, Boiler06B}}.json"
+    },
+    //Vault Bundle Randomization
+    {
+      "Action": "Include",
+      "When":{
+        "HasFlag": "RandomizeMainBundles"
+      },
+      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:Vault01A, Vault01B}}.json"
+    },
+    {
+      "Action": "Include",
+      "When":{
+        "HasFlag": "RandomizeMainBundles"
+      },
+      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:Vault02A, Vault02B}}.json"
+    },
+    {
+      "Action": "Include",
+      "When":{
+        "HasFlag": "RandomizeMainBundles"
+      },
+      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:Vault03A, Vault03B}}.json"
+    },
+    {
+      "Action": "Include",
+      "When":{
+        "HasFlag": "RandomizeMainBundles"
+      },
+      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:Vault04A, Vault04B}}.json"
+    },
+    {
+      "Action": "Include",
+      "When":{
+        "HasFlag": "RandomizeMainBundles"
+      },
+      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:Vault05A, Vault05B}}.json"
+    },
+    {
+      "Action": "Include",
+      "When":{
+        "HasFlag": "RandomizeMainBundles"
+      },
+      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:Vault06A, Vault06B}}.json"
     }
   ]
 }

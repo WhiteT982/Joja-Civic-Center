@@ -62,6 +62,24 @@
         }
           }
           },
+          //Main Bundle Randomization
+          {
+            "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "When": {
+        "Random Bundles": "true"
+      },
+      "Entries": {
+        "RandomizeMainBundles": {
+          "Id": "RandomizeMainBundles",
+          "Trigger": "DayEnding",
+          "Condition": "DAYS_PLAYED 1",
+          "Actions": [
+            "AddMail host RandomizeMainBundles received"
+          ]
+        }
+          }
+          },
           //Treasure Hunt Bundle Randomization
           {
             "Action": "EditData",
