@@ -175,9 +175,6 @@
           "InstantShopRemoval": false,
           "ShopCompletedAnimation": "0",
           "IsBook": true,
-		  "BundleReward": {
-            "(O)886": 10
-          },
           "BundleCompletedActions": [
             "AddMail all JojaCC_VaultComplete received"
           ]
