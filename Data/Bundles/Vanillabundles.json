@@ -695,7 +695,8 @@
 					},
 					"BundleReward": {
 						"(O)Book_Roe": 1,
-						"(O)Book_Crabbing": 1					},
+						"(O)Book_Crabbing": 1					
+					},
 						"BundleCompletedActions": [
   "AddMail all FirstBundleComplete received"
 ]
