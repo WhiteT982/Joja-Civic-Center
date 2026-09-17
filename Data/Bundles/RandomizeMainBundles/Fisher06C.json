@@ -1,0 +1,18 @@
+{
+    "Changes":[
+        {
+        "Action": "EditData",
+        "Target": "Data/TriggerActions",
+        "Entries": {
+        "AddFisher06C": {
+          "Id": "AddFisher06C",
+          "Trigger": "DayEnding",
+          "Condition": "DAYS_PLAYED 1",
+          "Actions": [
+            "AddMail all FisherBundle06C received"
+          ]
+        }
+          }
+          }
+        ]
+    }

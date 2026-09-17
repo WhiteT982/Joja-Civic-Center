@@ -1,0 +1,19 @@
+{
+    "Changes":[
+        {
+        "Action": "EditData",
+        "Target": "Data/TriggerActions",
+        "Entries": {
+        "AddBulletinBoard06C": {
+          "Id": "AddBulletinBoard06C",
+          "Trigger": "DayEnding",
+          "Condition": "DAYS_PLAYED 1",
+          "Actions": [
+            "AddMail all BulletinBoardBundle06C received",
+            "RemoveMail host RandomizeMainBundles all"
+          ]
+        }
+          }
+          }
+        ]
+    }

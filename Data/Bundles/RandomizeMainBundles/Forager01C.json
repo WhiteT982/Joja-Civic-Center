@@ -1,0 +1,19 @@
+{
+    "Changes":[
+        {
+        "Action": "EditData",
+        "Target": "Data/TriggerActions",
+        "Entries": {
+        "AddForager01C": {
+          "Id": "AddForager01C",
+          "Trigger": "DayEnding",
+          "Condition": "DAYS_PLAYED 1",
+          "Actions": [
+            "AddMail all ForagerBundle01C received",
+            "RemoveMail host RandomizeMainBundles all"
+          ]
+        }
+          }
+          }
+        ]
+    }

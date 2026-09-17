@@ -286,7 +286,7 @@
       "When":{
         "HasFlag": "RandomizeMainBundles"
       },
-      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:Forager01A, Forager01B}}.json"
+      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:Forager01A, Forager01B, Forager01C}}.json"
     },
     {
       "Action": "Include",
@@ -343,7 +343,7 @@
       "When":{
         "HasFlag": "RandomizeMainBundles"
       },
-      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:Farmer04A, Farmer04B}}.json"
+      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:Farmer04A, Farmer04B, Farmer04C}}.json"
     },
     {
       "Action": "Include",
@@ -357,14 +357,14 @@
       "When":{
         "HasFlag": "RandomizeMainBundles"
       },
-      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:Farmer06A, Farmer06B}}.json"
+      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:Farmer06A, Farmer06B, Farmer06C}}.json"
     },
     {
       "Action": "Include",
       "When":{
         "HasFlag": "RandomizeMainBundles"
       },
-      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:Farmer07A, Farmer07B}}.json"
+      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:Farmer07A, Farmer07B, Farmer07C}}.json"
     },
     {
       "Action": "Include",
@@ -379,28 +379,28 @@
       "When":{
         "HasFlag": "RandomizeMainBundles"
       },
-      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:Fisher01A, Fisher01B}}.json"
+      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:Fisher01A, Fisher01B, Fisher01C}}.json"
     },
     {
       "Action": "Include",
       "When":{
         "HasFlag": "RandomizeMainBundles"
       },
-      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:Fisher02A, Fisher02B}}.json"
+      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:Fisher02A, Fisher02B, Fisher02C, Fisher02D}}.json"
     },
     {
       "Action": "Include",
       "When":{
         "HasFlag": "RandomizeMainBundles"
       },
-      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:Fisher03A, Fisher03B}}.json"
+      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:Fisher03A, Fisher03B, Fisher03C, Fisher03C, Fisher03C, Fisher03C, Fisher03C, Fisher03C, Fisher03C, Fisher03C}}.json"
     },
     {
       "Action": "Include",
       "When":{
         "HasFlag": "RandomizeMainBundles"
       },
-      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:Fisher04A, Fisher04B}}.json"
+      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:Fisher04A, Fisher04B, Fisher04C, Fisher04D}}.json"
     },
     {
       "Action": "Include",
@@ -414,7 +414,7 @@
       "When":{
         "HasFlag": "RandomizeMainBundles"
       },
-      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:Fisher06A, Fisher06B}}.json"
+      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:Fisher06A, Fisher06B, Fisher06C, Fisher06C, Fisher06C, Fisher06C, Fisher06C, Fisher06C, Fisher06C, Fisher06C}}.json"
     },
     //Bulletin Board Bundle Randomization
     {
@@ -450,14 +450,14 @@
       "When":{
         "HasFlag": "RandomizeMainBundles"
       },
-      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:BulletinBoard05A, BulletinBoard05B}}.json"
+      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:BulletinBoard05A, BulletinBoard05B, BulletinBoard05C}}.json"
     },
     {
       "Action": "Include",
       "When":{
         "HasFlag": "RandomizeMainBundles"
       },
-      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:BulletinBoard06A, BulletinBoard06B}}.json"
+      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:BulletinBoard06A, BulletinBoard06B, BulletinBoard06C}}.json"
     },
     //Boiler Room Bundle Randomization
     {
@@ -479,7 +479,7 @@
       "When":{
         "HasFlag": "RandomizeMainBundles"
       },
-      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:Boiler03A, Boiler03B}}.json"
+      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:Boiler03A, Boiler03B, Boiler03C}}.json"
     },
     {
       "Action": "Include",
@@ -493,7 +493,7 @@
       "When":{
         "HasFlag": "RandomizeMainBundles"
       },
-      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:Boiler05A, Boiler05B}}.json"
+      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:Boiler05A, Boiler05B, Boiler05C, Boiler05C, Boiler05C, Boiler05C, Boiler05C, Boiler05C, Boiler05C, Boiler05C, Boiler05C, Boiler05C}}.json"
     },
     {
       "Action": "Include",
@@ -543,7 +543,7 @@
       "When":{
         "HasFlag": "RandomizeMainBundles"
       },
-      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:Vault06A, Vault06B}}.json"
+      "FromFile": "Data/Bundles/RandomizeMainBundles/{{Random:Vault06A, Vault06B, Vault06C}}.json"
     }
   ]
 }
