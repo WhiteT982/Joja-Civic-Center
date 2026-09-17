@@ -12,7 +12,7 @@
                 "blue704.JojaCC_TreasureHuntBundle01": {
           "Location": "JojaCC",
 		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle01}}",
-		  "BundleIcon": "Children",
+		  "BundleIconAsset": "{{InternalAssetKey: assets/BundleIcons/children.png}}",
 		  "BundleSlots": 1,
           "ShopPosition": "30, 10",
 		  "SpecialPlacementRequirements":  [],
@@ -91,7 +91,7 @@
                 "blue704.JojaCC_TreasureHuntBundle01": {
           "Location": "JojaCC",
 		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle07}}",
-		  "BundleIcon": "Children",
+		  "BundleIconAsset": "{{InternalAssetKey: assets/BundleIcons/children.png}}",
 		  "BundleSlots": 1,
           "ShopPosition": "30, 10",
 		  "SpecialPlacementRequirements":  [],
@@ -170,7 +170,7 @@
                 "blue704.JojaCC_TreasureHuntBundle01": {
           "Location": "JojaCC",
 		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle13}}",
-		  "BundleIcon": "Children",
+		  "BundleIconAsset": "{{InternalAssetKey: assets/BundleIcons/children.png}}",
 		  "BundleSlots": 1,
           "ShopPosition": "30, 10",
 		  "SpecialPlacementRequirements":  [],
@@ -249,7 +249,7 @@
                 "blue704.JojaCC_TreasureHuntBundle01": {
           "Location": "JojaCC",
 		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle19}}",
-		  "BundleIcon": "Children",
+		  "BundleIconAsset": "{{InternalAssetKey: assets/BundleIcons/children.png}}",
 		  "BundleSlots": 1,
           "ShopPosition": "30, 10",
 		  "SpecialPlacementRequirements":  [],
@@ -328,7 +328,7 @@
                 "blue704.JojaCC_TreasureHuntBundle01": {
           "Location": "JojaCC",
 		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundleA}}",
-		  "BundleIcon": "Children",
+		  "BundleIconAsset": "{{InternalAssetKey: assets/BundleIcons/children.png}}",
 		  "BundleSlots": 1,
           "ShopPosition": "30, 10",
 		  "SpecialPlacementRequirements":  [],
@@ -424,7 +424,7 @@
                 "blue704.JojaCC_TreasureHuntBundle02": {
           "Location": "JojaCC",
 		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle02}}",
-		  "BundleIcon": "Children",
+		  "BundleIconAsset": "{{InternalAssetKey: assets/BundleIcons/children.png}}",
 		  "BundleSlots": 1,
           "ShopPosition": "30, 10",
 		  "SpecialPlacementRequirements":  [
@@ -511,7 +511,7 @@
                 "blue704.JojaCC_TreasureHuntBundle02": {
           "Location": "JojaCC",
 		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle08}}",
-		  "BundleIcon": "Children",
+		  "BundleIconAsset": "{{InternalAssetKey: assets/BundleIcons/children.png}}",
 		  "BundleSlots": 1,
           "ShopPosition": "30, 10",
 		  "SpecialPlacementRequirements":  [
@@ -597,7 +597,7 @@
                 "blue704.JojaCC_TreasureHuntBundle02": {
           "Location": "JojaCC",
 		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle14}}",
-		  "BundleIcon": "Children",
+		  "BundleIconAsset": "{{InternalAssetKey: assets/BundleIcons/children.png}}",
 		  "BundleSlots": 1,
           "ShopPosition": "30, 10",
 		  "SpecialPlacementRequirements":  [
@@ -683,7 +683,7 @@
                 "blue704.JojaCC_TreasureHuntBundle02": {
           "Location": "JojaCC",
 		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle20}}",
-		  "BundleIcon": "Children",
+		  "BundleIconAsset": "{{InternalAssetKey: assets/BundleIcons/children.png}}",
 		  "BundleSlots": 1,
           "ShopPosition": "30, 10",
 		  "SpecialPlacementRequirements":  [
@@ -769,7 +769,7 @@
                 "blue704.JojaCC_TreasureHuntBundle02": {
           "Location": "JojaCC",
 		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundleB}}",
-		  "BundleIcon": "Children",
+		  "BundleIconAsset": "{{InternalAssetKey: assets/BundleIcons/children.png}}",
 		  "BundleSlots": 1,
           "ShopPosition": "30, 10",
 		  "SpecialPlacementRequirements":  [
@@ -855,7 +855,7 @@
                 "blue704.JojaCC_TreasureHuntBundle03": {
           "Location": "JojaCC",
 		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle03}}",
-		  "BundleIcon": "Children",
+		  "BundleIconAsset": "{{InternalAssetKey: assets/BundleIcons/children.png}}",
 		  "BundleSlots": 1,
           "ShopPosition": "30, 10",
 		  "SpecialPlacementRequirements":  [
@@ -938,7 +938,7 @@
                 "blue704.JojaCC_TreasureHuntBundle03": {
           "Location": "JojaCC",
 		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle09}}",
-		  "BundleIcon": "Children",
+		  "BundleIconAsset": "{{InternalAssetKey: assets/BundleIcons/children.png}}",
 		  "BundleSlots": 1,
           "ShopPosition": "30, 10",
 		  "SpecialPlacementRequirements":  [
@@ -1021,7 +1021,7 @@
                 "blue704.JojaCC_TreasureHuntBundle03": {
           "Location": "JojaCC",
 		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle15}}",
-		  "BundleIcon": "Children",
+		  "BundleIconAsset": "{{InternalAssetKey: assets/BundleIcons/children.png}}",
 		  "BundleSlots": 1,
           "ShopPosition": "30, 10",
 		  "SpecialPlacementRequirements":  [
@@ -1104,7 +1104,7 @@
                 "blue704.JojaCC_TreasureHuntBundle03": {
           "Location": "JojaCC",
 		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle21}}",
-		  "BundleIcon": "Children",
+		  "BundleIconAsset": "{{InternalAssetKey: assets/BundleIcons/children.png}}",
 		  "BundleSlots": 1,
           "ShopPosition": "30, 10",
 		  "SpecialPlacementRequirements":  [
@@ -1187,7 +1187,7 @@
                 "blue704.JojaCC_TreasureHuntBundle03": {
           "Location": "JojaCC",
 		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundleC}}",
-		  "BundleIcon": "Children",
+		  "BundleIconAsset": "{{InternalAssetKey: assets/BundleIcons/children.png}}",
 		  "BundleSlots": 1,
           "ShopPosition": "30, 10",
 		  "SpecialPlacementRequirements":  [
@@ -1270,7 +1270,7 @@
                 "blue704.JojaCC_TreasureHuntBundle04": {
           "Location": "JojaCC",
 		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle04}}",
-		  "BundleIcon": "Children",
+		  "BundleIconAsset": "{{InternalAssetKey: assets/BundleIcons/children.png}}",
 		  "BundleSlots": 1,
           "ShopPosition": "30, 10",
 		  "SpecialPlacementRequirements":  [
@@ -1358,7 +1358,7 @@
                 "blue704.JojaCC_TreasureHuntBundle04": {
           "Location": "JojaCC",
 		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle10}}",
-		  "BundleIcon": "Children",
+		  "BundleIconAsset": "{{InternalAssetKey: assets/BundleIcons/children.png}}",
 		  "BundleSlots": 1,
           "ShopPosition": "30, 10",
 		  "SpecialPlacementRequirements":  [
@@ -1429,7 +1429,7 @@
                 "blue704.JojaCC_TreasureHuntBundle04": {
           "Location": "JojaCC",
 		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle10}}",
-		  "BundleIcon": "Children",
+		  "BundleIconAsset": "{{InternalAssetKey: assets/BundleIcons/children.png}}",
 		  "BundleSlots": 1,
           "ShopPosition": "30, 10",
 		  "SpecialPlacementRequirements":  [
@@ -1516,7 +1516,7 @@
                 "blue704.JojaCC_TreasureHuntBundle04": {
           "Location": "JojaCC",
 		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle16}}",
-		  "BundleIcon": "Children",
+		  "BundleIconAsset": "{{InternalAssetKey: assets/BundleIcons/children.png}}",
 		  "BundleSlots": 1,
           "ShopPosition": "30, 10",
 		  "SpecialPlacementRequirements":  [
@@ -1603,7 +1603,7 @@
                 "blue704.JojaCC_TreasureHuntBundle04": {
           "Location": "JojaCC",
 		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle22}}",
-		  "BundleIcon": "Children",
+		  "BundleIconAsset": "{{InternalAssetKey: assets/BundleIcons/children.png}}",
 		  "BundleSlots": 1,
           "ShopPosition": "30, 10",
 		  "SpecialPlacementRequirements":  [
@@ -1690,7 +1690,7 @@
                 "blue704.JojaCC_TreasureHuntBundle04": {
           "Location": "JojaCC",
 		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundleD}}",
-		  "BundleIcon": "Children",
+		  "BundleIconAsset": "{{InternalAssetKey: assets/BundleIcons/children.png}}",
 		  "BundleSlots": 1,
           "ShopPosition": "30, 10",
 		  "SpecialPlacementRequirements":  [
@@ -1779,7 +1779,7 @@
                 "blue704.JojaCC_TreasureHuntBundle05": {
           "Location": "JojaCC",
 		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle05}}",
-		  "BundleIcon": "Children",
+		  "BundleIconAsset": "{{InternalAssetKey: assets/BundleIcons/children.png}}",
 		  "BundleSlots": 1,
           "ShopPosition": "30, 10",
 		  "SpecialPlacementRequirements":  [
@@ -1866,7 +1866,7 @@
                 "blue704.JojaCC_TreasureHuntBundle05": {
           "Location": "JojaCC",
 		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle05}}",
-		  "BundleIcon": "Children",
+		  "BundleIconAsset": "{{InternalAssetKey: assets/BundleIcons/children.png}}",
 		  "BundleSlots": 1,
           "ShopPosition": "30, 10",
 		  "SpecialPlacementRequirements":  [
@@ -1951,7 +1951,7 @@
                 "blue704.JojaCC_TreasureHuntBundle05": {
           "Location": "JojaCC",
 		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle11}}",
-		  "BundleIcon": "Children",
+		  "BundleIconAsset": "{{InternalAssetKey: assets/BundleIcons/children.png}}",
 		  "BundleSlots": 1,
           "ShopPosition": "30, 10",
 		  "SpecialPlacementRequirements":  [
@@ -2036,7 +2036,7 @@
                 "blue704.JojaCC_TreasureHuntBundle05": {
           "Location": "JojaCC",
 		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle17}}",
-		  "BundleIcon": "Children",
+		  "BundleIconAsset": "{{InternalAssetKey: assets/BundleIcons/children.png}}",
 		  "BundleSlots": 1,
           "ShopPosition": "30, 10",
 		  "SpecialPlacementRequirements":  [
@@ -2121,7 +2121,7 @@
                 "blue704.JojaCC_TreasureHuntBundle05": {
           "Location": "JojaCC",
 		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle23}}",
-		  "BundleIcon": "Children",
+		  "BundleIconAsset": "{{InternalAssetKey: assets/BundleIcons/children.png}}",
 		  "BundleSlots": 1,
           "ShopPosition": "30, 10",
 		  "SpecialPlacementRequirements":  [
@@ -2206,7 +2206,7 @@
                 "blue704.JojaCC_TreasureHuntBundle05": {
           "Location": "JojaCC",
 		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundleE}}",
-		  "BundleIcon": "Children",
+		  "BundleIconAsset": "{{InternalAssetKey: assets/BundleIcons/children.png}}",
 		  "BundleSlots": 1,
           "ShopPosition": "30, 10",
 		  "SpecialPlacementRequirements":  [
@@ -2293,7 +2293,7 @@
                "blue704.JojaCC_TreasureHuntBundle06": {
           "Location": "JojaCC",
 		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle06}}",
-		  "BundleIcon": "Children",
+		  "BundleIconAsset": "{{InternalAssetKey: assets/BundleIcons/children.png}}",
 		  "BundleSlots": 1,
           "ShopPosition": "30, 10",
 		  "SpecialPlacementRequirements":  [
@@ -2381,7 +2381,7 @@
                "blue704.JojaCC_TreasureHuntBundle06": {
           "Location": "JojaCC",
 		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle06}}",
-		  "BundleIcon": "Children",
+		  "BundleIconAsset": "{{InternalAssetKey: assets/BundleIcons/children.png}}",
 		  "BundleSlots": 1,
           "ShopPosition": "30, 10",
 		  "SpecialPlacementRequirements":  [
@@ -2467,7 +2467,7 @@
                "blue704.JojaCC_TreasureHuntBundle06": {
           "Location": "JojaCC",
 		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle12}}",
-		  "BundleIcon": "Children",
+		  "BundleIconAsset": "{{InternalAssetKey: assets/BundleIcons/children.png}}",
 		  "BundleSlots": 1,
           "ShopPosition": "30, 10",
 		  "SpecialPlacementRequirements":  [
@@ -2553,7 +2553,7 @@
                "blue704.JojaCC_TreasureHuntBundle06": {
           "Location": "JojaCC",
 		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle18}}",
-		  "BundleIcon": "Children",
+		  "BundleIconAsset": "{{InternalAssetKey: assets/BundleIcons/children.png}}",
 		  "BundleSlots": 1,
           "ShopPosition": "30, 10",
 		  "SpecialPlacementRequirements":  [
@@ -2639,7 +2639,7 @@
                "blue704.JojaCC_TreasureHuntBundle06": {
           "Location": "JojaCC",
 		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundle24}}",
-		  "BundleIcon": "Children",
+		  "BundleIconAsset": "{{InternalAssetKey: assets/BundleIcons/children.png}}",
 		  "BundleSlots": 1,
           "ShopPosition": "30, 10",
 		  "SpecialPlacementRequirements":  [
@@ -2727,7 +2727,7 @@
                "blue704.JojaCC_TreasureHuntBundle06": {
           "Location": "JojaCC",
 		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundleF}}",
-		  "BundleIcon": "Children",
+		  "BundleIconAsset": "{{InternalAssetKey: assets/BundleIcons/children.png}}",
 		  "BundleSlots": 1,
           "ShopPosition": "30, 10",
 		  "SpecialPlacementRequirements":  [
@@ -2815,7 +2815,7 @@
                "blue704.JojaCC_TreasureHuntBundle06": {
           "Location": "JojaCC",
 		  "BundleName": "{{i18n: blue704.JojaCC_TreasureHuntBundleF}}",
-		  "BundleIcon": "Children",
+		  "BundleIconAsset": "{{InternalAssetKey: assets/BundleIcons/children.png}}",
 		  "BundleSlots": 1,
           "ShopPosition": "30, 10",
 		  "SpecialPlacementRequirements":  [
