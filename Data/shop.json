@@ -817,6 +817,62 @@
           ]
           }
       }
-      }
+      },
+      {
+    //Gus Sells Joja Alcohol
+      "When": {
+        "HasFlag": "GusSellsJojaAlcoholMail"
+      },
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "Saloon",
+        "Items"
+      ],
+      "Entries": {
+        "Joja Wine": {
+              "ItemId": "Adam.Joja_Wine",
+              "Price": 1500
+            },
+            "Joja Pale Ale": {
+              "ItemId": "Adam.Joja_PaleAle",
+              "Price": 400
+            },
+            "Joja Mead": {
+              "ItemId": "Adam.Joja_Mead",
+              "Price": 800
+            },
+            "Joja Premium Mead": {
+              "ItemId": "Adam.Joja_PremiumMead",
+              "Price": 3000
+            },
+            "Joja Beer": {
+              "ItemId": "Adam.Joja_Beer",
+              "Price": 300
+            }
+          },
+          "MoveEntries": [
+                { 
+                  "Id": "Adam.Joja_Beer",
+                  "BeforeId": "(O)196" 
+                },
+                { 
+                  "Id": "Adam.Joja_PaleAle",
+                  "BeforeId": "(O)196" 
+                },
+                { 
+                  "Id": "Adam.Joja_Mead",
+                  "BeforeId": "(O)196" 
+                },
+                { 
+                  "Id": "Adam.Joja_Wine",
+                  "BeforeId": "(O)196" 
+                },
+                { 
+                  "Id": "Adam.Joja_PremiumMead",
+                  "BeforeId": "(O)196" 
+                }
+            ]
+     }
   ]
 }
