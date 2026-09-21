@@ -27,6 +27,12 @@
       "Section": "Bundle Addons",
       "Description": "Must have Cornucopia-More Crops installed. Must also enable \"Enable Extended Crops Pack\" and \"Enable Herbs Pack\" in the Cornucopia config."
     },
+    "Alternate Joja CC Location": {
+      "AllowValues": "Default, North Pelican Town, Joja Mart, Museum",
+      "Default": "Default",
+      "Section": "Alternate Locations/Entrances",
+      "Description": "If changing Joja CC locations mid save you WILL need to use a Terrain Features Reset mod to remove bushes/debris."
+    },
     "Alternate Fish Farm Location": {
       "AllowValues": "Default, Alternate 1, Alternate 2",
       "Default": "Default",
@@ -47,7 +53,7 @@
     },
     {
       "When": {
-        "HasFlag": "RemoveJojaCCclosedSign"
+        "HasFlag": "ReleaseTheNPCsMail"
       },
       "Action": "Include",
       "FromFile": "Data/schedules.json"
@@ -63,6 +69,35 @@
          "FromArea": { "X": 21, "Y": 0, "Width": 67, "Height": 32 },
          "ToArea": { "X": 21, "Y": 0, "Width": 67, "Height": 32 }
       },
+//Alternate Joja CC Locations
+      {
+      "Action": "Include",
+      "FromFile": "Data/MapPatches/JojaCCLocations/Default.json",
+      "When": {
+        "Alternate Joja CC Location": "Default"
+      }
+    },
+    {
+      "Action": "Include",
+      "FromFile": "Data/MapPatches/JojaCCLocations/NorthPelicanTown.json",
+      "When": {
+        "Alternate Joja CC Location": "North Pelican Town"
+      }
+    },
+    {
+      "Action": "Include",
+      "FromFile": "Data/MapPatches/JojaCCLocations/JojaMart.json",
+      "When": {
+        "Alternate Joja CC Location": "Joja Mart"
+      }
+    },
+    {
+      "Action": "Include",
+      "FromFile": "Data/MapPatches/JojaCCLocations/Museum.json",
+      "When": {
+        "Alternate Joja CC Location": "Museum"
+      }
+    },
     //Order Board Includes
     {
       "When": {
