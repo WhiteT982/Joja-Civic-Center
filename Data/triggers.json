@@ -32,6 +32,21 @@
           }
           },
           {
+      //Release the NPCs!
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "ReleaseTheNPCsMail": {
+          "Id": "ReleaseTheNPCsMail",
+          "Trigger": "DayEnding",
+          "Condition": "DAYS_PLAYED 4",
+          "Actions": [
+            "AddMail all ReleaseTheNPCsMail received"
+          ]
+        }
+          }
+          },
+          {
           //Joja CC Order Board Built and Triggers
       "Action": "EditData",
       "Target": "Data/TriggerActions",
