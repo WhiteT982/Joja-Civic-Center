@@ -669,7 +669,7 @@
 "config.Alternate Fish Farm Location.values.Alternate 2": "Alternate 2",
 "config.Alternate Fish Farm Location.description": "Places Willy's Fish Farm in a new location for compatibility reasons. Avoid changing this value after the fish farm is built. It will not break your game, but there will be a few minor errors. Select Default to place fish farm in vanilla tide pool location. Select either Alternate to place fish farm in a new area to the East of the vanilla tide pools.",
 "config.Alternate Joja CC Location.name": "Alternate Joja CC Location",
-"config.Alternate Joja CC Location.values.Default": "Default",
+"config.Alternate Joja CC Location.values.Above Pierre's": "Above Pierre's",
 "config.Alternate Joja CC Location.values.North Pelican Town": "North Pelican Town",
 "config.Alternate Joja CC Location.values.Joja Mart": "Joja Mart",
 "config.Alternate Joja CC Location.values.Museum": "Museum",
