@@ -28,7 +28,7 @@
       "Description": "Must have Cornucopia-More Crops installed. Must also enable \"Enable Extended Crops Pack\" and \"Enable Herbs Pack\" in the Cornucopia config."
     },
     "Alternate Joja CC Location": {
-      "AllowValues": "Joja Mart, North Pelican Town, Above Pierre's, Museum",
+      "AllowValues": "Joja Mart, North Pelican Town, Above Pierre's, Above Alex's, Museum",
       "Default": "Joja Mart",
       "Section": "Alternate Locations/Entrances",
       "Description": "If changing Joja CC locations mid save you WILL need to use a Terrain Features Reset mod to remove bushes/debris."
@@ -75,6 +75,13 @@
       "FromFile": "Data/MapPatches/JojaCCLocations/AbovePierres.json",
       "When": {
         "Alternate Joja CC Location": "Above Pierre's"
+      }
+    },
+    {
+      "Action": "Include",
+      "FromFile": "Data/MapPatches/JojaCCLocations/AboveAlexs.json",
+      "When": {
+        "Alternate Joja CC Location": "Above Alex's"
       }
     },
     {
