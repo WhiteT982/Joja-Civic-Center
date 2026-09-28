@@ -300,6 +300,8 @@
 					"Price": {
 						"(O)Carrot": 1,
 						"(O)24": 1,
+						"(O)Rafseazz.RSVCP_Mountain_Arugula": 1,
+						"(O)Rafseazz.RSVCP_Ridge_Cherry": 1,
 						"(O)192": 1,
 						"(O)250": 1,
 						"(O)188": 1,
@@ -341,6 +343,9 @@
 						"(O)270": 1,
 						"(O)254": 1,
 						"(O)256": 1,
+						"(O)Rafseazz.RSVCP_Ridge_Wild_Apple": 1,
+						"(O)Rafseazz.RSVCP_Mountain_Chico": 1,
+						"(O)Rafseazz.RSVCP_Mountain_Hokkaido": 1,
 						"(O)421": 1
 					},
 					"RandomPriceEntries": 8,
@@ -369,6 +374,8 @@
 						"(O)272": 1,
 						"(O)300": 1,
 						"(O)274": 1,
+						"(O)Rafseazz.RSVCP_Highland_Chard": 1,
+						"(O)Rafseazz.RSVCP_Highland_Butterwort": 1,
 						"(O)284": 1,
 						"(O)282": 1,
 						"(O)276": 1,
@@ -417,7 +424,14 @@
 						"(O)250:Gold": 3,
 						"(O)188:Gold": 3,
 						"(O)190:Gold": 3,
-						"(O)400:Gold": 3
+						"(O)400:Gold": 3,
+						"(O)Rafseazz.RSVCP_Ridge_Cherry:Gold": 3,
+						"(O)Rafseazz.RSVCP_Mountain_Arugula:Gold": 3,
+						"(O)Rafseazz.RSVCP_Ridge_Wild_Apple:Gold": 3,
+						"(O)Rafseazz.RSVCP_Mountain_Hokkaido:Gold": 3,
+						"(O)Rafseazz.RSVCP_Highland_Chard:Gold": 3,
+						"(O)Rafseazz.RSVCP_Highland_Butterwort:Gold": 3,
+						"(O)Rafseazz.RSVCP_Mountain_Chico:Gold": 3
 					},
 					"RandomPriceEntries": 7,
 					"BundleReward": {
@@ -1918,7 +1932,14 @@
 						"(O)250:Iridium": 3,
 						"(O)188:Iridium": 3,
 						"(O)190:Iridium": 3,
-						"(O)400:Iridium": 3
+						"(O)400:Iridium": 3,
+						"(O)Rafseazz.RSVCP_Ridge_Cherry:Iridium": 3,
+						"(O)Rafseazz.RSVCP_Mountain_Arugula:Iridium": 3,
+						"(O)Rafseazz.RSVCP_Ridge_Wild_Apple:Iridium": 3,
+						"(O)Rafseazz.RSVCP_Mountain_Hokkaido:Iridium": 3,
+						"(O)Rafseazz.RSVCP_Highland_Chard:Iridium": 3,
+						"(O)Rafseazz.RSVCP_Highland_Butterwort:Iridium": 3,
+						"(O)Rafseazz.RSVCP_Mountain_Chico:Iridium": 3
 					},
 					"RandomPriceEntries": 8,
 					"BundleReward": {
@@ -2112,7 +2133,14 @@
 						"(O)Cornucopia_Turnip:Iridium": 3,
 						"(O)Cornucopia_CuminSeeds:Iridium": 3,
 						"(O)Cornucopia_Lentils:Iridium": 3,
-						"(O)Cornucopia_Soybeans:Iridium": 3
+						"(O)Cornucopia_Soybeans:Iridium": 3,
+						"(O)Rafseazz.RSVCP_Ridge_Cherry:Iridium": 3,
+						"(O)Rafseazz.RSVCP_Mountain_Arugula:Iridium": 3,
+						"(O)Rafseazz.RSVCP_Ridge_Wild_Apple:Iridium": 3,
+						"(O)Rafseazz.RSVCP_Mountain_Hokkaido:Iridium": 3,
+						"(O)Rafseazz.RSVCP_Highland_Chard:Iridium": 3,
+						"(O)Rafseazz.RSVCP_Highland_Butterwort:Iridium": 3,
+						"(O)Rafseazz.RSVCP_Mountain_Chico:Iridium": 3
 					},
 					"RandomPriceEntries": 8,
 					"BundleReward": {

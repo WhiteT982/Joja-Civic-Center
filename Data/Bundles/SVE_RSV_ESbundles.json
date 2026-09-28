@@ -2199,15 +2199,16 @@
 					"DrawQuestionMark": false, 
 					"BundleSlots": 9,
                     "Price": {
-						"(O)597": 1,
 						"(O)591": 1,
 						"(O)593": 1,
                         "(O)595": 1,
 						"(O)Cornucopia_CanolaFlower": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Swamp_Flower": 1,
-						"(O)376": 1,
-                        "(O)418": 1,
-						"(O)402": 1
+						"(O)EastScarp_Serruria": 1,
+						"(O)EastScarp_Azure_Chrysanthemum": 1,
+						"(O)EastScarp_Bird_Of_Paradise": 1,
+						"(O)Rafseazz.RSVCP_Ridgeside_Monkshood": 1,
+						"(O)Rafseazz.RSVCP_Highland_Butterwort": 1,
+						"(O)Rafseazz.RSVCP_Violet_Devil_s_Claw": 1
 					},
 					"BundleReward": {
 						"(F)1971": 1,
