@@ -34,8 +34,8 @@
       "Description": "If changing Joja CC locations mid save you WILL need to use a Terrain Features Reset mod to remove bushes/debris."
     },
     "Alternate Fish Farm Location": {
-      "AllowValues": "Default, Alternate 1, Alternate 2",
-      "Default": "Default",
+      "AllowValues": "Vanilla, Alternate 1, Alternate 2",
+      "Default": "Alternate 1",
       "Section": "Alternate Locations/Entrances",
       "Description": "Places Willy's Fish Farm in a new location for compatibility reasons. Avoid changing this value after the fish farm is built. It will not break your game, but there will be a few minor errors. Select Default to place fish farm in vanilla tide pool location. Select either Alternate to place fish farm in a new area to the East of the vanilla tide pools."
     },
