@@ -1018,7 +1018,7 @@
 					"BookId": "blue704.JojaCC_BulletinBoardBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 8,
+					"BundleSlots": 7,
 					"Price": {
 						"(O)174": 6,
 						"(O)182": 6,
