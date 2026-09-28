@@ -153,6 +153,9 @@
     //Maru Schedule Edit
     {
       "Action": "EditData",
+      "When": {
+        "HasFlag": "TreasureHuntComplete"
+      },
       "Target": "characters/schedules/Maru",
       "Entries": {
          "Mon": "800 ScienceHouse 5 6 1 maru_tinker/1000 ScienceHouse 19 18 0/1330 JojaCC 23 8 2 maru_sit_down \"Strings\\schedules\\Maru:MaruJojaCC\"/1830 ScienceHouse 5 6 1 maru_tinker/2300 ScienceHouse 2 4 3 maru_sleep",
@@ -162,6 +165,9 @@
     //Penny Schedule Edit
     {
       "Action": "EditData",
+      "When": {
+        "HasFlag": "TreasureHuntComplete"
+      },
       "Target": "characters/schedules/Penny",
       "Entries": {
          "Mon": "800 Town 35 89 2 penny_read/1230 Trailer 12 6 0 penny_dishes/1400 JojaCC 24 8 2 penny_sit \"Strings\\schedules\\Penny:PennyJojaCC\"/1840 Trailer 4 9 1 penny_sleep"
