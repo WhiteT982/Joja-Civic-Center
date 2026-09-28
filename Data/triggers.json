@@ -660,7 +660,7 @@
           "Trigger": "DayEnding",
           "Condition": "PLAYER_HAS_MAIL any JojaCC_FisherBundleBookComplete received, DAY_OF_WEEK Saturday",
           "Actions": [
-            "AddMail current FishFarmLocationAdded received"
+            "AddMail all FishFarmLocationAdded received"
           ]
         }
           }
@@ -688,7 +688,7 @@
           "Trigger": "DayStarted",
           "Condition": "PLAYER_HAS_MAIL any FishFarmLocationAdded received",
           "Actions": [
-            "AddMail current FishFarmBuildingsAdded received"
+            "AddMail all FishFarmBuildingsAdded received"
           ]
         }
           }
