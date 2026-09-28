@@ -2501,38 +2501,59 @@
 					"BundleSlots": 5,
                     "PriceSpawnFields": [
 			  {
-				  "ItemId": "RANDOM_ITEMS (O)",
-				  "PerItemCondition": "ITEM_CATEGORY Target -4, !ITEM_CONTEXT_TAG Target fish_legendary",
+				  "RandomItemId": [
+					"(O)138",
+					"(O)136",
+					"(O)142"
+				],
 				  "MaxItems": 1,
 				  "Quality": 2
 			  },
 			  {
-				  "ItemId": "RANDOM_ITEMS (O)",
-				  "PerItemCondition": "ITEM_CATEGORY Target -4, !ITEM_CONTEXT_TAG Target fish_legendary",
+				  "RandomItemId": [
+					"(O)154",
+					"(O)129",
+					"(O)146",
+					"(O)147"
+				],
 				  "MaxItems": 1,
 				  "Quality": 2
 			  },
 			  {
-				  "ItemId": "RANDOM_ITEMS (O)",
-				  "PerItemCondition": "ITEM_CATEGORY Target -4, !ITEM_CONTEXT_TAG Target fish_legendary",
+				   "RandomItemId": [
+					"(O)139",
+					"(O)137",
+					"(O)144"
+				],
 				  "MaxItems": 1,
 				  "Quality": 2
 			  },
 			  {
-				  "ItemId": "RANDOM_ITEMS (O)",
-				  "PerItemCondition": "ITEM_CATEGORY Target -4, !ITEM_CONTEXT_TAG Target fish_legendary",
+				  "RandomItemId": [
+					"(O)698",
+					"(O)700",
+					"(O)702"
+				],
 				  "MaxItems": 1,
 				  "Quality": 2
 			  },
 			  {
-				  "ItemId": "RANDOM_ITEMS (O)",
-				  "PerItemCondition": "ITEM_CATEGORY Target -4, !ITEM_CONTEXT_TAG Target fish_legendary",
+				  "RandomItemId": [
+					"(O)267",
+					"(O)130",
+					"(O)708",
+					"(O)701"
+				],
 				  "MaxItems": 1,
 				  "Quality": 2
 			  },
 			  {
-				  "ItemId": "RANDOM_ITEMS (O)",
-				  "PerItemCondition": "ITEM_CATEGORY Target -4, !ITEM_CONTEXT_TAG Target fish_legendary",
+				  "RandomItemId": [
+					"(O)699",
+					"(O)706",
+					"(O)132",
+					"(O)145"
+				],
 				  "MaxItems": 1,
 				  "Quality": 2
 			  }
@@ -6662,38 +6683,55 @@
 					"BundleSlots": 5,
                     "PriceSpawnFields": [
 			  {
-				  "ItemId": "RANDOM_ITEMS (O)",
-				  "PerItemCondition": "ITEM_CATEGORY Target -4, !ITEM_CONTEXT_TAG Target fish_legendary",
+				  "RandomItemId": [
+					"(O)140",
+					"(O)136",
+					"(O)269"
+				],
 				  "MaxItems": 1,
 				  "Quality": 4
 			  },
 			  {
-				  "ItemId": "RANDOM_ITEMS (O)",
-				  "PerItemCondition": "ITEM_CATEGORY Target -4, !ITEM_CONTEXT_TAG Target fish_legendary",
+				  "RandomItemId": [
+					"(O)154",
+					"(O)149",
+					"(O)148",
+					"(O)150"
+				],
 				  "MaxItems": 1,
 				  "Quality": 4
 			  },
 			  {
-				  "ItemId": "RANDOM_ITEMS (O)",
-				  "PerItemCondition": "ITEM_CATEGORY Target -4, !ITEM_CONTEXT_TAG Target fish_legendary",
+				   "RandomItemId": [
+					"(O)704",
+					"(O)699"
+				],
 				  "MaxItems": 1,
 				  "Quality": 4
 			  },
 			  {
-				  "ItemId": "RANDOM_ITEMS (O)",
-				  "PerItemCondition": "ITEM_CATEGORY Target -4, !ITEM_CONTEXT_TAG Target fish_legendary",
+				  "RandomItemId": [
+					"(O)698",
+					"(O)707",
+					"(O)141"
+				],
 				  "MaxItems": 1,
 				  "Quality": 4
 			  },
 			  {
-				  "ItemId": "RANDOM_ITEMS (O)",
-				  "PerItemCondition": "ITEM_CATEGORY Target -4, !ITEM_CONTEXT_TAG Target fish_legendary",
+				  "RandomItemId": [
+					"(O)151",
+					"(O)155",
+					"(O)128"
+				],
 				  "MaxItems": 1,
 				  "Quality": 4
 			  },
 			  {
-				  "ItemId": "RANDOM_ITEMS (O)",
-				  "PerItemCondition": "ITEM_CATEGORY Target -4, !ITEM_CONTEXT_TAG Target fish_legendary",
+				  "RandomItemId": [
+					"(O)143",
+					"(O)144"
+				],
 				  "MaxItems": 1,
 				  "Quality": 4
 			  }
