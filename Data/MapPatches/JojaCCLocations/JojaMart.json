@@ -69,8 +69,8 @@
             },
             "Target": "Maps/JojaCC",
             "AddWarps": [
-                "32 23 Town 113 49",
-                "33 23 Town 114 49"
+                "32 23 Town 114 50",
+                "33 23 Town 115 50"
             ]
         },
         //SVE Map Edits
@@ -100,7 +100,7 @@
          "HasMod": "FlashShifter.StardewValleyExpandedCP"
     },
       "Target": "Maps/PROeventSVE",
-      "FromFile": "assets/Maps/z_TownJojaCC{{season}}.tmx",
+      "FromFile": "assets/Maps/z_TownSVEJojaCC{{season}}.tmx",
       "FromArea": {
         "X": 101,
         "Y": 40,
@@ -122,6 +122,22 @@
           "HasSeenEvent: anyPlayer |contains=5553210": false
     },
       "Target": "Maps/Town",
+      "FromFile": "assets/Maps/z_MorrisHousePatch{{season}}.tmx",
+      "ToArea": {
+        "X": 106,
+        "Y": 45,
+        "Width": 24,
+        "Height": 15
+      }
+        },
+        {
+    "Action": "EditMap",
+    "When": {
+          "HasMod": "FlashShifter.StardewValleyExpandedCP",
+          "HasSeenEvent: anyPlayer |contains=6663408": true,
+          "HasSeenEvent: anyPlayer |contains=5553210": false
+    },
+      "Target": "Maps/PROeventSVE",
       "FromFile": "assets/Maps/z_MorrisHousePatch{{season}}.tmx",
       "ToArea": {
         "X": 106,
