@@ -111,7 +111,7 @@
     {
         "Action": "EditData",
         "When": {
-                "Alternate Fish Farm Location": "Default"
+                "Alternate Fish Farm Location": "Vanilla"
                     },
       "LogName": "Joja CC Fisher Bundle Area Event Data",
       "Target": "Data/Events/FarmHouse",
