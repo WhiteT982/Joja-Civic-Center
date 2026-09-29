@@ -37,7 +37,7 @@
       "AllowValues": "Vanilla, Alternate 1, Alternate 2",
       "Default": "Alternate 1",
       "Section": "Alternate Locations/Entrances",
-      "Description": "Places Willy's Fish Farm in a new location for compatibility reasons. Avoid changing this value after the fish farm is built. It will not break your game, but there will be a few minor errors. Select Default to place fish farm in vanilla tide pool location. Select either Alternate to place fish farm in a new area to the East of the vanilla tide pools."
+      "Description": "Places Willy's Fish Farm in a new location for compatibility reasons. Avoid changing this value after the fish farm is built. It will not break your game, but there will be a few minor errors. Select Vanilla to place fish farm in vanilla tide pool location. Select either Alternate to place fish farm in a new area to the East of the vanilla tide pools."
     },
     "Alternate Leah's Woods Entrance": {
       "AllowValues": "true, false",
@@ -161,7 +161,8 @@
       "FromFile": "Data/Bundles/RSVbundles.json",
       "When": {
         "Choose Your Bundle Base": "RSV",
-        "Remixed Bundles": "false"
+        "Remixed Bundles": "false",
+        "Random Bundles": "false"
       }
     },
     {
@@ -169,7 +170,16 @@
       "FromFile": "Data/Bundles/RSVbundlesRemixed.json",
       "When": {
         "Choose Your Bundle Base": "RSV",
-        "Remixed Bundles": "true"
+        "Remixed Bundles": "true",
+        "Random Bundles": "false"
+      }
+    },
+    {
+      "Action": "Include",
+      "FromFile": "Data/Bundles/RSVbundlesRandom.json",
+      "When": {
+        "Choose Your Bundle Base": "RSV",
+        "Random Bundles": "true"
       }
     },
     //SVE Bundle Configs
@@ -178,7 +188,8 @@
       "FromFile": "Data/Bundles/SVEbundles.json",
       "When": {
         "Choose Your Bundle Base": "SVE",
-        "Remixed Bundles": "false"
+        "Remixed Bundles": "false",
+        "Random Bundles": "false"
       }
     },
     {
@@ -186,7 +197,16 @@
       "FromFile": "Data/Bundles/SVEbundlesRemixed.json",
       "When": {
         "Choose Your Bundle Base": "SVE",
-        "Remixed Bundles": "true"
+        "Remixed Bundles": "true",
+        "Random Bundles": "false"
+      }
+    },
+    {
+      "Action": "Include",
+      "FromFile": "Data/Bundles/SVEbundlesRandom.json",
+      "When": {
+        "Choose Your Bundle Base": "SVE",
+        "Random Bundles": "true"
       }
     },
     //ES Bundle Configs
@@ -195,7 +215,8 @@
       "FromFile": "Data/Bundles/ESbundles.json",
       "When": {
         "Choose Your Bundle Base": "East Scarp",
-        "Remixed Bundles": "false"
+        "Remixed Bundles": "false",
+        "Random Bundles": "false"
       }
     },
     {
@@ -203,7 +224,16 @@
       "FromFile": "Data/Bundles/ESbundlesRemixed.json",
       "When": {
         "Choose Your Bundle Base": "East Scarp",
-        "Remixed Bundles": "true"
+        "Remixed Bundles": "true",
+        "Random Bundles": "false"
+      }
+    },
+    {
+      "Action": "Include",
+      "FromFile": "Data/Bundles/ESbundlesRandom.json",
+      "When": {
+        "Choose Your Bundle Base": "East Scarp",
+        "Random Bundles": "true"
       }
     },
     //VMV Bundle Configs
@@ -212,7 +242,8 @@
       "FromFile": "Data/Bundles/VMVbundles.json",
       "When": {
         "Choose Your Bundle Base": "VMV",
-        "Remixed Bundles": "false"
+        "Remixed Bundles": "false",
+        "Random Bundles": "false"
       }
     },
     {
@@ -220,7 +251,16 @@
       "FromFile": "Data/Bundles/VMVbundlesRemixed.json",
       "When": {
         "Choose Your Bundle Base": "VMV",
-        "Remixed Bundles": "true"
+        "Remixed Bundles": "true",
+        "Random Bundles": "false"
+      }
+    },
+    {
+      "Action": "Include",
+      "FromFile": "Data/Bundles/VMVbundlesRandom.json",
+      "When": {
+        "Choose Your Bundle Base": "VMV",
+        "Random Bundles": "true"
       }
     },
     //SVE RSV ES Bundle Configs
@@ -229,7 +269,8 @@
       "FromFile": "Data/Bundles/SVE_RSV_ESbundles.json",
       "When": {
         "Choose Your Bundle Base": "SVE+RSV+ES",
-        "Remixed Bundles": "false"
+        "Remixed Bundles": "false",
+        "Random Bundles": "false"
       }
     },
     {
@@ -237,7 +278,16 @@
       "FromFile": "Data/Bundles/SVE_RSV_ESbundlesRemixed.json",
       "When": {
         "Choose Your Bundle Base": "SVE+RSV+ES",
-        "Remixed Bundles": "true"
+        "Remixed Bundles": "true",
+        "Random Bundles": "false"
+      }
+    },
+    {
+      "Action": "Include",
+      "FromFile": "Data/Bundles/SVE_RSV_ESbundlesRandom.json",
+      "When": {
+        "Choose Your Bundle Base": "SVE+RSV+ES",
+        "Random Bundles": "true"
       }
     },
     //SVE RSV ES VMV Bundle Configs
@@ -246,7 +296,8 @@
       "FromFile": "Data/Bundles/SVE_RSV_ES_VMVbundles.json",
       "When": {
         "Choose Your Bundle Base": "SVE+RSV+ES+VMV",
-        "Remixed Bundles": "false"
+        "Remixed Bundles": "false",
+        "Random Bundles": "false"
       }
     },
     {
@@ -254,7 +305,16 @@
       "FromFile": "Data/Bundles/SVE_RSV_ES_VMVbundlesRemixed.json",
       "When": {
         "Choose Your Bundle Base": "SVE+RSV+ES+VMV",
-        "Remixed Bundles": "true"
+        "Remixed Bundles": "true",
+        "Random Bundles": "false"
+      }
+    },
+    {
+      "Action": "Include",
+      "FromFile": "Data/Bundles/SVE_RSV_ES_VMVbundlesRandom.json",
+      "When": {
+        "Choose Your Bundle Base": "SVE+RSV+ES+VMV",
+        "Random Bundles": "true"
       }
     },
     //Alternate Fish Farm Config
@@ -263,7 +323,7 @@
       "FromFile": "Data/MapPatches/beach.json",
       "Update": "OnLocationChange",
       "When": {
-        "Alternate Fish Farm Location": "Default"
+        "Alternate Fish Farm Location": "Vanilla"
       }
     },
     {

@@ -925,7 +925,7 @@
         {
             "Action": "EditData",
             "When": {
-              "Alternate Fish Farm Location": "Default"
+              "Alternate Fish Farm Location": "Vanilla"
             },
       "Target": "Data/TriggerActions",
       "Entries": {
