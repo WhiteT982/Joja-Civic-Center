@@ -18,14 +18,16 @@
 					"BookId": "blue704.JojaCC_ForagerBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 5,
+					"BundleSlots": 7,
 					"Price": {
 						"(O)91": 1,
 						"(O)834": 1,
 						"(O)829": 1,
 						"(O)830": 1,
 						"(O)831": 1,
-                        "(O)832": 1
+                        "(O)832": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Big_Conch": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Dried_Sand_Dollar": 1
 					},
 					"BundleReward": {
 						"(BC)264": 1
@@ -54,10 +56,11 @@
 					"BookId": "blue704.JojaCC_ForagerBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 5,
+					"BundleSlots": 6,
 					"Price": {
 						"(O)153": 5,
-						"(O)157": 5,
+						"(O)FlashShifter.StardewValleyExpandedCP_Dulse_Seaweed": 5,
+						"(O)EastScarp_Wood_Duck_Feather": 1,
 						"(O)152": 2,
 						"(O)SeaJelly": 1,
 						"(O)RiverJelly": 1,
@@ -172,16 +175,21 @@
 					"BookId": "blue704.JojaCC_ForagerBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 5,
+					"BundleSlots": 7,
 					"Price": {
-						"(O)613": 1,
-						"(O)634": 1,
-						"(O)635": 1,
-						"(O)636": 1,
-						"(O)637": 1,
-						"(O)638": 1,
-						"(O)88": 1
+						"(O)Rafseazz.RSVCP_Paradise_Rangpur": 1,
+						"(O)Rafseazz.RSVCP_Mountain_Plumcot": 1,
+						"(O)Rafseazz.RSVCP_Desert_Tangelo": 1,
+						"(O)Rafseazz.RSVCP_Tropi_Ugli_Fruit": 1,
+						"(O)Rafseazz.RSVCP_Ember_Blood_Lime": 1,
+						"(O)Rafseazz.RSVCP_Cherry_Pluot": 1,
+						"(O)Rafseazz.RSVCP_Northern_Limequat": 1,
+						"(O)Rafseazz.RSVCP_Highland_Jostaberry": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Nectarine": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Pear": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Persimmon": 1
 					},
+					"RandomPriceEntries": 10,
 					"BundleReward": {
 						"(O)891": 2
 					},
@@ -246,14 +254,16 @@
 					"BookId": "blue704.JojaCC_ForagerBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 6,
+					"BundleSlots": 7,
 					"Price": {
 						"(O)404": 1,
 						"(O)420": 1,
 						"(O)422": 1,
 						"(O)257": 1,
 						"(O)281": 1,
-						"(O)430": 1
+						"(O)430": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Mushroom_Colony": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Poison_Mushroom": 1
 					},
 					"BundleReward": {
 						"(BC)MushroomLog": 2
@@ -283,7 +293,7 @@
 					"BookId": "blue704.JojaCC_ForagerBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 7,
+					"BundleSlots": 8,
 					"Price": {
 						"(O)404": 1,
 						"(O)420": 1,
@@ -292,7 +302,9 @@
 						"(O)281": 1,
 						"(O)430": 1,
 						"(O)Cornucopia_Shiitake": 1,
-						"(O)Cornucopia_ChickenoftheWoods": 1
+						"(O)Cornucopia_ChickenoftheWoods": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Mushroom_Colony": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Poison_Mushroom": 1
 					},
 					"BundleReward": {
 						"(BC)MushroomLog": 2
@@ -324,9 +336,9 @@
 					"BundleSlots": 6,
 					"Price": {
 						"(O)394": 1,
-						"(O)392": 1,
-						"(O)393": 1,
-						"(O)372": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Big_Conch": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Dried_Sand_Dollar": 1,
+						"(O)EastScarp_Pelican_Feather": 1,
 						"(O)719": 1,
 						"(O)723": 1,
 						"(O)718": 1,
@@ -359,14 +371,16 @@
 					"BookId": "blue704.JojaCC_ForagerBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 5,
+					"BundleSlots": 7,
                     "Price": {
 						"(O)92": 99,
 						"(O)292": 10,
 						"(O)Moss": 10,
 						"(O)724": 1,
 						"(O)725": 1,
-						"(O)726": 1
+						"(O)726": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Birch_Water": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Fir_Wax": 1
 					},
 					"BundleReward": {
 						"(O)MysticTreeSeed": 1
@@ -397,14 +411,14 @@
 					"DrawQuestionMark": false, 
 					"BundleSlots": 6,
                     "Price": {
-						"(O)404": 1,
-						"(O)420": 1,
+						"(O)Rafseazz.RSVCP_Ridgeside_Clementine": 1,
+						"(O)Rafseazz.RSVCP_Autumn_Drop_Berry": 1,
 						"(O)422": 1,
 						"(O)257": 1,
 						"(O)281": 1,
-						"(O)724": 1,
-						"(O)725": 1,
-						"(O)726": 1
+						"(O)FlashShifter.StardewValleyExpandedCP_Birch_Water": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Fir_Wax": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Mushroom_Colony": 1
 					},
 					"BundleReward": {
 						"(BC)MushroomLog": 2,
@@ -452,7 +466,20 @@
 						"(O)406": 1,
 						"(O)408": 1,
 						"(O)412": 1,
-						"(O)416": 1
+						"(O)416": 1,
+						"(O)Rafseazz.RSVCP_Ridgeside_Clementine": 1,
+						"(O)Rafseazz.RSVCP_Autumn_Drop_Berry": 1,
+						"(O)Rafseazz.RSVCP_Sierra_Wintergreen": 1,
+						"(O)Rafseazz.RSVCP_Mountain_Arugula": 1,
+						"(O)Rafseazz.RSVCP_Mountain_Chico": 1,
+						"(O)Rafseazz.RSVCP_Ridge_Wild_Apple": 1,
+						"(O)Rafseazz.RSVCP_Highland_Chard": 1,
+						"(O)Rafseazz.RSVCP_Frost_Clump_Berry": 1,
+						"(O)Rafseazz.RSVCP_Ridge_Cherry": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Lucky_Four_Leaf_Clover": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Smelly_Rafflesia": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Red_Baneberry": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Bearberrys": 1
 					},
 					"RandomPriceEntries": 8,
 					"BundleReward": {
@@ -498,7 +525,20 @@
 						"(O)406": 1,
 						"(O)408": 1,
 						"(O)412": 1,
-						"(O)416": 1
+						"(O)416": 1,
+						"(O)Rafseazz.RSVCP_Ridgeside_Clementine": 1,
+						"(O)Rafseazz.RSVCP_Autumn_Drop_Berry": 1,
+						"(O)Rafseazz.RSVCP_Sierra_Wintergreen": 1,
+						"(O)Rafseazz.RSVCP_Mountain_Arugula": 1,
+						"(O)Rafseazz.RSVCP_Mountain_Chico": 1,
+						"(O)Rafseazz.RSVCP_Ridge_Wild_Apple": 1,
+						"(O)Rafseazz.RSVCP_Highland_Chard": 1,
+						"(O)Rafseazz.RSVCP_Frost_Clump_Berry": 1,
+						"(O)Rafseazz.RSVCP_Ridge_Cherry": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Lucky_Four_Leaf_Clover": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Smelly_Rafflesia": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Red_Baneberry": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Bearberrys": 1
 					},
 					"RandomPriceEntries": 8,
 					"BundleReward": {
@@ -531,14 +571,16 @@
 					"DrawQuestionMark": false, 
 					"BundleSlots": 7,
                     "Price": {
-						"(O)16": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Red_Baneberry": 1,
 						"(O)396": 1,
 						"(O)406": 1,
 						"(O)88": 1,
 						"(O)90": 1,
 						"(O)829": 1,
 						"(O)851": 1,
-						"(O)283": 1
+						"(O)FlashShifter.StardewValleyExpandedCP_Bearberrys": 1,
+						"(O)Rafseazz.RSVCP_Sierra_Wintergreen": 1,
+						"(O)EastScarp_Blue_Jay_Feather": 1
 					},
 					"BundleReward": {
 						"(O)69": 1,
@@ -569,16 +611,18 @@
 					"BookId": "blue704.JojaCC_ForagerBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 7,
+					"BundleSlots": 8,
                     "Price": {
 						"(O)Cornucopia_Peppercorn": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Red_Baneberry": 1,
 						"(O)Cornucopia_Raspberry": 1,
 						"(O)Cornucopia_ChickenoftheWoods": 1,
 						"(O)88": 1,
 						"(O)Cornucopia_Sugarcane": 1,
-						"(O)829": 1,
+						"(O)EastScarp_Blue_Jay_Feather": 1,
 						"(O)851": 1,
-						"(O)283": 1
+						"(O)FlashShifter.StardewValleyExpandedCP_Bearberrys": 1,
+						"(O)Rafseazz.RSVCP_Sierra_Wintergreen": 1
 					},
 					"BundleReward": {
 						"(O)69": 1,
@@ -612,6 +656,11 @@
 					"BundleSlots": 6,
 					"Price": {
 						"(O)Carrot": 1,
+						"(O)Lemurkat.EastScarp_FirePepper": 1,
+						"(O)Lemurkat.EastScarp_ButterTuff": 1,
+						"(O)EastScarp_BiteBackMelon": 1,
+						"(O)Rafseazz.RSVCP_Mountain_Arugula": 1,
+						"(O)Rafseazz.RSVCP_Ridge_Cherry": 1,
 						"(O)24": 1,
 						"(O)192": 1,
 						"(O)250": 1,
@@ -621,7 +670,8 @@
 						"(O)271": 10,
 						"(O)433": 25,
 						"(O)591": 1,
-						"(O)597": 1
+						"(O)597": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Cucumber": 1
 					},
 					"RandomPriceEntries": 8,
 					"BundleReward": {
@@ -664,6 +714,12 @@
 						"(O)Cornucopia_Cantaloupe": 1,
 						"(O)Cornucopia_Onion": 1,
 						"(O)Cornucopia_Spinach": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Cucumber": 1,
+						"(O)Lemurkat.EastScarp_FirePepper": 1,
+						"(O)Lemurkat.EastScarp_ButterTuff": 1,
+						"(O)EastScarp_BiteBackMelon": 1,
+						"(O)Rafseazz.RSVCP_Mountain_Arugula": 1,
+						"(O)Rafseazz.RSVCP_Ridge_Cherry": 1,
 						"(O)Carrot": 1,
 						"(O)24": 1,
 						"(O)192": 1,
@@ -710,13 +766,12 @@
 					"BundleSlots": 6,
 					"Price": {
 						"(O)Carrot": 1,
-						"(O)24": 1,
-						"(O)192": 1,
-						"(O)250": 1,
-						"(O)188": 1,
-						"(O)190": 1,
-						"(O)634": 1,
-						"(O)638": 1
+						"(O)Rafseazz.RSVCP_Mountain_Arugula": 1,
+						"(O)EastScarp_BiteBackMelon": 1,
+						"(O)Rafseazz.RSVCP_Ridge_Cherry": 1,
+						"(O)Lemurkat.EastScarp_FirePepper": 1,
+						"(O)Lemurkat.EastScarp_ButterTuff": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Cucumber": 1
 					},
 					"BundleReward": {
 						"(O)599": 3
@@ -750,14 +805,15 @@
 					"DrawQuestionMark": false, 
 					"BundleSlots": 6,
 					"Price": {
-						"(O)Carrot": 1,
 						"(O)Cornucopia_Asparagus": 1,
 						"(O)Cornucopia_Basil": 1,
-						"(O)250": 1,
-						"(O)188": 1,
+						"(O)Rafseazz.RSVCP_Mountain_Arugula": 1,
+						"(O)EastScarp_BiteBackMelon": 1,
+						"(O)Rafseazz.RSVCP_Ridge_Cherry": 1,
+						"(O)Lemurkat.EastScarp_FirePepper": 1,
+						"(O)Lemurkat.EastScarp_ButterTuff": 1,
 						"(O)Cornucopia_Jalapeno": 1,
-						"(O)634": 1,
-						"(O)638": 1
+						"(O)FlashShifter.StardewValleyExpandedCP_Cucumber": 1
 					},
 					"BundleReward": {
 						"(O)599": 3
@@ -792,6 +848,14 @@
 					"BundleSlots": 6,
 					"Price": {
 						"(O)SummerSquash": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Butternut_Squash": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Ancient_Fiber": 1,
+						"(O)Rafseazz.RSVCP_Ridge_Wild_Apple": 1,
+						"(O)Rafseazz.RSVCP_Mountain_Chico": 1,
+						"(O)Rafseazz.RSVCP_Mountain_Hokkaido": 1,
+						"(O)Lemurkat.EastScarp_ZinfazuFruit": 1,
+						"(O)EastScarp_PuckerWort": 1,
+						"(O)Lemurkat.EastScarp_ButtonFruit": 1,
 						"(O)264": 1,
 						"(O)262": 1,
 						"(O)593": 1,
@@ -845,6 +909,14 @@
 						"(O)Cornucopia_Chickpea": 1,
 						"(O)Cornucopia_GreenPeas": 1,
 						"(O)Cornucopia_Okra": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Butternut_Squash": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Ancient_Fiber": 1,
+						"(O)Rafseazz.RSVCP_Ridge_Wild_Apple": 1,
+						"(O)Rafseazz.RSVCP_Mountain_Chico": 1,
+						"(O)Rafseazz.RSVCP_Mountain_Hokkaido": 1,
+						"(O)Lemurkat.EastScarp_ZinfazuFruit": 1,
+						"(O)EastScarp_PuckerWort": 1,
+						"(O)Lemurkat.EastScarp_ButtonFruit": 1,
 						"(O)SummerSquash": 1,
 						"(O)264": 1,
 						"(O)262": 1,
@@ -890,14 +962,14 @@
 					"DrawQuestionMark": false, 
 					"BundleSlots": 6,
 					"Price": {
-						"(O)SummerSquash": 1,
-						"(O)264": 1,
-						"(O)262": 1,
-						"(O)593": 1,
-						"(O)266": 1,
-						"(O)304": 1,
-						"(O)635": 1,
-						"(O)636": 1
+						"(O)Lemurkat.EastScarp_ZinfazuFruit": 1,
+						"(O)EastScarp_PuckerWort": 1,
+						"(O)Lemurkat.EastScarp_ButtonFruit": 1,
+						"(O)Rafseazz.RSVCP_Ridge_Wild_Apple": 1,
+						"(O)Rafseazz.RSVCP_Mountain_Chico": 1,
+						"(O)Rafseazz.RSVCP_Mountain_Hokkaido": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Butternut_Squash": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Nectarine": 1
 					},
 					"BundleReward": {
 						"(O)621": 3
@@ -929,14 +1001,16 @@
 					"DrawQuestionMark": false, 
 					"BundleSlots": 6,
 					"Price": {
-						"(O)SummerSquash": 1,
 						"(O)Cornucopia_Lettuce": 1,
 						"(O)Cornucopia_Honeydew": 1,
-						"(O)593": 1,
-						"(O)266": 1,
+						"(O)Lemurkat.EastScarp_ZinfazuFruit": 1,
+						"(O)EastScarp_PuckerWort": 1,
+						"(O)Lemurkat.EastScarp_ButtonFruit": 1,
+						"(O)Rafseazz.RSVCP_Ridge_Wild_Apple": 1,
+						"(O)Rafseazz.RSVCP_Mountain_Chico": 1,
+						"(O)Rafseazz.RSVCP_Mountain_Hokkaido": 1,
 						"(O)Cornucopia_WasabiRoot": 1,
-						"(O)635": 1,
-						"(O)636": 1
+						"(O)FlashShifter.StardewValleyExpandedCP_Butternut_Squash": 1
 					},
 					"BundleReward": {
 						"(O)621": 3
@@ -978,7 +1052,13 @@
 						"(O)276": 1,
 						"(O)280": 1,
 						"(O)398": 1,
-						"(O)595": 1
+						"(O)595": 1,
+						"(O)EastScarp_Cuccaroot": 1,
+						"(O)Lemurkat.EastScarp_FairyCap": 1,
+						"(O)Lemurkat.EastScarp_Paneeki": 1,
+						"(O)Rafseazz.RSVCP_Highland_Chard": 1,
+						"(O)Rafseazz.RSVCP_Highland_Butterwort": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Sweet_Potato": 1
 					},
 					"RandomPriceEntries": 8,
 					"BundleReward": {
@@ -1020,6 +1100,12 @@
 						"(O)Cornucopia_Habanero": 1,
 						"(O)Cornucopia_Peanut": 1,
 						"(O)Cornucopia_Oats": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Sweet_Potato": 1,
+						"(O)EastScarp_Cuccaroot": 1,
+						"(O)Lemurkat.EastScarp_FairyCap": 1,
+						"(O)Lemurkat.EastScarp_Paneeki": 1,
+						"(O)Rafseazz.RSVCP_Highland_Chard": 1,
+						"(O)Rafseazz.RSVCP_Highland_Butterwort": 1,
 						"(O)Broccoli": 1,
 						"(O)278": 1,
 						"(O)272": 1,
@@ -1063,14 +1149,14 @@
 					"DrawQuestionMark": false, 
 					"BundleSlots": 6,
 					"Price": {
-						"(O)Broccoli": 1,
-						"(O)278": 1,
-						"(O)272": 1,
-						"(O)300": 1,
+						"(O)EastScarp_Cuccaroot": 1,
+						"(O)Lemurkat.EastScarp_FairyCap": 1,
+						"(O)Lemurkat.EastScarp_Paneeki": 1,
+						"(O)Rafseazz.RSVCP_Highland_Chard": 1,
+						"(O)Rafseazz.RSVCP_Highland_Butterwort": 1,
 						"(O)274": 1,
 						"(O)284": 1,
-						"(O)637": 1,
-						"(O)613": 1
+						"(O)FlashShifter.StardewValleyExpandedCP_Sweet_Potato": 1
 					},
 					"BundleReward": {
 						"(BC)Adam.Joja_Keg": 2
@@ -1102,14 +1188,15 @@
 					"DrawQuestionMark": false, 
 					"BundleSlots": 6,
 					"Price": {
-						"(O)Broccoli": 1,
 						"(O)Cornucopia_KidneyBeans": 1,
 						"(O)Cornucopia_Zucchini": 1,
-						"(O)300": 1,
-						"(O)274": 1,
+						"(O)EastScarp_Cuccaroot": 1,
+						"(O)Lemurkat.EastScarp_FairyCap": 1,
+						"(O)Lemurkat.EastScarp_Paneeki": 1,
+						"(O)Rafseazz.RSVCP_Highland_Chard": 1,
+						"(O)Rafseazz.RSVCP_Highland_Butterwort": 1,
 						"(O)Cornucopia_Turnip": 1,
-						"(O)637": 1,
-						"(O)613": 1
+						"(O)FlashShifter.StardewValleyExpandedCP_Sweet_Potato": 1
 					},
 					"BundleReward": {
 						"(BC)Adam.Joja_Keg": 2
@@ -1163,7 +1250,27 @@
 						"(O)250:Gold": 3,
 						"(O)188:Gold": 3,
 						"(O)190:Gold": 3,
-						"(O)400:Gold": 3
+						"(O)400:Gold": 3,
+						"(O)FlashShifter.StardewValleyExpandedCP_Cucumber:Gold": 3,
+						"(O)FlashShifter.StardewValleyExpandedCP_Butternut_Squash:Gold": 3,
+						"(O)FlashShifter.StardewValleyExpandedCP_Ancient_Fiber:Gold": 3,
+						"(O)FlashShifter.StardewValleyExpandedCP_Sweet_Potato:Gold": 3,
+						"(O)Rafseazz.RSVCP_Ridge_Cherry:Gold": 3,
+						"(O)Rafseazz.RSVCP_Mountain_Arugula:Gold": 3,
+						"(O)Rafseazz.RSVCP_Ridge_Wild_Apple:Gold": 3,
+						"(O)Rafseazz.RSVCP_Mountain_Hokkaido:Gold": 3,
+						"(O)Rafseazz.RSVCP_Highland_Chard:Gold": 3,
+						"(O)Rafseazz.RSVCP_Highland_Butterwort:Gold": 3,
+						"(O)Rafseazz.RSVCP_Mountain_Chico:Gold": 3,
+						"(O)Lemurkat.EastScarp_FirePepper:Gold": 3,
+						"(O)Lemurkat.EastScarp_ButterTuff:Gold": 3,
+						"(O)EastScarp_BiteBackMelon:Gold": 3,
+						"(O)Lemurkat.EastScarp_ZinfazuFruit:Gold": 3,
+						"(O)EastScarp_PuckerWort:Gold": 3,
+						"(O)Lemurkat.EastScarp_ButtonFruit:Gold": 3,
+						"(O)EastScarp_Cuccaroot:Gold": 3,
+						"(O)Lemurkat.EastScarp_FairyCap:Gold": 3,
+						"(O)Lemurkat.EastScarp_Paneeki:Gold": 3
 					},
 					"RandomPriceEntries": 7,
 					"BundleReward": {
@@ -1244,7 +1351,27 @@
 						"(O)Cornucopia_Cabbage:Gold": 3,
 						"(O)Cornucopia_Cantaloupe:Gold": 3,
 						"(O)Cornucopia_Onion:Gold": 3,
-						"(O)Cornucopia_Spinach:Gold": 3
+						"(O)Cornucopia_Spinach:Gold": 3,
+						"(O)FlashShifter.StardewValleyExpandedCP_Cucumber:Gold": 3,
+						"(O)FlashShifter.StardewValleyExpandedCP_Butternut_Squash:Gold": 3,
+						"(O)FlashShifter.StardewValleyExpandedCP_Ancient_Fiber:Gold": 3,
+						"(O)FlashShifter.StardewValleyExpandedCP_Sweet_Potato:Gold": 3,
+						"(O)Rafseazz.RSVCP_Ridge_Cherry:Gold": 3,
+						"(O)Rafseazz.RSVCP_Mountain_Arugula:Gold": 3,
+						"(O)Rafseazz.RSVCP_Ridge_Wild_Apple:Gold": 3,
+						"(O)Rafseazz.RSVCP_Mountain_Hokkaido:Gold": 3,
+						"(O)Rafseazz.RSVCP_Highland_Chard:Gold": 3,
+						"(O)Rafseazz.RSVCP_Highland_Butterwort:Gold": 3,
+						"(O)Rafseazz.RSVCP_Mountain_Chico:Gold": 3,
+						"(O)Lemurkat.EastScarp_FirePepper:Gold": 3,
+						"(O)Lemurkat.EastScarp_ButterTuff:Gold": 3,
+						"(O)EastScarp_BiteBackMelon:Gold": 3,
+						"(O)Lemurkat.EastScarp_ZinfazuFruit:Gold": 3,
+						"(O)EastScarp_PuckerWort:Gold": 3,
+						"(O)Lemurkat.EastScarp_ButtonFruit:Gold": 3,
+						"(O)EastScarp_Cuccaroot:Gold": 3,
+						"(O)Lemurkat.EastScarp_FairyCap:Gold": 3,
+						"(O)Lemurkat.EastScarp_Paneeki:Gold": 3
 					},
 					"RandomPriceEntries": 7,
 					"BundleReward": {
@@ -1345,12 +1472,18 @@
 					"BookId": "blue704.JojaCC_FarmerBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 4,
+					"BundleSlots": 5,
                     "Price": {
 						"(O)266": 1,
 						"(O)268": 1,
 						"(O)454": 1,
-						"(O)417": 1
+						"(O)417": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Gold_Carrot": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Joja_Veggie": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Monster_Fruit": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Monster_Mushroom": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Void_Root": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Joja_Berry": 1
 					},
 					"BundleReward": {
 						"(BC)Adam.Joja_SeedSorter": 1
@@ -1381,13 +1514,18 @@
 					"BookId": "blue704.JojaCC_FarmerBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 5,
+					"BundleSlots": 6,
                     "Price": {
-						"(O)266": 1,
 						"(O)268": 1,
 						"(O)454": 1,
 						"(O)417": 1,
-						"(O)Cornucopia_Ginseng": 1
+						"(O)Cornucopia_Ginseng": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Gold_Carrot": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Joja_Veggie": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Monster_Fruit": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Monster_Mushroom": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Void_Root": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Joja_Berry": 1
 					},
 					"BundleReward": {
 						"(BC)Adam.Joja_SeedSorter": 1
@@ -1459,7 +1597,7 @@
 					"BookId": "blue704.JojaCC_FarmerBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 6,
+					"BundleSlots": 7,
                     "Price": {
 						"(O)430": 1,
 						"(O)438": 1,
@@ -1467,6 +1605,8 @@
 						"(O)186": 1,
 						"(O)174": 3,
 						"(O)182": 3,
+						"(O)EastScarp_Pheasant_Feather": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Goose_Egg": 1,
 						"(O)446": 1,
 						"(O)444": 1
 					},
@@ -1570,16 +1710,31 @@
 					"DrawQuestionMark": false, 
 					"BundleSlots": 6,
                     "Price": {
-						"(O)195": 1,
-						"(O)205": 1,
-						"(O)233": 1,
-						"(O)237": 1,
-						"(O)240": 1,
-						"(O)606": 1,
-						"(O)610": 1,
-						"(O)921": 1,
-						"(O)732": 1
+						"(O)EastScarp_Cheesy_Jelly_Toast": 1,
+						"(O)EastScarp_Candied_Cuccaroot": 1,
+						"(O)EastScarp_Rosas_Baklava": 1,
+						"(O)EastScarp_Rosas_Spanakopita": 1,
+						"(O)EastScarp_Biteback_Curry": 1,
+						"(O)Rafseazz.RSVCP_Ridge_Fruity_Plate": 1,
+						"(O)Rafseazz.RSVCP_Arugula_Roll": 1,
+						"(O)Rafseazz.RSVCP_Snow_Bowl_Surprise": 1,
+						"(O)Rafseazz.RSVCP_Highland_Ice_Cream": 1,
+						"(O)Rafseazz.RSVCP_Kek_s_Style_Shortcake": 1,
+						"(O)Rafseazz.RSVCP_Zesty_Tuna": 1,
+						"(O)Rafseazz.RSVCP_Fried_Mountain_Greens": 1,
+						"(O)Rafseazz.RSVCP_Fried_Fish_a_la_Ridge": 1,
+						"(O)Rafseazz.RSVCP_Crunchy_Bagel": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Big_Bark_Burger": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Baked_Potato": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Birch_Syrup": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Fish_Dumpling": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Glazed_Butterfish": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Nectarine_Fruit_Bread": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Ramen": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Seaweed_Salad": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Seed_Cookie": 1
 					},
+					"RandomPriceEntries": 9,
 					"BundleReward": {
 						"(O)917": 10
 					},
@@ -1618,7 +1773,7 @@
 						"(O)182": 3,
 						"(O)186": 3,
 						"(O)423": 50,
-						"(O)216": 5
+						"(O)FlashShifter.StardewValleyExpandedCP_Butter": 10
 					},
 					"BundleReward": {
 						"(O)917": 10
@@ -1821,7 +1976,18 @@
 						"(O)698": 1,
 						"(O)700": 1,
 						"(O)702": 1,
-						"(O)707": 1
+						"(O)707": 1,
+						"(O)Rafseazz.RSVCP_Bladetail_Sturgeon": 1,
+						"(O)Rafseazz.RSVCP_Ridgeside_Bass": 1,
+						"(O)Rafseazz.RSVCP_Ridge_Bluegill": 1,
+						"(O)Rafseazz.RSVCP_Mountain_Whitefish": 1,
+						"(O)EastScarp_Golden_Trout": 1,
+						"(O)EastScarp_Kokanee_Salmon": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Frog": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Grass_Carp": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_King_Salmon": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Minnow": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Tadpole": 1
 					},
 					"RandomPriceEntries": 7,
 					"BundleReward": {
@@ -1851,14 +2017,15 @@
 					"BookId": "blue704.JojaCC_FisherBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 5,
+					"BundleSlots": 6,
 					"Price": {
-						"(O)137": 1,
-						"(O)129": 1,
+						"(O)EastScarp_Ornate_Nudibranch": 1,
+						"(O)EastScarp_Golden_Trout": 1,
 						"(O)147": 1,
-						"(O)148": 1,
-						"(O)136": 1,
-						"(O)706": 1
+						"(O)Rafseazz.RSVCP_Mountain_Redbelly_Dace": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Goldfish": 1,
+						"(O)706": 1,
+						"(O)Rafseazz.RSVCP_Ridgeside_Bass": 1
 					},
 					"BundleReward": {
 						"(O)SkillBook_1": 1
@@ -1887,13 +2054,16 @@
 					"BookId": "blue704.JojaCC_FisherBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 4,
+					"BundleSlots": 6,
 					"Price": {
 						"(O)140": 1,
 						"(O)143": 1,
 						"(O)148": 1,
 						"(O)150": 1,
-						"(O)706": 1
+						"(O)706": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Frog": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Gar": 1,
+						"(O)EastScarp_Obsidian_Maw": 1
 					},
 					"BundleReward": {
 						"(O)SkillBook_1": 1
@@ -1938,7 +2108,15 @@
 						"(O)151": 1,
 						"(O)155": 1,
 						"(O)701": 1,
-						"(O)708": 1
+						"(O)708": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Starfish": 1,
+						"(O)EastScarp_Ornate_Nudibranch": 1,
+						"(O)EastScarp_Sea_Bunny_Nudibranch": 1,
+						"(O)EastScarp_Sunset_Nudibranch": 1,
+						"(O)EastScarp_Cerulean_Nudibranch": 1,
+						"(O)Rafseazz.RSVCP_Cardia_Septal_Jellyfish": 1,
+						"(O)Rafseazz.RSVCP_Fairytale_Lionfish": 1,
+						"(O)Rafseazz.RSVCP_Crimson_Spiked_Clam": 1
 					},
 					"RandomPriceEntries": 7,
 					"BundleReward": {
@@ -1968,14 +2146,15 @@
 					"BookId": "blue704.JojaCC_FisherBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 5,
+					"BundleSlots": 6,
 					"Price": {
 						"(O)138": 1,
 						"(O)144": 1,
+						"(O)EastScarp_Kokanee_Salmon": 1,
 						"(O)146": 1,
-						"(O)149": 1,
-						"(O)704": 1,
-						"(O)267": 1
+						"(O)EastScarp_Sea_Bunny_Nudibranch": 1,
+						"(O)Rafseazz.RSVCP_Mountain_Whitefish": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Grass_Carp": 1
 					},
 					"BundleReward": {
 						"(BC)Adam.Joja_WormBin": 1
@@ -2044,13 +2223,15 @@
 					"BookId": "blue704.JojaCC_FisherBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 4,
+					"BundleSlots": 5,
 					"Price": {
 						"(O)128": 1,
-						"(O)138": 1,
+						"(O)EastScarp_Slime_Barbel": 1,
 						"(O)145": 1,
-						"(O)164": 1,
-						"(O)165": 1
+						"(O)FlashShifter.StardewValleyExpandedCP_Butterfish": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Goldfish": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Minnow": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Ocean_Sunfish": 1
 					},
 					"BundleReward": {
 						"(BC)Adam.Joja_WormBin": 1
@@ -2090,7 +2271,21 @@
 						"(O)128": 1,
 						"(O)132": 1,
 						"(O)143": 1,
-						"(O)145": 1
+						"(O)145": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Butterfish": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Gar": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Goldfish": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Bull_Trout": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Kittyfish": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Puppyfish": 1,
+						"(O)EastScarp_Obsidian_Maw": 1,
+						"(O)EastScarp_Slime_Barbel": 1,
+						"(O)EastScarp_Fairy_Betta": 1,
+						"(O)Rafseazz.RSVCP_Cutthroat_Trout": 1,
+						"(O)Rafseazz.RSVCP_Fixer_Eel": 1,
+						"(O)Rafseazz.RSVCP_Harvester_Trout": 1,
+						"(O)Rafseazz.RSVCP_Mountain_Redbelly_Dace": 1,
+						"(O)Rafseazz.RSVCP_Skulpin_Fish": 1
 					},
 				"RandomPriceEntries": 7,
 					"BundleReward": {
@@ -2120,14 +2315,15 @@
 					"BookId": "blue704.JojaCC_FisherBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 5,
+					"BundleSlots": 6,
 					"Price": {
 						"(O)139": 1,
 						"(O)154": 1,
-						"(O)269": 1,
-						"(O)699": 1,
+						"(O)Rafseazz.RSVCP_Cutthroat_Trout": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Gar": 1,
+						"(O)EastScarp_Sunset_Nudibranch": 1,
 						"(O)705": 1,
-						"(O)140": 1
+						"(O)EastScarp_Slime_Barbel": 1
 					},
 					"BundleReward": {
 						"(BC)Adam.Joja_FishSmoker": 1
@@ -2156,13 +2352,17 @@
 					"BookId": "blue704.JojaCC_FisherBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 4,
+					"BundleSlots": 6,
 					"Price": {
-						"(O)798": 1,
 						"(O)132": 1,
 						"(O)151": 1,
 						"(O)155": 1,
-						"(O)269": 1
+						"(O)FlashShifter.StardewValleyExpandedCP_Baby_Lunaloo": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Frog": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Lunaloo": 1,
+						"(O)EastScarp_Obsidian_Maw": 1,
+						"(O)EastScarp_Slime_Barbel": 1,
+						"(O)Rafseazz.RSVCP_Cardia_Septal_Jellyfish": 1
 					},
 					"BundleReward": {
 						"(BC)Adam.Joja_FishSmoker": 1
@@ -2205,7 +2405,16 @@
 						"(O)836": 1,
 						"(O)837": 1,
 						"(O)838": 1,
-						"(O)Goby": 1
+						"(O)Goby": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Baby_Lunaloo": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Lunaloo": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Barred_Knifejaw": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Blue_Tang": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Clownfish": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Ocean_Sunfish": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Sea_Sponge": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Seahorse": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Shark": 1
 					},
 					"RandomPriceEntries": 7,
 					"BundleReward": {
@@ -2236,13 +2445,14 @@
 					"BookId": "blue704.JojaCC_FisherBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 5,
+					"BundleSlots": 6,
                     "Price": {
 						"(O)141": 1,
-						"(O)151": 1,
 						"(O)707": 1,
-						"(O)698": 1,
-						"(O)161": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Bull_Trout": 1,
+						"(O)EastScarp_Cerulean_Nudibranch": 1,
+						"(O)Rafseazz.RSVCP_Ridge_Bluegill": 1,
+						"(O)EastScarp_Obsidian_Maw": 1,
 						"(O)708": 1
 					},
 					"BundleReward": {
@@ -2312,8 +2522,18 @@
 						"(O)837": 1,
 						"(O)838": 1,
 						"(O)836": 1,
-						"(O)128": 1
+						"(O)128": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Baby_Lunaloo": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Lunaloo": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Barred_Knifejaw": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Blue_Tang": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Clownfish": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Ocean_Sunfish": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Sea_Sponge": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Seahorse": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Shark": 1
 					},
+					"RandomPriceEntries": 5,
 					"BundleReward": {
 						"(O)265": 1
 					},
@@ -2502,9 +2722,13 @@
                     "PriceSpawnFields": [
 			  {
 				  "RandomItemId": [
-					"(O)138",
-					"(O)136",
-					"(O)142"
+					"(O)FlashShifter.StardewValleyExpandedCP_Frog",
+					"(O)FlashShifter.StardewValleyExpandedCP_Grass_Carp",
+					"(O)FlashShifter.StardewValleyExpandedCP_King_Salmon",
+					"(O)EastScarp_Kokanee_Salmon",
+					"(O)EastScarp_Golden_Trout",
+					"(O)Rafseazz.RSVCP_Bladetail_Sturgeon",
+					"(O)Rafseazz.RSVCP_Ridgeside_Bass"
 				],
 				  "MaxItems": 1,
 				  "Quality": 2
@@ -2512,9 +2736,12 @@
 			  {
 				  "RandomItemId": [
 					"(O)154",
-					"(O)129",
-					"(O)146",
-					"(O)147"
+					"(O)FlashShifter.StardewValleyExpandedCP_Minnow",
+					"(O)FlashShifter.StardewValleyExpandedCP_Tadpole",
+					"(O)EastScarp_Ornate_Nudibranch",
+					"(O)EastScarp_Sea_Bunny_Nudibranch",
+					"(O)Rafseazz.RSVCP_Ridge_Bluegill",
+					"(O)Rafseazz.RSVCP_Mountain_Whitefish"
 				],
 				  "MaxItems": 1,
 				  "Quality": 2
@@ -2522,8 +2749,12 @@
 			  {
 				   "RandomItemId": [
 					"(O)139",
-					"(O)137",
-					"(O)144"
+					"(O)FlashShifter.StardewValleyExpandedCP_Butterfish",
+					"(O)FlashShifter.StardewValleyExpandedCP_Gar",
+					"(O)EastScarp_Sunset_Nudibranch",
+					"(O)EastScarp_Cerulean_Nudibranch",
+					"(O)Rafseazz.RSVCP_Cardia_Septal_Jellyfish",
+					"(O)Rafseazz.RSVCP_Fairytale_Lionfish"
 				],
 				  "MaxItems": 1,
 				  "Quality": 2
@@ -2531,8 +2762,11 @@
 			  {
 				  "RandomItemId": [
 					"(O)698",
-					"(O)700",
-					"(O)702"
+					"(O)FlashShifter.StardewValleyExpandedCP_Goldfish",
+					"(O)FlashShifter.StardewValleyExpandedCP_Bull_Trout",
+					"(O)EastScarp_Obsidian_Maw",
+					"(O)EastScarp_Slime_Barbel",
+					"(O)Rafseazz.RSVCP_Crimson_Spiked_Clam"
 				],
 				  "MaxItems": 1,
 				  "Quality": 2
@@ -2542,7 +2776,10 @@
 					"(O)267",
 					"(O)130",
 					"(O)708",
-					"(O)701"
+					"(O)FlashShifter.StardewValleyExpandedCP_Starfish",
+					"(O)EastScarp_Fairy_Betta",
+					"(O)Rafseazz.RSVCP_Cutthroat_Trout",
+					"(O)Rafseazz.RSVCP_Fixer_Eel"
 				],
 				  "MaxItems": 1,
 				  "Quality": 2
@@ -2551,8 +2788,11 @@
 				  "RandomItemId": [
 					"(O)699",
 					"(O)706",
-					"(O)132",
-					"(O)145"
+					"(O)FlashShifter.StardewValleyExpandedCP_Kittyfish",
+					"(O)FlashShifter.StardewValleyExpandedCP_Puppyfish",
+					"(O)Rafseazz.RSVCP_Harvester_Trout",
+					"(O)Rafseazz.RSVCP_Mountain_Redbelly_Dace",
+					"(O)Rafseazz.RSVCP_Skulpin_Fish"
 				],
 				  "MaxItems": 1,
 				  "Quality": 2
@@ -2591,6 +2831,7 @@
 					"Price": {
 						"(O)174": 6,
 						"(O)182": 6,
+						"(O)FlashShifter.StardewValleyExpandedCP_Goose_Egg": 1,
 						"(O)194": 1,
 						"(O)195": 1,
 						"(O)305": 1,
@@ -2720,6 +2961,7 @@
 					"BundleSlots": 4,
 					"Price": {
 						"(O)746": 15,
+						"(O)FlashShifter.StardewValleyExpandedCP_Hedge_Fence_Tilesheet": 10,
 						"(O)178": 100,
 						"(BC)8": 10,
 						"(O)611": 1,
@@ -2755,13 +2997,13 @@
 						"(S)1189": 1,
 						"(S)1035": 1,
 						"(S)1161": 1,
-						"(P)13": 1,
+						"(S)Rafseazz.RSVCP_Juninja_Shirt": 1,
 						"(P)3": 1,
 						"(H)54": 1,
 						"(H)90": 1,
 						"(H)47": 1,
 						"(P)1": 1,
-						"(P)2": 1						
+						"(P)2": 1	
 					},
 					"BundleReward": {
 						"(S)1143": 1,
@@ -2795,11 +3037,12 @@
 					"BookId": "blue704.JojaCC_BulletinBoardBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 5,
+					"BundleSlots": 6,
                     "Price": {
 						"(O)604": 1,
 						"(O)607": 1,
 						"(O)238": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Gingerbread_Man": 1,
 						"(O)239": 1,
 						"(O)MysteryBox": 15,
 						"(O)223": 5,
@@ -2834,10 +3077,13 @@
                     "Price": {
 						"(O)591": 1,
 						"(O)593": 1,
-						"(O)595": 1,
-						"(O)597": 1,
-						"(O)376": 1,
-						"(O)421": 1
+						"(O)Rafseazz.RSVCP_Violet_Devil_s_Claw": 1,
+						"(O)Rafseazz.RSVCP_Highland_Butterwort": 1,
+						"(O)Rafseazz.RSVCP_Ridgeside_Monkshood": 1,
+						"(O)EastScarp_Serruria": 1,
+						"(O)EastScarp_Azure_Chrysanthemum": 1,
+						"(O)EastScarp_Bird_Of_Paradise": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Swamp_Flower": 1
 					},
 					"BundleReward": {
 						"(F)1971": 1
@@ -2868,11 +3114,18 @@
                     "Price": {
 						"(O)591": 1,
 						"(O)593": 1,
+						"(O)595": 1,
 						"(O)Cornucopia_CanolaFlower": 1,
-						"(O)597": 1,
-						"(O)376": 1,
-						"(O)421": 1
+						"(O)EastScarp_Serruria": 1,
+						"(O)EastScarp_Azure_Chrysanthemum": 1,
+						"(O)EastScarp_Bird_Of_Paradise": 1,
+						"(O)Rafseazz.RSVCP_Violet_Devil_s_Claw": 1,
+						"(O)Rafseazz.RSVCP_Highland_Butterwort": 1,
+						"(O)Rafseazz.RSVCP_Ridgeside_Monkshood": 1,
+						"(O)421": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Swamp_Flower": 1
 					},
+					"RandomPriceEntries": 9,
 					"BundleReward": {
 						"(F)1971": 1
 					}
@@ -2899,12 +3152,15 @@
 					"DrawQuestionMark": false, 
 					"BundleSlots": 6,
                     "Price": {
-						"(O)253": 1,
-						"(O)612": 1,
-						"(O)903": 1,
+						"(O)Rafseazz.RSVCP_Matcha_Latte": 1,
+						"(O)Rafseazz.RSVCP_Autumn_Dew_Drop_Juice": 1,
+						"(O)Rafseazz.RSVCP_Cherry_Berry_Shakey": 1,
 						"(O)167": 12,
+						"(O)EastScarp_Pucker_Green_Smoothie": 1,
 						"(O)Adam.Joja_BlueTea": 1,
 						"(O)Adam.Joja_Coffee": 1,
+						"(O)Rafseazz.RSVCP_Ridgeside_Shaketini": 1,
+						"(O)Rafseazz.RSVCP_Summit_Iced_Tea": 1,
 						"(O)873": 1
 					},
 					"BundleReward": {
@@ -3001,15 +3257,17 @@
 					"BookId": "blue704.JojaCC_BulletinBoardBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 6,
+					"BundleSlots": 7,
                     "Price": {
 						"(O)CarrotSeeds": 3,
 						"(O)SummerSquashSeeds": 3,
 						"(O)BroccoliSeeds": 3,
 						"(O)PowdermelonSeeds": 3,
+						"(O)FlashShifter.StardewValleyExpandedCP_Fossilized_Apple": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Old_Coin": 1,
 						"(O)417": 1,
-						"(O)586": 1,
-						"(O)800": 1,
+						"(O)EastScarp_Wood_Duck_Feather": 1,
+						"(O)EastScarp_Blue_Jay_Feather": 1,
 						"(O)MysticSyrup": 1
 					},
 					"BundleReward": {
@@ -3176,14 +3434,15 @@
 					"BookId": "blue704.JojaCC_BoilerRoomBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 6,
+					"BundleSlots": 7,
 					"Price": {
 						"(O)60": 1,
 						"(O)62": 1,
 						"(O)64": 1,
 						"(O)66": 1,
 						"(O)68": 1,
-                        "(O)70": 1
+                        "(O)70": 1,
+						"(O)Rafseazz.RSVCP_Nightblack_Diamond": 1
 					},
 					"BundleReward": {
 						"(O)74": 1
@@ -3216,13 +3475,15 @@
 					"Price": {
 						"(O)84": 1,
 						"(O)86": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Amber": 1,
 						"(O)574": 1,
 						"(O)62": 1,
 						"(O)559": 1,
 						"(O)66": 1,
 						"(O)556": 1,
 						"(O)550": 1,
-						"(O)544": 1
+						"(O)544": 1,
+						"(O)Rafseazz.RSVCP_Nightblack_Diamond": 1
 					},
 					"BundleReward": {
 						"(BC)21": 1
@@ -3287,15 +3548,21 @@
 					"DrawQuestionMark": false, 
 					"BundleSlots": 6,
 					"Price": {
-						"(O)207": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Frog_Legs": 1,
 						"(O)204": 1,
-						"(O)231": 1,
+						"(O)Rafseazz.RSVCP_Ginger_Arugula_Fried_Rice": 1,
+						"(O)Rafseazz.RSVCP_Ginger_Rangpur_Meringue": 1,
+						"(O)Rafseazz.RSVCP_Kek_s_Small_Dream": 1,
+						"(O)Rafseazz.RSVCP_Pink_Frosted_Sprinkled_Doughnut": 1,
+						"(O)Rafseazz.RSVCP_Tropic_Mango_Cake": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Glazed_Pear": 1,
 						"(O)236": 1,
-						"(O)238": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Grilled_Cheese_Sandwich": 1,
 						"(O)904": 1,
-						"(O)905": 1,
-						"(O)921": 1
+						"(O)FlashShifter.StardewValleyExpandedCP_Mushroom_Berry_Rice": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Pineapple_Custard_Crepe": 1
 					},
+					"RandomPriceEntries": 9,
 					"BundleReward": {
 						"(O)811": 1
 				},
@@ -3396,6 +3663,7 @@
 					"BundleSlots": 6,
                     "Price": {
 						"(O)766": 50,
+						"(O)Rafseazz.RSVCP_Spiritual_Essence": 50,
 						"(O)684": 25,
 						"(O)767": 15,
 						"(O)881": 10,
@@ -4179,14 +4447,16 @@
 					"BookId": "blue704.JojaCC_ForagerBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 6,
+					"BundleSlots": 7,
 					"Price": {
 						"(O)91": 1,
 						"(O)834": 1,
 						"(O)829": 1,
 						"(O)830": 1,
 						"(O)831": 1,
-                        "(O)832": 1
+                        "(O)832": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Big_Conch": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Dried_Sand_Dollar": 1
 					},
 					"BundleReward": {
 						"(BC)264": 1
@@ -4215,10 +4485,11 @@
 					"BookId": "blue704.JojaCC_ForagerBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 6,
+					"BundleSlots": 7,
 					"Price": {
 						"(O)153": 5,
-						"(O)157": 5,
+						"(O)FlashShifter.StardewValleyExpandedCP_Dulse_Seaweed": 5,
+						"(O)EastScarp_Wood_Duck_Feather": 1,
 						"(O)152": 2,
 						"(O)SeaJelly": 1,
 						"(O)RiverJelly": 1,
@@ -4333,7 +4604,7 @@
 					"BookId": "blue704.JojaCC_ForagerBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 7,
+					"BundleSlots": 8,
 					"Price": {
 						"(O)613": 1,
 						"(O)634": 1,
@@ -4341,8 +4612,20 @@
 						"(O)636": 1,
 						"(O)637": 1,
 						"(O)638": 1,
+						"(O)Rafseazz.RSVCP_Paradise_Rangpur": 1,
+						"(O)Rafseazz.RSVCP_Mountain_Plumcot": 1,
+						"(O)Rafseazz.RSVCP_Desert_Tangelo": 1,
+						"(O)Rafseazz.RSVCP_Tropi_Ugli_Fruit": 1,
+						"(O)Rafseazz.RSVCP_Ember_Blood_Lime": 1,
+						"(O)Rafseazz.RSVCP_Cherry_Pluot": 1,
+						"(O)Rafseazz.RSVCP_Northern_Limequat": 1,
+						"(O)Rafseazz.RSVCP_Highland_Jostaberry": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Nectarine": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Pear": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Persimmon": 1,
 						"(O)88": 1
 					},
+					"RandomPriceEntries": 9,
 					"BundleReward": {
 						"(O)891": 5
 					},
@@ -4410,13 +4693,14 @@
 					"DrawQuestionMark": false, 
 					"BundleSlots": 8,
 					"Price": {
-						"(O)404": 1,
 						"(O)420": 1,
 						"(O)422": 1,
 						"(O)257": 1,
 						"(O)281": 1,
 						"(O)430": 1,
 						"(O)851": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Mushroom_Colony": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Poison_Mushroom": 1,
 						"(O)Adam.Joja_DriedRedMushrooms": 1,
 						"(O)DriedMushrooms": 1
 					},
@@ -4450,12 +4734,12 @@
 					"DrawQuestionMark": false, 
 					"BundleSlots": 9,
 					"Price": {
-						"(O)404": 1,
-						"(O)420": 1,
 						"(O)422": 1,
 						"(O)257": 1,
 						"(O)281": 1,
 						"(O)430": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Mushroom_Colony": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Poison_Mushroom": 1,
 						"(O)Cornucopia_Shiitake": 1,
 						"(O)Cornucopia_ChickenoftheWoods": 1,
 						"(O)Adam.Joja_DriedRedMushrooms": 1,
@@ -4491,8 +4775,9 @@
 					"BundleSlots": 8,
 					"Price": {
 						"(O)394": 1,
-						"(O)392": 1,
-						"(O)393": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Big_Conch": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Dried_Sand_Dollar": 1,
+						"(O)EastScarp_Pelican_Feather": 1,
 						"(O)372": 1,
 						"(O)719": 1,
 						"(O)723": 1,
@@ -4531,9 +4816,8 @@
 						"(O)92": 99,
 						"(O)292": 10,
 						"(O)Moss": 10,
-						"(O)724": 1,
-						"(O)725": 1,
-						"(O)726": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Birch_Water": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Fir_Wax": 1,
 						"(O)309": 50,
 						"(O)310": 50,
 						"(O)311": 50
@@ -4572,9 +4856,11 @@
 						"(O)422": 1,
 						"(O)257": 1,
 						"(O)281": 1,
-						"(O)724": 1,
-						"(O)725": 1,
-						"(O)726": 1
+						"(O)Rafseazz.RSVCP_Ridgeside_Clementine": 1,
+						"(O)Rafseazz.RSVCP_Autumn_Drop_Berry": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Birch_Water": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Fir_Wax": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Mushroom_Colony": 1
 					},
 					"BundleReward": {
 						"(BC)MushroomLog": 5,
@@ -4622,7 +4908,20 @@
 						"(O)406": 1,
 						"(O)408": 1,
 						"(O)412": 1,
-						"(O)416": 1
+						"(O)416": 1,
+						"(O)Rafseazz.RSVCP_Ridgeside_Clementine": 1,
+						"(O)Rafseazz.RSVCP_Autumn_Drop_Berry": 1,
+						"(O)Rafseazz.RSVCP_Sierra_Wintergreen": 1,
+						"(O)Rafseazz.RSVCP_Mountain_Arugula": 1,
+						"(O)Rafseazz.RSVCP_Mountain_Chico": 1,
+						"(O)Rafseazz.RSVCP_Ridge_Wild_Apple": 1,
+						"(O)Rafseazz.RSVCP_Highland_Chard": 1,
+						"(O)Rafseazz.RSVCP_Frost_Clump_Berry": 1,
+						"(O)Rafseazz.RSVCP_Ridge_Cherry": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Lucky_Four_Leaf_Clover": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Smelly_Rafflesia": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Red_Baneberry": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Bearberrys": 1
 					},
 					"RandomPriceEntries": 10,
 					"BundleReward": {
@@ -4668,7 +4967,20 @@
 						"(O)406": 1,
 						"(O)408": 1,
 						"(O)412": 1,
-						"(O)416": 1
+						"(O)416": 1,
+						"(O)Rafseazz.RSVCP_Ridgeside_Clementine": 1,
+						"(O)Rafseazz.RSVCP_Autumn_Drop_Berry": 1,
+						"(O)Rafseazz.RSVCP_Sierra_Wintergreen": 1,
+						"(O)Rafseazz.RSVCP_Mountain_Arugula": 1,
+						"(O)Rafseazz.RSVCP_Mountain_Chico": 1,
+						"(O)Rafseazz.RSVCP_Ridge_Wild_Apple": 1,
+						"(O)Rafseazz.RSVCP_Highland_Chard": 1,
+						"(O)Rafseazz.RSVCP_Frost_Clump_Berry": 1,
+						"(O)Rafseazz.RSVCP_Ridge_Cherry": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Lucky_Four_Leaf_Clover": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Smelly_Rafflesia": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Red_Baneberry": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Bearberrys": 1
 					},
 					"RandomPriceEntries": 10,
 					"BundleReward": {
@@ -4701,14 +5013,16 @@
 					"DrawQuestionMark": false, 
 					"BundleSlots": 8,
                     "Price": {
-						"(O)20": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Red_Baneberry": 1,
 						"(O)396": 1,
 						"(O)406": 1,
 						"(O)88": 1,
 						"(O)90": 1,
 						"(O)829": 1,
 						"(O)851": 1,
-						"(O)416": 1
+						"(O)FlashShifter.StardewValleyExpandedCP_Bearberrys": 1,
+						"(O)Rafseazz.RSVCP_Sierra_Wintergreen": 1,
+						"(O)EastScarp_Blue_Jay_Feather": 1
 					},
 					"BundleReward": {
 						"(O)69": 1,
@@ -4742,13 +5056,15 @@
 					"BundleSlots": 8,
                     "Price": {
 						"(O)Cornucopia_Peppercorn": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Red_Baneberry": 1,
 						"(O)Cornucopia_Raspberry": 1,
 						"(O)Cornucopia_ChickenoftheWoods": 1,
 						"(O)88": 1,
 						"(O)Cornucopia_Sugarcane": 1,
 						"(O)829": 1,
-						"(O)851": 1,
-						"(O)416": 1
+						"(O)FlashShifter.StardewValleyExpandedCP_Bearberrys": 1,
+						"(O)Rafseazz.RSVCP_Sierra_Wintergreen": 1,
+						"(O)EastScarp_Blue_Jay_Feather": 1
 					},
 					"BundleReward": {
 						"(O)69": 1,
@@ -4782,6 +5098,11 @@
 					"BundleSlots": 8,
 					"Price": {
 						"(O)Carrot": 15,
+						"(O)Lemurkat.EastScarp_FirePepper": 1,
+						"(O)Lemurkat.EastScarp_ButterTuff": 1,
+						"(O)EastScarp_BiteBackMelon": 1,
+						"(O)Rafseazz.RSVCP_Mountain_Arugula": 1,
+						"(O)Rafseazz.RSVCP_Ridge_Cherry": 1,
 						"(O)24": 1,
 						"(O)192": 1,
 						"(O)250": 1,
@@ -4791,7 +5112,8 @@
 						"(O)271": 20,
 						"(O)433": 50,
 						"(O)591": 1,
-						"(O)597": 1
+						"(O)597": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Cucumber": 1
 					},
 					"RandomPriceEntries": 8,
 					"BundleReward": {
@@ -4833,6 +5155,12 @@
 						"(O)Cornucopia_Bamboo": 1,
 						"(O)Cornucopia_CanaryMelon": 1,
 						"(O)Cornucopia_SesameSeeds": 1,
+						"(O)Lemurkat.EastScarp_FirePepper": 1,
+						"(O)Lemurkat.EastScarp_ButterTuff": 1,
+						"(O)EastScarp_BiteBackMelon": 1,
+						"(O)Rafseazz.RSVCP_Mountain_Arugula": 1,
+						"(O)Rafseazz.RSVCP_Ridge_Cherry": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Cucumber": 1,
 						"(O)Carrot": 15,
 						"(O)24": 1,
 						"(O)192": 1,
@@ -4880,13 +5208,15 @@
 					"BundleSlots": 8,
 					"Price": {
 						"(O)Carrot": 15,
-						"(O)24": 1,
+						"(O)Rafseazz.RSVCP_Mountain_Arugula": 1,
+						"(O)EastScarp_BiteBackMelon": 1,
+						"(O)Rafseazz.RSVCP_Ridge_Cherry": 1,
+						"(O)Lemurkat.EastScarp_FirePepper": 1,
+						"(O)Lemurkat.EastScarp_ButterTuff": 1,
 						"(O)192": 1,
 						"(O)250": 1,
 						"(O)252": 1,
-						"(O)190": 1,
-						"(O)634": 1,
-						"(O)638": 1
+						"(O)FlashShifter.StardewValleyExpandedCP_Cucumber": 1
 					},
 					"BundleReward": {
 						"(O)621": 3
@@ -4924,11 +5254,16 @@
 						"(O)Cornucopia_BlueAgave": 1,
 						"(O)Cornucopia_Onion": 1,
 						"(O)252": 1,
-						"(O)250": 1,
+						"(O)Rafseazz.RSVCP_Mountain_Arugula": 1,
+						"(O)EastScarp_BiteBackMelon": 1,
+						"(O)Rafseazz.RSVCP_Ridge_Cherry": 1,
+						"(O)Lemurkat.EastScarp_FirePepper": 1,
+						"(O)Lemurkat.EastScarp_ButterTuff": 1,
 						"(O)Cornucopia_PassionFruit": 1,
-						"(O)634": 1,
-						"(O)638": 1
+						"(O)FlashShifter.StardewValleyExpandedCP_Cucumber": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Pear": 1
 					},
+					"RandomPriceEntries": 10,
 					"BundleReward": {
 						"(O)621": 3
 					},
@@ -4962,6 +5297,14 @@
 					"BundleSlots": 8,
 					"Price": {
 						"(O)SummerSquash": 15,
+						"(O)FlashShifter.StardewValleyExpandedCP_Butternut_Squash": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Ancient_Fiber": 1,
+						"(O)Rafseazz.RSVCP_Ridge_Wild_Apple": 1,
+						"(O)Rafseazz.RSVCP_Mountain_Chico": 1,
+						"(O)Rafseazz.RSVCP_Mountain_Hokkaido": 1,
+						"(O)Lemurkat.EastScarp_ZinfazuFruit": 1,
+						"(O)EastScarp_PuckerWort": 1,
+						"(O)Lemurkat.EastScarp_ButtonFruit": 1,
 						"(O)264": 1,
 						"(O)268": 1,
 						"(O)262": 1,
@@ -5013,6 +5356,14 @@
 						"(O)Cornucopia_MungBeans": 1,
 						"(O)Cornucopia_Kiwi": 1,
 						"(O)Cornucopia_Sugarcane": 1,
+						"(O)Rafseazz.RSVCP_Ridge_Wild_Apple": 1,
+						"(O)Rafseazz.RSVCP_Mountain_Chico": 1,
+						"(O)Rafseazz.RSVCP_Mountain_Hokkaido": 1,
+						"(O)Lemurkat.EastScarp_ZinfazuFruit": 1,
+						"(O)EastScarp_PuckerWort": 1,
+						"(O)Lemurkat.EastScarp_ButtonFruit": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Butternut_Squash": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Ancient_Fiber": 1,
 						"(O)SummerSquash": 15,
 						"(O)264": 1,
 						"(O)262": 1,
@@ -5061,11 +5412,13 @@
 						"(O)SummerSquash": 15,
 						"(O)264": 1,
 						"(O)268": 1,
-						"(O)593": 1,
-						"(O)266": 1,
-						"(O)304": 1,
-						"(O)635": 1,
-						"(O)636": 1
+						"(O)Lemurkat.EastScarp_ZinfazuFruit": 1,
+						"(O)EastScarp_PuckerWort": 1,
+						"(O)Lemurkat.EastScarp_ButtonFruit": 1,
+						"(O)Rafseazz.RSVCP_Ridge_Wild_Apple": 1,
+						"(O)Rafseazz.RSVCP_Mountain_Chico": 1,
+						"(O)Rafseazz.RSVCP_Mountain_Hokkaido": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Butternut_Squash": 1
 					},
 					"BundleReward": {
 						"(O)645": 3
@@ -5100,12 +5453,18 @@
 						"(O)SummerSquash": 15,
 						"(O)Cornucopia_Watermelon": 1,
 						"(O)Cornucopia_Lemongrass": 1,
-						"(O)593": 1,
+						"(O)Lemurkat.EastScarp_ZinfazuFruit": 1,
+						"(O)EastScarp_PuckerWort": 1,
+						"(O)Lemurkat.EastScarp_ButtonFruit": 1,
+						"(O)Rafseazz.RSVCP_Ridge_Wild_Apple": 1,
+						"(O)Rafseazz.RSVCP_Mountain_Chico": 1,
+						"(O)Rafseazz.RSVCP_Mountain_Hokkaido": 1,
 						"(O)268": 1,
 						"(O)Cornucopia_BeanSprouts": 1,
-						"(O)635": 1,
-						"(O)636": 1
+						"(O)FlashShifter.StardewValleyExpandedCP_Butternut_Squash": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Nectarine": 1
 					},
+					"RandomPriceEntries": 10,
 					"BundleReward": {
 						"(O)645": 3
 					},
@@ -5137,6 +5496,12 @@
 					"BundleSlots": 8,
 					"Price": {
 						"(O)Broccoli": 15,
+						"(O)FlashShifter.StardewValleyExpandedCP_Sweet_Potato": 1,
+						"(O)EastScarp_Cuccaroot": 1,
+						"(O)Lemurkat.EastScarp_FairyCap": 1,
+						"(O)Lemurkat.EastScarp_Paneeki": 1,
+						"(O)Rafseazz.RSVCP_Highland_Chard": 1,
+						"(O)Rafseazz.RSVCP_Highland_Butterwort": 1,
 						"(O)278": 1,
 						"(O)272": 1,
 						"(O)300": 1,
@@ -5185,6 +5550,12 @@
 						"(O)Cornucopia_CuminSeeds": 1,
 						"(O)Cornucopia_Lentils": 1,
 						"(O)Cornucopia_Soybeans": 1,
+						"(O)EastScarp_Cuccaroot": 1,
+						"(O)Lemurkat.EastScarp_FairyCap": 1,
+						"(O)Lemurkat.EastScarp_Paneeki": 1,
+						"(O)Rafseazz.RSVCP_Highland_Chard": 1,
+						"(O)Rafseazz.RSVCP_Highland_Butterwort": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Sweet_Potato": 1,
 						"(O)Broccoli": 15,
 						"(O)278": 1,
 						"(O)272": 1,
@@ -5231,13 +5602,17 @@
 					"Price": {
 						"(O)Broccoli": 15,
 						"(O)278": 1,
-						"(O)272": 1,
-						"(O)300": 1,
+						"(O)EastScarp_Cuccaroot": 1,
+						"(O)Lemurkat.EastScarp_FairyCap": 1,
+						"(O)Lemurkat.EastScarp_Paneeki": 1,
+						"(O)Rafseazz.RSVCP_Highland_Chard": 1,
+						"(O)Rafseazz.RSVCP_Highland_Butterwort": 1,
 						"(O)274": 1,
 						"(O)284": 1,
-						"(O)637": 1,
-						"(O)613": 1
+						"(O)FlashShifter.StardewValleyExpandedCP_Sweet_Potato": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Persimmon": 1
 					},
+					"RandomPriceEntries": 10,
 					"BundleReward": {
 						"(BC)Adam.Joja_Keg": 5
 				},
@@ -5270,13 +5645,18 @@
 					"Price": {
 						"(O)Broccoli": 15,
 						"(O)Cornucopia_Turmeric": 1,
-						"(O)300": 1,
+						"(O)EastScarp_Cuccaroot": 1,
+						"(O)Lemurkat.EastScarp_FairyCap": 1,
+						"(O)Lemurkat.EastScarp_Paneeki": 1,
+						"(O)Rafseazz.RSVCP_Highland_Chard": 1,
+						"(O)Rafseazz.RSVCP_Highland_Butterwort": 1,
 						"(O)274": 1,
 						"(O)284": 1,
 						"(O)Cornucopia_Turnip": 1,
-						"(O)Cornucopia_SweetPotato": 1,
-						"(O)613": 1
+						"(O)FlashShifter.StardewValleyExpandedCP_Sweet_Potato": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Persimmon": 1
 					},
+					"RandomPriceEntries": 10,
 					"BundleReward": {
 						"(BC)Adam.Joja_Keg": 5
 				},
@@ -5329,7 +5709,27 @@
 						"(O)250:Iridium": 3,
 						"(O)188:Iridium": 3,
 						"(O)190:Iridium": 3,
-						"(O)400:Iridium": 3
+						"(O)400:Iridium": 3,
+						"(O)FlashShifter.StardewValleyExpandedCP_Cucumber:Iridium": 3,
+						"(O)FlashShifter.StardewValleyExpandedCP_Butternut_Squash:Iridium": 3,
+						"(O)FlashShifter.StardewValleyExpandedCP_Ancient_Fiber:Iridium": 3,
+						"(O)FlashShifter.StardewValleyExpandedCP_Sweet_Potato:Iridium": 3,
+						"(O)Rafseazz.RSVCP_Ridge_Cherry:Iridium": 3,
+						"(O)Rafseazz.RSVCP_Mountain_Arugula:Iridium": 3,
+						"(O)Rafseazz.RSVCP_Ridge_Wild_Apple:Iridium": 3,
+						"(O)Rafseazz.RSVCP_Mountain_Hokkaido:Iridium": 3,
+						"(O)Rafseazz.RSVCP_Highland_Chard:Iridium": 3,
+						"(O)Rafseazz.RSVCP_Highland_Butterwort:Iridium": 3,
+						"(O)Rafseazz.RSVCP_Mountain_Chico:Iridium": 3,
+						"(O)Lemurkat.EastScarp_FirePepper:Iridium": 3,
+						"(O)Lemurkat.EastScarp_ButterTuff:Iridium": 3,
+						"(O)EastScarp_BiteBackMelon:Iridium": 3,
+						"(O)Lemurkat.EastScarp_ZinfazuFruit:Iridium": 3,
+						"(O)EastScarp_PuckerWort:Iridium": 3,
+						"(O)Lemurkat.EastScarp_ButtonFruit:Iridium": 3,
+						"(O)EastScarp_Cuccaroot:Iridium": 3,
+						"(O)Lemurkat.EastScarp_FairyCap:Iridium": 3,
+						"(O)Lemurkat.EastScarp_Paneeki:Iridium": 3
 					},
 					"RandomPriceEntries": 8,
 					"BundleReward": {
@@ -5404,7 +5804,27 @@
 						"(O)Cornucopia_Turnip:Iridium": 3,
 						"(O)Cornucopia_CuminSeeds:Iridium": 3,
 						"(O)Cornucopia_Lentils:Iridium": 3,
-						"(O)Cornucopia_Soybeans:Iridium": 3
+						"(O)Cornucopia_Soybeans:Iridium": 3,
+						"(O)FlashShifter.StardewValleyExpandedCP_Cucumber:Iridium": 3,
+						"(O)FlashShifter.StardewValleyExpandedCP_Butternut_Squash:Iridium": 3,
+						"(O)FlashShifter.StardewValleyExpandedCP_Ancient_Fiber:Iridium": 3,
+						"(O)FlashShifter.StardewValleyExpandedCP_Sweet_Potato:Iridium": 3,
+						"(O)Rafseazz.RSVCP_Ridge_Cherry:Iridium": 3,
+						"(O)Rafseazz.RSVCP_Mountain_Arugula:Iridium": 3,
+						"(O)Rafseazz.RSVCP_Ridge_Wild_Apple:Iridium": 3,
+						"(O)Rafseazz.RSVCP_Mountain_Hokkaido:Iridium": 3,
+						"(O)Rafseazz.RSVCP_Highland_Chard:Iridium": 3,
+						"(O)Rafseazz.RSVCP_Highland_Butterwort:Iridium": 3,
+						"(O)Rafseazz.RSVCP_Mountain_Chico:Iridium": 3,
+						"(O)Lemurkat.EastScarp_FirePepper:Iridium": 3,
+						"(O)Lemurkat.EastScarp_ButterTuff:Iridium": 3,
+						"(O)EastScarp_BiteBackMelon:Iridium": 3,
+						"(O)Lemurkat.EastScarp_ZinfazuFruit:Iridium": 3,
+						"(O)EastScarp_PuckerWort:Iridium": 3,
+						"(O)Lemurkat.EastScarp_ButtonFruit:Iridium": 3,
+						"(O)EastScarp_Cuccaroot:Iridium": 3,
+						"(O)Lemurkat.EastScarp_FairyCap:Iridium": 3,
+						"(O)Lemurkat.EastScarp_Paneeki:Iridium": 3
 					},
 					"RandomPriceEntries": 8,
 					"BundleReward": {
@@ -5505,13 +5925,18 @@
 					"BookId": "blue704.JojaCC_FarmerBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 5,
+					"BundleSlots": 7,
                     "Price": {
-						"(O)266": 1,
 						"(O)268": 1,
 						"(O)454": 1,
 						"(O)417": 1,
-						"(O)889": 1
+						"(O)889": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Gold_Carrot": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Joja_Veggie": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Monster_Fruit": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Monster_Mushroom": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Void_Root": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Joja_Berry": 1
 					},
 					"BundleReward": {
 						"(BC)Adam.Joja_SeedSorter": 1
@@ -5544,11 +5969,15 @@
 					"DrawQuestionMark": false, 
 					"BundleSlots": 6,
                     "Price": {
-						"(O)266": 1,
 						"(O)268": 1,
 						"(O)454": 1,
 						"(O)417": 1,
 						"(O)889": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Gold_Carrot": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Monster_Fruit": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Monster_Mushroom": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Void_Root": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Joja_Berry": 1,
 						"(O)Cornucopia_Ginseng": 1
 					},
 					"BundleReward": {
@@ -5621,7 +6050,7 @@
 					"BookId": "blue704.JojaCC_FarmerBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 8,
+					"BundleSlots": 9,
                     "Price": {
 						"(O)430": 1,
 						"(O)438": 1,
@@ -5629,8 +6058,8 @@
 						"(O)186": 1,
 						"(O)174": 3,
 						"(O)182": 3,
-						"(O)305": 1,
-						"(O)107": 1,
+						"(O)EastScarp_Pheasant_Feather": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Goose_Egg": 1,
 						"(O)446": 1,
 						"(O)444": 1
 					},
@@ -5734,7 +6163,7 @@
 					"BookId": "blue704.JojaCC_FarmerBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 6,
+					"BundleSlots": 7,
                     "Price": {
 						"(O)200": 1,
 						"(O)203": 1,
@@ -5751,7 +6180,30 @@
 						"(O)904": 1,
 						"(O)728": 1,
 						"(O)235": 1,
-						"(O)236": 1
+						"(O)236": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Big_Bark_Burger": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Baked_Potato": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Birch_Syrup": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Fish_Dumpling": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Glazed_Butterfish": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Nectarine_Fruit_Bread": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Ramen": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Seaweed_Salad": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Seed_Cookie": 1,
+						"(O)EastScarp_Cheesy_Jelly_Toast": 1,
+						"(O)EastScarp_Candied_Cuccaroot": 1,
+						"(O)EastScarp_Rosas_Baklava": 1,
+						"(O)EastScarp_Rosas_Spanakopita": 1,
+						"(O)EastScarp_Biteback_Curry": 1,
+						"(O)Rafseazz.RSVCP_Ridge_Fruity_Plate": 1,
+						"(O)Rafseazz.RSVCP_Arugula_Roll": 1,
+						"(O)Rafseazz.RSVCP_Snow_Bowl_Surprise": 1,
+						"(O)Rafseazz.RSVCP_Highland_Ice_Cream": 1,
+						"(O)Rafseazz.RSVCP_Kek_s_Style_Shortcake": 1,
+						"(O)Rafseazz.RSVCP_Zesty_Tuna": 1,
+						"(O)Rafseazz.RSVCP_Fried_Mountain_Greens": 1,
+						"(O)Rafseazz.RSVCP_Fried_Fish_a_la_Ridge": 1,
+						"(O)Rafseazz.RSVCP_Crunchy_Bagel": 1
 					},
 					"RandomPriceEntries": 9,
 					"BundleReward": {
@@ -5792,7 +6244,7 @@
 						"(O)182": 3,
 						"(O)186": 3,
 						"(O)423": 50,
-						"(O)216": 5
+						"(O)FlashShifter.StardewValleyExpandedCP_Butter": 10
 					},
 					"BundleReward": {
 						"(O)917": 20
@@ -5996,7 +6448,18 @@
 						"(O)698": 1,
 						"(O)700": 1,
 						"(O)702": 1,
-						"(O)707": 1
+						"(O)707": 1,
+						"(O)Rafseazz.RSVCP_Bladetail_Sturgeon": 1,
+						"(O)Rafseazz.RSVCP_Ridgeside_Bass": 1,
+						"(O)Rafseazz.RSVCP_Ridge_Bluegill": 1,
+						"(O)Rafseazz.RSVCP_Mountain_Whitefish": 1,
+						"(O)EastScarp_Golden_Trout": 1,
+						"(O)EastScarp_Kokanee_Salmon": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Frog": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Grass_Carp": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_King_Salmon": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Minnow": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Tadpole": 1
 					},
 					"RandomPriceEntries": 7,
 					"BundleReward": {
@@ -6026,14 +6489,17 @@
 					"BookId": "blue704.JojaCC_FisherBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 6,
+					"BundleSlots": 7,
 					"Price": {
 						"(O)137": 1,
 						"(O)129": 1,
-						"(O)147": 1,
+						"(O)EastScarp_Ornate_Nudibranch": 1,
+						"(O)EastScarp_Golden_Trout": 1,
 						"(O)148": 1,
-						"(O)136": 1,
-						"(O)706": 1
+						"(O)Rafseazz.RSVCP_Mountain_Redbelly_Dace": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Goldfish": 1,
+						"(O)706": 1,
+						"(O)Rafseazz.RSVCP_Ridgeside_Bass": 1
 					},
 					"BundleReward": {
 						"(O)SkillBook_1": 1
@@ -6062,13 +6528,16 @@
 					"BookId": "blue704.JojaCC_FisherBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 5,
+					"BundleSlots": 7,
 					"Price": {
 						"(O)140": 1,
 						"(O)143": 1,
 						"(O)148": 1,
 						"(O)150": 1,
-						"(O)706": 1
+						"(O)706": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Frog": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Gar": 1,
+						"(O)EastScarp_Obsidian_Maw": 1
 					},
 					"BundleReward": {
 						"(O)SkillBook_1": 1
@@ -6113,7 +6582,15 @@
 						"(O)151": 1,
 						"(O)155": 1,
 						"(O)701": 1,
-						"(O)708": 1
+						"(O)708": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Starfish": 1,
+						"(O)EastScarp_Ornate_Nudibranch": 1,
+						"(O)EastScarp_Sea_Bunny_Nudibranch": 1,
+						"(O)EastScarp_Sunset_Nudibranch": 1,
+						"(O)EastScarp_Cerulean_Nudibranch": 1,
+						"(O)Rafseazz.RSVCP_Cardia_Septal_Jellyfish": 1,
+						"(O)Rafseazz.RSVCP_Fairytale_Lionfish": 1,
+						"(O)Rafseazz.RSVCP_Crimson_Spiked_Clam": 1
 					},
 					"RandomPriceEntries": 7,
 					"BundleReward": {
@@ -6143,14 +6620,17 @@
 					"BookId": "blue704.JojaCC_FisherBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 6,
+					"BundleSlots": 7,
 					"Price": {
 						"(O)138": 1,
 						"(O)144": 1,
+						"(O)EastScarp_Kokanee_Salmon": 1,
 						"(O)146": 1,
 						"(O)149": 1,
-						"(O)704": 1,
-						"(O)267": 1
+						"(O)267": 1,
+						"(O)EastScarp_Sea_Bunny_Nudibranch": 1,
+						"(O)Rafseazz.RSVCP_Mountain_Whitefish": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Grass_Carp": 1
 					},
 					"BundleReward": {
 						"(BC)Adam.Joja_WormBin": 2
@@ -6219,13 +6699,16 @@
 					"BookId": "blue704.JojaCC_FisherBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 5,
+					"BundleSlots": 7,
 					"Price": {
 						"(O)128": 1,
 						"(O)138": 1,
+						"(O)EastScarp_Slime_Barbel": 1,
 						"(O)145": 1,
-						"(O)164": 1,
-						"(O)165": 1
+						"(O)FlashShifter.StardewValleyExpandedCP_Butterfish": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Goldfish": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Minnow": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Ocean_Sunfish": 1
 					},
 					"BundleReward": {
 						"(BC)Adam.Joja_WormBin": 2
@@ -6265,7 +6748,21 @@
 						"(O)128": 1,
 						"(O)132": 1,
 						"(O)143": 1,
-						"(O)145": 1
+						"(O)145": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Butterfish": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Gar": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Goldfish": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Bull_Trout": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Kittyfish": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Puppyfish": 1,
+						"(O)EastScarp_Obsidian_Maw": 1,
+						"(O)EastScarp_Slime_Barbel": 1,
+						"(O)EastScarp_Fairy_Betta": 1,
+						"(O)Rafseazz.RSVCP_Cutthroat_Trout": 1,
+						"(O)Rafseazz.RSVCP_Fixer_Eel": 1,
+						"(O)Rafseazz.RSVCP_Harvester_Trout": 1,
+						"(O)Rafseazz.RSVCP_Mountain_Redbelly_Dace": 1,
+						"(O)Rafseazz.RSVCP_Skulpin_Fish": 1
 					},
 				"RandomPriceEntries": 7,
 					"BundleReward": {
@@ -6295,13 +6792,16 @@
 					"BookId": "blue704.JojaCC_FisherBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 6,
+					"BundleSlots": 7,
 					"Price": {
 						"(O)139": 1,
 						"(O)154": 1,
 						"(O)269": 1,
-						"(O)699": 1,
+						"(O)Rafseazz.RSVCP_Cutthroat_Trout": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Gar": 1,
+						"(O)EastScarp_Sunset_Nudibranch": 1,
 						"(O)705": 1,
+						"(O)EastScarp_Slime_Barbel": 1,
 						"(O)140": 1
 					},
 					"BundleReward": {
@@ -6338,7 +6838,13 @@
 						"(O)151": 1,
 						"(O)155": 1,
 						"(O)269": 1,
-						"(O)795": 1
+						"(O)795": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Baby_Lunaloo": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Frog": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Lunaloo": 1,
+						"(O)EastScarp_Obsidian_Maw": 1,
+						"(O)EastScarp_Slime_Barbel": 1,
+						"(O)Rafseazz.RSVCP_Cardia_Septal_Jellyfish": 1
 					},
 					"BundleReward": {
 						"(BC)Adam.Joja_FishSmoker": 2
@@ -6381,7 +6887,16 @@
 						"(O)836": 1,
 						"(O)837": 1,
 						"(O)838": 1,
-						"(O)Goby": 1
+						"(O)Goby": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Baby_Lunaloo": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Lunaloo": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Barred_Knifejaw": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Blue_Tang": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Clownfish": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Ocean_Sunfish": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Sea_Sponge": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Seahorse": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Shark": 1
 					},
 					"RandomPriceEntries": 7,
 					"BundleReward": {
@@ -6413,12 +6928,15 @@
 					"BookId": "blue704.JojaCC_FisherBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 6,
+					"BundleSlots": 7,
                     "Price": {
 						"(O)141": 1,
 						"(O)151": 1,
 						"(O)707": 1,
-						"(O)698": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Bull_Trout": 1,
+						"(O)EastScarp_Cerulean_Nudibranch": 1,
+						"(O)Rafseazz.RSVCP_Ridge_Bluegill": 1,
+						"(O)EastScarp_Obsidian_Maw": 1,
 						"(O)161": 1,
 						"(O)708": 1
 					},
@@ -6489,8 +7007,18 @@
 						"(O)837": 1,
 						"(O)838": 1,
 						"(O)836": 1,
-						"(O)128": 1
+						"(O)128": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Baby_Lunaloo": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Lunaloo": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Barred_Knifejaw": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Blue_Tang": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Clownfish": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Ocean_Sunfish": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Sea_Sponge": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Seahorse": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Shark": 1
 					},
+					"RandomPriceEntries": 5,
 					"BundleReward": {
 						"(O)265": 2
 					},
@@ -6683,7 +7211,13 @@
 				  "RandomItemId": [
 					"(O)140",
 					"(O)136",
-					"(O)269"
+					"(O)269","(O)FlashShifter.StardewValleyExpandedCP_Frog",
+					"(O)FlashShifter.StardewValleyExpandedCP_Grass_Carp",
+					"(O)FlashShifter.StardewValleyExpandedCP_King_Salmon",
+					"(O)EastScarp_Kokanee_Salmon",
+					"(O)EastScarp_Golden_Trout",
+					"(O)Rafseazz.RSVCP_Bladetail_Sturgeon",
+					"(O)Rafseazz.RSVCP_Ridgeside_Bass"
 				],
 				  "MaxItems": 1,
 				  "Quality": 4
@@ -6693,7 +7227,13 @@
 					"(O)154",
 					"(O)149",
 					"(O)148",
-					"(O)150"
+					"(O)150",
+					"(O)FlashShifter.StardewValleyExpandedCP_Minnow",
+					"(O)FlashShifter.StardewValleyExpandedCP_Tadpole",
+					"(O)EastScarp_Ornate_Nudibranch",
+					"(O)EastScarp_Sea_Bunny_Nudibranch",
+					"(O)Rafseazz.RSVCP_Ridge_Bluegill",
+					"(O)Rafseazz.RSVCP_Mountain_Whitefish"
 				],
 				  "MaxItems": 1,
 				  "Quality": 4
@@ -6701,7 +7241,13 @@
 			  {
 				   "RandomItemId": [
 					"(O)704",
-					"(O)699"
+					"(O)699",
+					"(O)FlashShifter.StardewValleyExpandedCP_Butterfish",
+					"(O)FlashShifter.StardewValleyExpandedCP_Gar",
+					"(O)EastScarp_Sunset_Nudibranch",
+					"(O)EastScarp_Cerulean_Nudibranch",
+					"(O)Rafseazz.RSVCP_Cardia_Septal_Jellyfish",
+					"(O)Rafseazz.RSVCP_Fairytale_Lionfish"
 				],
 				  "MaxItems": 1,
 				  "Quality": 4
@@ -6710,7 +7256,12 @@
 				  "RandomItemId": [
 					"(O)698",
 					"(O)707",
-					"(O)141"
+					"(O)141",
+					"(O)FlashShifter.StardewValleyExpandedCP_Goldfish",
+					"(O)FlashShifter.StardewValleyExpandedCP_Bull_Trout",
+					"(O)EastScarp_Obsidian_Maw",
+					"(O)EastScarp_Slime_Barbel",
+					"(O)Rafseazz.RSVCP_Crimson_Spiked_Clam"
 				],
 				  "MaxItems": 1,
 				  "Quality": 4
@@ -6719,7 +7270,11 @@
 				  "RandomItemId": [
 					"(O)151",
 					"(O)155",
-					"(O)128"
+					"(O)128",
+					"(O)FlashShifter.StardewValleyExpandedCP_Starfish",
+					"(O)EastScarp_Fairy_Betta",
+					"(O)Rafseazz.RSVCP_Cutthroat_Trout",
+					"(O)Rafseazz.RSVCP_Fixer_Eel"
 				],
 				  "MaxItems": 1,
 				  "Quality": 4
@@ -6727,7 +7282,12 @@
 			  {
 				  "RandomItemId": [
 					"(O)143",
-					"(O)144"
+					"(O)144",
+					"(O)FlashShifter.StardewValleyExpandedCP_Kittyfish",
+					"(O)FlashShifter.StardewValleyExpandedCP_Puppyfish",
+					"(O)Rafseazz.RSVCP_Harvester_Trout",
+					"(O)Rafseazz.RSVCP_Mountain_Redbelly_Dace",
+					"(O)Rafseazz.RSVCP_Skulpin_Fish"
 				],
 				  "MaxItems": 1,
 				  "Quality": 4
@@ -6766,6 +7326,7 @@
 					"Price": {
 						"(O)174": 6,
 						"(O)182": 6,
+						"(O)FlashShifter.StardewValleyExpandedCP_Goose_Egg": 1,
 						"(O)194": 1,
 						"(O)195": 1,
 						"(O)305": 1,
@@ -6798,10 +7359,11 @@
 					"BookId": "blue704.JojaCC_BulletinBoardBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 4,
+					"BundleSlots": 5,
 					"Price": {
 						"(O)174": 3,
 						"(O)182": 3,
+						"(O)FlashShifter.StardewValleyExpandedCP_Goose_Egg": 1,
 						"(O)305": 1,
 						"(O)442": 1
 					},
@@ -6901,9 +7463,10 @@
 					"BookId": "blue704.JojaCC_BulletinBoardBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 6,
+					"BundleSlots": 7,
 					"Price": {
 						"(O)746": 15,
+						"(O)FlashShifter.StardewValleyExpandedCP_Hedge_Fence_Tilesheet": 10,
 						"(O)178": 100,
 						"(BC)8": 10,
 						"(O)611": 1,
@@ -6941,13 +7504,13 @@
 						"(S)1189": 1,
 						"(S)1035": 1,
 						"(S)1161": 1,
-						"(P)13": 1,
+						"(S)Rafseazz.RSVCP_Juninja_Shirt": 1,
 						"(P)3": 1,
 						"(H)54": 1,
 						"(H)90": 1,
 						"(H)47": 1,
 						"(P)1": 1,
-						"(P)2": 1					
+						"(P)2": 1	
 					},
 					"BundleReward": {
 						"(S)1143": 1,
@@ -6986,6 +7549,7 @@
 						"(O)604": 1,
 						"(O)607": 1,
 						"(O)238": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Gingerbread_Man": 1,
 						"(O)239": 1,
 						"(O)MysteryBox": 15,
 						"(O)223": 5,
@@ -7027,8 +7591,16 @@
 						"(O)421": 1,
 						"(O)418": 1,
 						"(O)402": 1,
-						"(O)22": 1
+						"(O)22": 1,
+						"(O)Rafseazz.RSVCP_Violet_Devil_s_Claw": 1,
+						"(O)Rafseazz.RSVCP_Highland_Butterwort": 1,
+						"(O)Rafseazz.RSVCP_Ridgeside_Monkshood": 1,
+						"(O)EastScarp_Serruria": 1,
+						"(O)EastScarp_Azure_Chrysanthemum": 1,
+						"(O)EastScarp_Bird_Of_Paradise": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Swamp_Flower": 1
 					},
+					"RandomPriceEntries": 10,
 					"BundleReward": {
 						"(F)1971": 1,
 						"(BC)Adam.Joja_HoneyMakerPRO": 1
@@ -7065,8 +7637,16 @@
 						"(O)22": 1,
 						"(O)376": 1,
                         "(O)418": 1,
-						"(O)402": 1
+						"(O)402": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Swamp_Flower": 1,
+						"(O)Rafseazz.RSVCP_Violet_Devil_s_Claw": 1,
+						"(O)Rafseazz.RSVCP_Highland_Butterwort": 1,
+						"(O)Rafseazz.RSVCP_Ridgeside_Monkshood": 1,
+						"(O)EastScarp_Serruria": 1,
+						"(O)EastScarp_Azure_Chrysanthemum": 1,
+						"(O)EastScarp_Bird_Of_Paradise": 1
 					},
+					"RandomPriceEntries": 10,
 					"BundleReward": {
 						"(F)1971": 1,
 						"(BC)Adam.Joja_HoneyMakerPRO": 1
@@ -7094,12 +7674,14 @@
 					"DrawQuestionMark": false, 
 					"BundleSlots": 8,
                     "Price": {
-						"(O)253": 1,
-						"(O)612": 1,
-						"(O)903": 1,
-						"(O)167": 12,
+						"(O)Rafseazz.RSVCP_Matcha_Latte": 1,
+						"(O)Rafseazz.RSVCP_Autumn_Dew_Drop_Juice": 1,
+						"(O)Rafseazz.RSVCP_Cherry_Berry_Shakey": 1,
+						"(O)EastScarp_Pucker_Green_Smoothie": 1,
 						"(O)Adam.Joja_BlueTea": 1,
 						"(O)Adam.Joja_Coffee": 1,
+						"(O)Rafseazz.RSVCP_Ridgeside_Shaketini": 1,
+						"(O)Rafseazz.RSVCP_Summit_Iced_Tea": 1,
 						"(UB.AP)Adam.Joja_FairyRosePremiumMead": 1,
 						"(O)873": 1
 					},
@@ -7197,15 +7779,17 @@
 					"BookId": "blue704.JojaCC_BulletinBoardBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 8,
+					"BundleSlots": 9,
                     "Price": {
 						"(O)CarrotSeeds": 3,
 						"(O)SummerSquashSeeds": 3,
 						"(O)BroccoliSeeds": 3,
 						"(O)PowdermelonSeeds": 3,
+						"(O)FlashShifter.StardewValleyExpandedCP_Fossilized_Apple": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Old_Coin": 1,
 						"(O)417": 1,
-						"(O)586": 1,
-						"(O)800": 1,
+						"(O)EastScarp_Wood_Duck_Feather": 1,
+						"(O)EastScarp_Blue_Jay_Feather": 1,
 						"(O)MysticSyrup": 1
 					},
 					"BundleReward": {
@@ -7375,7 +7959,7 @@
 					"BookId": "blue704.JojaCC_BoilerRoomBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 7,
+					"BundleSlots": 8,
 					"Price": {
 						"(O)60": 1,
 						"(O)62": 1,
@@ -7383,7 +7967,8 @@
 						"(O)66": 1,
 						"(O)68": 1,
                         "(O)70": 1,
-                        "(O)72": 1
+                        "(O)72": 1,
+						"(O)Rafseazz.RSVCP_Nightblack_Diamond": 1
 					},
 					"BundleReward": {
 						"(O)74": 1
@@ -7412,17 +7997,18 @@
 					"BookId": "blue704.JojaCC_BoilerRoomBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 7,
+					"BundleSlots": 9,
 					"Price": {
 						"(O)84": 1,
-						"(O)86": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Amber": 1,
 						"(O)557": 1,
 						"(O)578": 1,
 						"(O)64": 1,
 						"(O)575": 1,
 						"(O)68": 1,
 						"(O)573": 1,
-						"(O)567": 1
+						"(O)567": 1,
+						"(O)Rafseazz.RSVCP_Nightblack_Diamond": 1
 					},
 					"BundleReward": {
 						"(BC)21": 1
@@ -7487,15 +8073,21 @@
 					"DrawQuestionMark": false, 
 					"BundleSlots": 7,
 					"Price": {
-						"(O)207": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Frog_Legs": 1,
 						"(O)204": 1,
-						"(O)231": 1,
+						"(O)Rafseazz.RSVCP_Ginger_Arugula_Fried_Rice": 1,
+						"(O)Rafseazz.RSVCP_Ginger_Rangpur_Meringue": 1,
+						"(O)Rafseazz.RSVCP_Kek_s_Small_Dream": 1,
+						"(O)Rafseazz.RSVCP_Pink_Frosted_Sprinkled_Doughnut": 1,
+						"(O)Rafseazz.RSVCP_Tropic_Mango_Cake": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Glazed_Pear": 1,
 						"(O)236": 1,
-						"(O)238": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Grilled_Cheese_Sandwich": 1,
 						"(O)904": 1,
-						"(O)905": 1,
-						"(O)921": 1
+						"(O)FlashShifter.StardewValleyExpandedCP_Mushroom_Berry_Rice": 1,
+						"(O)FlashShifter.StardewValleyExpandedCP_Pineapple_Custard_Crepe": 1
 					},
+					"RandomPriceEntries": 9,
 					"BundleReward": {
 						"(O)811": 1,
 						"(O)Book_Bombs": 1
@@ -7601,6 +8193,7 @@
 					"BundleSlots": 6,
                     "Price": {
 						"(O)766": 100,
+						"(O)Rafseazz.RSVCP_Spiritual_Essence": 50,
 						"(O)684": 50,
 						"(O)767": 30,
 						"(O)881": 20,

@@ -927,7 +927,6 @@
 						"(O)FlashShifter.StardewValleyExpandedCP_Blue_Tang": 1,
 						"(O)FlashShifter.StardewValleyExpandedCP_Clownfish": 1,
 						"(O)FlashShifter.StardewValleyExpandedCP_Ocean_Sunfish": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Radioactive_Bass": 1,
 						"(O)FlashShifter.StardewValleyExpandedCP_Sea_Sponge": 1,
 						"(O)FlashShifter.StardewValleyExpandedCP_Seahorse": 1,
 						"(O)FlashShifter.StardewValleyExpandedCP_Shark": 1
@@ -1166,7 +1165,7 @@
 					"BookId": "blue704.JojaCC_BulletinBoardBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 8,
+					"BundleSlots": 7,
                     "Price": {
 						"(O)CarrotSeeds": 3,
 						"(O)SummerSquashSeeds": 3,
@@ -1203,7 +1202,7 @@
 					"BookId": "blue704.JojaCC_BoilerRoomBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 8,
+					"BundleSlots": 6,
 					"Price": {
 						"(O)84": 1,
 						"(O)86": 1,
@@ -2450,7 +2449,6 @@
 						"(O)FlashShifter.StardewValleyExpandedCP_Blue_Tang": 1,
 						"(O)FlashShifter.StardewValleyExpandedCP_Clownfish": 1,
 						"(O)FlashShifter.StardewValleyExpandedCP_Ocean_Sunfish": 1,
-						"(O)FlashShifter.StardewValleyExpandedCP_Radioactive_Bass": 1,
 						"(O)FlashShifter.StardewValleyExpandedCP_Sea_Sponge": 1,
 						"(O)FlashShifter.StardewValleyExpandedCP_Seahorse": 1,
 						"(O)FlashShifter.StardewValleyExpandedCP_Shark": 1

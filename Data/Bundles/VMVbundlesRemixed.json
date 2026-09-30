@@ -1214,7 +1214,6 @@
 						"(O)Lumisteria.MtVapius_Morganite": 1,
 						"(O)Lumisteria.MtVapius_Heliodor": 1,
 						"(O)Lumisteria.MtVapius_Labradorite": 1
-
 					},
 					"BundleReward": {
 						"(BC)21": 1
@@ -2889,6 +2888,7 @@
 						"(BC)151": 1,
 						"(BC)239": 1
 					},
+					"RandomRewardEntries": 10,
 					"BundleReward": {
 						"(BC)MiniForge": 1
 					},
