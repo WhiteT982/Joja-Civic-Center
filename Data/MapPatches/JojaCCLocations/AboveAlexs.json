@@ -66,8 +66,8 @@
         "Id": "JojaCC",
         "Condition": "LOCATION_ACCESSIBLE JojaCC",
         "PixelArea": {
-          "X": 180,
-          "Y": 68,
+          "X": 179,
+          "Y": 66,
           "Width": 15,
           "Height": 15
         },
@@ -77,8 +77,8 @@
             "Id": "JojaCC",
             "Texture": "{{InternalAssetKey: assets/Maps/JojaCCworldmap.png}}",
             "MapPixelArea": {
-              "X": 186,
-              "Y": 72,
+              "X": 185,
+              "Y": 70,
               "Width": 11,
               "Height": 10
             },
@@ -114,8 +114,8 @@
                 "Height": 29 
               },
               "MapPixelArea": {
-                "X": 189,
-                "Y": 76,
+                "X": 188,
+                "Y": 74,
                 "Width": 5,
                 "Height": 5
               }
