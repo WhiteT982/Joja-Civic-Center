@@ -37,6 +37,18 @@
         }
       }
     },
+  //Quarry Entrance Patch
+  {
+      "Action": "EditMap",
+      "Target": "Maps/Mine",
+      "FromFile": "assets/Maps/z_DeepsExit.tmx",
+      "ToArea": {
+        "X": 71,
+        "Y": 11,
+        "Width": 3,
+        "Height": 3
+      }
+    },
     {
       "When": {
         "HasFlag": "JojaCC_BoilerRoomComplete"
@@ -436,6 +448,24 @@
                     "Remove": true
                 }
             ]
-        }
+        },
+ //Clints Cave 2 Messages
+    {
+            "Action": "EditMap",
+            "Target": "Maps/ClintsCave2",
+            "Update": "OnLocationChange",
+            "When": {
+              "HasFlag": "DwarfTranslationAcquired"
+            },
+            "MapTiles": [
+                {
+                    "Position": { "X": 32, "Y": 22 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message \"TranslatedDwarfText\""
+                    }
+                }
+            ]
+        },       
     ]
   }

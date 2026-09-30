@@ -650,6 +650,21 @@
         }
           }
           },
+           //Dwarf Translation Guide
+           {
+            "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
+        "Dwarf Translation Guide": {
+          "Id": "DwarfTranslationAcquired",
+          "Trigger": "LocationChanged",
+          "Condition": "PLAYER_HAS_MET current Dwarf",
+          "Actions": [
+            "AddMail current DwarfTranslationAcquired received"
+          ]
+        }
+          }
+           },
           {
            //Fish Farm Triggers
       "Action": "EditData",

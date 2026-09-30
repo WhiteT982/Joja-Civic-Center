@@ -227,6 +227,8 @@
         "JojaCCclosed": "{{i18n:blue704.JojaCC_JojaCCclosed}}",
         "JojaBooks1": "{{i18n:blue704.JojaCC_JojaCCBooks1}}",
         "JojaBooks2": "{{i18n:blue704.JojaCC_JojaCCBooks2}}",
+        "UntranslatedDwarfText": "{{i18n:blue704.JojaCC_UntranslatedDwarfText}}",
+        "TranslatedDwarfText": "{{i18n:blue704.JojaCC_TranslatedDwarfText}}",
         "EggHunt1_A": "{{i18n:blue704.JojaCC_EggHunt1_A}}",
         "EggHunt2_A": "{{i18n:blue704.JojaCC_EggHunt2_A}}",
         "EggHunt3_A": "{{i18n:blue704.JojaCC_EggHunt3_A}}",
