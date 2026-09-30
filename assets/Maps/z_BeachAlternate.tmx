@@ -1478,37 +1478,37 @@
   <object id="10" name="TileData" x="144" y="96" width="32" height="32">
    <properties>
     <property name="Diggable" value="F"/>
-    <property name="NoSpawn" value="All"/>
+    <property name="NoSpawn" type="bool" value="true"/>
    </properties>
   </object>
   <object id="11" name="TileData" x="176" y="96" width="112" height="32">
    <properties>
     <property name="Diggable" value="F"/>
-    <property name="NoSpawn" value="All"/>
+    <property name="NoSpawn" type="bool" value="true"/>
    </properties>
   </object>
   <object id="12" name="TileData" x="256" y="144" width="80" height="80">
    <properties>
     <property name="Diggable" value="F"/>
-    <property name="NoSpawn" value="All"/>
+    <property name="NoSpawn" type="bool" value="true"/>
    </properties>
   </object>
   <object id="15" name="TileData" x="368" y="144" width="80" height="80">
    <properties>
     <property name="Diggable" value="F"/>
-    <property name="NoSpawn" value="All"/>
+    <property name="NoSpawn" type="bool" value="true"/>
    </properties>
   </object>
   <object id="14" name="TileData" x="256" y="256" width="80" height="80">
    <properties>
     <property name="Diggable" value="F"/>
-    <property name="NoSpawn" value="All"/>
+    <property name="NoSpawn" type="bool" value="true"/>
    </properties>
   </object>
   <object id="13" name="TileData" x="144" y="256" width="80" height="80">
    <properties>
     <property name="Diggable" value="F"/>
-    <property name="NoSpawn" value="All"/>
+    <property name="NoSpawn" type="bool" value="true"/>
    </properties>
   </object>
  </objectgroup>
