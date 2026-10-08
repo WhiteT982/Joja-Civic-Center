@@ -3340,7 +3340,7 @@
 					"BookId": "blue704.JojaCC_BoilerRoomBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 6,
+					"BundleSlots": 5,
 					"Price": {
 						"(O)207": 1,
 						"(O)204": 1,
@@ -3600,7 +3600,7 @@
 					"BookId": "blue704.JojaCC_BoilerRoomBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 5,
+					"BundleSlots": 3,
                     "PriceSpawnFields": [
 			  {
 				//Random Chair
@@ -7607,7 +7607,7 @@
 					"BookId": "blue704.JojaCC_BoilerRoomBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 7,
+					"BundleSlots": 6,
 					"Price": {
 						"(O)207": 1,
 						"(O)204": 1,
@@ -7875,7 +7875,7 @@
 					"BookId": "blue704.JojaCC_BoilerRoomBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 6,
+					"BundleSlots": 4,
                     "PriceSpawnFields": [
 			  {
 				//Random Chair
