@@ -6488,7 +6488,7 @@
 					"BookId": "blue704.JojaCC_FisherBundleBook",
 					"ShopType": "CCBundle",
 					"DrawQuestionMark": false, 
-					"BundleSlots": 6,
+					"BundleSlots": 7,
 					"Price": {
 						"(O)798": 1,
 						"(O)132": 1,
