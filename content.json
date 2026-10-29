@@ -2,7 +2,7 @@
   "Format": "2.9.1",
   "ConfigSchema": {
     "Choose Your Bundle Base": {
-      "AllowValues": "Vanilla, SVE, RSV, East Scarp, VMV, SVE+RSV+ES, SVE+RSV+ES+VMV",
+      "AllowValues": "Vanilla, SVE, RSV, East Scarp, VMV, SVE+RSV+ES, SVE+ES+VMV, SVE+RSV+ES+VMV",
       "Default": "Vanilla",
       "Section": "Bundle Base"
     },
@@ -314,6 +314,33 @@
       "FromFile": "Data/Bundles/SVE_RSV_ES_VMVbundlesRandom.json",
       "When": {
         "Choose Your Bundle Base": "SVE+RSV+ES+VMV",
+        "Random Bundles": "true"
+      }
+    },
+    //SVE ES VMV Bundle Configs
+    {
+      "Action": "Include",
+      "FromFile": "Data/Bundles/SVE_ES_VMVbundles.json",
+      "When": {
+        "Choose Your Bundle Base": "SVE+ES+VMV",
+        "Remixed Bundles": "false",
+        "Random Bundles": "false"
+      }
+    },
+    {
+      "Action": "Include",
+      "FromFile": "Data/Bundles/SVE_ES_VMVbundlesRemixed.json",
+      "When": {
+        "Choose Your Bundle Base": "SVE+ES+VMV",
+        "Remixed Bundles": "true",
+        "Random Bundles": "false"
+      }
+    },
+    {
+      "Action": "Include",
+      "FromFile": "Data/Bundles/SVE_ES_VMVbundlesRandom.json",
+      "When": {
+        "Choose Your Bundle Base": "SVE+ES+VMV",
         "Random Bundles": "true"
       }
     },
